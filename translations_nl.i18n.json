@@ -1,4 +1,39 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "Toekomst Van Reizen",
+        "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
+      },
+      "page_two": {
+        "title": "Prachtige Bestemmingen",
+        "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
+      },
+      "page_three": {
+        "title": "Aangepast Aan Jou",
+        "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
+      },
+      "instagram": {
+        "title": "Instagram Verbinden",
+        "button": "Verbind Je Instagram",
+        "message": "Verbind je Instagram-account voor een gepersonaliseerde, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
+        "error": "Verificatie met Instagram mislukt"
+      }
+    },
+    "chat": {
+      "title": "Adeo Chat",
+      "messages": {
+        "location": {
+          "requestTitle": "Waar vertrek je vandaan?",
+          "requestSubtitle": "Voor de beste resultaten, sta locatie toegang toe",
+          "requestButton": "Sta je locatie toe"
+        },
+        "flight": {
+          "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
+        }
+      }
+    }
+  },
   "bucketlist": {
     "no_name": "Geen Naam",
     "bucketlist": "Bucketlist: $name",
@@ -318,6 +353,8 @@
   "anywhere": "Overal",
   "adultsWord": "Volwassenen",
   "apply": "Toepassen",
+  "around": "Rond",
+  "arrival": "Aankomst",
   "away": "Weg",
   "best": "Best",
   "bucketlists": "Bucketlists",
@@ -332,6 +369,7 @@
   "collaborators": "Medewerkers",
   "confirm": "Bevestigen",
   "contact_us": "Contacteer ons",
+  "continue_label": "Doorgaan",
   "creator": "Maker",
   "currency": "Valuta",
   "dates": "Data",
@@ -341,6 +379,7 @@
   "destination": "Bestemming",
   "direct": "Direct",
   "done": "Gedaan",
+  "duration": "Duur",
   "edit": "Bewerk",
   "explore": "Verkennen",
   "fastest": "Snelste",
@@ -361,6 +400,10 @@
   "location": "Locatie",
   "next": "Volgende",
   "nightWord": "Nacht",
+  "nights": {
+    "one": "nacht",
+    "other": "nachten"
+  },
   "opps": "Oeps!",
   "one_way": "Enkele reis",
   "pets": "Huisdieren",
@@ -378,14 +421,17 @@
   "save": "Opslaan",
   "see_all": "Zie alles",
   "see_more": "Zie meer",
+  "select": "Selecteer",
   "selected": "Geselecteerd",
   "settings": "Instellingen",
   "share": "Delen",
   "show_more": "Toon meer",
+  "show_more_flights": "Toon meer vluchten",
   "sign_up": "Aanmelden",
   "show_less": "Toon minder",
   "support": "Ondersteuning",
   "skip": "Overslaan",
+  "skip_for_now": "Sla voor nu over",
   "sort_by": "Sorteer op",
   "start": "Beginnen",
   "stops": "Stops",
@@ -395,15 +441,16 @@
   "unknown_error": "Onbekende fout",
   "unknown_name": "Onbekende naam",
   "update": "Update",
+  "user_cancelled": "Gebruiker geannuleerd",
+  "varTotal": "$n totaal",
+  "videos": "Video's",
+  "view": "Bekijken",
+  "view_details": "Details bekijken",
   "weekend": "Weekend",
   "week": "Week",
   "what": "Wat",
   "when": "Wanneer",
   "month": "Maand",
   "where_to": "Waarheen",
-  "where_from": "Waar vandaan",
-  "varTotal": "$n totaal",
-  "videos": "Video's",
-  "view": "Bekijken",
-  "view_details": "Details bekijken"
+  "where_from": "Waar vandaan"
 }

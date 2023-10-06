@@ -1,4 +1,39 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "Futuro das Viagens",
+        "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem."
+      },
+      "page_two": {
+        "title": "Belos Destinos",
+        "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem."
+      },
+      "page_three": {
+        "title": "Personalizado Para Você",
+        "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem."
+      },
+      "instagram": {
+        "title": "Conecte-se ao Instagram",
+        "button": "Conecte-se ao Seu Instagram",
+        "message": "Conecte sua conta do Instagram para uma experiência personalizada e otimizada. Sincronize sem esforço e desfrute de recomendações feitas exclusivamente para você!",
+        "error": "Falha ao autenticar com o Instagram"
+      }
+    },
+    "chat": {
+      "title": "Chat da Adeo",
+      "messages": {
+        "location": {
+          "requestTitle": "De onde você irá partir?",
+          "requestSubtitle": "Para melhores resultados, permita o acesso à localização",
+          "requestButton": "Permita sua localização"
+        },
+        "flight": {
+          "fromToAroundPrice": "Voos de $from para $to em torno de $price"
+        }
+      }
+    }
+  },
   "bucketlist": {
     "no_name": "Sem Nome",
     "bucketlist": "Lista de Desejos: $name",
@@ -68,6 +103,10 @@
     "count_destinations_for_you": "$count belos destinos para você",
     "sorted_and_procured": "Classificados e obtidos com base em suas preferências",
     "scroll_down_to_see_more": "Role para baixo para ver mais informações",
+    "no_results_found": "Nenhum Resultado Encontrado!",
+    "tap_to_filter": "Toque para filtrar",
+    "tap_to_bucketlist": "Toque para a lista de desejos",
+    "consider_broadening": "Oops! Não conseguimos encontrar nenhuma correspondência com base em suas preferências atuais. Considere ampliar sua busca ajustando suas preferências para um leque maior de opções.",
     "return_with_bullet": " $code volta"
   },
   "flights_feat": {
@@ -200,7 +239,171 @@
     "for_best_results": "Para melhores resultados, por favor, compartilhe sua localização",
     "allow_location_access": "Permitir acesso à localização"
   },
+  "profile": {
+    "spread_the_word": "Espalhe a palavra",
+    "invite_friends": "Convide Amigos",
+    "privacy_policy": "Política de Privacidade",
+    "imprint": "Sobre",
+    "privacy_and_sharing": "Privacidade e Compartilhamento",
+    "delete_profile": "Excluir perfil",
+    "delete_profile_message": "Você tem certeza de que deseja excluir sua conta?",
+    "dont_have_account": "Não possui uma conta?",
+    "log_in_to_start_planning": "Faça login para começar a planejar sua próxima viagem",
+    "logout": "Sair",
+    "edit_profile_name": "Editar nome do perfil",
+    "take_photo": "Tirar foto",
+    "choose_photo": "Escolher foto",
+    "set_profile_image": "Definir imagem do perfil",
+    "first_name": "Nome",
+    "last_name": "Sobrenome",
+    "edit_profile": "Editar perfil",
+    "member_since": "Membro desde $date",
+    "share_message": "Confira este aplicativo que tem os lugares mais incríveis do mundo: $link"
+  },
+  "splash": {
+    "discover_where_to": "Descubra para onde\nvoar a seguir."
+  },
+  "travel_setting": {
+    "what_do_you_want_in_your_trip": "O que você quer na sua viagem?",
+    "when_is_your_trip": "Quando é sua viagem?",
+    "go_var": "Vá $val",
+    "flexible_dates": "Datas flexíveis",
+    "exact_dates": "Datas exatas",
+    "select_origin": "Selecionar origem",
+    "add_details": "Adicionar Detalhes",
+    "your_preferences_will_appear_here": "Suas preferências aparecerão aqui"
+  },
+  "thing_todo": {
+    "things_to_do": "Coisas para fazer"
+  },
+  "video_category": [
+    "Todas",
+    "Aventura",
+    "Cultura",
+    "Praia",
+    "Cidade",
+    "Comida & Bebidas",
+    "Tesouros Escondidos",
+    "Luxo",
+    "Natureza",
+    "Relaxe",
+    "Romântico",
+    "Esportes",
+    "Categoria Principal"
+  ],
+  "weekdays_short": [
+    "S",
+    "T",
+    "Q",
+    "Q",
+    "S",
+    "S",
+    "D"
+  ],
+  "adults": {
+    "one": "$n adulto",
+    "other": "$n adultos"
+  },
+  "days": {
+    "one": "$n dia",
+    "other": "$n dias"
+  },
+  "children": {
+    "one": "$n criança",
+    "other": "$n crianças"
+  },
+  "guest": {
+    "one": "$n hóspede",
+    "other": "$n hóspedes"
+  },
+  "room": {
+    "one": "$n quarto",
+    "other": "$n quartos"
+  },
+  "person": {
+    "one": "$n pessoa",
+    "other": "$n pessoas"
+  },
+  "review": {
+    "zero": "Sem avaliações",
+    "one": "$n avaliação",
+    "other": "$n avaliações"
+  },
+  "rooms": {
+    "one": "$n quarto",
+    "other": "$ quartos"
+  },
+  "stop": {
+    "one": "$n parada",
+    "other": "$n paradas"
+  },
+  "stop_plus": {
+    "one": "$n parada",
+    "other": "$n+ paradas"
+  },
+  "traveller": {
+    "one": "$n viajante",
+    "other": "$n viajantes"
+  },
+  "age": {
+    "one": "$n ano",
+    "other": "$n anos"
+  },
+  "anything": "Qualquer coisa",
+  "anywhere": "Qualquer lugar",
+  "adultsWord": "Adultos",
+  "apply": "Aplicar",
+  "around": "Ao redor",
+  "arrival": "Chegada",
+  "away": "Fora",
+  "best": "Melhor",
+  "bucketlists": "Listas de desejos",
+  "cancel": "Cancelar",
+  "checkIn": "Check in",
+  "cheapest": "Mais barato",
+  "child": "Criança",
+  "childrenWord": "Crianças",
+  "classWord": "Classe",
+  "clear": "Limpar",
+  "clear_all": "Limpar tudo",
+  "collaborators": "Colaboradores",
+  "confirm": "Confirmar",
+  "contact_us": "Entre em contato",
+  "continue_label": "Continuar",
+  "creator": "Criador",
+  "currency": "Moeda",
+  "dates": "Datas",
+  "delete": "Deletar",
+  "departure": "Partida",
+  "description": "Descrição",
+  "destination": "Destino",
+  "direct": "Direto",
+  "done": "Feito",
+  "duration": "Duração",
+  "edit": "Editar",
+  "explore": "Explorar",
+  "fastest": "Mais rápido",
+  "feedback": "Feedback",
+  "filter_by": "Filtrar por",
+  "filters": "Filtros",
+  "flight": "Voo",
+  "flights": "Voos",
+  "from": "De",
+  "from_var": "De $name",
+  "hotelWord": "Hotel",
+  "infants": "Bebês",
+  "know_more_word": "Saber mais",
+  "languageWord": "Idioma",
+  "leave": "Sair",
+  "legal": "Legal",
+  "login": "Entrar",
+  "location": "Localização",
+  "next": "Próximo",
   "nightWord": "Noite",
+  "nights": {
+    "one": "noite",
+    "other": "noites"
+  },
   "opps": "Ops!",
   "one_way": "Só ida",
   "pets": "Animais de estimação",
@@ -218,14 +421,17 @@
   "save": "Salvar",
   "see_all": "Ver tudo",
   "see_more": "Ver mais",
+  "select": "Selecionar",
   "selected": "Selecionado",
   "settings": "Configurações",
   "share": "Compartilhar",
   "show_more": "Mostrar mais",
+  "show_more_flights": "Mostrar mais voos",
   "sign_up": "Inscrever-se",
   "show_less": "Mostrar menos",
   "support": "Suporte",
   "skip": "Pular",
+  "skip_for_now": "Pular por agora",
   "sort_by": "Ordenar por",
   "start": "Começar",
   "stops": "Paradas",
@@ -235,15 +441,16 @@
   "unknown_error": "Erro desconhecido",
   "unknown_name": "Nome desconhecido",
   "update": "Atualizar",
+  "user_cancelled": "Usuário cancelou",
+  "varTotal": "$n total",
+  "videos": "Vídeos",
+  "view": "Ver",
+  "view_details": "Ver detalhes",
   "weekend": "Fim de semana",
   "week": "Semana",
   "what": "O que",
   "when": "Quando",
   "month": "Mês",
   "where_to": "Para onde",
-  "where_from": "De onde",
-  "varTotal": "$n total",
-  "videos": "Vídeos",
-  "view": "Ver",
-  "view_details": "Ver detalhes"
+  "where_from": "De onde"
 }

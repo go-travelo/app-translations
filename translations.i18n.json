@@ -1,4 +1,51 @@
 {
+  "chatbot" : {
+    "onboarding" : {
+      "page_one" : {
+        "title" : "Discover Your Next\nDestination",
+        "subtitle" : "Let us show you the most beautiful destinations in the world and find the perfect place for your next trip"
+      },
+      "page_two" : {
+        "title" : "Learn Everything You\nNeed To Know",
+        "subtitle" : "How long is the flight? Is it good for couples? What's the cheapest accommodation? No question is too big or too small"
+      },
+      "page_three" : {
+        "title" : "Book Your Trip",
+        "subtitle" : "We take the hassle out of booking by finding th best priced and most convenient accommodations, flights and experiences to fit your needs"
+      },
+      "instagram" : {
+        "title" : "Connect Instagram",
+        "button" : "Connect Your Instagram",
+        "message" : "Connect your Instagram account for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+        "error" : "Failed to authenticate with Instagram"
+      },
+      "chatbot" : {
+        "inputHint" : "Ask me anything", 
+        "msg1" : "Hey 👋\n\nI'm Adeo, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
+        "msg2" : "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
+        "msg3" : "What are you interested in?",
+        "msg4" : "Where will you depart from?",
+        "msg5" : "Thank you! I have everything I need so far. Press next to help me recommend you the world's most beautiful destinations personalised to you!"
+      }
+    },
+    "chat" : {
+      "title" : "Adeo Chat",
+      "messages" : {
+        "location" : {
+          "requestTitle" : "Where will you depart from?",
+          "requestSubtitle" : "For best results, allow location access",
+          "requestButton" : "Allow your location"
+        },
+        "flight" : {
+          "fromToAroundPrice" : "Flights from $from to $to around $price"
+        },
+        "tileOptions" : {
+          "minOptions" : "Pick $min or more cards"
+        }
+      },
+      "messageHint" : "Ask me anything"
+    }
+  },  
   "bucketlist" : {
     "no_name" : "No Name",
     "bucketlist" : "Bucketlist: $name",
@@ -315,10 +362,13 @@
     "one" : "$n year old",
     "other" : "$n years old"
   },
+  "allow" : "Allow",
   "anything" : "Anything",
   "anywhere" : "Anywhere",
   "adultsWord" : "Adults",
   "apply" : "Apply",
+  "around": "Around",
+  "arrival": "Arrival",
   "away" : "Away",
   "best" : "Best",
   "bucketlists" : "Bucketlists",
@@ -333,6 +383,7 @@
   "collaborators" : "Collaborators",
   "confirm" : "Confirm",
   "contact_us" : "Contact Us",
+  "continue_label" : "Continue",
   "creator" : "Creator",
   "currency" : "Currency",
   "dates" : "Dates",
@@ -342,6 +393,7 @@
   "destination" : "Destination",
   "direct" : "Direct",
   "done" : "Done",
+  "duration" : "Duration",
   "edit" : "Edit",
   "explore" : "Explore",
   "fastest" : "Fastest",
@@ -362,6 +414,10 @@
   "location" : "Location",
   "next" : "Next",
   "nightWord" : "Night",
+  "nights" : {
+    "one" : "night",
+    "other" : "nights"
+  },
   "opps" : "Opps!",
   "one_way" : "One way",
   "pets" : "Pets",
@@ -379,32 +435,36 @@
   "save" : "Save",
   "see_all" : "See all",
   "see_more" : "See more",
+  "select" : "Select",
   "selected" : "Selected",
   "settings" : "Settings",
   "share" : "Share",
   "show_more" : "Show more",
+  "show_more_flights" : "Show more flights", 
   "sign_up" : "Sign up",
   "show_less" : "Show less",
   "support" : "Support",
   "skip" : "Skip",
+  "skip_for_now" : "Skip for now",
   "sort_by" : "Sort by",
   "start" : "Start",
   "stops" : "Stops",
-  "times" : "Times",
+  "times" : "Times",  
   "to" : "To",
   "travelers" : "Travelers",
   "unknown_error" : "Unknown error",
   "unknown_name" : "Unknown name",
   "update" : "Update",
+  "user_cancelled" : "User cancelled",
+  "varTotal" : "$n total",
+  "videos" : "Videos",
+  "view" : "View",
+  "view_details" : "View Details",
   "weekend" : "Weekend",
   "week" : "Week",
   "what" : "What",
   "when" : "When",
   "month" : "Month",
   "where_to" : "Where to",
-  "where_from" : "Where from",
-  "varTotal" : "$n total",
-  "videos" : "Videos",
-  "view" : "View",
-  "view_details" : "View Details"
+  "where_from" : "Where from"
 }

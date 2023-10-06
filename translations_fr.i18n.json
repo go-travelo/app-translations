@@ -1,4 +1,39 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "Futur Du Voyage",
+        "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage."
+      },
+      "page_two": {
+        "title": "Belles Destinations",
+        "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage."
+      },
+      "page_three": {
+        "title": "Personnalisé Pour Vous",
+        "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage."
+      },
+      "instagram": {
+        "title": "Connectez Instagram",
+        "button": "Connectez Votre Instagram",
+        "message": "Connectez votre compte Instagram pour une expérience personnalisée et optimisée. Synchronisez facilement et bénéficiez de recommandations adaptées rien que pour vous !",
+        "error": "Échec de l'authentification avec Instagram"
+      }
+    },
+    "chat": {
+      "title": "Adeo Chat",
+      "messages": {
+        "location": {
+          "requestTitle": "D'où partirez-vous ?",
+          "requestSubtitle": "Pour de meilleurs résultats, autorisez l'accès à la localisation.",
+          "requestButton": "Autorisez votre localisation"
+        },
+        "flight": {
+          "fromToAroundPrice": "Vols de $from à $to environ $price"
+        }
+      }
+    }
+  },
   "bucketlist": {
     "no_name": "Sans nom",
     "bucketlist": "Liste de favoris: $name",
@@ -318,6 +353,8 @@
   "anywhere": "N'importe où",
   "adultsWord": "Adultes",
   "apply": "Appliquer",
+  "around": "Autour",
+  "arrival": "Arrivée",
   "away": "Loin",
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
@@ -332,6 +369,7 @@
   "collaborators": "Collaborateurs",
   "confirm": "Confirmer",
   "contact_us": "Nous contacter",
+  "continue_label": "Continuer",
   "creator": "Créateur",
   "currency": "Devise",
   "dates": "Dates",
@@ -341,6 +379,7 @@
   "destination": "Destination",
   "direct": "Direct",
   "done": "Terminé",
+  "duration": "Durée",
   "edit": "Modifier",
   "explore": "Explorer",
   "fastest": "Le plus rapide",
@@ -361,6 +400,10 @@
   "location": "Emplacement",
   "next": "Suivant",
   "nightWord": "Nuit",
+  "nights": {
+    "one": "nuit",
+    "other": "nuits"
+  },
   "opps": "Oups!",
   "one_way": "Aller simple",
   "pets": "Animaux",
@@ -378,14 +421,17 @@
   "save": "Sauvegarder",
   "see_all": "Voir tout",
   "see_more": "Voir plus",
+  "select": "Sélectionner",
   "selected": "Sélectionné",
   "settings": "Paramètres",
   "share": "Partager",
   "show_more": "Montrer plus",
+  "show_more_flights": "Montrer plus de vols",
   "sign_up": "S'inscrire",
   "show_less": "Montrer moins",
   "support": "Support",
   "skip": "Passer",
+  "skip_for_now": "Passer pour l'instant",
   "sort_by": "Trier par",
   "start": "Commencer",
   "stops": "Arrêts",
@@ -395,15 +441,16 @@
   "unknown_error": "Erreur inconnue",
   "unknown_name": "Nom inconnu",
   "update": "Mettre à jour",
+  "user_cancelled": "Utilisateur a annulé",
+  "varTotal": "$n au total",
+  "videos": "Vidéos",
+  "view": "Vue",
+  "view_details": "Voir les détails",
   "weekend": "Weekend",
   "week": "Semaine",
   "what": "Quoi",
   "when": "Quand",
   "month": "Mois",
   "where_to": "Où",
-  "where_from": "D'où",
-  "varTotal": "$n au total",
-  "videos": "Vidéos",
-  "view": "Vue",
-  "view_details": "Voir les détails"
+  "where_from": "D'où"
 }

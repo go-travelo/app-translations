@@ -1,4 +1,39 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "旅行的未来",
+        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+      },
+      "page_two": {
+        "title": "美丽的目的地",
+        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+      },
+      "page_three": {
+        "title": "个性化为您服务",
+        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+      },
+      "instagram": {
+        "title": "连接Instagram",
+        "button": "连接你的Instagram",
+        "message": "连接你的Instagram账户，获得个性化的，优化的体验。轻松同步，并享受仅为您量身定制的推荐！",
+        "error": "无法通过Instagram验证"
+      }
+    },
+    "chat": {
+      "title": "Adeo聊天",
+      "messages": {
+        "location": {
+          "requestTitle": "你将从哪里出发？",
+          "requestSubtitle": "为了获得最佳结果，请允许获取位置信息",
+          "requestButton": "允许获取位置"
+        },
+        "flight": {
+          "fromToAroundPrice": "从$from到$to的航班大约$price"
+        }
+      }
+    }
+  },
   "bucketlist": {
     "no_name": "无名",
     "bucketlist": "心愿清单: $name",
@@ -318,6 +353,8 @@
   "anywhere": "任何地方",
   "adultsWord": "成人",
   "apply": "应用",
+  "around": "大约",
+  "arrival": "到达",
   "away": "别处",
   "best": "最佳",
   "bucketlists": "心愿清单",
@@ -332,6 +369,7 @@
   "collaborators": "合作者",
   "confirm": "确认",
   "contact_us": "联系我们",
+  "continue_label": "继续",
   "creator": "创建者",
   "currency": "货币",
   "dates": "日期",
@@ -341,6 +379,7 @@
   "destination": "目的地",
   "direct": "直飞",
   "done": "完成",
+  "duration": "持续时间",
   "edit": "编辑",
   "explore": "探索",
   "fastest": "最快",
@@ -361,6 +400,10 @@
   "location": "位置",
   "next": "下一个",
   "nightWord": "晚",
+  "nights": {
+    "one": "晚",
+    "other": "晚"
+  },
   "opps": "哎呀!",
   "one_way": "单程",
   "pets": "宠物",
@@ -378,14 +421,17 @@
   "save": "保存",
   "see_all": "查看全部",
   "see_more": "查看更多",
+  "select": "选择",
   "selected": "已选",
   "settings": "设置",
   "share": "分享",
   "show_more": "显示更多",
+  "show_more_flights": "显示更多航班",
   "sign_up": "注册",
   "show_less": "显示较少",
   "support": "支持",
   "skip": "跳过",
+  "skip_for_now": "现在跳过",
   "sort_by": "排序方式",
   "start": "开始",
   "stops": "停止",
@@ -395,15 +441,16 @@
   "unknown_error": "未知错误",
   "unknown_name": "未知姓名",
   "update": "更新",
+  "user_cancelled": "用户已取消",
+  "varTotal": "$n 总计",
+  "videos": "视频",
+  "view": "查看",
+  "view_details": "查看详情",
   "weekend": "周末",
   "week": "周",
   "what": "什么",
   "when": "何时",
   "month": "月",
   "where_to": "到哪里",
-  "where_from": "从哪里",
-  "varTotal": "$n 总计",
-  "videos": "视频",
-  "view": "查看",
-  "view_details": "查看详情"
+  "where_from": "从哪里"
 }

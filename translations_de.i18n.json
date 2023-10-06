@@ -1,4 +1,39 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "Zukunft des Reisens",
+        "subtitle": "Fügen Sie Ideen hinzu, holen Sie sich Feedback und sehen Sie, wie Ihre Reiseroute Form annimmt, während Sie Ihre Top-Auswahl für die Reise treffen."
+      },
+      "page_two": {
+        "title": "Wunderschöne Reiseziele",
+        "subtitle": "Fügen Sie Ideen hinzu, holen Sie sich Feedback und sehen Sie, wie Ihre Reiseroute Form annimmt, während Sie Ihre Top-Auswahl für die Reise treffen."
+      },
+      "page_three": {
+        "title": "Personalisiert für Sie",
+        "subtitle": "Fügen Sie Ideen hinzu, holen Sie sich Feedback und sehen Sie, wie Ihre Reiseroute Form annimmt, während Sie Ihre Top-Auswahl für die Reise treffen."
+      },
+      "instagram": {
+        "title": "Mit Instagram verbinden",
+        "button": "Verbinden Sie Ihr Instagram",
+        "message": "Verbinden Sie Ihr Instagram-Konto für ein personalisiertes, optimiertes Erlebnis. Synchronisieren Sie mühelos und genießen Sie Empfehlungen, die nur für Sie gemacht sind!",
+        "error": "Fehler bei der Authentifizierung mit Instagram"
+      }
+    },
+    "chat": {
+      "title": "Adeo Chat",
+      "messages": {
+        "location": {
+          "requestTitle": "Wo werden Sie abreisen?",
+          "requestSubtitle": "Für beste Ergebnisse, erlauben Sie den Zugriff auf den Standort",
+          "requestButton": "Erlaube deinen Standort"
+        },
+        "flight": {
+          "fromToAroundPrice": "Flüge von $from nach $to ungefähr $price"
+        }
+      }
+    }
+  },
   "bucketlist": {
     "no_name": "Kein Name",
     "bucketlist": "Bucketlist: $name",
@@ -318,6 +353,8 @@
   "anywhere": "Egal wo",
   "adultsWord": "Erwachsene",
   "apply": "Anwenden",
+  "around": "Ungefähr",
+  "arrival": "Ankunft",
   "away": "Weg",
   "best": "Beste",
   "bucketlists": "Eimerlisten",
@@ -332,6 +369,7 @@
   "collaborators": "Mitarbeiter",
   "confirm": "Bestätigen",
   "contact_us": "Kontaktiere uns",
+  "continue_label": "Fortsetzen",
   "creator": "Ersteller",
   "currency": "Währung",
   "dates": "Daten",
@@ -341,6 +379,7 @@
   "destination": "Ziel",
   "direct": "Direkt",
   "done": "Erledigt",
+  "duration": "Dauer",
   "edit": "Bearbeiten",
   "explore": "Erkunden",
   "fastest": "Schnellste",
@@ -361,6 +400,10 @@
   "location": "Ort",
   "next": "Nächste",
   "nightWord": "Nacht",
+  "nights": {
+    "one": "Nacht",
+    "other": "Nächte"
+  },
   "opps": "Oops!",
   "one_way": "Einfache Strecke",
   "pets": "Haustiere",
@@ -378,14 +421,17 @@
   "save": "Speichern",
   "see_all": "Alle anzeigen",
   "see_more": "Mehr anzeigen",
+  "select": "Auswählen",
   "selected": "Ausgewählt",
   "settings": "Einstellungen",
   "share": "Teilen",
   "show_more": "Mehr anzeigen",
+  "show_more_flights": "Zeige mehr Flüge",
   "sign_up": "Anmelden",
   "show_less": "Weniger anzeigen",
   "support": "Unterstützung",
   "skip": "Überspringen",
+  "skip_for_now": "Jetzt überspringen",
   "sort_by": "Sortieren nach",
   "start": "Start",
   "stops": "Stops",
@@ -395,15 +441,16 @@
   "unknown_error": "Unbekannter Fehler",
   "unknown_name": "Unbekannter Name",
   "update": "Aktualisieren",
+  "user_cancelled": "Benutzer abgebrochen",
+  "varTotal": "$n insgesamt",
+  "videos": "Videos",
+  "view": "Ansicht",
+  "view_details": "Details anzeigen",
   "weekend": "Wochenende",
   "week": "Woche",
   "what": "Was",
   "when": "Wann",
   "month": "Monat",
   "where_to": "Wohin",
-  "where_from": "Woher",
-  "varTotal": "$n insgesamt",
-  "videos": "Videos",
-  "view": "Ansicht",
-  "view_details": "Details anzeigen"
+  "where_from": "Woher"
 }
