@@ -48,6 +48,7 @@
   },  
   "bucketlist" : {
     "no_name" : "No Name",
+    "test": "Test",
     "bucketlist" : "Bucketlist: $name",
     "bucketlist_saved" : "Bucketlist saved successfully",
     "login_to_view" : "Log in to view your bucketlist",
