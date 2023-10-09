@@ -48,7 +48,6 @@
   },  
   "bucketlist" : {
     "no_name" : "No Name",
-    "test": "Test",
     "bucketlist" : "Bucketlist: $name",
     "bucketlist_saved" : "Bucketlist saved successfully",
     "login_to_view" : "Log in to view your bucketlist",
@@ -79,8 +78,19 @@
     },
     "flying_from" : "Flying from"
   },
+  "places": {
+    "europe": "Europe",
+    "africa": "Africa",
+    "asia": "Asia",
+    "oceania": "Oceania",
+    "north_america": "North America",
+    "south_america": "South America",
+    "anywhere": "Anywhere",
+    "current_location": "Current location"
+  },
   "explore_feat" : {
     "add_destination" : "Add destination",
+    "add_dates" : "Add dates",
     "check_out_this_place" : "I know where we should go next together. Check out this place I found on Adeo",
     "book_flights" : "Book flights",
     "land_in" : "Land in $destination",
