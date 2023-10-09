@@ -3,3 +3,6 @@
 *.ipr
 *.iws
 .idea/
+
+# auto generated
+_gpt*
