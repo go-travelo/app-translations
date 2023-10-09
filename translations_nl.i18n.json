@@ -18,6 +18,14 @@
         "button": "Verbind Je Instagram",
         "message": "Verbind je Instagram-account voor een gepersonaliseerde, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
         "error": "Verificatie met Instagram mislukt"
+      },
+      "chatbot": {
+        "inputHint": "Vraag me iets",
+        "msg1": "Hoi 👋\n\nIk ben Adeo, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+        "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
+        "msg3": "Waar ben je in geïnteresseerd?",
+        "msg4": "Waar vertrek je vandaan?",
+        "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
       }
     },
     "chat": {
@@ -30,8 +38,12 @@
         },
         "flight": {
           "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
+        },
+        "tileOptions": {
+          "minOptions": "Kies $min of meer kaarten"
         }
-      }
+      },
+      "messageHint": "Vraag me iets"
     }
   },
   "bucketlist": {
@@ -56,6 +68,7 @@
     "delete_user_from_bucketlist": "Gebruiker verwijderen uit bucketlist?",
     "delete_user_from_bucketlist_message": "Weet je zeker dat je $username van deze bucketlist wilt verwijderen?",
     "bucketlist_will_be_removed": "$name zal uit je bucketlists worden verwijderd.",
+    "travel_dates": "Reisdata",
     "destinations": {
       "one": "$n Bestemming",
       "other": "$n Bestemmingen"
@@ -66,8 +79,19 @@
     },
     "flying_from": "Vertrekken vanuit"
   },
+  "places": {
+    "europe": "Europa",
+    "africa": "Afrika",
+    "asia": "Azië",
+    "oceania": "Oceanië",
+    "north_america": "Noord-Amerika",
+    "south_america": "Zuid-Amerika",
+    "anywhere": "Overal",
+    "current_location": "Huidige locatie"
+  },
   "explore_feat": {
     "add_destination": "Bestemming toevoegen",
+    "add_dates": "Data toevoegen",
     "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Adeo",
     "book_flights": "Boek vluchten",
     "land_in": "Land in $destination",
@@ -77,9 +101,11 @@
     "traveling_from": "Reizen vanuit",
     "distance_from_origin": "${distance}km van $origin",
     "how_to_get_there": "Hoe je er komt",
+    "how_to_get_to": "Hoe je naar $destination komt",
     "ask_anything": "Vraag alles...",
     "things_to_do": "Dingen om te doen",
     "around_destination": "rond $destination",
+    "select_a_flight": "Selecteer een vlucht",
     "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming"
   },
   "feed": {
@@ -168,6 +194,35 @@
     "one_way": "Enkele reis"
   },
   "hotel": {
+    "sort_filters": {
+      "most_popular": "Meest populair",
+      "best_rated": "Best beoordeeld",
+      "worst_rated": "Slechtst beoordeeld",
+      "best_reviewed": "Best beoordeeld",
+      "worst_reviewed": "Slechtst beoordeeld",
+      "star_rating_highest_first": "Sterbeoordeling (hoogste eerst)",
+      "star_rating_lowest_first": "Sterbeoordeling (laagste eerst)",
+      "price_highest_first": "Prijs (hoogste eerst)",
+      "price_lowest_first": "Prijs (laagste eerst)"
+    },
+    "filters": {
+      "budget": "Uw budget (voor 1 nacht)",
+      "travel_sustainable": "Duurzaam reizen",
+      "star_rating": "Sterbeoordeling",
+      "property_type": "Soort accommodatie",
+      "facilities": "Faciliteiten",
+      "free_cancellation": "Gratis annuleren",
+      "chain": "Keten",
+      "review_score": "Beoordelingsscore",
+      "room_facilities": "Kamervoorzieningen"
+    },
+    "filters_category": {
+      "five": "Eerlijk 5+",
+      "six": "Prettig: 6+",
+      "seven": "Goed: 7+",
+      "eight": "Erg goed: 8+",
+      "nine": "Wonderbaarlijk: 9+"
+    },
     "cancellation_policy": "Annuleringsbeleid",
     "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
     "property_views": "Eigendomweergaven",
@@ -227,6 +282,7 @@
     "ask_something_more": "Stel nog een vraag...",
     "generating_answer": "Genereren van antwoord...",
     "answer_generated": "Antwoord gegenereerd!",
+    "is_it_safe_for": "Is het veilig voor reizigers?",
     "question1": "Wat is de beste tijd om daar naartoe te gaan?",
     "question2": "Hoe is het weer?",
     "question3": "Wat zijn de bezienswaardigheden?",
@@ -349,6 +405,7 @@
     "one": "$n jaar oud",
     "other": "$n jaar oud"
   },
+  "allow": "Toestaan",
   "anything": "Alles",
   "anywhere": "Overal",
   "adultsWord": "Volwassenen",
@@ -404,6 +461,10 @@
     "one": "nacht",
     "other": "nachten"
   },
+  "nightsWithNum": {
+    "one": "$n nacht",
+    "other": "$n nachten"
+  },
   "opps": "Oeps!",
   "one_way": "Enkele reis",
   "pets": "Huisdieren",
@@ -433,6 +494,10 @@
   "skip": "Overslaan",
   "skip_for_now": "Sla voor nu over",
   "sort_by": "Sorteer op",
+  "stars": {
+    "one": "$n ster",
+    "other": "$n sterren"
+  },
   "start": "Beginnen",
   "stops": "Stops",
   "times": "Tijden",

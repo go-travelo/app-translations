@@ -20,7 +20,7 @@
         "error" : "Failed to authenticate with Instagram"
       },
       "chatbot" : {
-        "inputHint" : "Ask me anything", 
+        "inputHint" : "Ask me anything",
         "msg1" : "Hey 👋\n\nI'm Adeo, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
         "msg2" : "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
         "msg3" : "What are you interested in?",
@@ -45,7 +45,7 @@
       },
       "messageHint" : "Ask me anything"
     }
-  },  
+  },
   "bucketlist" : {
     "no_name" : "No Name",
     "bucketlist" : "Bucketlist: $name",
@@ -68,6 +68,7 @@
     "delete_user_from_bucketlist" : "Delete user from bucketlist?",
     "delete_user_from_bucketlist_message" : "Are you sure you want to delete $username from this bucket list?",
     "bucketlist_will_be_removed" : "$name will be removed from your bucketlists.",
+    "travel_dates" : "Travel Dates",
     "destinations" : {
       "one" : "$n Destination",
       "other" : "$n Destinations"
@@ -78,15 +79,15 @@
     },
     "flying_from" : "Flying from"
   },
-  "places": {
-    "europe": "Europe",
-    "africa": "Africa",
-    "asia": "Asia",
-    "oceania": "Oceania",
-    "north_america": "North America",
-    "south_america": "South America",
-    "anywhere": "Anywhere",
-    "current_location": "Current location"
+  "places" : {
+    "europe" : "Europe",
+    "africa" : "Africa",
+    "asia" : "Asia",
+    "oceania" : "Oceania",
+    "north_america" : "North America",
+    "south_america" : "South America",
+    "anywhere" : "Anywhere",
+    "current_location" : "Current location"
   },
   "explore_feat" : {
     "add_destination" : "Add destination",
@@ -100,6 +101,7 @@
     "traveling_from" : "Traveling from",
     "distance_from_origin" : "${distance}km from $origin",
     "how_to_get_there" : "How to get there",
+    "how_to_get_to" : "How to get to $destination",
     "ask_anything" : "Ask anything...",
     "things_to_do" : "Things to do",
     "around_destination" : "around $destination",
@@ -192,6 +194,35 @@
     "one_way" : "One way"
   },
   "hotel" : {
+    "sort_filters" : {
+      "most_popular" : "Most popular",
+      "best_rated" : "Best rated",
+      "worst_rated" : "Worst rated",
+      "best_reviewed" : "Best reviewed",
+      "worst_reviewed" : "Worst reviewed",
+      "star_rating_highest_first" : "Star Rating (highest first)",
+      "star_rating_lowest_first" : "Star Rating (lowest first)",
+      "price_highest_first" : "Price (highest first)",
+      "price_lowest_first" : "Price (lowest first)"
+    },
+    "filters": {
+      "budget" : "Your budget (for 1 night)",
+      "travel_sustainable" : "Travel sustainable properties",
+      "star_rating" : "Star rating",
+      "property_type" : "Property type",
+      "facilities" : "Facilities",
+      "free_cancellation" : "Free cancellation",
+      "chain" : "Chain",
+      "review_score" : "Review score",
+      "room_facilities" : "Room facilities"
+    },
+    "filters_category": {
+      "five": "Fair 5+",
+      "six": "Pleasant: 6+",
+      "seven": "Good: 7+",
+      "eight": "Very Good: 8+",
+      "nine": "Wonderful: 9+"
+    },
     "cancellation_policy" : "Cancellation policy",
     "before_you_book" : "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
     "property_views" : "Property views",
@@ -251,6 +282,7 @@
     "ask_something_more" : "Ask something more...",
     "generating_answer" : "Generating answer...",
     "answer_generated" : "Answer generated!",
+    "is_it_safe_for" : "Is it safe for traveller?",
     "question1" : "What is the best time to go there?",
     "question2" : "How is the weather?",
     "question3" : "What are the attractions here?",
@@ -378,8 +410,8 @@
   "anywhere" : "Anywhere",
   "adultsWord" : "Adults",
   "apply" : "Apply",
-  "around": "Around",
-  "arrival": "Arrival",
+  "around" : "Around",
+  "arrival" : "Arrival",
   "away" : "Away",
   "best" : "Best",
   "bucketlists" : "Bucketlists",
@@ -429,6 +461,10 @@
     "one" : "night",
     "other" : "nights"
   },
+  "nightsWithNum" : {
+    "one" : "$n night",
+    "other" : "$n nights"
+  },
   "opps" : "Opps!",
   "one_way" : "One way",
   "pets" : "Pets",
@@ -451,16 +487,20 @@
   "settings" : "Settings",
   "share" : "Share",
   "show_more" : "Show more",
-  "show_more_flights" : "Show more flights", 
+  "show_more_flights" : "Show more flights",
   "sign_up" : "Sign up",
   "show_less" : "Show less",
   "support" : "Support",
   "skip" : "Skip",
   "skip_for_now" : "Skip for now",
   "sort_by" : "Sort by",
+  "stars" : {
+    "one" : "$n star",
+    "other" : "$n stars"
+  },
   "start" : "Start",
   "stops" : "Stops",
-  "times" : "Times",  
+  "times" : "Times",
   "to" : "To",
   "travelers" : "Travelers",
   "unknown_error" : "Unknown error",

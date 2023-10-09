@@ -1,4 +1,51 @@
 {
+  "chatbot": {
+    "onboarding": {
+      "page_one": {
+        "title": "גלה את היעד הבא שלך\n",
+        "subtitle": "אנו נראה לך את היעדים היפים ביותר בעולם ונמצא את המקום המושלם לטיול הבא שלך"
+      },
+      "page_two": {
+        "title": "למד את כל מה\nשאתה זקוק לדעת",
+        "subtitle": "כמה זמן ממשך הטיסה? האם זה מתאים לזוגות? מה השכירות הזולה ביותר? אין שאלה גדולה או קטנה מדי"
+      },
+      "page_three": {
+        "title": "הזמן את הטיול שלך",
+        "subtitle": "אנו מקלים על ההזמנה על ידי מציאת האירוח, הטיסות והחוויות המוזלות והנוחות ביותר שיתאימו לצרכים שלך"
+      },
+      "instagram": {
+        "title": "חיבור Instagram",
+        "button": "חבר את האינסטגרם שלך",
+        "message": "חבר את חשבון האינסטגרם שלך לחוויה אישית ומותאמת אישית. סנכרן ללא מאמץ ותיהנה מהמלצות מותאמות אישית רק בשבילך!",
+        "error": "נכשל באימות עם Instagram"
+      },
+      "chatbot": {
+        "inputHint": "שאל אותי כל דבר",
+        "msg1": "היי 👋\n\nאני Adeo, היועץ לנסיעות שלך.\n\n לפני שנתחיל, כמה אני אשמח לדעת מה הסוג המועדף עליך של מטייל.\n\n ספר לי איזה סוג של טיול אתה מחפש בעזרת כתיבה או דיבור.",
+        "msg2": "נהדר! אני חושב שאני מבין מה אתה מחפש. \n\nהאם יש לך דרישות נוספות?",
+        "msg3": "מה מעניין אותך?",
+        "msg4": "מאיפה אתה יוצא?",
+        "msg5": "תודה! יש לי את כל מה שאני זקוק לו עד כה. לחץ על הבא כדי לעזור לי להמליץ לך על היעדים היפים בעולם, מותאמים אישית רק בשבילך!"
+      }
+    },
+    "chat": {
+      "title": "צ'אט Adeo",
+      "messages": {
+        "location": {
+          "requestTitle": "מאיפה אתה יוצא?",
+          "requestSubtitle": "עבור תוצאות הכי טובות, תן גישה למיקום שלך",
+          "requestButton": "אפשר את המיקום שלך"
+        },
+        "flight": {
+          "fromToAroundPrice": "טיסות מ $from אל $to בערך $price"
+        },
+        "tileOptions": {
+          "minOptions": "בחר $min כרטיסים או יותר"
+        }
+      },
+      "messageHint": "שאל אותי כל דבר"
+    }
+  },
   "feed": {
     "how_do_you_like_the_app": "איך אתה אוהב את האפליקציה?",
     "direct_flights": "טיסות ישירות",
@@ -85,6 +132,35 @@
     "one_way": "דרך אחת"
   },
   "hotel": {
+    "sort_filters": {
+      "most_popular": "הכי פופולרי",
+      "best_rated": "הכי מדורג",
+      "worst_rated": "הכי פחות מדורג",
+      "best_reviewed": "הכי מומלץ",
+      "worst_reviewed": "הכי פחות מומלץ",
+      "star_rating_highest_first": "דירוג כוכבים (הגבוה ביותר קודם)",
+      "star_rating_lowest_first": "דירוג כוכבים (הנמוך ביותר קודם)",
+      "price_highest_first": "מחיר (הגבוה ביותר קודם)",
+      "price_lowest_first": "מחיר (הנמוך ביותר קודם)"
+    },
+    "filters": {
+      "budget": "התקציב שלך (ללילה אחד)",
+      "travel_sustainable": "מקומות לינה מתחמים",
+      "star_rating": "דירוג כוכבים",
+      "property_type": "סוג המקרקעי",
+      "facilities": "שירותים",
+      "free_cancellation": "ביטול חינם",
+      "chain": "שרשרת",
+      "review_score": "דירוג חוות דעת",
+      "room_facilities": "שירותי החדר"
+    },
+    "filters_category": {
+      "five": "סביר: 5+",
+      "six": "נעים: 6+",
+      "seven": "טוב: 7+",
+      "eight": "טוב מאוד: 8+",
+      "nine": "נפלא: 9+"
+    },
     "cancellation_policy": "מדיניות ביטול",
     "before_you_book": "לפני שאתה מזמין, ודא שאתה מרגיש בנוח עם מדיניות הביטול של המארח. שים לב שמדיניות מקרים מיוחדים של Airbnb אינה כוללת ביטולים בשל מחלה או השבתת טיסות שנגרמה על ידי COVID-19.",
     "property_views": "תצאוגת הנכס",
@@ -144,6 +220,7 @@
     "ask_something_more": "שאל משהו נוסף...",
     "generating_answer": "מייצר תשובה...",
     "answer_generated": "התשובה מוכנה!",
+    "is_it_safe_for": "האם זה בטוח למטייל?",
     "question1": "מתי הזמן הטוב ביותר ללכת לשם?",
     "question2": "איך המזג אוויר?",
     "question3": "אילו אטרקציות יש כאן?",
@@ -266,10 +343,13 @@
     "one": "$n שנה",
     "other": "$n שנים"
   },
+  "allow": "התר",
   "anything": "הכול",
   "anywhere": "בכל מקום",
   "adultsWord": "מבוגרים",
   "apply": "החל",
+  "around": "סביב",
+  "arrival": "הגעה",
   "away": "רחוק",
   "best": "הכי טוב",
   "bucketlists": "רשימות דלו",
@@ -284,6 +364,7 @@
   "collaborators": "שותפים",
   "confirm": "אישור",
   "contact_us": "צור קשר",
+  "continue_label": "המשך",
   "creator": "יוצר",
   "currency": "מטבע",
   "dates": "תאריכים",
@@ -318,6 +399,10 @@
     "one": "לילה",
     "other": "לילות"
   },
+  "nightsWithNum": {
+    "one": "$n לילה",
+    "other": "$n לילות"
+  },
   "opps": "אופס!",
   "one_way": "כיוון אחד",
   "pets": "חיות מחמד",
@@ -347,6 +432,10 @@
   "skip": "דלג",
   "skip_for_now": "דלג לעכשיו",
   "sort_by": "מיין לפי",
+  "stars": {
+    "one": "$n כוכב",
+    "other": "$n כוכבים"
+  },
   "start": "התחל",
   "stops": "עצירות",
   "times": "זמנים",

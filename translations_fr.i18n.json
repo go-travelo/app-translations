@@ -18,6 +18,14 @@
         "button": "Connectez Votre Instagram",
         "message": "Connectez votre compte Instagram pour une expérience personnalisée et optimisée. Synchronisez facilement et bénéficiez de recommandations adaptées rien que pour vous !",
         "error": "Échec de l'authentification avec Instagram"
+      },
+      "chatbot": {
+        "inputHint": "Demandez-moi n'importe quoi",
+        "msg1": "Salut 👋\n\nJe suis Adeo, votre conseiller de voyage.\n\nAvant de commencer, j'aimerais savoir quel type de voyageur vous êtes. 🌍\n\nDites-moi quel type de voyage vous recherchez en écrivant ou en parlant.",
+        "msg2": "Incroyable! Je pense comprendre ce que vous recherchez.\n\nAvez-vous d'autres exigences?",
+        "msg3": "Qu'est-ce qui vous intéresse?",
+        "msg4": "D'où partirez-vous?",
+        "msg5": "Merci! J'ai tout ce dont j'ai besoin pour l'instant. Appuyez sur suivant pour que je vous recommande les destinations les plus belles du monde, personnalisées pour vous!"
       }
     },
     "chat": {
@@ -30,8 +38,12 @@
         },
         "flight": {
           "fromToAroundPrice": "Vols de $from à $to environ $price"
+        },
+        "tileOptions": {
+          "minOptions": "Choisissez $min cartes ou plus"
         }
-      }
+      },
+      "messageHint": "Demandez-moi n'importe quoi"
     }
   },
   "bucketlist": {
@@ -56,6 +68,7 @@
     "delete_user_from_bucketlist": "Supprimer l'utilisateur de la liste de favoris?",
     "delete_user_from_bucketlist_message": "Êtes-vous sûr de vouloir supprimer $username de cette liste de favoris?",
     "bucketlist_will_be_removed": "$name sera supprimé de vos listes de favoris.",
+    "travel_dates": "Dates de voyage",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
@@ -66,8 +79,19 @@
     },
     "flying_from": "Départ de"
   },
+  "places": {
+    "europe": "Europe",
+    "africa": "Afrique",
+    "asia": "Asie",
+    "oceania": "Océanie",
+    "north_america": "Amérique du Nord",
+    "south_america": "Amérique du Sud",
+    "anywhere": "N'importe où",
+    "current_location": "Position actuelle"
+  },
   "explore_feat": {
     "add_destination": "Ajouter une destination",
+    "add_dates": "Ajouter des dates",
     "check_out_this_place": "Je sais où nous devrions aller ensemble. Regardez ce lieu que j'ai trouvé sur Adeo",
     "book_flights": "Réserver des vols",
     "land_in": "Atterrissez à $destination",
@@ -77,9 +101,11 @@
     "traveling_from": "Voyage depuis",
     "distance_from_origin": "à ${distance}km de $origin",
     "how_to_get_there": "Comment s'y rendre",
+    "how_to_get_to": "Comment se rendre à $destination",
     "ask_anything": "Posez une question...",
     "things_to_do": "Choses à faire",
     "around_destination": "autour de $destination",
+    "select_a_flight": "Sélectionner un vol",
     "no_videos": "Désolé, nous n'avons pas de vidéos\npour cette destination"
   },
   "feed": {
@@ -168,6 +194,35 @@
     "one_way": "Aller simple"
   },
   "hotel": {
+    "sort_filters": {
+      "most_popular": "Le plus populaire",
+      "best_rated": "Mieux noté",
+      "worst_rated": "Le pire noté",
+      "best_reviewed": "Le mieux commenté",
+      "worst_reviewed": "Le pire commenté",
+      "star_rating_highest_first": "Classement étoiles (le plus haut en premier)",
+      "star_rating_lowest_first": "Classement étoiles (le plus bas en premier)",
+      "price_highest_first": "Prix (le plus élevé en premier)",
+      "price_lowest_first": "Prix (le plus bas en premier)"
+    },
+    "filters": {
+      "budget": "Votre budget (pour 1 nuit)",
+      "travel_sustainable": "Propriétés durables",
+      "star_rating": "Classement étoiles",
+      "property_type": "Type de propriété",
+      "facilities": "Installations",
+      "free_cancellation": "Annulation gratuite",
+      "chain": "Chaîne",
+      "review_score": "Score de l'avis",
+      "room_facilities": "Installations de la chambre"
+    },
+    "filters_category": {
+      "five": "Juste 5+",
+      "six": "Agréable: 6+",
+      "seven": "Bon: 7+",
+      "eight": "Très bon: 8+",
+      "nine": "Merveilleux: 9+"
+    },
     "cancellation_policy": "Politique d'annulation",
     "before_you_book": "Avant de réserver, assurez-vous d'être à l'aise avec la politique d'annulation de cet hôte. Notez que la politique de circonstances atténuantes d'Airbnb ne couvre pas les annulations dues à des maladies ou à des perturbations de voyage causées par le COVID-19.",
     "property_views": "Vues de la propriété",
@@ -227,6 +282,7 @@
     "ask_something_more": "Demandez quelque chose de plus...",
     "generating_answer": "Génération de la réponse...",
     "answer_generated": "Réponse générée!",
+    "is_it_safe_for": "Est-ce sûr pour le voyageur?",
     "question1": "Quel est le meilleur moment pour y aller ?",
     "question2": "Comment est le temps ?",
     "question3": "Quelles sont les attractions ici ?",
@@ -349,6 +405,7 @@
     "one": "$n an",
     "other": "$n ans"
   },
+  "allow": "Permettre",
   "anything": "N'importe quoi",
   "anywhere": "N'importe où",
   "adultsWord": "Adultes",
@@ -404,6 +461,10 @@
     "one": "nuit",
     "other": "nuits"
   },
+  "nightsWithNum": {
+    "one": "$n nuit",
+    "other": "$n nuits"
+  },
   "opps": "Oups!",
   "one_way": "Aller simple",
   "pets": "Animaux",
@@ -433,6 +494,10 @@
   "skip": "Passer",
   "skip_for_now": "Passer pour l'instant",
   "sort_by": "Trier par",
+  "stars": {
+    "one": "$n étoile",
+    "other": "$n étoiles"
+  },
   "start": "Commencer",
   "stops": "Arrêts",
   "times": "Fois",

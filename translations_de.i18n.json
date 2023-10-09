@@ -18,6 +18,14 @@
         "button": "Verbinden Sie Ihr Instagram",
         "message": "Verbinden Sie Ihr Instagram-Konto für ein personalisiertes, optimiertes Erlebnis. Synchronisieren Sie mühelos und genießen Sie Empfehlungen, die nur für Sie gemacht sind!",
         "error": "Fehler bei der Authentifizierung mit Instagram"
+      },
+      "chatbot": {
+        "inputHint": "Frag mich irgendetwas",
+        "msg1": "Hallo 👋\n\nIch bin Adeo, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welche Art von Reisendem du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
+        "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
+        "msg3": "Was interessiert dich?",
+        "msg4": "Wo wirst du starten?",
+        "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!"
       }
     },
     "chat": {
@@ -30,8 +38,12 @@
         },
         "flight": {
           "fromToAroundPrice": "Flüge von $from nach $to ungefähr $price"
+        },
+        "tileOptions": {
+          "minOptions": "Wähle $min oder mehr Karten"
         }
-      }
+      },
+      "messageHint": "Frag mich irgendetwas"
     }
   },
   "bucketlist": {
@@ -56,6 +68,7 @@
     "delete_user_from_bucketlist": "Benutzer aus Bucketlist entfernen?",
     "delete_user_from_bucketlist_message": "Sind Sie sicher, dass Sie $username aus dieser Bucketlist entfernen möchten?",
     "bucketlist_will_be_removed": "$name wird aus Ihren Bucketlisten entfernt.",
+    "travel_dates": "Reisedaten",
     "destinations": {
       "one": "$n Reiseziel",
       "other": "$n Reiseziele"
@@ -66,8 +79,19 @@
     },
     "flying_from": "Abflug von"
   },
+  "places": {
+    "europe": "Europa",
+    "africa": "Afrika",
+    "asia": "Asien",
+    "oceania": "Ozeanien",
+    "north_america": "Nordamerika",
+    "south_america": "Südamerika",
+    "anywhere": "Überall",
+    "current_location": "Aktueller Standort"
+  },
   "explore_feat": {
     "add_destination": "Reiseziel hinzufügen",
+    "add_dates": "Daten hinzufügen",
     "check_out_this_place": "Ich weiß, wohin wir als nächstes zusammen gehen sollten. Schau dir diesen Ort an, den ich auf Adeo gefunden habe",
     "book_flights": "Flüge buchen",
     "land_in": "Landen in $destination",
@@ -77,9 +101,11 @@
     "traveling_from": "Reisen von",
     "distance_from_origin": "${distance}km von $origin",
     "how_to_get_there": "So kommen Sie dort hin",
+    "how_to_get_to": "Wie komme ich nach $destination",
     "ask_anything": "Fragen Sie was...",
     "things_to_do": "Dinge zu tun",
     "around_destination": "in der Nähe von $destination",
+    "select_a_flight": "Flug auswählen",
     "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel"
   },
   "feed": {
@@ -168,6 +194,35 @@
     "one_way": "Einfacher Flug"
   },
   "hotel": {
+    "sort_filters": {
+      "most_popular": "Am beliebtesten",
+      "best_rated": "Am besten bewertet",
+      "worst_rated": "Am schlechtesten bewertet",
+      "best_reviewed": "Am besten bewertet",
+      "worst_reviewed": "Am schlechtesten bewertet",
+      "star_rating_highest_first": "Sternebewertung (höchste zuerst)",
+      "star_rating_lowest_first": "Sternebewertung (niedrigste zuerst)",
+      "price_highest_first": "Preis (höchster zuerst)",
+      "price_lowest_first": "Preis (niedrigster zuerst)"
+    },
+    "filters": {
+      "budget": "Dein Budget (für 1 Nacht)",
+      "travel_sustainable": "Nachhaltige Reiseunterkünfte",
+      "star_rating": "Sternebewertung",
+      "property_type": "Art der Unterkunft",
+      "facilities": "Einrichtungen",
+      "free_cancellation": "Kostenlose Stornierung",
+      "chain": "Kette",
+      "review_score": "Bewertungspunktzahl",
+      "room_facilities": "Zimmerausstattung"
+    },
+    "filters_category": {
+      "five": "Ordentlich 5+",
+      "six": "Angenehm: 6+",
+      "seven": "Gut: 7+",
+      "eight": "Sehr gut: 8+",
+      "nine": "Wunderbar: 9+"
+    },
     "cancellation_policy": "Stornierungsbedingungen",
     "before_you_book": "Bevor Sie buchen, stellen Sie sicher, dass Sie mit den Stornierungsbedingungen dieses Gastgebers einverstanden sind. Bitte beachten Sie, dass die Regelung zu unvorhergesehenen Ereignissen von Airbnb keine Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen aufgrund von COVID-19 abdeckt.",
     "property_views": "Objektansichten",
@@ -227,6 +282,7 @@
     "ask_something_more": "Fragen Sie etwas mehr...",
     "generating_answer": "Antwort wird generiert...",
     "answer_generated": "Antwort generiert!",
+    "is_it_safe_for": "Ist es sicher für den Reisenden?",
     "question1": "Wann ist die beste Reisezeit?",
     "question2": "Wie ist das Wetter?",
     "question3": "Was sind die Sehenswürdigkeiten hier?",
@@ -349,6 +405,7 @@
     "one": "$n Jahr alt",
     "other": "$n Jahre alt"
   },
+  "allow": "Erlauben",
   "anything": "Egal",
   "anywhere": "Egal wo",
   "adultsWord": "Erwachsene",
@@ -404,6 +461,10 @@
     "one": "Nacht",
     "other": "Nächte"
   },
+  "nightsWithNum": {
+    "one": "$n Nacht",
+    "other": "$n Nächte"
+  },
   "opps": "Oops!",
   "one_way": "Einfache Strecke",
   "pets": "Haustiere",
@@ -433,6 +494,10 @@
   "skip": "Überspringen",
   "skip_for_now": "Jetzt überspringen",
   "sort_by": "Sortieren nach",
+  "stars": {
+    "one": "$n Stern",
+    "other": "$n Sterne"
+  },
   "start": "Start",
   "stops": "Stops",
   "times": "Zeiten",
