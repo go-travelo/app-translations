@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "Pergunte-me qualquer coisa",
-        "msg1": "Oi 👋\n\nSou Adeo, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
+        "msg1": "Oi $user 👋\n\nSou Adeo, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
         "msg2": "Incrível! Acho que entendi o que você está procurando.\n\nVocê tem mais algum requisito?",
         "msg3": "O que lhe interessa?",
         "msg4": "De onde você partirá?",

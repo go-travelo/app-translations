@@ -21,7 +21,7 @@
       },
       "chatbot" : {
         "inputHint" : "Ask me anything",
-        "msg1" : "Hey 👋\n\nI'm Adeo, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
+        "msg1" : "Hey $user 👋\n\nI'm Adeo, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
         "msg2" : "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
         "msg3" : "What are you interested in?",
         "msg4" : "Where will you depart from?",
