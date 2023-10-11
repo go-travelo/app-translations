@@ -41,6 +41,12 @@
         },
         "tileOptions" : {
           "minOptions" : "Pick $min or more cards"
+        },
+        "hotelOptions" : {
+          "title" : "What hotel do you like?"
+        },
+        "itinerary" : {
+          "day" : "Day"
         }
       },
       "messageHint" : "Ask me anything"
