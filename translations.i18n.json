@@ -52,6 +52,12 @@
       "messageHint" : "Ask me anything"
     }
   },
+  "tooltips": {
+    "tap_to_filter" : "Tap to filter",
+    "tap_to_bucketlist" : "Tap to bucketlist",
+    "tap_to_chat" : "Tap to chat",
+    "tap_to_help_country" : "Need any help in planning a trip to $country?"
+  },
   "bucketlist" : {
     "no_name" : "No Name",
     "name" : "Name",
@@ -137,8 +143,6 @@
     "sorted_and_procured" : "Sorted and procured based on your preferences",
     "scroll_down_to_see_more" : "Scroll down to see more info",
     "no_results_found" : "No Results Found!",
-    "tap_to_filter" : "Tap to filter",
-    "tap_to_bucketlist" : "Tap to bucketlist",
     "consider_broadening" : "Oops! We couldn’t find any matches based on your current preferences. Consider broadening your search by adjusting your preferences for a wider range of options.",
     "return_with_bullet" : " $code return"
   },
@@ -229,6 +233,17 @@
       "seven": "Good: 7+",
       "eight": "Very Good: 8+",
       "nine": "Wonderful: 9+"
+    },
+    "review_title": {
+      "five": "Fair",
+      "six": "Pleasant",
+      "seven": "Good",
+      "eight": "Very Good",
+      "nine": "Wonderful",
+      "three": "Not good",
+      "two": "Poor",
+      "one": "Very poor",
+      "zero": "Terrible"
     },
     "cancellation_policy" : "Cancellation policy",
     "before_you_book" : "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
