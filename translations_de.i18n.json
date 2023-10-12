@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "Frag mich irgendetwas",
-        "msg1": "Hallo 👋\n\nIch bin Adeo, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welche Art von Reisendem du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
+        "msg1": "Hallo $user 👋\n\nIch bin Adeo, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welche Art von Reisendem du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
         "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
         "msg3": "Was interessiert dich?",
         "msg4": "Wo wirst du starten?",
