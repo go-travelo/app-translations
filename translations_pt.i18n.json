@@ -130,10 +130,10 @@
     "sorted_and_procured": "Classificados e obtidos com base em suas preferências",
     "scroll_down_to_see_more": "Role para baixo para ver mais informações",
     "no_results_found": "Nenhum Resultado Encontrado!",
-    "tap_to_filter": "Toque para filtrar",
-    "tap_to_bucketlist": "Toque para a lista de desejos",
     "consider_broadening": "Oops! Não conseguimos encontrar nenhuma correspondência com base em suas preferências atuais. Considere ampliar sua busca ajustando suas preferências para um leque maior de opções.",
-    "return_with_bullet": " $code volta"
+    "return_with_bullet": " $code volta",
+    "tap_to_filter": "Toque para filtrar",
+    "tap_to_bucketlist": "Toque para a lista de desejos"
   },
   "flights_feat": {
     "flights_to": "Voos para $to",

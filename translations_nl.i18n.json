@@ -130,10 +130,10 @@
     "sorted_and_procured": "Gesorteerd en verkregen op basis van uw voorkeuren",
     "scroll_down_to_see_more": "Scroll naar beneden voor meer info",
     "no_results_found": "Geen resultaten gevonden!",
-    "tap_to_filter": "Tik om te filteren",
-    "tap_to_bucketlist": "Tik om aan de bucketlist toe te voegen",
     "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
-    "return_with_bullet": " $code retour"
+    "return_with_bullet": " $code retour",
+    "tap_to_filter": "Tik om te filteren",
+    "tap_to_bucketlist": "Tik om aan de bucketlist toe te voegen"
   },
   "flights_feat": {
     "flights_to": "Vluchten naar $to",

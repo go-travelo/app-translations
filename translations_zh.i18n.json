@@ -130,10 +130,10 @@
     "sorted_and_procured": "根据你的偏好进行排序和筛选",
     "scroll_down_to_see_more": "向下滚动查看更多信息",
     "no_results_found": "未找到结果！",
-    "tap_to_filter": "点击进行筛选",
-    "tap_to_bucketlist": "点击加入愿望清单",
     "consider_broadening": "哎呀！我们未能找到任何基于当前选项的匹配项。调整你的偏好，考虑扩大搜索范围，以获取更多选项。",
-    "return_with_bullet": " $code 往返"
+    "return_with_bullet": " $code 往返",
+    "tap_to_filter": "点击进行筛选",
+    "tap_to_bucketlist": "点击加入愿望清单"
   },
   "flights_feat": {
     "flights_to": "飞往 $to 的航班",

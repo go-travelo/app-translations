@@ -68,10 +68,10 @@
     "sorted_and_procured": "ממוינים ורכוש על פי ההעדפות שלך",
     "scroll_down_to_see_more": "גלול למטה כדי לראות עוד מידע",
     "no_results_found": "לא נמצאות תוצאות!",
-    "tap_to_filter": "הקש לסינון",
-    "tap_to_bucketlist": "הקש לרשימת דלי",
     "consider_broadening": "אופס! לא מצאנו התאמות בהתאם להעדפות הנוכחיות שלך. שקול להרחיב את החיפוש שלך על ידי שינוי ההעדפות שלך למגוון רחב יותר של אפשרויות.",
-    "return_with_bullet": " $code חזרה"
+    "return_with_bullet": " $code חזרה",
+    "tap_to_filter": "הקש לסינון",
+    "tap_to_bucketlist": "הקש לרשימת דלי"
   },
   "flights_feat": {
     "flights_to": "טיסות ל-$to",

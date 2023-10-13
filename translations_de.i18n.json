@@ -130,10 +130,10 @@
     "sorted_and_procured": "Sortiert und beschafft nach Ihren Vorlieben",
     "scroll_down_to_see_more": "Scrollen Sie nach unten, um mehr Informationen zu sehen",
     "no_results_found": "Keine Ergebnisse gefunden!",
-    "tap_to_filter": "Tippen, um zu filtern",
-    "tap_to_bucketlist": "Tippen, um zur Wunschliste hinzuzufügen",
     "consider_broadening": "Hoppla! Wir konnten keine Übereinstimmungen auf Basis Ihrer aktuellen Präferenzen finden. Überlegen Sie, ob Sie Ihre Suche erweitern möchten, indem Sie Ihre Präferenzen für eine breitere Palette von Optionen anpassen.",
-    "return_with_bullet": " $code Hin- und Rückflug"
+    "return_with_bullet": " $code Hin- und Rückflug",
+    "tap_to_filter": "Tippen, um zu filtern",
+    "tap_to_bucketlist": "Tippen, um zur Wunschliste hinzuzufügen"
   },
   "flights_feat": {
     "flights_to": "Flüge nach $to",

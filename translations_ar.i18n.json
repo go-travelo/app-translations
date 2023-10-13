@@ -130,10 +130,10 @@
     "sorted_and_procured": "مرتبة واختيارها بناءً على تفضيلاتك،",
     "scroll_down_to_see_more": "تمرير لأسفل لرؤية مزيد من المعلومات",
     "no_results_found": "لم يتم العثور على نتائج!",
-    "tap_to_filter": "أنقر للتصفية",
-    "tap_to_bucketlist": "أنقر لإضافة لقائمة أمنياتك",
     "consider_broadening": "عذرًا! لم نتمكن من العثور على تطابقات بناءً على تفضيلاتك الحالية. قد ترغب في توسيع نطاق بحثك من خلال تعديل التفضيلات للحصول على مجموعة أوسع من الخيارات.",
-    "return_with_bullet": " $code عودة"
+    "return_with_bullet": " $code عودة",
+    "tap_to_filter": "أنقر للتصفية",
+    "tap_to_bucketlist": "أنقر لإضافة لقائمة أمنياتك"
   },
   "flights_feat": {
     "flights_to": "رحلات الى $to",

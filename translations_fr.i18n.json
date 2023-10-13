@@ -41,15 +41,30 @@
         },
         "tileOptions": {
           "minOptions": "Choisissez $min cartes ou plus"
+        },
+        "hotelOptions": {
+          "title": "Quel hôtel préférez-vous ?"
+        },
+        "itinerary": {
+          "day": "Jour"
         }
       },
       "messageHint": "Demandez-moi n'importe quoi"
     }
   },
+  "tooltips": {
+    "tap_to_filter": "Appuyez pour filtrer",
+    "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits",
+    "tap_to_chat": "Appuyez pour discuter",
+    "tap_to_help_country": "Besoin d'aide pour planifier un voyage en $country?"
+  },
   "bucketlist": {
     "no_name": "Sans nom",
+    "name": "Nom",
     "bucketlist": "Liste de favoris: $name",
     "bucketlist_saved": "Liste de favoris enregistrée avec succès",
+    "bucketlist_created": "Liste de souhaits créée avec succès",
+    "my_bucketlist": "Ma liste de souhaits",
     "login_to_view": "Connectez-vous pour voir votre liste de favoris",
     "leave_bucketlist": "Quitter cette liste de favoris?",
     "one_person": "Une personne",
@@ -62,6 +77,7 @@
     "as_you_search": "Pendant votre recherche, appuyez sur l'icône de coeur pour enregistrer vos lieux et expériences préférés dans votre liste de favoris.",
     "add_to_bucketlist": "Ajouter à la liste de favoris",
     "create_new_bucketlist": "Créer une nouvelle liste de favoris",
+    "create_bucketlist": "Créer une liste de souhaits",
     "save_destinations": "Enregistrer des destinations",
     "delete_bucketlist": "Supprimer la liste de favoris?",
     "delete_bucketlist_message": "Êtes-vous sûr de vouloir supprimer cette liste de favoris?",
@@ -130,10 +146,10 @@
     "sorted_and_procured": "Triées et obtenues en fonction de vos préférences",
     "scroll_down_to_see_more": "Faites défiler vers le bas pour voir plus d'informations",
     "no_results_found": "Aucun résultat trouvé !",
-    "tap_to_filter": "Appuyez pour filtrer",
-    "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits",
     "consider_broadening": "Oups! Nous n'avons trouvé aucune correspondance en fonction de vos préférences actuelles. Envisagez d'élargir votre recherche en ajustant vos préférences pour un plus grand choix d'options.",
-    "return_with_bullet": " $code retour"
+    "return_with_bullet": " $code retour",
+    "tap_to_filter": "Appuyez pour filtrer",
+    "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits"
   },
   "flights_feat": {
     "flights_to": "Vols vers $to",
@@ -222,6 +238,17 @@
       "seven": "Bon: 7+",
       "eight": "Très bon: 8+",
       "nine": "Merveilleux: 9+"
+    },
+    "review_title": {
+      "five": "Passable",
+      "six": "Agréable",
+      "seven": "Bon",
+      "eight": "Très bon",
+      "nine": "Merveilleux",
+      "three": "Pas bon",
+      "two": "Mauvais",
+      "one": "Très mauvais",
+      "zero": "Terrible"
     },
     "cancellation_policy": "Politique d'annulation",
     "before_you_book": "Avant de réserver, assurez-vous d'être à l'aise avec la politique d'annulation de cet hôte. Notez que la politique de circonstances atténuantes d'Airbnb ne couvre pas les annulations dues à des maladies ou à des perturbations de voyage causées par le COVID-19.",
@@ -407,6 +434,7 @@
   },
   "allow": "Permettre",
   "anything": "N'importe quoi",
+  "anytime": "À tout moment",
   "anywhere": "N'importe où",
   "adultsWord": "Adultes",
   "apply": "Appliquer",
@@ -416,6 +444,10 @@
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
   "cancel": "Annuler",
+  "characters": {
+    "one": "$n caractère",
+    "other": "$n caractères"
+  },
   "checkIn": "Enregistrement",
   "cheapest": "Le moins cher",
   "child": "Enfant",
@@ -427,6 +459,7 @@
   "confirm": "Confirmer",
   "contact_us": "Nous contacter",
   "continue_label": "Continuer",
+  "create": "Créer",
   "creator": "Créateur",
   "currency": "Devise",
   "dates": "Dates",
