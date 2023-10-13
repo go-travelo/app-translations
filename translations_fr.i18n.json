@@ -444,7 +444,7 @@
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
   "cancel": "Annuler",
-  "characters": {
+  "charactersWord": {
     "one": "$n caractère",
     "other": "$n caractères"
   },
@@ -550,5 +550,9 @@
   "when": "Quand",
   "month": "Mois",
   "where_to": "Où",
-  "where_from": "D'où"
+  "where_from": "D'où",
+  "characters": {
+    "one": "$n caractère",
+    "other": "$n caractères"
+  }
 }

@@ -444,9 +444,9 @@
   "best": "Най-добрите",
   "bucketlists": "Списъци с желания",
   "cancel": "Отмени",
-  "characters": {
+  "charactersWord": {
     "one": "$n символ",
-    "other": "$n символи"
+    "other": "$n символа"
   },
   "checkIn": "Настаняване",
   "cheapest": "Най-евтините",
@@ -550,5 +550,9 @@
   "when": "Кога",
   "month": "Месец",
   "where_to": "Къде до",
-  "where_from": "Откъде"
+  "where_from": "Откъде",
+  "characters": {
+    "one": "$n символ",
+    "other": "$n символи"
+  }
 }

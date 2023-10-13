@@ -41,10 +41,88 @@
         },
         "tileOptions": {
           "minOptions": "בחר $min כרטיסים או יותר"
+        },
+        "hotelOptions": {
+          "title": "איזה מלון אתה אוהב?"
+        },
+        "itinerary": {
+          "day": "יום"
         }
       },
       "messageHint": "שאל אותי כל דבר"
     }
+  },
+  "tooltips": {
+    "tap_to_filter": "נגיש לסינון",
+    "tap_to_bucketlist": "נגיש לרשימת דליקת לב",
+    "tap_to_chat": "נגיש לשיחה",
+    "tap_to_help_country": "זקוק לעזרה בתכנון טיול ל-$country?"
+  },
+  "bucketlist": {
+    "no_name": "ללא שם",
+    "name": "שם",
+    "bucketlist": "רשימת דליקת לב: $name",
+    "bucketlist_saved": "רשימת דליקת לב נשמרה בהצלחה",
+    "bucketlist_created": "רשימת דליקת לב נוצרה בהצלחה",
+    "my_bucketlist": "הרשימת דליקת לב שלי",
+    "login_to_view": "היכנס כדי לראות את רשימת הדליקות שלך",
+    "leave_bucketlist": "לעזוב את רשימת הדליקות?",
+    "one_person": "אדם אחד",
+    "name_is_collaborating": "$name משתפת פעולה איתך.",
+    "collaborating_and_one_more": "$name ועוד אחד משתפים פעולה איתך.",
+    "collaborating_two": "$first ו-$second משתפים פעולה איתך.",
+    "collaborating_two_and_more": "$first ו-$count נוספים משתפים פעולה איתך..",
+    "you_can_create": "אתה יכול ליצור, להציג או לערוך רשימות דליקות לאחר שנכנסת למערכת.",
+    "create_your_first_bucketlist": "צור את רשימת הדליקות הראשונה שלך",
+    "as_you_search": "כאשר אתה מחפש, הקש על האייקון בצורת לב לשמור מקומות וחוויות מועדפים לרשימת הדליקות שלך.",
+    "add_to_bucketlist": "הוסף לרשימת הדליקות",
+    "create_new_bucketlist": "צור רשימת דליקות חדשה",
+    "create_bucketlist": "צור רשימת דליקות",
+    "save_destinations": "שמור יעדים",
+    "delete_bucketlist": "למחוק רשימת דליקות?",
+    "delete_bucketlist_message": "האם אתה בטוח שברצונך למחוק את רשימת הדליקות הזו?",
+    "delete_user_from_bucketlist": "מחק משתמש מרשימת הדליקות?",
+    "delete_user_from_bucketlist_message": "האם אתה בטוח שברצונך למחוק את $username מרשימת הדליקות הזו?",
+    "bucketlist_will_be_removed": "$name יוסר מרשימת הדליקות שלך.",
+    "travel_dates": "תאריכי טיסה",
+    "destinations": {
+      "one": "יעד $n",
+      "other": "$n יעדים"
+    },
+    "people_collaborating_with_you": {
+      "two": "שני אנשים משתפים פעולה איתך.",
+      "other": "$n אנשים משתפים פעולה איתך."
+    },
+    "flying_from": "טס מ"
+  },
+  "places": {
+    "europe": "אירופה",
+    "africa": "אפריקה",
+    "asia": "אסיה",
+    "oceania": "אוקיאניה",
+    "north_america": "צפון אמריקה",
+    "south_america": "דרום אמריקה",
+    "anywhere": "כל מקום",
+    "current_location": "המיקום הנוכחי"
+  },
+  "explore_feat": {
+    "add_destination": "הוסף יעד",
+    "add_dates": "הוסף תאריכים",
+    "check_out_this_place": "אני יודעה לאיפה צריך ללכת ביחד פעם הבאה. בדוק את המקום שמצאתי ב-Adeo",
+    "book_flights": "הזמן טיסות",
+    "land_in": "נחיתה ב-$destination",
+    "no_flights_found": "לא נמצאו טיסות",
+    "closest_airport": "השדה התעופה הקרוב ביותר ל-$destination",
+    "change_departure": "שנה מקום המראה",
+    "traveling_from": "טס מ",
+    "distance_from_origin": "${distance} ק''מ מ-$origin",
+    "how_to_get_there": "איך להגיע לשם",
+    "how_to_get_to": "איך להגיע ל-$destination",
+    "ask_anything": "שאל כל דבר...",
+    "things_to_do": "דברים לעשות",
+    "around_destination": "באזור $destination",
+    "select_a_flight": "בחר טיסה",
+    "no_videos": "מצטערים, אין לנו סרטונים\nליעד זה"
   },
   "feed": {
     "how_do_you_like_the_app": "איך אתה אוהב את האפליקציה?",
@@ -160,6 +238,17 @@
       "seven": "טוב: 7+",
       "eight": "טוב מאוד: 8+",
       "nine": "נפלא: 9+"
+    },
+    "review_title": {
+      "five": "הוגנה",
+      "six": "נעימה",
+      "seven": "טובה",
+      "eight": "טובה מאוד",
+      "nine": "נפלאה",
+      "three": "לא טובה",
+      "two": "חלשה",
+      "one": "חלשה מאוד",
+      "zero": "נוראה"
     },
     "cancellation_policy": "מדיניות ביטול",
     "before_you_book": "לפני שאתה מזמין, ודא שאתה מרגיש בנוח עם מדיניות הביטול של המארח. שים לב שמדיניות מקרים מיוחדים של Airbnb אינה כוללת ביטולים בשל מחלה או השבתת טיסות שנגרמה על ידי COVID-19.",
@@ -345,6 +434,7 @@
   },
   "allow": "התר",
   "anything": "הכול",
+  "anytime": "בכל זמן",
   "anywhere": "בכל מקום",
   "adultsWord": "מבוגרים",
   "apply": "החל",
@@ -354,6 +444,10 @@
   "best": "הכי טוב",
   "bucketlists": "רשימות דלו",
   "cancel": "ביטול",
+  "charactersWord": {
+    "one": "תו $n",
+    "other": "$n תווים"
+  },
   "checkIn": "צ'ק אין",
   "cheapest": "הזול ביותר",
   "child": "ילד",
@@ -365,6 +459,7 @@
   "confirm": "אישור",
   "contact_us": "צור קשר",
   "continue_label": "המשך",
+  "create": "צור",
   "creator": "יוצר",
   "currency": "מטבע",
   "dates": "תאריכים",
@@ -455,5 +550,9 @@
   "when": "מתי",
   "month": "חודש",
   "where_to": "לאן",
-  "where_from": "מאין"
+  "where_from": "מאין",
+  "characters": {
+    "one": "$n תו",
+    "other": "$n תווים"
+  }
 }
