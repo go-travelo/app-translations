@@ -439,6 +439,10 @@
   "best" : "Best",
   "bucketlists" : "Bucketlists",
   "cancel" : "Cancel",
+  "characters" : {
+    "one" : "$n character",
+    "other" : "$n characters"
+  },
   "checkIn" : "Check in",
   "cheapest" : "Cheapest",
   "child" : "Child",
