@@ -2,98 +2,98 @@
   "chatbot": {
     "onboarding": {
       "page_one": {
-        "title": "旅行的未来",
-        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+        "title": "发现您的下一个\n目的地",
+        "subtitle": "让我们为您展示世界上最美的目的地，并为您的下次旅行找到完美的地点"
       },
       "page_two": {
-        "title": "美丽的目的地",
-        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+        "title": "了解所需知识\n的一切",
+        "subtitle": "飞行多久？适合情侣吗？最便宜的住宿是什么？没有问题是太大还是太小的"
       },
       "page_three": {
-        "title": "个性化为您服务",
-        "subtitle": "添加想法，获得反馈，当你为旅行挑选出你的首选时，看到你的行程逐渐成形。"
+        "title": "预定您的旅行",
+        "subtitle": "我们通过寻找最佳价格和最方便的住宿，航班和体验来减少预订的麻烦，以满足您的需求"
       },
       "instagram": {
-        "title": "连接Instagram",
-        "button": "连接你的Instagram",
-        "message": "连接你的Instagram账户，获得个性化的，优化的体验。轻松同步，并享受仅为您量身定制的推荐！",
-        "error": "无法通过Instagram验证"
+        "title": "连接 Instagram",
+        "button": "连接您的 Instagram",
+        "message": "连接您的 Instagram 账户以获得个性化、优化的体验。无需努力同步，并享受专为您定制的推荐！",
+        "error": "无法通过 Instagram 进行身份验证"
       },
       "chatbot": {
         "inputHint": "随便问我",
-        "msg1": "嗨 $user 👋\n\n我是Adeo，您的旅行顾问。\n\n在开始之前，我很想了解你是什么样的旅行者。🌍\n\n请通过书写或说话告诉我你正在寻找什么样的旅行。",
-        "msg2": "太棒了！我想我已经明白你的需求了。\n\n你还有其他需求吗？",
+        "msg1": "嗨 $user 👋\n\n我是 Adeo，您的旅行顾问。\n\n在我们开始之前，我很想了解你是什么类型的旅行者。🌍\n\n告诉我你正在寻找什么类型的旅行，通过写作或说话。",
+        "msg2": "太棒了！我想我理解你在寻找什么。\n\n您还有其他需求吗？",
         "msg3": "你对什么感兴趣？",
-        "msg4": "您将从哪里出发？",
-        "msg5": "谢谢你！目前我已经收集了所有我需要的信息。点击下一步，让我为你推荐世界上最美丽的、符合你个性化需求的目的地!"
+        "msg4": "你将从哪里出发？",
+        "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
       }
     },
     "chat": {
-      "title": "Adeo聊天",
+      "title": "Adeo 聊天",
       "messages": {
         "location": {
           "requestTitle": "你将从哪里出发？",
-          "requestSubtitle": "为了获得最佳结果，请允许获取位置信息",
-          "requestButton": "允许获取位置"
+          "requestSubtitle": "为了获得最佳效果，请允许使用位置",
+          "requestButton": "允许你的位置"
         },
         "flight": {
-          "fromToAroundPrice": "从$from到$to的航班大约$price"
+          "fromToAroundPrice": "从 $from 到 $to 的航班大约 $price"
         },
         "tileOptions": {
-          "minOptions": "选择 $min 张或更多卡片"
+          "minOptions": "选择 $min 或更多的卡片"
         },
         "hotelOptions": {
-          "title": "你喜欢什么酒店？"
+          "title": "你喜欢哪家酒店？"
         },
         "itinerary": {
-          "day": "第${day}天"
+          "day": "天"
         }
       },
       "messageHint": "随便问我"
     }
   },
   "tooltips": {
-    "tap_to_filter": "点击筛选",
-    "tap_to_bucketlist": "点击添加到心愿单",
-    "tap_to_chat": "点击聊天",
-    "tap_to_help_country": "需要帮助规划去$country的旅行吗？"
+    "tap_to_filter": "点击以过滤",
+    "tap_to_bucketlist": "点击以加入心愿单",
+    "tap_to_chat": "点击以聊天",
+    "tap_to_help_country": "计划去 $country 旅行需要任何帮助吗？"
   },
   "bucketlist": {
     "no_name": "无名",
-    "name": "名称",
-    "bucketlist": "心愿清单: $name",
-    "bucketlist_saved": "心愿清单已成功保存",
+    "name": "姓名",
+    "bucketlist": "心愿单: $name",
+    "bucketlist_saved": "心愿单保存成功",
     "bucketlist_created": "心愿单创建成功",
     "my_bucketlist": "我的心愿单",
-    "login_to_view": "登录查看您的心愿清单",
-    "leave_bucketlist": "离开这个心愿清单？",
+    "login_to_view": "登录查看您的心愿单",
+    "leave_bucketlist": "离开此心愿单？",
     "one_person": "一人",
     "name_is_collaborating": "$name正在与您合作。",
-    "collaborating_and_one_more": "$name和另一位正在与您合作。",
+    "collaborating_and_one_more": "$name和另一人正在与您合作。",
     "collaborating_two": "$first和$second正在与您合作。",
-    "collaborating_two_and_more": "$first和其他$count位正在与您合作。",
-    "you_can_create": "登录后您可以创建、查看或编辑心愿清单。",
-    "create_your_first_bucketlist": "创建你的第一个心愿清单",
-    "as_you_search": "在搜索过程中，点击心形图标将你喜欢的地方和体验保存到心愿清单。",
-    "add_to_bucketlist": "添加到心愿清单",
-    "create_new_bucketlist": "创建新心愿清单",
+    "collaborating_two_and_more": "$first和多于$count的人正在与您合作。。",
+    "you_can_create": "登录后您可以创建、查看或编辑心愿单。",
+    "create_your_first_bucketlist": "创建您的第一个心愿单",
+    "as_you_search": "在搜索时，点击心形图标可将您最喜欢的地方和体验保存至心愿单。",
+    "add_to_bucketlist": "添加至心愿单",
+    "create_new_bucketlist": "创建新的心愿单",
     "create_bucketlist": "创建心愿单",
     "save_destinations": "保存目的地",
-    "delete_bucketlist": "删除心愿清单？",
-    "delete_bucketlist_message": "确定删除这个心愿清单？",
-    "delete_user_from_bucketlist": "从心愿清单中删除用户？",
-    "delete_user_from_bucketlist_message": "确定从这个心愿清单中删除$username吗？",
-    "bucketlist_will_be_removed": "$name将会从您的心愿清单removed。",
+    "delete_bucketlist": "删除心愿单？",
+    "delete_bucketlist_message": "您确定要删除此心愿单吗？",
+    "delete_user_from_bucketlist": "从心愿单中删除用户？",
+    "delete_user_from_bucketlist_message": "您确定要从此心愿单中删除$username吗？",
+    "bucketlist_will_be_removed": "$name将从您的心愿单中移除。",
     "travel_dates": "旅行日期",
     "destinations": {
-      "one": "$n 目的地",
-      "other": "$n 目的地"
+      "one": "$n个旅行地点",
+      "other": "$n个旅行地点"
     },
     "people_collaborating_with_you": {
-      "two": "有两个人正在与您合作。",
-      "other": "有$n个人正在与您合作。"
+      "two": "两人正在与您合作。",
+      "other": "$n人正在与您合作。"
     },
-    "flying_from": "从...出发"
+    "flying_from": "从哪里飞往"
   },
   "places": {
     "africa": "非洲",
@@ -105,61 +105,59 @@
     "oceania": "大洋洲",
     "south_america": "南美洲",
     "anywhere": "任何地方",
-    "current_location": "当前位置"
+    "current_location": "当前地点"
   },
   "explore_feat": {
     "add_destination": "添加目的地",
     "add_dates": "添加日期",
-    "check_out_this_place": "我知道我们下一步应该一起去哪里。看看我在Adeo找到的这个地方。",
-    "book_flights": "预定航班",
-    "land_in": "降落在 $destination",
+    "check_out_this_place": "我知道我们下一步应该一起去哪。在Adeo上我发现了一个地方。",
+    "book_flights": "订购机票",
+    "land_in": "在$destination降落",
     "no_flights_found": "未找到航班",
-    "closest_airport": "离$destination最近的机场",
-    "change_departure": "更换出发地",
-    "traveling_from": "从...出发",
-    "distance_from_origin": "距离$origin${distance}公里",
+    "closest_airport": "距离$destination最近的机场",
+    "change_departure": "更改出发地",
+    "traveling_from": "起飞地",
+    "distance_from_origin": "距离起始地${distance}公里$origin",
     "how_to_get_there": "如何到达那里",
-    "how_to_get_to": "如何到达 $destination",
-    "ask_anything": "问我任何问题...",
-    "things_to_do": "可以做的事情",
+    "how_to_get_to": "如何到达$destination",
+    "ask_anything": "询问任何事情...",
+    "things_to_do": "可做的事情",
     "around_destination": "在$destination附近",
-    "select_a_flight": "选择一班航班",
-    "no_videos": "对不起，没有这个目的地的视频"
+    "select_a_flight": "选择航班",
+    "no_videos": "对不起，我们没有这个目的地的视频\n"
   },
   "feed": {
-    "how_do_you_like_the_app": "你觉得这款应用如何?",
-    "direct_flights": "直飞航班",
-    "show_only_direct_flights": "只显示直飞航班",
-    "take_some_time": "请花点时间给我们宝贵的反馈，帮助我们改进。",
+    "how_do_you_like_the_app": "你觉得这个应用怎么样？",
+    "direct_flights": "直达航班",
+    "show_only_direct_flights": "只显示直达航班",
+    "take_some_time": "花点时间给我们你宝贵的反馈，帮助我们改进。",
     "give_us_feedback": "给我们反馈",
     "flight_price_range": "航班价格范围",
     "average_price": "平均价格 $price",
-    "or_less": "或更低",
-    "flight_time": "航班飞行时间",
-    "average_duration": "平均飞行时长 $hours 小时",
+    "or_less": "或更少",
+    "flight_time": "航班时间持续",
+    "average_duration": "平均持续时间 $hours h",
     "round_hrs": "$val 小时",
     "one_way_with_bullet": " $code 单程",
-    "something_went_wrong": "出了些问题",
-    "cant_show_results": "无法出于某种原因显示结果。",
-    "awkward_nothing_returned": "搜索未能返回任何结果，真是尴尬。请修改您的偏好后重新尝试。",
-    "add_interests": "添加兴趣",
-    "spaces_read_more": "   阅读更多",
-    "count_destinations_for_you": "为你挑选出的 $count 个美丽目的地",
-    "sorted_and_procured": "根据你的偏好进行排序和筛选",
+    "something_went_wrong": "出了点问题",
+    "cant_show_results": "由于某种原因，我们无法向你显示结果。",
+    "awkward_nothing_returned": "这有点尴尬，没有找到搜索结果。请修改你的偏好设置再试一次。",
+    "add_interests": "增加兴趣点",
+    "spaces_read_more": "   读取更多",
+    "count_destinations_for_you": "为您找到的美丽目的地有 $count 个",
+    "sorted_and_procured": "根据你的偏好进行排序和采购",
     "scroll_down_to_see_more": "向下滚动查看更多信息",
     "no_results_found": "未找到结果！",
-    "consider_broadening": "哎呀！我们未能找到任何基于当前选项的匹配项。调整你的偏好，考虑扩大搜索范围，以获取更多选项。",
-    "return_with_bullet": " $code 往返",
-    "tap_to_filter": "点击进行筛选",
-    "tap_to_bucketlist": "点击加入愿望清单"
+    "consider_broadening": "哎呀！根据你当前的偏好，我们无法找到任何匹配的结果。考虑扩大你的搜索范围，调整你的偏好设置以获取更多的选项。",
+    "return_with_bullet": " $code 回程"
   },
   "flights_feat": {
     "flights_to": "飞往 $to 的航班",
     "airport": "机场",
-    "destination_location_updated_successfully": "目的地位置更新成功",
-    "all_filters": "全部筛选",
+    "destination_location_updated_successfully": "目的地位置已成功更新",
+    "all_filters": "所有筛选项",
     "no_flights": "没有航班",
-    "travelers_info_updated_successfully": "旅客信息更新成功",
+    "travelers_info_updated_successfully": "旅行者信息已成功更新",
     "flight_details": "航班详情",
     "where_from": "从哪里出发？",
     "where_to": "去哪里？",
@@ -168,38 +166,38 @@
     "my_current_location": "我的当前位置",
     "search_destinations": "搜索目的地",
     "current_location": "当前位置",
-    "departure_location_updated_successfully": "出发地点更新成功",
+    "departure_location_updated_successfully": "出发位置已成功更新",
     "no_flights_found": "未找到航班",
     "choose_new_departure_location": "选择新的出发地",
-    "selected_departure_destination": "已选择的出发目的地",
-    "how_many_people": "有多少人？",
-    "connection_in": "机场中转",
+    "selected_departure_destination": "选定的出发目的地",
+    "how_many_people": "多少人？",
+    "connection_in": "转机机场",
     "total_for": {
-      "one": "总计 $n 位旅客",
-      "other": "总计 $n 位旅客"
+      "one": "共计 $n 位旅行者的费用",
+      "other": "共计 $n 位旅行者的费用"
     },
     "search_flights": "搜索航班",
-    "read_before_booking": "预定前请阅读",
-    "prices_include": "价格始终包含所有强制税费和收费的估计。请在预定之前在供应商的网站上查看所有的机票详情，最终价格及条款和条件。",
-    "check_for_extra_fees": "查看额外费用",
-    "some_airlines_and_travel_agencies": "一些航空公司和旅行社可能会对行李、保险或信用卡使用收取额外费用，他们也可能会收取服务费。",
-    "check_terms": "查看12-16岁旅客的条款",
-    "restrictions_may_apply": "单独旅行的年轻乘客可能会有限制。",
-    "although_sold_as": "尽管标为“经济舱”，此行程可能包含一些不同舱位等级的航班。",
-    "check_cabin_class": "检查您的舱位等级",
-    "select_providers": "选择提供商",
-    "almost_there": "快到了！",
+    "read_before_booking": "预订前请阅读",
+    "prices_include": "价格始终包含所有必要税费和费用的估算。在您预订之前，请在提供商的网站上检查所有机票详情、最终价格以及条款和条件。",
+    "check_for_extra_fees": "注意额外费用",
+    "some_airlines_and_travel_agencies": "一些航空公司和旅行社可能会对行李、保险或信用卡使用收取额外费用。他们也可能收取服务费。",
+    "check_terms": "检查12-16岁旅行者的条款",
+    "restrictions_may_apply": "独自旅行的年轻乘客可能受到限制。",
+    "although_sold_as": "尽管被标示为“经济舱”，但此行程可能包含一些不同舱位的航班。",
+    "check_cabin_class": "检查您的机舱等级",
+    "select_providers": "选择供应商",
+    "almost_there": "快要完成了！",
     "economy_class": "经济舱",
-    "premium_economy_class": "高级经济舱",
+    "premium_economy_class": "超级经济舱",
     "business_class": "商务舱",
     "first_class": "头等舱",
-    "choose_provider": "选择提供商",
-    "go_to_site": "访问网站",
-    "dates_updated_successfully": "日期更新成功",
-    "we_collected_cheapest_providers": "我们为您汇集了最便宜的供应商。选择您想要购买机票的网站！",
+    "choose_provider": "选择供应商",
+    "go_to_site": "前往网站",
+    "dates_updated_successfully": "日期已成功更新",
+    "we_collected_cheapest_providers": "我们为您收集了最便宜的供应商。请选择您想要购买机票的网站！",
     "travellers": {
-      "one": "$n 位旅客",
-      "other": "$n 位旅客"
+      "one": "$n 位旅行者",
+      "other": "$n 位旅行者"
     },
     "provider_found": {
       "one": "找到 $n 个供应商",
@@ -213,21 +211,21 @@
   },
   "hotel": {
     "sort_filters": {
-      "most_popular": "最热门",
-      "best_rated": "评分最好",
-      "worst_rated": "评分最差",
-      "best_reviewed": "最佳评价",
+      "most_popular": "最受欢迎",
+      "best_rated": "评价最好",
+      "worst_rated": "评价最差",
+      "best_reviewed": "好评最多",
       "worst_reviewed": "差评最多",
-      "star_rating_highest_first": "星级 (由高到低)",
-      "star_rating_lowest_first": "星级 (由低到高)",
-      "price_highest_first": "价格 (由高到低)",
-      "price_lowest_first": "价格 (由低到高)"
+      "star_rating_highest_first": "星级（从高到低）",
+      "star_rating_lowest_first": "星级（从低到高）",
+      "price_highest_first": "价格（从高到低）",
+      "price_lowest_first": "价格（从低到高）"
     },
     "filters": {
-      "budget": "您的预算 (1 晚)",
-      "travel_sustainable": "可持续旅行住宿",
+      "budget": "你的预算（1晚）",
+      "travel_sustainable": "可持续旅行属性",
       "star_rating": "星级",
-      "property_type": "物业类型",
+      "property_type": "房源类型",
       "facilities": "设施",
       "free_cancellation": "免费取消",
       "chain": "连锁",
@@ -235,162 +233,162 @@
       "room_facilities": "房间设施"
     },
     "filters_category": {
-      "five": "公平: 5+",
-      "six": "令人愉快: 6+",
-      "seven": "好: 7+",
-      "eight": "非常好: 8+",
-      "nine": "精彩: 9+"
+      "five": "公平 5+",
+      "six": "舒适：6+",
+      "seven": "好：7+",
+      "eight": "很好：8+",
+      "nine": "精彩：9+"
     },
     "review_title": {
       "five": "公平",
-      "six": "愉快",
+      "six": "舒适",
       "seven": "好",
-      "eight": "非常好",
-      "nine": "棒极了",
+      "eight": "很好",
+      "nine": "精彩",
       "three": "不好",
       "two": "差",
-      "one": "非常差",
+      "one": "很差",
       "zero": "糟糕"
     },
     "property_type": {
       "aparthotel": "公寓酒店",
       "camping": "露营",
-      "inn": "客栈",
+      "inn": "旅馆",
       "resort": "度假村",
       "capsule-hotel": "胶囊旅馆",
-      "japanese-style-business-hotel": "日式商务酒店",
-      "holiday-home": "度假别墅",
-      "guest-house": "宾馆",
-      "boat": "船",
-      "love-hotel": "情侣酒店",
+      "japanese-style-business-hotel": "日式商务旅馆",
+      "holiday-home": "假日房屋",
+      "guest-house": "客房",
+      "boat": "船房",
+      "love-hotel": "情侣旅馆",
       "ryokan": "旅馆",
       "tented-camp": "帐篷营地",
       "hotel": "酒店",
       "condo": "公寓",
       "motel": "汽车旅馆",
-      "sanatorium": "疗养所",
+      "sanatorium": "疗养院",
       "apartment": "公寓",
       "villa": "别墅",
-      "gite": "乡间小屋",
+      "gite": "农家乐",
       "hostel": "旅舍",
-      "holiday-park": "度假村",
-      "lodge": "旅社",
-      "cottage": "小屋",
-      "bed-and-breakfast": "早餐民宿",
-      "homestay": "家庭旅馆",
+      "holiday-park": "度假公园",
+      "lodge": "小屋",
+      "cottage": "村舍",
+      "bed-and-breakfast": "民宿",
+      "homestay": "寄宿",
       "farm-stay": "农场住宿",
       "chalet": "木屋",
-      "riad": "里亚德",
-      "country-house": "乡间别墅"
+      "riad": "利雅德",
+      "country-house": "乡村房屋"
     },
     "cancellation_policy": "取消政策",
-    "before_you_book": "在预订之前，请先确定你能接受房东的取消政策。请注意，爱彼迎的特殊情况政策不包括因COVID-19引起的疾病或旅行中断情况。",
-    "property_views": "物业浏览",
+    "before_you_book": "预订前，请确保您对此房东的取消政策感到满意。请注意，Airbnb的特殊情况政策不包括因COVID-19导致的疾病或旅行中断的取消。",
+    "property_views": "物业视图",
     "all_reviews": "所有评论",
     "no_hotels_found": "未找到酒店",
-    "no_videos": "对不起，我们没有该酒店的视频",
+    "no_videos": "对不起，我们没有这家酒店的视频\n",
     "age_13": "13岁或以上",
     "age_2_13": "2-13岁",
     "hotel_name": "酒店名称",
-    "cancel_by": "取消方式",
-    "full_refund": "全额退款：获取您支付的100%款项",
-    "no_refund": "无法退款",
+    "cancel_by": "取消日期",
+    "full_refund": "全额退款：退还您支付的100%",
+    "no_refund": "无退款",
     "select_age": "选择年龄",
-    "read_more_here": "在此查看更多",
+    "read_more_here": "在此处阅读更多",
     "enter_destination": "输入目的地",
-    "search_destinations": "搜寻目的地",
-    "travel_sustainable_level": "旅行可持续等级 $level",
-    "property_making_efforts": "该物业正在进行大量投资和努力，以变得更加可持续。他们的环境和社会影响根据他们的规模和位置进行衡量",
-    "sustainability_steps": "可持续性步骤",
+    "search_destinations": "搜索目的地",
+    "travel_sustainable_level": "可持续旅行等级 $level",
+    "property_making_efforts": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
+    "sustainability_steps": "可持续发展的步骤",
     "accept_credit_cards": "接受信用卡",
     "important_information": "重要信息",
-    "check_in_time": "入住和退房时间",
-    "wifi_available": "WiFi在所有区域可用，并且免费",
-    "free_parking": "酒店现场提供免费公共停车场",
-    "pets_allowed": "允许携带宠物，可能需要支付额外费用",
+    "check_in_time": "入住 & 退房时间",
+    "wifi_available": "Wi-Fi在所有区域可用，且不收费",
+    "free_parking": "在旁有免费公共停车处",
+    "pets_allowed": "允许携带宠物，可能需要额外收费",
     "edit_your_search": "编辑您的搜索",
-    "no_photos": "对不起，我们没有该酒店的照片",
+    "no_photos": "对不起，我们没有这家酒店的照片\n",
     "property_facilities": "物业设施",
-    "filter_and_sort": "筛选和排序",
-    "partial_refund": "部分退款：每晚退回$name%。 服务费无法退款",
-    "check_availability": "查看可用性",
+    "filter_and_sort": "过滤 & 排序",
+    "partial_refund": "部分退款：退还您每晚$name%的费用。服务费不退款",
+    "check_availability": "检查可用性",
     "select_dates": "选择日期",
     "detailed_reviews": {
       "one": "$n个详细评论",
       "other": "$n个详细评论"
     },
-    "rooms_and_guests": "房间及客人",
+    "rooms_and_guests": "房间 & 宾客",
     "stays_close_by": "附近的住宿",
-    "house_rules": "房屋守则",
-    "levelDescription": "该物业正在进行大量投资和努力，以变得更加可持续。他们的环境和社会影响根据他们的规模和位置进行衡量",
-    "sustainable_level": "旅行可持续等级 $level",
+    "house_rules": "房规",
+    "levelDescription": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
+    "sustainable_level": "可持续旅行等级 $level",
     "property_location": "物业位置",
     "select_a_room": "选择一个房间",
-    "select_rooms_and_guests": "选择房间和客人",
+    "select_rooms_and_guests": "选择房间和宾客",
     "age_13_or_above": "13岁或以上",
-    "what_people_said": "人们的评论",
+    "what_people_said": "人们怎么说",
     "read_all_reviews": "阅读所有评论",
-    "see_all": "查看全部 $count",
-    "what_this_place_offers": "这个地方能提供什么"
+    "see_all": "查看所有 $count",
+    "what_this_place_offers": "此地能够提供"
   },
   "language": {
     "select_language": "选择语言"
   },
   "know_more": {
     "know_more": "了解更多",
-    "ask_city_country": "询问关于 $city, $country的任何问题",
-    "ask_something_more": "多问一些问题...",
-    "generating_answer": "正在生成回答...",
-    "answer_generated": "回答已生成!",
-    "is_it_safe_for": "对旅行者来说安全吗？",
-    "question1": "那里最好的旅行时间是什么时候？",
-    "question2": "那里的天气如何？",
-    "question3": "那里有什么值得一去的景点？",
-    "question4": "告诉我它的历史。"
+    "ask_city_country": "关于$city, $country的任何问题",
+    "ask_something_more": "多问一些....",
+    "generating_answer": "正在生成答案...",
+    "answer_generated": "答案已生成！",
+    "is_it_safe_for": "对游客安全吗？",
+    "question1": "什么时候去那里最好？",
+    "question2": "天气如何？",
+    "question3": "这里有什么景点？",
+    "question4": "告诉我关于它的历史。"
   },
   "onboarding": {
     "what_are_you_interested_in": "你对什么感兴趣？",
-    "pick_cards": "请选择3张或更多卡片",
-    "where_will_you_depart_from": "你将从哪里出发？",
+    "pick_cards": "选择3张或更多卡片",
+    "where_will_you_depart_from": "你会从哪里出发？",
     "for_best_results": "为了获得最佳效果，请分享你的位置",
-    "allow_location_access": "允许获取位置"
+    "allow_location_access": "允许访问位置"
   },
   "profile": {
-    "spread_the_word": "传播消息",
-    "invite_friends": "邀请朋友",
+    "spread_the_word": "推广",
+    "invite_friends": "邀请好友",
     "privacy_policy": "隐私政策",
     "imprint": "版本说明",
-    "privacy_and_sharing": "个人隐私与分享",
-    "delete_profile": "删除账户",
-    "delete_profile_message": "你确定要删除你的账户吗？",
-    "dont_have_account": "没有账户？",
-    "log_in_to_start_planning": "登录并开始规划您的下一次旅行",
-    "logout": "退出",
-    "edit_profile_name": "编辑账户名称",
+    "privacy_and_sharing": "隐私和分享",
+    "delete_profile": "删除资料",
+    "delete_profile_message": "您确定要删除您的账户吗？",
+    "dont_have_account": "还没有账户？",
+    "log_in_to_start_planning": "登录开始规划您的下次旅行",
+    "logout": "注销",
+    "edit_profile_name": "编辑档案名称",
     "take_photo": "拍照",
     "choose_photo": "选择照片",
-    "set_profile_image": "设置头像",
+    "set_profile_image": "设置个人资料图片",
     "first_name": "名",
     "last_name": "姓",
-    "edit_profile": "编辑信息",
-    "member_since": "$date起成为我们的会员",
-    "share_message": "看看这个应用，上面有全世界最神奇的地方：$link"
+    "edit_profile": "编辑个人资料",
+    "member_since": "自$date以来的成员",
+    "share_message": "看看这个app，它拥有世界上最美丽的地方：$link"
   },
   "splash": {
-    "discover_where_to": "探索你接下来\n要飞往哪里。"
+    "discover_where_to": "发现下一个\n飞行目标。"
   },
   "travel_setting": {
-    "what_do_you_want_in_your_trip": "想在旅程中寻找些什么？",
-    "when_is_your_trip": "你准备什么时候出发？",
-    "go_var": "前往 $val",
+    "what_do_you_want_in_your_trip": "你在旅行中想要什么？",
+    "when_is_your_trip": "你的旅行是什么时候？",
+    "go_var": "去$val",
     "flexible_dates": "日期灵活",
     "exact_dates": "具体日期",
-    "select_origin": "选择出发地",
-    "add_details": "添加详情",
-    "your_preferences_will_appear_here": "你的偏好会显示在这里"
+    "select_origin": "选择起点",
+    "add_details": "添加详细信息",
+    "your_preferences_will_appear_here": "您的偏好将显示在这里"
   },
   "thing_todo": {
-    "things_to_do": "值得一做的事情"
+    "things_to_do": "要做的事"
   },
   "video_category": [
     "全部",
@@ -399,26 +397,26 @@
     "海滩",
     "城市",
     "美食 & 饮品",
-    "隐藏的珍宝",
-    "豪华",
+    "隐藏的宝石",
+    "奢华",
     "自然",
     "放松",
     "浪漫",
     "运动",
-    "热门类别"
+    "顶级类别"
   ],
   "weekdays_short": [
-    "一",
-    "二",
-    "三",
-    "四",
-    "五",
-    "六",
-    "日"
+    "周一",
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
   ],
   "adults": {
-    "one": "$n位成人",
-    "other": "$n位成人"
+    "one": "$n位成年人",
+    "other": "$n位成年人"
   },
   "days": {
     "one": "$n天",
@@ -433,49 +431,49 @@
     "other": "$n位客人"
   },
   "room": {
-    "one": "$n个房间",
-    "other": "$n个房间"
+    "one": "$n间房",
+    "other": "$n间房"
   },
   "person": {
-    "one": "$n人",
-    "other": "$n人"
+    "one": "$n个人",
+    "other": "$n个人"
   },
   "review": {
-    "zero": "无评论",
-    "one": "$n条评论",
-    "other": "$n条评论"
+    "zero": "没有评论",
+    "one": "$n个评论",
+    "other": "$n个评论"
   },
   "rooms": {
-    "one": "$n个房间",
-    "other": "$n个房间"
+    "one": "$n间房",
+    "other": "$n间房"
   },
   "stop": {
-    "one": "$n次中转",
-    "other": "$n次中转"
+    "one": "$n停",
+    "other": "$n停"
   },
   "stop_plus": {
-    "one": "$n站",
-    "other": "$n站以上"
+    "one": "$n停",
+    "other": "$n+停"
   },
   "traveller": {
-    "one": "$n位旅客",
-    "other": "$n位旅客"
+    "one": "$n位旅行者",
+    "other": "$n位旅行者"
   },
   "age": {
     "one": "$n岁",
     "other": "$n岁"
   },
   "allow": "允许",
-  "anything": "任何事",
+  "anything": "任何事情",
   "anytime": "任何时候",
   "anywhere": "任何地方",
-  "adultsWord": "成人",
+  "adultsWord": "成年人",
   "apply": "应用",
-  "around": "大约",
+  "around": "周围",
   "arrival": "到达",
-  "away": "别处",
-  "best": "最佳",
-  "bucketlists": "心愿清单",
+  "away": "离开",
+  "best": "最好",
+  "bucketlists": "心愿单",
   "cancel": "取消",
   "charactersWord": {
     "one": "$n个字符",
@@ -485,9 +483,9 @@
   "cheapest": "最便宜",
   "child": "儿童",
   "childrenWord": "儿童",
-  "classWord": "舱位",
-  "clear": "清空",
-  "clear_all": "全部清除",
+  "classWord": "类",
+  "clear": "清楚",
+  "clear_all": "清除全部",
   "collaborators": "合作者",
   "confirm": "确认",
   "contact_us": "联系我们",
@@ -501,19 +499,19 @@
   "departure": "出发",
   "description": "描述",
   "destination": "目的地",
-  "direct": "直飞",
+  "direct": "直达",
   "done": "完成",
   "duration": "持续时间",
   "edit": "编辑",
   "explore": "探索",
   "fastest": "最快",
   "feedback": "反馈",
-  "filter_by": "过滤",
-  "filters": "筛选",
+  "filter_by": "筛选条件",
+  "filters": "筛选器",
   "flight": "航班",
   "flights": "航班",
   "from": "从",
-  "from_var": "来自 $name",
+  "from_var": "从 $name",
   "hotelWord": "酒店",
   "infants": "婴儿",
   "know_more_word": "了解更多",
@@ -536,9 +534,9 @@
   "one_way": "单程",
   "pets": "宠物",
   "photos": "照片",
-  "preferences": "偏好",
-  "profileWord": "个人消息",
-  "powered_by": "由此提供",
+  "preferences": "首选项",
+  "profileWord": "个人档案",
+  "powered_by": "由...提供技术支持",
   "read_more": "阅读更多",
   "remove": "移除",
   "rename": "重命名",
@@ -548,32 +546,32 @@
   "search": "搜索",
   "save": "保存",
   "see_all": "查看全部",
-  "see_more": "查看更多",
+  "see_more": "看更多",
   "select": "选择",
-  "selected": "已选",
+  "selected": "已选择",
   "settings": "设置",
   "share": "分享",
   "show_more": "显示更多",
   "show_more_flights": "显示更多航班",
   "sign_up": "注册",
-  "show_less": "显示较少",
+  "show_less": "显示更少",
   "support": "支持",
   "skip": "跳过",
-  "skip_for_now": "现在跳过",
+  "skip_for_now": "暂时跳过",
   "sort_by": "排序方式",
   "stars": {
-    "one": "$n 星级",
-    "other": "$n 星级"
+    "one": "$n 星",
+    "other": "$n 星"
   },
   "start": "开始",
-  "stops": "停止",
-  "times": "次数",
+  "stops": "停靠",
+  "times": "次",
   "to": "到",
   "travelers": "旅行者",
   "unknown_error": "未知错误",
-  "unknown_name": "未知姓名",
+  "unknown_name": "未知名称",
   "update": "更新",
-  "user_cancelled": "用户已取消",
+  "user_cancelled": "用户取消",
   "varTotal": "$n 总计",
   "videos": "视频",
   "view": "查看",
@@ -583,6 +581,6 @@
   "what": "什么",
   "when": "何时",
   "month": "月",
-  "where_to": "到哪里",
-  "where_from": "从哪里"
+  "where_to": "去哪里",
+  "where_from": "从哪里出发"
 }
