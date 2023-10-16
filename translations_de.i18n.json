@@ -252,6 +252,37 @@
       "one": "Sehr schlecht",
       "zero": "Schrecklich"
     },
+    "property_type": {
+      "aparthotel": "Aparthotel",
+      "camping": "Camping",
+      "inn": "Gasthof",
+      "resort": "Resort",
+      "capsule-hotel": "Kapselhotel",
+      "japanese-style-business-hotel": "japanisches Business-Hotel",
+      "holiday-home": "Ferienhaus",
+      "guest-house": "Gästehaus",
+      "boat": "Boot",
+      "love-hotel": "Liebeshotel",
+      "ryokan": "Ryokan",
+      "tented-camp": "Zeltlager",
+      "hotel": "Hotel",
+      "condo": "Eigentumswohnung",
+      "motel": "Motel",
+      "sanatorium": "Sanatorium",
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "gite": "Landhaus",
+      "hostel": "Hostel",
+      "holiday-park": "Urlaubs Park",
+      "lodge": "Lodge",
+      "cottage": "Hütte",
+      "bed-and-breakfast": "Bed and Breakfast",
+      "homestay": "Privatunterkunft",
+      "farm-stay": "Bauernhof-Aufenthalt",
+      "chalet": "Chalet",
+      "riad": "Riad",
+      "country-house": "Landhaus"
+    },
     "cancellation_policy": "Stornierungsbedingungen",
     "before_you_book": "Bevor Sie buchen, stellen Sie sicher, dass Sie mit den Stornierungsbedingungen dieses Gastgebers einverstanden sind. Bitte beachten Sie, dass die Regelung zu unvorhergesehenen Ereignissen von Airbnb keine Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen aufgrund von COVID-19 abdeckt.",
     "property_views": "Objektansichten",
@@ -434,10 +465,6 @@
     "one": "$n Jahr alt",
     "other": "$n Jahre alt"
   },
-  "symbols": {
-    "one": "$n Symbol",
-    "other": "$n Symbole"
-  },
   "allow": "Erlauben",
   "anything": "Egal",
   "anytime": "Jederzeit",
@@ -450,6 +477,10 @@
   "best": "Beste",
   "bucketlists": "Eimerlisten",
   "cancel": "Abbrechen",
+  "charactersWord": {
+    "one": "$n Zeichen",
+    "other": "$n Zeichen"
+  },
   "checkIn": "Einchecken",
   "cheapest": "Günstigste",
   "child": "Kind",
@@ -465,6 +496,7 @@
   "creator": "Ersteller",
   "currency": "Währung",
   "dates": "Daten",
+  "deals": "Angebote",
   "delete": "Löschen",
   "departure": "Abfahrt",
   "description": "Beschreibung",
@@ -553,8 +585,8 @@
   "month": "Monat",
   "where_to": "Wohin",
   "where_from": "Woher",
-  "charactersWord": {
-    "one": "$n Zeichen",
-    "other": "$n Zeichen"
+  "symbols": {
+    "one": "$n Symbol",
+    "other": "$n Symbole"
   }
 }

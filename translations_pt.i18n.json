@@ -252,6 +252,37 @@
       "one": "Muito ruim",
       "zero": "Terrível"
     },
+    "property_type": {
+      "aparthotel": "Apartamento Hotel",
+      "camping": "Camping",
+      "inn": "Pousada",
+      "resort": "Resort",
+      "capsule-hotel": "Hotel Cápsula",
+      "japanese-style-business-hotel": "Hotel de Estilo Japonês",
+      "holiday-home": "Casa de Férias",
+      "guest-house": "Casa de Hóspedes",
+      "boat": "Barco",
+      "love-hotel": "Hotel do Amor",
+      "ryokan": "Ryokan",
+      "tented-camp": "Acampamento em Barracas",
+      "hotel": "Hotel",
+      "condo": "Condomínio",
+      "motel": "Motel",
+      "sanatorium": "Sanatório",
+      "apartment": "Apartamento",
+      "villa": "Villa",
+      "gite": "Gite",
+      "hostel": "Hostel",
+      "holiday-park": "Parque de Férias",
+      "lodge": "Cabana",
+      "cottage": "Chalé",
+      "bed-and-breakfast": "Cama e Café",
+      "homestay": "Alojamento em Casa de Família",
+      "farm-stay": "Estadia em Fazenda",
+      "chalet": "Chalé",
+      "riad": "Riad",
+      "country-house": "Casa de Campo"
+    },
     "cancellation_policy": "Política de cancelamento",
     "before_you_book": "Antes de reservar, certifique-se de que você está confortável com a política de cancelamento deste anfitrião. Lembre-se de que a política de circunstâncias atenuantes do Airbnb não cobre cancelamentos devido a doença ou interrupções de viagem causadas pela COVID-19.",
     "property_views": "Visualizações da propriedade",
@@ -434,10 +465,6 @@
     "one": "$n ano",
     "other": "$n anos"
   },
-  "symbols": {
-    "one": "$n símbolo",
-    "other": "$n símbolos"
-  },
   "allow": "Permitir",
   "anything": "Qualquer coisa",
   "anytime": "A qualquer momento",
@@ -450,6 +477,10 @@
   "best": "Melhor",
   "bucketlists": "Listas de desejos",
   "cancel": "Cancelar",
+  "charactersWord": {
+    "one": "$n caractere",
+    "other": "$n caracteres"
+  },
   "checkIn": "Check in",
   "cheapest": "Mais barato",
   "child": "Criança",
@@ -465,6 +496,7 @@
   "creator": "Criador",
   "currency": "Moeda",
   "dates": "Datas",
+  "deals": "Ofertas",
   "delete": "Deletar",
   "departure": "Partida",
   "description": "Descrição",
@@ -553,8 +585,8 @@
   "month": "Mês",
   "where_to": "Para onde",
   "where_from": "De onde",
-  "charactersWord": {
-    "one": "$n caractere",
-    "other": "$n caracteres"
+  "symbols": {
+    "one": "$n símbolo",
+    "other": "$n símbolos"
   }
 }

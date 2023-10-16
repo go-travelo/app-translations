@@ -252,6 +252,37 @@
       "one": "Très mauvais",
       "zero": "Terrible"
     },
+    "property_type": {
+      "aparthotel": "Résidence Hôtelière",
+      "camping": "Camping",
+      "inn": "Auberge",
+      "resort": "Complexe",
+      "capsule-hotel": "Hôtel Capsule",
+      "japanese-style-business-hotel": "Hôtel d'Affaires de Style Japonais",
+      "holiday-home": "Maison de Vacances",
+      "guest-house": "Maison d'Hôtes",
+      "boat": "Bateau",
+      "love-hotel": "Love Hotel",
+      "ryokan": "Ryokan",
+      "tented-camp": "Camp Sous Tentes",
+      "hotel": "Hôtel",
+      "condo": "Condo",
+      "motel": "Motel",
+      "sanatorium": "Sanatorium",
+      "apartment": "Appartement",
+      "villa": "Villa",
+      "gite": "Gîte",
+      "hostel": "Auberge de Jeunesse",
+      "holiday-park": "Parc de Vacances",
+      "lodge": "Lodge",
+      "cottage": "Chalet",
+      "bed-and-breakfast": "Chambre d'Hôtes",
+      "homestay": "Séjour Chez l'Habitant",
+      "farm-stay": "Séjour à la Ferme",
+      "chalet": "Chalet",
+      "riad": "Riad",
+      "country-house": "Maison de Campagne"
+    },
     "cancellation_policy": "Politique d'annulation",
     "before_you_book": "Avant de réserver, assurez-vous d'être à l'aise avec la politique d'annulation de cet hôte. Notez que la politique de circonstances atténuantes d'Airbnb ne couvre pas les annulations dues à des maladies ou à des perturbations de voyage causées par le COVID-19.",
     "property_views": "Vues de la propriété",
@@ -434,10 +465,6 @@
     "one": "$n an",
     "other": "$n ans"
   },
-  "symbols": {
-    "one": "$n symbole",
-    "other": "$n symboles"
-  },
   "allow": "Permettre",
   "anything": "N'importe quoi",
   "anytime": "À tout moment",
@@ -450,6 +477,10 @@
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
   "cancel": "Annuler",
+  "charactersWord": {
+    "one": "$n caractère",
+    "other": "$n caractères"
+  },
   "checkIn": "Enregistrement",
   "cheapest": "Le moins cher",
   "child": "Enfant",
@@ -465,6 +496,7 @@
   "creator": "Créateur",
   "currency": "Devise",
   "dates": "Dates",
+  "deals": "Offres",
   "delete": "Supprimer",
   "departure": "Départ",
   "description": "Description",
@@ -553,9 +585,9 @@
   "month": "Mois",
   "where_to": "Où",
   "where_from": "D'où",
-  "charactersWord": {
-    "one": "$n caractère",
-    "other": "$n caractères"
+  "symbols": {
+    "one": "$n symbole",
+    "other": "$n symboles"
   },
   "characters": {
     "one": "$n caractère",

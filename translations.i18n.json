@@ -52,7 +52,7 @@
       "messageHint" : "Ask me anything"
     }
   },
-  "tooltips": {
+  "tooltips" : {
     "tap_to_filter" : "Tap to filter",
     "tap_to_bucketlist" : "Tap to bucketlist",
     "tap_to_chat" : "Tap to chat",
@@ -221,7 +221,7 @@
       "price_highest_first" : "Price (highest first)",
       "price_lowest_first" : "Price (lowest first)"
     },
-    "filters": {
+    "filters" : {
       "budget" : "Your budget (for 1 night)",
       "travel_sustainable" : "Travel sustainable properties",
       "star_rating" : "Star rating",
@@ -232,23 +232,54 @@
       "review_score" : "Review score",
       "room_facilities" : "Room facilities"
     },
-    "filters_category": {
-      "five": "Fair 5+",
-      "six": "Pleasant: 6+",
-      "seven": "Good: 7+",
-      "eight": "Very Good: 8+",
-      "nine": "Wonderful: 9+"
+    "filters_category" : {
+      "five" : "Fair 5+",
+      "six" : "Pleasant: 6+",
+      "seven" : "Good: 7+",
+      "eight" : "Very Good: 8+",
+      "nine" : "Wonderful: 9+"
     },
-    "review_title": {
-      "five": "Fair",
-      "six": "Pleasant",
-      "seven": "Good",
-      "eight": "Very Good",
-      "nine": "Wonderful",
-      "three": "Not good",
-      "two": "Poor",
-      "one": "Very poor",
-      "zero": "Terrible"
+    "review_title" : {
+      "five" : "Fair",
+      "six" : "Pleasant",
+      "seven" : "Good",
+      "eight" : "Very Good",
+      "nine" : "Wonderful",
+      "three" : "Not good",
+      "two" : "Poor",
+      "one" : "Very poor",
+      "zero" : "Terrible"
+    },
+    "property_type" : {
+      "aparthotel" : "Aparthotel",
+      "camping" : "Camping",
+      "inn" : "Inn",
+      "resort" : "Resort",
+      "capsule-hotel" : "Capsule Hotel",
+      "japanese-style-business-hotel" : "Japanese Style Business Hotel",
+      "holiday-home" : "Holiday Home",
+      "guest-house" : "Guest House",
+      "boat" : "Boat",
+      "love-hotel" : "Love Hotel",
+      "ryokan" : "Ryokan",
+      "tented-camp" : "Tented Camp",
+      "hotel" : "Hotel",
+      "condo" : "Condo",
+      "motel" : "Motel",
+      "sanatorium" : "Sanatorium",
+      "apartment" : "Apartment",
+      "villa" : "Villa",
+      "gite" : "Gite",
+      "hostel" : "Hostel",
+      "holiday-park" : "Holiday Park",
+      "lodge" : "Lodge",
+      "cottage" : "Cottage",
+      "bed-and-breakfast" : "Bed and Breakfast",
+      "homestay" : "Homestay",
+      "farm-stay" : "Farm Stay",
+      "chalet" : "Chalet",
+      "riad" : "Riad",
+      "country-house" : "Country House"
     },
     "cancellation_policy" : "Cancellation policy",
     "before_you_book" : "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
@@ -463,6 +494,7 @@
   "creator" : "Creator",
   "currency" : "Currency",
   "dates" : "Dates",
+  "deals" : "Deals",
   "delete" : "Delete",
   "departure" : "Departure",
   "description" : "Description",

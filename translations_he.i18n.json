@@ -252,6 +252,37 @@
       "one": "חלשה מאוד",
       "zero": "נוראה"
     },
+    "property_type": {
+      "aparthotel": "דירה מלונית",
+      "camping": "אתר מחנאות",
+      "inn": "אירוח כפרי",
+      "resort": "מרכז נופש",
+      "capsule-hotel": "מלון קפסולה",
+      "japanese-style-business-hotel": "מלון עסקים בסגנון יפני",
+      "holiday-home": "בית חופשה",
+      "guest-house": "בית אירוח",
+      "boat": "סירה",
+      "love-hotel": "מלון אהבה",
+      "ryokan": "ריוקאן",
+      "tented-camp": "מחנה ממוקם",
+      "hotel": "מלון",
+      "condo": "דירה",
+      "motel": "מוטל",
+      "sanatorium": "סנטוריום",
+      "apartment": "דירה",
+      "villa": "וילה",
+      "gite": "גיט",
+      "hostel": "הוסטל",
+      "holiday-park": "פארק חופשה",
+      "lodge": "מלון",
+      "cottage": "צריף",
+      "bed-and-breakfast": "מקום לינה וארוחת בוקר",
+      "homestay": "שהייה בבית",
+      "farm-stay": "שהייה בחווה",
+      "chalet": "שאלה",
+      "riad": "ריאד",
+      "country-house": "בית כפרי"
+    },
     "cancellation_policy": "מדיניות ביטול",
     "before_you_book": "לפני שאתה מזמין, ודא שאתה מרגיש בנוח עם מדיניות הביטול של המארח. שים לב שמדיניות מקרים מיוחדים של Airbnb אינה כוללת ביטולים בשל מחלה או השבתת טיסות שנגרמה על ידי COVID-19.",
     "property_views": "תצאוגת הנכס",
@@ -434,10 +465,6 @@
     "one": "$n שנה",
     "other": "$n שנים"
   },
-  "symbols": {
-    "one": "סמל $n",
-    "other": "$n סמלים"
-  },
   "allow": "התר",
   "anything": "הכול",
   "anytime": "בכל זמן",
@@ -450,6 +477,10 @@
   "best": "הכי טוב",
   "bucketlists": "רשימות דלו",
   "cancel": "ביטול",
+  "charactersWord": {
+    "one": "תו $n",
+    "other": "$n תווים"
+  },
   "checkIn": "צ'ק אין",
   "cheapest": "הזול ביותר",
   "child": "ילד",
@@ -465,6 +496,7 @@
   "creator": "יוצר",
   "currency": "מטבע",
   "dates": "תאריכים",
+  "deals": "דילים",
   "delete": "מחק",
   "departure": "יציאה",
   "description": "תיאור",
@@ -553,9 +585,9 @@
   "month": "חודש",
   "where_to": "לאן",
   "where_from": "מאין",
-  "charactersWord": {
-    "one": "תו $n",
-    "other": "$n תווים"
+  "symbols": {
+    "one": "סמל $n",
+    "other": "$n סמלים"
   },
   "characters": {
     "one": "$n תו",

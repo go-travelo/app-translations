@@ -252,6 +252,37 @@
       "one": "Heel slecht",
       "zero": "Verschrikkelijk"
     },
+    "property_type": {
+      "aparthotel": "Aparthotel",
+      "camping": "Camping",
+      "inn": "Herberg",
+      "resort": "Resort",
+      "capsule-hotel": "Capsule Hotel",
+      "japanese-style-business-hotel": "Japans Stijl Business Hotel",
+      "holiday-home": "Vakantiehuis",
+      "guest-house": "Gastenverblijf",
+      "boat": "Boot",
+      "love-hotel": "Love Hotel",
+      "ryokan": "Ryokan",
+      "tented-camp": "Tentenkamp",
+      "hotel": "Hotel",
+      "condo": "Condo",
+      "motel": "Motel",
+      "sanatorium": "Sanatorium",
+      "apartment": "Appartement",
+      "villa": "Villa",
+      "gite": "Gite",
+      "hostel": "Hostel",
+      "holiday-park": "Vakantiepark",
+      "lodge": "Lodge",
+      "cottage": "Cottage",
+      "bed-and-breakfast": "Bed en Ontbijt",
+      "homestay": "Huiselijk verblijf",
+      "farm-stay": "Boerderij verblijf",
+      "chalet": "Chalet",
+      "riad": "Riad",
+      "country-house": "Landhuis"
+    },
     "cancellation_policy": "Annuleringsbeleid",
     "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
     "property_views": "Eigendomweergaven",
@@ -434,10 +465,6 @@
     "one": "$n jaar oud",
     "other": "$n jaar oud"
   },
-  "symbols": {
-    "one": "$n symbool",
-    "other": "$n symbolen"
-  },
   "allow": "Toestaan",
   "anything": "Alles",
   "anytime": "Altijd",
@@ -450,6 +477,10 @@
   "best": "Best",
   "bucketlists": "Bucketlists",
   "cancel": "Annuleren",
+  "charactersWord": {
+    "one": "$n teken",
+    "other": "$n tekens"
+  },
   "checkIn": "Inchecken",
   "cheapest": "Goedkoopste",
   "child": "Kind",
@@ -465,6 +496,7 @@
   "creator": "Maker",
   "currency": "Valuta",
   "dates": "Data",
+  "deals": "Aanbiedingen",
   "delete": "Delete",
   "departure": "Vertrek",
   "description": "Beschrijving",
@@ -553,8 +585,8 @@
   "month": "Maand",
   "where_to": "Waarheen",
   "where_from": "Waar vandaan",
-  "charactersWord": {
-    "one": "$n teken",
-    "other": "$n tekens"
+  "symbols": {
+    "one": "$n symbool",
+    "other": "$n symbolen"
   }
 }

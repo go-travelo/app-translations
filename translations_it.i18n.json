@@ -252,6 +252,37 @@
       "one": "Molto scarso",
       "zero": "Terribile"
     },
+    "property_type": {
+      "aparthotel": "Aparthotel",
+      "camping": "Camping",
+      "inn": "Locanda",
+      "resort": "Resort",
+      "capsule-hotel": "Hotel Capsula",
+      "japanese-style-business-hotel": "Business Hotel Stile Giapponese",
+      "holiday-home": "Casa Vacanze",
+      "guest-house": "Guest House",
+      "boat": "Barca",
+      "love-hotel": "Love Hotel",
+      "ryokan": "Ryokan",
+      "tented-camp": "Campo Tenda",
+      "hotel": "Hotel",
+      "condo": "Condominio",
+      "motel": "Motel",
+      "sanatorium": "Sanatorio",
+      "apartment": "Appartamento",
+      "villa": "Villa",
+      "gite": "Gite",
+      "hostel": "Ostello",
+      "holiday-park": "Parco Vacanze",
+      "lodge": "Lodge",
+      "cottage": "Cottage",
+      "bed-and-breakfast": "Bed and Breakfast",
+      "homestay": "Homestay",
+      "farm-stay": "Agriturismo",
+      "chalet": "Chalet",
+      "riad": "Riad",
+      "country-house": "Country House"
+    },
     "cancellation_policy": "Politica di cancellazione",
     "before_you_book": "Prima di prenotare, assicurati di accettare la politica di cancellazione di questo Host. Ricorda che la politica di Circostanze Attenuanti di Airbnb non copre le cancellazioni dovute a malattia o interruzioni di viaggio causate da COVID-19.",
     "property_views": "Viste della proprietà",
@@ -434,10 +465,6 @@
     "one": "$n anno",
     "other": "$n anni"
   },
-  "symbols": {
-    "one": "$n simbolo",
-    "other": "$n simboli"
-  },
   "allow": "Permetti",
   "anything": "Qualsiasi cosa",
   "anytime": "In qualsiasi momento",
@@ -450,6 +477,10 @@
   "best": "Migliore",
   "bucketlists": "Liste dei desideri",
   "cancel": "Annulla",
+  "charactersWord": {
+    "one": "$n carattere",
+    "other": "$n caratteri"
+  },
   "checkIn": "Check in",
   "cheapest": "Più economico",
   "child": "Bambino",
@@ -465,6 +496,7 @@
   "creator": "Creatore",
   "currency": "Valuta",
   "dates": "Date",
+  "deals": "Offerte",
   "delete": "Cancella",
   "departure": "Partenza",
   "description": "Descrizione",
@@ -553,8 +585,8 @@
   "month": "Mese",
   "where_to": "Dove",
   "where_from": "Da dove",
-  "charactersWord": {
-    "one": "$n carattere",
-    "other": "$n caratteri"
+  "symbols": {
+    "one": "$n simbolo",
+    "other": "$n simboli"
   }
 }

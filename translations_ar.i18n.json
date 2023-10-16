@@ -252,6 +252,37 @@
       "one": "ضعيف جدا",
       "zero": "سيئ"
     },
+    "property_type": {
+      "aparthotel": "شقة فندقية",
+      "camping": "تخييم",
+      "inn": "نُزُل",
+      "resort": "منتجع",
+      "capsule-hotel": "فندق كبسولة",
+      "japanese-style-business-hotel": "فندق أعمال بالطراز الياباني",
+      "holiday-home": "منزل العطل",
+      "guest-house": "بيت ضيافة",
+      "boat": "قارب",
+      "love-hotel": "فندق رومانسي",
+      "ryokan": "ريوكان",
+      "tented-camp": "مخيم مبيت",
+      "hotel": "فندق",
+      "condo": "شقة مشتركة",
+      "motel": "موتيل",
+      "sanatorium": "صحيفة",
+      "apartment": "شقة",
+      "villa": "فيلا",
+      "gite": "جايت",
+      "hostel": "نزل شباب",
+      "holiday-park": "منتزه عطل",
+      "lodge": "قرية سياحية",
+      "cottage": "كوخ",
+      "bed-and-breakfast": "سرير وإفطار",
+      "homestay": "إقامة منزلية",
+      "farm-stay": "إقامة في مزرعة",
+      "chalet": "شاليه",
+      "riad": "رياض",
+      "country-house": "منزل ريفي"
+    },
     "cancellation_policy": "سياسة الإلغاء",
     "before_you_book": "قبل الحجز ، تأكد من راحتك مع سياسة الإلغاء لهذا المضيف. يرجى مراعاة أن سياسة الظروف الخارجة عن الإرادة من Airbnb لا تغطي الإلغاءات بسبب المرض أو انقطاع الرحلة بسبب كوفيد-19.",
     "property_views": "مشاهدات العقار",
@@ -434,10 +465,6 @@
     "one": "$n سنة",
     "other": "$n سنوات"
   },
-  "symbols": {
-    "one": "رمز $n",
-    "other": "$n رموز"
-  },
   "allow": "السماح",
   "anything": "أي شيء",
   "anytime": "في أي وقت",
@@ -450,6 +477,10 @@
   "best": "الأفضل",
   "bucketlists": "قائمة الأمنيات",
   "cancel": "إلغاء",
+  "charactersWord": {
+    "one": "$n حرف",
+    "other": "$n أحرف"
+  },
   "checkIn": "تسجيل الوصول",
   "cheapest": "الأرخص",
   "child": "طفل",
@@ -465,6 +496,7 @@
   "creator": "المبتكر",
   "currency": "العملة",
   "dates": "التواريخ",
+  "deals": "عروض",
   "delete": "حذف",
   "departure": "مغادرة",
   "description": "وصف",
@@ -553,8 +585,8 @@
   "month": "الشهر",
   "where_to": "إلى أين",
   "where_from": "من أين",
-  "charactersWord": {
-    "one": "$n حرف",
-    "other": "$n أحرف"
+  "symbols": {
+    "one": "رمز $n",
+    "other": "$n رموز"
   }
 }
