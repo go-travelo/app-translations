@@ -96,11 +96,13 @@
     "flying_from" : "Flying from"
   },
   "places" : {
-    "europe" : "Europe",
     "africa" : "Africa",
+    "antarctica" : "Antarctica",
     "asia" : "Asia",
-    "oceania" : "Oceania",
+    "australia" : "Australia",
+    "europe" : "Europe",
     "north_america" : "North America",
+    "oceania" : "Oceania",
     "south_america" : "South America",
     "anywhere" : "Anywhere",
     "current_location" : "Current location"

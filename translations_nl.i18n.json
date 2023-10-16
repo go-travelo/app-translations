@@ -41,15 +41,30 @@
         },
         "tileOptions": {
           "minOptions": "Kies $min of meer kaarten"
+        },
+        "hotelOptions": {
+          "title": "Welk hotel vind je leuk?"
+        },
+        "itinerary": {
+          "day": "Dag"
         }
       },
       "messageHint": "Vraag me iets"
     }
   },
+  "tooltips": {
+    "tap_to_filter": "Tik om te filteren",
+    "tap_to_bucketlist": "Tik voor bucketlist",
+    "tap_to_chat": "Tik om te chatten",
+    "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar $country?"
+  },
   "bucketlist": {
     "no_name": "Geen Naam",
+    "name": "Naam",
     "bucketlist": "Bucketlist: $name",
     "bucketlist_saved": "Bucketlist succesvol opgeslagen",
+    "bucketlist_created": "Bucketlist succesvol gecreëerd",
+    "my_bucketlist": "Mijn Bucketlist",
     "login_to_view": "Log in om je bucketlist te bekijken",
     "leave_bucketlist": "Deze bucketlist verlaten?",
     "one_person": "Eén persoon",
@@ -62,6 +77,7 @@
     "as_you_search": "Terwijl je zoekt, tik je op het hartpictogram om je favoriete plaatsen en ervaringen op te slaan voor de bucketlist.",
     "add_to_bucketlist": "Voeg toe aan bucketlist",
     "create_new_bucketlist": "Maak een nieuwe bucketlist",
+    "create_bucketlist": "Bucketlist aanmaken",
     "save_destinations": "Sla bestemmingen op",
     "delete_bucketlist": "Bucketlist verwijderen?",
     "delete_bucketlist_message": "Weet je zeker dat je deze bucketlist wilt verwijderen?",
@@ -80,11 +96,13 @@
     "flying_from": "Vertrekken vanuit"
   },
   "places": {
-    "europe": "Europa",
     "africa": "Afrika",
+    "antarctica": "Antarctica",
     "asia": "Azië",
-    "oceania": "Oceanië",
+    "australia": "Australië",
+    "europe": "Europa",
     "north_america": "Noord-Amerika",
+    "oceania": "Oceanië",
     "south_america": "Zuid-Amerika",
     "anywhere": "Overal",
     "current_location": "Huidige locatie"
@@ -222,6 +240,17 @@
       "seven": "Goed: 7+",
       "eight": "Erg goed: 8+",
       "nine": "Wonderbaarlijk: 9+"
+    },
+    "review_title": {
+      "five": "Redelijk",
+      "six": "Aangenaam",
+      "seven": "Goed",
+      "eight": "Heel goed",
+      "nine": "Geweldig",
+      "three": "Niet goed",
+      "two": "Slecht",
+      "one": "Heel slecht",
+      "zero": "Verschrikkelijk"
     },
     "cancellation_policy": "Annuleringsbeleid",
     "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
@@ -405,8 +434,13 @@
     "one": "$n jaar oud",
     "other": "$n jaar oud"
   },
+  "symbols": {
+    "one": "$n symbool",
+    "other": "$n symbolen"
+  },
   "allow": "Toestaan",
   "anything": "Alles",
+  "anytime": "Altijd",
   "anywhere": "Overal",
   "adultsWord": "Volwassenen",
   "apply": "Toepassen",
@@ -427,6 +461,7 @@
   "confirm": "Bevestigen",
   "contact_us": "Contacteer ons",
   "continue_label": "Doorgaan",
+  "create": "Creëren",
   "creator": "Maker",
   "currency": "Valuta",
   "dates": "Data",
@@ -517,5 +552,9 @@
   "when": "Wanneer",
   "month": "Maand",
   "where_to": "Waarheen",
-  "where_from": "Waar vandaan"
+  "where_from": "Waar vandaan",
+  "charactersWord": {
+    "one": "$n teken",
+    "other": "$n tekens"
+  }
 }

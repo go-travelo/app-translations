@@ -41,15 +41,30 @@
         },
         "tileOptions": {
           "minOptions": "Escolha $min ou mais cartões"
+        },
+        "hotelOptions": {
+          "title": "Qual hotel você gosta?"
+        },
+        "itinerary": {
+          "day": "Dia"
         }
       },
       "messageHint": "Pergunte-me qualquer coisa"
     }
   },
+  "tooltips": {
+    "tap_to_filter": "Toque para filtrar",
+    "tap_to_bucketlist": "Toque para criar uma lista de desejos",
+    "tap_to_chat": "Toque para conversar",
+    "tap_to_help_country": "Precisa de ajuda para planejar uma viagem para $country?"
+  },
   "bucketlist": {
     "no_name": "Sem Nome",
+    "name": "Nome",
     "bucketlist": "Lista de Desejos: $name",
     "bucketlist_saved": "Lista de desejos salva com sucesso",
+    "bucketlist_created": "Lista de desejos criada com sucesso",
+    "my_bucketlist": "Minha lista de desejos",
     "login_to_view": "Faça login para ver a sua lista de desejos",
     "leave_bucketlist": "Sair desta lista de desejos?",
     "one_person": "Uma pessoa",
@@ -62,6 +77,7 @@
     "as_you_search": "À medida que você pesquisa, toque no ícone do coração para salvar os seus lugares e experiências favoritas na lista de desejos.",
     "add_to_bucketlist": "Adicionar à lista de desejos",
     "create_new_bucketlist": "Criar nova lista de desejos",
+    "create_bucketlist": "Criar lista de desejos",
     "save_destinations": "Salvar destinos",
     "delete_bucketlist": "Excluir lista de desejos?",
     "delete_bucketlist_message": "Tem certeza de que quer apagar esta lista de desejos?",
@@ -80,11 +96,13 @@
     "flying_from": "Partindo de"
   },
   "places": {
-    "europe": "Europa",
     "africa": "África",
+    "antarctica": "Antártica",
     "asia": "Ásia",
-    "oceania": "Oceania",
+    "australia": "Austrália",
+    "europe": "Europa",
     "north_america": "América do Norte",
+    "oceania": "Oceania",
     "south_america": "América do Sul",
     "anywhere": "Em qualquer lugar",
     "current_location": "Localização atual"
@@ -222,6 +240,17 @@
       "seven": "Bom: 7+",
       "eight": "Muito Bom: 8+",
       "nine": "Maravilhoso: 9+"
+    },
+    "review_title": {
+      "five": "Justo",
+      "six": "Agradável",
+      "seven": "Bom",
+      "eight": "Muito bom",
+      "nine": "Maravilhoso",
+      "three": "Não é bom",
+      "two": "Ruim",
+      "one": "Muito ruim",
+      "zero": "Terrível"
     },
     "cancellation_policy": "Política de cancelamento",
     "before_you_book": "Antes de reservar, certifique-se de que você está confortável com a política de cancelamento deste anfitrião. Lembre-se de que a política de circunstâncias atenuantes do Airbnb não cobre cancelamentos devido a doença ou interrupções de viagem causadas pela COVID-19.",
@@ -405,8 +434,13 @@
     "one": "$n ano",
     "other": "$n anos"
   },
+  "symbols": {
+    "one": "$n símbolo",
+    "other": "$n símbolos"
+  },
   "allow": "Permitir",
   "anything": "Qualquer coisa",
+  "anytime": "A qualquer momento",
   "anywhere": "Qualquer lugar",
   "adultsWord": "Adultos",
   "apply": "Aplicar",
@@ -427,6 +461,7 @@
   "confirm": "Confirmar",
   "contact_us": "Entre em contato",
   "continue_label": "Continuar",
+  "create": "Criar",
   "creator": "Criador",
   "currency": "Moeda",
   "dates": "Datas",
@@ -517,5 +552,9 @@
   "when": "Quando",
   "month": "Mês",
   "where_to": "Para onde",
-  "where_from": "De onde"
+  "where_from": "De onde",
+  "charactersWord": {
+    "one": "$n caractere",
+    "other": "$n caracteres"
+  }
 }

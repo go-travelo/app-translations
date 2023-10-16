@@ -96,11 +96,13 @@
     "flying_from": "Départ de"
   },
   "places": {
-    "europe": "Europe",
     "africa": "Afrique",
+    "antarctica": "Antarctique",
     "asia": "Asie",
-    "oceania": "Océanie",
+    "australia": "Australie",
+    "europe": "Europe",
     "north_america": "Amérique du Nord",
+    "oceania": "Océanie",
     "south_america": "Amérique du Sud",
     "anywhere": "N'importe où",
     "current_location": "Position actuelle"
@@ -432,6 +434,10 @@
     "one": "$n an",
     "other": "$n ans"
   },
+  "symbols": {
+    "one": "$n symbole",
+    "other": "$n symboles"
+  },
   "allow": "Permettre",
   "anything": "N'importe quoi",
   "anytime": "À tout moment",
@@ -444,10 +450,6 @@
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
   "cancel": "Annuler",
-  "charactersWord": {
-    "one": "$n caractère",
-    "other": "$n caractères"
-  },
   "checkIn": "Enregistrement",
   "cheapest": "Le moins cher",
   "child": "Enfant",
@@ -551,6 +553,10 @@
   "month": "Mois",
   "where_to": "Où",
   "where_from": "D'où",
+  "charactersWord": {
+    "one": "$n caractère",
+    "other": "$n caractères"
+  },
   "characters": {
     "one": "$n caractère",
     "other": "$n caractères"

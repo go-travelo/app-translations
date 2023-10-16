@@ -96,11 +96,13 @@
     "flying_from": "טס מ"
   },
   "places": {
-    "europe": "אירופה",
     "africa": "אפריקה",
+    "antarctica": "אנטארקטיקה",
     "asia": "אסיה",
-    "oceania": "אוקיאניה",
+    "australia": "אוסטרליה",
+    "europe": "אירופה",
     "north_america": "צפון אמריקה",
+    "oceania": "אוקיאניה",
     "south_america": "דרום אמריקה",
     "anywhere": "כל מקום",
     "current_location": "המיקום הנוכחי"
@@ -432,6 +434,10 @@
     "one": "$n שנה",
     "other": "$n שנים"
   },
+  "symbols": {
+    "one": "סמל $n",
+    "other": "$n סמלים"
+  },
   "allow": "התר",
   "anything": "הכול",
   "anytime": "בכל זמן",
@@ -444,10 +450,6 @@
   "best": "הכי טוב",
   "bucketlists": "רשימות דלו",
   "cancel": "ביטול",
-  "charactersWord": {
-    "one": "תו $n",
-    "other": "$n תווים"
-  },
   "checkIn": "צ'ק אין",
   "cheapest": "הזול ביותר",
   "child": "ילד",
@@ -551,6 +553,10 @@
   "month": "חודש",
   "where_to": "לאן",
   "where_from": "מאין",
+  "charactersWord": {
+    "one": "תו $n",
+    "other": "$n תווים"
+  },
   "characters": {
     "one": "$n תו",
     "other": "$n תווים"

@@ -96,11 +96,13 @@
     "flying_from": "Полет от"
   },
   "places": {
-    "europe": "Европа",
     "africa": "Африка",
+    "antarctica": "Антарктида",
     "asia": "Азия",
-    "oceania": "Океания",
+    "australia": "Австралия",
+    "europe": "Европа",
     "north_america": "Северна Америка",
+    "oceania": "Океания",
     "south_america": "Южна Америка",
     "anywhere": "Навсякъде",
     "current_location": "Текущо местоположение"
@@ -432,6 +434,10 @@
     "one": "$n годишен",
     "other": "$n годишни"
   },
+  "symbols": {
+    "one": "$n символ",
+    "other": "$n символа"
+  },
   "allow": "Разреши",
   "anything": "Всичко",
   "anytime": "По всяко време",
@@ -444,10 +450,6 @@
   "best": "Най-добрите",
   "bucketlists": "Списъци с желания",
   "cancel": "Отмени",
-  "charactersWord": {
-    "one": "$n символ",
-    "other": "$n символа"
-  },
   "checkIn": "Настаняване",
   "cheapest": "Най-евтините",
   "child": "Дете",
@@ -551,6 +553,10 @@
   "month": "Месец",
   "where_to": "Къде до",
   "where_from": "Откъде",
+  "charactersWord": {
+    "one": "$n символ",
+    "other": "$n символа"
+  },
   "characters": {
     "one": "$n символ",
     "other": "$n символи"
