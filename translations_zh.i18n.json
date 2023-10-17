@@ -93,6 +93,12 @@
       "two": "两人正在与您合作。",
       "other": "$n人正在与您合作。"
     },
+    "login_widget": {
+      "title": "登录或注册",
+      "continue_with": "继续使用",
+      "login_to_collaborate": "登录以合作",
+      "invited_you": "$username邀请你加入他的愿望清单"
+    },
     "flying_from": "从哪里飞往"
   },
   "places": {

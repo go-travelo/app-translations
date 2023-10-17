@@ -93,6 +93,12 @@
       "two": "Zwei Leute arbeiten mit Ihnen zusammen.",
       "other": "$n Leute arbeiten mit Ihnen zusammen."
     },
+    "login_widget": {
+      "title": "Einloggen oder registrieren",
+      "continue_with": "Weiter mit",
+      "login_to_collaborate": "Zum Kollaborieren einloggen",
+      "invited_you": "$username hat dich zu seiner Bucketlist eingeladen"
+    },
     "flying_from": "Abflug von"
   },
   "places": {

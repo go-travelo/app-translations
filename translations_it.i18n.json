@@ -93,6 +93,12 @@
       "two": "Due persone stanno collaborando con te.",
       "other": "$n persone stanno collaborando con te."
     },
+    "login_widget": {
+      "title": "Accedi o registrati",
+      "continue_with": "Continua con",
+      "login_to_collaborate": "Accedi per collaborare",
+      "invited_you": "$username ti ha invitato nel suo Bucketlist"
+    },
     "flying_from": "Partenza da"
   },
   "places": {

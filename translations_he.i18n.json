@@ -93,6 +93,12 @@
       "two": "שני אנשים משתפים פעולה איתך.",
       "other": "$n אנשים משתפים פעולה איתך."
     },
+    "login_widget": {
+      "title": "התחבר או הירשם",
+      "continue_with": "המשך עם",
+      "login_to_collaborate": "התחבר כדי לשתף פעולה",
+      "invited_you": "הוזמנת על ידי $username לרשימת המטיילים שלו"
+    },
     "flying_from": "טס מ"
   },
   "places": {

@@ -93,6 +93,12 @@
       "two": "Twee mensen werken met jou mee.",
       "other": "$n mensen werken met jou mee."
     },
+    "login_widget": {
+      "title": "Inloggen of registreren",
+      "continue_with": "Doorgaan met",
+      "login_to_collaborate": "Log in om samen te werken",
+      "invited_you": "$username heeft je uitgenodigd voor zijn Bucketlist"
+    },
     "flying_from": "Vertrekken vanuit"
   },
   "places": {

@@ -93,6 +93,12 @@
       "two": "شخصان يتعاونان معك.",
       "other": "$n أشخاص يتعاونون معك."
     },
+    "login_widget": {
+      "title": "تسجيل الدخول أو التسجيل",
+      "continue_with": "الاستمرار بواسطة",
+      "login_to_collaborate": "تسجيل الدخول للتعاون",
+      "invited_you": "$username دعاك لـ Bucketlist"
+    },
     "flying_from": "المغادرة من"
   },
   "places": {
