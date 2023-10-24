@@ -362,7 +362,15 @@
     "pick_cards": "Escolha 3 ou mais cartões",
     "where_will_you_depart_from": "De onde você vai partir?",
     "for_best_results": "Para melhores resultados, por favor, compartilhe sua localização",
-    "allow_location_access": "Permitir acesso à localização"
+    "allow_location_access": "Permitir acesso à localização",
+    "interests": {
+      "title": "Do que você está interessado?",
+      "subtitle": "Adicione mais interesses para que possamos começar a personalizar para você."
+    },
+    "location": {
+      "title": "De onde você viaja?",
+      "subtitle": "Para obter os melhores preços, conexões e tesouros escondidos próximos, compartilhe sua localização conosco."
+    }
   },
   "profile": {
     "spread_the_word": "Espalhe a palavra",
@@ -486,6 +494,7 @@
   "best": "Melhor",
   "bucketlists": "Listas de desejos",
   "cancel": "Cancelar",
+  "change": "Alterar",
   "charactersWord": {
     "one": "$n caractere",
     "other": "$n caracteres"
@@ -556,6 +565,7 @@
   "roomsWord": "Quartos",
   "search": "Pesquisar",
   "save": "Salvar",
+  "saved_to": "Salvo em",
   "see_all": "Ver tudo",
   "see_more": "Ver mais",
   "select": "Selecionar",

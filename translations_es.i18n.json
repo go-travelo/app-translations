@@ -362,7 +362,15 @@
     "pick_cards": "Selecciona 3 o más tarjetas",
     "where_will_you_depart_from": "¿Desde dónde partirás?",
     "for_best_results": "Para obtener los mejores resultados, comparte tu ubicación",
-    "allow_location_access": "Permitir el acceso a la ubicación"
+    "allow_location_access": "Permitir el acceso a la ubicación",
+    "interests": {
+      "title": "¿En qué estás interesado?",
+      "subtitle": "Agrega más intereses para que podamos comenzar a personalizar tu experiencia."
+    },
+    "location": {
+      "title": "¿Desde dónde viajas?",
+      "subtitle": "Para obtener los mejores precios, conexiones y lugares ocultos cerca de ti, comparte tu ubicación con nosotros."
+    }
   },
   "profile": {
     "spread_the_word": "Difunde la palabra",
@@ -486,6 +494,7 @@
   "best": "Mejor",
   "bucketlists": "Listas de deseos",
   "cancel": "Cancelar",
+  "change": "Cambiar",
   "charactersWord": {
     "one": "$n carácter",
     "other": "$n caracteres"
@@ -556,6 +565,7 @@
   "roomsWord": "Habitaciones",
   "search": "Buscar",
   "save": "Guardar",
+  "saved_to": "Guardado en",
   "see_all": "Ver todo",
   "see_more": "Ver más",
   "select": "Seleccionar",

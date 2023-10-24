@@ -362,7 +362,15 @@
     "pick_cards": "Wählen Sie 3 oder mehr Karten",
     "where_will_you_depart_from": "Von wo werden Sie abfahren?",
     "for_best_results": "Für die besten Ergebnisse teilen Sie bitte Ihren Standort",
-    "allow_location_access": "Standortzugriff erlauben"
+    "allow_location_access": "Standortzugriff erlauben",
+    "interests": {
+      "title": "Wofür interessieren Sie sich?",
+      "subtitle": "Fügen Sie weitere Interessen hinzu, damit wir beginnen können, personalisierte Inhalte für Sie bereitzustellen."
+    },
+    "location": {
+      "title": "Von wo aus reisen Sie?",
+      "subtitle": "Um die besten Preise, Verbindungen und versteckten Juwelen in Ihrer Nähe zu finden, teilen Sie uns bitte Ihren Standort mit."
+    }
   },
   "profile": {
     "spread_the_word": "Verbreiten Sie das Wort",
@@ -486,6 +494,7 @@
   "best": "Beste",
   "bucketlists": "Eimerlisten",
   "cancel": "Abbrechen",
+  "change": "Ändern",
   "charactersWord": {
     "one": "$n Zeichen",
     "other": "$n Zeichen"
@@ -556,6 +565,7 @@
   "roomsWord": "Zimmer",
   "search": "Suche",
   "save": "Speichern",
+  "saved_to": "Gespeichert in",
   "see_all": "Alle anzeigen",
   "see_more": "Mehr anzeigen",
   "select": "Auswählen",
