@@ -93,11 +93,11 @@
       "two" : "Two people are collaborating with you.",
       "other" : "$n people are collaborating with you."
     },
-    "login_widget": {
-      "title": "Log in or sign up",
-      "continue_with": "Continue with",
-      "login_to_collaborate": "Log in to collaborate",
-      "invited_you": "$username invited you to his Bucketlist"
+    "login_widget" : {
+      "title" : "Log in or sign up",
+      "continue_with" : "Continue with",
+      "login_to_collaborate" : "Log in to collaborate",
+      "invited_you" : "$username invited you to his Bucketlist"
     },
     "flying_from" : "Flying from"
   },
@@ -360,7 +360,15 @@
     "pick_cards" : "Pick 3 or more cards",
     "where_will_you_depart_from" : "Where will you depart from?",
     "for_best_results" : "For best results, please share you location",
-    "allow_location_access" : "Allow location access"
+    "allow_location_access" : "Allow location access",
+    "interests" : {
+      "title" : "What are you interested in?",
+      "subtitle" : "Add more interests so we can begin to personalize for you."
+    },
+    "location" : {
+      "title" : "Where do you travel from?",
+      "subtitle" : "To get the best prices, connections and hidden gems close by, share your location with us."
+    }
   },
   "profile" : {
     "spread_the_word" : "Spread the word",
@@ -484,6 +492,7 @@
   "best" : "Best",
   "bucketlists" : "Bucketlists",
   "cancel" : "Cancel",
+  "change" : "Change",
   "charactersWord" : {
     "one" : "$n character",
     "other" : "$n characters"
@@ -554,6 +563,7 @@
   "roomsWord" : "Rooms",
   "search" : "Search",
   "save" : "Save",
+  "saved_to" : "Saved to",
   "see_all" : "See all",
   "see_more" : "See more",
   "select" : "Select",

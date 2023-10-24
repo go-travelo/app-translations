@@ -360,7 +360,15 @@
     "pick_cards": "选择3张或更多卡片",
     "where_will_you_depart_from": "你会从哪里出发？",
     "for_best_results": "为了获得最佳效果，请分享你的位置",
-    "allow_location_access": "允许访问位置"
+    "allow_location_access": "允许访问位置",
+    "interests": {
+      "title": "你对什么感兴趣？",
+      "subtitle": "添加更多感兴趣的内容，我们将开始为您进行个性化推荐。"
+    },
+    "location": {
+      "title": "您从哪里旅行？",
+      "subtitle": "为了让我们为您提供最佳价格、连接和附近的隐藏宝藏，请与我们分享您的位置。"
+    }
   },
   "profile": {
     "spread_the_word": "推广",
@@ -484,6 +492,7 @@
   "best": "最好",
   "bucketlists": "心愿单",
   "cancel": "取消",
+  "change": "更改",
   "charactersWord": {
     "one": "$n个字符",
     "other": "$n个字符"
@@ -554,6 +563,7 @@
   "roomsWord": "房间",
   "search": "搜索",
   "save": "保存",
+  "saved_to": "保存至",
   "see_all": "查看全部",
   "see_more": "看更多",
   "select": "选择",
