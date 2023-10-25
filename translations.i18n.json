@@ -130,6 +130,7 @@
     "things_to_do" : "Things to do",
     "around_destination" : "around $destination",
     "select_a_flight" : "Select a flight",
+    "start_booking" : "Start Booking",
     "no_videos" : "Sorry we have no videos\nfor this destination"
   },
   "feed" : {
