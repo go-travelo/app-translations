@@ -26,6 +26,11 @@
         "msg3" : "What are you interested in?",
         "msg4" : "Where will you depart from?",
         "msg5" : "Thank you! I have everything I need so far. Press next to help me recommend you the world's most beautiful destinations personalised to you!"
+      },
+      "aesthetics" : {
+        "message" : "Help us understand your vibe",
+        "title" : "Tap to pick 3 or more cards",
+        "continueButton" : "Select $count more to continue"
       }
     },
     "chat" : {
