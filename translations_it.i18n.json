@@ -26,6 +26,11 @@
         "msg3": "Cosa ti interessa?",
         "msg4": "Da dove partirai?",
         "msg5": "Grazie! Ho tutto quello di cui ho bisogno finora. Premi avanti per aiutarmi a consigliarti le destinazioni più belle del mondo personalizzate per te!"
+      },
+      "aesthetics": {
+        "message": "Aiutaci a capire la tua vibrazione",
+        "title": "Tocca per selezionare 3 o più carte",
+        "continueButton": "Seleziona ancora ${count} per continuare"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "Cose da fare",
     "around_destination": "vicino a $destination",
     "select_a_flight": "Seleziona un volo",
-    "no_videos": "Spiacenti, non abbiamo video\nper questa destinazione"
+    "start_booking": "Inizia la prenotazione",
+    "no_videos": "Spiacenti, non abbiamo video\nper questa destinazione",
+    "view_map": "Vedi mappa"
   },
   "feed": {
     "how_do_you_like_the_app": "Ti piace l'app?",
@@ -362,7 +369,15 @@
     "pick_cards": "Scegli 3 o più carte",
     "where_will_you_depart_from": "Da dove partirai?",
     "for_best_results": "Per ottenere i migliori risultati, condividi la tua posizione",
-    "allow_location_access": "Permetti l'accesso alla posizione"
+    "allow_location_access": "Permetti l'accesso alla posizione",
+    "interests": {
+      "title": "Cosa ti interessa?",
+      "subtitle": "Aggiungi più interessi così possiamo iniziare a personalizzare per te."
+    },
+    "location": {
+      "title": "Da dove viaggi?",
+      "subtitle": "Per ottenere i migliori prezzi, collegamenti e tesori nascosti vicino a te, condividi la tua posizione con noi."
+    }
   },
   "profile": {
     "spread_the_word": "Diffondi la notizia",
@@ -486,6 +501,7 @@
   "best": "Migliore",
   "bucketlists": "Liste dei desideri",
   "cancel": "Annulla",
+  "change": "Cambia",
   "charactersWord": {
     "one": "$n carattere",
     "other": "$n caratteri"
@@ -524,6 +540,7 @@
   "from": "Da",
   "from_var": "Da $name",
   "hotelWord": "Hotel",
+  "hotels": "Hotel",
   "infants": "Lattanti",
   "know_more_word": "Saperne di più",
   "languageWord": "Lingua",
@@ -556,6 +573,7 @@
   "roomsWord": "Camere",
   "search": "Cerca",
   "save": "Salva",
+  "saved_to": "Salvato in",
   "see_all": "Vedi tutto",
   "see_more": "Vedi di più",
   "select": "Seleziona",

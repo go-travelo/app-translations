@@ -26,6 +26,11 @@
         "msg3": "Qu'est-ce qui vous intéresse?",
         "msg4": "D'où partirez-vous?",
         "msg5": "Merci! J'ai tout ce dont j'ai besoin pour l'instant. Appuyez sur suivant pour que je vous recommande les destinations les plus belles du monde, personnalisées pour vous!"
+      },
+      "aesthetics": {
+        "message": "Aidez-nous à comprendre votre style",
+        "title": "Appuyez pour choisir 3 cartes ou plus",
+        "continueButton": "Sélectionnez ${count} de plus pour continuer"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "Choses à faire",
     "around_destination": "autour de $destination",
     "select_a_flight": "Sélectionner un vol",
-    "no_videos": "Désolé, nous n'avons pas de vidéos\npour cette destination"
+    "start_booking": "Commencer la réservation",
+    "no_videos": "Désolé, nous n'avons pas de vidéos\npour cette destination",
+    "view_map": "Voir la carte"
   },
   "feed": {
     "how_do_you_like_the_app": "Que pensez-vous de l'application?",
@@ -362,7 +369,15 @@
     "pick_cards": "Choisissez 3 cartes ou plus",
     "where_will_you_depart_from": "D'où partirez-vous ?",
     "for_best_results": "Pour de meilleurs résultats, partagez votre emplacement",
-    "allow_location_access": "Autoriser l'accès à l'emplacement"
+    "allow_location_access": "Autoriser l'accès à l'emplacement",
+    "interests": {
+      "title": "Qu'est-ce qui vous intéresse?",
+      "subtitle": "Ajoutez plus d'intérêts pour que nous puissions commencer à personnaliser pour vous."
+    },
+    "location": {
+      "title": "D'où voyagez-vous?",
+      "subtitle": "Pour obtenir les meilleurs prix, connections et trésors cachés à proximité, partagez votre emplacement avec nous."
+    }
   },
   "profile": {
     "spread_the_word": "Faites passer le mot",
@@ -486,6 +501,7 @@
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
   "cancel": "Annuler",
+  "change": "Changer",
   "charactersWord": {
     "one": "$n caractère",
     "other": "$n caractères"
@@ -524,6 +540,7 @@
   "from": "De",
   "from_var": "De $name",
   "hotelWord": "Hôtel",
+  "hotels": "Hôtels",
   "infants": "Nourrissons",
   "know_more_word": "En savoir plus",
   "languageWord": "Langue",
@@ -556,6 +573,7 @@
   "roomsWord": "Chambres",
   "search": "Recherche",
   "save": "Sauvegarder",
+  "saved_to": "Enregistré dans",
   "see_all": "Voir tout",
   "see_more": "Voir plus",
   "select": "Sélectionner",

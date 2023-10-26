@@ -26,6 +26,11 @@
         "msg3": "你对什么感兴趣？",
         "msg4": "你将从哪里出发？",
         "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
+      },
+      "aesthetics": {
+        "message": "帮助我们了解你的气质",
+        "title": "点击选择3张或更多的卡片",
+        "continueButton": "选择 $count 张继续"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "可做的事情",
     "around_destination": "在$destination附近",
     "select_a_flight": "选择航班",
-    "no_videos": "对不起，我们没有这个目的地的视频\n"
+    "start_booking": "开始预订",
+    "no_videos": "对不起，我们没有这个目的地的视频\n",
+    "view_map": "查看地图"
   },
   "feed": {
     "how_do_you_like_the_app": "你觉得这个应用怎么样？",
@@ -531,6 +538,7 @@
   "from": "从",
   "from_var": "从 $name",
   "hotelWord": "酒店",
+  "hotels": "酒店",
   "infants": "婴儿",
   "know_more_word": "了解更多",
   "languageWord": "语言",

@@ -26,6 +26,11 @@
         "msg3": "O que lhe interessa?",
         "msg4": "De onde você partirá?",
         "msg5": "Obrigado! Eu tenho tudo o que preciso até agora. Pressione próximo para que eu possa recomendar os destinos mais bonitos do mundo personalizados para você!"
+      },
+      "aesthetics": {
+        "message": "Ajude-nos a entender o seu estilo",
+        "title": "Toque para selecionar 3 ou mais cartões",
+        "continueButton": "Selecione mais ${count} para continuar"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "Coisas para fazer",
     "around_destination": "em torno de $destination",
     "select_a_flight": "Selecionar um voo",
-    "no_videos": "Desculpe, não temos vídeos\npara este destino"
+    "start_booking": "Começar Reserva",
+    "no_videos": "Desculpe, não temos vídeos\npara este destino",
+    "view_map": "Ver Mapa"
   },
   "feed": {
     "how_do_you_like_the_app": "Como você gosta do App?",
@@ -533,6 +540,7 @@
   "from": "De",
   "from_var": "De $name",
   "hotelWord": "Hotel",
+  "hotels": "Hotéis",
   "infants": "Bebês",
   "know_more_word": "Saber mais",
   "languageWord": "Idioma",

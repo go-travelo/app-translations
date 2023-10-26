@@ -26,6 +26,11 @@
         "msg3": "Was interessiert dich?",
         "msg4": "Wo wirst du starten?",
         "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!"
+      },
+      "aesthetics": {
+        "message": "Hilf uns, deinen Stil zu verstehen",
+        "title": "Tippe, um 3 oder mehr Karten auszuwählen",
+        "continueButton": "Wähle noch $count aus, um fortzufahren"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "Dinge zu tun",
     "around_destination": "in der Nähe von $destination",
     "select_a_flight": "Flug auswählen",
-    "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel"
+    "start_booking": "Buchung starten",
+    "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel",
+    "view_map": "Karte anzeigen"
   },
   "feed": {
     "how_do_you_like_the_app": "Wie gefällt Ihnen die App?",
@@ -533,6 +540,7 @@
   "from": "Von",
   "from_var": "Von $name",
   "hotelWord": "Hotel",
+  "hotels": "Hotels",
   "infants": "Kleinkinder",
   "know_more_word": "Erfahre mehr",
   "languageWord": "Sprache",

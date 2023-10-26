@@ -136,7 +136,8 @@
     "around_destination" : "around $destination",
     "select_a_flight" : "Select a flight",
     "start_booking" : "Start Booking",
-    "no_videos" : "Sorry we have no videos\nfor this destination"
+    "no_videos" : "Sorry we have no videos\nfor this destination",
+    "view_map" : "View map"
   },
   "feed" : {
     "how_do_you_like_the_app" : "How do you like the App?",
@@ -537,6 +538,7 @@
   "from" : "From",
   "from_var" : "From $name",
   "hotelWord" : "Hotel",
+  "hotels" : "Hotels",
   "infants" : "Infants",
   "know_more_word" : "Know more",
   "languageWord" : "Language",
