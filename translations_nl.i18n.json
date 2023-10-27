@@ -26,6 +26,11 @@
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
         "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
+      },
+      "aesthetics": {
+        "message": "Help ons jouw vibe begrijpen",
+        "title": "Tik om 3 of meer kaarten te kiezen",
+        "continueButton": "Selecteer nog $count om door te gaan"
       }
     },
     "chat": {
@@ -130,7 +135,9 @@
     "things_to_do": "Dingen om te doen",
     "around_destination": "rond $destination",
     "select_a_flight": "Selecteer een vlucht",
-    "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming"
+    "start_booking": "Boeking starten",
+    "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
+    "view_map": "Bekijk kaart"
   },
   "feed": {
     "how_do_you_like_the_app": "Hoe bevalt de app?",
@@ -362,7 +369,15 @@
     "pick_cards": "Kies 3 of meer kaarten",
     "where_will_you_depart_from": "Waar vertrek je?",
     "for_best_results": "Voor de beste resultaten, deel je locatie",
-    "allow_location_access": "Toegang tot locatie toestaan"
+    "allow_location_access": "Toegang tot locatie toestaan",
+    "interests": {
+      "title": "Waar ben je in geïnteresseerd?",
+      "subtitle": "Voeg meer interesses toe zodat we kunnen beginnen met personaliseren."
+    },
+    "location": {
+      "title": "Waar reis je vandaan?",
+      "subtitle": "Om de beste prijzen, verbindingen en verborgen pareltjes in de buurt te krijgen, deel je locatie met ons."
+    }
   },
   "profile": {
     "spread_the_word": "Verspreid het woord",
@@ -486,6 +501,7 @@
   "best": "Best",
   "bucketlists": "Bucketlists",
   "cancel": "Annuleren",
+  "change": "Veranderen",
   "charactersWord": {
     "one": "$n teken",
     "other": "$n tekens"
@@ -524,6 +540,7 @@
   "from": "Van",
   "from_var": "Van $name",
   "hotelWord": "Hotel",
+  "hotels": "Hotels",
   "infants": "Baby's",
   "know_more_word": "Meer weten",
   "languageWord": "Taal",
@@ -531,6 +548,7 @@
   "legal": "Wettelijk",
   "login": "Log in",
   "location": "Locatie",
+  "map": "Kaart",
   "next": "Volgende",
   "nightWord": "Nacht",
   "nights": {
@@ -556,6 +574,7 @@
   "roomsWord": "Kamers",
   "search": "Zoeken",
   "save": "Opslaan",
+  "saved_to": "Opgeslagen in",
   "see_all": "Zie alles",
   "see_more": "Zie meer",
   "select": "Selecteer",
