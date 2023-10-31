@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "随便问我",
-        "msg1": "嗨 $user 👋\n\n我是 Adeo，您的旅行顾问。\n\n在我们开始之前，我很想了解你是什么类型的旅行者。🌍\n\n告诉我你正在寻找什么类型的旅行，通过写作或说话。",
+        "msg1": "嗨 $user 👋\n\n我是 Layla，您的旅行顾问。\n\n在我们开始之前，我很想了解你是什么类型的旅行者。🌍\n\n告诉我你正在寻找什么类型的旅行，通过写作或说话。",
         "msg2": "太棒了！我想我理解你在寻找什么。\n\n您还有其他需求吗？",
         "msg3": "你对什么感兴趣？",
         "msg4": "你将从哪里出发？",
@@ -34,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "Adeo 聊天",
+      "title": "Layla 聊天",
       "messages": {
         "location": {
           "requestTitle": "你将从哪里出发？",
@@ -121,7 +121,7 @@
   "explore_feat": {
     "add_destination": "添加目的地",
     "add_dates": "添加日期",
-    "check_out_this_place": "我知道我们下一步应该一起去哪。在Adeo上我发现了一个地方。",
+    "check_out_this_place": "我知道我们下一步应该一起去哪。在Layla上我发现了一个地方。",
     "book_flights": "订购机票",
     "land_in": "在$destination降落",
     "no_flights_found": "未找到航班",

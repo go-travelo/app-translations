@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "Vraag me iets",
-        "msg1": "Hoi $user 👋\n\nIk ben Adeo, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+        "msg1": "Hoi $user 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
         "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
@@ -34,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "Adeo Chat",
+      "title": "Layla Chat",
       "messages": {
         "location": {
           "requestTitle": "Waar vertrek je vandaan?",
@@ -121,7 +121,7 @@
   "explore_feat": {
     "add_destination": "Bestemming toevoegen",
     "add_dates": "Data toevoegen",
-    "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Adeo",
+    "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
     "book_flights": "Boek vluchten",
     "land_in": "Land in $destination",
     "no_flights_found": "Geen vluchten gevonden",

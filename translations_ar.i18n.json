@@ -34,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "دردشة Adeo",
+      "title": "دردشة Layla",
       "messages": {
         "location": {
           "requestTitle": "من أين ستنطلق؟",
@@ -121,7 +121,7 @@
   "explore_feat": {
     "add_destination": "أضف وجهة",
     "add_dates": "أضف التواريخ ",
-    "check_out_this_place": "أعرف مكاناً يجب أن نذهب إليه معاً. شاهد هذا المكان الذي وجدته في Adeo",
+    "check_out_this_place": "أعرف مكاناً يجب أن نذهب إليه معاً. شاهد هذا المكان الذي وجدته في Layla",
     "book_flights": "احجز رحلات",
     "land_in": "الوصول إلى $destination",
     "no_flights_found": "لا توجد رحلات",

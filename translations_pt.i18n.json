@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "Pergunte-me qualquer coisa",
-        "msg1": "Oi $user 👋\n\nSou Adeo, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
+        "msg1": "Oi $user 👋\n\nSou Layla, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
         "msg2": "Incrível! Acho que entendi o que você está procurando.\n\nVocê tem mais algum requisito?",
         "msg3": "O que lhe interessa?",
         "msg4": "De onde você partirá?",
@@ -34,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "Chat da Adeo",
+      "title": "Chat da Layla",
       "messages": {
         "location": {
           "requestTitle": "De onde você irá partir?",
@@ -121,7 +121,7 @@
   "explore_feat": {
     "add_destination": "Adicionar destino",
     "add_dates": "Adicionar datas",
-    "check_out_this_place": "Sei para onde devemos ir juntos. Confira este lugar que encontrei no Adeo",
+    "check_out_this_place": "Sei para onde devemos ir juntos. Confira este lugar que encontrei no Layla",
     "book_flights": "Reservar voos",
     "land_in": "Chegar em $destination",
     "no_flights_found": "Nenhum voo encontrado",

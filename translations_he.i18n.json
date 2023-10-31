@@ -21,7 +21,7 @@
       },
       "chatbot": {
         "inputHint": "שאל אותי כל דבר",
-        "msg1": "היי $user 👋\n\nאני Adeo, היועץ לנסיעות שלך.\n\n לפני שנתחיל, כמה אני אשמח לדעת מה הסוג המועדף עליך של מטייל.\n\n ספר לי איזה סוג של טיול אתה מחפש בעזרת כתיבה או דיבור.",
+        "msg1": "היי $user 👋\n\nאני Layla, היועץ לנסיעות שלך.\n\n לפני שנתחיל, כמה אני אשמח לדעת מה הסוג המועדף עליך של מטייל.\n\n ספר לי איזה סוג של טיול אתה מחפש בעזרת כתיבה או דיבור.",
         "msg2": "נהדר! אני חושב שאני מבין מה אתה מחפש. \n\nהאם יש לך דרישות נוספות?",
         "msg3": "מה מעניין אותך?",
         "msg4": "מאיפה אתה יוצא?",
@@ -29,7 +29,7 @@
       }
     },
     "chat": {
-      "title": "צ'אט Adeo",
+      "title": "צ'אט Layla",
       "messages": {
         "location": {
           "requestTitle": "מאיפה אתה יוצא?",
@@ -116,7 +116,7 @@
   "explore_feat": {
     "add_destination": "הוסף יעד",
     "add_dates": "הוסף תאריכים",
-    "check_out_this_place": "אני יודעה לאיפה צריך ללכת ביחד פעם הבאה. בדוק את המקום שמצאתי ב-Adeo",
+    "check_out_this_place": "אני יודעה לאיפה צריך ללכת ביחד פעם הבאה. בדוק את המקום שמצאתי ב-Layla",
     "book_flights": "הזמן טיסות",
     "land_in": "נחיתה ב-$destination",
     "no_flights_found": "לא נמצאו טיסות",
