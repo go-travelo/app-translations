@@ -25,12 +25,7 @@
         "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
-        "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!",
-        "aesthetics": {
-          "message": "Help ons jouw sfeer te begrijpen",
-          "title": "Tik om 3 of meer kaarten te kiezen",
-          "continueButton": "Kies nog $count om door te gaan"
-        }
+        "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
       },
       "chat": {
         "title": "Layla Chat",

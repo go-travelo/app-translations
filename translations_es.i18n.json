@@ -25,12 +25,8 @@
         "msg2": "¡Increíble! Creo que entiendo lo que estás buscando.\n\n¿Tienes más requisitos?",
         "msg3": "¿Qué te interesa?",
         "msg4": "¿Desde dónde vas a partir?",
-        "msg5": "¡Gracias! Hasta ahora tengo todo lo que necesito. Presiona siguiente para que te pueda recomendar los destinos más hermosos del mundo personalizados para ti!",
-        "aesthetics": {
-          "message": "Ayúdanos a entender tu estilo",
-          "title": "Toca para seleccionar 3 o más tarjetas",
-          "continueButton": "Selecciona $count más para continuar"
-        }
+        "msg5": "¡Gracias! Hasta ahora tengo todo lo que necesito. Presiona siguiente para que te pueda recomendar los destinos más hermosos del mundo personalizados para ti!"
+        
       },
       "chat": {
         "title": "Chat de Layla",
