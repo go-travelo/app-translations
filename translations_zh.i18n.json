@@ -28,29 +28,6 @@
         "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
         
       },
-      "chat": {
-        "title": "Layla Chat",
-        "messages": {
-          "location": {
-            "requestTitle": "你将从哪里出发？",
-            "requestSubtitle": "为了获得最佳结果，请允许访问位置信息",
-            "requestButton": "允许访问位置"
-          },
-          "flight": {
-            "fromToAroundPrice": "从 $from 到 $to 的航班约 $price"
-          },
-          "tileOptions": {
-            "minOptions": "选择 $min 张或更多卡片"
-          },
-          "hotelOptions": {
-            "title": "你喜欢哪个酒店？"
-          },
-          "itinerary": {
-            "day": "第 $day 天"
-          }
-        },
-        "messageHint": "随便问我什么"
-      },
       "aesthetics": {
         "message": "帮助我们了解你的气质",
         "title": "点击选择3张或更多的卡片",

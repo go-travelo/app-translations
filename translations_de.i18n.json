@@ -28,29 +28,6 @@
         "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!"
        
       },
-      "chat": {
-        "title": "Layla Chat",
-        "messages": {
-          "location": {
-            "requestTitle": "Von wo aus starten Sie?",
-            "requestSubtitle": "Für beste Ergebnisse, erlauben Sie den Zugriff auf Ihren Standort",
-            "requestButton": "Standort erlauben"
-          },
-          "flight": {
-            "fromToAroundPrice": "Flüge von $from nach $to ungefähr $price"
-          },
-          "tileOptions": {
-            "minOptions": "Wählen Sie mindestens $min Karten aus"
-          },
-          "hotelOptions": {
-            "title": "Welches Hotel gefällt Ihnen?"
-          },
-          "itinerary": {
-            "day": "Tag"
-          }
-        },
-        "messageHint": "Fragen Sie mich etwas"
-      },
       "aesthetics": {
         "message": "Hilf uns, deinen Stil zu verstehen",
         "title": "Tippe, um 3 oder mehr Karten auszuwählen",

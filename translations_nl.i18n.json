@@ -27,29 +27,6 @@
         "msg4": "Waar vertrek je vandaan?",
         "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
       },
-      "chat": {
-        "title": "Layla Chat",
-        "messages": {
-          "location": {
-            "requestTitle": "Waar vertrek je vandaan?",
-            "requestSubtitle": "Voor de beste resultaten, sta locatietoegang toe",
-            "requestButton": "Sta locatie toe"
-          },
-          "flight": {
-            "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
-          },
-          "tileOptions": {
-            "minOptions": "Kies $min of meer kaarten"
-          },
-          "hotelOptions": {
-            "title": "Welk hotel vind je leuk?"
-          },
-          "itinerary": {
-            "day": "Dag"
-          }
-        },
-        "messageHint": "Stel me een vraag"
-      },
       "aesthetics": {
         "message": "Help ons jouw vibe begrijpen",
         "title": "Tik om 3 of meer kaarten te kiezen",
