@@ -21,11 +21,39 @@
       },
       "chatbot": {
         "inputHint": "Vraag me iets",
-        "msg1": "Hoi $user 👋\n\nIk ben Adeo, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+        "msg1": "Hoi $user 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
         "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
-        "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
+        "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!",
+        "aesthetics": {
+          "message": "Help ons jouw sfeer te begrijpen",
+          "title": "Tik om 3 of meer kaarten te kiezen",
+          "continueButton": "Kies nog $count om door te gaan"
+        }
+      },
+      "chat": {
+        "title": "Layla Chat",
+        "messages": {
+          "location": {
+            "requestTitle": "Waar vertrek je vandaan?",
+            "requestSubtitle": "Voor de beste resultaten, sta locatietoegang toe",
+            "requestButton": "Sta locatie toe"
+          },
+          "flight": {
+            "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
+          },
+          "tileOptions": {
+            "minOptions": "Kies $min of meer kaarten"
+          },
+          "hotelOptions": {
+            "title": "Welk hotel vind je leuk?"
+          },
+          "itinerary": {
+            "day": "Dag"
+          }
+        },
+        "messageHint": "Stel me een vraag"
       },
       "aesthetics": {
         "message": "Help ons jouw vibe begrijpen",
@@ -34,7 +62,7 @@
       }
     },
     "chat": {
-      "title": "Adeo Chat",
+      "title": "Layla Chat",
       "messages": {
         "location": {
           "requestTitle": "Waar vertrek je vandaan?",
@@ -121,7 +149,7 @@
   "explore_feat": {
     "add_destination": "Bestemming toevoegen",
     "add_dates": "Data toevoegen",
-    "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Adeo",
+    "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
     "book_flights": "Boek vluchten",
     "land_in": "Land in $destination",
     "no_flights_found": "Geen vluchten gevonden",
@@ -140,6 +168,12 @@
     "view_map": "Bekijk kaart"
   },
   "feed": {
+    "for_you_card": {
+      "budget-friendly": "Budgetvriendelijke bestemming",
+      "reasonably_priced": "Redelijk geprijsde bestemming",
+      "costly": "Dure bestemming",
+      "very_expensive": "Zeer dure bestemming"
+    },
     "price_types": [
       "Voordelige bestemming",
       "Redelijk geprijsde bestemming",
@@ -169,12 +203,6 @@
     "no_results_found": "Geen resultaten gevonden!",
     "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
     "return_with_bullet": " $code retour",
-    "for_you_card": {
-      "budget-friendly": "Budgetvriendelijke bestemming",
-      "reasonably_priced": "Redelijk geprijsde bestemming",
-      "costly": "Dure bestemming",
-      "very_expensive": "Zeer dure bestemming"
-    },
     "tap_to_filter": "Tik om te filteren",
     "tap_to_bucketlist": "Tik om aan de bucketlist toe te voegen"
   },
@@ -592,6 +620,7 @@
   "see_all": "Zie alles",
   "see_more": "Zie meer",
   "select": "Selecteer",
+  "select_dates": "Selecteer data",
   "selected": "Geselecteerd",
   "settings": "Instellingen",
   "share": "Delen",

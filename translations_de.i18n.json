@@ -21,11 +21,39 @@
       },
       "chatbot": {
         "inputHint": "Frag mich irgendetwas",
-        "msg1": "Hallo $user 👋\n\nIch bin Adeo, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welche Art von Reisendem du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
+        "msg1": "Hallo $user 👋\n\nIch bin Layla, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welche Art von Reisendem du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
         "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
         "msg3": "Was interessiert dich?",
         "msg4": "Wo wirst du starten?",
-        "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!"
+        "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!",
+        "aesthetics": {
+          "message": "Helfen Sie uns, Ihren Vibe zu verstehen",
+          "title": "Tippen Sie, um 3 oder mehr Karten auszuwählen",
+          "continueButton": "Wählen Sie $count weitere aus, um fortzufahren"
+        }
+      },
+      "chat": {
+        "title": "Layla Chat",
+        "messages": {
+          "location": {
+            "requestTitle": "Von wo aus starten Sie?",
+            "requestSubtitle": "Für beste Ergebnisse, erlauben Sie den Zugriff auf Ihren Standort",
+            "requestButton": "Standort erlauben"
+          },
+          "flight": {
+            "fromToAroundPrice": "Flüge von $from nach $to ungefähr $price"
+          },
+          "tileOptions": {
+            "minOptions": "Wählen Sie mindestens $min Karten aus"
+          },
+          "hotelOptions": {
+            "title": "Welches Hotel gefällt Ihnen?"
+          },
+          "itinerary": {
+            "day": "Tag"
+          }
+        },
+        "messageHint": "Fragen Sie mich etwas"
       },
       "aesthetics": {
         "message": "Hilf uns, deinen Stil zu verstehen",
@@ -34,7 +62,7 @@
       }
     },
     "chat": {
-      "title": "Adeo Chat",
+      "title": "Layla Chat",
       "messages": {
         "location": {
           "requestTitle": "Wo werden Sie abreisen?",
@@ -121,7 +149,7 @@
   "explore_feat": {
     "add_destination": "Reiseziel hinzufügen",
     "add_dates": "Daten hinzufügen",
-    "check_out_this_place": "Ich weiß, wohin wir als nächstes zusammen gehen sollten. Schau dir diesen Ort an, den ich auf Adeo gefunden habe",
+    "check_out_this_place": "Ich weiß, wohin wir als nächstes zusammen gehen sollten. Schau dir diesen Ort an, den ich auf Layla gefunden habe",
     "book_flights": "Flüge buchen",
     "land_in": "Landen in $destination",
     "no_flights_found": "Keine Flüge gefunden",
@@ -140,6 +168,12 @@
     "view_map": "Karte anzeigen"
   },
   "feed": {
+    "for_you_card": {
+      "budget-friendly": "Preiswertes Reiseziel",
+      "reasonably_priced": "Angemessen teures Reiseziel",
+      "costly": "Teures Reiseziel",
+      "very_expensive": "Sehr teures Reiseziel"
+    },
     "price_types": [
       "Günstiges Reiseziel",
       "Preiswertes Reiseziel",
@@ -169,12 +203,6 @@
     "no_results_found": "Keine Ergebnisse gefunden!",
     "consider_broadening": "Hoppla! Wir konnten keine Übereinstimmungen auf Basis Ihrer aktuellen Präferenzen finden. Überlegen Sie, ob Sie Ihre Suche erweitern möchten, indem Sie Ihre Präferenzen für eine breitere Palette von Optionen anpassen.",
     "return_with_bullet": " $code Hin- und Rückflug",
-    "for_you_card": {
-      "budget-friendly": "Preiswertes Reiseziel",
-      "reasonably_priced": "Angemessen teures Reiseziel",
-      "costly": "Teures Reiseziel",
-      "very_expensive": "Sehr teures Reiseziel"
-    },
     "tap_to_filter": "Tippen, um zu filtern",
     "tap_to_bucketlist": "Tippen, um zur Wunschliste hinzuzufügen"
   },
@@ -592,6 +620,7 @@
   "see_all": "Alle anzeigen",
   "see_more": "Mehr anzeigen",
   "select": "Auswählen",
+  "select_dates": "Wählen Sie Daten aus",
   "selected": "Ausgewählt",
   "settings": "Einstellungen",
   "share": "Teilen",

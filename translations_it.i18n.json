@@ -21,11 +21,39 @@
       },
       "chatbot": {
         "inputHint": "Chiedimi qualsiasi cosa",
-        "msg1": "Ciao $user 👋\n\nSono Adeo, il tuo consulente di viaggio.\n\nPrima di iniziare, mi piacerebbe capire che tipo di viaggiatore sei. 🌍\n\nDimmi che tipo di viaggio stai cercando scrivendo o parlando.",
+        "msg1": "Ciao $user 👋\n\nSono Layla, il tuo consulente di viaggio.\n\nPrima di iniziare, mi piacerebbe capire che tipo di viaggiatore sei. 🌍\n\nDimmi che tipo di viaggio stai cercando scrivendo o parlando.",
         "msg2": "Fantastico! Penso di capire cosa stai cercando.\n\nHai altre richieste?",
         "msg3": "Cosa ti interessa?",
         "msg4": "Da dove partirai?",
-        "msg5": "Grazie! Ho tutto quello di cui ho bisogno finora. Premi avanti per aiutarmi a consigliarti le destinazioni più belle del mondo personalizzate per te!"
+        "msg5": "Grazie! Ho tutto quello di cui ho bisogno finora. Premi avanti per aiutarmi a consigliarti le destinazioni più belle del mondo personalizzate per te!",
+        "aesthetics": {
+          "message": "Aiutaci a capire il tuo stile",
+          "title": "Tocca per selezionare 3 o più carte",
+          "continueButton": "Seleziona altre $count carte per continuare"
+        }
+      },
+      "chat": {
+        "title": "Chat Layla",
+        "messages": {
+          "location": {
+            "requestTitle": "Da dove partirai?",
+            "requestSubtitle": "Per i migliori risultati, permetti l'accesso alla posizione",
+            "requestButton": "Permetti la tua posizione"
+          },
+          "flight": {
+            "fromToAroundPrice": "Voli da $from a $to a un prezzo intorno a $price"
+          },
+          "tileOptions": {
+            "minOptions": "Seleziona almeno $min carte"
+          },
+          "hotelOptions": {
+            "title": "Qual è l'hotel che ti piace?"
+          },
+          "itinerary": {
+            "day": "Giorno"
+          }
+        },
+        "messageHint": "Chiedimi qualsiasi cosa"
       },
       "aesthetics": {
         "message": "Aiutaci a capire la tua vibrazione",
@@ -34,7 +62,7 @@
       }
     },
     "chat": {
-      "title": "Chat Adeo",
+      "title": "Chat Layla",
       "messages": {
         "location": {
           "requestTitle": "Da dove partirai?",
@@ -121,7 +149,7 @@
   "explore_feat": {
     "add_destination": "Aggiungi destinazione",
     "add_dates": "Aggiungi date",
-    "check_out_this_place": "So dove dovremmo andare insieme la prossima volta. Guarda questo posto che ho trovato su Adeo",
+    "check_out_this_place": "So dove dovremmo andare insieme la prossima volta. Guarda questo posto che ho trovato su Layla",
     "book_flights": "Prenota voli",
     "land_in": "Atterra a $destination",
     "no_flights_found": "Nessun volo trovato",
@@ -140,6 +168,12 @@
     "view_map": "Vedi mappa"
   },
   "feed": {
+    "for_you_card": {
+      "budget-friendly": "Destinazione a Buon Prezzo",
+      "reasonably_priced": "Destinazione a Prezzo Ragionevole",
+      "costly": "Destinazione Costosa",
+      "very_expensive": "Destinazione Molto Costosa"
+    },
     "price_types": [
       "Destinazione a budget limitato",
       "Destinazione a prezzo ragionevole",
@@ -169,12 +203,6 @@
     "no_results_found": "Nessun risultato trovato!",
     "consider_broadening": "Oops! Non abbiamo trovato corrispondenze basate sulle tue preferenze attuali. Considera di ampliare la tua ricerca modificando le tue preferenze per un ventaglio di opzioni più ampio.",
     "return_with_bullet": " $code ritorno",
-    "for_you_card": {
-      "budget-friendly": "Destinazione a Buon Prezzo",
-      "reasonably_priced": "Destinazione a Prezzo Ragionevole",
-      "costly": "Destinazione Costosa",
-      "very_expensive": "Destinazione Molto Costosa"
-    },
     "tap_to_filter": "Tocca per filtrare",
     "tap_to_bucketlist": "Tocca per mettere nella lista"
   },
@@ -592,6 +620,7 @@
   "see_all": "Vedi tutto",
   "see_more": "Vedi di più",
   "select": "Seleziona",
+  "select_dates": "Seleziona le date",
   "selected": "Selezionato",
   "settings": "Impostazioni",
   "share": "Condividi",

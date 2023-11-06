@@ -21,20 +21,20 @@
       },
       "chatbot": {
         "inputHint": "Ask me anything",
-        "msg1": "Hey $user 👋\n\nI'm Adeo, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
+        "msg1": "Hey $user 👋\n\nI'm Layla, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
         "msg2": "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
         "msg3": "What are you interested in?",
         "msg4": "Where will you depart from?",
-        "msg5": "Thank you! I have everything I need so far. Press next to help me recommend you the world's most beautiful destinations personalised to you!"
-      },
-      "aesthetics": {
-        "message": "Help us understand your vibe",
-        "title": "Tap to pick 3 or more cards",
-        "continueButton": "Select $count more to continue"
+        "msg5": "Thank you! I have everything I need so far. Press next to help me recommend you the world's most beautiful destinations personalised to you!",
+        "aesthetics": {
+          "message": "Help us understand your vibe",
+          "title": "Tap to pick 3 or more cards",
+          "continueButton": "Select $count more to continue"
+        }
       }
     },
     "chat": {
-      "title": "Adeo Chat",
+      "title": "Layla Chat",
       "messages": {
         "location": {
           "requestTitle": "Where will you depart from?",
@@ -121,7 +121,7 @@
   "explore_feat": {
     "add_destination": "Add destination",
     "add_dates": "Add dates",
-    "check_out_this_place": "I know where we should go next together. Check out this place I found on Adeo",
+    "check_out_this_place": "I know where we should go next together. Check out this place I found on Layla",
     "book_flights": "Book flights",
     "land_in": "Land in $destination",
     "no_flights_found": "No flights found",
@@ -590,6 +590,7 @@
   "see_all": "See all",
   "see_more": "See more",
   "select": "Select",
+  "select_dates": "Select dates",
   "selected": "Selected",
   "settings": "Settings",
   "share": "Share",

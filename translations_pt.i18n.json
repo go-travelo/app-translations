@@ -21,11 +21,39 @@
       },
       "chatbot": {
         "inputHint": "Pergunte-me qualquer coisa",
-        "msg1": "Oi $user 👋\n\nSou Adeo, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
+        "msg1": "Oi $user 👋\n\nSou Layla, o seu Consultor de Viagens.\n\nAntes de começarmos, gostaria de conhecer qual é o tipo de viajante que você é. 🌍\n\nDiga-me que tipo de viagem você está procurando, escrevendo ou falando.",
         "msg2": "Incrível! Acho que entendi o que você está procurando.\n\nVocê tem mais algum requisito?",
         "msg3": "O que lhe interessa?",
         "msg4": "De onde você partirá?",
-        "msg5": "Obrigado! Eu tenho tudo o que preciso até agora. Pressione próximo para que eu possa recomendar os destinos mais bonitos do mundo personalizados para você!"
+        "msg5": "Obrigado! Eu tenho tudo o que preciso até agora. Pressione próximo para que eu possa recomendar os destinos mais bonitos do mundo personalizados para você!",
+        "aesthetics": {
+          "message": "Ajude-nos a entender seu estilo",
+          "title": "Toque para selecionar 3 ou mais cartas",
+          "continueButton": "Selecione mais $count para continuar"
+        }
+      },
+      "chat": {
+        "title": "Chat da Layla",
+        "messages": {
+          "location": {
+            "requestTitle": "De onde você partirá?",
+            "requestSubtitle": "Para melhores resultados, permita o acesso à localização",
+            "requestButton": "Permitir localização"
+          },
+          "flight": {
+            "fromToAroundPrice": "Voos de $from para $to por aproximadamente $price"
+          },
+          "tileOptions": {
+            "minOptions": "Escolha pelo menos $min cartas"
+          },
+          "hotelOptions": {
+            "title": "Qual hotel você gosta?"
+          },
+          "itinerary": {
+            "day": "Dia"
+          }
+        },
+        "messageHint": "Pergunte-me qualquer coisa"
       },
       "aesthetics": {
         "message": "Ajude-nos a entender o seu estilo",
@@ -34,7 +62,7 @@
       }
     },
     "chat": {
-      "title": "Chat da Adeo",
+      "title": "Chat da Layla",
       "messages": {
         "location": {
           "requestTitle": "De onde você irá partir?",
@@ -121,7 +149,7 @@
   "explore_feat": {
     "add_destination": "Adicionar destino",
     "add_dates": "Adicionar datas",
-    "check_out_this_place": "Sei para onde devemos ir juntos. Confira este lugar que encontrei no Adeo",
+    "check_out_this_place": "Sei para onde devemos ir juntos. Confira este lugar que encontrei no Layla",
     "book_flights": "Reservar voos",
     "land_in": "Chegar em $destination",
     "no_flights_found": "Nenhum voo encontrado",
@@ -140,6 +168,12 @@
     "view_map": "Ver Mapa"
   },
   "feed": {
+    "for_you_card": {
+      "budget-friendly": "Destino Econômico",
+      "reasonably_priced": "Destino com Preço Razoável",
+      "costly": "Destino Caro",
+      "very_expensive": "Destino Muito Caro"
+    },
     "price_types": [
       "Destino Econômico",
       "Destino com Preço Acessível",
@@ -169,12 +203,6 @@
     "no_results_found": "Nenhum Resultado Encontrado!",
     "consider_broadening": "Oops! Não conseguimos encontrar nenhuma correspondência com base em suas preferências atuais. Considere ampliar sua busca ajustando suas preferências para um leque maior de opções.",
     "return_with_bullet": " $code volta",
-    "for_you_card": {
-      "budget-friendly": "Destino Econômico",
-      "reasonably_priced": "Destino com Preço Razoável",
-      "costly": "Destino Caro",
-      "very_expensive": "Destino Muito Caro"
-    },
     "tap_to_filter": "Toque para filtrar",
     "tap_to_bucketlist": "Toque para a lista de desejos"
   },
@@ -592,6 +620,7 @@
   "see_all": "Ver tudo",
   "see_more": "Ver mais",
   "select": "Selecionar",
+  "select_dates": "Selecionar datas",
   "selected": "Selecionado",
   "settings": "Configurações",
   "share": "Compartilhar",

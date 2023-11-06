@@ -21,11 +21,39 @@
       },
       "chatbot": {
         "inputHint": "Pregúntame cualquier cosa",
-        "msg1": "¡Hola $user 👋\n\nSoy Adeo, tu Asesor de Viajes.\n\nAntes de comenzar, me encantaría saber qué tipo de viajero eres. 🌍\n\nDime qué tipo de viaje estás buscando escribiendo o hablando.",
+        "msg1": "¡Hola $user 👋\n\nSoy Layla, tu Asesor de Viajes.\n\nAntes de comenzar, me encantaría saber qué tipo de viajero eres. 🌍\n\nDime qué tipo de viaje estás buscando escribiendo o hablando.",
         "msg2": "¡Increíble! Creo que entiendo lo que estás buscando.\n\n¿Tienes más requisitos?",
         "msg3": "¿Qué te interesa?",
         "msg4": "¿Desde dónde vas a partir?",
-        "msg5": "¡Gracias! Hasta ahora tengo todo lo que necesito. Presiona siguiente para que te pueda recomendar los destinos más hermosos del mundo personalizados para ti!"
+        "msg5": "¡Gracias! Hasta ahora tengo todo lo que necesito. Presiona siguiente para que te pueda recomendar los destinos más hermosos del mundo personalizados para ti!",
+        "aesthetics": {
+          "message": "Ayúdanos a entender tu estilo",
+          "title": "Toca para seleccionar 3 o más tarjetas",
+          "continueButton": "Selecciona $count más para continuar"
+        }
+      },
+      "chat": {
+        "title": "Chat de Layla",
+        "messages": {
+          "location": {
+            "requestTitle": "¿Desde dónde partirás?",
+            "requestSubtitle": "Para mejores resultados, permite el acceso a tu ubicación",
+            "requestButton": "Permitir ubicación"
+          },
+          "flight": {
+            "fromToAroundPrice": "Vuelos desde $from a $to alrededor de $price"
+          },
+          "tileOptions": {
+            "minOptions": "Selecciona $min o más tarjetas"
+          },
+          "hotelOptions": {
+            "title": "¿Qué hotel te gusta?"
+          },
+          "itinerary": {
+            "day": "Día"
+          }
+        },
+        "messageHint": "Pregúntame cualquier cosa"
       },
       "aesthetics": {
         "message": "Ayúdanos a entender tu estilo",
@@ -34,7 +62,7 @@
       }
     },
     "chat": {
-      "title": "Adeo Chat",
+      "title": "Layla Chat",
       "messages": {
         "location": {
           "requestTitle": "¿Desde dónde partirás?",
@@ -121,7 +149,7 @@
   "explore_feat": {
     "add_destination": "Agregar destino",
     "add_dates": "Añadir fechas",
-    "check_out_this_place": "Sé a dónde deberíamos ir juntos a continuación. Mira este lugar que encontré en Adeo",
+    "check_out_this_place": "Sé a dónde deberíamos ir juntos a continuación. Mira este lugar que encontré en Layla",
     "book_flights": "Reservar vuelos",
     "land_in": "Aterrizaje en $destination",
     "no_flights_found": "No se encontraron vuelos",
@@ -140,6 +168,12 @@
     "view_map": "Ver mapa"
   },
   "feed": {
+    "for_you_card": {
+      "budget-friendly": "Destino Económico",
+      "reasonably_priced": "Destino de Precio Razonable",
+      "costly": "Destino Costoso",
+      "very_expensive": "Destino Muy Costoso"
+    },
     "price_types": [
       "Destino económico",
       "Destino a precio razonable",
@@ -169,12 +203,6 @@
     "no_results_found": "¡No se encontraron resultados!",
     "consider_broadening": "¡Ah, no! No pudimos encontrar ningunas coincidencias basadas en tus preferencias actuales. Considera ampliar tu búsqueda ajustando tus preferencias para un rango más amplio de opciones.",
     "return_with_bullet": " $code regreso",
-    "for_you_card": {
-      "budget-friendly": "Destino Económico",
-      "reasonably_priced": "Destino de Precio Razonable",
-      "costly": "Destino Costoso",
-      "very_expensive": "Destino Muy Costoso"
-    },
     "tap_to_filter": "Toca para filtrar",
     "tap_to_bucketlist": "Toca para bucketlist"
   },
@@ -592,6 +620,7 @@
   "see_all": "Ver todo",
   "see_more": "Ver más",
   "select": "Seleccionar",
+  "select_dates": "Seleccionar fechas",
   "selected": "Seleccionado",
   "settings": "Configuraciones",
   "share": "Compartir",
