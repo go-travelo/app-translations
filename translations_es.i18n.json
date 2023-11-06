@@ -140,6 +140,12 @@
     "view_map": "Ver mapa"
   },
   "feed": {
+    "price_types": [
+      "Destino económico",
+      "Destino a precio razonable",
+      "Destino costoso",
+      "Destino muy caro"
+    ],
     "how_do_you_like_the_app": "¿Cómo te gusta la aplicación?",
     "direct_flights": "Vuelos directos",
     "show_only_direct_flights": "Mostrar solo vuelos directos",
@@ -163,6 +169,12 @@
     "no_results_found": "¡No se encontraron resultados!",
     "consider_broadening": "¡Ah, no! No pudimos encontrar ningunas coincidencias basadas en tus preferencias actuales. Considera ampliar tu búsqueda ajustando tus preferencias para un rango más amplio de opciones.",
     "return_with_bullet": " $code regreso",
+    "for_you_card": {
+      "budget-friendly": "Destino Económico",
+      "reasonably_priced": "Destino de Precio Razonable",
+      "costly": "Destino Costoso",
+      "very_expensive": "Destino Muy Costoso"
+    },
     "tap_to_filter": "Toca para filtrar",
     "tap_to_bucketlist": "Toca para bucketlist"
   },
@@ -526,10 +538,12 @@
   "departure": "Salida",
   "description": "Descripción",
   "destination": "Destino",
+  "destinationsWord": "Destinos",
   "direct": "Directo",
   "done": "Hecho",
   "duration": "Duración",
   "edit": "Editar",
+  "experiences": "Experiencias",
   "explore": "Explorar",
   "fastest": "Más rápido",
   "feedback": "Comentarios",

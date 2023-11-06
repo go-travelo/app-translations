@@ -140,6 +140,12 @@
     "view_map": "Karte anzeigen"
   },
   "feed": {
+    "price_types": [
+      "Günstiges Reiseziel",
+      "Preiswertes Reiseziel",
+      "Kostspieliges Reiseziel",
+      "Sehr teures Reiseziel"
+    ],
     "how_do_you_like_the_app": "Wie gefällt Ihnen die App?",
     "direct_flights": "Direktflüge",
     "show_only_direct_flights": "Nur Direktflüge anzeigen",
@@ -163,6 +169,12 @@
     "no_results_found": "Keine Ergebnisse gefunden!",
     "consider_broadening": "Hoppla! Wir konnten keine Übereinstimmungen auf Basis Ihrer aktuellen Präferenzen finden. Überlegen Sie, ob Sie Ihre Suche erweitern möchten, indem Sie Ihre Präferenzen für eine breitere Palette von Optionen anpassen.",
     "return_with_bullet": " $code Hin- und Rückflug",
+    "for_you_card": {
+      "budget-friendly": "Preiswertes Reiseziel",
+      "reasonably_priced": "Angemessen teures Reiseziel",
+      "costly": "Teures Reiseziel",
+      "very_expensive": "Sehr teures Reiseziel"
+    },
     "tap_to_filter": "Tippen, um zu filtern",
     "tap_to_bucketlist": "Tippen, um zur Wunschliste hinzuzufügen"
   },
@@ -526,10 +538,12 @@
   "departure": "Abfahrt",
   "description": "Beschreibung",
   "destination": "Ziel",
+  "destinationsWord": "Reiseziele",
   "direct": "Direkt",
   "done": "Erledigt",
   "duration": "Dauer",
   "edit": "Bearbeiten",
+  "experiences": "Erlebnisse",
   "explore": "Erkunden",
   "fastest": "Schnellste",
   "feedback": "Rückmeldung",

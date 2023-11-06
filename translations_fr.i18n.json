@@ -140,6 +140,12 @@
     "view_map": "Voir la carte"
   },
   "feed": {
+    "price_types": [
+      "Destination abordable",
+      "Destination raisonnable",
+      "Destination coûteuse",
+      "Destination très coûteuse"
+    ],
     "how_do_you_like_the_app": "Que pensez-vous de l'application?",
     "direct_flights": "Vols directs",
     "show_only_direct_flights": "Afficher uniquement les vols directs",
@@ -163,6 +169,12 @@
     "no_results_found": "Aucun résultat trouvé !",
     "consider_broadening": "Oups! Nous n'avons trouvé aucune correspondance en fonction de vos préférences actuelles. Envisagez d'élargir votre recherche en ajustant vos préférences pour un plus grand choix d'options.",
     "return_with_bullet": " $code retour",
+    "for_you_card": {
+      "budget-friendly": "Destination à petit budget",
+      "reasonably_priced": "Destination raisonnablement abordable",
+      "costly": "Destination coûteuse",
+      "very_expensive": "Destination très chère"
+    },
     "tap_to_filter": "Appuyez pour filtrer",
     "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits"
   },
@@ -526,10 +538,12 @@
   "departure": "Départ",
   "description": "Description",
   "destination": "Destination",
+  "destinationsWord": "Destinations",
   "direct": "Direct",
   "done": "Terminé",
   "duration": "Durée",
   "edit": "Modifier",
+  "experiences": "Expériences",
   "explore": "Explorer",
   "fastest": "Le plus rapide",
   "feedback": "Retour d'information",

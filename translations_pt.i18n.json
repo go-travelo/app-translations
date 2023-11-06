@@ -140,6 +140,12 @@
     "view_map": "Ver Mapa"
   },
   "feed": {
+    "price_types": [
+      "Destino Econômico",
+      "Destino com Preço Acessível",
+      "Destino Caro",
+      "Destino Muito Caro"
+    ],
     "how_do_you_like_the_app": "Como você gosta do App?",
     "direct_flights": "Voos diretos",
     "show_only_direct_flights": "Mostrar apenas voos diretos",
@@ -163,6 +169,12 @@
     "no_results_found": "Nenhum Resultado Encontrado!",
     "consider_broadening": "Oops! Não conseguimos encontrar nenhuma correspondência com base em suas preferências atuais. Considere ampliar sua busca ajustando suas preferências para um leque maior de opções.",
     "return_with_bullet": " $code volta",
+    "for_you_card": {
+      "budget-friendly": "Destino Econômico",
+      "reasonably_priced": "Destino com Preço Razoável",
+      "costly": "Destino Caro",
+      "very_expensive": "Destino Muito Caro"
+    },
     "tap_to_filter": "Toque para filtrar",
     "tap_to_bucketlist": "Toque para a lista de desejos"
   },
@@ -526,10 +538,12 @@
   "departure": "Partida",
   "description": "Descrição",
   "destination": "Destino",
+  "destinationsWord": "Destinos",
   "direct": "Direto",
   "done": "Feito",
   "duration": "Duração",
   "edit": "Editar",
+  "experiences": "Experiências",
   "explore": "Explorar",
   "fastest": "Mais rápido",
   "feedback": "Feedback",

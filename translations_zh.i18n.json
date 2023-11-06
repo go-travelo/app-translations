@@ -140,6 +140,12 @@
     "view_map": "查看地图"
   },
   "feed": {
+    "price_types": [
+      "预算友好的目的地",
+      "价格合理的目的地",
+      "高价目的地",
+      "非常昂贵的目的地"
+    ],
     "how_do_you_like_the_app": "你觉得这个应用怎么样？",
     "direct_flights": "直达航班",
     "show_only_direct_flights": "只显示直达航班",
@@ -162,7 +168,13 @@
     "scroll_down_to_see_more": "向下滚动查看更多信息",
     "no_results_found": "未找到结果！",
     "consider_broadening": "哎呀！根据你当前的偏好，我们无法找到任何匹配的结果。考虑扩大你的搜索范围，调整你的偏好设置以获取更多的选项。",
-    "return_with_bullet": " $code 回程"
+    "return_with_bullet": " $code 回程",
+    "for_you_card": {
+      "budget-friendly": "预算友好目的地",
+      "reasonably_priced": "价格合理的目的地",
+      "costly": "昂贵的目的地",
+      "very_expensive": "非常昂贵的目的地"
+    }
   },
   "flights_feat": {
     "flights_to": "飞往 $to 的航班",
@@ -524,10 +536,12 @@
   "departure": "出发",
   "description": "描述",
   "destination": "目的地",
+  "destinationsWord": "目的地",
   "direct": "直达",
   "done": "完成",
   "duration": "持续时间",
   "edit": "编辑",
+  "experiences": "体验",
   "explore": "探索",
   "fastest": "最快",
   "feedback": "反馈",

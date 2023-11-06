@@ -140,6 +140,12 @@
     "view_map": "عرض الخريطة"
   },
   "feed": {
+    "price_types": [
+      "وجهة ميسورة التكلفة",
+      "وجهة ذات تكلفة معقولة",
+      "وجهة مكلفة",
+      "وجهة مكلفة جدا"
+    ],
     "how_do_you_like_the_app": "كيف تجد التطبيق؟",
     "direct_flights": "رحلات مباشرة",
     "show_only_direct_flights": "أظهر الرحلات المباشرة فقط",
@@ -163,6 +169,12 @@
     "no_results_found": "لم يتم العثور على نتائج!",
     "consider_broadening": "عذرًا! لم نتمكن من العثور على تطابقات بناءً على تفضيلاتك الحالية. قد ترغب في توسيع نطاق بحثك من خلال تعديل التفضيلات للحصول على مجموعة أوسع من الخيارات.",
     "return_with_bullet": " $code عودة",
+    "for_you_card": {
+      "budget-friendly": "وجهة مناسبة للميزانية",
+      "reasonably_priced": "وجهة بسعر معقول",
+      "costly": "وجهة مكلفة",
+      "very_expensive": "وجهة غالية جدا"
+    },
     "tap_to_filter": "أنقر للتصفية",
     "tap_to_bucketlist": "أنقر لإضافة لقائمة أمنياتك"
   },
@@ -526,10 +538,12 @@
   "departure": "مغادرة",
   "description": "وصف",
   "destination": "وجهة",
+  "destinationsWord": "الوجهات",
   "direct": "مباشر",
   "done": "تم",
   "duration": "المدة",
   "edit": "تعديل",
+  "experiences": "تجارب",
   "explore": "استكشاف",
   "fastest": "الأسرع",
   "feedback": "رأي",

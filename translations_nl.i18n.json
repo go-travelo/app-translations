@@ -140,6 +140,12 @@
     "view_map": "Bekijk kaart"
   },
   "feed": {
+    "price_types": [
+      "Voordelige bestemming",
+      "Redelijk geprijsde bestemming",
+      "Kostbare bestemming",
+      "Zeer dure bestemming"
+    ],
     "how_do_you_like_the_app": "Hoe bevalt de app?",
     "direct_flights": "Directe vluchten",
     "show_only_direct_flights": "Toon alleen directe vluchten",
@@ -163,6 +169,12 @@
     "no_results_found": "Geen resultaten gevonden!",
     "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
     "return_with_bullet": " $code retour",
+    "for_you_card": {
+      "budget-friendly": "Budgetvriendelijke bestemming",
+      "reasonably_priced": "Redelijk geprijsde bestemming",
+      "costly": "Dure bestemming",
+      "very_expensive": "Zeer dure bestemming"
+    },
     "tap_to_filter": "Tik om te filteren",
     "tap_to_bucketlist": "Tik om aan de bucketlist toe te voegen"
   },
@@ -526,10 +538,12 @@
   "departure": "Vertrek",
   "description": "Beschrijving",
   "destination": "Bestemming",
+  "destinationsWord": "Bestemmingen",
   "direct": "Direct",
   "done": "Gedaan",
   "duration": "Duur",
   "edit": "Bewerk",
+  "experiences": "Ervaringen",
   "explore": "Verkennen",
   "fastest": "Snelste",
   "feedback": "Feedback",
