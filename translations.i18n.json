@@ -147,10 +147,10 @@
       "very_expensive": "Very Expensive Destination"
     },
     "price_types": [
-      "Budget-Friendly Destination",
-      "Reasonably Priced Destination",
-      "Costly Destination",
-      "Very Expensive Destination"
+      "Budget Destination",
+      "Mid-range Destination",
+      "High-end Destination",
+      "Luxury Destination"
     ],
     "how_do_you_like_the_app": "How do you like the App?",
     "direct_flights": "Direct flights",
@@ -173,6 +173,7 @@
     "sorted_and_procured": "Sorted and procured based on your preferences",
     "scroll_down_to_see_more": "Scroll down to see more info",
     "no_results_found": "No Results Found!",
+    "km_from": "${distance}km from $city",
     "consider_broadening": "Oops! We couldn’t find any matches based on your current preferences. Consider broadening your search by adjusting your preferences for a wider range of options.",
     "return_with_bullet": " $code return"
   },
