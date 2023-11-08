@@ -316,6 +316,10 @@
       "riad": "Riad",
       "country-house": "Country House"
     },
+    "explore_tile": {
+      "stay_options": "Stay options",
+      "layla_recommends": "Layla Recommends"
+    },
     "cancellation_policy": "Cancellation policy",
     "before_you_book": "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
     "property_views": "Property views",
