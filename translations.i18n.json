@@ -30,7 +30,15 @@
       "aesthetics": {
         "message": "Help us understand your vibe",
         "title": "Tap to pick 3 or more cards",
-        "continueButton": "Select $count more to continue"
+        "continueButton": "Select $count more to continue",
+        "titleAlt": "What’s your vibe?\nTap the cards you 💕"
+      },
+      "video": {
+        "button": "Let's go!",
+        "msg1": "Hey there, I’m Layla. 👋🏼",
+        "msg2": "Seeking out your next vacation spot? I’m here to help!",
+        "msg3": "Picture this: You can find and book trips with your travel besties all in one place. Cool, right? Let’s do it.",
+        "msg4": "First, help me create your ‘For You’ feed by telling me what vacation style fits your vibe."
       }
     },
     "chat": {
@@ -386,8 +394,9 @@
       "subtitle": "Add more interests so we can begin to personalize for you."
     },
     "location": {
-      "title": "Where do you travel from?",
-      "subtitle": "To get the best prices, connections and hidden gems close by, share your location with us."
+      "title": "Where you at?",
+      "message": "So I can fetch the best places, prices and journeys",
+      "button": "Allow Location Access"
     }
   },
   "profile": {
