@@ -319,7 +319,14 @@
     "explore_tile": {
       "stay_options": "Stay options",
       "layla_recommends": "Layla Recommends",
-      "find_more_stays": "Find more stays"
+      "find_more_stays": "Find more stays",
+      "things_to_do_there": "Things to do there",
+      "show_all": "Show all",
+      "travel_km_futher": "Travel $distance km further",
+      "get_route_details": "Get route details",
+      "flight_options": "Flight options",
+      "youre_in_luck": "You’re in luck",
+      "see_more_flights": "See more flights"
     },
     "cancellation_policy": "Cancellation policy",
     "before_you_book": "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
