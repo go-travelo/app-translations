@@ -319,6 +319,8 @@
     "explore_tile": {
       "stay_options": "Stay options",
       "layla_recommends": "Layla Recommends",
+      "budget": "Budget",
+      "luxury": "Luxury",
       "find_more_stays": "Find more stays"
     },
     "cancellation_policy": "Cancellation policy",
