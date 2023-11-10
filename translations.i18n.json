@@ -192,7 +192,7 @@
     "no_results_found": "No Results Found!",
     "km_from": "${distance}km from $city",
     "consider_broadening": "Oops! We couldn’t find any matches based on your current preferences. Consider broadening your search by adjusting your preferences for a wider range of options.",
-    "return_with_bullet": " $code return",
+    "return_with_bullet": " $code return"
   },
   "flights_feat": {
     "flights_to": "Flights to $to",
