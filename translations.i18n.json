@@ -352,6 +352,7 @@
     "hotel_name": "Hotel name",
     "cancel_by": "Cancel by",
     "hotel_unavailable": "Hotel unavailable",
+    "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
     "hotel_unavailable_message": "Please update the dates.",
     "full_refund": "Full refund: Get back 100% of what you paid",
     "no_refund": "No refund",
