@@ -41,6 +41,13 @@
         "msg4": "First, help me create your ‘For You’ feed by telling me what vacation style fits your vibe."
       }
     },
+    "chat_settings": {
+      "history": "History",
+      "new_chat": "New Chat",
+      "rename_chat": "Rename Chat",
+      "delete_chat": "Delete Chat?",
+      "delete_chat_message": "$name will be permanently deleted."
+    },
     "chat": {
       "title": "Layla Chat",
       "messages": {
@@ -605,6 +612,9 @@
   "login": "Log in",
   "location": "Location",
   "map": "Map",
+  "month": "Month",
+  "more": "More",
+  "name": "Name",
   "next": "Next",
   "nightWord": "Night",
   "nights": {
@@ -669,7 +679,6 @@
   "week": "Week",
   "what": "What",
   "when": "When",
-  "month": "Month",
   "where_to": "Where to",
   "where_from": "Where from"
 }
