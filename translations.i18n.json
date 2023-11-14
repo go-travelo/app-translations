@@ -62,7 +62,12 @@
           "day": "Day"
         }
       },
-      "messageHint": "Ask me anything"
+      "messageHint": "Ask me anything",
+      "contextMenu": {
+        "copy": "Copy",
+        "good_response": "Good response",
+        "bad_response": "Bad response"
+      }
     }
   },
   "tooltips": {
