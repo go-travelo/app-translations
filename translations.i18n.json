@@ -35,10 +35,10 @@
       },
       "video": {
         "button": "Let's go!",
-        "msg1": "Hey there, I’m Layla. 👋🏼",
-        "msg2": "Seeking out your next vacation spot? I’m here to help!",
-        "msg3": "Picture this: You can find and book trips with your travel besties all in one place. Cool, right? Let’s do it.",
-        "msg4": "First, help me create your ‘For You’ feed by telling me what vacation style fits your vibe."
+        "msg1": "Hey there, Layla here. 👋🏼",
+        "msg2": "Picture this: you easily find and book trips with your travel pals all in one place.",
+        "msg3": "That's what I'm here for! Cool, right?",
+        "msg4": "Let's get this party started..."
       }
     },
     "chat_settings": {
@@ -433,8 +433,8 @@
       "subtitle": "Add more interests so we can begin to personalize for you."
     },
     "location": {
-      "title": "Where you at?",
-      "message": "So I can fetch the best places, prices and journeys",
+      "title": "Where are you?",
+      "message": " Ping me your location and I'll line your next adventure.",
       "button": "Allow Location Access"
     }
   },
