@@ -434,7 +434,7 @@
     },
     "location": {
       "title": "Where are you?",
-      "message": " Ping me your location and I'll line your next adventure.",
+      "message": "Ping me your location and I'll line up your next adventure",
       "button": "Allow Location Access"
     }
   },
