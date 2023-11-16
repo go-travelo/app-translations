@@ -111,6 +111,7 @@
     "delete_user_from_bucketlist_message": "Are you sure you want to delete $username from this bucket list?",
     "bucketlist_will_be_removed": "$name will be removed from your bucketlists.",
     "travel_dates": "Travel Dates",
+    "share": "Invite to collaborate",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
