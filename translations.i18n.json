@@ -75,6 +75,12 @@
         "good_response": "Good response",
         "bad_response": "Bad response",
         "message_copied": "Message is copied successfully"
+      },
+      "initialQuickReplies": {
+        "msg1": "Inspire Me Where To Go Next",
+        "msg2": "Find Me Cheap Flights",
+        "msg3": "Build Me An Itinerary",
+        "msg4": "Where Should I Stay?"
       }
     }
   },
