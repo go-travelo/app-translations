@@ -75,6 +75,12 @@
         "good_response": "Good response",
         "bad_response": "Bad response",
         "message_copied": "Message is copied successfully"
+      },
+      "initialQuickReplies": {
+        "msg1": "Inspire Me Where To Go Next",
+        "msg2": "Find Me Cheap Flights",
+        "msg3": "Build Me An Itinerary",
+        "msg4": "Where Should I Stay?"
       }
     }
   },
@@ -111,6 +117,7 @@
     "delete_user_from_bucketlist_message": "Are you sure you want to delete $username from this bucket list?",
     "bucketlist_will_be_removed": "$name will be removed from your bucketlists.",
     "travel_dates": "Travel Dates",
+    "share": "Invite to collaborate",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
