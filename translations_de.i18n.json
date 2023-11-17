@@ -26,7 +26,6 @@
         "msg3": "Was interessiert dich?",
         "msg4": "Wo wirst du starten?",
         "msg5": "Vielen Dank! Ich habe bisher alles, was ich brauche. Drücke auf Weiter, um dir die schönsten Reiseziele der Welt zu empfehlen, die auf dich zugeschnitten sind!"
-       
       },
       "aesthetics": {
         "message": "Hilf uns, deinen Stil zu verstehen",
@@ -35,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "Layla Chat",
+      "title": "Layla",
       "messages": {
         "location": {
           "requestTitle": "Wo werden Sie abreisen?",

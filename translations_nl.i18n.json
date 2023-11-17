@@ -34,7 +34,7 @@
       }
     },
     "chat": {
-      "title": "Layla Chat",
+      "title": "Layla",
       "messages": {
         "location": {
           "requestTitle": "Waar vertrek je vandaan?",

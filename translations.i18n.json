@@ -55,7 +55,7 @@
       "delete_chat_message": "$name will be permanently deleted."
     },
     "chat": {
-      "title": "Layla Chat",
+      "title": "Layla",
       "messages": {
         "location": {
           "requestTitle": "Where will you depart from?",
