@@ -41,6 +41,12 @@
         "msg4": "Let's get this party started..."
       }
     },
+    "things_ask": {
+      "title": "Things you can ask me!",
+      "description": "I'm here to help you plan your next adventure. Ask me anything about the destination, I'll have the answer. Here are a few things that people already asked me...",
+      "possible_prompts": "Possible prompts",
+      "ask_layla": "Ask Layla"
+    },
     "chat_settings": {
       "history": "History",
       "new_chat": "New Chat",
