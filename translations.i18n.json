@@ -561,6 +561,7 @@
     "one": "$n year old",
     "other": "$n years old"
   },
+  "afternoon": "Afternoon",
   "allow": "Allow",
   "anything": "Anything",
   "anytime": "Anytime",
@@ -607,6 +608,7 @@
   "edit": "Edit",
   "editDates": "Edit dates",
   "editDetails": "Edit Details",
+  "evening": "Evening",
   "experiences": "Experiences",
   "explore": "Explore",
   "fastest": "Fastest",
@@ -631,6 +633,7 @@
   "map": "Map",
   "month": "Month",
   "more": "More",
+  "morning": "Morning",
   "name": "Name",
   "next": "Next",
   "nightWord": "Night",
