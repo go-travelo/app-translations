@@ -112,7 +112,7 @@
     "collaborating_two_and_more": "$first and $count more are collaborating with you..",
     "you_can_create": "You can create, view, or edit bucketlists once you’ve logged in.",
     "create_your_first_bucketlist": "Create your first bucketlist",
-    "as_you_search": "As you search, tap the heart icon to save your favourites places and experiences to bucketlist.",
+    "as_you_search": "As you roam around the app, simply tap the heart on anything you like to add it to your bucketlist then invite your friends to make it a planning party. Let’s fill up some bucketlists, shall we?",
     "add_to_bucketlist": "Add to bucketlist",
     "create_new_bucketlist": "Create new bucketlist",
     "create_bucketlist": "Create bucketlist",
@@ -683,6 +683,7 @@
     "other": "$n stars"
   },
   "start": "Start",
+  "star_new_chat": "Start new chat",
   "stops": "Stops",
   "times": "Times",
   "to": "To",
