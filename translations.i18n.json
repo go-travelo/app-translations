@@ -418,7 +418,8 @@
     "what_people_said": "What people said",
     "read_all_reviews": "Read all reviews",
     "see_all": "See all $count",
-    "what_this_place_offers": "What this place offers"
+    "what_this_place_offers": "What this place offers",
+    "share_text": "Check out this hotel: $name"
   },
   "language": {
     "select_language": "Select language"
