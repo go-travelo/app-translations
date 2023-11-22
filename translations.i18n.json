@@ -470,7 +470,8 @@
     "last_name": "Last name",
     "edit_profile": "Edit profile",
     "member_since": "Member since $date",
-    "share_message": "Check out this app which has the most amazing places in the world: $link"
+    "share_message": "Check out this app which has the most amazing places in the world: $link",
+    "terms_of_service": "Terms of Service"
   },
   "splash": {
     "discover_where_to": "Discover where to\nfly next."
