@@ -688,6 +688,7 @@
   "stops": "Stops",
   "times": "Times",
   "to": "To",
+  "today": "Today",
   "transit": "Transit",
   "travelers": "Travelers",
   "unknown_error": "Unknown error",
@@ -704,5 +705,6 @@
   "what_can_i_ask": "What Can I Ask?",
   "when": "When",
   "where_to": "Where to",
-  "where_from": "Where from"
+  "where_from": "Where from",
+  "yesterday": "Yesterday"
 }
