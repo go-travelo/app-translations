@@ -229,6 +229,7 @@
     "all_filters": "All filters",
     "no_flights": "No flights",
     "estimated_price": "Estimated Price",
+    "livePrices": "Live Price",
     "travelers_info_updated_successfully": "Travelers info updated successfully",
     "flight_details": "Flight details",
     "where_from": "Where from?",
