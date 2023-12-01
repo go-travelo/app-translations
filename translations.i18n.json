@@ -474,7 +474,11 @@
     "edit_profile": "Edit profile",
     "member_since": "Member since $date",
     "share_message": "Check out this app which has the most amazing places in the world: $link",
-    "terms_of_service": "Terms of Service"
+    "terms_of_service": "Terms of Service",
+    "account_already_linked": "Account already linked",
+    "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",
+    "chat_limit_exceeded": "You have exceeded your chat limit. To continue chatting, please login",
+    "new_chat_login": "To start a new chat, please login"
   },
   "splash": {
     "discover_where_to": "Discover where to\nfly next."
@@ -675,6 +679,7 @@
   "share": "Share",
   "show_more": "Show more",
   "show_more_flights": "Show more flights",
+  "sign_in": "Sign in",
   "sign_up": "Sign up",
   "show_less": "Show less",
   "support": "Support",
