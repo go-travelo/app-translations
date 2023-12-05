@@ -485,7 +485,7 @@
     "terms_of_service": "Terms of Service",
     "account_already_linked": "Account already linked",
     "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",
-    "chat_limit_exceeded": "You have exceeded your chat limit. To continue chatting, please login",
+    "chat_limit_exceeded": "Please sign in to continue chatting. You'll also be able to save chats and items to your bucketlist.",
     "new_chat_login": "To start a new chat, please login"
   },
   "splash": {
@@ -505,7 +505,6 @@
     "things_to_do": "Things to do"
   },
   "video_category": [
-    "All",
     "Adventure",
     "Culture",
     "Beach",
@@ -517,7 +516,19 @@
     "Relax",
     "Romantic",
     "Sports",
-    "Top Category"
+    "Top Category",
+    "Things To Do"
+  ],
+  "videoSubCategory": [
+    "Activities",
+    "Yachts & Cruises",
+    "Garden & Park",
+    "Bars",
+    "Restaurants & Cafes",
+    "Free Things to do",
+    "Night Clubs",
+    "Festivals and Events",
+    "Art Galleries & Museums"
   ],
   "weekdays_short": [
     "M",
