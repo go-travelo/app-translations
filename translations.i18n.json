@@ -38,7 +38,11 @@
         "msg1": "Hey there, Layla here. 👋🏼",
         "msg2": "Picture this: you easily find and book trips with your travel pals all in one place.",
         "msg3": "That's what I'm here for! Cool, right?",
-        "msg4": "Let's get this party started..."
+        "msg4": "Let's get this party started...",
+        "msg1_web": "Hey there, I'm Layla 👋🏼",
+        "msg2_web": "Seeking out your next vacation spot? I'm here to help.",
+        "msg3_web": "You will find personalized inspiration, plan and book trips just by having a chat with me.",
+        "msg4_web": "Cool, right? Let's do it!"
       }
     },
     "things_ask": {
