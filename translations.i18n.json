@@ -95,7 +95,10 @@
     "tap_to_filter": "Tap to filter",
     "tap_to_bucketlist": "Tap to bucketlist",
     "tap_to_chat": "Tap to chat",
-    "tap_to_help_country": "Need any help in planning a trip to $country?"
+    "tap_to_help_country": "Need any help in planning a trip to $country?",
+    "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
+    "tap_to_start_new_chat": "Tap to start a fresh new chat",
+    "tap_to_open_menu": "Tap to open the menu panel"
   },
   "bucketlist": {
     "no_name": "No Name",
