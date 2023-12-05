@@ -48,7 +48,7 @@
     "things_ask": {
       "title": "Things you can ask me!",
       "description": "I'm here to help you plan your next adventure. Ask me anything about the destination, I'll have the answer. Here are a few things that people already asked me...",
-      "possible_prompts": "Possible prompts",
+      "possible_prompts": "Common Questions",
       "ask_layla": "Ask Layla"
     },
     "chat_settings": {
@@ -102,7 +102,8 @@
     "tap_to_help_country": "Need any help in planning a trip to $country?",
     "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
     "tap_to_start_new_chat": "Tap to start a fresh new chat",
-    "tap_to_open_menu": "Tap to open the menu panel"
+    "tap_to_open_menu": "Tap to open the menu panel",
+    "skipIntro": "Skip intro"
   },
   "bucketlist": {
     "no_name": "No Name",
@@ -687,7 +688,7 @@
   "settings": "Settings",
   "share": "Share",
   "show_more": "Show more",
-  "show_more_flights": "Show more flights",
+  "show_more_flights": "View & Book Flights",
   "sign_in": "Sign in",
   "sign_up": "Sign up",
   "show_less": "Show less",
