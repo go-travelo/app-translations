@@ -504,6 +504,10 @@
   "thing_todo": {
     "things_to_do": "Things to do"
   },
+  "share_dialog": {
+    "title": "Share",
+    "copy": "Copy"
+  },
   "video_category": [
     "Adventure",
     "Culture",
