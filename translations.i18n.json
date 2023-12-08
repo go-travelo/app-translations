@@ -132,7 +132,7 @@
     "delete_user_from_bucketlist_message": "Are you sure you want to delete $username from this bucket list?",
     "bucketlist_will_be_removed": "$name will be removed from your bucketlists.",
     "travel_dates": "Travel Dates",
-    "share": "Invite to collaborate",
+    "share": "Invite",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
@@ -147,7 +147,15 @@
       "login_to_collaborate": "Log in to collaborate",
       "invited_you": "$username invited you to his Bucketlist"
     },
-    "flying_from": "Flying from"
+    "flying_from": "Flying from",
+    "share_type_dialog": {
+      "title": "Share bucketlist",
+      "message": "How would you like to share this bucketlist?",
+      "edit": "Edit",
+      "edit_message": "Other users will be able to edit this bucketlist",
+      "view": "View",
+      "view_message": "Other users will be able to onyl view this bucketlist"
+    }
   },
   "places": {
     "africa": "Africa",
