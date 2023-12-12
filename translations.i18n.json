@@ -115,6 +115,7 @@
     "bucketlist": "Bucketlist: $name",
     "bucketlist_saved": "Bucketlist saved successfully",
     "bucketlist_created": "Bucketlist created successfully",
+    "bucketlist_copied": "Bucketlist $name copied successfully",
     "my_bucketlist": "My Bucketlist",
     "login_to_view": "Log in to view your bucketlist",
     "leave_bucketlist": "Leave this bucketlist?",
@@ -140,6 +141,7 @@
     "bucketlist_will_be_removed": "$name will be removed from your bucketlists.",
     "travel_dates": "Travel Dates",
     "share": "Invite",
+    "copy": "Copy",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
@@ -152,16 +154,18 @@
       "title": "Log in or sign up",
       "continue_with": "Continue with",
       "login_to_collaborate": "Log in to collaborate",
+      "login_to_view": "Log in to view",
       "invited_you": "$username invited you to his Bucketlist"
     },
     "flying_from": "Flying from",
     "share_type_dialog": {
-      "title": "Share bucketlist",
+      "title": "Invite to Bucketlist",
+      "title_alt": "Invite to collaborate",
       "message": "How would you like to share this bucketlist?",
-      "edit": "Edit",
-      "edit_message": "Other users will be able to edit this bucketlist",
-      "view": "View",
-      "view_message": "Other users will be able to onyl view this bucketlist"
+      "edit": "Can Edit",
+      "edit_message": "Users will be able to edit bucketlist",
+      "view": "View Only",
+      "view_message": "Users will be able to view bucketlist"
     }
   },
   "places": {
