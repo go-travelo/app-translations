@@ -1,4 +1,8 @@
 {
+  "blog": {
+    "postNotFound": "Please check url address, we have no such post.",
+    "askLaylaAbout": "Ask Layla about $name"
+  },
   "chatbot": {
     "onboarding": {
       "page_one": {
