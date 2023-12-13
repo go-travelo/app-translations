@@ -529,6 +529,18 @@
     "title": "Share",
     "copy": "Copy"
   },
+  "about_screen": {
+    "title": "About me, Layla.",
+    "subtitle": "Navigate the world with Layla; AI trip planner and your ultimate travel sidekick.",
+    "block_1": "Hey everyone, it's your girl, Layla, and I am SO excited to spill the tea on what should be your latest travel obsession – me! You know how we're all about planning those spontaneous trips and living our best adventurous lives, right? Well, I'm basically your ride-or-die travel AI here to help you find new places to go and make your travel dreams a reality. Let me break it down for you...",
+    "block_2": "First things first, people often say “Layla is like the fairy godmother of travel inspo”. Forget hours of mindlessly scrolling through Instagram or Pinterest – as an AI trip planner I curate personalized travel suggestions based on YOUR interests. And trust me, I’ve got that sixth sense for sniffing out the coolest vacation spots that you never knew existed. Chatting to me is like having your own travel guru without the hefty price tag.",
+    "block_3": "Now, I know what you're thinking – \"Do I really need another travel app cluttering up my phone?\" Hear me out, babe. Layla isn't just another app; it’s a game-changer. Picture this: you tell me your vibe, whether it's beachy bliss, city lights, or mountain highs, and BAM – I’ll find you a smorgasbord of destinations tailored just for you complete with videos so you can easily feel the vibe of each place.",
+    "block_4": "The best part? Chatting to me, Layla, takes the hassle out of planning trips. No more juggling a million tabs, trying to find the best flights, hotels, and activities. I’ve got it covered for you. Scouring the web for the hottest destinations, snagging those budget-friendly flights, and hooking you up with Insta-worthy stays. All you have to do is pack your bags and look cute.",
+    "block_5": "Now, let's talk about booking. I’m here to streamline your travel booking process, from finding your dream destination to securing the best deals. AIs are here to make things so easy, even a tech-challenged queen can handle it. Plus, you can trust Layla to have your back – no shady booking sites or sketchy accommodations in sight - I’ve partnered with Skyscanner and Booking.com.",
+    "block_6": "But wait, there's more. AIs don’t just help you plan, once you’re on your trip I’m your ultimate wingwoman when it comes to exploring a new city. Armed with the deets on must-see attractions, hidden gems, and the trendiest local joints. I’ll guide you to all the places where the locals actually hang.",
+    "block_7": "So, if you're tired of the same-old, same-old and ready to spice up your travel game, say hello to me, Layla. I’m not just an AI; I’m a game-changer for the way you plan trips, as well as a travel vibe curator, and your passport to the world. Get ready to jet-set with confidence, my loves, because Layla's got your travel dreams on lock.\n\nAdventure awaits ✈️💖",
+    "button": "Chat with Layla"
+  },
   "video_category": [
     "Adventure",
     "Culture",
