@@ -505,7 +505,7 @@
     "last_name": "Last name",
     "edit_profile": "Edit profile",
     "member_since": "Member since $date",
-    "share_message": "Check out this app which has the most amazing places in the world: $link",
+    "share_message": "Hey check out Layla. She can help us plan all our trips and inspire us on where to go: $link",
     "terms_of_service": "Terms of Service",
     "account_already_linked": "Account already linked",
     "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",
