@@ -62,7 +62,8 @@
       "new_chat": "New Chat",
       "rename_chat": "Rename Chat",
       "delete_chat": "Delete Chat?",
-      "delete_chat_message": "$name will be permanently deleted."
+      "delete_chat_message": "$name will be permanently deleted.",
+      "info_and_support": "Information and Support"
     },
     "chat": {
       "title": "Layla",
