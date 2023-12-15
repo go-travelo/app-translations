@@ -3,7 +3,9 @@
     "postNotFound": "Please check url address, we have no such post.",
     "askLaylaAbout": "Ask Layla about $name",
     "travellerQuestion": "I want to know more about ${name} as a traveller.",
-    "blog": "Blog"
+    "blog": "Blog",
+    "blogs": "Blogs",
+    "noBlogs": "No blogs found"
   },
   "chatbot": {
     "onboarding": {
