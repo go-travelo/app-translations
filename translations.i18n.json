@@ -126,6 +126,7 @@
     "leave_bucketlist": "Leave this bucketlist?",
     "one_person": "One person",
     "name_is_collaborating": "$name is collaborating with you.",
+    "no_collaborators": "No collaborators yet.",
     "you_are_viewing_bucketlist": "You are viewing a bucketlist by $creator",
     "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by $creator and $collaborator",
     "collaborating_and_one_more": "$name and one more are collaborating with you.",
