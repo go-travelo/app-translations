@@ -110,7 +110,7 @@
     "tap_to_chat": "Tap to chat",
     "tap_to_help_country": "Need any help in planning a trip to $country?",
     "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
-    "tap_to_start_new_chat": "Tap to start a fresh new chat",
+    "tap_to_start_new_chat": "Tap to start a new chat",
     "tap_to_open_menu": "Tap to open the menu panel",
     "skipIntro": "Skip intro"
   },
@@ -762,6 +762,7 @@
   "times": "Times",
   "to": "To",
   "today": "Today",
+  "total": "Total",
   "transit": "Transit",
   "travelers": "Travelers",
   "unknown_error": "Unknown error",
