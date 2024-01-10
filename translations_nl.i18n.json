@@ -255,9 +255,7 @@
     "km_from": "${distance}km van $city",
     "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
     "return_with_bullet": " $code retour",
-    "approx_for_your_dates": "Geschat voor uw data",
-    "tap_to_filter": "Tik om te filteren",
-    "tap_to_bucketlist": "Tik om aan de bucketlist toe te voegen"
+    "approx_for_your_dates": "Geschat voor uw data"
   },
   "flights_feat": {
     "flights_to": "Vluchten naar $to",
@@ -399,7 +397,7 @@
       "find_more_stays": "Vind meer verblijven",
       "things_to_do": "Dingen om te doen",
       "show_all": "Toon alles",
-      "travel_km_futher": "Reis $distance km verder",
+      "travel_km_further": "Reis $distance km verder",
       "get_route_details": "Bekijk route details",
       "flight_options": "Vluchtopties",
       "youre_in_luck": "Je hebt geluk",
@@ -489,8 +487,7 @@
     "location": {
       "title": "Waar reis je vandaan?",
       "message": "Stuur mij je locatie en ik zal je volgende avontuur regelen",
-      "button": "Locatietoegang toestaan",
-      "subtitle": "Om de beste prijzen, verbindingen en verborgen pareltjes in de buurt te krijgen, deel je locatie met ons."
+      "button": "Locatietoegang toestaan"
     }
   },
   "profile": {
@@ -783,9 +780,5 @@
   "when": "Wanneer",
   "where_to": "Waarheen",
   "where_from": "Waar vandaan",
-  "yesterday": "Gisteren",
-  "symbols": {
-    "one": "$n symbool",
-    "other": "$n symbolen"
-  }
+  "yesterday": "Gisteren"
 }

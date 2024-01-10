@@ -255,9 +255,7 @@
     "km_from": "A ${distance}km de $city",
     "consider_broadening": "¡Ah, no! No pudimos encontrar ningunas coincidencias basadas en tus preferencias actuales. Considera ampliar tu búsqueda ajustando tus preferencias para un rango más amplio de opciones.",
     "return_with_bullet": " $code regreso",
-    "approx_for_your_dates": "Aprox. para tus fechas",
-    "tap_to_filter": "Toca para filtrar",
-    "tap_to_bucketlist": "Toca para bucketlist"
+    "approx_for_your_dates": "Aprox. para tus fechas"
   },
   "flights_feat": {
     "flights_to": "Vuelos hacia $to",
@@ -489,8 +487,7 @@
     "location": {
       "title": "¿Desde dónde viajas?",
       "message": "Envíame tu ubicación y planificaré tu próxima aventura",
-      "button": "Permitir acceso a la ubicación",
-      "subtitle": "Para obtener los mejores precios, conexiones y lugares ocultos cerca de ti, comparte tu ubicación con nosotros."
+      "button": "Permitir acceso a la ubicación"
     }
   },
   "profile": {
@@ -783,9 +780,5 @@
   "when": "Cuándo",
   "where_to": "A dónde",
   "where_from": "De dónde",
-  "yesterday": "Ayer",
-  "symbols": {
-    "one": "$n símbolo",
-    "other": "$n símbolos"
-  }
+  "yesterday": "Ayer"
 }

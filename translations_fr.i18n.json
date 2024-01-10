@@ -222,6 +222,15 @@
       "Destination coûteuse",
       "Destination très coûteuse"
     ],
+    "filters": {
+      "flight_price": "Flight Price",
+      "flight_duration": "Flight Duration",
+      "flight_connection": "Flight Connection",
+      "categories": "Categories",
+      "flight_price_value": "Flight max $value",
+      "flight_duration_value": "Flight max $value",
+      "flight_connection_direct": "Direct only"
+    },
     "how_do_you_like_the_app": "Que pensez-vous de l'application?",
     "direct_flights": "Vols directs",
     "show_only_direct_flights": "Afficher uniquement les vols directs",
@@ -243,10 +252,10 @@
     "sorted_and_procured": "Triées et obtenues en fonction de vos préférences",
     "scroll_down_to_see_more": "Faites défiler vers le bas pour voir plus d'informations",
     "no_results_found": "Aucun résultat trouvé !",
+    "km_from": "${distance}km from $city",
     "consider_broadening": "Oups! Nous n'avons trouvé aucune correspondance en fonction de vos préférences actuelles. Envisagez d'élargir votre recherche en ajustant vos préférences pour un plus grand choix d'options.",
     "return_with_bullet": " $code retour",
-    "tap_to_filter": "Appuyez pour filtrer",
-    "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits"
+    "approx_for_your_dates": "Approx. for your dates"
   },
   "flights_feat": {
     "flights_to": "Vols vers $to",
@@ -255,6 +264,7 @@
     "all_filters": "Tous les filtres",
     "no_flights": "Pas de vols",
     "estimated_price": "Prix estimé",
+    "livePrices": "Live Price",
     "travelers_info_updated_successfully": "Informations sur les voyageurs mises à jour avec succès",
     "flight_details": "Détails du vol",
     "where_from": "D'où?",
@@ -379,6 +389,21 @@
       "riad": "Riad",
       "country-house": "Maison de Campagne"
     },
+    "explore_tile": {
+      "stay_options": "Stay options",
+      "layla_recommends": "Layla Recommends",
+      "budget": "Budget",
+      "luxury": "Luxury",
+      "find_more_stays": "Find more stays",
+      "things_to_do": "Things to do",
+      "show_all": "Show all",
+      "travel_km_further": "Travel $distance km further",
+      "get_route_details": "Get route details",
+      "flight_options": "Flight options",
+      "youre_in_luck": "You’re in luck",
+      "prices_are_currenly_low": "Prices are currently low",
+      "see_more_flights": "See more flights"
+    },
     "cancellation_policy": "Politique d'annulation",
     "before_you_book": "Avant de réserver, assurez-vous d'être à l'aise avec la politique d'annulation de cet hôte. Notez que la politique de circonstances atténuantes d'Airbnb ne couvre pas les annulations dues à des maladies ou à des perturbations de voyage causées par le COVID-19.",
     "property_views": "Vues de la propriété",
@@ -390,6 +415,7 @@
     "hotel_name": "Nom de l'hôtel",
     "cancel_by": "Annuler par",
     "hotel_unavailable": "Hôtel indisponible",
+    "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
     "hotel_unavailable_message": "Veuillez mettre à jour les dates.",
     "full_refund": "Remboursement intégral : récupérez 100% de ce que vous avez payé",
     "no_refund": "Aucun remboursement",
@@ -427,9 +453,11 @@
     "select_rooms_and_guests": "Séléctionnez les chambres et les invités",
     "age_13_or_above": "Âge 13 ans ou plus",
     "what_people_said": "Ce que les gens ont dit",
+    "what_people_loved": "What people loved about this place",
     "read_all_reviews": "Lire tous les avis",
     "see_all": "Voir tous $count",
-    "what_this_place_offers": "Ce que cet endroit propose"
+    "what_this_place_offers": "Ce que cet endroit propose",
+    "share_text": "Check out this hotel: $name"
   },
   "language": {
     "select_language": "Choisir la langue"
@@ -458,7 +486,8 @@
     },
     "location": {
       "title": "D'où voyagez-vous?",
-      "subtitle": "Pour obtenir les meilleurs prix, connections et trésors cachés à proximité, partagez votre emplacement avec nous."
+      "message": "Ping me your location and I'll line up your next adventure",
+      "button": "Allow Location Access"
     }
   },
   "profile": {
@@ -751,13 +780,5 @@
   "when": "Quand",
   "where_to": "Où",
   "where_from": "D'où",
-  "yesterday": "Hier",
-  "symbols": {
-    "one": "$n symbole",
-    "other": "$n symboles"
-  },
-  "characters": {
-    "one": "$n caractère",
-    "other": "$n caractères"
-  }
+  "yesterday": "Hier"
 }

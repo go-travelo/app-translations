@@ -108,7 +108,11 @@
     "tap_to_filter": "انقر للفلترة",
     "tap_to_bucketlist": "انقر لإضافة إلى القائمة",
     "tap_to_chat": "انقر للدردشة",
-    "tap_to_help_country": "هل تحتاج إلى مساعدة في تخطيط رحلة إلى $country؟"
+    "tap_to_help_country": "هل تحتاج إلى مساعدة في تخطيط رحلة إلى $country؟",
+    "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
+    "tap_to_start_new_chat": "Tap to start a new chat",
+    "tap_to_open_menu": "Tap to open the menu panel",
+    "skipIntro": "Skip intro"
   },
   "bucketlist": {
     "no_name": "لا اسم",
@@ -116,14 +120,21 @@
     "bucketlist": "قائمة امنيات: $name",
     "bucketlist_saved": "تم حفظ القائمة بنجاح",
     "bucketlist_created": "تم إنشاء القائمة بنجاح",
+    "bucketlist_copied": "Bucketlist $name copied successfully",
     "my_bucketlist": "قائمتي",
     "login_to_view": "قم بتسجيل الدخول لعرض القائمة",
     "leave_bucketlist": "هل تريد مغادرة هذه القائمة؟",
     "one_person": "شخص واحد",
     "name_is_collaborating": "$name يتعاون معك.",
+    "no_collaborators": "No collaborators yet.",
+    "you_are_viewing_bucketlist": "You are viewing a bucketlist by $creator",
+    "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by $creator and $collaborator",
     "collaborating_and_one_more": "$name وشخص آخر يتعاونون معك.",
     "collaborating_two": "$first و $second يتعاونون معك.",
     "collaborating_two_and_more": "$first و $count آخرين يتعاونون معك..",
+    "you_are_viewing": "You are viewing the bucketlist by $creator",
+    "you_and_viewer_are_viewing": "You and 1 other are viewing the bucketlist by $creator",
+    "you_and_viewers_are_viewing": "You and $count others are viewing the bucketlist by $creator",
     "you_can_create": "يمكنك إنشاء، عرض، أو تعديل القوائم بمجرد تسجيل الدخول.",
     "create_your_first_bucketlist": "أنشئ قائمتك الأولى",
     "as_you_search": "أثناء البحث، اضغط على رمز القلب لحفظ أماكنك وتجاربك المفضلة.",
@@ -137,6 +148,8 @@
     "delete_user_from_bucketlist_message": "هل أنت متأكد أنك تريد حذف $username من هذه القائمة؟",
     "bucketlist_will_be_removed": "$name سيتم حذفه من القائمة.",
     "travel_dates": "تواريخ السفر",
+    "share": "Invite",
+    "copy": "Copy",
     "destinations": {
       "one": "$n وجهة",
       "other": "$n وجهات"
@@ -149,9 +162,19 @@
       "title": "تسجيل الدخول أو التسجيل",
       "continue_with": "الاستمرار بواسطة",
       "login_to_collaborate": "تسجيل الدخول للتعاون",
+      "login_to_view": "Log in to view",
       "invited_you": "$username دعاك لـ Bucketlist"
     },
-    "flying_from": "المغادرة من"
+    "flying_from": "المغادرة من",
+    "share_type_dialog": {
+      "title": "Invite to Bucketlist",
+      "title_alt": "Invite to collaborate",
+      "message": "How would you like to share this bucketlist?",
+      "edit": "Can Edit",
+      "edit_message": "Users will be able to edit bucketlist",
+      "view": "View Only",
+      "view_message": "Users will be able to view bucketlist"
+    }
   },
   "places": {
     "africa": "أفريقيا",
@@ -232,9 +255,7 @@
     "km_from": "على بُعد ${distance} كم من $city",
     "consider_broadening": "عذرًا! لم نتمكن من العثور على تطابقات بناءً على تفضيلاتك الحالية. قد ترغب في توسيع نطاق بحثك من خلال تعديل التفضيلات للحصول على مجموعة أوسع من الخيارات.",
     "return_with_bullet": " $code عودة",
-    "approx_for_your_dates": "تقريبًا لتواريخك",
-    "tap_to_filter": "أنقر للتصفية",
-    "tap_to_bucketlist": "أنقر لإضافة لقائمة أمنياتك"
+    "approx_for_your_dates": "تقريبًا لتواريخك"
   },
   "flights_feat": {
     "flights_to": "رحلات الى $to",
@@ -376,7 +397,7 @@
       "find_more_stays": "ابحث عن مزيد من الإقامات",
       "things_to_do": "أشياء للقيام بها",
       "show_all": "عرض الكل",
-      "travel_km_futher": "السفر $distance كم إضافي",
+      "travel_km_further": "السفر $distance كم إضافي",
       "get_route_details": "الحصول على تفاصيل الطريق",
       "flight_options": "خيارات الرحلة",
       "youre_in_luck": "حظًا سعيدًا",
@@ -466,8 +487,7 @@
     "location": {
       "title": "من أين تسافر؟",
       "message": "أرسل لي موقعك الحالي وسأقوم بترتيب مغامرتك التالية",
-      "button": "السماح بالوصول للموقع",
-      "subtitle": "للحصول على أفضل الأسعار والاتصالات والمعالم الخفية القريبة، شاركنا موقعك."
+      "button": "السماح بالوصول للموقع"
     }
   },
   "profile": {
@@ -515,6 +535,18 @@
   "share_dialog": {
     "title": "مشاركة",
     "copy": "نسخ"
+  },
+  "about_screen": {
+    "title": "About me, Layla.",
+    "subtitle": "Navigate the world with Layla; AI trip planner and your ultimate travel sidekick.",
+    "block_1": "Hey everyone, it's your girl, Layla, and I am SO excited to spill the tea on what should be your latest travel obsession – me! You know how we're all about planning those spontaneous trips and living our best adventurous lives, right? Well, I'm basically your ride-or-die travel AI here to help you find new places to go and make your travel dreams a reality. Let me break it down for you...",
+    "block_2": "First things first, people often say “Layla is like the fairy godmother of travel inspo”. Forget hours of mindlessly scrolling through Instagram or Pinterest – as an AI trip planner I curate personalized travel suggestions based on YOUR interests. And trust me, I’ve got that sixth sense for sniffing out the coolest vacation spots that you never knew existed. Chatting to me is like having your own travel guru without the hefty price tag.",
+    "block_3": "Now, I know what you're thinking – \"Do I really need another travel app cluttering up my phone?\" Hear me out, babe. Layla isn't just another app; it’s a game-changer. Picture this: you tell me your vibe, whether it's beachy bliss, city lights, or mountain highs, and BAM – I’ll find you a smorgasbord of destinations tailored just for you complete with videos so you can easily feel the vibe of each place.",
+    "block_4": "The best part? Chatting to me, Layla, takes the hassle out of planning trips. No more juggling a million tabs, trying to find the best flights, hotels, and activities. I’ve got it covered for you. Scouring the web for the hottest destinations, snagging those budget-friendly flights, and hooking you up with Insta-worthy stays. All you have to do is pack your bags and look cute.",
+    "block_5": "Now, let's talk about booking. I’m here to streamline your travel booking process, from finding your dream destination to securing the best deals. AIs are here to make things so easy, even a tech-challenged queen can handle it. Plus, you can trust Layla to have your back – no shady booking sites or sketchy accommodations in sight - I’ve partnered with Skyscanner and Booking.com.",
+    "block_6": "But wait, there's more. AIs don’t just help you plan, once you’re on your trip I’m your ultimate wingwoman when it comes to exploring a new city. Armed with the deets on must-see attractions, hidden gems, and the trendiest local joints. I’ll guide you to all the places where the locals actually hang.",
+    "block_7": "So, if you're tired of the same-old, same-old and ready to spice up your travel game, say hello to me, Layla. I’m not just an AI; I’m a game-changer for the way you plan trips, as well as a travel vibe curator, and your passport to the world. Get ready to jet-set with confidence, my loves, because Layla's got your travel dreams on lock.\n\nAdventure awaits ✈️💖",
+    "button": "Chat with Layla"
   },
   "video_category": [
     "الكل",
@@ -748,9 +780,5 @@
   "when": "متى",
   "where_to": "إلى أين",
   "where_from": "من أين",
-  "yesterday": "أمس",
-  "symbols": {
-    "one": "رمز $n",
-    "other": "$n رموز"
-  }
+  "yesterday": "أمس"
 }

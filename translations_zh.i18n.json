@@ -108,7 +108,11 @@
     "tap_to_filter": "点击以过滤",
     "tap_to_bucketlist": "点击以加入心愿单",
     "tap_to_chat": "点击以聊天",
-    "tap_to_help_country": "计划去 $country 旅行需要任何帮助吗？"
+    "tap_to_help_country": "计划去 $country 旅行需要任何帮助吗？",
+    "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
+    "tap_to_start_new_chat": "Tap to start a new chat",
+    "tap_to_open_menu": "Tap to open the menu panel",
+    "skipIntro": "Skip intro"
   },
   "bucketlist": {
     "no_name": "无名",
@@ -116,14 +120,21 @@
     "bucketlist": "心愿单: $name",
     "bucketlist_saved": "心愿单保存成功",
     "bucketlist_created": "心愿单创建成功",
+    "bucketlist_copied": "Bucketlist $name copied successfully",
     "my_bucketlist": "我的心愿单",
     "login_to_view": "登录查看您的心愿单",
     "leave_bucketlist": "离开此心愿单？",
     "one_person": "一人",
     "name_is_collaborating": "$name正在与您合作。",
+    "no_collaborators": "No collaborators yet.",
+    "you_are_viewing_bucketlist": "You are viewing a bucketlist by $creator",
+    "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by $creator and $collaborator",
     "collaborating_and_one_more": "$name和另一人正在与您合作。",
     "collaborating_two": "$first和$second正在与您合作。",
     "collaborating_two_and_more": "$first和多于$count的人正在与您合作。。",
+    "you_are_viewing": "You are viewing the bucketlist by $creator",
+    "you_and_viewer_are_viewing": "You and 1 other are viewing the bucketlist by $creator",
+    "you_and_viewers_are_viewing": "You and $count others are viewing the bucketlist by $creator",
     "you_can_create": "登录后您可以创建、查看或编辑心愿单。",
     "create_your_first_bucketlist": "创建您的第一个心愿单",
     "as_you_search": "在搜索时，点击心形图标可将您最喜欢的地方和体验保存至心愿单。",
@@ -137,6 +148,8 @@
     "delete_user_from_bucketlist_message": "您确定要从此心愿单中删除$username吗？",
     "bucketlist_will_be_removed": "$name将从您的心愿单中移除。",
     "travel_dates": "旅行日期",
+    "share": "Invite",
+    "copy": "Copy",
     "destinations": {
       "one": "$n个旅行地点",
       "other": "$n个旅行地点"
@@ -149,9 +162,19 @@
       "title": "登录或注册",
       "continue_with": "继续使用",
       "login_to_collaborate": "登录以合作",
+      "login_to_view": "Log in to view",
       "invited_you": "$username邀请你加入他的愿望清单"
     },
-    "flying_from": "从哪里飞往"
+    "flying_from": "从哪里飞往",
+    "share_type_dialog": {
+      "title": "Invite to Bucketlist",
+      "title_alt": "Invite to collaborate",
+      "message": "How would you like to share this bucketlist?",
+      "edit": "Can Edit",
+      "edit_message": "Users will be able to edit bucketlist",
+      "view": "View Only",
+      "view_message": "Users will be able to view bucketlist"
+    }
   },
   "places": {
     "africa": "非洲",
@@ -199,6 +222,15 @@
       "高价目的地",
       "非常昂贵的目的地"
     ],
+    "filters": {
+      "flight_price": "Flight Price",
+      "flight_duration": "Flight Duration",
+      "flight_connection": "Flight Connection",
+      "categories": "Categories",
+      "flight_price_value": "Flight max $value",
+      "flight_duration_value": "Flight max $value",
+      "flight_connection_direct": "Direct only"
+    },
     "how_do_you_like_the_app": "你觉得这个应用怎么样？",
     "direct_flights": "直达航班",
     "show_only_direct_flights": "只显示直达航班",
@@ -220,8 +252,10 @@
     "sorted_and_procured": "根据你的偏好进行排序和采购",
     "scroll_down_to_see_more": "向下滚动查看更多信息",
     "no_results_found": "未找到结果！",
+    "km_from": "${distance}km from $city",
     "consider_broadening": "哎呀！根据你当前的偏好，我们无法找到任何匹配的结果。考虑扩大你的搜索范围，调整你的偏好设置以获取更多的选项。",
-    "return_with_bullet": " $code 回程"
+    "return_with_bullet": " $code 回程",
+    "approx_for_your_dates": "Approx. for your dates"
   },
   "flights_feat": {
     "flights_to": "飞往 $to 的航班",
@@ -230,6 +264,7 @@
     "all_filters": "所有筛选项",
     "no_flights": "没有航班",
     "estimated_price": "估计价格",
+    "livePrices": "Live Price",
     "travelers_info_updated_successfully": "旅行者信息已成功更新",
     "flight_details": "航班详情",
     "where_from": "从哪里出发？",
@@ -354,6 +389,21 @@
       "riad": "利雅德",
       "country-house": "乡村房屋"
     },
+    "explore_tile": {
+      "stay_options": "Stay options",
+      "layla_recommends": "Layla Recommends",
+      "budget": "Budget",
+      "luxury": "Luxury",
+      "find_more_stays": "Find more stays",
+      "things_to_do": "Things to do",
+      "show_all": "Show all",
+      "travel_km_further": "Travel $distance km further",
+      "get_route_details": "Get route details",
+      "flight_options": "Flight options",
+      "youre_in_luck": "You’re in luck",
+      "prices_are_currenly_low": "Prices are currently low",
+      "see_more_flights": "See more flights"
+    },
     "cancellation_policy": "取消政策",
     "before_you_book": "预订前，请确保您对此房东的取消政策感到满意。请注意，Airbnb的特殊情况政策不包括因COVID-19导致的疾病或旅行中断的取消。",
     "property_views": "物业视图",
@@ -365,6 +415,7 @@
     "hotel_name": "酒店名称",
     "cancel_by": "取消日期",
     "hotel_unavailable": "无法预订酒店",
+    "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
     "hotel_unavailable_message": "请更新日期。",
     "full_refund": "全额退款：退还您支付的100%",
     "no_refund": "无退款",
@@ -402,9 +453,11 @@
     "select_rooms_and_guests": "选择房间和宾客",
     "age_13_or_above": "13岁或以上",
     "what_people_said": "人们怎么说",
+    "what_people_loved": "What people loved about this place",
     "read_all_reviews": "阅读所有评论",
     "see_all": "查看所有 $count",
-    "what_this_place_offers": "此地能够提供"
+    "what_this_place_offers": "此地能够提供",
+    "share_text": "Check out this hotel: $name"
   },
   "language": {
     "select_language": "选择语言"
@@ -433,7 +486,8 @@
     },
     "location": {
       "title": "您从哪里旅行？",
-      "subtitle": "为了让我们为您提供最佳价格、连接和附近的隐藏宝藏，请与我们分享您的位置。"
+      "message": "Ping me your location and I'll line up your next adventure",
+      "button": "Allow Location Access"
     }
   },
   "profile": {

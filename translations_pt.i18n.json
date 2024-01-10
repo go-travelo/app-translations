@@ -222,6 +222,15 @@
       "Destino Caro",
       "Destino Muito Caro"
     ],
+    "filters": {
+      "flight_price": "Prezzo del volo",
+      "flight_duration": "Durata del volo",
+      "flight_connection": "Connessione del volo",
+      "categories": "Categorie",
+      "flight_price_value": "Max $value per il volo",
+      "flight_duration_value": "Max $value per la durata del volo",
+      "flight_connection_direct": "Solo diretto"
+    },
     "how_do_you_like_the_app": "Como você gosta do App?",
     "direct_flights": "Voos diretos",
     "show_only_direct_flights": "Mostrar apenas voos diretos",
@@ -243,10 +252,10 @@
     "sorted_and_procured": "Classificados e obtidos com base em suas preferências",
     "scroll_down_to_see_more": "Role para baixo para ver mais informações",
     "no_results_found": "Nenhum Resultado Encontrado!",
+    "km_from": "A ${distance} km da $city",
     "consider_broadening": "Oops! Não conseguimos encontrar nenhuma correspondência com base em suas preferências atuais. Considere ampliar sua busca ajustando suas preferências para um leque maior de opções.",
     "return_with_bullet": " $code volta",
-    "tap_to_filter": "Toque para filtrar",
-    "tap_to_bucketlist": "Toque para a lista de desejos"
+    "approx_for_your_dates": "Approssimativamente per le tue date"
   },
   "flights_feat": {
     "flights_to": "Voos para $to",
@@ -255,6 +264,7 @@
     "all_filters": "Todos os filtros",
     "no_flights": "Sem voos",
     "estimated_price": "Preço Estimado",
+    "livePrices": "Live Price",
     "travelers_info_updated_successfully": "Informações dos viajantes atualizadas com sucesso",
     "flight_details": "Detalhes do voo",
     "where_from": "De onde?",
@@ -379,6 +389,21 @@
       "riad": "Riad",
       "country-house": "Casa de Campo"
     },
+    "explore_tile": {
+      "stay_options": "Stay options",
+      "layla_recommends": "Layla Recommends",
+      "budget": "Budget",
+      "luxury": "Luxury",
+      "find_more_stays": "Find more stays",
+      "things_to_do": "Things to do",
+      "show_all": "Show all",
+      "travel_km_further": "Travel $distance km further",
+      "get_route_details": "Get route details",
+      "flight_options": "Flight options",
+      "youre_in_luck": "You’re in luck",
+      "prices_are_currenly_low": "Prices are currently low",
+      "see_more_flights": "See more flights"
+    },
     "cancellation_policy": "Política de cancelamento",
     "before_you_book": "Antes de reservar, certifique-se de que você está confortável com a política de cancelamento deste anfitrião. Lembre-se de que a política de circunstâncias atenuantes do Airbnb não cobre cancelamentos devido a doença ou interrupções de viagem causadas pela COVID-19.",
     "property_views": "Visualizações da propriedade",
@@ -390,6 +415,7 @@
     "hotel_name": "Nome do hotel",
     "cancel_by": "Cancelar até",
     "hotel_unavailable": "Hotel indisponível",
+    "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
     "hotel_unavailable_message": "Por favor, atualize as datas.",
     "full_refund": "Reembolso total: Receba de volta 100% do que você pagou",
     "no_refund": "Sem reembolso",
@@ -427,9 +453,11 @@
     "select_rooms_and_guests": "Selecione quartos e hóspedes",
     "age_13_or_above": "Idade 13 ou acima",
     "what_people_said": "O que as pessoas disseram",
+    "what_people_loved": "What people loved about this place",
     "read_all_reviews": "Ler todos os comentários",
     "see_all": "Ver todos $count",
-    "what_this_place_offers": "O que este lugar oferece"
+    "what_this_place_offers": "O que este lugar oferece",
+    "share_text": "Check out this hotel: $name"
   },
   "language": {
     "select_language": "Selecione o idioma"
@@ -458,7 +486,8 @@
     },
     "location": {
       "title": "De onde você viaja?",
-      "subtitle": "Para obter os melhores preços, conexões e tesouros escondidos próximos, compartilhe sua localização conosco."
+      "message": "Ping me your location and I'll line up your next adventure",
+      "button": "Allow Location Access"
     }
   },
   "profile": {
@@ -751,9 +780,5 @@
   "when": "Quando",
   "where_to": "Para onde",
   "where_from": "De onde",
-  "yesterday": "Ontem",
-  "symbols": {
-    "one": "$n símbolo",
-    "other": "$n símbolos"
-  }
+  "yesterday": "Ontem"
 }

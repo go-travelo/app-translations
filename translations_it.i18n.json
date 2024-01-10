@@ -255,9 +255,7 @@
     "km_from": "A ${distance} km da $city",
     "consider_broadening": "Oops! Non abbiamo trovato corrispondenze basate sulle tue preferenze attuali. Considera di ampliare la tua ricerca modificando le tue preferenze per un ventaglio di opzioni più ampio.",
     "return_with_bullet": " $code ritorno",
-    "approx_for_your_dates": "Approssimativamente per le tue date",
-    "tap_to_filter": "Tocca per filtrare",
-    "tap_to_bucketlist": "Tocca per mettere nella lista"
+    "approx_for_your_dates": "Approssimativamente per le tue date"
   },
   "flights_feat": {
     "flights_to": "Voli per $to",
@@ -399,7 +397,7 @@
       "find_more_stays": "Trova altri soggiorni",
       "things_to_do": "Cose da fare",
       "show_all": "Mostra tutto",
-      "travel_km_futher": "Viaggia ${distance} km in più",
+      "travel_km_further": "Viaggia ${distance} km in più",
       "get_route_details": "Ottieni i dettagli del percorso",
       "flight_options": "Opzioni di volo",
       "youre_in_luck": "Sei fortunato",
@@ -489,8 +487,7 @@
     "location": {
       "title": "Da dove viaggi?",
       "message": "Inviami la tua posizione e ti proporro la prossima avventura",
-      "button": "Permetti accesso alla posizione",
-      "subtitle": "Per ottenere i migliori prezzi, collegamenti e tesori nascosti vicino a te, condividi la tua posizione con noi."
+      "button": "Permetti accesso alla posizione"
     }
   },
   "profile": {
@@ -783,9 +780,5 @@
   "when": "Quando",
   "where_to": "Dove",
   "where_from": "Da dove",
-  "yesterday": "Ieri",
-  "symbols": {
-    "one": "$n simbolo",
-    "other": "$n simboli"
-  }
+  "yesterday": "Ieri"
 }

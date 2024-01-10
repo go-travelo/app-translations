@@ -45,7 +45,12 @@
         "button": "בוא/י נתחיל!",
         "msg1": "היי, אני לילה. 👋🏼",
         "msg2": "דמיינ/י את זה: את/ה מוצא/ת ומזמין/ה טיולים עם חברי הטיולים שלך במקום אחד.",
-        "msg3": "לכן אני כאן! לא טוב?"
+        "msg3": "לכן אני כאן! לא טוב?",
+        "msg4": "Let's get this party started...",
+        "msg1_web": "Hey there, I'm Layla 👋🏼",
+        "msg2_web": "Seeking out your next vacation spot? I'm here to help.",
+        "msg3_web": "You will find personalized inspiration, plan and book trips just by having a chat with me.",
+        "msg4_web": "Cool, right? Let's do it!"
       }
     },
     "things_ask": {
@@ -103,7 +108,11 @@
     "tap_to_filter": "נגיש לסינון",
     "tap_to_bucketlist": "נגיש לרשימת דליקת לב",
     "tap_to_chat": "נגיש לשיחה",
-    "tap_to_help_country": "זקוק לעזרה בתכנון טיול ל-$country?"
+    "tap_to_help_country": "זקוק לעזרה בתכנון טיול ל-$country?",
+    "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
+    "tap_to_start_new_chat": "Tap to start a new chat",
+    "tap_to_open_menu": "Tap to open the menu panel",
+    "skipIntro": "Skip intro"
   },
   "bucketlist": {
     "no_name": "ללא שם",
@@ -111,14 +120,21 @@
     "bucketlist": "רשימת דליקת לב: $name",
     "bucketlist_saved": "רשימת דליקת לב נשמרה בהצלחה",
     "bucketlist_created": "רשימת דליקת לב נוצרה בהצלחה",
+    "bucketlist_copied": "Bucketlist $name copied successfully",
     "my_bucketlist": "הרשימת דליקת לב שלי",
     "login_to_view": "היכנס כדי לראות את רשימת הדליקות שלך",
     "leave_bucketlist": "לעזוב את רשימת הדליקות?",
     "one_person": "אדם אחד",
     "name_is_collaborating": "$name משתפת פעולה איתך.",
+    "no_collaborators": "No collaborators yet.",
+    "you_are_viewing_bucketlist": "You are viewing a bucketlist by $creator",
+    "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by $creator and $collaborator",
     "collaborating_and_one_more": "$name ועוד אחד משתפים פעולה איתך.",
     "collaborating_two": "$first ו-$second משתפים פעולה איתך.",
     "collaborating_two_and_more": "$first ו-$count נוספים משתפים פעולה איתך..",
+    "you_are_viewing": "You are viewing the bucketlist by $creator",
+    "you_and_viewer_are_viewing": "You and 1 other are viewing the bucketlist by $creator",
+    "you_and_viewers_are_viewing": "You and $count others are viewing the bucketlist by $creator",
     "you_can_create": "אתה יכול ליצור, להציג או לערוך רשימות דליקות לאחר שנכנסת למערכת.",
     "create_your_first_bucketlist": "צור את רשימת הדליקות הראשונה שלך",
     "as_you_search": "כאשר אתה מחפש, הקש על האייקון בצורת לב לשמור מקומות וחוויות מועדפים לרשימת הדליקות שלך.",
@@ -132,6 +148,8 @@
     "delete_user_from_bucketlist_message": "האם אתה בטוח שברצונך למחוק את $username מרשימת הדליקות הזו?",
     "bucketlist_will_be_removed": "$name יוסר מרשימת הדליקות שלך.",
     "travel_dates": "תאריכי טיסה",
+    "share": "Invite",
+    "copy": "Copy",
     "destinations": {
       "one": "יעד $n",
       "other": "$n יעדים"
@@ -144,9 +162,19 @@
       "title": "התחבר או הירשם",
       "continue_with": "המשך עם",
       "login_to_collaborate": "התחבר כדי לשתף פעולה",
+      "login_to_view": "Log in to view",
       "invited_you": "הוזמנת על ידי $username לרשימת המטיילים שלו"
     },
-    "flying_from": "טס מ"
+    "flying_from": "טס מ",
+    "share_type_dialog": {
+      "title": "Invite to Bucketlist",
+      "title_alt": "Invite to collaborate",
+      "message": "How would you like to share this bucketlist?",
+      "edit": "Can Edit",
+      "edit_message": "Users will be able to edit bucketlist",
+      "view": "View Only",
+      "view_message": "Users will be able to view bucketlist"
+    }
   },
   "places": {
     "africa": "אפריקה",
@@ -194,6 +222,15 @@
       "יעד יקר",
       "יעד עמוק בכיס"
     ],
+    "filters": {
+      "flight_price": "Flight Price",
+      "flight_duration": "Flight Duration",
+      "flight_connection": "Flight Connection",
+      "categories": "Categories",
+      "flight_price_value": "Flight max $value",
+      "flight_duration_value": "Flight max $value",
+      "flight_connection_direct": "Direct only"
+    },
     "how_do_you_like_the_app": "איך אתה אוהב את האפליקציה?",
     "direct_flights": "טיסות ישירות",
     "show_only_direct_flights": "הצג רק טיסות ישירות",
@@ -215,10 +252,10 @@
     "sorted_and_procured": "ממוינים ורכוש על פי ההעדפות שלך",
     "scroll_down_to_see_more": "גלול למטה כדי לראות עוד מידע",
     "no_results_found": "לא נמצאות תוצאות!",
+    "km_from": "${distance}km from $city",
     "consider_broadening": "אופס! לא מצאנו התאמות בהתאם להעדפות הנוכחיות שלך. שקול להרחיב את החיפוש שלך על ידי שינוי ההעדפות שלך למגוון רחב יותר של אפשרויות.",
     "return_with_bullet": " $code חזרה",
-    "tap_to_filter": "הקש לסינון",
-    "tap_to_bucketlist": "הקש לרשימת דלי"
+    "approx_for_your_dates": "Approx. for your dates"
   },
   "flights_feat": {
     "flights_to": "טיסות ל-$to",
@@ -227,6 +264,7 @@
     "all_filters": "כל המסננים",
     "no_flights": "אין טיסות",
     "estimated_price": "מחיר מוערך",
+    "livePrices": "Live Price",
     "travelers_info_updated_successfully": "פרטי הנוסעים עודכנו בהצלחה",
     "flight_details": "פרטי הטיסה",
     "where_from": "מאיפה?",
@@ -351,6 +389,21 @@
       "riad": "ריאד",
       "country-house": "בית כפרי"
     },
+    "explore_tile": {
+      "stay_options": "Stay options",
+      "layla_recommends": "Layla Recommends",
+      "budget": "Budget",
+      "luxury": "Luxury",
+      "find_more_stays": "Find more stays",
+      "things_to_do": "Things to do",
+      "show_all": "Show all",
+      "travel_km_further": "Travel $distance km further",
+      "get_route_details": "Get route details",
+      "flight_options": "Flight options",
+      "youre_in_luck": "You’re in luck",
+      "prices_are_currenly_low": "Prices are currently low",
+      "see_more_flights": "See more flights"
+    },
     "cancellation_policy": "מדיניות ביטול",
     "before_you_book": "לפני שאתה מזמין, ודא שאתה מרגיש בנוח עם מדיניות הביטול של המארח. שים לב שמדיניות מקרים מיוחדים של Airbnb אינה כוללת ביטולים בשל מחלה או השבתת טיסות שנגרמה על ידי COVID-19.",
     "property_views": "תצאוגת הנכס",
@@ -362,6 +415,7 @@
     "hotel_name": "שם המלון",
     "cancel_by": "לבטל על ידי",
     "hotel_unavailable": "מלון לא זמין",
+    "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
     "hotel_unavailable_message": "אנא עדכן את התאריכים.",
     "full_refund": "החזר כספי מלא: אחזור 100% ממה ששילמת",
     "no_refund": "אין החזר כספי",
@@ -399,9 +453,11 @@
     "select_rooms_and_guests": "בחר חדרים ואורחים",
     "age_13_or_above": "גיל 13 או מעלה",
     "what_people_said": "מה אומרים האנשים",
+    "what_people_loved": "What people loved about this place",
     "read_all_reviews": "קרא את כל הסקירות",
     "see_all": "ראה את כל $count",
-    "what_this_place_offers": "מה מציע מקום זה"
+    "what_this_place_offers": "מה מציע מקום זה",
+    "share_text": "Check out this hotel: $name"
   },
   "language": {
     "select_language": "בחר שפה"
@@ -430,7 +486,8 @@
     },
     "location": {
       "title": "מאיפה אתה מטייל?",
-      "subtitle": "על מנת לקבל את המחירים הטובים ביותר, חיבורים טובים ואת יעדי הסוד הקרובים, עדכן אותנו במיקומך."
+      "message": "Ping me your location and I'll line up your next adventure",
+      "button": "Allow Location Access"
     }
   },
   "profile": {
@@ -478,6 +535,18 @@
   "share_dialog": {
     "title": "שתף",
     "copy": "העתק"
+  },
+  "about_screen": {
+    "title": "About me, Layla.",
+    "subtitle": "Navigate the world with Layla; AI trip planner and your ultimate travel sidekick.",
+    "block_1": "Hey everyone, it's your girl, Layla, and I am SO excited to spill the tea on what should be your latest travel obsession – me! You know how we're all about planning those spontaneous trips and living our best adventurous lives, right? Well, I'm basically your ride-or-die travel AI here to help you find new places to go and make your travel dreams a reality. Let me break it down for you...",
+    "block_2": "First things first, people often say “Layla is like the fairy godmother of travel inspo”. Forget hours of mindlessly scrolling through Instagram or Pinterest – as an AI trip planner I curate personalized travel suggestions based on YOUR interests. And trust me, I’ve got that sixth sense for sniffing out the coolest vacation spots that you never knew existed. Chatting to me is like having your own travel guru without the hefty price tag.",
+    "block_3": "Now, I know what you're thinking – \"Do I really need another travel app cluttering up my phone?\" Hear me out, babe. Layla isn't just another app; it’s a game-changer. Picture this: you tell me your vibe, whether it's beachy bliss, city lights, or mountain highs, and BAM – I’ll find you a smorgasbord of destinations tailored just for you complete with videos so you can easily feel the vibe of each place.",
+    "block_4": "The best part? Chatting to me, Layla, takes the hassle out of planning trips. No more juggling a million tabs, trying to find the best flights, hotels, and activities. I’ve got it covered for you. Scouring the web for the hottest destinations, snagging those budget-friendly flights, and hooking you up with Insta-worthy stays. All you have to do is pack your bags and look cute.",
+    "block_5": "Now, let's talk about booking. I’m here to streamline your travel booking process, from finding your dream destination to securing the best deals. AIs are here to make things so easy, even a tech-challenged queen can handle it. Plus, you can trust Layla to have your back – no shady booking sites or sketchy accommodations in sight - I’ve partnered with Skyscanner and Booking.com.",
+    "block_6": "But wait, there's more. AIs don’t just help you plan, once you’re on your trip I’m your ultimate wingwoman when it comes to exploring a new city. Armed with the deets on must-see attractions, hidden gems, and the trendiest local joints. I’ll guide you to all the places where the locals actually hang.",
+    "block_7": "So, if you're tired of the same-old, same-old and ready to spice up your travel game, say hello to me, Layla. I’m not just an AI; I’m a game-changer for the way you plan trips, as well as a travel vibe curator, and your passport to the world. Get ready to jet-set with confidence, my loves, because Layla's got your travel dreams on lock.\n\nAdventure awaits ✈️💖",
+    "button": "Chat with Layla"
   },
   "video_category": [
     "הכל",
@@ -711,13 +780,5 @@
   "when": "מתי",
   "where_to": "לאן",
   "where_from": "מאין",
-  "yesterday": "אתמול",
-  "symbols": {
-    "one": "סמל $n",
-    "other": "$n סמלים"
-  },
-  "characters": {
-    "one": "$n תו",
-    "other": "$n תווים"
-  }
+  "yesterday": "אתמול"
 }
