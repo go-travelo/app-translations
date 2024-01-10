@@ -1,4 +1,12 @@
 {
+  "blog": {
+    "postNotFound": "אנא בדוק את כתובת ה-URL, אין לנו פוסט כזה.",
+    "askLaylaAbout": "שאל/י את לילה על $name",
+    "travellerQuestion": "אני רוצה לדעת עוד על ${name} כמטייל/ת.",
+    "blog": "בלוג",
+    "blogs": "בלוגים",
+    "noBlogs": "לא נמצאו בלוגים"
+  },
   "chatbot": {
     "onboarding": {
       "page_one": {
@@ -26,16 +34,37 @@
         "msg3": "מה מעניין אותך?",
         "msg4": "מאיפה אתה יוצא?",
         "msg5": "תודה! יש לי את כל מה שאני זקוק לו עד כה. לחץ על הבא כדי לעזור לי להמליץ לך על היעדים היפים בעולם, מותאמים אישית רק בשבילך!"
-       
       },
       "aesthetics": {
         "message": "עזור לנו להבין את האווירה שלך",
         "title": "לחץ כדי לבחור 3 כרטיסים או יותר",
-        "continueButton": "בחר עוד $count כרטיסים כדי להמשיך"
+        "continueButton": "בחר עוד $count כרטיסים כדי להמשיך",
+        "titleAlt": "איזה רוח את/ה רוצה?\nגע/י בכרטיסיות שאת/ה 💕"
+      },
+      "video": {
+        "button": "בוא/י נתחיל!",
+        "msg1": "היי, אני לילה. 👋🏼",
+        "msg2": "דמיינ/י את זה: את/ה מוצא/ת ומזמין/ה טיולים עם חברי הטיולים שלך במקום אחד.",
+        "msg3": "לכן אני כאן! לא טוב?"
       }
+    },
+    "things_ask": {
+      "title": "דברים שאת/ה יכול/ה לשאול אותי!",
+      "description": "אני כאן כדי לעזור לך לתכנן את ההרפתקה הבאה שלך. שאל/י מתי שתרצה על היעד ואני אצפה יענה לך. הנה כמה דברים שכבר שאלו אותי...",
+      "possible_prompts": "שאלות נפוצות",
+      "ask_layla": "שאל/י את לילה"
+    },
+    "chat_settings": {
+      "history": "היסטוריה",
+      "new_chat": "צ'אט חדש",
+      "rename_chat": "שנה את שם הצ'אט",
+      "delete_chat": "מחק צ'אט?",
+      "delete_chat_message": "$name יימחק לצמיתות.",
+      "info_and_support": "מידע ותמיכה"
     },
     "chat": {
       "title": "צ'אט Layla",
+      "isTyping": "$name כותב/ת...",
       "messages": {
         "location": {
           "requestTitle": "מאיפה אתה יוצא?",
@@ -55,7 +84,19 @@
           "day": "יום"
         }
       },
-      "messageHint": "שאל אותי כל דבר"
+      "messageHint": "שאל אותי כל דבר",
+      "contextMenu": {
+        "copy": "העתק",
+        "good_response": "תשובה טובה",
+        "bad_response": "תשובה רעה",
+        "message_copied": "ההודעה הועתקה בהצלחה"
+      },
+      "initialQuickReplies": {
+        "msg1": "וואו אותי לאן ללכת הפעם הבאה",
+        "msg2": "מצא/י לי טיסות זולות",
+        "msg3": "תכנן לי את התוכנית",
+        "msg4": "איפה יש לי להתארח?"
+      }
     }
   },
   "tooltips": {
@@ -411,7 +452,12 @@
     "last_name": "שם משפחה",
     "edit_profile": "עריכת פרופיל",
     "member_since": "חבר מאז $date",
-    "share_message": "בדוק את האפליקציה הזו שמכילה את המקומות הנהדרים ביותר בעולם: $link"
+    "share_message": "בדוק את האפליקציה הזו שמכילה את המקומות הנהדרים ביותר בעולם: $link",
+    "terms_of_service": "תנאי השימוש",
+    "account_already_linked": "החשבון כבר מחובר",
+    "account_already_linked_message": "החשבון הזה כבר מחובר למשתמש אחר. האם ברצונך להתחבר עם משתמש זה?",
+    "chat_limit_exceeded": "אנא התחבר בכדי להמשיך לשוחח. תוכל גם לשמור שיחות ופריטים ברשימת המטרות שלך.",
+    "new_chat_login": "כדי לפתוח שיחה חדשה, אנא התחבר"
   },
   "splash": {
     "discover_where_to": "גלה לאן\nלטוס הלאה."
@@ -429,6 +475,10 @@
   "thing_todo": {
     "things_to_do": "דברים לעשות"
   },
+  "share_dialog": {
+    "title": "שתף",
+    "copy": "העתק"
+  },
   "video_category": [
     "הכל",
     "הרפתקה",
@@ -443,6 +493,17 @@
     "רומנטיקה",
     "ספורט",
     "קטגוריה מובילה"
+  ],
+  "videoSubCategory": [
+    "פעילויות",
+    "יאכטות וסיורים ימיים",
+    "גן ציבורי",
+    "ברים",
+    "מסעדות וקפה",
+    "דברים חינם לעשות",
+    "מועדוני לילה",
+    "פסטיבלים ואירועים",
+    "גלריות ומוזיאונים"
   ],
   "weekdays_short": [
     "א",
@@ -502,17 +563,21 @@
     "one": "$n שנה",
     "other": "$n שנים"
   },
+  "about": "אודות",
+  "afternoon": "אחר הצהריים",
   "allow": "התר",
   "anything": "הכול",
   "anytime": "בכל זמן",
   "anywhere": "בכל מקום",
   "adultsWord": "מבוגרים",
+  "app": "אפליקציה",
   "apply": "החל",
   "around": "סביב",
   "arrival": "הגעה",
   "away": "רחוק",
   "best": "הכי טוב",
   "bucketlists": "רשימות דלו",
+  "bucketlistWord": "רשימת משאלות",
   "cancel": "ביטול",
   "change": "שינוי",
   "charactersWord": {
@@ -528,11 +593,13 @@
   "clear_all": "נקה הכל",
   "collaborators": "שותפים",
   "confirm": "אישור",
+  "contact": "צור קשר",
   "contact_us": "צור קשר",
   "continue_label": "המשך",
   "create": "צור",
   "creator": "יוצר",
   "currency": "מטבע",
+  "daysWord": "ימים",
   "dates": "תאריכים",
   "deals": "דילים",
   "delete": "מחק",
@@ -544,6 +611,9 @@
   "done": "סיים",
   "duration": "משך",
   "edit": "ערוך",
+  "editDates": "ערוך תאריכים",
+  "editDetails": "ערוך פרטים",
+  "evening": "ערב",
   "experiences": "חוויות",
   "explore": "חקר",
   "fastest": "הכי מהיר",
@@ -554,9 +624,11 @@
   "flights": "טיסות",
   "from": "מ",
   "from_var": "מ $name",
+  "help": "עזרה",
   "hotelWord": "מלון",
   "hotels": "מלונות",
   "infants": "תינוקות",
+  "itinerary": "תוכנית",
   "know_more_word": "דע עוד",
   "languageWord": "שפה",
   "leave": "עזוב",
@@ -564,6 +636,10 @@
   "login": "התחברות",
   "location": "מיקום",
   "map": "מפה",
+  "month": "חודש",
+  "more": "עוד",
+  "morning": "בוקר",
+  "name": "שם",
   "next": "הבא",
   "nightWord": "לילה",
   "nights": {
@@ -578,6 +654,7 @@
   "one_way": "כיוון אחד",
   "pets": "חיות מחמד",
   "photos": "תמונות",
+  "plan": "תכנון",
   "preferences": "העדפות",
   "profileWord": "פרופיל",
   "powered_by": "מופעל על ידי",
@@ -599,6 +676,7 @@
   "share": "שתף",
   "show_more": "הצג עוד",
   "show_more_flights": "הצג טיסות נוספות",
+  "sign_in": "התחבר",
   "sign_up": "הרשם",
   "show_less": "הצג פחות",
   "support": "תמיכה",
@@ -610,9 +688,13 @@
     "other": "$n כוכבים"
   },
   "start": "התחל",
+  "star_new_chat": "פתח צ'אט חדש",
   "stops": "עצירות",
   "times": "זמנים",
   "to": "אל",
+  "today": "היום",
+  "total": "סך הכל",
+  "transit": "מעבורת",
   "travelers": "מטיילים",
   "unknown_error": "שגיאה לא ידועה",
   "unknown_name": "שם לא ידוע",
@@ -625,10 +707,11 @@
   "weekend": "סוף שבוע",
   "week": "שבוע",
   "what": "מה",
+  "what_can_i_ask": "מה אני יכול לשאול?",
   "when": "מתי",
-  "month": "חודש",
   "where_to": "לאן",
   "where_from": "מאין",
+  "yesterday": "אתמול",
   "symbols": {
     "one": "סמל $n",
     "other": "$n סמלים"

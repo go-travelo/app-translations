@@ -1,4 +1,12 @@
 {
+  "blog": {
+    "postNotFound": "Veuillez vérifier l'adresse URL, nous n'avons pas cet article.",
+    "askLaylaAbout": "Demandez à Layla à propos de ${name}",
+    "travellerQuestion": "Je veux en savoir plus sur ${name} en tant que voyageur.",
+    "blog": "Blog",
+    "blogs": "Blogs",
+    "noBlogs": "Aucun blog trouvé"
+  },
   "chatbot": {
     "onboarding": {
       "page_one": {
@@ -30,11 +38,38 @@
       "aesthetics": {
         "message": "Aidez-nous à comprendre votre style",
         "title": "Appuyez pour choisir 3 cartes ou plus",
-        "continueButton": "Sélectionnez ${count} de plus pour continuer"
+        "continueButton": "Sélectionnez ${count} de plus pour continuer",
+        "titleAlt": "Quel est ton style ?\nAppuie sur les cartes que tu aimes"
+      },
+      "video": {
+        "button": "Allons-y !",
+        "msg1": "Bonjour, Layla est là. 👋🏼",
+        "msg2": "Imagine ceci : tu trouves et réserves facilement tes voyages avec tes compagnons de voyage, le tout au même endroit.",
+        "msg3": "C'est pour ça que je suis là ! Cool, non ?",
+        "msg4": "Commençons cette fête...",
+        "msg1_web": "Bonjour, je suis Layla 👋🏼",
+        "msg2_web": "À la recherche de ta prochaine destination de vacances ? Je suis là pour t'aider.",
+        "msg3_web": "Tu trouveras de l'inspiration personnalisée, planifieras et réserveras des voyages en discutant simplement avec moi.",
+        "msg4_web": "Cool, non ? Allons-y !"
       }
+    },
+    "things_ask": {
+      "title": "Les choses que tu peux me demander !",
+      "description": "Je suis là pour t'aider à planifier ta prochaine aventure. Demande-moi tout sur la destination, j'aurai la réponse. Voici quelques choses que les gens m'ont déjà demandées...",
+      "possible_prompts": "Questions fréquentes",
+      "ask_layla": "Demande à Layla"
+    },
+    "chat_settings": {
+      "history": "Historique",
+      "new_chat": "Nouveau Chat",
+      "rename_chat": "Renommer le Chat",
+      "delete_chat": "Supprimer le Chat ?",
+      "delete_chat_message": "$name sera supprimé définitivement.",
+      "info_and_support": "Informations et Support"
     },
     "chat": {
       "title": "Layla",
+      "isTyping": "$name est en train d'écrire...",
       "messages": {
         "location": {
           "requestTitle": "D'où partirez-vous ?",
@@ -54,14 +89,30 @@
           "day": "Jour"
         }
       },
-      "messageHint": "Demandez-moi n'importe quoi"
+      "messageHint": "Demandez-moi n'importe quoi",
+      "contextMenu": {
+        "copy": "Copier",
+        "good_response": "Bonne réponse",
+        "bad_response": "Mauvaise réponse",
+        "message_copied": "Message copié avec succès"
+      },
+      "initialQuickReplies": {
+        "msg1": "Inspire-moi où aller ensuite",
+        "msg2": "Trouve-moi des vols bon marché",
+        "msg3": "Construis-moi un itinéraire",
+        "msg4": "Où devrais-je séjourner ?"
+      }
     }
   },
   "tooltips": {
     "tap_to_filter": "Appuyez pour filtrer",
     "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits",
     "tap_to_chat": "Appuyez pour discuter",
-    "tap_to_help_country": "Besoin d'aide pour planifier un voyage en $country?"
+    "tap_to_help_country": "Besoin d'aide pour planifier un voyage en $country?",
+    "tap_to_add_to_bucketlist": "Enregistrer et collaborer, touchez pour ajouter à votre liste de souhaits.",
+    "tap_to_start_new_chat": "Touchez pour commencer une nouvelle discussion",
+    "tap_to_open_menu": "Touchez pour ouvrir le menu",
+    "skipIntro": "Passer l'introduction"
   },
   "bucketlist": {
     "no_name": "Sans nom",
@@ -69,14 +120,21 @@
     "bucketlist": "Liste de favoris: $name",
     "bucketlist_saved": "Liste de favoris enregistrée avec succès",
     "bucketlist_created": "Liste de souhaits créée avec succès",
+    "bucketlist_copied": "Liste de souhaits $name copiée avec succès",
     "my_bucketlist": "Ma liste de souhaits",
     "login_to_view": "Connectez-vous pour voir votre liste de favoris",
     "leave_bucketlist": "Quitter cette liste de favoris?",
     "one_person": "Une personne",
     "name_is_collaborating": "$name collabore avec vous.",
+    "no_collaborators": "Aucun collaborateur pour le moment.",
+    "you_are_viewing_bucketlist": "Vous consultez une liste de souhaits de $creator",
+    "you_are_viewing_bucketlist_collaborator": "Vous consultez une liste de souhaits de $creator et de $collaborator",
     "collaborating_and_one_more": "$name et une autre personne collaborent avec vous.",
     "collaborating_two": "$first et $second collaborent avec vous.",
     "collaborating_two_and_more": "$first et $count autres personnes collaborent avec vous..",
+    "you_are_viewing": "Vous consultez la liste de souhaits de $creator",
+    "you_and_viewer_are_viewing": "Vous et 1 autre personne consultez la liste de souhaits de $creator",
+    "you_and_viewers_are_viewing": "Vous et $count autres personnes consultez la liste de souhaits de $creator",
     "you_can_create": "Vous pouvez créer, voir ou modifier des listes de favoris une fois que vous vous êtes connecté.",
     "create_your_first_bucketlist": "Créez votre première liste de favoris",
     "as_you_search": "Pendant votre recherche, appuyez sur l'icône de coeur pour enregistrer vos lieux et expériences préférés dans votre liste de favoris.",
@@ -90,6 +148,8 @@
     "delete_user_from_bucketlist_message": "Êtes-vous sûr de vouloir supprimer $username de cette liste de favoris?",
     "bucketlist_will_be_removed": "$name sera supprimé de vos listes de favoris.",
     "travel_dates": "Dates de voyage",
+    "share": "Inviter",
+    "copy": "Copier",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
@@ -102,9 +162,19 @@
       "title": "Connectez-vous ou inscrivez-vous",
       "continue_with": "Continuer avec",
       "login_to_collaborate": "Connectez-vous pour collaborer",
+      "login_to_view": "Connectez-vous pour afficher",
       "invited_you": "$username vous a invité à rejoindre sa Bucketlist"
     },
-    "flying_from": "Départ de"
+    "flying_from": "Départ de",
+    "share_type_dialog": {
+      "title": "Inviter à la liste de souhaits",
+      "title_alt": "Inviter à collaborer",
+      "message": "Comment souhaitez-vous partager cette liste de souhaits ?",
+      "edit": "Peut modifier",
+      "edit_message": "Les utilisateurs pourront modifier la liste de souhaits",
+      "view": "Lecture seule",
+      "view_message": "Les utilisateurs pourront consulter la liste de souhaits"
+    }
   },
   "places": {
     "africa": "Afrique",
@@ -410,7 +480,12 @@
     "last_name": "Nom",
     "edit_profile": "Modifier le profil",
     "member_since": "Membre depuis $date",
-    "share_message": "Découvrez cette application qui présente les lieux les plus incroyables du monde: $link"
+    "share_message": "Découvrez cette application qui présente les lieux les plus incroyables du monde: $link",
+    "terms_of_service": "Conditions Générales d'Utilisation",
+    "account_already_linked": "Compte déjà lié",
+    "account_already_linked_message": "Ce compte est déjà lié à un autre utilisateur. Voulez-vous vous connecter en tant qu'utilisateur ?",
+    "chat_limit_exceeded": "Veuillez vous connecter pour continuer à discuter. Vous pourrez également enregistrer des discussions et des éléments dans votre liste de souhaits.",
+    "new_chat_login": "Pour commencer une nouvelle discussion, veuillez vous connecter"
   },
   "splash": {
     "discover_where_to": "Découvrez où\nvoyager ensuite."
@@ -428,6 +503,22 @@
   "thing_todo": {
     "things_to_do": "Choses à faire"
   },
+  "share_dialog": {
+    "title": "Partager",
+    "copy": "Copier"
+  },
+  "about_screen": {
+    "title": "À propos de moi, Layla.",
+    "subtitle": "Naviguez dans le monde avec Layla; le planificateur de voyage IA et votre compagnon de voyage ultime.",
+    "block_1": "Salut tout le monde, c'est moi Layla et je suis TELLEMENT excitée de vous parler de ce qui devrait être votre dernière obsession de voyage - moi ! Vous savez comment on est tous là pour planifier ces voyages spontanés et vivre notre meilleure vie d'aventuriers, n'est-ce pas ? Eh bien, je suis essentiellement votre IA de voyage fidèle et dévouée, là pour vous aider à découvrir de nouveaux endroits et à concrétiser vos rêves de voyage. Laissez-moi vous expliquer en détail...",
+    "block_2": "D'abord et avant tout, les gens disent souvent que \"Layla est comme la marraine la bonne fée de l'inspiration de voyage\". Oubliez les heures passées à faire défiler sans fin Instagram ou Pinterest - en tant que planificateur de voyage IA, je sélectionne des suggestions de voyage personnalisées en fonction de VOS intérêts. Et croyez-moi, j'ai ce sixième sens pour dénicher les destinations de vacances les plus cool que vous ne connaissiez même pas. Parler avec moi, c'est comme avoir votre propre gourou du voyage sans le prix exorbitant.",
+    "block_3": "Maintenant, je sais ce que vous pensez - \"Est-ce que j'ai vraiment besoin d'une autre application de voyage qui encombre mon téléphone ?\" Écoutez-moi, chérie. Layla n'est pas juste une autre application ; c'est une révolution. Imaginez ceci : vous me dites votre style, que ce soit le bonheur balnéaire, les lumières de la ville ou les sommets montagneux, et BAM - je vous trouve une multitude de destinations sur mesure pour vous, avec des vidéos pour que vous puissiez facilement ressentir l'ambiance de chaque endroit.",
+    "block_4": "La meilleure partie ? Parler avec moi, Layla, enlève toute la complexité de la planification des voyages. Plus besoin de jongler entre une multitude d'onglets pour trouver les meilleurs vols, hôtels et activités. C'est moi qui m'en occupe pour vous. Je fouille le web pour trouver les destinations les plus tendances, je dégote les vols les moins chers et je vous trouve des séjours dignes d'Instagram. Tout ce que vous avez à faire, c'est de faire vos valises et d'être belle.",
+    "block_5": "Maintenant, parlons de réservation. Je suis là pour faciliter votre processus de réservation de voyage, de la recherche de votre destination de rêve à la réservation des meilleures offres. Les IA sont là pour simplifier les choses, même une reine pas très douée en technologie peut le gérer. De plus, vous pouvez faire confiance à Layla pour veiller sur vous - pas de sites de réservation louches ou d'hébergements douteux en vue, j'ai conclu un partenariat avec Skyscanner et Booking.com.",
+    "block_6": "Mais attendez, il y a plus. Les IA ne vous aident pas seulement à planifier, une fois que vous êtes en voyage, je suis votre meilleure alliée pour explorer une nouvelle ville. Armée des détails sur les attractions incontournables, les trésors cachés et les endroits branchés locaux. Je vous guiderai vers tous les endroits où les habitants se retrouvent réellement.",
+    "block_7": "Alors, si vous en avez assez de la routine et que vous êtes prêt à pimenter votre expérience de voyage, dites bonjour à moi, Layla. Je ne suis pas seulement une IA ; je suis une révolution pour la façon dont vous planifiez vos voyages, ainsi qu'une curatrice d'ambiances de voyage et votre passeport vers le monde. Préparez-vous à prendre votre envol en toute confiance, mes amours, car Layla réalise vos rêves de voyage.\n\nL'aventure vous attend ✈️💖",
+    "button": "Discuter avec Layla"
+  },
   "video_category": [
     "Tout",
     "Aventure",
@@ -442,6 +533,17 @@
     "Romantique",
     "Sport",
     "Top Catégorie"
+  ],
+  "videoSubCategory": [
+    "Activités",
+    "Yachts et Croisières",
+    "Jardins et Parcs",
+    "Bars",
+    "Restaurants et Cafés",
+    "Activités Gratuites",
+    "Boîtes de Nuit",
+    "Festivals et Événements",
+    "Galerie d'Art et Musées"
   ],
   "weekdays_short": [
     "L",
@@ -501,17 +603,21 @@
     "one": "$n an",
     "other": "$n ans"
   },
+  "about": "À propos",
+  "afternoon": "Après-midi",
   "allow": "Permettre",
   "anything": "N'importe quoi",
   "anytime": "À tout moment",
   "anywhere": "N'importe où",
   "adultsWord": "Adultes",
+  "app": "Application",
   "apply": "Appliquer",
   "around": "Autour",
   "arrival": "Arrivée",
   "away": "Loin",
   "best": "Meilleur",
   "bucketlists": "Listes de souhaits",
+  "bucketlistWord": "Liste de souhaits",
   "cancel": "Annuler",
   "change": "Changer",
   "charactersWord": {
@@ -527,11 +633,13 @@
   "clear_all": "Tout effacer",
   "collaborators": "Collaborateurs",
   "confirm": "Confirmer",
+  "contact": "Contact",
   "contact_us": "Nous contacter",
   "continue_label": "Continuer",
   "create": "Créer",
   "creator": "Créateur",
   "currency": "Devise",
+  "daysWord": "Jours",
   "dates": "Dates",
   "deals": "Offres",
   "delete": "Supprimer",
@@ -543,6 +651,9 @@
   "done": "Terminé",
   "duration": "Durée",
   "edit": "Modifier",
+  "editDates": "Modifier les dates",
+  "editDetails": "Modifier les détails",
+  "evening": "Soirée",
   "experiences": "Expériences",
   "explore": "Explorer",
   "fastest": "Le plus rapide",
@@ -553,9 +664,11 @@
   "flights": "Vols",
   "from": "De",
   "from_var": "De $name",
+  "help": "Aide",
   "hotelWord": "Hôtel",
   "hotels": "Hôtels",
   "infants": "Nourrissons",
+  "itinerary": "Itinéraire",
   "know_more_word": "En savoir plus",
   "languageWord": "Langue",
   "leave": "Partir",
@@ -563,6 +676,10 @@
   "login": "Se connecter",
   "location": "Emplacement",
   "map": "Carte",
+  "month": "Mois",
+  "more": "Plus",
+  "morning": "Matin",
+  "name": "Nom",
   "next": "Suivant",
   "nightWord": "Nuit",
   "nights": {
@@ -577,6 +694,7 @@
   "one_way": "Aller simple",
   "pets": "Animaux",
   "photos": "Photos",
+  "plan": "Planifier",
   "preferences": "Préférences",
   "profileWord": "Profil",
   "powered_by": "Propulsé par",
@@ -598,6 +716,7 @@
   "share": "Partager",
   "show_more": "Montrer plus",
   "show_more_flights": "Montrer plus de vols",
+  "sign_in": "Se connecter",
   "sign_up": "S'inscrire",
   "show_less": "Montrer moins",
   "support": "Support",
@@ -609,9 +728,13 @@
     "other": "$n étoiles"
   },
   "start": "Commencer",
+  "star_new_chat": "Démarrer une nouvelle discussion",
   "stops": "Arrêts",
   "times": "Fois",
   "to": "À",
+  "today": "Aujourd'hui",
+  "total": "Total",
+  "transit": "Transit",
   "travelers": "Voyageurs",
   "unknown_error": "Erreur inconnue",
   "unknown_name": "Nom inconnu",
@@ -624,10 +747,11 @@
   "weekend": "Weekend",
   "week": "Semaine",
   "what": "Quoi",
+  "what_can_i_ask": "Que puis-je demander ?",
   "when": "Quand",
-  "month": "Mois",
   "where_to": "Où",
   "where_from": "D'où",
+  "yesterday": "Hier",
   "symbols": {
     "one": "$n symbole",
     "other": "$n symboles"

@@ -1,4 +1,12 @@
 {
+  "blog": {
+    "postNotFound": "Bitte überprüfen Sie die URL-Adresse, wir haben keinen solchen Beitrag.",
+    "askLaylaAbout": "Frage Layla nach $name",
+    "travellerQuestion": "Ich möchte mehr über ${name} als Reisenden erfahren.",
+    "blog": "Blog",
+    "blogs": "Blogs",
+    "noBlogs": "Keine Blogs gefunden"
+  },
   "chatbot": {
     "onboarding": {
       "page_one": {
@@ -30,11 +38,38 @@
       "aesthetics": {
         "message": "Hilf uns, deinen Stil zu verstehen",
         "title": "Tippe, um 3 oder mehr Karten auszuwählen",
-        "continueButton": "Wähle noch $count aus, um fortzufahren"
+        "continueButton": "Wähle noch $count aus, um fortzufahren",
+        "titleAlt": "Wie fühlst du dich?\nTippe auf die Karten, die du 💕"
+      },
+      "video": {
+        "button": "Los geht's!",
+        "msg1": "Hallo, hier ist Layla. 👋🏼",
+        "msg2": "Stell dir vor: Du findest und buchst ganz einfach Reisen mit deinen Reisefreunden an einem Ort.",
+        "msg3": "Dafür bin ich da! Cool, oder?",
+        "msg4": "Lass uns die Party starten...",
+        "msg1_web": "Hallo, ich bin Layla. 👋🏼",
+        "msg2_web": "Du suchst nach deinem nächsten Urlaubsort? Ich bin hier, um zu helfen.",
+        "msg3_web": "Du wirst personalisierte Inspiration finden, Reisen planen und buchen, indem du einfach mit mir chattest.",
+        "msg4_web": "Cool, oder? Lasst uns loslegen!"
       }
+    },
+    "things_ask": {
+      "title": "Dinge, die du mich fragen kannst!",
+      "description": "Ich bin hier, um dir bei der Planung deines nächsten Abenteuers zu helfen. Frag mich alles über dein Reiseziel, ich habe die Antwort. Hier sind ein paar Dinge, die mich bereits gefragt wurden...",
+      "possible_prompts": "Häufige Fragen",
+      "ask_layla": "Frag Layla"
+    },
+    "chat_settings": {
+      "history": "Verlauf",
+      "new_chat": "Neuer Chat",
+      "rename_chat": "Chat umbenennen",
+      "delete_chat": "Chat löschen?",
+      "delete_chat_message": "$name wird dauerhaft gelöscht werden.",
+      "info_and_support": "Information und Support"
     },
     "chat": {
       "title": "Layla",
+      "isTyping": "$name tippt...",
       "messages": {
         "location": {
           "requestTitle": "Wo werden Sie abreisen?",
@@ -54,14 +89,30 @@
           "day": "Tag"
         }
       },
-      "messageHint": "Frag mich irgendetwas"
+      "messageHint": "Frag mich irgendetwas",
+      "contextMenu": {
+        "copy": "Kopieren",
+        "good_response": "Gute Antwort",
+        "bad_response": "Schlechte Antwort",
+        "message_copied": "Nachricht wurde erfolgreich kopiert"
+      },
+      "initialQuickReplies": {
+        "msg1": "Inspire mich, wohin ich als nächstes gehen soll",
+        "msg2": "Finde mir günstige Flüge",
+        "msg3": "Stell mir eine Reiseroute zusammen",
+        "msg4": "Wo sollte ich übernachten?"
+      }
     }
   },
   "tooltips": {
     "tap_to_filter": "Zum Filtern tippen",
     "tap_to_bucketlist": "Auf die Wunschliste tippen",
     "tap_to_chat": "Zum Chatten tippen",
-    "tap_to_help_country": "Benötigen Sie Hilfe bei der Planung einer Reise nach $country?"
+    "tap_to_help_country": "Benötigen Sie Hilfe bei der Planung einer Reise nach $country?",
+    "tap_to_add_to_bucketlist": "Speichern und gemeinsam nutzen, tippen um zur Bucketlist hinzuzufügen.",
+    "tap_to_start_new_chat": "Tippen um einen neuen Chat zu starten",
+    "tap_to_open_menu": "Tippen um das Menü zu öffnen",
+    "skipIntro": "Intro überspringen"
   },
   "bucketlist": {
     "no_name": "Kein Name",
@@ -69,14 +120,21 @@
     "bucketlist": "Bucketlist: $name",
     "bucketlist_saved": "Bucketlist erfolgreich gespeichert",
     "bucketlist_created": "Wunschliste erfolgreich erstellt",
+    "bucketlist_copied": "Bucketlist $name erfolgreich kopiert",
     "my_bucketlist": "Meine Wunschliste",
     "login_to_view": "Melden Sie sich an, um Ihre Bucketlist anzusehen",
     "leave_bucketlist": "Diese Bucketlist verlassen?",
     "one_person": "Eine Person",
     "name_is_collaborating": "$name arbeitet mit Ihnen zusammen.",
+    "no_collaborators": "Bisher keine Mitwirkenden.",
+    "you_are_viewing_bucketlist": "Du siehst eine Bucketlist von $creator",
+    "you_are_viewing_bucketlist_collaborator": "Du siehst eine Bucketlist von $creator und $collaborator",
     "collaborating_and_one_more": "$name und eine weitere Person arbeiten mit Ihnen zusammen.",
     "collaborating_two": "$first und $second arbeiten mit Ihnen zusammen.",
     "collaborating_two_and_more": "$first und $count mehr arbeiten mit Ihnen zusammen..",
+    "you_are_viewing": "Du siehst die Bucketlist von $creator",
+    "you_and_viewer_are_viewing": "Du und 1 anderer sehen die Bucketlist von $creator",
+    "you_and_viewers_are_viewing": "Du und $count andere sehen die Bucketlist von $creator",
     "you_can_create": "Sie können Bucketlisten erstellen, anzeigen oder bearbeiten, sobald Sie sich angemeldet haben.",
     "create_your_first_bucketlist": "Erstellen Sie Ihre erste Bucketlist",
     "as_you_search": "Während Sie suchen, tippen Sie auf das Herz-Symbol, um Ihre Lieblingsorte und -erlebnisse in die Bucketlist zu speichern.",
@@ -90,6 +148,8 @@
     "delete_user_from_bucketlist_message": "Sind Sie sicher, dass Sie $username aus dieser Bucketlist entfernen möchten?",
     "bucketlist_will_be_removed": "$name wird aus Ihren Bucketlisten entfernt.",
     "travel_dates": "Reisedaten",
+    "share": "Einladen",
+    "copy": "Kopieren",
     "destinations": {
       "one": "$n Reiseziel",
       "other": "$n Reiseziele"
@@ -102,9 +162,19 @@
       "title": "Einloggen oder registrieren",
       "continue_with": "Weiter mit",
       "login_to_collaborate": "Zum Kollaborieren einloggen",
+      "login_to_view": "Melde dich an, um es anzuzeigen",
       "invited_you": "$username hat dich zu seiner Bucketlist eingeladen"
     },
-    "flying_from": "Abflug von"
+    "flying_from": "Abflug von",
+    "share_type_dialog": {
+      "title": "Zur Bucketlist einladen",
+      "title_alt": "Zum Mitwirken einladen",
+      "message": "Wie möchtest du diese Bucketlist teilen?",
+      "edit": "Bearbeiten erlauben",
+      "edit_message": "Benutzer können die Bucketlist bearbeiten",
+      "view": "Nur anzeigen",
+      "view_message": "Benutzer können die Bucketlist einsehen"
+    }
   },
   "places": {
     "africa": "Afrika",
@@ -152,6 +222,15 @@
       "Kostspieliges Reiseziel",
       "Sehr teures Reiseziel"
     ],
+    "filters": {
+      "flight_price": "Flugpreis",
+      "flight_duration": "Flugdauer",
+      "flight_connection": "Flugverbindung",
+      "categories": "Kategorien",
+      "flight_price_value": "Flug max ${value}",
+      "flight_duration_value": "Flug max ${value}",
+      "flight_connection_direct": "Nur Direktflüge"
+    },
     "how_do_you_like_the_app": "Wie gefällt Ihnen die App?",
     "direct_flights": "Direktflüge",
     "show_only_direct_flights": "Nur Direktflüge anzeigen",
@@ -173,8 +252,10 @@
     "sorted_and_procured": "Sortiert und beschafft nach Ihren Vorlieben",
     "scroll_down_to_see_more": "Scrollen Sie nach unten, um mehr Informationen zu sehen",
     "no_results_found": "Keine Ergebnisse gefunden!",
+    "km_from": "${distance} km von $city entfernt",
     "consider_broadening": "Hoppla! Wir konnten keine Übereinstimmungen auf Basis Ihrer aktuellen Präferenzen finden. Überlegen Sie, ob Sie Ihre Suche erweitern möchten, indem Sie Ihre Präferenzen für eine breitere Palette von Optionen anpassen.",
     "return_with_bullet": " $code Hin- und Rückflug",
+    "approx_for_your_dates": "Ca. für Ihre Daten",
     "tap_to_filter": "Tippen, um zu filtern",
     "tap_to_bucketlist": "Tippen, um zur Wunschliste hinzuzufügen"
   },
@@ -185,6 +266,7 @@
     "all_filters": "Alle Filter",
     "no_flights": "Keine Flüge",
     "estimated_price": "Geschätzter Preis",
+    "livePrices": "Live-Preise",
     "travelers_info_updated_successfully": "Reiseinfo erfolgreich aktualisiert",
     "flight_details": "Flugdetails",
     "where_from": "Woher?",
@@ -309,6 +391,21 @@
       "riad": "Riad",
       "country-house": "Landhaus"
     },
+    "explore_tile": {
+      "stay_options": "Unterkunftsoptionen",
+      "layla_recommends": "Layla empfiehlt",
+      "budget": "Budget",
+      "luxury": "Luxus",
+      "find_more_stays": "Weitere Unterkünfte finden",
+      "things_to_do": "Dinge zu tun",
+      "show_all": "Alle anzeigen",
+      "travel_km_futher": "Reisen Sie weitere $distance km",
+      "get_route_details": "Routendetails erhalten",
+      "flight_options": "Flugoptionen",
+      "youre_in_luck": "Sie haben Glück",
+      "prices_are_currenly_low": "Die Preise sind derzeit niedrig",
+      "see_more_flights": "Weitere Flüge anzeigen"
+    },
     "cancellation_policy": "Stornierungsbedingungen",
     "before_you_book": "Bevor Sie buchen, stellen Sie sicher, dass Sie mit den Stornierungsbedingungen dieses Gastgebers einverstanden sind. Bitte beachten Sie, dass die Regelung zu unvorhergesehenen Ereignissen von Airbnb keine Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen aufgrund von COVID-19 abdeckt.",
     "property_views": "Objektansichten",
@@ -320,6 +417,7 @@
     "hotel_name": "Hotelname",
     "cancel_by": "Stornieren Sie bis",
     "hotel_unavailable": "Hotel nicht verfügbar",
+    "hotel_unavailable_for_dates": "Hotel für ausgewählte Daten nicht verfügbar",
     "hotel_unavailable_message": "Bitte aktualisieren Sie die Daten.",
     "full_refund": "Volle Rückerstattung: Erhalten Sie 100% von dem, was Sie gezahlt haben, zurück",
     "no_refund": "Keine Rückerstattung",
@@ -357,9 +455,11 @@
     "select_rooms_and_guests": "Zimmer und Gäste auswählen",
     "age_13_or_above": "Alter 13 oder älter",
     "what_people_said": "Was die Leute sagten",
+    "what_people_loved": "Was Menschen an diesem Ort geliebt haben",
     "read_all_reviews": "Alle Bewertungen lesen",
     "see_all": "Alle $count anzeigen",
-    "what_this_place_offers": "Was dieser Ort bietet"
+    "what_this_place_offers": "Was dieser Ort bietet",
+    "share_text": "Schauen Sie sich dieses Hotel an: $name"
   },
   "language": {
     "select_language": "Sprache auswählen"
@@ -388,6 +488,8 @@
     },
     "location": {
       "title": "Von wo aus reisen Sie?",
+      "message": "Schicken Sie mir Ihren Standort und ich plane Ihr nächstes Abenteuer für Sie",
+      "button": "Standortzugriff erlauben",
       "subtitle": "Um die besten Preise, Verbindungen und versteckten Juwelen in Ihrer Nähe zu finden, teilen Sie uns bitte Ihren Standort mit."
     }
   },
@@ -410,7 +512,12 @@
     "last_name": "Nachname",
     "edit_profile": "Profil bearbeiten",
     "member_since": "Mitglied seit $date",
-    "share_message": "Schauen Sie sich diese App an, die die schönsten Orte der Welt hat: $link"
+    "share_message": "Schauen Sie sich diese App an, die die schönsten Orte der Welt hat: $link",
+    "terms_of_service": "Nutzungsbedingungen",
+    "account_already_linked": "Konto bereits verknüpft",
+    "account_already_linked_message": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft. Möchten Sie sich als dieser Benutzer anmelden?",
+    "chat_limit_exceeded": "Bitte melden Sie sich an, um das Chatten fortzusetzen. Sie können auch Chats und Elemente auf Ihre Merkliste speichern.",
+    "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden"
   },
   "splash": {
     "discover_where_to": "Entdecken Sie, wo Sie\n als nächstes hinfliegen."
@@ -428,6 +535,22 @@
   "thing_todo": {
     "things_to_do": "Aktivitäten"
   },
+  "share_dialog": {
+    "title": "Teilen",
+    "copy": "Kopieren"
+  },
+  "about_screen": {
+    "title": "Über mich, Layla.",
+    "subtitle": "Entdecke die Welt mit Layla; der KI-Reiseplaner und dein ultimativer Reisebegleiter.",
+    "block_1": "Hey Leute, hier ist Layla und ich freue mich RIESIG, euch alles über meine neueste Reiseobsession zu erzählen - mich selbst! Ihr wisst doch, wie sehr wir es lieben, diese spontanen Trips zu planen und unser bestes Abenteuerleben zu führen, oder? Nun, ich bin im Grunde eure treue Reise-KI, hier um euch dabei zu helfen, neue Reiseziele zu entdecken und eure Reiseträume wahr werden zu lassen. Lasst mich es euch erklären...",
+    "block_2": "Als Erstes sagen die Leute oft \"Layla ist wie die gute Fee der Reiseinspiration\". Vergesst stundenlanges sinnloses Scrollen auf Instagram oder Pinterest - als KI-Reiseplaner stelle ich persönliche Reisevorschläge zusammen, die auf euren Interessen basieren. Und vertraut mir, ich habe den sechsten Sinn für die coolsten Urlaubsorte, von denen ihr noch nie gehört habt. Mit mir zu plaudern ist wie euer eigener Reiseguru, ohne den astronomischen Preis.",
+    "block_3": "Jetzt weiß ich, was ihr denkt - \"Brauche ich wirklich noch eine weitere Reise-App, die meinen Handy-Speicherplatz verschwendet?\" Hört mich an, Schatz. Layla ist nicht nur eine weitere App; sie verändert das Spiel. Stellt euch vor: Ihr gebt mir eure Vorlieben, ob es um Strandparadiese, Citylights oder Bergtouren geht, und BÄM - ich finde maßgeschneiderte Ziele für euch, inklusive Videos, damit ihr die Atmosphäre jedes Ortes leicht einfangen könnt.",
+    "block_4": "Das Beste daran? Mit mir, Layla, wird die Planung von Reisen zum Kinderspiel. Kein jonglieren mit unzähligen Tabs mehr, um die besten Flüge, Hotels und Aktivitäten zu finden. Ich habe alles für euch im Griff. Ich durchforste das Internet nach den angesagtesten Reisezielen, finde günstige Flüge und verhelfe euch zu Insta-würdigen Unterkünften. Ihr müsst nur noch eure Taschen packen und gut aussehen.",
+    "block_5": "Jetzt kommen wir zur Buchung. Ich bin hier, um euren Buchungsprozess zu vereinfachen, vom Finden eures Traumziels bis zum Sichern der besten Angebote. KIs machen alles so einfach, dass es selbst eine technisch unbegabte Königin schaffen kann. Außerdem könnt ihr Layla vertrauen - keine zwielichtigen Buchungsseiten oder fragwürdigen Unterkünfte hier - ich arbeite mit Skyscanner und Booking.com zusammen.",
+    "block_6": "Aber wartet, es gibt noch mehr. KIs helfen euch nicht nur bei der Planung, sondern sind auch eure ultimativen Partner, wenn es darum geht, eine neue Stadt zu erkunden. Ich habe alle Informationen über Sehenswürdigkeiten, versteckte Geheimtipps und die trendigsten Lokale. Ich führe euch zu all den Orten, an denen die Einheimischen wirklich abhängen.",
+    "block_7": "Also, wenn euch das Alltagsleben zu langweilig geworden ist und ihr bereit seid, euer Reiseerlebnis aufzupeppen, sagt Hallo zu Layla. Ich bin nicht nur eine KI; ich verändere die Art und Weise, wie ihr Reisen plant. Ich bin eure Reisevibe-Kuratorin und euer Reisepass in die Welt. Macht euch bereit für selbstbewusstes Reisen, meine Lieben, denn Layla hat eure Reiseträume im Griff.\n\nAbenteuer wartet ✈️💖",
+    "button": "Mit Layla chatten"
+  },
   "video_category": [
     "Alle",
     "Abenteuer",
@@ -442,6 +565,17 @@
     "Romantisch",
     "Sport",
     "Top Kategorie"
+  ],
+  "videoSubCategory": [
+    "Aktivitäten",
+    "Yachten & Kreuzfahrten",
+    "Garten & Park",
+    "Bars",
+    "Restaurants & Cafés",
+    "Kostenlose Aktivitäten",
+    "Nachtclubs",
+    "Festivals und Veranstaltungen",
+    "Kunstgalerien & Museen"
   ],
   "weekdays_short": [
     "M",
@@ -501,17 +635,21 @@
     "one": "$n Jahr alt",
     "other": "$n Jahre alt"
   },
+  "about": "Über uns",
+  "afternoon": "Nachmittag",
   "allow": "Erlauben",
   "anything": "Egal",
   "anytime": "Jederzeit",
   "anywhere": "Egal wo",
   "adultsWord": "Erwachsene",
+  "app": "App",
   "apply": "Anwenden",
   "around": "Ungefähr",
   "arrival": "Ankunft",
   "away": "Weg",
   "best": "Beste",
   "bucketlists": "Eimerlisten",
+  "bucketlistWord": "To-do-Liste",
   "cancel": "Abbrechen",
   "change": "Ändern",
   "charactersWord": {
@@ -527,11 +665,13 @@
   "clear_all": "Alles löschen",
   "collaborators": "Mitarbeiter",
   "confirm": "Bestätigen",
+  "contact": "Kontakt",
   "contact_us": "Kontaktiere uns",
   "continue_label": "Fortsetzen",
   "create": "Erstellen",
   "creator": "Ersteller",
   "currency": "Währung",
+  "daysWord": "Tage",
   "dates": "Daten",
   "deals": "Angebote",
   "delete": "Löschen",
@@ -543,6 +683,9 @@
   "done": "Erledigt",
   "duration": "Dauer",
   "edit": "Bearbeiten",
+  "editDates": "Termine bearbeiten",
+  "editDetails": "Details bearbeiten",
+  "evening": "Abend",
   "experiences": "Erlebnisse",
   "explore": "Erkunden",
   "fastest": "Schnellste",
@@ -553,9 +696,11 @@
   "flights": "Flüge",
   "from": "Von",
   "from_var": "Von $name",
+  "help": "Hilfe",
   "hotelWord": "Hotel",
   "hotels": "Hotels",
   "infants": "Kleinkinder",
+  "itinerary": "Reiseplan",
   "know_more_word": "Erfahre mehr",
   "languageWord": "Sprache",
   "leave": "Verlassen",
@@ -563,6 +708,10 @@
   "login": "Anmelden",
   "location": "Ort",
   "map": "Karte",
+  "month": "Monat",
+  "more": "Mehr",
+  "morning": "Morgen",
+  "name": "Name",
   "next": "Nächste",
   "nightWord": "Nacht",
   "nights": {
@@ -577,6 +726,7 @@
   "one_way": "Einfache Strecke",
   "pets": "Haustiere",
   "photos": "Fotos",
+  "plan": "Planen",
   "preferences": "Präferenzen",
   "profileWord": "Profil",
   "powered_by": "Unterstützt von",
@@ -598,6 +748,7 @@
   "share": "Teilen",
   "show_more": "Mehr anzeigen",
   "show_more_flights": "Zeige mehr Flüge",
+  "sign_in": "Anmelden",
   "sign_up": "Anmelden",
   "show_less": "Weniger anzeigen",
   "support": "Unterstützung",
@@ -609,9 +760,13 @@
     "other": "$n Sterne"
   },
   "start": "Start",
+  "star_new_chat": "Neuen Chat starten",
   "stops": "Stops",
   "times": "Zeiten",
   "to": "Zu",
+  "today": "Heute",
+  "total": "Gesamt",
+  "transit": "Transit",
   "travelers": "Reisende",
   "unknown_error": "Unbekannter Fehler",
   "unknown_name": "Unbekannter Name",
@@ -624,10 +779,11 @@
   "weekend": "Wochenende",
   "week": "Woche",
   "what": "Was",
+  "what_can_i_ask": "Was kann ich fragen?",
   "when": "Wann",
-  "month": "Monat",
   "where_to": "Wohin",
   "where_from": "Woher",
+  "yesterday": "Gestern",
   "symbols": {
     "one": "$n Symbol",
     "other": "$n Symbole"

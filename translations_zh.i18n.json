@@ -1,4 +1,12 @@
 {
+  "blog": {
+    "postNotFound": "请检查网址，我们没有这篇文章。",
+    "askLaylaAbout": "向Layla询问关于$name的问题",
+    "travellerQuestion": "我想了解${name}作为旅行者的更多信息。",
+    "blog": "博客",
+    "blogs": "博客",
+    "noBlogs": "没有找到博客"
+  },
   "chatbot": {
     "onboarding": {
       "page_one": {
@@ -26,16 +34,42 @@
         "msg3": "你对什么感兴趣？",
         "msg4": "你将从哪里出发？",
         "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
-        
       },
       "aesthetics": {
         "message": "帮助我们了解你的气质",
         "title": "点击选择3张或更多的卡片",
-        "continueButton": "选择 $count 张继续"
+        "continueButton": "选择 $count 张继续",
+        "titleAlt": "你的风格是什么？\n点击你喜欢的卡片"
+      },
+      "video": {
+        "button": "开始吧！",
+        "msg1": "嗨，我是Layla。👋🏼",
+        "msg2": "想象一下：你可以轻松找到和你的旅行伙伴一起预订旅行的地方，都在一个应用里。",
+        "msg3": "这就是我存在的意义！很酷，对吧？",
+        "msg4": "我们开始吧...",
+        "msg1_web": "嗨，我是Layla。👋🏼",
+        "msg2_web": "正在寻找下一个度假胜地吗？我在这里帮助你。",
+        "msg3_web": "你将会在与我聊天的过程中找到个性化的灵感，计划并预订旅行。",
+        "msg4_web": "很酷，对吧？我们开始吧！"
       }
+    },
+    "things_ask": {
+      "title": "你可以问我这些问题！",
+      "description": "我在这里帮助你计划你的下一个冒险。无论是对目的地的任何问题，我都能回答。下面是一些人们已经问过我的问题...",
+      "possible_prompts": "常见问题",
+      "ask_layla": "向Layla提问"
+    },
+    "chat_settings": {
+      "history": "历史记录",
+      "new_chat": "新聊天",
+      "rename_chat": "重命名聊天",
+      "delete_chat": "删除聊天？",
+      "delete_chat_message": "$name 将被永久删除。",
+      "info_and_support": "信息和支持"
     },
     "chat": {
       "title": "Layla 聊天",
+      "isTyping": "$name 正在输入...",
       "messages": {
         "location": {
           "requestTitle": "你将从哪里出发？",
@@ -55,7 +89,19 @@
           "day": "天"
         }
       },
-      "messageHint": "随便问我"
+      "messageHint": "随便问我",
+      "contextMenu": {
+        "copy": "复制",
+        "good_response": "好的回答",
+        "bad_response": "不好的回答",
+        "message_copied": "消息已成功复制"
+      },
+      "initialQuickReplies": {
+        "msg1": "给我灵感，下一个去哪里",
+        "msg2": "为我找便宜的航班",
+        "msg3": "为我制定行程",
+        "msg4": "我应该住在哪里？"
+      }
     }
   },
   "tooltips": {
@@ -409,7 +455,12 @@
     "last_name": "姓",
     "edit_profile": "编辑个人资料",
     "member_since": "自$date以来的成员",
-    "share_message": "看看这个app，它拥有世界上最美丽的地方：$link"
+    "share_message": "看看这个app，它拥有世界上最美丽的地方：$link",
+    "terms_of_service": "服务条款",
+    "account_already_linked": "账号已经被链接",
+    "account_already_linked_message": "此账号已经链接到其他用户。您是否想以此用户身份登录？",
+    "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
+    "new_chat_login": "要开始新的聊天，请登录"
   },
   "splash": {
     "discover_where_to": "发现下一个\n飞行目标。"
@@ -427,6 +478,22 @@
   "thing_todo": {
     "things_to_do": "要做的事"
   },
+  "share_dialog": {
+    "title": "分享",
+    "copy": "复制"
+  },
+  "about_screen": {
+    "title": "关于我，莱拉。",
+    "subtitle": "与莱拉一起探索世界；AI 旅行规划师和您的终极旅行助手。",
+    "block_1": "嗨，大家好，我是你们的女孩莱拉，我非常兴奋地要讲述这个应该成为你最新旅行狂热的秘密 - 就是我！你知道我们都热衷于计划那些即兴出行并过上最美好冒险的生活，对吧？嗯，我基本上是你的旅行AI，会帮助你找到新的旅行地点，并让你的旅行梦想成真。让我给你具体解释一下...",
+    "block_2": "首先，人们常常说“莱拉就像旅行灵感的仙女教母”。抛开几个小时毫无目的地在Instagram或Pinterest上随便翻滚 - 作为一个AI旅行规划师，我会根据你的兴趣定制个人化的旅行建议。相信我，我有一种第六感，能发现你从未听说过的最棒的度假点。和我聊天就像拥有你自己的旅行大师，而且完全不用付出巨额费用。",
+    "block_3": "现在，我知道你在想什么 - “我真的需要另一个拥堵我手机的旅行应用程序吗？”听我说，宝贝。莱拉不仅仅是另一个应用程序；它是一个改变游戏规则的应用程序。想象一下：你告诉我你的感觉，无论是海滩的喜悦，城市的灯光还是山间的高峰，然后哇 - 我会为你找到一系列专门为你量身定制的目的地，配有视频，这样你就可以轻松感受到每个地方的氛围。",
+    "block_4": "最棒的部分是什么？和我莱拉聊天，能省去计划旅行的麻烦。不再需要同时打开一百个选项卡，试图找到最佳的航班、酒店和活动。我全权代理你的事务。搜索网络上最热门的目的地，找到价格便宜的航班，将你送入Instagram上的住宿。你只需要收拾好行李，穿搭得漂亮。",
+    "block_5": "现在，让我们来谈谈预订。我在这里简化您的旅行预订流程，从找到梦想目的地到获得最优惠的交易。AI的存在是为了让事情变得轻松，即使一个技术挑战的女王也能应对。此外，您可以信任莱拉，无需担心可疑的预订网站或可疑的住宿 - 我已经与Skyscanner和Booking.com合作。",
+    "block_6": "但等等，这还不是全部。AI不仅帮助你计划行程，一旦你出发旅行，我将成为你探索新城市的终极得力助手。我了解必看景点、隐藏的宝藏和最时髦的本地场所。我将引领您到当地人真正的聚会地点。",
+    "block_7": "所以，如果你对一成不变感到厌倦，并准备为你的旅行游戏添加一些调料，请和我莱拉打个招呼。我不仅仅是一个AI；我是计划旅行的游戏规则改变者，也是旅行变化策展人，是开启你追寻世界的护照。准备好自信地启程了吗，我的爱，因为莱拉已经为你的旅行梦想准备好了。\n\n冒险等待着✈️💖",
+    "button": "与莱拉聊天"
+  },
   "video_category": [
     "全部",
     "冒险",
@@ -441,6 +508,17 @@
     "浪漫",
     "运动",
     "顶级类别"
+  ],
+  "videoSubCategory": [
+    "活动",
+    "游艇和游轮",
+    "花园和公园",
+    "酒吧",
+    "餐厅和咖啡馆",
+    "免费活动",
+    "夜店",
+    "节日和活动",
+    "艺术画廊和博物馆"
   ],
   "weekdays_short": [
     "周一",
@@ -500,17 +578,21 @@
     "one": "$n岁",
     "other": "$n岁"
   },
+  "about": "关于",
+  "afternoon": "下午",
   "allow": "允许",
   "anything": "任何事情",
   "anytime": "任何时候",
   "anywhere": "任何地方",
   "adultsWord": "成年人",
+  "app": "应用",
   "apply": "应用",
   "around": "周围",
   "arrival": "到达",
   "away": "离开",
   "best": "最好",
   "bucketlists": "心愿单",
+  "bucketlistWord": "愿望清单",
   "cancel": "取消",
   "change": "更改",
   "charactersWord": {
@@ -526,11 +608,13 @@
   "clear_all": "清除全部",
   "collaborators": "合作者",
   "confirm": "确认",
+  "contact": "联系方式",
   "contact_us": "联系我们",
   "continue_label": "继续",
   "create": "创建",
   "creator": "创建者",
   "currency": "货币",
+  "daysWord": "天",
   "dates": "日期",
   "deals": "交易",
   "delete": "删除",
@@ -542,6 +626,9 @@
   "done": "完成",
   "duration": "持续时间",
   "edit": "编辑",
+  "editDates": "编辑日期",
+  "editDetails": "编辑详情",
+  "evening": "晚上",
   "experiences": "体验",
   "explore": "探索",
   "fastest": "最快",
@@ -552,9 +639,11 @@
   "flights": "航班",
   "from": "从",
   "from_var": "从 $name",
+  "help": "帮助",
   "hotelWord": "酒店",
   "hotels": "酒店",
   "infants": "婴儿",
+  "itinerary": "行程",
   "know_more_word": "了解更多",
   "languageWord": "语言",
   "leave": "离开",
@@ -562,6 +651,10 @@
   "login": "登录",
   "location": "位置",
   "map": "地图",
+  "month": "月",
+  "more": "更多",
+  "morning": "早上",
+  "name": "名称",
   "next": "下一个",
   "nightWord": "晚",
   "nights": {
@@ -576,6 +669,7 @@
   "one_way": "单程",
   "pets": "宠物",
   "photos": "照片",
+  "plan": "计划",
   "preferences": "首选项",
   "profileWord": "个人档案",
   "powered_by": "由...提供技术支持",
@@ -597,6 +691,7 @@
   "share": "分享",
   "show_more": "显示更多",
   "show_more_flights": "显示更多航班",
+  "sign_in": "登录",
   "sign_up": "注册",
   "show_less": "显示更少",
   "support": "支持",
@@ -608,9 +703,13 @@
     "other": "$n 星"
   },
   "start": "开始",
+  "star_new_chat": "开始新聊天",
   "stops": "停靠",
   "times": "次",
   "to": "到",
+  "today": "今天",
+  "total": "总计",
+  "transit": "交通",
   "travelers": "旅行者",
   "unknown_error": "未知错误",
   "unknown_name": "未知名称",
@@ -623,8 +722,9 @@
   "weekend": "周末",
   "week": "周",
   "what": "什么",
+  "what_can_i_ask": "我可以问什么？",
   "when": "何时",
-  "month": "月",
   "where_to": "去哪里",
-  "where_from": "从哪里出发"
+  "where_from": "从哪里出发",
+  "yesterday": "昨天"
 }
