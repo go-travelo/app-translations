@@ -227,8 +227,8 @@
       "flight_duration": "Duración de vuelo",
       "flight_connection": "Conexión de vuelo",
       "categories": "Categorías",
-      "flight_price_value": "Vuelo máximo $valor",
-      "flight_duration_value": "Vuelo máximo $valor",
+      "flight_price_value": "Vuelo máximo $value",
+      "flight_duration_value": "Vuelo máximo $value",
       "flight_connection_direct": "Solo directos"
     },
     "how_do_you_like_the_app": "¿Cómo te gusta la aplicación?",
