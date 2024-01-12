@@ -2,7 +2,7 @@
   "blog": {
     "postNotFound": "Por favor, verifica la dirección URL, no tenemos esa publicación.",
     "askLaylaAbout": "Pregunta a Layla sobre $name",
-    "travellerQuestion": "Quiero saber más sobre ${name} como viajero.",
+    "travellerQuestion": "Quiero saber más sobre ${name} como viajer@.",
     "blog": "Blog",
     "blogs": "Blogs",
     "noBlogs": "No se encontraron blogs"
