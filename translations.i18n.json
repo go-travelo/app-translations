@@ -160,10 +160,20 @@
     },
     "login_widget": {
       "title": "Log in or sign up",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "Continue with",
       "login_to_collaborate": "Log in to collaborate",
       "login_to_view": "Log in to view",
-      "invited_you": "$username invited you to his Bucketlist"
+      "invited_you": "$username invited you to their Bucketlist",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "Flying from",
     "share_type_dialog": {
