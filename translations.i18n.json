@@ -149,7 +149,7 @@
     "bucketlist_will_be_removed": "$name will be removed from your bucketlists.",
     "travel_dates": "Travel Dates",
     "share": "Invite",
-    "copy": "Copy",
+    "copy": "Copy to Edit",
     "destinations": {
       "one": "$n Destination",
       "other": "$n Destinations"
