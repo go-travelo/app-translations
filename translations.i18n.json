@@ -104,6 +104,15 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now"
+  },
   "tooltips": {
     "tap_to_filter": "Tap to filter",
     "tap_to_bucketlist": "Tap to bucketlist",
@@ -592,6 +601,7 @@
     "one": "$n adult",
     "other": "$n adults"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n day",
     "other": "$n days"
