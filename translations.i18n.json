@@ -111,7 +111,9 @@
       "Afternoon",
       "Evening"
     ],
-    "bookNow": "Book Now"
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
   },
   "tooltips": {
     "tap_to_filter": "Tap to filter",
