@@ -104,6 +104,17 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
+  },
   "tooltips": {
     "tap_to_filter": "Toque para filtrar",
     "tap_to_bucketlist": "Toque para criar uma lista de desejos",
@@ -160,10 +171,21 @@
     },
     "login_widget": {
       "title": "Faça login ou cadastre-se",
+      "title_bucketlist": "Log in to Save",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "Continuar com",
       "login_to_collaborate": "Faça login para colaborar",
       "login_to_view": "Faça login para visualizar",
-      "invited_you": "$username convidou você para a Lista de Desejos"
+      "invited_you": "$username convidou você para a Lista de Desejos",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "Partindo de",
     "share_type_dialog": {
@@ -548,6 +570,25 @@
     "block_7": "Então, se você está cansado da mesmice e pronto para animar suas viagens, diga oi para mim, Layla. Eu não sou apenas uma AI; eu sou um divisor de águas na forma como você planeja viagens, uma curadora de vibes de viagem e seu passaporte para o mundo. Prepare-se para embarcar com confiança, meus queridos, porque Layla está pronta para realizar seus sonhos de viagem.\n\nA aventura espera ✈️💖",
     "button": "Converse com Layla"
   },
+  "download_app": {
+    "title": "Download the app",
+    "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+    "button": "Download Layla for free"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Add day with AI",
+        "hint": "What do you want to do on day?",
+        "button": "Add day"
+      },
+      "modify": {
+        "title": "Modify with AI",
+        "hint": "What do you want to do on day $index?",
+        "button": "Generate"
+      }
+    }
+  },
   "video_category": [
     "Todas",
     "Aventura",
@@ -587,6 +628,7 @@
     "one": "$n adulto",
     "other": "$n adultos"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n dia",
     "other": "$n dias"

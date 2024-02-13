@@ -104,6 +104,17 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
+  },
   "tooltips": {
     "tap_to_filter": "Нажмите, чтобы отфильтровать",
     "tap_to_bucketlist": "Нажмите, чтобы добавить в список мечты",
@@ -160,10 +171,21 @@
     },
     "login_widget": {
       "title": "Войдите или зарегистрируйтесь",
+      "title_bucketlist": "Log in to Save",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "Продолжить с",
       "login_to_collaborate": "Войдите в систему, чтобы сотрудничать",
       "login_to_view": "Войдите, чтобы просмотреть",
-      "invited_you": "$username пригласил вас в свой Bucketlist"
+      "invited_you": "$username пригласил вас в свой Bucketlist",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "Вылет из",
     "share_type_dialog": {
@@ -548,6 +570,25 @@
     "block_7": "Итак, если вы устали от обычного и старого и готовы внести разнообразие в свою поездку, познакомьтесь с Лэйлой. Я не просто AI; я меняю правила игры для способа, которым вы планируете поездки, я куратор путешественного настроения и ваши паспорт в мир. Приготовьтесь к путешествию с уверенностью, дорогие, потому что Лэйла знает ваши путешественные мечты в деталях.\n\nЗаводите свои приключения ✈️💖",
     "button": "Общайтесь с Лэйлой"
   },
+  "download_app": {
+    "title": "Download the app",
+    "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+    "button": "Download Layla for free"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Add day with AI",
+        "hint": "What do you want to do on day?",
+        "button": "Add day"
+      },
+      "modify": {
+        "title": "Modify with AI",
+        "hint": "What do you want to do on day $index?",
+        "button": "Generate"
+      }
+    }
+  },
   "video_category": [
     "Все",
     "Приключения",
@@ -587,6 +628,7 @@
     "one": "$n взрослый",
     "other": "$n взрослых"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n день",
     "other": "$n дней"

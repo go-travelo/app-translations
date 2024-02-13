@@ -104,6 +104,17 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
+  },
   "tooltips": {
     "tap_to_filter": "נגיש לסינון",
     "tap_to_bucketlist": "נגיש לרשימת דליקת לב",
@@ -160,10 +171,21 @@
     },
     "login_widget": {
       "title": "התחבר או הירשם",
+      "title_bucketlist": "Log in to Save",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "המשך עם",
       "login_to_collaborate": "התחבר כדי לשתף פעולה",
       "login_to_view": "Log in to view",
-      "invited_you": "הוזמנת על ידי $username לרשימת המטיילים שלו"
+      "invited_you": "הוזמנת על ידי $username לרשימת המטיילים שלו",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "טס מ",
     "share_type_dialog": {
@@ -548,6 +570,25 @@
     "block_7": "So, if you're tired of the same-old, same-old and ready to spice up your travel game, say hello to me, Layla. I’m not just an AI; I’m a game-changer for the way you plan trips, as well as a travel vibe curator, and your passport to the world. Get ready to jet-set with confidence, my loves, because Layla's got your travel dreams on lock.\n\nAdventure awaits ✈️💖",
     "button": "Chat with Layla"
   },
+  "download_app": {
+    "title": "Download the app",
+    "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+    "button": "Download Layla for free"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Add day with AI",
+        "hint": "What do you want to do on day?",
+        "button": "Add day"
+      },
+      "modify": {
+        "title": "Modify with AI",
+        "hint": "What do you want to do on day $index?",
+        "button": "Generate"
+      }
+    }
+  },
   "video_category": [
     "הכל",
     "הרפתקה",
@@ -587,6 +628,7 @@
     "one": "$n מבוגר",
     "other": "$n מבוגרים"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n יום",
     "other": "$n ימים"

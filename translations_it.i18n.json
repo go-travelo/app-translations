@@ -104,6 +104,17 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
+  },
   "tooltips": {
     "tap_to_filter": "Tocca per filtrare",
     "tap_to_bucketlist": "Tocca per bucketlist",
@@ -160,10 +171,21 @@
     },
     "login_widget": {
       "title": "Accedi o registrati",
+      "title_bucketlist": "Log in to Save",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "Continua con",
       "login_to_collaborate": "Accedi per collaborare",
       "login_to_view": "Effettua il login per visualizzare",
-      "invited_you": "$username ti ha invitato nel suo Bucketlist"
+      "invited_you": "$username ti ha invitato nel suo Bucketlist",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "Partenza da",
     "share_type_dialog": {
@@ -548,6 +570,25 @@
     "block_7": "Quindi, se siete stanchi della solita solfa e siete pronti a dare un po' di pepe al vostro viaggio, date il benvenuto a me, Layla. Non sono solo un'intelligenza artificiale; sono un game-changer per il modo in cui si pianificano i viaggi, un curatore di atmosfere di viaggio e il vostro passaporto per il mondo. Preparatevi a partire con fiducia, miei cari, perché Layla farà dei vostri sogni di viaggio una realtà.\n\nL'avventura vi aspetta ✈️💖",
     "button": "Chatta con Layla"
   },
+  "download_app": {
+    "title": "Download the app",
+    "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+    "button": "Download Layla for free"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Add day with AI",
+        "hint": "What do you want to do on day?",
+        "button": "Add day"
+      },
+      "modify": {
+        "title": "Modify with AI",
+        "hint": "What do you want to do on day $index?",
+        "button": "Generate"
+      }
+    }
+  },
   "video_category": [
     "Tutti",
     "Avventura",
@@ -587,6 +628,7 @@
     "one": "$n adulto",
     "other": "$n adulti"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n giorno",
     "other": "$n giorni"

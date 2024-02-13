@@ -104,6 +104,17 @@
       }
     }
   },
+  "itineraries": {
+    "itineraries": "Itineraries",
+    "dayPart": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "bookNow": "Book Now",
+    "addDay": "Add day",
+    "whatDoYouWant": "What do you want to do on day?"
+  },
   "tooltips": {
     "tap_to_filter": "Toca para filtrar",
     "tap_to_bucketlist": "Toca para la lista de deseos",
@@ -160,10 +171,21 @@
     },
     "login_widget": {
       "title": "Iniciar sesión o registrarse",
+      "title_bucketlist": "Log in to Save",
+      "download": {
+        "title": "Save this bucketlist!",
+        "subtitle": "$s invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
+        "button": "Download Layla for free"
+      },
       "continue_with": "Continuar con",
       "login_to_collaborate": "Inicia sesión para colaborar",
       "login_to_view": "Inicia sesión para ver",
-      "invited_you": "$username te invitó a su lista de deseos"
+      "invited_you": "$username te invitó a su lista de deseos",
+      "and_one_other": "and one other",
+      "and_n_others": "and $count others",
+      "one_person": "One person",
+      "people": "people",
+      "and": "and"
     },
     "flying_from": "Volando desde",
     "share_type_dialog": {
@@ -548,6 +570,25 @@
     "block_7": "Entonces, si estás cansad@ de lo mismo de siempre y list” para animar tu juego de viaje, saluda a Layla. No soy solo una IA; soy un cambio de juego para la forma en que planeas tus viajes, así como un curador de moods de viaje y tu pasaporte al mundo. Prepárate para despegar con confianza, mis amores, porque Layla tiene tus sueños de viaje bajo control.\n\nLa aventura te espera ✈️💖",
     "button": "Chatea con Layla"
   },
+  "download_app": {
+    "title": "Download the app",
+    "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+    "button": "Download Layla for free"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Add day with AI",
+        "hint": "What do you want to do on day?",
+        "button": "Add day"
+      },
+      "modify": {
+        "title": "Modify with AI",
+        "hint": "What do you want to do on day $index?",
+        "button": "Generate"
+      }
+    }
+  },
   "video_category": [
     "Aventura",
     "Cultura",
@@ -587,6 +628,7 @@
     "one": "$n adulto",
     "other": "$n adultos"
   },
+  "dayN": "Day $n",
   "days": {
     "one": "$n día",
     "other": "$n días"
