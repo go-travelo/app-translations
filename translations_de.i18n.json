@@ -282,6 +282,8 @@
         "select_a_flight": "Flug auswählen",
         "start_booking": "Buchung starten",
         "stats": {
+            "budget": "",
+            "for_your_dates": "",
             "min_days": "Mindestanzahl an Tagen zum Verbringen"
         },
         "things_to_do": "Aktivitäten",
@@ -475,6 +477,10 @@
         "no_videos": "Leider haben wir keine Videos\nfür dieses Hotel",
         "partial_refund": "Teilweise Rückerstattung: Erhalte $name % von jeder Nacht zurück. Keine Rückerstattung der Servicegebühr",
         "pets_allowed": "Haustiere sind erlaubt, es können Gebühren anfallen",
+        "price_for_night": {
+            "one": "",
+            "other": ""
+        },
         "property_facilities": "Ausstattung der Unterkunft",
         "property_location": "Lage der Unterkunft",
         "property_making_efforts": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",

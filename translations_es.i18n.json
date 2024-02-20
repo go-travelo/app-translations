@@ -281,6 +281,11 @@
         "no_videos": "Lo siento, no tenemos videos\npara este destino",
         "select_a_flight": "Selecciona un vuelo",
         "start_booking": "Comenzar reserva",
+        "stats": {
+            "budget": "",
+            "for_your_dates": "",
+            "min_days": ""
+        },
         "things_to_do": "Cosas que hacer",
         "traveling_from": "Viajando desde",
         "view_map": "Ver mapa"
@@ -472,6 +477,10 @@
         "no_videos": "Lo siento, no tenemos videos\npara este hotel",
         "partial_refund": "Reembolso parcial: Recibe $name % de cada noche. Sin reembolso de la tarifa de servicio",
         "pets_allowed": "Se admiten mascotas, pueden aplicarse cargos",
+        "price_for_night": {
+            "one": "",
+            "other": ""
+        },
         "property_facilities": "Instalaciones de la propiedad",
         "property_location": "Ubicación de la propiedad",
         "property_making_efforts": "Esta propiedad está haciendo inversiones y esfuerzos considerables para ser más sostenible. Su impacto ambiental y social se mide según su tamaño y ubicación",

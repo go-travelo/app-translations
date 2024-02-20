@@ -274,6 +274,11 @@
         "no_videos": "对不起，我们没有这个目的地的视频",
         "select_a_flight": "选择航班",
         "start_booking": "开始预订",
+        "stats": {
+            "budget": "",
+            "for_your_dates": "",
+            "min_days": ""
+        },
         "things_to_do": "可做的事情",
         "traveling_from": "起飞地",
         "view_map": "查看地图"
@@ -459,6 +464,9 @@
         "no_videos": "对不起，我们没有这家酒店的视频",
         "partial_refund": "部分退款：退还您每晚$name%的费用。服务费不退款",
         "pets_allowed": "允许携带宠物，可能需要额外收费",
+        "price_for_night": {
+            "other": ""
+        },
         "property_facilities": "物业设施",
         "property_location": "物业位置",
         "property_making_efforts": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",

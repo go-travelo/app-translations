@@ -281,6 +281,11 @@
         "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
         "select_a_flight": "Selecteer een vlucht",
         "start_booking": "Boeking starten",
+        "stats": {
+            "budget": "",
+            "for_your_dates": "",
+            "min_days": ""
+        },
         "things_to_do": "Dingen om te doen",
         "traveling_from": "Reizen vanuit",
         "view_map": "Bekijk kaart"
@@ -472,6 +477,10 @@
         "no_videos": "Sorry, we hebben geen video's\nvoor dit hotel",
         "partial_refund": "Gedeeltelijke terugbetaling: Krijg $name % van elke nacht terug. Geen terugbetaling van de servicekosten",
         "pets_allowed": "Huisdieren zijn toegestaan, kosten kunnen van toepassing zijn",
+        "price_for_night": {
+            "one": "",
+            "other": ""
+        },
         "property_facilities": "Faciliteiten van de accommodatie",
         "property_location": "Locatie van de accommodatie",
         "property_making_efforts": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
