@@ -229,7 +229,12 @@
         "select_a_flight": "Select a flight",
         "start_booking": "Start Booking",
         "no_videos": "Sorry we have no videos\nfor this destination",
-        "view_map": "View map"
+        "view_map": "View map",
+        "stats": {
+            "budget": "Budget est.",
+            "min_days": "Min days to spend",
+            "for_your_dates": "For your dates"
+        }
     },
     "feed": {
         "for_you_card": {
@@ -479,7 +484,11 @@
         "read_all_reviews": "Read all reviews",
         "see_all": "See all $count",
         "what_this_place_offers": "What this place offers",
-        "share_text": "Check out this hotel: $name"
+        "share_text": "Check out this hotel: $name",
+        "price_for_night": {
+            "one": "Price for $n night",
+            "other": "Price $n nights"
+        }
     },
     "language": {
         "select_language": "Select language"
