@@ -301,7 +301,7 @@
         "change_departure": "تغيير المغادرة",
         "check_out_this_place": "أعرف إلى أين يجب أن نذهب معا بعد ذلك. اكتشف هذا المكان الذي وجدته في ليلى",
         "closest_airport": "أقرب مطار إلى $destination",
-        "distance_from_origin": "${مسافة} كم من $origin",
+        "distance_from_origin": "${distance} كم من $origin",
         "how_to_get_there": "كيفية الوصول إلى هناك",
         "how_to_get_to": "كيف تصل إلى $destination",
         "land_in": "الوصول إلى $destination",
