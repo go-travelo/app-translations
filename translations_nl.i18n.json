@@ -13,14 +13,14 @@
         "title": "Over mij, Layla."
     },
     "adults": {
-        "one": "$n volwassene",
-        "other": "$n volwassenen"
+        "one": "${n} volwassene",
+        "other": "${n} volwassenen"
     },
     "adultsWord": "Volwassenen",
     "afternoon": "Middag",
     "age": {
-        "one": "$n jaar oud",
-        "other": "$n jaar oud"
+        "one": "${n} jaar oud",
+        "other": "${n} jaar oud"
     },
     "allow": "Toestaan",
     "anything": "Alles",
@@ -43,14 +43,14 @@
     "bucketlist": {
         "add_to_bucketlist": "Voeg toe aan bucketlist",
         "as_you_search": "Terwijl je door de app dwaalt, tik je eenvoudigweg met het hartje op wat je maar wilt om het aan je bucketlist toe te voegen en nodig je vrienden uit om er een planningsfeestje van te maken. Laten we wat bucketlists invullen, oké?",
-        "bucketlist": "Bucketlist: $name",
-        "bucketlist_copied": "Bucketlist $name succesvol gekopieerd",
+        "bucketlist": "Bucketlist: ${name}",
+        "bucketlist_copied": "Bucketlist ${name} succesvol gekopieerd",
         "bucketlist_created": "Bucketlist succesvol gecreëerd",
         "bucketlist_saved": "Bucketlist succesvol opgeslagen",
-        "bucketlist_will_be_removed": "$name zal uit je bucketlists worden verwijderd.",
-        "collaborating_and_one_more": "$name en nog één werken met je mee.",
-        "collaborating_two": "$first en $second werken met je samen.",
-        "collaborating_two_and_more": "$first en $count meer werken met je samen..",
+        "bucketlist_will_be_removed": "${name} zal uit je bucketlists worden verwijderd.",
+        "collaborating_and_one_more": "${name} en nog één werken met je mee.",
+        "collaborating_two": "${first} en ${second} werken met je samen.",
+        "collaborating_two_and_more": "${first} en ${count} meer werken met je samen..",
         "copy": "Kopiëren",
         "create_bucketlist": "Bucketlist aanmaken",
         "create_new_bucketlist": "Maak een nieuwe bucketlist",
@@ -58,25 +58,25 @@
         "delete_bucketlist": "Bucketlist verwijderen?",
         "delete_bucketlist_message": "Weet je zeker dat je deze bucketlist wilt verwijderen?",
         "delete_user_from_bucketlist": "Gebruiker verwijderen uit bucketlist?",
-        "delete_user_from_bucketlist_message": "Weet je zeker dat je $username van deze bucketlist wilt verwijderen?",
+        "delete_user_from_bucketlist_message": "Weet je zeker dat je ${username} van deze bucketlist wilt verwijderen?",
         "destinations": {
-            "one": "$n Bestemming",
-            "other": "$n Bestemmingen"
+            "one": "${n} Bestemming",
+            "other": "${n} Bestemmingen"
         },
         "flying_from": "Vertrekken vanuit",
         "leave_bucketlist": "Deze bucketlist verlaten?",
         "login_to_view": "Log in om je bucketlist te bekijken",
         "login_widget": {
             "and": "en",
-            "and_n_others": "en $count anderen",
+            "and_n_others": "en ${count} anderen",
             "and_one_other": "en één andere",
             "continue_with": "Doorgaan met",
             "download": {
                 "button": "Download Layla for free",
-                "subtitle": "$s nodigden je uit om hun bucketlist te bekijken. Sla het op om je volgende reis te maken door de Layla-app te downloaden.",
+                "subtitle": "${s} nodigden je uit om hun bucketlist te bekijken. Sla het op om je volgende reis te maken door de Layla-app te downloaden.",
                 "title": "Bewaar deze bucketlist!"
             },
-            "invited_you": "$username nodigden je uit voor hun bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
+            "invited_you": "${username} nodigden je uit voor hun bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
             "login_to_collaborate": "Log in om samen te werken",
             "login_to_view": "Log in om te bekijken",
             "one_person": "Eén persoon",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "Mijn Bucketlist",
         "name": "Naam",
-        "name_is_collaborating": "$name werkt met je samen.",
+        "name_is_collaborating": "${name} werkt met je samen.",
         "no_collaborators": "Nog geen samenwerkers.",
         "no_name": "Geen Naam",
         "one_person": "Eén persoon",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "$n mensen werken met jou mee."
+            "other": "${n} mensen werken met jou mee."
         },
         "save_destinations": "Sla bestemmingen op",
         "share": "Uitnodigen",
@@ -106,11 +106,11 @@
             "view_message": "Gebruikers kunnen de bucketlist bekijken"
         },
         "travel_dates": "Reisdata",
-        "you_and_viewer_are_viewing": "Jij en nog 1 persoon bekijken de bucketlist van $creator",
-        "you_and_viewers_are_viewing": "Jij en $count anderen bekijken de bucketlist van $creator",
-        "you_are_viewing": "Je bekijkt de bucketlist van $creator",
-        "you_are_viewing_bucketlist": "Je bekijkt een bucketlist van $creator",
-        "you_are_viewing_bucketlist_collaborator": "Je bekijkt een bucketlist van $creator en $collaborator",
+        "you_and_viewer_are_viewing": "Jij en nog 1 persoon bekijken de bucketlist van ${creator}",
+        "you_and_viewers_are_viewing": "Jij en ${count} anderen bekijken de bucketlist van ${creator}",
+        "you_are_viewing": "Je bekijkt de bucketlist van ${creator}",
+        "you_are_viewing_bucketlist": "Je bekijkt een bucketlist van ${creator}",
+        "you_are_viewing_bucketlist_collaborator": "Je bekijkt een bucketlist van ${creator} en ${collaborator}",
         "you_can_create": "U kunt bucketlists maken, bekijken of bewerken zodra u bent ingelogd."
     },
     "bucketlistWord": "Verlanglijst",
@@ -118,8 +118,8 @@
     "cancel": "Annuleren",
     "change": "Veranderen",
     "charactersWord": {
-        "one": "$n teken",
-        "other": "$n tekens"
+        "one": "${n} teken",
+        "other": "${n} tekens"
     },
     "chatbot": {
         "chat": {
@@ -135,11 +135,11 @@
                 "msg3": "Stel een reisschema voor me samen",
                 "msg4": "Waar moet ik verblijven?"
             },
-            "isTyping": "$name is aan het typen...",
+            "isTyping": "${name} is aan het typen...",
             "messageHint": "Vraag me iets",
             "messages": {
                 "flight": {
-                    "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
+                    "fromToAroundPrice": "Vluchten van ${from} naar ${to} rond ${price}"
                 },
                 "hotelOptions": {
                     "title": "Welk hotel vind je leuk?"
@@ -153,14 +153,14 @@
                     "requestTitle": "Waar vertrek je vandaan?"
                 },
                 "tileOptions": {
-                    "minOptions": "Kies $min of meer kaarten"
+                    "minOptions": "Kies ${min} of meer kaarten"
                 }
             },
             "title": "Layla"
         },
         "chat_settings": {
             "delete_chat": "Chat Verwijderen?",
-            "delete_chat_message": "$name wordt permanent verwijderd.",
+            "delete_chat_message": "${name} wordt permanent verwijderd.",
             "history": "Geschiedenis",
             "info_and_support": "Informatie en Ondersteuning",
             "new_chat": "Nieuwe Chat",
@@ -168,14 +168,14 @@
         },
         "onboarding": {
             "aesthetics": {
-                "continueButton": "Selecteer nog $count om door te gaan",
+                "continueButton": "Selecteer nog ${count} om door te gaan",
                 "message": "Help ons jouw vibe begrijpen",
                 "title": "Tik om 3 of meer kaarten te kiezen",
                 "titleAlt": "Wat is jouw vibe?\nTik op de kaarten die je leuk vindt."
             },
             "chatbot": {
                 "inputHint": "Vraag me iets",
-                "msg1": "Hoi $user 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+                "msg1": "Hoi ${user} 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
                 "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
                 "msg3": "Waar ben je in geïnteresseerd?",
                 "msg4": "Waar vertrek je vandaan?",
@@ -222,8 +222,8 @@
     "checkIn": "Inchecken",
     "child": "Kind",
     "children": {
-        "one": "$n kind",
-        "other": "$n kinderen"
+        "one": "${n} kind",
+        "other": "${n} kinderen"
     },
     "childrenWord": "Kinderen",
     "classWord": "Klasse",
@@ -238,10 +238,10 @@
     "creator": "Maker",
     "currency": "Valuta",
     "dates": "Data",
-    "dayN": "Dag $n",
+    "dayN": "Dag ${n}",
     "days": {
-        "one": "$n dag",
-        "other": "$n dagen"
+        "one": "${n} dag",
+        "other": "${n} dagen"
     },
     "daysWord": "Dagen",
     "deals": "Aanbiedingen",
@@ -267,16 +267,16 @@
     "explore_feat": {
         "add_dates": "Data toevoegen",
         "add_destination": "Bestemming toevoegen",
-        "around_destination": "rond $destination",
+        "around_destination": "rond ${destination}",
         "ask_anything": "Vraag alles...",
         "book_flights": "Boek vluchten",
         "change_departure": "Vertrek wijzigen",
         "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
-        "closest_airport": "Dichtstbijzijnde vliegveld naar $destination",
-        "distance_from_origin": "${distance}km van $origin",
+        "closest_airport": "Dichtstbijzijnde vliegveld naar ${destination}",
+        "distance_from_origin": "${distance}km van ${origin}",
         "how_to_get_there": "Hoe je er komt",
-        "how_to_get_to": "Hoe je naar $destination komt",
-        "land_in": "Land in $destination",
+        "how_to_get_to": "Hoe je naar ${destination} komt",
+        "land_in": "Land in ${destination}",
         "no_flights_found": "Geen vluchten gevonden",
         "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
         "select_a_flight": "Selecteer een vlucht",
@@ -289,21 +289,21 @@
     "feed": {
         "add_interests": "Interesses toevoegen",
         "approx_for_your_dates": "Geschat voor uw data",
-        "average_duration": "Gemiddelde duur $hours u",
-        "average_price": "Gemiddelde prijs $price",
+        "average_duration": "Gemiddelde duur ${hours} u",
+        "average_price": "Gemiddelde prijs ${price}",
         "awkward_nothing_returned": "Dat is vreemd, er werd niets teruggegeven voor de zoekopdracht. Verander uw voorkeuren en probeer het opnieuw.",
         "cant_show_results": "Om een of andere reden konden we je de resultaten niet laten zien.",
         "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
-        "count_destinations_for_you": "$count prachtige bestemmingen voor jou",
+        "count_destinations_for_you": "${count} prachtige bestemmingen voor jou",
         "direct_flights": "Directe vluchten",
         "filters": {
             "categories": "Categorieën",
             "flight_connection": "Vluchtverbinding",
             "flight_connection_direct": "Alleen directe vluchten",
             "flight_duration": "Vluchtduur",
-            "flight_duration_value": "Max vluchtduur $value",
+            "flight_duration_value": "Max vluchtduur ${value}",
             "flight_price": "Vluchtprijs",
-            "flight_price_value": "Max vluchtprijs $value"
+            "flight_price_value": "Max vluchtprijs ${value}"
         },
         "flight_price_range": "Vliegticket prijsklasse",
         "flight_time": "Vliegtijd",
@@ -315,9 +315,9 @@
         },
         "give_us_feedback": "Geef ons feedback",
         "how_do_you_like_the_app": "Hoe bevalt de app?",
-        "km_from": "${distance}km van $city",
+        "km_from": "${distance}km van ${city}",
         "no_results_found": "Geen resultaten gevonden!",
-        "one_way_with_bullet": " $code enkele reis",
+        "one_way_with_bullet": " ${code} enkele reis",
         "or_less": "of minder",
         "price_types": [
             "Voordelige bestemming",
@@ -325,8 +325,8 @@
             "Kostbare bestemming",
             "Zeer dure bestemming"
         ],
-        "return_with_bullet": " $code retour",
-        "round_hrs": "$val u",
+        "return_with_bullet": " ${code} retour",
+        "round_hrs": "${val} u",
         "scroll_down_to_see_more": "Scroll naar beneden voor meer info",
         "show_only_direct_flights": "Toon alleen directe vluchten",
         "something_went_wrong": "Er is iets misgegaan",
@@ -360,7 +360,7 @@
         "estimated_price": "Geschatte prijs",
         "first_class": "Eerste klas",
         "flight_details": "Vluchtgegevens",
-        "flights_to": "Vluchten naar $to",
+        "flights_to": "Vluchten naar ${to}",
         "go_to_site": "Ga naar site",
         "how_many_people": "Hoeveel mensen?",
         "livePrices": "Live prijzen",
@@ -369,15 +369,15 @@
         "no_flights_found": "Geen vluchten gevonden",
         "one_way": "Enkele reis",
         "passengers": {
-            "one": "$n passagier",
-            "other": "$n passagiers"
+            "one": "${n} passagier",
+            "other": "${n} passagiers"
         },
         "popular_destinations": "Populaire bestemmingen",
         "premium_economy_class": "Premium Economy-klasse",
         "prices_include": "Prijzen zijn altijd inclusief een schatting van alle verplichte belastingen en kosten. Controleer alle ticketdetails, eindprijzen en voorwaarden op de website van de aanbieder voordat u boekt.",
         "provider_found": {
-            "one": "$n provider gevonden",
-            "other": "$n providers gevonden"
+            "one": "${n} provider gevonden",
+            "other": "${n} providers gevonden"
         },
         "read_before_booking": "Lees voor het boeken",
         "restrictions_may_apply": "Er kunnen beperkingen gelden voor jonge passagiers die alleen reizen.",
@@ -387,23 +387,23 @@
         "selected_departure_destination": "Geselecteerde vertrekbestemming",
         "some_airlines_and_travel_agencies": "Sommige luchtvaartmaatschappijen en reisbureaus rekenen extra voor bagage, verzekering of creditcardgebruik. Ze kunnen ook een servicekosten in rekening brengen.",
         "total_for": {
-            "one": "Totaal voor $n reiziger",
-            "other": "Totaal voor $n reizigers"
+            "one": "Totaal voor ${n} reiziger",
+            "other": "Totaal voor ${n} reizigers"
         },
         "travelers_info_updated_successfully": "Reizigersinformatie succesvol bijgewerkt",
         "travellers": {
-            "one": "$n reiziger",
-            "other": "$n reizigers"
+            "one": "${n} reiziger",
+            "other": "${n} reizigers"
         },
         "we_collected_cheapest_providers": "We hebben de goedkoopste aanbieders voor u verzameld. Selecteer de site waar je het ticket wilt kopen!",
         "where_from": "Waar vandaan?",
         "where_to": "Waar naartoe?"
     },
     "from": "Van",
-    "from_var": "Van $name",
+    "from_var": "Van ${name}",
     "guest": {
-        "one": "$n gast",
-        "other": "$n gasten"
+        "one": "${n} gast",
+        "other": "${n} gasten"
     },
     "help": "Help",
     "hotel": {
@@ -418,8 +418,8 @@
         "check_availability": "Beschikbaarheid controleren",
         "check_in_time": "Check-in en uitcheck tijden",
         "detailed_reviews": {
-            "one": "$n gedetailleerde beoordeling",
-            "other": "$n gedetailleerde beoordelingen"
+            "one": "${n} gedetailleerde beoordeling",
+            "other": "${n} gedetailleerde beoordelingen"
         },
         "edit_your_search": "Bewerk uw zoekopdracht",
         "enter_destination": "Voer bestemming in",
@@ -435,7 +435,7 @@
             "show_all": "Toon alles",
             "stay_options": "Verblijfsopties",
             "things_to_do": "Dingen om te doen",
-            "travel_km_further": "Reis $distance km verder",
+            "travel_km_further": "Reis ${distance} km verder",
             "youre_in_luck": "Je hebt geluk"
         },
         "filter_and_sort": "Filter & Sorteer",
@@ -470,7 +470,7 @@
         "no_photos": "Sorry, we hebben geen foto's\nvoor dit hotel",
         "no_refund": "Geen terugbetaling",
         "no_videos": "Sorry, we hebben geen video's\nvoor dit hotel",
-        "partial_refund": "Gedeeltelijke terugbetaling: Krijg $name % van elke nacht terug. Geen terugbetaling van de servicekosten",
+        "partial_refund": "Gedeeltelijke terugbetaling: Krijg ${name} % van elke nacht terug. Geen terugbetaling van de servicekosten",
         "pets_allowed": "Huisdieren zijn toegestaan, kosten kunnen van toepassing zijn",
         "property_facilities": "Faciliteiten van de accommodatie",
         "property_location": "Locatie van de accommodatie",
@@ -522,12 +522,12 @@
         },
         "rooms_and_guests": "Kamers & Gasten",
         "search_destinations": "Zoek bestemmingen",
-        "see_all": "Bekijk alle $count",
+        "see_all": "Bekijk alle ${count}",
         "select_a_room": "Selecteer een kamer",
         "select_age": "Selecteer leeftijd",
         "select_dates": "Selecteer datums",
         "select_rooms_and_guests": "Selecteer kamers en gasten",
-        "share_text": "Bekijk dit hotel: $name",
+        "share_text": "Bekijk dit hotel: ${name}",
         "sort_filters": {
             "best_rated": "Best beoordeeld",
             "best_reviewed": "Best beoordeeld",
@@ -541,8 +541,8 @@
         },
         "stays_close_by": "Verblijven dichtbij",
         "sustainability_steps": "Stappen van duurzaamheid",
-        "sustainable_level": "Reis duurzame niveau $level",
-        "travel_sustainable_level": "Reis duurzame niveau $level",
+        "sustainable_level": "Reis duurzame niveau ${level}",
+        "travel_sustainable_level": "Reis duurzame niveau ${level}",
         "what_people_loved": "Wat mensen leuk vonden aan deze plek",
         "what_people_said": "Wat mensen zeiden",
         "what_this_place_offers": "Wat deze plaats biedt",
@@ -572,14 +572,14 @@
             },
             "modify": {
                 "button": "Genereer",
-                "hint": "Wat wilt u doen op dag $index?",
+                "hint": "Wat wilt u doen op dag ${index}?",
                 "title": "Wijzig met AI"
             }
         }
     },
     "know_more": {
         "answer_generated": "Antwoord gegenereerd!",
-        "ask_city_country": "Vraag iets over $city, $country",
+        "ask_city_country": "Vraag iets over ${city}, ${country}",
         "ask_something_more": "Stel nog een vraag...",
         "generating_answer": "Genereren van antwoord...",
         "is_it_safe_for": "Is het veilig voor reizigers?",
@@ -610,8 +610,8 @@
         "other": "nachten"
     },
     "nightsWithNum": {
-        "one": "$n nacht",
-        "other": "$n nachten"
+        "one": "${n} nacht",
+        "other": "${n} nachten"
     },
     "onboarding": {
         "allow_location_access": "Toegang tot locatie toestaan",
@@ -632,8 +632,8 @@
     "one_way": "Enkele reis",
     "opps": "Opps!",
     "person": {
-        "one": "$n persoon",
-        "other": "$n mensen"
+        "one": "${n} persoon",
+        "other": "${n} mensen"
     },
     "pets": "Huisdieren",
     "photos": "Foto's",
@@ -668,12 +668,12 @@
         "last_name": "Achternaam",
         "log_in_to_start_planning": "Log in om je volgende reis te plannen",
         "logout": "Uitloggen",
-        "member_since": "Lid sinds $date",
+        "member_since": "Lid sinds ${date}",
         "new_chat_login": "Om een nieuwe chat te starten, log alsjeblieft in",
         "privacy_and_sharing": "Privacy en delen",
         "privacy_policy": "Privacybeleid",
         "set_profile_image": "Stel profielfoto in",
-        "share_message": "Bekijk deze app met de meest verbazingwekkende plekken ter wereld: $link",
+        "share_message": "Bekijk deze app met de meest verbazingwekkende plekken ter wereld: ${link}",
         "spread_the_word": "Verspreid het woord",
         "take_photo": "Neem foto",
         "terms_of_service": "Algemene Voorwaarden"
@@ -685,16 +685,16 @@
     "reset": "Reset",
     "returnWord": "Terug",
     "review": {
-        "one": "$n beoordeling",
-        "other": "$n beoordelingen"
+        "one": "${n} beoordeling",
+        "other": "${n} beoordelingen"
     },
     "room": {
-        "one": "$n kamer",
-        "other": "$n kamers"
+        "one": "${n} kamer",
+        "other": "${n} kamers"
     },
     "rooms": {
-        "one": "$n kamer",
-        "other": "$n kamers"
+        "one": "${n} kamer",
+        "other": "${n} kamers"
     },
     "roomsWord": "Kamers",
     "save": "Opslaan",
@@ -724,17 +724,17 @@
     },
     "star_new_chat": "Start nieuwe chat",
     "stars": {
-        "one": "$n ster",
-        "other": "$n sterren"
+        "one": "${n} ster",
+        "other": "${n} sterren"
     },
     "start": "Beginnen",
     "stop": {
-        "one": "$n stop",
-        "other": "$n stops"
+        "one": "${n} stop",
+        "other": "${n} stops"
     },
     "stop_plus": {
-        "one": "$n stop",
-        "other": "$n+ stops"
+        "one": "${n} stop",
+        "other": "${n}+ stops"
     },
     "stops": "Stops",
     "support": "Ondersteuning",
@@ -743,29 +743,29 @@
     },
     "time_ago": {
         "days": {
-            "one": "$n dag geleden",
-            "other": "$n dagen geleden"
+            "one": "${n} dag geleden",
+            "other": "${n} dagen geleden"
         },
         "hours": {
-            "one": "$n uur geleden",
-            "other": "$n uur geleden"
+            "one": "${n} uur geleden",
+            "other": "${n} uur geleden"
         },
         "just_now": "Zojuist",
         "minutes": {
-            "one": "$n minuut geleden",
-            "other": "$n minuten geleden"
+            "one": "${n} minuut geleden",
+            "other": "${n} minuten geleden"
         },
         "months": {
-            "one": "$n maand geleden",
-            "other": "$n maanden geleden"
+            "one": "${n} maand geleden",
+            "other": "${n} maanden geleden"
         },
         "seconds": {
-            "one": "$n seconde geleden",
-            "other": "$n seconden geleden"
+            "one": "${n} seconde geleden",
+            "other": "${n} seconden geleden"
         },
         "years": {
-            "one": "$n jaar geleden",
-            "other": "$n jaar geleden"
+            "one": "${n} jaar geleden",
+            "other": "${n} jaar geleden"
         }
     },
     "times": "Tijden",
@@ -777,7 +777,7 @@
         "tap_to_bucketlist": "Tik voor bucketlist",
         "tap_to_chat": "Tik om te chatten",
         "tap_to_filter": "Tik om te filteren",
-        "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar $country?",
+        "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar ${country}?",
         "tap_to_open_menu": "Tik om het menupaneel te openen",
         "tap_to_start_new_chat": "Tik om een nieuw gesprek te starten"
     },
@@ -787,7 +787,7 @@
         "add_details": "Details toevoegen",
         "exact_dates": "Exacte data",
         "flexible_dates": "Flexibele data",
-        "go_var": "Ga $val",
+        "go_var": "Ga ${val}",
         "select_origin": "Selecteer oorsprong",
         "what_do_you_want_in_your_trip": "Wat wil je in je reis?",
         "when_is_your_trip": "Wanneer is je reis?",
@@ -795,14 +795,14 @@
     },
     "travelers": "Reizigers",
     "traveller": {
-        "one": "$n reiziger",
-        "other": "$n reizigers"
+        "one": "${n} reiziger",
+        "other": "${n} reizigers"
     },
     "unknown_error": "Onbekende fout",
     "unknown_name": "Onbekende naam",
     "update": "Update",
     "user_cancelled": "Gebruiker geannuleerd",
-    "varTotal": "$n totaal",
+    "varTotal": "${n} totaal",
     "videoSubCategory": [
         "Activiteiten",
         "Jachten & Cruises",

@@ -13,14 +13,14 @@
         "title": "Acerca de mí, Layla."
     },
     "adults": {
-        "one": "$n adulto",
-        "other": "$n adultos"
+        "one": "${n} adulto",
+        "other": "${n} adultos"
     },
     "adultsWord": "Adultos",
     "afternoon": "Tarde",
     "age": {
-        "one": "$n año",
-        "other": "$n años"
+        "one": "${n} año",
+        "other": "${n} años"
     },
     "allow": "Permitir",
     "anything": "Cualquier cosa",
@@ -33,7 +33,7 @@
     "away": "Lejos",
     "best": "Mejor",
     "blog": {
-        "askLaylaAbout": "Pregunta a Layla sobre $name",
+        "askLaylaAbout": "Pregunta a Layla sobre ${name}",
         "blog": "Blog",
         "blogs": "Blogs",
         "noBlogs": "No se encontraron blogs",
@@ -43,14 +43,14 @@
     "bucketlist": {
         "add_to_bucketlist": "Agregar a lista de deseos",
         "as_you_search": "Mientras exploras la aplicación, simplemente toca el corazón en lo que te guste para agregarlo a tu lista de deseos y luego invita a tus amigos para planificar en conjunto. ¡Llenemos algunas listas de deseos, ¿de acuerdo?",
-        "bucketlist": "Lista de deseos: $name",
-        "bucketlist_copied": "Lista de deseos $name copiada exitosamente",
+        "bucketlist": "Lista de deseos: ${name}",
+        "bucketlist_copied": "Lista de deseos ${name} copiada exitosamente",
         "bucketlist_created": "Lista de deseos creada exitosamente",
         "bucketlist_saved": "Lista de deseos guardada exitosamente",
-        "bucketlist_will_be_removed": "$name será eliminado de tus listas de deseos.",
-        "collaborating_and_one_more": "$name y una persona más están colaborando contigo.",
-        "collaborating_two": "$first y $second están colaborando contigo.",
-        "collaborating_two_and_more": "$first y $count más están colaborando contigo.",
+        "bucketlist_will_be_removed": "${name} será eliminado de tus listas de deseos.",
+        "collaborating_and_one_more": "${name} y una persona más están colaborando contigo.",
+        "collaborating_two": "${first} y ${second} están colaborando contigo.",
+        "collaborating_two_and_more": "${first} y ${count} más están colaborando contigo.",
         "copy": "Copiar para editar",
         "create_bucketlist": "Crear lista de deseos",
         "create_new_bucketlist": "Crear nueva lista de deseos",
@@ -58,25 +58,25 @@
         "delete_bucketlist": "¿Eliminar lista de deseos?",
         "delete_bucketlist_message": "¿Estás seguro de que deseas eliminar esta lista de deseos?",
         "delete_user_from_bucketlist": "¿Eliminar usuario de la lista de deseos?",
-        "delete_user_from_bucketlist_message": "¿Estás seguro de que deseas eliminar a $username de esta lista de deseos?",
+        "delete_user_from_bucketlist_message": "¿Estás seguro de que deseas eliminar a ${username} de esta lista de deseos?",
         "destinations": {
-            "one": "$n Destino",
-            "other": "$n Destinos"
+            "one": "${n} Destino",
+            "other": "${n} Destinos"
         },
         "flying_from": "Volando desde",
         "leave_bucketlist": "¿Abandonar esta lista de deseos?",
         "login_to_view": "Inicia sesión para ver tu lista de deseos",
         "login_widget": {
             "and": "y",
-            "and_n_others": "y $count otras",
+            "and_n_others": "y ${count} otras",
             "and_one_other": "y otra",
             "continue_with": "Continuar con",
             "download": {
                 "button": "Descarga Layla gratis",
-                "subtitle": "$s te invitó a ver su lista de deseos. Guárdala para crear tu próximo viaje descargando la aplicación Layla.",
+                "subtitle": "${s} te invitó a ver su lista de deseos. Guárdala para crear tu próximo viaje descargando la aplicación Layla.",
                 "title": "¡Guarda esta lista de deseos!"
             },
-            "invited_you": "$username te invitó a su lista de deseos. ¡Inicia sesión para guardar y crear tu próximo viaje en Layla!",
+            "invited_you": "${username} te invitó a su lista de deseos. ¡Inicia sesión para guardar y crear tu próximo viaje en Layla!",
             "login_to_collaborate": "Inicia sesión para colaborar",
             "login_to_view": "Inicia sesión para ver",
             "one_person": "Una persona",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "Mi lista de deseos",
         "name": "Nombre",
-        "name_is_collaborating": "$name está colaborando contigo.",
+        "name_is_collaborating": "${name} está colaborando contigo.",
         "no_collaborators": "Sin colaboradores todavía.",
         "no_name": "Sin nombre",
         "one_person": "Una persona",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "$n personas están colaborando contigo."
+            "other": "${n} personas están colaborando contigo."
         },
         "save_destinations": "Guardar destinos",
         "share": "Invitar",
@@ -106,11 +106,11 @@
             "view_message": "Los usuarios podrán ver la lista de deseos"
         },
         "travel_dates": "Fechas de Viaje",
-        "you_and_viewer_are_viewing": "Tú y otra persona están viendo la lista de deseos de $creator",
-        "you_and_viewers_are_viewing": "Tú y $count más están viendo la lista de deseos de $creator",
-        "you_are_viewing": "Estás viendo la lista de deseos de $creator",
-        "you_are_viewing_bucketlist": "Estás viendo una lista de deseos de $creator",
-        "you_are_viewing_bucketlist_collaborator": "Estás viendo una lista de deseos de $creator y $collaborator",
+        "you_and_viewer_are_viewing": "Tú y otra persona están viendo la lista de deseos de ${creator}",
+        "you_and_viewers_are_viewing": "Tú y ${count} más están viendo la lista de deseos de ${creator}",
+        "you_are_viewing": "Estás viendo la lista de deseos de ${creator}",
+        "you_are_viewing_bucketlist": "Estás viendo una lista de deseos de ${creator}",
+        "you_are_viewing_bucketlist_collaborator": "Estás viendo una lista de deseos de ${creator} y ${collaborator}",
         "you_can_create": "Puedes crear, ver o editar listas de deseos una vez que hayas iniciado sesión."
     },
     "bucketlistWord": "Lista de deseos",
@@ -118,8 +118,8 @@
     "cancel": "Cancelar",
     "change": "Cambiar",
     "charactersWord": {
-        "one": "$n carácter",
-        "other": "$n caracteres"
+        "one": "${n} carácter",
+        "other": "${n} caracteres"
     },
     "chatbot": {
         "chat": {
@@ -135,11 +135,11 @@
                 "msg3": "Constrúyeme Un Itinerario",
                 "msg4": "¿Dónde Debería Alojarme?"
             },
-            "isTyping": "$name está escribiendo...",
+            "isTyping": "${name} está escribiendo...",
             "messageHint": "Pregúntame lo que sea",
             "messages": {
                 "flight": {
-                    "fromToAroundPrice": "Vuelos desde $from a $to por alrededor de $price"
+                    "fromToAroundPrice": "Vuelos desde ${from} a ${to} por alrededor de ${price}"
                 },
                 "hotelOptions": {
                     "title": "¿Qué hotel te gusta?"
@@ -153,14 +153,14 @@
                     "requestTitle": "¿Desde dónde partirás?"
                 },
                 "tileOptions": {
-                    "minOptions": "Selecciona $min o más tarjetas"
+                    "minOptions": "Selecciona ${min} o más tarjetas"
                 }
             },
             "title": "Layla"
         },
         "chat_settings": {
             "delete_chat": "¿Eliminar Chat?",
-            "delete_chat_message": "$name se eliminará permanentemente.",
+            "delete_chat_message": "${name} se eliminará permanentemente.",
             "history": "Historial",
             "info_and_support": "Información y Soporte",
             "new_chat": "Nuevo Chat",
@@ -168,14 +168,14 @@
         },
         "onboarding": {
             "aesthetics": {
-                "continueButton": "Selecciona $count más para continuar",
+                "continueButton": "Selecciona ${count} más para continuar",
                 "message": "Ayúdanos a entender tu vibra",
                 "title": "Toca para seleccionar 3 o más cartas",
                 "titleAlt": "¿Cuál es tu vibra?\nToca las cartas que te 💕"
             },
             "chatbot": {
                 "inputHint": "Pregúntame cualquier cosa",
-                "msg1": "Hola $user 👋\n\nSoy Layla, tu Asesora de Viajes.\n\nAntes de comenzar, me encantaría saber qué tipo de viajero eres. 🌍\n\nDime qué tipo de viaje estás buscando escribiendo o hablando.",
+                "msg1": "Hola ${user} 👋\n\nSoy Layla, tu Asesora de Viajes.\n\nAntes de comenzar, me encantaría saber qué tipo de viajero eres. 🌍\n\nDime qué tipo de viaje estás buscando escribiendo o hablando.",
                 "msg2": "¡Increíble! Creo que entiendo lo que estás buscando.\n\n¿Tienes algún otro requisito?",
                 "msg3": "¿En qué estás interesado?",
                 "msg4": "¿Desde dónde partirás?",
@@ -222,8 +222,8 @@
     "checkIn": "Registro",
     "child": "Niño",
     "children": {
-        "one": "$n niño",
-        "other": "$n niños"
+        "one": "${n} niño",
+        "other": "${n} niños"
     },
     "childrenWord": "Niños",
     "classWord": "Clase",
@@ -238,10 +238,10 @@
     "creator": "Creador",
     "currency": "Moneda",
     "dates": "Fechas",
-    "dayN": "Día $n",
+    "dayN": "Día ${n}",
     "days": {
-        "one": "$n día",
-        "other": "$n días"
+        "one": "${n} día",
+        "other": "${n} días"
     },
     "daysWord": "Días",
     "deals": "Ofertas",
@@ -267,16 +267,16 @@
     "explore_feat": {
         "add_dates": "Agregar fechas",
         "add_destination": "Agregar destino",
-        "around_destination": "alrededor de $destination",
+        "around_destination": "alrededor de ${destination}",
         "ask_anything": "Pregunta lo que sea...",
         "book_flights": "Reservar vuelos",
         "change_departure": "Cambiar salida",
         "check_out_this_place": "Sé a dónde deberíamos ir juntos. Echa un vistazo a este lugar que encontré en Layla",
-        "closest_airport": "Aeropuerto más cercano a $destination",
-        "distance_from_origin": "${distance}km desde $origin",
+        "closest_airport": "Aeropuerto más cercano a ${destination}",
+        "distance_from_origin": "${distance}km desde ${origin}",
         "how_to_get_there": "Cómo llegar",
-        "how_to_get_to": "Cómo llegar a $destination",
-        "land_in": "Aterriza en $destination",
+        "how_to_get_to": "Cómo llegar a ${destination}",
+        "land_in": "Aterriza en ${destination}",
         "no_flights_found": "No se encontraron vuelos",
         "no_videos": "Lo siento, no tenemos videos\npara este destino",
         "select_a_flight": "Selecciona un vuelo",
@@ -289,21 +289,21 @@
     "feed": {
         "add_interests": "Agregar intereses",
         "approx_for_your_dates": "Aprox. para tus fechas",
-        "average_duration": "Duración promedio $hours h",
-        "average_price": "Precio promedio $price",
+        "average_duration": "Duración promedio ${hours} h",
+        "average_price": "Precio promedio ${price}",
         "awkward_nothing_returned": "Vaya, que incómodo, no se encontró nada para la búsqueda. Por favor, cambia tus preferencias y vuelve a intentarlo.",
         "cant_show_results": "Por alguna razón no pudimos mostrarte los resultados.",
         "consider_broadening": "¡Ups! No pudimos encontrar coincidencias según tus preferencias actuales. Considera ampliar la búsqueda ajustando tus preferencias para obtener una gama más amplia de opciones.",
-        "count_destinations_for_you": "$count hermosos destinos para ti",
+        "count_destinations_for_you": "${count} hermosos destinos para ti",
         "direct_flights": "Vuelos directos",
         "filters": {
             "categories": "Categorías",
             "flight_connection": "Escalas",
             "flight_connection_direct": "Solo Directos",
             "flight_duration": "Duración Del Vuelo",
-            "flight_duration_value": "Duración máxima del vuelo $value",
+            "flight_duration_value": "Duración máxima del vuelo ${value}",
             "flight_price": "Precio Del Vuelo",
-            "flight_price_value": "Precio máximo del vuelo $value"
+            "flight_price_value": "Precio máximo del vuelo ${value}"
         },
         "flight_price_range": "Rango de precio del vuelo",
         "flight_time": "Duración del vuelo",
@@ -315,9 +315,9 @@
         },
         "give_us_feedback": "Haz un comentario",
         "how_do_you_like_the_app": "¿Qué te parece la aplicación?",
-        "km_from": "${distance}km desde $city",
+        "km_from": "${distance}km desde ${city}",
         "no_results_found": "No Se Encontraron Resultados",
-        "one_way_with_bullet": " $code solo ida",
+        "one_way_with_bullet": " ${code} solo ida",
         "or_less": "o menos",
         "price_types": [
             "Destino Económico",
@@ -325,8 +325,8 @@
             "Destino De Gama Alta",
             "Destino De Lujo"
         ],
-        "return_with_bullet": " $code regreso",
-        "round_hrs": "$val hrs",
+        "return_with_bullet": " ${code} regreso",
+        "round_hrs": "${val} hrs",
         "scroll_down_to_see_more": "Desplázate hacia abajo para ver más información",
         "show_only_direct_flights": "Mostrar solo vuelos directos",
         "something_went_wrong": "Algo salió mal",
@@ -360,7 +360,7 @@
         "estimated_price": "Precio Estimado",
         "first_class": "Primera Clase",
         "flight_details": "Detalles del vuelo",
-        "flights_to": "Vuelos a $to",
+        "flights_to": "Vuelos a ${to}",
         "go_to_site": "Ir al sitio",
         "how_many_people": "¿Cuántas personas?",
         "livePrices": "Precio En Vivo",
@@ -369,15 +369,15 @@
         "no_flights_found": "No se encontraron vuelos",
         "one_way": "Solo ida",
         "passengers": {
-            "one": "$n pasajero",
-            "other": "$n pasajeros"
+            "one": "${n} pasajero",
+            "other": "${n} pasajeros"
         },
         "popular_destinations": "Destinos populares",
         "premium_economy_class": "Clase Turista Premium",
         "prices_include": "Los precios siempre incluyen una estimación de todos los impuestos y cargos obligatorios. Consulta todos los detalles del billete, precios finales y términos y condiciones en el sitio web del proveedor antes de reservar.",
         "provider_found": {
-            "one": "$n proveedor encontrado",
-            "other": "$n proveedores encontrados"
+            "one": "${n} proveedor encontrado",
+            "other": "${n} proveedores encontrados"
         },
         "read_before_booking": "Lee antes de reservar",
         "restrictions_may_apply": "Pueden aplicarse restricciones a los pasajeros jóvenes que viajen solos.",
@@ -387,23 +387,23 @@
         "selected_departure_destination": "Ubicación de salida seleccionada",
         "some_airlines_and_travel_agencies": "Algunas aerolíneas y agencias de viajes cobran extra por el equipaje, el seguro o el uso de tarjetas de crédito. También pueden cobrar una tarifa de servicio.",
         "total_for": {
-            "one": "Total para $n viajero",
-            "other": "Total para $n viajeros"
+            "one": "Total para ${n} viajero",
+            "other": "Total para ${n} viajeros"
         },
         "travelers_info_updated_successfully": "Información de viajeros actualizada con éxito",
         "travellers": {
-            "one": "$n viajero",
-            "other": "$n viajeros"
+            "one": "${n} viajero",
+            "other": "${n} viajeros"
         },
         "we_collected_cheapest_providers": "Hemos recopilado los proveedores más económicos para ti. ¡Selecciona un sitio donde te gustaría comprar el billete!",
         "where_from": "¿De dónde?",
         "where_to": "¿A dónde?"
     },
     "from": "Desde",
-    "from_var": "Desde $name",
+    "from_var": "Desde ${name}",
     "guest": {
-        "one": "$n huésped",
-        "other": "$n huéspedes"
+        "one": "${n} huésped",
+        "other": "${n} huéspedes"
     },
     "help": "Ayuda",
     "hotel": {
@@ -418,8 +418,8 @@
         "check_availability": "Verificar disponibilidad",
         "check_in_time": "Horarios de check-in y check-out",
         "detailed_reviews": {
-            "one": "$n reseña detallada",
-            "other": "$n reseñas detalladas"
+            "one": "${n} reseña detallada",
+            "other": "${n} reseñas detalladas"
         },
         "edit_your_search": "Edita tu búsqueda",
         "enter_destination": "Ingresa el destino",
@@ -435,7 +435,7 @@
             "show_all": "Mostrar todo",
             "stay_options": "Opciones de estadía",
             "things_to_do": "Cosas para hacer",
-            "travel_km_further": "Viaja $distance km más",
+            "travel_km_further": "Viaja ${distance} km más",
             "youre_in_luck": "Estás de suerte"
         },
         "filter_and_sort": "Filtrar y ordenar",
@@ -470,7 +470,7 @@
         "no_photos": "Lo siento, no tenemos fotos\npara este hotel",
         "no_refund": "Sin reembolso",
         "no_videos": "Lo siento, no tenemos videos\npara este hotel",
-        "partial_refund": "Reembolso parcial: Recibe $name % de cada noche. Sin reembolso de la tarifa de servicio",
+        "partial_refund": "Reembolso parcial: Recibe ${name} % de cada noche. Sin reembolso de la tarifa de servicio",
         "pets_allowed": "Se admiten mascotas, pueden aplicarse cargos",
         "property_facilities": "Instalaciones de la propiedad",
         "property_location": "Ubicación de la propiedad",
@@ -522,12 +522,12 @@
         },
         "rooms_and_guests": "Habitaciones y huéspedes",
         "search_destinations": "Buscar destinos",
-        "see_all": "Ver todo $count",
+        "see_all": "Ver todo ${count}",
         "select_a_room": "Selecciona una habitación",
         "select_age": "Selecciona la edad",
         "select_dates": "Selecciona fechas",
         "select_rooms_and_guests": "Selecciona habitaciones y huéspedes",
-        "share_text": "Echa un vistazo a este hotel: $name",
+        "share_text": "Echa un vistazo a este hotel: ${name}",
         "sort_filters": {
             "best_rated": "Mejor valorado",
             "best_reviewed": "Mejor reseñado",
@@ -541,8 +541,8 @@
         },
         "stays_close_by": "Estadías cercanas",
         "sustainability_steps": "Pasos hacia la sostenibilidad",
-        "sustainable_level": "Nivel de sostenibilidad del viaje $level",
-        "travel_sustainable_level": "Nivel De Sostenibilidad Del Viaje $level",
+        "sustainable_level": "Nivel de sostenibilidad del viaje ${level}",
+        "travel_sustainable_level": "Nivel De Sostenibilidad Del Viaje ${level}",
         "what_people_loved": "Lo que a la gente le encantó de este lugar",
         "what_people_said": "Lo que la gente ha dicho",
         "what_this_place_offers": "Lo que ofrece este lugar",
@@ -572,14 +572,14 @@
             },
             "modify": {
                 "button": "Generar",
-                "hint": "¿Qué quieres hacer el día $index?",
+                "hint": "¿Qué quieres hacer el día ${index}?",
                 "title": "Modificar con IA"
             }
         }
     },
     "know_more": {
         "answer_generated": "¡Respuesta generada!",
-        "ask_city_country": "Pregunta cualquier cosa sobre $city, $country",
+        "ask_city_country": "Pregunta cualquier cosa sobre ${city}, ${country}",
         "ask_something_more": "Pregunta algo más...",
         "generating_answer": "Generando respuesta...",
         "is_it_safe_for": "¿Es seguro para el viajero?",
@@ -610,8 +610,8 @@
         "other": "noches"
     },
     "nightsWithNum": {
-        "one": "$n noche",
-        "other": "$n noches"
+        "one": "${n} noche",
+        "other": "${n} noches"
     },
     "onboarding": {
         "allow_location_access": "Permitir acceso a la ubicación",
@@ -632,8 +632,8 @@
     "one_way": "Un solo sentido",
     "opps": "¡Ups!",
     "person": {
-        "one": "$n persona",
-        "other": "$n personas"
+        "one": "${n} persona",
+        "other": "${n} personas"
     },
     "pets": "Mascotas",
     "photos": "Fotos",
@@ -668,12 +668,12 @@
         "last_name": "Apellido",
         "log_in_to_start_planning": "Inicia sesión para comenzar a planificar tu próximo viaje",
         "logout": "Cerrar sesión",
-        "member_since": "Miembro desde $date",
+        "member_since": "Miembro desde ${date}",
         "new_chat_login": "Para comenzar un nuevo chat, inicia sesión por favor",
         "privacy_and_sharing": "Privacidad y Compartición",
         "privacy_policy": "Política De Privacidad",
         "set_profile_image": "Establecer imagen de perfil",
-        "share_message": "Hola, echa un vistazo a Layla. Puede ayudarnos a planificar todos nuestros viajes e inspirarnos sobre a dónde ir: $link",
+        "share_message": "Hola, echa un vistazo a Layla. Puede ayudarnos a planificar todos nuestros viajes e inspirarnos sobre a dónde ir: ${link}",
         "spread_the_word": "Corre la voz",
         "take_photo": "Tomar foto",
         "terms_of_service": "Términos de servicio"
@@ -685,16 +685,16 @@
     "reset": "Restablecer",
     "returnWord": "Regreso",
     "review": {
-        "one": "$n reseña",
-        "other": "$n reseñas"
+        "one": "${n} reseña",
+        "other": "${n} reseñas"
     },
     "room": {
-        "one": "$n habitación",
-        "other": "$n habitaciones"
+        "one": "${n} habitación",
+        "other": "${n} habitaciones"
     },
     "rooms": {
-        "one": "$n habitación",
-        "other": "$n habitaciones"
+        "one": "${n} habitación",
+        "other": "${n} habitaciones"
     },
     "roomsWord": "Habitaciones",
     "save": "Guardar",
@@ -724,17 +724,17 @@
     },
     "star_new_chat": "Iniciar nuevo chat",
     "stars": {
-        "one": "$n estrella",
-        "other": "$n estrellas"
+        "one": "${n} estrella",
+        "other": "${n} estrellas"
     },
     "start": "Comenzar",
     "stop": {
-        "one": "$n parada",
-        "other": "$n paradas"
+        "one": "${n} parada",
+        "other": "${n} paradas"
     },
     "stop_plus": {
-        "one": "$n parada",
-        "other": "$n+ paradas"
+        "one": "${n} parada",
+        "other": "${n}+ paradas"
     },
     "stops": "Paradas",
     "support": "Soporte",
@@ -743,29 +743,29 @@
     },
     "time_ago": {
         "days": {
-            "one": "hace $n día",
-            "other": "hace $n días"
+            "one": "hace ${n} día",
+            "other": "hace ${n} días"
         },
         "hours": {
-            "one": "hace $n hora",
-            "other": "hace $n horas"
+            "one": "hace ${n} hora",
+            "other": "hace ${n} horas"
         },
         "just_now": "Ahora mismo",
         "minutes": {
-            "one": "hace $n minuto",
-            "other": "hace $n minutos"
+            "one": "hace ${n} minuto",
+            "other": "hace ${n} minutos"
         },
         "months": {
-            "one": "hace $n mes",
-            "other": "hace $n meses"
+            "one": "hace ${n} mes",
+            "other": "hace ${n} meses"
         },
         "seconds": {
-            "one": "hace $n segundo",
-            "other": "hace $n segundos"
+            "one": "hace ${n} segundo",
+            "other": "hace ${n} segundos"
         },
         "years": {
-            "one": "hace $n año",
-            "other": "hace $n años"
+            "one": "hace ${n} año",
+            "other": "hace ${n} años"
         }
     },
     "times": "Horarios",
@@ -777,7 +777,7 @@
         "tap_to_bucketlist": "Toca para la lista de deseos",
         "tap_to_chat": "Toca para chatear",
         "tap_to_filter": "Toca para filtrar",
-        "tap_to_help_country": "¿Necesitas ayuda para planificar un viaje a $country?",
+        "tap_to_help_country": "¿Necesitas ayuda para planificar un viaje a ${country}?",
         "tap_to_open_menu": "Toca para abrir el panel de menú",
         "tap_to_start_new_chat": "Toca para comenzar un nuevo chat"
     },
@@ -787,7 +787,7 @@
         "add_details": "Agregar detalles",
         "exact_dates": "Fechas exactas",
         "flexible_dates": "Fechas flexibles",
-        "go_var": "Ir $val",
+        "go_var": "Ir ${val}",
         "select_origin": "Seleccionar origen",
         "what_do_you_want_in_your_trip": "¿Qué deseas en tu viaje?",
         "when_is_your_trip": "¿Cuándo es tu viaje?",
@@ -795,14 +795,14 @@
     },
     "travelers": "Viajeros",
     "traveller": {
-        "one": "$n viajero",
-        "other": "$n viajeros"
+        "one": "${n} viajero",
+        "other": "${n} viajeros"
     },
     "unknown_error": "Error desconocido",
     "unknown_name": "Nombre desconocido",
     "update": "Actualizar",
     "user_cancelled": "Usuario cancelado",
-    "varTotal": "$n total",
+    "varTotal": "${n} total",
     "videoSubCategory": [
         "Actividades",
         "Yates y Cruceros",

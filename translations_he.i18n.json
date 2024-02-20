@@ -13,18 +13,18 @@
         "title": "מה אפשר להגיד עלי, על ליילה."
     },
     "adults": {
-        "one": "$n מבוגר",
-        "two": "$n מבוגרים",
-        "many": "$n מבוגרים",
-        "other": "$n מבוגרים"
+        "one": "${n} מבוגר",
+        "two": "${n} מבוגרים",
+        "many": "${n} מבוגרים",
+        "other": "${n} מבוגרים"
     },
     "adultsWord": "מבוגרים",
     "afternoon": "אחר הצהריים",
     "age": {
         "one": "שנה",
         "two": "שנתיים",
-        "many": "$n שנים",
-        "other": "$n שנים"
+        "many": "${n} שנים",
+        "other": "${n} שנים"
     },
     "allow": "אפשר\/י",
     "anything": "הכול",
@@ -37,7 +37,7 @@
     "away": "רחוק",
     "best": "הכי טוב",
     "blog": {
-        "askLaylaAbout": "שאל\/י את ליילה על $name",
+        "askLaylaAbout": "שאל\/י את ליילה על ${name}",
         "blog": "בלוג",
         "blogs": "בלוגים",
         "noBlogs": "לא נמצאו בלוגים",
@@ -47,14 +47,14 @@
     "bucketlist": {
         "add_to_bucketlist": "הוסף\/הוסיפי לרשימת המשאלות",
         "as_you_search": "בזמן שאת\/ה מחפש\/ת, הקש\/הקישי על האייקון בצורת לב לשמור מקומות וחוויות מועדפים לרשימת המשאלות שלך.",
-        "bucketlist": "רשימת המשאלות: $name",
-        "bucketlist_copied": "Bucketlist $name copied successfully",
+        "bucketlist": "רשימת המשאלות: ${name}",
+        "bucketlist_copied": "Bucketlist ${name} copied successfully",
         "bucketlist_created": "רשימת המשאלות נוצרה בהצלחה",
         "bucketlist_saved": "רשימת המשאלות נשמרה בהצלחה",
-        "bucketlist_will_be_removed": "$name יוסר\/תוסר מרשימת המשאלות שלך.",
-        "collaborating_and_one_more": "$name ועוד חבר אחד חברו אליך.",
-        "collaborating_two": "$first ו-$second חברו אליך.",
-        "collaborating_two_and_more": "$first ו-$count נוספים חברו אליך..",
+        "bucketlist_will_be_removed": "${name} יוסר\/תוסר מרשימת המשאלות שלך.",
+        "collaborating_and_one_more": "${name} ועוד חבר אחד חברו אליך.",
+        "collaborating_two": "${first} ו-${second} חברו אליך.",
+        "collaborating_two_and_more": "${first} ו-${count} נוספים חברו אליך..",
         "copy": "Copy",
         "create_bucketlist": "צור\/צרי רשימת המשאלות",
         "create_new_bucketlist": "צור\/צרי רשימת המשאלות חדשה",
@@ -62,27 +62,27 @@
         "delete_bucketlist": "רוצה למחוק את רשימת המשאלות?",
         "delete_bucketlist_message": "האם את\/ה בטוח\/ה שברצונך למחוק את רשימת המשאלות הזו?",
         "delete_user_from_bucketlist": "מחק\/י משתמש\/ת מרשימת המשאלות?",
-        "delete_user_from_bucketlist_message": "האם את\/ה בטוח\/ה שברצונך למחוק את $username מרשימת המשאלות הזו?",
+        "delete_user_from_bucketlist_message": "האם את\/ה בטוח\/ה שברצונך למחוק את ${username} מרשימת המשאלות הזו?",
         "destinations": {
-            "one": "יעד $n",
-            "two": "$n יעדים",
-            "many": "$n יעדים",
-            "other": "$n יעדים"
+            "one": "יעד ${n}",
+            "two": "${n} יעדים",
+            "many": "${n} יעדים",
+            "other": "${n} יעדים"
         },
         "flying_from": "טס מ",
         "leave_bucketlist": "לצאת מרשימת המשאלות?",
         "login_to_view": "הכנס\/י כדי לראות את רשימת המשאלות שלך",
         "login_widget": {
             "and": "ו",
-            "and_n_others": "ו$count אחרים",
+            "and_n_others": "ו${count} אחרים",
             "and_one_other": "ועוד אחד",
             "continue_with": "המשך\/המשיכי עם",
             "download": {
                 "button": "הורד את Layla בחינם",
-                "subtitle": "$s הזמינו אותך לראות את רשימת הדלי שלהם. שמור אותו כדי ליצור את הטיול הבא שלך על ידי הורדת אפליקציית Layla.",
+                "subtitle": "${s} הזמינו אותך לראות את רשימת הדלי שלהם. שמור אותו כדי ליצור את הטיול הבא שלך על ידי הורדת אפליקציית Layla.",
                 "title": "שמור את רשימת הדלי הזו!"
             },
-            "invited_you": "הוזמנת על ידי $username לרשימת המטיילים שלו\/ה",
+            "invited_you": "הוזמנת על ידי ${username} לרשימת המטיילים שלו\/ה",
             "login_to_collaborate": "התחבר\/י כדי לשתף פעולה",
             "login_to_view": "Log in to view",
             "one_person": "אדם אחד",
@@ -92,15 +92,15 @@
         },
         "my_bucketlist": "רשימת המשאלות שלי",
         "name": "שם",
-        "name_is_collaborating": "$name חבר\/ה אליך.",
+        "name_is_collaborating": "${name} חבר\/ה אליך.",
         "no_collaborators": "No collaborators yet.",
         "no_name": "ללא שם",
         "one_person": "אדם אחד",
         "people_collaborating_with_you": {
             "one": "",
             "two": "שני אנשים חברו אליך.",
-            "many": "$n אנשים חברו אליך.",
-            "other": "$n אנשים חברו אליך."
+            "many": "${n} אנשים חברו אליך.",
+            "other": "${n} אנשים חברו אליך."
         },
         "save_destinations": "שמור יעדים",
         "share": "Invite",
@@ -114,11 +114,11 @@
             "view_message": "Users will be able to view bucketlist"
         },
         "travel_dates": "תאריכי החופשה",
-        "you_and_viewer_are_viewing": "You and 1 other are viewing the bucketlist by $creator",
-        "you_and_viewers_are_viewing": "You and $count others are viewing the bucketlist by $creator",
-        "you_are_viewing": "You are viewing the bucketlist by $creator",
-        "you_are_viewing_bucketlist": "You are viewing a bucketlist by $creator",
-        "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by $creator and $collaborator",
+        "you_and_viewer_are_viewing": "You and 1 other are viewing the bucketlist by ${creator}",
+        "you_and_viewers_are_viewing": "You and ${count} others are viewing the bucketlist by ${creator}",
+        "you_are_viewing": "You are viewing the bucketlist by ${creator}",
+        "you_are_viewing_bucketlist": "You are viewing a bucketlist by ${creator}",
+        "you_are_viewing_bucketlist_collaborator": "You are viewing a bucketlist by ${creator} and ${collaborator}",
         "you_can_create": "את\/ה יכול\/ה ליצור, להציג או לערוך רשימת משאלות לאחר שנכנסת למערכת."
     },
     "bucketlistWord": "רשימת משאלות",
@@ -127,9 +127,9 @@
     "change": "שינוי",
     "charactersWord": {
         "one": "תו אחד",
-        "two": "$n תווים",
-        "many": "$n תווים",
-        "other": "$n תווים"
+        "two": "${n} תווים",
+        "many": "${n} תווים",
+        "other": "${n} תווים"
     },
     "chatbot": {
         "chat": {
@@ -145,11 +145,11 @@
                 "msg3": "תכין\/תכיני לי תוכנית לטיול",
                 "msg4": "מצא\/י לי אפשרויות למגורים?"
             },
-            "isTyping": "$name כותב\/ת...",
+            "isTyping": "${name} כותב\/ת...",
             "messageHint": "שאל\/י אותי כל דבר",
             "messages": {
                 "flight": {
-                    "fromToAroundPrice": "טיסות החל מ $from ועד $to בערך $price"
+                    "fromToAroundPrice": "טיסות החל מ ${from} ועד ${to} בערך ${price}"
                 },
                 "hotelOptions": {
                     "title": "איזה מלון מצא חן בעיניך?"
@@ -163,14 +163,14 @@
                     "requestTitle": "מהי נקודת המוצא שלך?"
                 },
                 "tileOptions": {
-                    "minOptions": "בחר\/י $min כרטיסים או יותר"
+                    "minOptions": "בחר\/י ${min} כרטיסים או יותר"
                 }
             },
             "title": "Layla"
         },
         "chat_settings": {
             "delete_chat": "למחוק את הצ'אט?",
-            "delete_chat_message": "$name יימחק לצמיתות.",
+            "delete_chat_message": "${name} יימחק לצמיתות.",
             "history": "היסטוריה",
             "info_and_support": "מידע ותמיכה",
             "new_chat": "צ'אט חדש",
@@ -178,14 +178,14 @@
         },
         "onboarding": {
             "aesthetics": {
-                "continueButton": "בחר\/י עוד $count כרטיסים כדי להמשיך",
+                "continueButton": "בחר\/י עוד ${count} כרטיסים כדי להמשיך",
                 "message": "עזור\/עזרי לנו להבין איזו אווירה את\/ה מחפש\/ת",
                 "title": "לחץ\/לחצי כדי לבחור 3 כרטיסים או יותר",
                 "titleAlt": "מה מתאים לך?\nגע\/י בכרטיסים שעושים לך את זה"
             },
             "chatbot": {
                 "inputHint": "שאל\/י אותי כל דבר",
-                "msg1": "היי $user 👋\n\nאני Layla, יועצת הנסיעות שלך.\n\n לפני שנתחיל, אשמח לדעת איזה סוג של מטייל\/ת את\/ה.\n\n ספר\/י לי בטקסט או בדיבור איזה סוג של טיול את\/ה מחפש\/ת.",
+                "msg1": "היי ${user} 👋\n\nאני Layla, יועצת הנסיעות שלך.\n\n לפני שנתחיל, אשמח לדעת איזה סוג של מטייל\/ת את\/ה.\n\n ספר\/י לי בטקסט או בדיבור איזה סוג של טיול את\/ה מחפש\/ת.",
                 "msg2": "מעולה! אני חושבת שאני מבינה מה את\/ה מחפש\/ת. \n\nהאם תרצה\/י לשתף במידע נוסף?",
                 "msg3": "מה מעניין אותך?",
                 "msg4": "מהי נקודת המוצא של הטיול?",
@@ -232,10 +232,10 @@
     "checkIn": "צ'ק אין",
     "child": "ילד",
     "children": {
-        "one": "$n ילד",
-        "two": "$n ילדים",
-        "many": "$n ילדים",
-        "other": "$n ילדים"
+        "one": "${n} ילד",
+        "two": "${n} ילדים",
+        "many": "${n} ילדים",
+        "other": "${n} ילדים"
     },
     "childrenWord": "ילדים",
     "classWord": "מחלקה",
@@ -250,12 +250,12 @@
     "creator": "יוצר",
     "currency": "מטבע",
     "dates": "תאריכים",
-    "dayN": "יום מס' $n",
+    "dayN": "יום מס' ${n}",
     "days": {
-        "one": "$n יום",
-        "two": "$n ימים",
-        "many": "$n ימים",
-        "other": "$n ימים"
+        "one": "${n} יום",
+        "two": "${n} ימים",
+        "many": "${n} ימים",
+        "other": "${n} ימים"
     },
     "daysWord": "ימים",
     "deals": "דילים",
@@ -281,16 +281,16 @@
     "explore_feat": {
         "add_dates": "להוספת תאריכים",
         "add_destination": "להוספת יעד",
-        "around_destination": "באזור $destination",
+        "around_destination": "באזור ${destination}",
         "ask_anything": "שאל\/י כל דבר...",
         "book_flights": "להזמנת טיסות",
         "change_departure": "לשינוי מקום ההמראה",
         "check_out_this_place": "אני יודע\/ת לאן אנחנו נוסעים ביחד בטיול הבא. בדוק\/בדקי את המקום שמצאתי ב-Layla",
-        "closest_airport": "שדה התעופה הקרוב ביותר ל-$destination",
-        "distance_from_origin": "${distance} ק''מ מ-$origin",
+        "closest_airport": "שדה התעופה הקרוב ביותר ל-${destination}",
+        "distance_from_origin": "${distance} ק''מ מ-${origin}",
         "how_to_get_there": "איך להגיע לשם",
-        "how_to_get_to": "איך להגיע ל-$destination",
-        "land_in": "נחיתה ב-$destination",
+        "how_to_get_to": "איך להגיע ל-${destination}",
+        "land_in": "נחיתה ב-${destination}",
         "no_flights_found": "לא נמצאו טיסות",
         "no_videos": "מצטערים, אין לנו סרטונים\nליעד זה",
         "select_a_flight": "לבחירת טיסה",
@@ -303,21 +303,21 @@
     "feed": {
         "add_interests": "הוסף\/הוסיפי תחומי עניין",
         "approx_for_your_dates": "Approx. for your dates",
-        "average_duration": "משך ממוצע $hours שעות'",
-        "average_price": "מחיר ממוצע $price",
+        "average_duration": "משך ממוצע ${hours} שעות'",
+        "average_price": "מחיר ממוצע ${price}",
         "awkward_nothing_returned": "לא נעים, החיפוש לא הניב תוצאות. אנא שנה\/שני את ההעדפות שלך וננסה שוב.",
         "cant_show_results": "משום מה לא הצלחנו להראות לך את התוצאות.",
         "consider_broadening": "אופס! לא מצאנו התאמות בהתאם להעדפות הנוכחיות שלך. שקול\/שקלי להרחיב את החיפוש שלך על ידי שינוי ההעדפות שלך למגוון רחב יותר של אפשרויות.",
-        "count_destinations_for_you": "$count יעדים יפהפיים בשבילך",
+        "count_destinations_for_you": "${count} יעדים יפהפיים בשבילך",
         "direct_flights": "טיסות ישירות",
         "filters": {
             "categories": "Categories",
             "flight_connection": "Flight Connection",
             "flight_connection_direct": "Direct only",
             "flight_duration": "Flight Duration",
-            "flight_duration_value": "Flight max $value",
+            "flight_duration_value": "Flight max ${value}",
             "flight_price": "Flight Price",
-            "flight_price_value": "Flight max $value"
+            "flight_price_value": "Flight max ${value}"
         },
         "flight_price_range": "טווח מחירי טיסות",
         "flight_time": "משך זמן הטיסה",
@@ -329,9 +329,9 @@
         },
         "give_us_feedback": "תן\/תני לנו משוב",
         "how_do_you_like_the_app": "מה דעתך על האפליקציה?",
-        "km_from": "${distance}km from $city",
+        "km_from": "${distance}km from ${city}",
         "no_results_found": "לא נמצאות תוצאות!",
-        "one_way_with_bullet": " $code לכיוון אחד",
+        "one_way_with_bullet": " ${code} לכיוון אחד",
         "or_less": "או פחות",
         "price_types": [
             "יעד ידידותי לתקציב",
@@ -339,8 +339,8 @@
             "יעד יקר",
             "יעד עמוק בכיס"
         ],
-        "return_with_bullet": " $code חזרה",
-        "round_hrs": "$val שעות'",
+        "return_with_bullet": " ${code} חזרה",
+        "round_hrs": "${val} שעות'",
         "scroll_down_to_see_more": "גלול\/גללי למטה כדי לראות עוד מידע",
         "show_only_direct_flights": "הציגי רק טיסות ישירות",
         "something_went_wrong": "משהו השתבש",
@@ -374,7 +374,7 @@
         "estimated_price": "מחיר מוערך",
         "first_class": "מחלקה ראשונה",
         "flight_details": "פרטי הטיסה",
-        "flights_to": "טיסות ל-$to",
+        "flights_to": "טיסות ל-${to}",
         "go_to_site": "עבור לאתר",
         "how_many_people": "כמה אנשים?",
         "livePrices": "Live Price",
@@ -383,19 +383,19 @@
         "no_flights_found": "לא נמצאו טיסות",
         "one_way": "כיוון אחד",
         "passengers": {
-            "one": "$n נוסע",
-            "two": "$n נוסעים",
-            "many": "$n נוסעים",
-            "other": "$n נוסעים"
+            "one": "${n} נוסע",
+            "two": "${n} נוסעים",
+            "many": "${n} נוסעים",
+            "other": "${n} נוסעים"
         },
         "popular_destinations": "יעדים פופולריים",
         "premium_economy_class": "מחלקת תיירים פרמיום",
         "prices_include": "המחירים מעריכים בתוכם את כל המיסים ותשלומי החובה. אנא בדוק\/בדקי את כל פרטי הכרטיס, המחירים הסופיים והתנאים וההגבלות באתר של הספק לפני אישור ההזמנה.",
         "provider_found": {
-            "one": "נמצא $n ספק",
-            "two": "נמצאו $n ספקים",
-            "many": "נמצאו $n ספקים",
-            "other": "נמצאו $n ספקים"
+            "one": "נמצא ${n} ספק",
+            "two": "נמצאו ${n} ספקים",
+            "many": "נמצאו ${n} ספקים",
+            "other": "נמצאו ${n} ספקים"
         },
         "read_before_booking": "קרא\/י לפני שתזמין\/תזמיני",
         "restrictions_may_apply": "עבור נוסעים צעירים שמטיילים לבד יתכן שיתקיימו הגבלות.",
@@ -405,29 +405,29 @@
         "selected_departure_destination": "יעד היציאה הנבחר",
         "some_airlines_and_travel_agencies": "חלק מחברות התעופה וסוכנויות הנסיעות גובות תוספת עבור מזוודות, ביטוח או שימוש בכרטיס אשראי. הם יכולים גם לגבות דמי שירות.",
         "total_for": {
-            "one": "סה\"כ עבור $n נוסע",
-            "two": "סה\"כ עבור $n מטיילים",
-            "many": "סה\"כ עבור $n מטיילים",
-            "other": "סה\"כ עבור $n נוסעים"
+            "one": "סה\"כ עבור ${n} נוסע",
+            "two": "סה\"כ עבור ${n} מטיילים",
+            "many": "סה\"כ עבור ${n} מטיילים",
+            "other": "סה\"כ עבור ${n} נוסעים"
         },
         "travelers_info_updated_successfully": "פרטי הנוסעים עודכנו בהצלחה",
         "travellers": {
-            "one": "$n נוסע",
-            "two": "$n מטיילים",
-            "many": "$n מטיילים",
-            "other": "$n נוסעים"
+            "one": "${n} נוסע",
+            "two": "${n} מטיילים",
+            "many": "${n} מטיילים",
+            "other": "${n} נוסעים"
         },
         "we_collected_cheapest_providers": "אספנו בשבילך את הספקים הזולים ביותר. בחר את האתר שממנו תרצה\/תרצי לקנות את הכרטיס!",
         "where_from": "מאיפה?",
         "where_to": "לאן?"
     },
     "from": "מ",
-    "from_var": "מ $name",
+    "from_var": "מ ${name}",
     "guest": {
-        "one": "$n אורח\/ת",
-        "two": "$n אורחים\/ות",
-        "many": "$n אורחים\/ות",
-        "other": "$n אורחים\/ות"
+        "one": "${n} אורח\/ת",
+        "two": "${n} אורחים\/ות",
+        "many": "${n} אורחים\/ות",
+        "other": "${n} אורחים\/ות"
     },
     "help": "עזרה",
     "hotel": {
@@ -442,10 +442,10 @@
         "check_availability": "בדיקת זמינות",
         "check_in_time": "זמני צ'ק-אין וצ'ק-אאוט",
         "detailed_reviews": {
-            "one": "חוות דעת מפורטת $n",
-            "two": "חוות דעת מפורטות $n",
-            "many": "חוות דעת מפורטות $n",
-            "other": "חוות דעת מפורטות $n"
+            "one": "חוות דעת מפורטת ${n}",
+            "two": "חוות דעת מפורטות ${n}",
+            "many": "חוות דעת מפורטות ${n}",
+            "other": "חוות דעת מפורטות ${n}"
         },
         "edit_your_search": "לעריכת החיפוש שלך",
         "enter_destination": "הזן\/הזיני יעד",
@@ -461,7 +461,7 @@
             "show_all": "הראי הכל",
             "stay_options": "אפשרויות לינה",
             "things_to_do": "דברים לעשות",
-            "travel_km_further": "רחוק עוד $distance km ",
+            "travel_km_further": "רחוק עוד ${distance} km ",
             "youre_in_luck": "יש לך מזל!"
         },
         "filter_and_sort": "מיון וסינון",
@@ -496,7 +496,7 @@
         "no_photos": "מצטערים, אין לנו תמונות\nלמלון זה",
         "no_refund": "אין החזר כספי",
         "no_videos": "מצטערים, אין לנו סרטונים\nלמלון זה",
-        "partial_refund": "החזר כספי חלקי: החזר $name % מכל לילה. אין החזר של דמי השירות",
+        "partial_refund": "החזר כספי חלקי: החזר ${name} % מכל לילה. אין החזר של דמי השירות",
         "pets_allowed": "חיות מחמד מותרות, עשויה להיות עלות נוספת",
         "property_facilities": "מתקני הנכס",
         "property_location": "מיקום הנכס",
@@ -548,12 +548,12 @@
         },
         "rooms_and_guests": "חדרים ואורחים",
         "search_destinations": "חפש\/י יעדים",
-        "see_all": "הראי את כל ה $count",
+        "see_all": "הראי את כל ה ${count}",
         "select_a_room": "בחר\/י חדר",
         "select_age": "בחר\/י גיל",
         "select_dates": "בחירת תאריכים",
         "select_rooms_and_guests": "בחר\/י חדרים ואורחים",
-        "share_text": "איך את\/ה עם המלון הזה $name",
+        "share_text": "איך את\/ה עם המלון הזה ${name}",
         "sort_filters": {
             "best_rated": "בעל הדרוג הטוב ביותר",
             "best_reviewed": "המומלץ ביותר",
@@ -567,8 +567,8 @@
         },
         "stays_close_by": "לינות ליד",
         "sustainability_steps": "צעדים לקיימות",
-        "sustainable_level": "רמת קיימות $level",
-        "travel_sustainable_level": "רמת תיירות ברת-קיימא $level",
+        "sustainable_level": "רמת קיימות ${level}",
+        "travel_sustainable_level": "רמת תיירות ברת-קיימא ${level}",
         "what_people_loved": "מה אנשים אוהבים לגבי המקום הזה",
         "what_people_said": "מה אומרים האנשים",
         "what_this_place_offers": "מה יש למקום הזה להציע",
@@ -598,14 +598,14 @@
             },
             "modify": {
                 "button": "הפיקי",
-                "hint": "מה תרצה\/י לעשות ביום $index ?",
+                "hint": "מה תרצה\/י לעשות ביום ${index} ?",
                 "title": "שנה\/י עם AI"
             }
         }
     },
     "know_more": {
         "answer_generated": "התשובה מוכנה!",
-        "ask_city_country": "שאל\/י\nכל מה שאת\/ה רוצה לדעת על $city, $country",
+        "ask_city_country": "שאל\/י\nכל מה שאת\/ה רוצה לדעת על ${city}, ${country}",
         "ask_something_more": "מה עוד אני יכולה לספר לך?",
         "generating_answer": "שניה, אני עובדת על זה...",
         "is_it_safe_for": "האם זה מקום בטוח למטיילים?",
@@ -633,15 +633,15 @@
     "nightWord": "לילה",
     "nights": {
         "one": "לילה אחד",
-        "two": "$n לילות",
-        "many": "$n לילות",
-        "other": "$n לילות"
+        "two": "${n} לילות",
+        "many": "${n} לילות",
+        "other": "${n} לילות"
     },
     "nightsWithNum": {
         "one": "לילה אחד",
-        "two": "$n לילות",
-        "many": "$n לילות",
-        "other": "$n לילות"
+        "two": "${n} לילות",
+        "many": "${n} לילות",
+        "other": "${n} לילות"
     },
     "onboarding": {
         "allow_location_access": "אפשר\/י גישה למיקום שלך",
@@ -662,10 +662,10 @@
     "one_way": "כיוון אחד",
     "opps": "אופס!",
     "person": {
-        "one": "$n אדם",
-        "two": "$n אנשים",
-        "many": "$n אנשים",
-        "other": "$n אנשים"
+        "one": "${n} אדם",
+        "two": "${n} אנשים",
+        "many": "${n} אנשים",
+        "other": "${n} אנשים"
     },
     "pets": "חיות מחמד",
     "photos": "תמונות",
@@ -700,12 +700,12 @@
         "last_name": "שם משפחה",
         "log_in_to_start_planning": "התחבר\/י כדי לתכנן את הנסיעה הבאה שלך",
         "logout": "להתנתקות",
-        "member_since": "חבר מאז $date",
+        "member_since": "חבר מאז ${date}",
         "new_chat_login": "כדי לפתוח שיחה חדשה, התחבר\/י בבקשה",
         "privacy_and_sharing": "פרטיות ושיתוף",
         "privacy_policy": "מדיניות פרטיות",
         "set_profile_image": "הכנסת תמונת פרופיל",
-        "share_message": "היי! בוא\/י תצטרפ\/י אלי לאפליקציה הזו, שמאפשרת לחבור ביחד, לקבל השראה ולתכנן טיולים במקומות היפים ביותר בעולם: $link",
+        "share_message": "היי! בוא\/י תצטרפ\/י אלי לאפליקציה הזו, שמאפשרת לחבור ביחד, לקבל השראה ולתכנן טיולים במקומות היפים ביותר בעולם: ${link}",
         "spread_the_word": "ספר\/י עלינו לאחרים",
         "take_photo": "צילום תמונה",
         "terms_of_service": "תנאי השימוש"
@@ -717,22 +717,22 @@
     "reset": "לאיפוס",
     "returnWord": "חזרה לאחור",
     "review": {
-        "one": "$n ביקורת",
-        "two": "$n ביקורות",
-        "many": "$n ביקורות",
-        "other": "$n ביקורות"
+        "one": "${n} ביקורת",
+        "two": "${n} ביקורות",
+        "many": "${n} ביקורות",
+        "other": "${n} ביקורות"
     },
     "room": {
-        "one": "$n חדר",
-        "two": "$n חדרים",
-        "many": "$n חדרים",
-        "other": "$n חדרים"
+        "one": "${n} חדר",
+        "two": "${n} חדרים",
+        "many": "${n} חדרים",
+        "other": "${n} חדרים"
     },
     "rooms": {
-        "one": "$n חדר",
-        "two": "$n חדרים",
-        "many": "$n חדרים",
-        "other": "$n חדרים"
+        "one": "${n} חדר",
+        "two": "${n} חדרים",
+        "many": "${n} חדרים",
+        "other": "${n} חדרים"
     },
     "roomsWord": "חדרים",
     "save": "שמירה",
@@ -763,22 +763,22 @@
     "star_new_chat": "לפתיחת צ'אט חדש",
     "stars": {
         "one": "כוכב אחד",
-        "two": "$n כוכבים",
-        "many": "$n כוכבים",
-        "other": "$n כוכבים"
+        "two": "${n} כוכבים",
+        "many": "${n} כוכבים",
+        "other": "${n} כוכבים"
     },
     "start": "התחילי",
     "stop": {
         "one": "תחנה",
-        "two": "$n תחנות",
-        "many": "$n תחנות",
-        "other": "$n תחנות"
+        "two": "${n} תחנות",
+        "many": "${n} תחנות",
+        "other": "${n} תחנות"
     },
     "stop_plus": {
         "one": "תחנה",
-        "two": "+$n תחנות",
-        "many": "+$n תחנות",
-        "other": "+$n תחנות"
+        "two": "+${n} תחנות",
+        "many": "+${n} תחנות",
+        "other": "+${n} תחנות"
     },
     "stops": "עצירות",
     "support": "תמיכה",
@@ -789,39 +789,39 @@
         "days": {
             "one": " לפני יום",
             "two": " לפני יומיים",
-            "many": " לפני $n ימים",
-            "other": " לפני $n ימים"
+            "many": " לפני ${n} ימים",
+            "other": " לפני ${n} ימים"
         },
         "hours": {
             "one": " לפני שעה",
-            "two": " לפני $n שעות",
-            "many": " לפני $n שעות",
-            "other": " לפני $n שעות"
+            "two": " לפני ${n} שעות",
+            "many": " לפני ${n} שעות",
+            "other": " לפני ${n} שעות"
         },
         "just_now": "ממש עכשיו",
         "minutes": {
             "one": " לפני דקה",
-            "two": " לפני $n דקות",
-            "many": " לפני $n דקות",
-            "other": " לפני $n דקות"
+            "two": " לפני ${n} דקות",
+            "many": " לפני ${n} דקות",
+            "other": " לפני ${n} דקות"
         },
         "months": {
             "one": " לפני חודש",
             "two": " לפני חודשיים",
-            "many": " לפני $n חודשים",
-            "other": " לפני $n חודשים"
+            "many": " לפני ${n} חודשים",
+            "other": " לפני ${n} חודשים"
         },
         "seconds": {
             "one": " לפני שניה",
-            "two": " לפני $n שניות",
-            "many": " לפני $n שניות",
-            "other": " לפני $n שניות"
+            "two": " לפני ${n} שניות",
+            "many": " לפני ${n} שניות",
+            "other": " לפני ${n} שניות"
         },
         "years": {
             "one": " לפני שנה",
             "two": " לפני שנתיים",
-            "many": " לפני $n שנים",
-            "other": " לפני $n שנים"
+            "many": " לפני ${n} שנים",
+            "other": " לפני ${n} שנים"
         }
     },
     "times": "זמנים",
@@ -833,7 +833,7 @@
         "tap_to_bucketlist": "לחץ\/לחצי לרשימת המשאלות",
         "tap_to_chat": "לחץ\/לחצי להתחיל צ'אט",
         "tap_to_filter": "לחץ\/לחצי לסינון",
-        "tap_to_help_country": "צריך עזרה בתכנון הטיול ל-$country?",
+        "tap_to_help_country": "צריך עזרה בתכנון הטיול ל-${country}?",
         "tap_to_open_menu": "Tap to open the menu panel",
         "tap_to_start_new_chat": "Tap to start a new chat"
     },
@@ -843,7 +843,7 @@
         "add_details": "הוסף\/הוסיפי פרטים",
         "exact_dates": "תאריכים מדויקים",
         "flexible_dates": "תאריכים גמישים",
-        "go_var": "לך\/לכי ל $val",
+        "go_var": "לך\/לכי ל ${val}",
         "select_origin": "בחר\/י נקודת מוצא",
         "what_do_you_want_in_your_trip": "מה את\/ה רוצה בנסיעה שלך?",
         "when_is_your_trip": "מתי הנסיעה שלך?",
@@ -852,15 +852,15 @@
     "travelers": "מטיילים",
     "traveller": {
         "one": "מטייל\/ת",
-        "two": "$n מטיילים",
-        "many": "$n מטיילים",
-        "other": "$n מטיילים"
+        "two": "${n} מטיילים",
+        "many": "${n} מטיילים",
+        "other": "${n} מטיילים"
     },
     "unknown_error": "שגיאה לא ידועה",
     "unknown_name": "שם לא ידוע",
     "update": "לעדכון",
     "user_cancelled": "המשתמש\/ת ביטל\/ה",
-    "varTotal": "סה\"כ $n",
+    "varTotal": "סה\"כ ${n}",
     "videoSubCategory": [
         "פעילויות",
         "יאכטות ושייט",
