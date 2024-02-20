@@ -1,31 +1,177 @@
 {
+    "about": "Over",
+    "about_screen": {
+        "block_1": "Hoi allemaal, hier is Layla en ik ben ZO enthousiast om jullie alles te vertellen over waar jullie laatste reisobsessie moet zijn - ik! Je weet hoe we allemaal van die spontane trips houden en ons avontuurlijke leven ten volle willen leven, toch? Nou, ik ben eigenlijk jouw onmisbare reis-AI die je helpt om nieuwe plaatsen te vinden en je reisdromen werkelijkheid te maken. Laat me het je uitleggen...",
+        "block_2": "Allereerst zeggen mensen vaak: “Layla is als de goede fee van reisinspiratie”. Vergeet urenlang doelloos scrollen op Instagram of Pinterest - als AI-reisplanner stel ik gepersonaliseerde reisvoorstellen samen op basis van JOUW interesses. En geloof me, ik heb een zesde zintuig om de coolste vakantieplekken te ontdekken waarvan je niet eens wist dat ze bestonden. Met mij praten is als het hebben van je eigen reisgoeroe, zonder het prijskaartje.",
+        "block_3": "Nu weet ik wat je denkt - \"Heb ik echt nog een reis-app nodig die mijn telefoon volstopt?\" Luister nou even, schat. Layla is niet zomaar een app; het is een game-changer. Stel je dit voor: je vertelt me jouw vibe, of het nu gaat om strandgeluk, stadslampen of bergpieken, en VOILÀ - ik vind een overvloed aan bestemmingen op maat voor jou, compleet met video's zodat je gemakkelijk de sfeer van elke plek kunt proeven.",
+        "block_4": "Het beste gedeelte? Als je met me praat, neemt Layla het gedoe weg met het plannen van reizen. U hoeft niet meer te jongleren met een miljoen tabbladen om de beste vluchten, hotels en activiteiten te vinden. Ik heb het voor je gedekt. Het web afstruinen naar de populairste bestemmingen, die budgetvriendelijke vluchten bemachtigen en je in contact brengen met Insta-waardige verblijven. Het enige wat je hoeft te doen is je koffers te pakken en er schattig uit te zien.",
+        "block_5": "Laten we het nu over boeken hebben. Ik ben hier om je reisboekingsproces te stroomlijnen, van het vinden van je droombestemming tot het bemachtigen van de beste deals. AI's zijn hier om alles zo gemakkelijk te maken dat zelfs een koningin met technische problemen het kan. Bovendien kun je erop vertrouwen dat Layla achter je staat - geen louche boekingssites of schetsmatige accommodaties in zicht - ik ben een samenwerking aangegaan met Skyscanner en Booking.com.",
+        "block_6": "Maar wacht, er is meer. AI's helpen je niet alleen bij het plannen, als je eenmaal op reis bent, ben ik je ultieme wingwoman als het gaat om het verkennen van een nieuwe stad. Gewapend met de deets over must-see attracties, verborgen juweeltjes en de meest trendy lokale gewrichten. Ik leid je naar alle plekken waar de locals daadwerkelijk rondhangen.",
+        "block_7": "Dus, als je moe bent van hetzelfde, hetzelfde oud en klaar bent om je reisspel op te fleuren, zeg dan hallo tegen me, Layla. Ik ben niet alleen een AI; Ik ben een game-changer voor de manier waarop je reizen plant, maar ook voor een curator van reisvibes en je paspoort voor de wereld. Maak je klaar om vol vertrouwen te jetsetten, mijn geliefden, want Layla heeft je reisdromen op slot.\n\nHet avontuur wacht ✈️💖 op je",
+        "button": "Chat met Layla",
+        "subtitle": "Ontdek de wereld met Layla; de AI-reisplanner en jouw ultieme reisgezel.",
+        "title": "Over mij, Layla."
+    },
+    "adults": {
+        "one": "$n volwassene",
+        "other": "$n volwassenen"
+    },
+    "adultsWord": "Volwassenen",
+    "afternoon": "Middag",
+    "age": {
+        "one": "$n jaar oud",
+        "other": "$n jaar oud"
+    },
+    "allow": "Toestaan",
+    "anything": "Alles",
+    "anytime": "Altijd",
+    "anywhere": "Overal",
+    "app": "App",
+    "apply": "Toepassen",
+    "around": "Rond",
+    "arrival": "Aankomst",
+    "away": "Weg",
+    "best": "Best",
     "blog": {
-        "postNotFound": "Controleer de URL, we hebben geen dergelijke blogpost.",
         "askLaylaAbout": "Vraag Layla over ${name}",
-        "travellerQuestion": "Ik wil meer weten over ${name} als reiziger.",
         "blog": "Blog",
         "blogs": "Blogs",
-        "noBlogs": "Geen blogs gevonden"
+        "noBlogs": "Geen blogs gevonden",
+        "postNotFound": "Controleer de URL, we hebben geen dergelijke blogpost.",
+        "travellerQuestion": "Ik wil meer weten over ${name} als reiziger."
+    },
+    "bucketlist": {
+        "add_to_bucketlist": "Voeg toe aan bucketlist",
+        "as_you_search": "Terwijl je door de app dwaalt, tik je eenvoudigweg met het hartje op wat je maar wilt om het aan je bucketlist toe te voegen en nodig je vrienden uit om er een planningsfeestje van te maken. Laten we wat bucketlists invullen, oké?",
+        "bucketlist": "Bucketlist: $name",
+        "bucketlist_copied": "Bucketlist $name succesvol gekopieerd",
+        "bucketlist_created": "Bucketlist succesvol gecreëerd",
+        "bucketlist_saved": "Bucketlist succesvol opgeslagen",
+        "bucketlist_will_be_removed": "$name zal uit je bucketlists worden verwijderd.",
+        "collaborating_and_one_more": "$name en nog één werken met je mee.",
+        "collaborating_two": "$first en $second werken met je samen.",
+        "collaborating_two_and_more": "$first en $count meer werken met je samen..",
+        "copy": "Kopiëren",
+        "create_bucketlist": "Bucketlist aanmaken",
+        "create_new_bucketlist": "Maak een nieuwe bucketlist",
+        "create_your_first_bucketlist": "Maak je eerste bucketlist",
+        "delete_bucketlist": "Bucketlist verwijderen?",
+        "delete_bucketlist_message": "Weet je zeker dat je deze bucketlist wilt verwijderen?",
+        "delete_user_from_bucketlist": "Gebruiker verwijderen uit bucketlist?",
+        "delete_user_from_bucketlist_message": "Weet je zeker dat je $username van deze bucketlist wilt verwijderen?",
+        "destinations": {
+            "one": "$n Bestemming",
+            "other": "$n Bestemmingen"
+        },
+        "flying_from": "Vertrekken vanuit",
+        "leave_bucketlist": "Deze bucketlist verlaten?",
+        "login_to_view": "Log in om je bucketlist te bekijken",
+        "login_widget": {
+            "and": "en",
+            "and_n_others": "en $count anderen",
+            "and_one_other": "en één andere",
+            "continue_with": "Doorgaan met",
+            "download": {
+                "button": "Download Layla for free",
+                "subtitle": "$s nodigden je uit om hun bucketlist te bekijken. Sla het op om je volgende reis te maken door de Layla-app te downloaden.",
+                "title": "Bewaar deze bucketlist!"
+            },
+            "invited_you": "$username nodigden je uit voor hun bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
+            "login_to_collaborate": "Log in om samen te werken",
+            "login_to_view": "Log in om te bekijken",
+            "one_person": "Eén persoon",
+            "people": "mensen",
+            "title": "Inloggen of registreren",
+            "title_bucketlist": "Log in om op te slaan"
+        },
+        "my_bucketlist": "Mijn Bucketlist",
+        "name": "Naam",
+        "name_is_collaborating": "$name werkt met je samen.",
+        "no_collaborators": "Nog geen samenwerkers.",
+        "no_name": "Geen Naam",
+        "one_person": "Eén persoon",
+        "people_collaborating_with_you": {
+            "one": "",
+            "other": "$n mensen werken met jou mee."
+        },
+        "save_destinations": "Sla bestemmingen op",
+        "share": "Uitnodigen",
+        "share_type_dialog": {
+            "edit": "Kan bewerken",
+            "edit_message": "Gebruikers kunnen de bucketlist bewerken",
+            "message": "Hoe wil je deze bucketlist delen?",
+            "title": "Uitnodigen voor Bucketlist",
+            "title_alt": "Uitnodigen om samen te werken",
+            "view": "Alleen bekijken",
+            "view_message": "Gebruikers kunnen de bucketlist bekijken"
+        },
+        "travel_dates": "Reisdata",
+        "you_and_viewer_are_viewing": "Jij en nog 1 persoon bekijken de bucketlist van $creator",
+        "you_and_viewers_are_viewing": "Jij en $count anderen bekijken de bucketlist van $creator",
+        "you_are_viewing": "Je bekijkt de bucketlist van $creator",
+        "you_are_viewing_bucketlist": "Je bekijkt een bucketlist van $creator",
+        "you_are_viewing_bucketlist_collaborator": "Je bekijkt een bucketlist van $creator en $collaborator",
+        "you_can_create": "U kunt bucketlists maken, bekijken of bewerken zodra u bent ingelogd."
+    },
+    "bucketlistWord": "Verlanglijst",
+    "bucketlists": "Bucketlists",
+    "cancel": "Annuleren",
+    "change": "Veranderen",
+    "charactersWord": {
+        "one": "$n teken",
+        "other": "$n tekens"
     },
     "chatbot": {
+        "chat": {
+            "contextMenu": {
+                "bad_response": "Slecht antwoord",
+                "copy": "Kopiëren",
+                "good_response": "Goed antwoord",
+                "message_copied": "Bericht succesvol gekopieerd."
+            },
+            "initialQuickReplies": {
+                "msg1": "Inspireer me voor mijn volgende reis",
+                "msg2": "Vind goedkope vluchten voor me",
+                "msg3": "Stel een reisschema voor me samen",
+                "msg4": "Waar moet ik verblijven?"
+            },
+            "isTyping": "$name is aan het typen...",
+            "messageHint": "Vraag me iets",
+            "messages": {
+                "flight": {
+                    "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
+                },
+                "hotelOptions": {
+                    "title": "Welk hotel vind je leuk?"
+                },
+                "itinerary": {
+                    "day": "Dag"
+                },
+                "location": {
+                    "requestButton": "Sta je locatie toe",
+                    "requestSubtitle": "Voor de beste resultaten, sta locatie toegang toe",
+                    "requestTitle": "Waar vertrek je vandaan?"
+                },
+                "tileOptions": {
+                    "minOptions": "Kies $min of meer kaarten"
+                }
+            },
+            "title": "Layla"
+        },
+        "chat_settings": {
+            "delete_chat": "Chat Verwijderen?",
+            "delete_chat_message": "$name wordt permanent verwijderd.",
+            "history": "Geschiedenis",
+            "info_and_support": "Informatie en Ondersteuning",
+            "new_chat": "Nieuwe Chat",
+            "rename_chat": "Chat Hernoemen"
+        },
         "onboarding": {
-            "page_one": {
-                "title": "Toekomst Van Reizen",
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
-            },
-            "page_two": {
-                "title": "Prachtige Bestemmingen",
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
-            },
-            "page_three": {
-                "title": "Aangepast Aan Jou",
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt."
-            },
-            "instagram": {
-                "title": "Instagram Verbinden",
-                "button": "Verbind Je Instagram",
-                "message": "Verbind je Instagram-account voor een gepersonaliseerde, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
-                "error": "Verificatie met Instagram mislukt"
+            "aesthetics": {
+                "continueButton": "Selecteer nog $count om door te gaan",
+                "message": "Help ons jouw vibe begrijpen",
+                "title": "Tik om 3 of meer kaarten te kiezen",
+                "titleAlt": "Wat is jouw vibe?\nTik op de kaarten die je leuk vindt."
             },
             "chatbot": {
                 "inputHint": "Vraag me iets",
@@ -35,668 +181,50 @@
                 "msg4": "Waar vertrek je vandaan?",
                 "msg5": "Dank je! Ik heb tot nu toe alles wat ik nodig heb. Druk op volgende om mij je te helpen de mooiste bestemmingen ter wereld aan te bevelen, gepersonaliseerd voor jou!"
             },
-            "aesthetics": {
-                "message": "Help ons jouw vibe begrijpen",
-                "title": "Tik om 3 of meer kaarten te kiezen",
-                "continueButton": "Selecteer nog $count om door te gaan",
-                "titleAlt": "Wat is jouw vibe?\nTik op de kaarten die je leuk vindt."
+            "instagram": {
+                "button": "Verbind Je Instagram",
+                "error": "Verificatie met Instagram mislukt",
+                "message": "Verbind je Instagram-account voor een gepersonaliseerde, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
+                "title": "Instagram Verbinden"
+            },
+            "page_one": {
+                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
+                "title": "Toekomst Van Reizen"
+            },
+            "page_three": {
+                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
+                "title": "Aangepast Aan Jou"
+            },
+            "page_two": {
+                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
+                "title": "Prachtige Bestemmingen"
             },
             "video": {
                 "button": "Laten we gaan!",
                 "msg1": "Hoi daar, Layla hier. 👋🏼",
-                "msg2": "Stel je voor: je vindt gemakkelijk en boekt reizen met je reisvrienden allemaal op één plek.",
-                "msg3": "Daar ben ik voor! Cool, toch?",
-                "msg4": "Laten we dit feest beginnen...",
                 "msg1_web": "Hoi daar, ik ben Layla. 👋🏼",
+                "msg2": "Stel je voor: je vindt gemakkelijk en boekt reizen met je reisvrienden allemaal op één plek.",
                 "msg2_web": "Op zoek naar je volgende vakantiebestemming? Ik ben hier om te helpen.",
+                "msg3": "Daar ben ik voor! Cool, toch?",
                 "msg3_web": "Je vindt hier persoonlijke inspiratie, plant en boekt reizen door gewoon met me te chatten.",
+                "msg4": "Laten we dit feest beginnen...",
                 "msg4_web": "Cool, toch? Laten we het doen!"
             }
         },
         "things_ask": {
-            "title": "Dingen die je me kunt vragen!",
+            "ask_layla": "Vraag het aan Layla",
             "description": "Ik ben hier om je te helpen je volgende avontuur te plannen. Vraag me alles over de bestemming, ik heb het antwoord. Hier zijn een paar dingen die mensen me al hebben gevraagd...",
             "possible_prompts": "Veelgestelde vragen",
-            "ask_layla": "Vraag het aan Layla"
-        },
-        "chat_settings": {
-            "history": "Geschiedenis",
-            "new_chat": "Nieuwe Chat",
-            "rename_chat": "Chat Hernoemen",
-            "delete_chat": "Chat Verwijderen?",
-            "delete_chat_message": "$name wordt permanent verwijderd.",
-            "info_and_support": "Informatie en Ondersteuning"
-        },
-        "chat": {
-            "title": "Layla",
-            "isTyping": "$name is aan het typen...",
-            "messages": {
-                "location": {
-                    "requestTitle": "Waar vertrek je vandaan?",
-                    "requestSubtitle": "Voor de beste resultaten, sta locatie toegang toe",
-                    "requestButton": "Sta je locatie toe"
-                },
-                "flight": {
-                    "fromToAroundPrice": "Vluchten van $from naar $to rond $price"
-                },
-                "tileOptions": {
-                    "minOptions": "Kies $min of meer kaarten"
-                },
-                "hotelOptions": {
-                    "title": "Welk hotel vind je leuk?"
-                },
-                "itinerary": {
-                    "day": "Dag"
-                }
-            },
-            "messageHint": "Vraag me iets",
-            "contextMenu": {
-                "copy": "Kopiëren",
-                "good_response": "Goed antwoord",
-                "bad_response": "Slecht antwoord",
-                "message_copied": "Bericht succesvol gekopieerd."
-            },
-            "initialQuickReplies": {
-                "msg1": "Inspireer me voor mijn volgende reis",
-                "msg2": "Vind goedkope vluchten voor me",
-                "msg3": "Stel een reisschema voor me samen",
-                "msg4": "Waar moet ik verblijven?"
-            }
+            "title": "Dingen die je me kunt vragen!"
         }
     },
-    "itineraries": {
-        "itineraries": "Routes",
-        "dayPart": [
-            "Ochtend",
-            "Middag",
-            "Avond"
-        ],
-        "bookNow": "Boek nu",
-        "addDay": "Dag toevoegen",
-        "whatDoYouWant": "Wat wil je op een dag doen?"
-    },
-    "tooltips": {
-        "tap_to_filter": "Tik om te filteren",
-        "tap_to_bucketlist": "Tik voor bucketlist",
-        "tap_to_chat": "Tik om te chatten",
-        "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar $country?",
-        "tap_to_add_to_bucketlist": "Sla op en werk samen, tik om toe te voegen aan bucketlist.",
-        "tap_to_start_new_chat": "Tik om een nieuw gesprek te starten",
-        "tap_to_open_menu": "Tik om het menupaneel te openen",
-        "skipIntro": "Intro overslaan"
-    },
-    "bucketlist": {
-        "no_name": "Geen Naam",
-        "name": "Naam",
-        "bucketlist": "Bucketlist: $name",
-        "bucketlist_saved": "Bucketlist succesvol opgeslagen",
-        "bucketlist_created": "Bucketlist succesvol gecreëerd",
-        "bucketlist_copied": "Bucketlist $name succesvol gekopieerd",
-        "my_bucketlist": "Mijn Bucketlist",
-        "login_to_view": "Log in om je bucketlist te bekijken",
-        "leave_bucketlist": "Deze bucketlist verlaten?",
-        "one_person": "Eén persoon",
-        "name_is_collaborating": "$name werkt met je samen.",
-        "no_collaborators": "Nog geen samenwerkers.",
-        "you_are_viewing_bucketlist": "Je bekijkt een bucketlist van $creator",
-        "you_are_viewing_bucketlist_collaborator": "Je bekijkt een bucketlist van $creator en $collaborator",
-        "collaborating_and_one_more": "$name en nog één werken met je mee.",
-        "collaborating_two": "$first en $second werken met je samen.",
-        "collaborating_two_and_more": "$first en $count meer werken met je samen..",
-        "you_are_viewing": "Je bekijkt de bucketlist van $creator",
-        "you_and_viewer_are_viewing": "Jij en nog 1 persoon bekijken de bucketlist van $creator",
-        "you_and_viewers_are_viewing": "Jij en $count anderen bekijken de bucketlist van $creator",
-        "you_can_create": "U kunt bucketlists maken, bekijken of bewerken zodra u bent ingelogd.",
-        "create_your_first_bucketlist": "Maak je eerste bucketlist",
-        "as_you_search": "Terwijl je door de app dwaalt, tik je eenvoudigweg met het hartje op wat je maar wilt om het aan je bucketlist toe te voegen en nodig je vrienden uit om er een planningsfeestje van te maken. Laten we wat bucketlists invullen, oké?",
-        "add_to_bucketlist": "Voeg toe aan bucketlist",
-        "create_new_bucketlist": "Maak een nieuwe bucketlist",
-        "create_bucketlist": "Bucketlist aanmaken",
-        "save_destinations": "Sla bestemmingen op",
-        "delete_bucketlist": "Bucketlist verwijderen?",
-        "delete_bucketlist_message": "Weet je zeker dat je deze bucketlist wilt verwijderen?",
-        "delete_user_from_bucketlist": "Gebruiker verwijderen uit bucketlist?",
-        "delete_user_from_bucketlist_message": "Weet je zeker dat je $username van deze bucketlist wilt verwijderen?",
-        "bucketlist_will_be_removed": "$name zal uit je bucketlists worden verwijderd.",
-        "travel_dates": "Reisdata",
-        "share": "Uitnodigen",
-        "copy": "Kopiëren",
-        "destinations": {
-            "one": "$n Bestemming",
-            "other": "$n Bestemmingen"
-        },
-        "people_collaborating_with_you": {
-            "one": "",
-            "other": "$n mensen werken met jou mee."
-        },
-        "login_widget": {
-            "title": "Inloggen of registreren",
-            "title_bucketlist": "Log in om op te slaan",
-            "download": {
-                "title": "Bewaar deze bucketlist!",
-                "subtitle": "$s nodigden je uit om hun bucketlist te bekijken. Sla het op om je volgende reis te maken door de Layla-app te downloaden.",
-                "button": "Download Layla for free"
-            },
-            "continue_with": "Doorgaan met",
-            "login_to_collaborate": "Log in om samen te werken",
-            "login_to_view": "Log in om te bekijken",
-            "invited_you": "$username nodigden je uit voor hun bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
-            "and_one_other": "en één andere",
-            "and_n_others": "en $count anderen",
-            "one_person": "Eén persoon",
-            "people": "mensen",
-            "and": "en"
-        },
-        "flying_from": "Vertrekken vanuit",
-        "share_type_dialog": {
-            "title": "Uitnodigen voor Bucketlist",
-            "title_alt": "Uitnodigen om samen te werken",
-            "message": "Hoe wil je deze bucketlist delen?",
-            "edit": "Kan bewerken",
-            "edit_message": "Gebruikers kunnen de bucketlist bewerken",
-            "view": "Alleen bekijken",
-            "view_message": "Gebruikers kunnen de bucketlist bekijken"
-        }
-    },
-    "places": {
-        "africa": "Afrika",
-        "antarctica": "Antarctica",
-        "asia": "Azië",
-        "australia": "Australië",
-        "europe": "Europa",
-        "north_america": "Noord-Amerika",
-        "oceania": "Oceanië",
-        "south_america": "Zuid-Amerika",
-        "anywhere": "Overal",
-        "current_location": "Huidige locatie"
-    },
-    "explore_feat": {
-        "add_destination": "Bestemming toevoegen",
-        "add_dates": "Data toevoegen",
-        "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
-        "book_flights": "Boek vluchten",
-        "land_in": "Land in $destination",
-        "no_flights_found": "Geen vluchten gevonden",
-        "closest_airport": "Dichtstbijzijnde vliegveld naar $destination",
-        "change_departure": "Vertrek wijzigen",
-        "traveling_from": "Reizen vanuit",
-        "distance_from_origin": "${distance}km van $origin",
-        "how_to_get_there": "Hoe je er komt",
-        "how_to_get_to": "Hoe je naar $destination komt",
-        "ask_anything": "Vraag alles...",
-        "things_to_do": "Dingen om te doen",
-        "around_destination": "rond $destination",
-        "select_a_flight": "Selecteer een vlucht",
-        "start_booking": "Boeking starten",
-        "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
-        "view_map": "Bekijk kaart"
-    },
-    "feed": {
-        "for_you_card": {
-            "budget-friendly": "Budgetvriendelijke bestemming",
-            "reasonably_priced": "Redelijk geprijsde bestemming",
-            "costly": "Dure bestemming",
-            "very_expensive": "Zeer dure bestemming"
-        },
-        "price_types": [
-            "Voordelige bestemming",
-            "Redelijk geprijsde bestemming",
-            "Kostbare bestemming",
-            "Zeer dure bestemming"
-        ],
-        "filters": {
-            "flight_price": "Vluchtprijs",
-            "flight_duration": "Vluchtduur",
-            "flight_connection": "Vluchtverbinding",
-            "categories": "Categorieën",
-            "flight_price_value": "Max vluchtprijs $value",
-            "flight_duration_value": "Max vluchtduur $value",
-            "flight_connection_direct": "Alleen directe vluchten"
-        },
-        "how_do_you_like_the_app": "Hoe bevalt de app?",
-        "direct_flights": "Directe vluchten",
-        "show_only_direct_flights": "Toon alleen directe vluchten",
-        "take_some_time": "Neem even de tijd en geef ons uw waardevolle feedback om ons te helpen verbeteren.",
-        "give_us_feedback": "Geef ons feedback",
-        "flight_price_range": "Vliegticket prijsklasse",
-        "average_price": "Gemiddelde prijs $price",
-        "or_less": "of minder",
-        "flight_time": "Vliegtijd",
-        "average_duration": "Gemiddelde duur $hours u",
-        "round_hrs": "$val u",
-        "one_way_with_bullet": " $code enkele reis",
-        "something_went_wrong": "Er is iets misgegaan",
-        "cant_show_results": "Om een of andere reden konden we je de resultaten niet laten zien.",
-        "awkward_nothing_returned": "Dat is vreemd, er werd niets teruggegeven voor de zoekopdracht. Verander uw voorkeuren en probeer het opnieuw.",
-        "add_interests": "Interesses toevoegen",
-        "spaces_read_more": "   Lees meer",
-        "count_destinations_for_you": "$count prachtige bestemmingen voor jou",
-        "sorted_and_procured": "Gesorteerd en verkregen op basis van uw voorkeuren",
-        "scroll_down_to_see_more": "Scroll naar beneden voor meer info",
-        "no_results_found": "Geen resultaten gevonden!",
-        "km_from": "${distance}km van $city",
-        "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
-        "return_with_bullet": " $code retour",
-        "approx_for_your_dates": "Geschat voor uw data"
-    },
-    "flights_feat": {
-        "flights_to": "Vluchten naar $to",
-        "airport": "Luchthaven",
-        "destination_location_updated_successfully": "Bestemmingslocatie succesvol bijgewerkt",
-        "all_filters": "Alle filters",
-        "no_flights": "Geen vluchten",
-        "estimated_price": "Geschatte prijs",
-        "livePrices": "Live prijzen",
-        "travelers_info_updated_successfully": "Reizigersinformatie succesvol bijgewerkt",
-        "flight_details": "Vluchtgegevens",
-        "where_from": "Waar vandaan?",
-        "where_to": "Waar naartoe?",
-        "city_country_airport": "Stad, land of luchthaven...",
-        "popular_destinations": "Populaire bestemmingen",
-        "my_current_location": "Mijn huidige locatie",
-        "search_destinations": "Zoek bestemmingen",
-        "current_location": "Huidige locatie",
-        "departure_location_updated_successfully": "Vertreklocatie succesvol bijgewerkt",
-        "no_flights_found": "Geen vluchten gevonden",
-        "choose_new_departure_location": "Kies een nieuwe vertreklocatie",
-        "selected_departure_destination": "Geselecteerde vertrekbestemming",
-        "how_many_people": "Hoeveel mensen?",
-        "connection_in": "Verbinding in luchthaven",
-        "total_for": {
-            "one": "Totaal voor $n reiziger",
-            "other": "Totaal voor $n reizigers"
-        },
-        "search_flights": "Zoek vluchten",
-        "read_before_booking": "Lees voor het boeken",
-        "prices_include": "Prijzen zijn altijd inclusief een schatting van alle verplichte belastingen en kosten. Controleer alle ticketdetails, eindprijzen en voorwaarden op de website van de aanbieder voordat u boekt.",
-        "check_for_extra_fees": "Controleer op extra kosten",
-        "some_airlines_and_travel_agencies": "Sommige luchtvaartmaatschappijen en reisbureaus rekenen extra voor bagage, verzekering of creditcardgebruik. Ze kunnen ook een servicekosten in rekening brengen.",
-        "check_terms": "Controleer de voorwaarden voor reizigers van 12-16 jaar",
-        "restrictions_may_apply": "Er kunnen beperkingen gelden voor jonge passagiers die alleen reizen.",
-        "although_sold_as": "Hoewel verkocht als “Economy Class”, kan dit reisschema enkele vluchten bevatten met een andere cabineklasse.",
-        "check_cabin_class": "Controleer uw cabineklasse",
-        "select_providers": "Selecteer Aanbieders",
-        "almost_there": "Bijna klaar!",
-        "economy_class": "Economy klasse",
-        "premium_economy_class": "Premium Economy-klasse",
-        "business_class": "Business klasse",
-        "first_class": "Eerste klas",
-        "choose_provider": "Kies een aanbieder",
-        "go_to_site": "Ga naar site",
-        "dates_updated_successfully": "Data succesvol bijgewerkt",
-        "we_collected_cheapest_providers": "We hebben de goedkoopste aanbieders voor u verzameld. Selecteer de site waar je het ticket wilt kopen!",
-        "travellers": {
-            "one": "$n reiziger",
-            "other": "$n reizigers"
-        },
-        "provider_found": {
-            "one": "$n provider gevonden",
-            "other": "$n providers gevonden"
-        },
-        "passengers": {
-            "one": "$n passagier",
-            "other": "$n passagiers"
-        },
-        "one_way": "Enkele reis"
-    },
-    "hotel": {
-        "sort_filters": {
-            "most_popular": "Meest populair",
-            "best_rated": "Best beoordeeld",
-            "worst_rated": "Slechtst beoordeeld",
-            "best_reviewed": "Best beoordeeld",
-            "worst_reviewed": "Slechtst beoordeeld",
-            "star_rating_highest_first": "Sterbeoordeling (hoogste eerst)",
-            "star_rating_lowest_first": "Sterbeoordeling (laagste eerst)",
-            "price_highest_first": "Prijs (hoogste eerst)",
-            "price_lowest_first": "Prijs (laagste eerst)"
-        },
-        "filters": {
-            "budget": "Uw budget (voor 1 nacht)",
-            "travel_sustainable": "Duurzaam reizen",
-            "star_rating": "Sterbeoordeling",
-            "property_type": "Soort accommodatie",
-            "facilities": "Faciliteiten",
-            "free_cancellation": "Gratis annuleren",
-            "chain": "Keten",
-            "review_score": "Beoordelingsscore",
-            "room_facilities": "Kamervoorzieningen"
-        },
-        "filters_category": {
-            "five": "Eerlijk 5+",
-            "six": "Prettig: 6+",
-            "seven": "Goed: 7+",
-            "eight": "Erg goed: 8+",
-            "nine": "Wonderbaarlijk: 9+"
-        },
-        "review_title": {
-            "five": "Redelijk",
-            "six": "Aangenaam",
-            "seven": "Goed",
-            "eight": "Heel goed",
-            "nine": "Geweldig",
-            "three": "Niet goed",
-            "two": "Slecht",
-            "one": "Heel slecht",
-            "zero": "Verschrikkelijk"
-        },
-        "property_type": {
-            "aparthotel": "Aparthotel",
-            "camping": "Camping",
-            "inn": "Herberg",
-            "resort": "Toevlucht",
-            "capsule-hotel": "Capsule Hotel",
-            "japanese-style-business-hotel": "Japans Stijl Business Hotel",
-            "holiday-home": "Vakantiehuis",
-            "guest-house": "Gastenverblijf",
-            "boat": "Boot",
-            "love-hotel": "Liefde Hotel",
-            "ryokan": "Ryokan",
-            "tented-camp": "Tentenkamp",
-            "hotel": "Hotel",
-            "condo": "Condo",
-            "motel": "Motel",
-            "sanatorium": "Sanatorium",
-            "apartment": "Appartement",
-            "villa": "Villa",
-            "gite": "Gite",
-            "hostel": "Hostel",
-            "holiday-park": "Vakantiepark",
-            "lodge": "Loge",
-            "cottage": "Huisje",
-            "bed-and-breakfast": "Bed en Ontbijt",
-            "homestay": "Huiselijk verblijf",
-            "farm-stay": "Boerderij verblijf",
-            "chalet": "Chalet",
-            "riad": "Riad",
-            "country-house": "Landhuis"
-        },
-        "explore_tile": {
-            "stay_options": "Verblijfsopties",
-            "layla_recommends": "Layla Beveelt aan",
-            "budget": "Budget",
-            "luxury": "Luxe",
-            "find_more_stays": "Vind meer verblijven",
-            "things_to_do": "Dingen om te doen",
-            "show_all": "Toon alles",
-            "travel_km_further": "Reis $distance km verder",
-            "get_route_details": "Bekijk route details",
-            "flight_options": "Vluchtopties",
-            "youre_in_luck": "Je hebt geluk",
-            "prices_are_currenly_low": "Prijzen zijn momenteel laag",
-            "see_more_flights": "Bekijk meer vluchten"
-        },
-        "cancellation_policy": "Annuleringsbeleid",
-        "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
-        "property_views": "Eigendomweergaven",
-        "all_reviews": "Alle beoordelingen",
-        "no_hotels_found": "Geen hotels gevonden",
-        "no_videos": "Sorry, we hebben geen video's\nvoor dit hotel",
-        "age_13": "Leeftijd 13 of ouder",
-        "age_2_13": "Leeftijd 2-13",
-        "hotel_name": "Hotel naam",
-        "cancel_by": "Annuleren door",
-        "hotel_unavailable": "Hotel niet beschikbaar",
-        "hotel_unavailable_for_dates": "Hotel niet beschikbaar voor geselecteerde data",
-        "hotel_unavailable_message": "Gelieve de data bij te werken.",
-        "full_refund": "Volledige terugbetaling: Krijg 100% van wat je hebt betaald terug",
-        "no_refund": "Geen terugbetaling",
-        "select_age": "Selecteer leeftijd",
-        "read_more_here": "Lees hier meer",
-        "enter_destination": "Voer bestemming in",
-        "search_destinations": "Zoek bestemmingen",
-        "travel_sustainable_level": "Reis duurzame niveau $level",
-        "property_making_efforts": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
-        "sustainability_steps": "Stappen van duurzaamheid",
-        "accept_credit_cards": "Accepteert creditcards",
-        "important_information": "Belangrijke informatie",
-        "check_in_time": "Check-in en uitcheck tijden",
-        "wifi_available": "WiFi is beschikbaar in alle gebieden en is gratis",
-        "free_parking": "Gratis openbare parkeergelegenheid is beschikbaar op het terrein",
-        "pets_allowed": "Huisdieren zijn toegestaan, kosten kunnen van toepassing zijn",
-        "edit_your_search": "Bewerk uw zoekopdracht",
-        "no_photos": "Sorry, we hebben geen foto's\nvoor dit hotel",
-        "property_facilities": "Faciliteiten van de accommodatie",
-        "filter_and_sort": "Filter & Sorteer",
-        "partial_refund": "Gedeeltelijke terugbetaling: Krijg $name % van elke nacht terug. Geen terugbetaling van de servicekosten",
-        "check_availability": "Beschikbaarheid controleren",
-        "select_dates": "Selecteer datums",
-        "detailed_reviews": {
-            "one": "$n gedetailleerde beoordeling",
-            "other": "$n gedetailleerde beoordelingen"
-        },
-        "rooms_and_guests": "Kamers & Gasten",
-        "stays_close_by": "Verblijven dichtbij",
-        "house_rules": "Huisregels",
-        "levelDescription": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
-        "sustainable_level": "Reis duurzame niveau $level",
-        "property_location": "Locatie van de accommodatie",
-        "select_a_room": "Selecteer een kamer",
-        "select_rooms_and_guests": "Selecteer kamers en gasten",
-        "age_13_or_above": "Leeftijd 13 of ouder",
-        "what_people_said": "Wat mensen zeiden",
-        "what_people_loved": "Wat mensen leuk vonden aan deze plek",
-        "read_all_reviews": "Lees alle beoordelingen",
-        "see_all": "Bekijk alle $count",
-        "what_this_place_offers": "Wat deze plaats biedt",
-        "share_text": "Bekijk dit hotel: $name"
-    },
-    "language": {
-        "select_language": "Selecteer taal"
-    },
-    "know_more": {
-        "know_more": "Meer weten",
-        "ask_city_country": "Vraag iets over $city, $country",
-        "ask_something_more": "Stel nog een vraag...",
-        "generating_answer": "Genereren van antwoord...",
-        "answer_generated": "Antwoord gegenereerd!",
-        "is_it_safe_for": "Is het veilig voor reizigers?",
-        "question1": "Wat is de beste tijd om daar naartoe te gaan?",
-        "question2": "Hoe is het weer?",
-        "question3": "Wat zijn de bezienswaardigheden?",
-        "question4": "Vertel me over de geschiedenis."
-    },
-    "onboarding": {
-        "what_are_you_interested_in": "Waar bent u in geïnteresseerd?",
-        "pick_cards": "Kies 3 of meer kaarten",
-        "where_will_you_depart_from": "Waar vertrek je?",
-        "for_best_results": "Voor de beste resultaten, deel je locatie",
-        "allow_location_access": "Toegang tot locatie toestaan",
-        "interests": {
-            "title": "Waar ben je in geïnteresseerd?",
-            "subtitle": "Voeg meer interesses toe zodat we kunnen beginnen met personaliseren."
-        },
-        "location": {
-            "title": "Waar reis je vandaan?",
-            "message": "Stuur mij je locatie en ik zal je volgende avontuur regelen",
-            "button": "Locatietoegang toestaan"
-        }
-    },
-    "profile": {
-        "spread_the_word": "Verspreid het woord",
-        "invite_friends": "Nodig vrienden uit",
-        "privacy_policy": "Privacybeleid",
-        "imprint": "Afdruk",
-        "privacy_and_sharing": "Privacy en delen",
-        "delete_profile": "Profiel verwijderen",
-        "delete_profile_message": "Weet je zeker dat je je account wilt verwijderen?",
-        "dont_have_account": "Heb je geen account?",
-        "log_in_to_start_planning": "Log in om je volgende reis te plannen",
-        "logout": "Uitloggen",
-        "edit_profile_name": "Bewerk profielnaam",
-        "take_photo": "Neem foto",
-        "choose_photo": "Kies foto",
-        "set_profile_image": "Stel profielfoto in",
-        "first_name": "Voornaam",
-        "last_name": "Achternaam",
-        "edit_profile": "Bewerk profiel",
-        "member_since": "Lid sinds $date",
-        "share_message": "Bekijk deze app met de meest verbazingwekkende plekken ter wereld: $link",
-        "terms_of_service": "Algemene Voorwaarden",
-        "account_already_linked": "Account al gekoppeld",
-        "account_already_linked_message": "Dit account is al gekoppeld aan een andere gebruiker. Wil je inloggen als deze gebruiker?",
-        "chat_limit_exceeded": "Log in om verder te chatten. Je kunt ook chats en items opslaan in je bucketlist.",
-        "new_chat_login": "Om een nieuwe chat te starten, log alsjeblieft in"
-    },
-    "splash": {
-        "discover_where_to": "Ontdek waar je naartoe\nkan vliegen."
-    },
-    "travel_setting": {
-        "what_do_you_want_in_your_trip": "Wat wil je in je reis?",
-        "when_is_your_trip": "Wanneer is je reis?",
-        "go_var": "Ga $val",
-        "flexible_dates": "Flexibele data",
-        "exact_dates": "Exacte data",
-        "select_origin": "Selecteer oorsprong",
-        "add_details": "Details toevoegen",
-        "your_preferences_will_appear_here": "Uw voorkeuren verschijnen hier"
-    },
-    "thing_todo": {
-        "things_to_do": "Dingen om te doen"
-    },
-    "share_dialog": {
-        "title": "Delen",
-        "copy": "Kopiëren"
-    },
-    "about_screen": {
-        "title": "Over mij, Layla.",
-        "subtitle": "Ontdek de wereld met Layla; de AI-reisplanner en jouw ultieme reisgezel.",
-        "block_1": "Hoi allemaal, hier is Layla en ik ben ZO enthousiast om jullie alles te vertellen over waar jullie laatste reisobsessie moet zijn - ik! Je weet hoe we allemaal van die spontane trips houden en ons avontuurlijke leven ten volle willen leven, toch? Nou, ik ben eigenlijk jouw onmisbare reis-AI die je helpt om nieuwe plaatsen te vinden en je reisdromen werkelijkheid te maken. Laat me het je uitleggen...",
-        "block_2": "Allereerst zeggen mensen vaak: “Layla is als de goede fee van reisinspiratie”. Vergeet urenlang doelloos scrollen op Instagram of Pinterest - als AI-reisplanner stel ik gepersonaliseerde reisvoorstellen samen op basis van JOUW interesses. En geloof me, ik heb een zesde zintuig om de coolste vakantieplekken te ontdekken waarvan je niet eens wist dat ze bestonden. Met mij praten is als het hebben van je eigen reisgoeroe, zonder het prijskaartje.",
-        "block_3": "Nu weet ik wat je denkt - \"Heb ik echt nog een reis-app nodig die mijn telefoon volstopt?\" Luister nou even, schat. Layla is niet zomaar een app; het is een game-changer. Stel je dit voor: je vertelt me jouw vibe, of het nu gaat om strandgeluk, stadslampen of bergpieken, en VOILÀ - ik vind een overvloed aan bestemmingen op maat voor jou, compleet met video's zodat je gemakkelijk de sfeer van elke plek kunt proeven.",
-        "block_4": "Het beste gedeelte? Als je met me praat, neemt Layla het gedoe weg met het plannen van reizen. U hoeft niet meer te jongleren met een miljoen tabbladen om de beste vluchten, hotels en activiteiten te vinden. Ik heb het voor je gedekt. Het web afstruinen naar de populairste bestemmingen, die budgetvriendelijke vluchten bemachtigen en je in contact brengen met Insta-waardige verblijven. Het enige wat je hoeft te doen is je koffers te pakken en er schattig uit te zien.",
-        "block_5": "Laten we het nu over boeken hebben. Ik ben hier om je reisboekingsproces te stroomlijnen, van het vinden van je droombestemming tot het bemachtigen van de beste deals. AI's zijn hier om alles zo gemakkelijk te maken dat zelfs een koningin met technische problemen het kan. Bovendien kun je erop vertrouwen dat Layla achter je staat - geen louche boekingssites of schetsmatige accommodaties in zicht - ik ben een samenwerking aangegaan met Skyscanner en Booking.com.",
-        "block_6": "Maar wacht, er is meer. AI's helpen je niet alleen bij het plannen, als je eenmaal op reis bent, ben ik je ultieme wingwoman als het gaat om het verkennen van een nieuwe stad. Gewapend met de deets over must-see attracties, verborgen juweeltjes en de meest trendy lokale gewrichten. Ik leid je naar alle plekken waar de locals daadwerkelijk rondhangen.",
-        "block_7": "Dus, als je moe bent van hetzelfde, hetzelfde oud en klaar bent om je reisspel op te fleuren, zeg dan hallo tegen me, Layla. Ik ben niet alleen een AI; Ik ben een game-changer voor de manier waarop je reizen plant, maar ook voor een curator van reisvibes en je paspoort voor de wereld. Maak je klaar om vol vertrouwen te jetsetten, mijn geliefden, want Layla heeft je reisdromen op slot.\n\nHet avontuur wacht ✈️💖 op je",
-        "button": "Chat met Layla"
-    },
-    "download_app": {
-        "title": "Download de app",
-        "subtitle": "Koop de app voor een persoonlijke, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
-        "button": "Download Layla gratis"
-    },
-    "itinerary_widget": {
-        "day_dialog": {
-            "add": {
-                "title": "Dag toevoegen met AI",
-                "hint": "Wat wil je op een dag doen?",
-                "button": "Dag toevoegen"
-            },
-            "modify": {
-                "title": "Wijzig met AI",
-                "hint": "Wat wilt u doen op dag $index?",
-                "button": "Genereer"
-            }
-        }
-    },
-    "video_category": [
-        "Avontuur",
-        "Cultuur",
-        "Strand",
-        "Stad",
-        "Eten en drinken",
-        "Verborgen edelstenen",
-        "Luxe",
-        "Natuur",
-        "Ontspannen",
-        "Romantisch",
-        "Sport",
-        "Top Categorie",
-        "dingen om te doen"
-    ],
-    "videoSubCategory": [
-        "Activiteiten",
-        "Jachten & Cruises",
-        "Tuinen & Parken",
-        "Bars",
-        "Restaurants & Cafés",
-        "Gratis dingen om te doen",
-        "Nachtclubs",
-        "Festivals en Evenementen",
-        "Kunstgaleries & Musea"
-    ],
-    "weekdays_short": [
-        "M",
-        "D",
-        "W",
-        "D",
-        "V",
-        "Z",
-        "Z"
-    ],
-    "adults": {
-        "one": "$n volwassene",
-        "other": "$n volwassenen"
-    },
-    "dayN": "Dag $n",
-    "days": {
-        "one": "$n dag",
-        "other": "$n dagen"
-    },
+    "cheapest": "Goedkoopste",
+    "checkIn": "Inchecken",
+    "child": "Kind",
     "children": {
         "one": "$n kind",
         "other": "$n kinderen"
     },
-    "guest": {
-        "one": "$n gast",
-        "other": "$n gasten"
-    },
-    "room": {
-        "one": "$n kamer",
-        "other": "$n kamers"
-    },
-    "person": {
-        "one": "$n persoon",
-        "other": "$n mensen"
-    },
-    "review": {
-        "one": "$n beoordeling",
-        "other": "$n beoordelingen"
-    },
-    "rooms": {
-        "one": "$n kamer",
-        "other": "$n kamers"
-    },
-    "stop": {
-        "one": "$n stop",
-        "other": "$n stops"
-    },
-    "stop_plus": {
-        "one": "$n stop",
-        "other": "$n+ stops"
-    },
-    "traveller": {
-        "one": "$n reiziger",
-        "other": "$n reizigers"
-    },
-    "age": {
-        "one": "$n jaar oud",
-        "other": "$n jaar oud"
-    },
-    "about": "Over",
-    "afternoon": "Middag",
-    "allow": "Toestaan",
-    "anything": "Alles",
-    "anytime": "Altijd",
-    "anywhere": "Overal",
-    "adultsWord": "Volwassenen",
-    "app": "App",
-    "apply": "Toepassen",
-    "around": "Rond",
-    "arrival": "Aankomst",
-    "away": "Weg",
-    "best": "Best",
-    "bucketlists": "Bucketlists",
-    "bucketlistWord": "Verlanglijst",
-    "cancel": "Annuleren",
-    "change": "Veranderen",
-    "charactersWord": {
-        "one": "$n teken",
-        "other": "$n tekens"
-    },
-    "checkIn": "Inchecken",
-    "cheapest": "Goedkoopste",
-    "child": "Kind",
     "childrenWord": "Kinderen",
     "classWord": "Klasse",
     "clear": "Wissen",
@@ -709,8 +237,13 @@
     "create": "Creëren",
     "creator": "Maker",
     "currency": "Valuta",
-    "daysWord": "Dagen",
     "dates": "Data",
+    "dayN": "Dag $n",
+    "days": {
+        "one": "$n dag",
+        "other": "$n dagen"
+    },
+    "daysWord": "Dagen",
     "deals": "Aanbiedingen",
     "delete": "Delete",
     "departure": "Vertrek",
@@ -719,6 +252,11 @@
     "destinationsWord": "Bestemmingen",
     "direct": "Direct",
     "done": "Gedaan",
+    "download_app": {
+        "button": "Download Layla gratis",
+        "subtitle": "Koop de app voor een persoonlijke, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
+        "title": "Download de app"
+    },
     "duration": "Duur",
     "edit": "Bewerk",
     "editDates": "Bewerk datums",
@@ -726,25 +264,340 @@
     "evening": "Avond",
     "experiences": "Ervaringen",
     "explore": "Verkennen",
+    "explore_feat": {
+        "add_dates": "Data toevoegen",
+        "add_destination": "Bestemming toevoegen",
+        "around_destination": "rond $destination",
+        "ask_anything": "Vraag alles...",
+        "book_flights": "Boek vluchten",
+        "change_departure": "Vertrek wijzigen",
+        "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
+        "closest_airport": "Dichtstbijzijnde vliegveld naar $destination",
+        "distance_from_origin": "${distance}km van $origin",
+        "how_to_get_there": "Hoe je er komt",
+        "how_to_get_to": "Hoe je naar $destination komt",
+        "land_in": "Land in $destination",
+        "no_flights_found": "Geen vluchten gevonden",
+        "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
+        "select_a_flight": "Selecteer een vlucht",
+        "start_booking": "Boeking starten",
+        "things_to_do": "Dingen om te doen",
+        "traveling_from": "Reizen vanuit",
+        "view_map": "Bekijk kaart"
+    },
     "fastest": "Snelste",
+    "feed": {
+        "add_interests": "Interesses toevoegen",
+        "approx_for_your_dates": "Geschat voor uw data",
+        "average_duration": "Gemiddelde duur $hours u",
+        "average_price": "Gemiddelde prijs $price",
+        "awkward_nothing_returned": "Dat is vreemd, er werd niets teruggegeven voor de zoekopdracht. Verander uw voorkeuren en probeer het opnieuw.",
+        "cant_show_results": "Om een of andere reden konden we je de resultaten niet laten zien.",
+        "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
+        "count_destinations_for_you": "$count prachtige bestemmingen voor jou",
+        "direct_flights": "Directe vluchten",
+        "filters": {
+            "categories": "Categorieën",
+            "flight_connection": "Vluchtverbinding",
+            "flight_connection_direct": "Alleen directe vluchten",
+            "flight_duration": "Vluchtduur",
+            "flight_duration_value": "Max vluchtduur $value",
+            "flight_price": "Vluchtprijs",
+            "flight_price_value": "Max vluchtprijs $value"
+        },
+        "flight_price_range": "Vliegticket prijsklasse",
+        "flight_time": "Vliegtijd",
+        "for_you_card": {
+            "budget-friendly": "Budgetvriendelijke bestemming",
+            "costly": "Dure bestemming",
+            "reasonably_priced": "Redelijk geprijsde bestemming",
+            "very_expensive": "Zeer dure bestemming"
+        },
+        "give_us_feedback": "Geef ons feedback",
+        "how_do_you_like_the_app": "Hoe bevalt de app?",
+        "km_from": "${distance}km van $city",
+        "no_results_found": "Geen resultaten gevonden!",
+        "one_way_with_bullet": " $code enkele reis",
+        "or_less": "of minder",
+        "price_types": [
+            "Voordelige bestemming",
+            "Redelijk geprijsde bestemming",
+            "Kostbare bestemming",
+            "Zeer dure bestemming"
+        ],
+        "return_with_bullet": " $code retour",
+        "round_hrs": "$val u",
+        "scroll_down_to_see_more": "Scroll naar beneden voor meer info",
+        "show_only_direct_flights": "Toon alleen directe vluchten",
+        "something_went_wrong": "Er is iets misgegaan",
+        "sorted_and_procured": "Gesorteerd en verkregen op basis van uw voorkeuren",
+        "spaces_read_more": "   Lees meer",
+        "take_some_time": "Neem even de tijd en geef ons uw waardevolle feedback om ons te helpen verbeteren."
+    },
     "feedback": "Feedback",
     "filter_by": "Filter op",
     "filters": "Filters",
     "flight": "Vlucht",
     "flights": "Vluchten",
+    "flights_feat": {
+        "airport": "Luchthaven",
+        "all_filters": "Alle filters",
+        "almost_there": "Bijna klaar!",
+        "although_sold_as": "Hoewel verkocht als “Economy Class”, kan dit reisschema enkele vluchten bevatten met een andere cabineklasse.",
+        "business_class": "Business klasse",
+        "check_cabin_class": "Controleer uw cabineklasse",
+        "check_for_extra_fees": "Controleer op extra kosten",
+        "check_terms": "Controleer de voorwaarden voor reizigers van 12-16 jaar",
+        "choose_new_departure_location": "Kies een nieuwe vertreklocatie",
+        "choose_provider": "Kies een aanbieder",
+        "city_country_airport": "Stad, land of luchthaven...",
+        "connection_in": "Verbinding in luchthaven",
+        "current_location": "Huidige locatie",
+        "dates_updated_successfully": "Data succesvol bijgewerkt",
+        "departure_location_updated_successfully": "Vertreklocatie succesvol bijgewerkt",
+        "destination_location_updated_successfully": "Bestemmingslocatie succesvol bijgewerkt",
+        "economy_class": "Economy klasse",
+        "estimated_price": "Geschatte prijs",
+        "first_class": "Eerste klas",
+        "flight_details": "Vluchtgegevens",
+        "flights_to": "Vluchten naar $to",
+        "go_to_site": "Ga naar site",
+        "how_many_people": "Hoeveel mensen?",
+        "livePrices": "Live prijzen",
+        "my_current_location": "Mijn huidige locatie",
+        "no_flights": "Geen vluchten",
+        "no_flights_found": "Geen vluchten gevonden",
+        "one_way": "Enkele reis",
+        "passengers": {
+            "one": "$n passagier",
+            "other": "$n passagiers"
+        },
+        "popular_destinations": "Populaire bestemmingen",
+        "premium_economy_class": "Premium Economy-klasse",
+        "prices_include": "Prijzen zijn altijd inclusief een schatting van alle verplichte belastingen en kosten. Controleer alle ticketdetails, eindprijzen en voorwaarden op de website van de aanbieder voordat u boekt.",
+        "provider_found": {
+            "one": "$n provider gevonden",
+            "other": "$n providers gevonden"
+        },
+        "read_before_booking": "Lees voor het boeken",
+        "restrictions_may_apply": "Er kunnen beperkingen gelden voor jonge passagiers die alleen reizen.",
+        "search_destinations": "Zoek bestemmingen",
+        "search_flights": "Zoek vluchten",
+        "select_providers": "Selecteer Aanbieders",
+        "selected_departure_destination": "Geselecteerde vertrekbestemming",
+        "some_airlines_and_travel_agencies": "Sommige luchtvaartmaatschappijen en reisbureaus rekenen extra voor bagage, verzekering of creditcardgebruik. Ze kunnen ook een servicekosten in rekening brengen.",
+        "total_for": {
+            "one": "Totaal voor $n reiziger",
+            "other": "Totaal voor $n reizigers"
+        },
+        "travelers_info_updated_successfully": "Reizigersinformatie succesvol bijgewerkt",
+        "travellers": {
+            "one": "$n reiziger",
+            "other": "$n reizigers"
+        },
+        "we_collected_cheapest_providers": "We hebben de goedkoopste aanbieders voor u verzameld. Selecteer de site waar je het ticket wilt kopen!",
+        "where_from": "Waar vandaan?",
+        "where_to": "Waar naartoe?"
+    },
     "from": "Van",
     "from_var": "Van $name",
+    "guest": {
+        "one": "$n gast",
+        "other": "$n gasten"
+    },
     "help": "Help",
+    "hotel": {
+        "accept_credit_cards": "Accepteert creditcards",
+        "age_13": "Leeftijd 13 of ouder",
+        "age_13_or_above": "Leeftijd 13 of ouder",
+        "age_2_13": "Leeftijd 2-13",
+        "all_reviews": "Alle beoordelingen",
+        "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
+        "cancel_by": "Annuleren door",
+        "cancellation_policy": "Annuleringsbeleid",
+        "check_availability": "Beschikbaarheid controleren",
+        "check_in_time": "Check-in en uitcheck tijden",
+        "detailed_reviews": {
+            "one": "$n gedetailleerde beoordeling",
+            "other": "$n gedetailleerde beoordelingen"
+        },
+        "edit_your_search": "Bewerk uw zoekopdracht",
+        "enter_destination": "Voer bestemming in",
+        "explore_tile": {
+            "budget": "Budget",
+            "find_more_stays": "Vind meer verblijven",
+            "flight_options": "Vluchtopties",
+            "get_route_details": "Bekijk route details",
+            "layla_recommends": "Layla Beveelt aan",
+            "luxury": "Luxe",
+            "prices_are_currenly_low": "Prijzen zijn momenteel laag",
+            "see_more_flights": "Bekijk meer vluchten",
+            "show_all": "Toon alles",
+            "stay_options": "Verblijfsopties",
+            "things_to_do": "Dingen om te doen",
+            "travel_km_further": "Reis $distance km verder",
+            "youre_in_luck": "Je hebt geluk"
+        },
+        "filter_and_sort": "Filter & Sorteer",
+        "filters": {
+            "budget": "Uw budget (voor 1 nacht)",
+            "chain": "Keten",
+            "facilities": "Faciliteiten",
+            "free_cancellation": "Gratis annuleren",
+            "property_type": "Soort accommodatie",
+            "review_score": "Beoordelingsscore",
+            "room_facilities": "Kamervoorzieningen",
+            "star_rating": "Sterbeoordeling",
+            "travel_sustainable": "Duurzaam reizen"
+        },
+        "filters_category": {
+            "eight": "Erg goed: 8+",
+            "five": "Eerlijk 5+",
+            "nine": "Wonderbaarlijk: 9+",
+            "seven": "Goed: 7+",
+            "six": "Prettig: 6+"
+        },
+        "free_parking": "Gratis openbare parkeergelegenheid is beschikbaar op het terrein",
+        "full_refund": "Volledige terugbetaling: Krijg 100% van wat je hebt betaald terug",
+        "hotel_name": "Hotel naam",
+        "hotel_unavailable": "Hotel niet beschikbaar",
+        "hotel_unavailable_for_dates": "Hotel niet beschikbaar voor geselecteerde data",
+        "hotel_unavailable_message": "Gelieve de data bij te werken.",
+        "house_rules": "Huisregels",
+        "important_information": "Belangrijke informatie",
+        "levelDescription": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
+        "no_hotels_found": "Geen hotels gevonden",
+        "no_photos": "Sorry, we hebben geen foto's\nvoor dit hotel",
+        "no_refund": "Geen terugbetaling",
+        "no_videos": "Sorry, we hebben geen video's\nvoor dit hotel",
+        "partial_refund": "Gedeeltelijke terugbetaling: Krijg $name % van elke nacht terug. Geen terugbetaling van de servicekosten",
+        "pets_allowed": "Huisdieren zijn toegestaan, kosten kunnen van toepassing zijn",
+        "property_facilities": "Faciliteiten van de accommodatie",
+        "property_location": "Locatie van de accommodatie",
+        "property_making_efforts": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
+        "property_type": {
+            "aparthotel": "Aparthotel",
+            "apartment": "Appartement",
+            "bed-and-breakfast": "Bed en Ontbijt",
+            "boat": "Boot",
+            "camping": "Camping",
+            "capsule-hotel": "Capsule Hotel",
+            "chalet": "Chalet",
+            "condo": "Condo",
+            "cottage": "Huisje",
+            "country-house": "Landhuis",
+            "farm-stay": "Boerderij verblijf",
+            "gite": "Gite",
+            "guest-house": "Gastenverblijf",
+            "holiday-home": "Vakantiehuis",
+            "holiday-park": "Vakantiepark",
+            "homestay": "Huiselijk verblijf",
+            "hostel": "Hostel",
+            "hotel": "Hotel",
+            "inn": "Herberg",
+            "japanese-style-business-hotel": "Japans Stijl Business Hotel",
+            "lodge": "Loge",
+            "love-hotel": "Liefde Hotel",
+            "motel": "Motel",
+            "resort": "Toevlucht",
+            "riad": "Riad",
+            "ryokan": "Ryokan",
+            "sanatorium": "Sanatorium",
+            "tented-camp": "Tentenkamp",
+            "villa": "Villa"
+        },
+        "property_views": "Eigendomweergaven",
+        "read_all_reviews": "Lees alle beoordelingen",
+        "read_more_here": "Lees hier meer",
+        "review_title": {
+            "eight": "Heel goed",
+            "five": "Redelijk",
+            "nine": "Geweldig",
+            "one": "Heel slecht",
+            "seven": "Goed",
+            "six": "Aangenaam",
+            "three": "Niet goed",
+            "two": "Slecht",
+            "zero": "Verschrikkelijk"
+        },
+        "rooms_and_guests": "Kamers & Gasten",
+        "search_destinations": "Zoek bestemmingen",
+        "see_all": "Bekijk alle $count",
+        "select_a_room": "Selecteer een kamer",
+        "select_age": "Selecteer leeftijd",
+        "select_dates": "Selecteer datums",
+        "select_rooms_and_guests": "Selecteer kamers en gasten",
+        "share_text": "Bekijk dit hotel: $name",
+        "sort_filters": {
+            "best_rated": "Best beoordeeld",
+            "best_reviewed": "Best beoordeeld",
+            "most_popular": "Meest populair",
+            "price_highest_first": "Prijs (hoogste eerst)",
+            "price_lowest_first": "Prijs (laagste eerst)",
+            "star_rating_highest_first": "Sterbeoordeling (hoogste eerst)",
+            "star_rating_lowest_first": "Sterbeoordeling (laagste eerst)",
+            "worst_rated": "Slechtst beoordeeld",
+            "worst_reviewed": "Slechtst beoordeeld"
+        },
+        "stays_close_by": "Verblijven dichtbij",
+        "sustainability_steps": "Stappen van duurzaamheid",
+        "sustainable_level": "Reis duurzame niveau $level",
+        "travel_sustainable_level": "Reis duurzame niveau $level",
+        "what_people_loved": "Wat mensen leuk vonden aan deze plek",
+        "what_people_said": "Wat mensen zeiden",
+        "what_this_place_offers": "Wat deze plaats biedt",
+        "wifi_available": "WiFi is beschikbaar in alle gebieden en is gratis"
+    },
     "hotelWord": "Hotel",
     "hotels": "Hotels",
     "infants": "Zuigelingen",
+    "itineraries": {
+        "addDay": "Dag toevoegen",
+        "bookNow": "Boek nu",
+        "dayPart": [
+            "Ochtend",
+            "Middag",
+            "Avond"
+        ],
+        "itineraries": "Routes",
+        "whatDoYouWant": "Wat wil je op een dag doen?"
+    },
     "itinerary": "Reisroute",
+    "itinerary_widget": {
+        "day_dialog": {
+            "add": {
+                "button": "Dag toevoegen",
+                "hint": "Wat wil je op een dag doen?",
+                "title": "Dag toevoegen met AI"
+            },
+            "modify": {
+                "button": "Genereer",
+                "hint": "Wat wilt u doen op dag $index?",
+                "title": "Wijzig met AI"
+            }
+        }
+    },
+    "know_more": {
+        "answer_generated": "Antwoord gegenereerd!",
+        "ask_city_country": "Vraag iets over $city, $country",
+        "ask_something_more": "Stel nog een vraag...",
+        "generating_answer": "Genereren van antwoord...",
+        "is_it_safe_for": "Is het veilig voor reizigers?",
+        "know_more": "Meer weten",
+        "question1": "Wat is de beste tijd om daar naartoe te gaan?",
+        "question2": "Hoe is het weer?",
+        "question3": "Wat zijn de bezienswaardigheden?",
+        "question4": "Vertel me over de geschiedenis."
+    },
     "know_more_word": "Meer weten",
+    "language": {
+        "select_language": "Selecteer taal"
+    },
     "languageWord": "Taal",
     "leave": "Verlaat",
     "legal": "Wettelijk",
-    "login": "Log in",
     "location": "Locatie",
+    "login": "Log in",
     "map": "Kaart",
     "month": "Maand",
     "more": "Meer",
@@ -760,23 +613,93 @@
         "one": "$n nacht",
         "other": "$n nachten"
     },
-    "opps": "Opps!",
+    "onboarding": {
+        "allow_location_access": "Toegang tot locatie toestaan",
+        "for_best_results": "Voor de beste resultaten, deel je locatie",
+        "interests": {
+            "subtitle": "Voeg meer interesses toe zodat we kunnen beginnen met personaliseren.",
+            "title": "Waar ben je in geïnteresseerd?"
+        },
+        "location": {
+            "button": "Locatietoegang toestaan",
+            "message": "Stuur mij je locatie en ik zal je volgende avontuur regelen",
+            "title": "Waar reis je vandaan?"
+        },
+        "pick_cards": "Kies 3 of meer kaarten",
+        "what_are_you_interested_in": "Waar bent u in geïnteresseerd?",
+        "where_will_you_depart_from": "Waar vertrek je?"
+    },
     "one_way": "Enkele reis",
+    "opps": "Opps!",
+    "person": {
+        "one": "$n persoon",
+        "other": "$n mensen"
+    },
     "pets": "Huisdieren",
     "photos": "Foto's",
+    "places": {
+        "africa": "Afrika",
+        "antarctica": "Antarctica",
+        "anywhere": "Overal",
+        "asia": "Azië",
+        "australia": "Australië",
+        "current_location": "Huidige locatie",
+        "europe": "Europa",
+        "north_america": "Noord-Amerika",
+        "oceania": "Oceanië",
+        "south_america": "Zuid-Amerika"
+    },
     "plan": "Plan",
-    "preferences": "Voorkeuren",
-    "profileWord": "Profiel",
     "powered_by": "Aangedreven door",
+    "preferences": "Voorkeuren",
+    "profile": {
+        "account_already_linked": "Account al gekoppeld",
+        "account_already_linked_message": "Dit account is al gekoppeld aan een andere gebruiker. Wil je inloggen als deze gebruiker?",
+        "chat_limit_exceeded": "Log in om verder te chatten. Je kunt ook chats en items opslaan in je bucketlist.",
+        "choose_photo": "Kies foto",
+        "delete_profile": "Profiel verwijderen",
+        "delete_profile_message": "Weet je zeker dat je je account wilt verwijderen?",
+        "dont_have_account": "Heb je geen account?",
+        "edit_profile": "Bewerk profiel",
+        "edit_profile_name": "Bewerk profielnaam",
+        "first_name": "Voornaam",
+        "imprint": "Afdruk",
+        "invite_friends": "Nodig vrienden uit",
+        "last_name": "Achternaam",
+        "log_in_to_start_planning": "Log in om je volgende reis te plannen",
+        "logout": "Uitloggen",
+        "member_since": "Lid sinds $date",
+        "new_chat_login": "Om een nieuwe chat te starten, log alsjeblieft in",
+        "privacy_and_sharing": "Privacy en delen",
+        "privacy_policy": "Privacybeleid",
+        "set_profile_image": "Stel profielfoto in",
+        "share_message": "Bekijk deze app met de meest verbazingwekkende plekken ter wereld: $link",
+        "spread_the_word": "Verspreid het woord",
+        "take_photo": "Neem foto",
+        "terms_of_service": "Algemene Voorwaarden"
+    },
+    "profileWord": "Profiel",
     "read_more": "Lees meer",
     "remove": "Verwijderen",
     "rename": "Hernoemen",
     "reset": "Reset",
     "returnWord": "Terug",
+    "review": {
+        "one": "$n beoordeling",
+        "other": "$n beoordelingen"
+    },
+    "room": {
+        "one": "$n kamer",
+        "other": "$n kamers"
+    },
+    "rooms": {
+        "one": "$n kamer",
+        "other": "$n kamers"
+    },
     "roomsWord": "Kamers",
-    "search": "Zoeken",
     "save": "Opslaan",
     "saved_to": "Opgeslagen in",
+    "search": "Zoeken",
     "see_all": "Zie alles",
     "see_more": "Zie meer",
     "select": "Selecteer",
@@ -784,53 +707,41 @@
     "selected": "Geselecteerd",
     "settings": "Instellingen",
     "share": "Delen",
+    "share_dialog": {
+        "copy": "Kopiëren",
+        "title": "Delen"
+    },
+    "show_less": "Toon minder",
     "show_more": "Toon meer",
     "show_more_flights": "Toon meer vluchten",
     "sign_in": "Aanmelden",
     "sign_up": "Aanmelden",
-    "show_less": "Toon minder",
-    "support": "Ondersteuning",
     "skip": "Overslaan",
     "skip_for_now": "Sla voor nu over",
     "sort_by": "Sorteer op",
+    "splash": {
+        "discover_where_to": "Ontdek waar je naartoe\nkan vliegen."
+    },
+    "star_new_chat": "Start nieuwe chat",
     "stars": {
         "one": "$n ster",
         "other": "$n sterren"
     },
     "start": "Beginnen",
-    "star_new_chat": "Start nieuwe chat",
+    "stop": {
+        "one": "$n stop",
+        "other": "$n stops"
+    },
+    "stop_plus": {
+        "one": "$n stop",
+        "other": "$n+ stops"
+    },
     "stops": "Stops",
-    "times": "Tijden",
-    "to": "Naar",
-    "today": "Vandaag",
-    "total": "Totaal",
-    "transit": "Transit",
-    "travelers": "Reizigers",
-    "unknown_error": "Onbekende fout",
-    "unknown_name": "Onbekende naam",
-    "update": "Update",
-    "user_cancelled": "Gebruiker geannuleerd",
-    "varTotal": "$n totaal",
-    "videos": "Video's",
-    "view": "Bekijken",
-    "view_details": "Details bekijken",
-    "weekend": "Weekend",
-    "week": "Week",
-    "what": "Wat",
-    "what_can_i_ask": "Wat kan ik vragen?",
-    "when": "Wanneer",
-    "where_to": "Waarheen",
-    "where_from": "Waar vandaan",
-    "yesterday": "Gisteren",
+    "support": "Ondersteuning",
+    "thing_todo": {
+        "things_to_do": "Dingen om te doen"
+    },
     "time_ago": {
-        "years": {
-            "one": "$n jaar geleden",
-            "other": "$n jaar geleden"
-        },
-        "months": {
-            "one": "$n maand geleden",
-            "other": "$n maanden geleden"
-        },
         "days": {
             "one": "$n dag geleden",
             "other": "$n dagen geleden"
@@ -839,14 +750,103 @@
             "one": "$n uur geleden",
             "other": "$n uur geleden"
         },
+        "just_now": "Zojuist",
         "minutes": {
             "one": "$n minuut geleden",
             "other": "$n minuten geleden"
+        },
+        "months": {
+            "one": "$n maand geleden",
+            "other": "$n maanden geleden"
         },
         "seconds": {
             "one": "$n seconde geleden",
             "other": "$n seconden geleden"
         },
-        "just_now": "Zojuist"
-    }
+        "years": {
+            "one": "$n jaar geleden",
+            "other": "$n jaar geleden"
+        }
+    },
+    "times": "Tijden",
+    "to": "Naar",
+    "today": "Vandaag",
+    "tooltips": {
+        "skipIntro": "Intro overslaan",
+        "tap_to_add_to_bucketlist": "Sla op en werk samen, tik om toe te voegen aan bucketlist.",
+        "tap_to_bucketlist": "Tik voor bucketlist",
+        "tap_to_chat": "Tik om te chatten",
+        "tap_to_filter": "Tik om te filteren",
+        "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar $country?",
+        "tap_to_open_menu": "Tik om het menupaneel te openen",
+        "tap_to_start_new_chat": "Tik om een nieuw gesprek te starten"
+    },
+    "total": "Totaal",
+    "transit": "Transit",
+    "travel_setting": {
+        "add_details": "Details toevoegen",
+        "exact_dates": "Exacte data",
+        "flexible_dates": "Flexibele data",
+        "go_var": "Ga $val",
+        "select_origin": "Selecteer oorsprong",
+        "what_do_you_want_in_your_trip": "Wat wil je in je reis?",
+        "when_is_your_trip": "Wanneer is je reis?",
+        "your_preferences_will_appear_here": "Uw voorkeuren verschijnen hier"
+    },
+    "travelers": "Reizigers",
+    "traveller": {
+        "one": "$n reiziger",
+        "other": "$n reizigers"
+    },
+    "unknown_error": "Onbekende fout",
+    "unknown_name": "Onbekende naam",
+    "update": "Update",
+    "user_cancelled": "Gebruiker geannuleerd",
+    "varTotal": "$n totaal",
+    "videoSubCategory": [
+        "Activiteiten",
+        "Jachten & Cruises",
+        "Tuinen & Parken",
+        "Bars",
+        "Restaurants & Cafés",
+        "Gratis dingen om te doen",
+        "Nachtclubs",
+        "Festivals en Evenementen",
+        "Kunstgaleries & Musea"
+    ],
+    "video_category": [
+        "Avontuur",
+        "Cultuur",
+        "Strand",
+        "Stad",
+        "Eten en drinken",
+        "Verborgen edelstenen",
+        "Luxe",
+        "Natuur",
+        "Ontspannen",
+        "Romantisch",
+        "Sport",
+        "Top Categorie",
+        "dingen om te doen"
+    ],
+    "videos": "Video's",
+    "view": "Bekijken",
+    "view_details": "Details bekijken",
+    "week": "Week",
+    "weekdays_short": [
+        "M",
+        "D",
+        "W",
+        "D",
+        "V",
+        "Z",
+        "Z"
+    ],
+    "weekend": "Weekend",
+    "what": "Wat",
+    "what_can_i_ask": "Wat kan ik vragen?",
+    "when": "Wanneer",
+    "where_from": "Waar vandaan",
+    "where_to": "Waarheen",
+    "yesterday": "Gisteren"
 }
