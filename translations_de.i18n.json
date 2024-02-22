@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Inspiriere mich, wohin ich als Nächstes reisen kann",
-                "msg2": "Finde günstige Flüge für mich",
+                "msg2": "Finde günstige Flüge für mich von meiner Stadt",
                 "msg3": "Stelle mir einen Reiseplan zusammen",
-                "msg4": "Wo sollte ich übernachten?"
+                "msg4": "Wo soll ich meinen Sommerurlaub verbringen?"
             },
             "isTyping": "${name} tippt...",
             "messageHint": "Frag mich irgendetwas",
@@ -282,7 +282,9 @@
         "select_a_flight": "Flug auswählen",
         "start_booking": "Buchung starten",
         "stats": {
-            "min_days": "Mindestanzahl an Tagen zum Verbringen"
+            "budget": "Geschätztes Budget.",
+            "for_your_dates": "Für Ihre Datumsangaben",
+            "min_days": "Min. Tage zum Verbringen"
         },
         "things_to_do": "Aktivitäten",
         "traveling_from": "Reisen von",
@@ -415,7 +417,7 @@
         "age_13_or_above": "Alter 13 oder älter",
         "age_2_13": "Alter 2–13",
         "all_reviews": "Alle Bewertungen",
-        "before_you_book": "Bevor du buchst, stelle sicher, dass du mit der Stornierungsrichtlinie dieses Gastgebers einverstanden bist. Beachte, dass die Richtlinie für außergewöhnliche Umstände von Airbnb keine Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen durch COVID-19 abdeckt.",
+        "before_you_book": "Bevor Sie buchen, vergewissern Sie sich, dass Sie mit den Stornierungsbedingungen dieses Hotels einverstanden sind. Bitte beachten Sie, dass die Richtlinie für außergewöhnliche Umstände nicht für Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen gilt, die durch COVID-19 verursacht werden.",
         "cancel_by": "Storniere bis",
         "cancellation_policy": "Stornierungsbedingungen",
         "check_availability": "Verfügbarkeit prüfen",
@@ -475,6 +477,10 @@
         "no_videos": "Leider haben wir keine Videos\nfür dieses Hotel",
         "partial_refund": "Teilweise Rückerstattung: Erhalte ${name} % von jeder Nacht zurück. Keine Rückerstattung der Servicegebühr",
         "pets_allowed": "Haustiere sind erlaubt, es können Gebühren anfallen",
+        "price_for_night": {
+            "one": "Preis für ${n} Nacht",
+            "other": "Preis für ${n} Nächte"
+        },
         "property_facilities": "Ausstattung der Unterkunft",
         "property_location": "Lage der Unterkunft",
         "property_making_efforts": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",

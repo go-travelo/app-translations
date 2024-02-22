@@ -51,7 +51,7 @@
         "collaborating_and_one_more": "${name} en nog één werken met je mee.",
         "collaborating_two": "${first} en ${second} werken met je samen.",
         "collaborating_two_and_more": "${first} en ${count} meer werken met je samen..",
-        "copy": "Kopiëren",
+        "copy": "Kopiëren naar bewerken",
         "create_bucketlist": "Bucketlist aanmaken",
         "create_new_bucketlist": "Maak een nieuwe bucketlist",
         "create_your_first_bucketlist": "Maak je eerste bucketlist",
@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Inspireer me voor mijn volgende reis",
-                "msg2": "Vind goedkope vluchten voor me",
-                "msg3": "Stel een reisschema voor me samen",
-                "msg4": "Waar moet ik verblijven?"
+                "msg2": "Zoek goedkope vluchten vanuit mijn stad",
+                "msg3": "Bouw een reisplan voor me",
+                "msg4": "Waar moet ik heen voor mijn zomervakantie?"
             },
             "isTyping": "${name} is aan het typen...",
             "messageHint": "Vraag me iets",
@@ -188,16 +188,16 @@
                 "title": "Instagram Verbinden"
             },
             "page_one": {
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
-                "title": "Toekomst Van Reizen"
+                "subtitle": "Laat ons je de mooiste bestemmingen ter wereld laten zien en vind de perfecte plek voor je volgende reis",
+                "title": "Ontdek uw volgende\nBestemming"
             },
             "page_three": {
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
-                "title": "Aangepast Aan Jou"
+                "subtitle": "We nemen de rompslomp van het boeken weg door de best geprijsde en handigste accommodaties, vluchten en ervaringen te vinden die aan uw behoeften voldoen",
+                "title": "Boek uw reis"
             },
             "page_two": {
-                "subtitle": "Voeg ideeën toe, ontvang feedback en zie hoe je reisprogramma vorm krijgt terwijl je je topkeuzes voor de reis uitzoekt.",
-                "title": "Prachtige Bestemmingen"
+                "subtitle": "Hoe lang is de vlucht? Is het goed voor koppels? Wat is de goedkoopste accommodatie? Geen vraag is te groot of te klein",
+                "title": "Leer alles wat je\nMoet Weten"
             },
             "video": {
                 "button": "Laten we gaan!",
@@ -212,7 +212,7 @@
             }
         },
         "things_ask": {
-            "ask_layla": "Vraag het aan Layla",
+            "ask_layla": "Vraag het Layla",
             "description": "Ik ben hier om je te helpen je volgende avontuur te plannen. Vraag me alles over de bestemming, ik heb het antwoord. Hier zijn een paar dingen die mensen me al hebben gevraagd...",
             "possible_prompts": "Veelgestelde vragen",
             "title": "Dingen die je me kunt vragen!"
@@ -281,6 +281,11 @@
         "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
         "select_a_flight": "Selecteer een vlucht",
         "start_booking": "Boeking starten",
+        "stats": {
+            "budget": "Begroting geschat.",
+            "for_your_dates": "Voor uw data",
+            "min_days": "Min te besteden dagen"
+        },
         "things_to_do": "Dingen om te doen",
         "traveling_from": "Reizen vanuit",
         "view_map": "Bekijk kaart"
@@ -412,7 +417,7 @@
         "age_13_or_above": "Leeftijd 13 of ouder",
         "age_2_13": "Leeftijd 2-13",
         "all_reviews": "Alle beoordelingen",
-        "before_you_book": "Controleer voordat u boekt of u comfortabel bent met het annuleringsbeleid van deze gastheer. Houd er rekening mee dat Airbnb's bijzondere omstandigheden beleid geen annuleringen dekt vanwege ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
+        "before_you_book": "Controleer voordat je boekt of je tevreden bent met de annuleringsvoorwaarden van dit hotel. Houd er rekening mee dat het beleid voor verzachtende omstandigheden niet geldt voor annuleringen als gevolg van ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
         "cancel_by": "Annuleren door",
         "cancellation_policy": "Annuleringsbeleid",
         "check_availability": "Beschikbaarheid controleren",
@@ -472,6 +477,10 @@
         "no_videos": "Sorry, we hebben geen video's\nvoor dit hotel",
         "partial_refund": "Gedeeltelijke terugbetaling: Krijg ${name} % van elke nacht terug. Geen terugbetaling van de servicekosten",
         "pets_allowed": "Huisdieren zijn toegestaan, kosten kunnen van toepassing zijn",
+        "price_for_night": {
+            "one": "Prijs voor ${n} nacht",
+            "other": "Prijs ${n} nachten"
+        },
         "property_facilities": "Faciliteiten van de accommodatie",
         "property_location": "Locatie van de accommodatie",
         "property_making_efforts": "Deze accommodatie maakt aanzienlijke investeringen en inspanningen om duurzamer te worden. Hun milieu- en sociale impact wordt gemeten op basis van hun omvang en locatie",
@@ -827,7 +836,7 @@
         "Romantisch",
         "Sport",
         "Top Categorie",
-        "dingen om te doen"
+        "Dingen om te doen"
     ],
     "videos": "Video's",
     "view": "Bekijken",

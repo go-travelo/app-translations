@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Inspírame Sobre Dónde Ir De Viaje",
-                "msg2": "Encuéntrame Vuelos Baratos",
+                "msg2": "Encuéntrame vuelos baratos desde mi ciudad",
                 "msg3": "Constrúyeme Un Itinerario",
-                "msg4": "¿Dónde Debería Alojarme?"
+                "msg4": "¿A dónde debo ir para mis vacaciones de verano?"
             },
             "isTyping": "${name} está escribiendo...",
             "messageHint": "Pregúntame lo que sea",
@@ -281,6 +281,11 @@
         "no_videos": "Lo siento, no tenemos videos\npara este destino",
         "select_a_flight": "Selecciona un vuelo",
         "start_booking": "Comenzar reserva",
+        "stats": {
+            "budget": "Presupuesto est.",
+            "for_your_dates": "Para tus fechas",
+            "min_days": "Días mínimos para gastar"
+        },
         "things_to_do": "Cosas que hacer",
         "traveling_from": "Viajando desde",
         "view_map": "Ver mapa"
@@ -412,7 +417,7 @@
         "age_13_or_above": "Edad 13 o más",
         "age_2_13": "Edad 2-13",
         "all_reviews": "Todas las reseñas",
-        "before_you_book": "Antes de reservar, asegúrate de estar cómodo con la política de cancelación de este anfitrión. Ten en cuenta que la política de Circunstancias Atenuantes de Airbnb no cubre cancelaciones debido a enfermedades o interrupciones de viaje causadas por COVID-19.",
+        "before_you_book": "Antes de reservar, asegúrate de estar cómodo con la política de cancelación de este hotel. Ten en cuenta que la política de Circunstancias Atenuantes no cubre cancelaciones debido a enfermedades o interrupciones de viaje causadas por COVID-19.",
         "cancel_by": "Cancelar antes de",
         "cancellation_policy": "Política de cancelación",
         "check_availability": "Verificar disponibilidad",
@@ -472,6 +477,10 @@
         "no_videos": "Lo siento, no tenemos videos\npara este hotel",
         "partial_refund": "Reembolso parcial: Recibe ${name} % de cada noche. Sin reembolso de la tarifa de servicio",
         "pets_allowed": "Se admiten mascotas, pueden aplicarse cargos",
+        "price_for_night": {
+            "one": "Precio por ${n} noche",
+            "other": "Precio ${n} noches"
+        },
         "property_facilities": "Instalaciones de la propiedad",
         "property_location": "Ubicación de la propiedad",
         "property_making_efforts": "Esta propiedad está haciendo inversiones y esfuerzos considerables para ser más sostenible. Su impacto ambiental y social se mide según su tamaño y ubicación",

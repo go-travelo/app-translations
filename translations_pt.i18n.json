@@ -51,7 +51,7 @@
         "collaborating_and_one_more": "${name} e mais um estão colaborando com você.",
         "collaborating_two": "${first} e ${second} estão colaborando com você.",
         "collaborating_two_and_more": "${first} e mais ${count} estão colaborando com você..",
-        "copy": "Copiar",
+        "copy": "Copiar para editar",
         "create_bucketlist": "Criar lista de desejos",
         "create_new_bucketlist": "Criar nova lista de desejos",
         "create_your_first_bucketlist": "Crie a sua primeira lista de desejos",
@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Me inspire para onde ir em seguida",
-                "msg2": "Encontre voos baratos para mim",
-                "msg3": "Monte um itinerário para mim",
-                "msg4": "Onde devo me hospedar?"
+                "msg2": "Encontre-me voos baratos da minha cidade",
+                "msg3": "Construa-me um itinerário",
+                "msg4": "Onde devo ir nas minhas férias de verão?"
             },
             "isTyping": "${name} está digitando...",
             "messageHint": "Me pergunte qualquer coisa",
@@ -188,16 +188,16 @@
                 "title": "Conecte-se ao Instagram"
             },
             "page_one": {
-                "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem.",
+                "subtitle": "Deixe-nos mostrar-lhe os destinos mais bonitos do mundo e encontre o local perfeito para a sua próxima viagem",
                 "title": "Futuro das Viagens"
             },
             "page_three": {
-                "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem.",
+                "subtitle": "Eliminamos o incómodo das reservas, encontrando os alojamentos, voos e experiências mais convenientes e com os melhores preços para satisfazer as suas necessidades",
                 "title": "Personalizado Para Você"
             },
             "page_two": {
-                "subtitle": "Adicione ideias, receba feedback e veja seu itinerário tomar forma enquanto escolhe suas melhores opções para a viagem.",
-                "title": "Belos Destinos"
+                "subtitle": "Quanto tempo dura o voo? É bom para casais? Qual é o alojamento mais barato? Nenhuma pergunta é demasiado grande ou demasiado pequena",
+                "title": "Aprenda tudo o que você\nPrecisa Saber"
             },
             "video": {
                 "button": "Vamos lá!",
@@ -281,6 +281,11 @@
         "no_videos": "Desculpa, não temos vídeos\npara este destino",
         "select_a_flight": "Selecione um voo",
         "start_booking": "Começar Reserva",
+        "stats": {
+            "budget": "Orçamento est.",
+            "for_your_dates": "Para suas datas",
+            "min_days": "Mínimo de dias para gastar"
+        },
         "things_to_do": "Coisas para fazer",
         "traveling_from": "Viajando de",
         "view_map": "Ver Mapa"
@@ -412,7 +417,7 @@
         "age_13_or_above": "Idade 13 ou acima",
         "age_2_13": "Idade entre 2-13",
         "all_reviews": "Todos os comentários",
-        "before_you_book": "Antes de reservar, certifique-se de que você está de acordo com a política de cancelamento deste anfitrião. Lembre-se de que a política de circunstâncias atenuantes do Airbnb não cobre cancelamentos devido a doença ou interrupções de viagem causadas pela COVID-19.",
+        "before_you_book": "Antes de reservar, certifique-se de que está confortável com a política de cancelamento deste hotel. Tenha em mente que a política de circunstâncias atenuantes não cobre cancelamentos devido a doença ou interrupções de viagem causadas pela COVID-19.",
         "cancel_by": "Cancelar até",
         "cancellation_policy": "Política de cancelamento",
         "check_availability": "Verificar disponibilidade",
@@ -472,6 +477,10 @@
         "no_videos": "Desculpe, não temos vídeos\ndeste hotel",
         "partial_refund": "Reembolso parcial: Receba de volta ${name} % por cada noite. Não há reembolso da taxa de serviço",
         "pets_allowed": "Animais de estimação são permitidos, podem ser aplicadas taxas",
+        "price_for_night": {
+            "one": "Preço para ${n} noite",
+            "other": "Preço ${n} noites"
+        },
         "property_facilities": "Instalações da propriedade",
         "property_location": "Localização da propriedade",
         "property_making_efforts": "Esta propriedade está fazendo investimentos significativos e esforços para se tornar mais sustentável. Seu impacto ambiental e social é medido de acordo com seu tamanho e localização",
