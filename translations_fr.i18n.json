@@ -42,7 +42,7 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "Ajouter à la liste de favoris",
-        "as_you_search": "Pendant votre recherche, appuyez sur l'icône de coeur pour enregistrer vos lieux et expériences préférés dans votre liste de favoris.",
+        "as_you_search": "Lorsque vous vous promenez dans l'application, il vous suffit de toucher le cœur sur ce qui vous plaît pour l'ajouter à votre liste de choses à faire, puis d'inviter vos amis à en faire une fête de planification. Remplissons quelques listes de seaux, voulez-vous ?",
         "bucketlist": "Liste de favoris: ${name}",
         "bucketlist_copied": "Liste de souhaits ${name} copiée avec succès",
         "bucketlist_created": "Liste de souhaits créée avec succès",
@@ -51,7 +51,7 @@
         "collaborating_and_one_more": "${name} et une autre personne collaborent avec vous.",
         "collaborating_two": "${first} et ${second} collaborent avec vous.",
         "collaborating_two_and_more": "${first} et ${count} autres personnes collaborent avec vous..",
-        "copy": "Copier",
+        "copy": "Copier pour éditer",
         "create_bucketlist": "Créer une liste de souhaits",
         "create_new_bucketlist": "Créer une nouvelle liste de favoris",
         "create_your_first_bucketlist": "Créez votre première liste de favoris",
@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Inspire-moi où aller ensuite",
-                "msg2": "Trouve-moi des vols bon marché",
+                "msg2": "Trouvez des vols bon marché au départ de ma ville",
                 "msg3": "Construis-moi un itinéraire",
-                "msg4": "Où devrais-je séjourner ?"
+                "msg4": "Où devrais-je aller pour mes vacances d'été ?"
             },
             "isTyping": "${name} est en train d'écrire...",
             "messageHint": "Demandez-moi n'importe quoi",
@@ -188,16 +188,16 @@
                 "title": "Connectez Instagram"
             },
             "page_one": {
-                "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage.",
-                "title": "Futur Du Voyage"
+                "subtitle": "Laissez-nous vous montrer les plus belles destinations du monde et trouver l’endroit idéal pour votre prochain voyage",
+                "title": "Découvrez votre prochaine\ndestination"
             },
             "page_three": {
-                "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage.",
-                "title": "Personnalisé Pour Vous"
+                "subtitle": "Nous vous débarrassons des tracas de la réservation en trouvant les hébergements, les vols et les expériences les plus avantageux et les plus pratiques pour répondre à vos besoins.",
+                "title": "Réservez votre voyage"
             },
             "page_two": {
-                "subtitle": "Ajoutez des idées, recevez des retours, et voyez votre itinéraire se former en choisissant vos meilleures options pour le voyage.",
-                "title": "Belles Destinations"
+                "subtitle": "Quelle est la durée du vol ? Est-ce que c'est bon pour les couples ? Quel est l'hébergement le moins cher ? Aucune question n'est trop grande ou trop petite",
+                "title": "Apprenez tout ce que vous\n Dois savoir"
             },
             "video": {
                 "button": "Allons-y !",
@@ -281,6 +281,11 @@
         "no_videos": "Désolé, nous n'avons pas de vidéos\npour cette destination",
         "select_a_flight": "Sélectionner un vol",
         "start_booking": "Commencer la réservation",
+        "stats": {
+            "budget": "Budget estimé.",
+            "for_your_dates": "Pour vos dates",
+            "min_days": "Min jours à passer"
+        },
         "things_to_do": "Choses à faire",
         "traveling_from": "Voyage depuis",
         "view_map": "Voir la carte"
@@ -412,7 +417,7 @@
         "age_13_or_above": "Âge 13 ans ou plus",
         "age_2_13": "Âge 2-13 ans",
         "all_reviews": "Tous les avis",
-        "before_you_book": "Avant de réserver, assurez-vous d'être à l'aise avec la politique d'annulation de cet hôte. Notez que la politique de circonstances atténuantes d'Airbnb ne couvre pas les annulations dues à des maladies ou à des perturbations de voyage causées par le COVID-19.",
+        "before_you_book": "Avant de réserver, assurez-vous que vous êtes à l'aise avec les conditions d'annulation de cet hôtel. N'oubliez pas que la politique relative aux circonstances atténuantes ne couvre pas les annulations pour cause de maladie ou de perturbation du voyage causée par le COVID-19.",
         "cancel_by": "Annuler par",
         "cancellation_policy": "Politique d'annulation",
         "check_availability": "Vérifier la disponibilité",
@@ -472,6 +477,10 @@
         "no_videos": "Désolé, nous n'avons pas de vidéos\npour cet hôtel",
         "partial_refund": "Remboursement partiel : récupérez ${name} % de chaque nuit. Aucun remboursement des frais de service",
         "pets_allowed": "Les animaux de compagnie sont admis, des frais peuvent s'appliquer",
+        "price_for_night": {
+            "one": "Prix pour ${n} nuit",
+            "other": "Prix ${n} nuits"
+        },
         "property_facilities": "Installations de la propriété",
         "property_location": "Localisation de la propriété",
         "property_making_efforts": "Cette propriété fait des investissements considérables et des efforts pour devenir plus durable. Leur impact environnemental et social est mesuré en fonction de leur taille et de leur emplacement",

@@ -40,7 +40,7 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "添加至心愿单",
-        "as_you_search": "在搜索时，点击心形图标可将您最喜欢的地方和体验保存至心愿单。",
+        "as_you_search": "当你在应用程序中漫游时，只需在喜欢的事物上点击心形，就能将其添加到你的水桶清单中，然后邀请你的朋友们来开个计划派对。让我们一起填满水桶清单，好吗？",
         "bucketlist": "心愿单: ${name}",
         "bucketlist_copied": "水桶名单 ${name} 复制成功",
         "bucketlist_created": "心愿单创建成功",
@@ -126,9 +126,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "给我灵感，下一个去哪里",
-                "msg2": "为我找便宜的航班",
+                "msg2": "为我查找从我所在城市出发的廉价航班",
                 "msg3": "为我制定行程",
-                "msg4": "我应该住在哪里？"
+                "msg4": "我的暑假应该去哪里？"
             },
             "isTyping": "${name} 正在输入...",
             "messageHint": "随便问我",
@@ -183,7 +183,7 @@
                 "title": "连接 Instagram"
             },
             "page_one": {
-                "subtitle": "让我们为您展示世界上最美的目的地，并为您的下次旅行找到完美的地点",
+                "subtitle": "让我们带您领略世界上最美丽的旅游胜地，为您的下一次旅行寻找最完美的地方",
                 "title": "发现您的下一个\n目的地"
             },
             "page_three": {
@@ -191,8 +191,8 @@
                 "title": "预定您的旅行"
             },
             "page_two": {
-                "subtitle": "飞行多久？适合情侣吗？最便宜的住宿是什么？没有问题是太大还是太小的",
-                "title": "了解所需知识\n的一切"
+                "subtitle": "飞行多长时间？对夫妻有好处吗？最便宜的住宿是哪家？没有太大或太小的问题",
+                "title": "学习你的一切\n需要知道"
             },
             "video": {
                 "button": "开始吧！",
@@ -262,7 +262,7 @@
         "add_destination": "添加目的地",
         "around_destination": "在${destination}附近",
         "ask_anything": "询问任何事情...",
-        "book_flights": "订购机票",
+        "book_flights": "预订航班",
         "change_departure": "更改出发地",
         "check_out_this_place": "我知道我们下一步应该一起去哪。在Layla上我发现了一个地方。",
         "closest_airport": "距离${destination}最近的机场",
@@ -274,6 +274,11 @@
         "no_videos": "对不起，我们没有这个目的地的视频",
         "select_a_flight": "选择航班",
         "start_booking": "开始预订",
+        "stats": {
+            "budget": "预算估算",
+            "for_your_dates": "为了您的日期",
+            "min_days": "最少花费天数"
+        },
         "things_to_do": "可做的事情",
         "traveling_from": "起飞地",
         "view_map": "查看地图"
@@ -400,7 +405,7 @@
         "age_13_or_above": "13岁或以上",
         "age_2_13": "2-13岁",
         "all_reviews": "所有评论",
-        "before_you_book": "预订前，请确保您对此房东的取消政策感到满意。请注意，Airbnb的特殊情况政策不包括因COVID-19导致的疾病或旅行中断的取消。",
+        "before_you_book": "预订前，请确保您对这家酒店的取消政策感到满意。请记住，\"特殊情况 \"政策不包括因疾病或 COVID-19 导致的旅行中断而取消预订的情况。",
         "cancel_by": "取消日期",
         "cancellation_policy": "取消政策",
         "check_availability": "检查可用性",
@@ -459,6 +464,9 @@
         "no_videos": "对不起，我们没有这家酒店的视频",
         "partial_refund": "部分退款：退还您每晚${name}%的费用。服务费不退款",
         "pets_allowed": "允许携带宠物，可能需要额外收费",
+        "price_for_night": {
+            "other": "价格 ${n} 晚"
+        },
         "property_facilities": "物业设施",
         "property_location": "物业位置",
         "property_making_efforts": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",

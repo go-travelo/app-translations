@@ -131,9 +131,9 @@
             },
             "initialQuickReplies": {
                 "msg1": "Inspire Me Where To Go Next",
-                "msg2": "Find Me Cheap Flights",
+                "msg2": "Find me flights from my city",
                 "msg3": "Build Me An Itinerary",
-                "msg4": "Where Should I Stay?"
+                "msg4": "Where should I go for my summer vacation?"
             },
             "isTyping": "${name} is typing...",
             "messageHint": "Ask me anything",
@@ -417,7 +417,7 @@
         "age_13_or_above": "Age 13 or above",
         "age_2_13": "Age 2-13",
         "all_reviews": "All reviews",
-        "before_you_book": "Before you book, make sure you're comfortable with this Host's cancellation policy. Keep in mind that Airbnb's Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
+        "before_you_book": "Before you book, make sure you're comfortable with this hotel's cancellation policy. Keep in mind that Extenuating Circumstances policy doesn't cover cancellations due to illness or travel disruptions caused by COVID-19.",
         "cancel_by": "Cancel by",
         "cancellation_policy": "Cancellation policy",
         "check_availability": "Check availability",
