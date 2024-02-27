@@ -50,7 +50,7 @@
         "bucketlist_will_be_removed": "${name} sera supprimé de vos listes de favoris.",
         "collaborating_and_one_more": "${name} et un autre planifient avec toi.",
         "collaborating_two": "${first} et ${second} prévoient avec toi.",
-        "collaborating_two_and_more": "{first} $ et{count} $ supplémentaires sont prévus avec vous...",
+        "collaborating_two_and_more": "${first} et ${count} supplémentaires sont prévus avec vous...",
         "copy": "Copier pour éditer",
         "create_bucketlist": "Créer une liste de souhaits",
         "create_new_bucketlist": "Créer une nouvelle liste de favoris",

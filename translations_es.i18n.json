@@ -86,7 +86,7 @@
         },
         "my_bucketlist": "Mi lista de deseos",
         "name": "Nombre",
-        "name_is_collaborating": "${nombre} está planeando contigo.",
+        "name_is_collaborating": "${name} está planeando contigo.",
         "no_collaborators": "Todavía no se ha compartido.",
         "no_name": "Sin nombre",
         "one_person": "Una persona",

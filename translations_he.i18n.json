@@ -344,7 +344,7 @@
             "יעד ברמה גבוהה",
             "יעד יוקרתי"
         ],
-        "return_with_bullet": " {$code} חוזר",
+        "return_with_bullet": " ${code} חוזר",
         "round_hrs": "${val} שעות",
         "scroll_down_to_see_more": "גלול\/גללי למטה כדי לראות עוד מידע",
         "show_only_direct_flights": "הציגי רק טיסות ישירות",
