@@ -40,15 +40,15 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "添加至心愿单",
-        "as_you_search": "当你在应用程序中漫游时，只需在喜欢的事物上点击心形，就能将其添加到你的水桶清单中，然后邀请你的朋友们来开个计划派对。让我们一起填满水桶清单，好吗？",
+        "as_you_search": "在探索的过程中，点击心形按钮可将喜欢的事物添加到水桶清单中。您还可以邀请朋友与您一起计划。",
         "bucketlist": "心愿单: ${name}",
         "bucketlist_copied": "水桶名单 ${name} 复制成功",
         "bucketlist_created": "心愿单创建成功",
         "bucketlist_saved": "心愿单保存成功",
         "bucketlist_will_be_removed": "${name}将从您的心愿单中移除。",
-        "collaborating_and_one_more": "${name}和另一人正在与您合作。",
-        "collaborating_two": "${first}和${second}正在与您合作。",
-        "collaborating_two_and_more": "${first}和多于${count}的人正在与您合作。。",
+        "collaborating_and_one_more": "{name} 美元，还有一个正在与您一起计划。",
+        "collaborating_two": "{first} 美元和{second} 美元与您一起规划。",
+        "collaborating_two_and_more": "${first} 和 ${count} 更多正在与你一起计划。.",
         "copy": "复制到编辑",
         "create_bucketlist": "创建心愿单",
         "create_new_bucketlist": "创建新的心愿单",
@@ -73,8 +73,8 @@
                 "subtitle": "${s} 邀请您查看他们的愿望清单。下载 Layla 应用程序，将其保存起来，创建您的下一次旅行。",
                 "title": "保存这份水桶清单"
             },
-            "invited_you": "${username}邀请你加入他的愿望清单",
-            "login_to_collaborate": "登录以合作",
+            "invited_you": "${username} 邀请您加入他们的遗愿清单。登录 Layla 保存并创建您的下一次旅行！",
+            "login_to_collaborate": "登录以帮助规划",
             "login_to_view": "登录查看",
             "one_person": "一人",
             "people": "人民",
@@ -83,12 +83,12 @@
         },
         "my_bucketlist": "我的心愿单",
         "name": "姓名",
-        "name_is_collaborating": "${name}正在与您合作。",
-        "no_collaborators": "尚无合作者。",
+        "name_is_collaborating": "{name} 美元与您一起规划。",
+        "no_collaborators": "暂无共享。",
         "no_name": "无名",
         "one_person": "一人",
         "people_collaborating_with_you": {
-            "other": "${n}人正在与您合作。"
+            "other": "${n} 人与您一起计划。"
         },
         "save_destinations": "保存目的地",
         "share": "邀请",
@@ -97,7 +97,7 @@
             "edit_message": "用户可以编辑愿望清单",
             "message": "您想如何分享这份愿望清单？",
             "title": "邀请加入",
-            "title_alt": "邀请加入",
+            "title_alt": "邀请加入遗愿清单",
             "view": "仅查看",
             "view_message": "用户将能查看愿望清单"
         },
@@ -122,7 +122,7 @@
                 "bad_response": "不好的回答",
                 "copy": "复制",
                 "good_response": "好的回答",
-                "message_copied": "消息已成功复制"
+                "message_copied": "复制的信息"
             },
             "initialQuickReplies": {
                 "msg1": "给我灵感，下一个去哪里",
@@ -187,7 +187,7 @@
                 "title": "发现您的下一个\n目的地"
             },
             "page_three": {
-                "subtitle": "我们通过寻找最佳价格和最方便的住宿，航班和体验来减少预订的麻烦，以满足您的需求",
+                "subtitle": "我们通过寻找价格最优惠、最方便的住宿、航班和体验来满足您的需求，从而消除预订的麻烦",
                 "title": "预定您的旅行"
             },
             "page_two": {
@@ -247,7 +247,7 @@
     "done": "完成",
     "download_app": {
         "button": "免费下载 Layla",
-        "subtitle": "获取应用程序，获得个性化的优化体验。轻松同步，享受专为您量身定制的推荐！",
+        "subtitle": "获取该应用程序，获得最佳的 Layla 体验。一站式享受个性化推荐和旅行计划！",
         "title": "下载应用程序"
     },
     "duration": "持续时间",
@@ -264,7 +264,7 @@
         "ask_anything": "询问任何事情...",
         "book_flights": "预订航班",
         "change_departure": "更改出发地",
-        "check_out_this_place": "我知道我们下一步应该一起去哪。在Layla上我发现了一个地方。",
+        "check_out_this_place": "我找到了我们的下一次旅行。在 Layla 上查看！",
         "closest_airport": "距离${destination}最近的机场",
         "distance_from_origin": "距离起始地${distance}公里${origin}",
         "how_to_get_there": "如何到达那里",
@@ -279,7 +279,7 @@
             "for_your_dates": "为了您的日期",
             "min_days": "最少花费天数"
         },
-        "things_to_do": "可做的事情",
+        "things_to_do": "经历",
         "traveling_from": "起飞地",
         "view_map": "查看地图"
     },
@@ -389,7 +389,7 @@
         "travellers": {
             "other": "${n} 位旅行者"
         },
-        "we_collected_cheapest_providers": "我们为您收集了最便宜的供应商。请选择您想要购买机票的网站！",
+        "we_collected_cheapest_providers": "以下是Skyscanner值得信赖的旅行合作伙伴，可通过其预订航班 - 选择您想从中购买机票的网站！",
         "where_from": "从哪里出发？",
         "where_to": "去哪里？"
     },
@@ -426,7 +426,7 @@
             "see_more_flights": "查看更多航班",
             "show_all": "显示全部",
             "stay_options": "住宿选择",
-            "things_to_do": "要做的事情",
+            "things_to_do": "经历",
             "travel_km_further": "再往前走 ${distance} 公里",
             "youre_in_luck": "你很幸运"
         },
@@ -623,7 +623,7 @@
         "where_will_you_depart_from": "你会从哪里出发？"
     },
     "one_way": "单程",
-    "opps": "哎呀!",
+    "opps": "哎呀！",
     "person": {
         "other": "${n}个人"
     },
@@ -725,7 +725,7 @@
     "stops": "停靠",
     "support": "支持",
     "thing_todo": {
-        "things_to_do": "要做的事"
+        "things_to_do": "经历"
     },
     "time_ago": {
         "days": {
@@ -753,12 +753,12 @@
     "today": "今天",
     "tooltips": {
         "skipIntro": "跳过介绍",
-        "tap_to_add_to_bucketlist": "保存和协作，点击以添加到遗愿清单。",
+        "tap_to_add_to_bucketlist": "点击以保存到您的遗愿清单。",
         "tap_to_bucketlist": "点击以加入心愿单",
         "tap_to_chat": "点击以聊天",
         "tap_to_filter": "点击以过滤",
         "tap_to_help_country": "计划去 ${country} 旅行需要任何帮助吗？",
-        "tap_to_open_menu": "轻点打开菜单面板",
+        "tap_to_open_menu": "轻点打开菜单",
         "tap_to_start_new_chat": "轻点开始新聊天"
     },
     "total": "总计",
@@ -806,7 +806,7 @@
         "浪漫",
         "体育",
         "顶级类别",
-        "顶级类别"
+        "经历"
     ],
     "videos": "视频",
     "view": "查看",
@@ -823,7 +823,7 @@
     ],
     "weekend": "周末",
     "what": "什么",
-    "what_can_i_ask": "我可以问什么？",
+    "what_can_i_ask": "我能问什么呢？",
     "when": "何时",
     "where_from": "从哪里出发",
     "where_to": "去哪里",
