@@ -48,7 +48,7 @@
         "bucketlist_created": "Lista de desejos criada com sucesso",
         "bucketlist_saved": "Lista de desejos salva com sucesso",
         "bucketlist_will_be_removed": "${name} será removido das suas listas de desejos.",
-        "collaborating_and_one_more": "${nome} e mais um estão planejando com você.",
+        "collaborating_and_one_more": "${name} e mais um estão planejando com você.",
         "collaborating_two": "${first} e ${second} estão planejando com você.",
         "collaborating_two_and_more": "${first} e ${count} mais estão a planear consigo...",
         "copy": "Copiar para editar",
