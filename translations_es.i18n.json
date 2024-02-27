@@ -42,15 +42,15 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "Agregar a lista de deseos",
-        "as_you_search": "Mientras exploras la aplicación, simplemente toca el corazón en lo que te guste para agregarlo a tu lista de deseos y luego invita a tus amigos para planificar en conjunto. ¡Llenemos algunas listas de deseos, ¿de acuerdo?",
+        "as_you_search": "Mientras exploras, toca el corazón para agregar cosas que te gustan a una lista de deseos. También puedes invitar a amigos a planear contigo.",
         "bucketlist": "Lista de deseos: ${name}",
         "bucketlist_copied": "Lista de deseos ${name} copiada exitosamente",
         "bucketlist_created": "Lista de deseos creada exitosamente",
         "bucketlist_saved": "Lista de deseos guardada exitosamente",
         "bucketlist_will_be_removed": "${name} será eliminado de tus listas de deseos.",
-        "collaborating_and_one_more": "${name} y una persona más están colaborando contigo.",
-        "collaborating_two": "${first} y ${second} están colaborando contigo.",
-        "collaborating_two_and_more": "${first} y ${count} más están colaborando contigo.",
+        "collaborating_and_one_more": "${name} y uno más están planeando contigo.",
+        "collaborating_two": "${first} y ${second} están planeando contigo.",
+        "collaborating_two_and_more": "${first} y ${count} más están planeando contigo..",
         "copy": "Copiar para editar",
         "create_bucketlist": "Crear lista de deseos",
         "create_new_bucketlist": "Crear nueva lista de deseos",
@@ -77,7 +77,7 @@
                 "title": "¡Guarda esta lista de deseos!"
             },
             "invited_you": "${username} te invitó a su lista de deseos. ¡Inicia sesión para guardar y crear tu próximo viaje en Layla!",
-            "login_to_collaborate": "Inicia sesión para colaborar",
+            "login_to_collaborate": "Inicie sesión para ayudar a planificar",
             "login_to_view": "Inicia sesión para ver",
             "one_person": "Una persona",
             "people": "gente",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "Mi lista de deseos",
         "name": "Nombre",
-        "name_is_collaborating": "${name} está colaborando contigo.",
-        "no_collaborators": "Sin colaboradores todavía.",
+        "name_is_collaborating": "${nombre} está planeando contigo.",
+        "no_collaborators": "Todavía no se ha compartido.",
         "no_name": "Sin nombre",
         "one_person": "Una persona",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "${n} personas están colaborando contigo."
+            "other": "${n} personas están planeando contigo."
         },
         "save_destinations": "Guardar destinos",
         "share": "Invitar",
@@ -101,7 +101,7 @@
             "edit_message": "Los usuarios podrán editar la lista de deseos",
             "message": "¿Cómo te gustaría compartir esta lista de deseos?",
             "title": "Invitar a lista de deseos",
-            "title_alt": "Invitar a colaborar",
+            "title_alt": "Invitar a la lista de deseos",
             "view": "Solo ver",
             "view_message": "Los usuarios podrán ver la lista de deseos"
         },
@@ -127,7 +127,7 @@
                 "bad_response": "Mala respuesta",
                 "copy": "Copiar",
                 "good_response": "Buena respuesta",
-                "message_copied": "Mensaje copiado exitosamente"
+                "message_copied": "Mensaje copiado"
             },
             "initialQuickReplies": {
                 "msg1": "Inspírame Sobre Dónde Ir De Viaje",
@@ -254,7 +254,7 @@
     "done": "Listo",
     "download_app": {
         "button": "Descarga Layla gratis",
-        "subtitle": "Obtén la aplicación para disfrutar de una experiencia personalizada y optimizada. ¡Sincroniza sin esfuerzo y disfruta de recomendaciones diseñadas especialmente para ti!",
+        "subtitle": "Obtén la aplicación para disfrutar de la mejor experiencia con Layla. ¡Disfruta de recomendaciones personalizadas y planes de viaje en un solo lugar!",
         "title": "Descarga la aplicación"
     },
     "duration": "Duración",
@@ -286,7 +286,7 @@
             "for_your_dates": "Para tus fechas",
             "min_days": "Días mínimos para gastar"
         },
-        "things_to_do": "Cosas que hacer",
+        "things_to_do": "Experiencias",
         "traveling_from": "Viajando desde",
         "view_map": "Ver mapa"
     },
@@ -400,7 +400,7 @@
             "one": "${n} viajero",
             "other": "${n} viajeros"
         },
-        "we_collected_cheapest_providers": "Hemos recopilado los proveedores más económicos para ti. ¡Selecciona un sitio donde te gustaría comprar el billete!",
+        "we_collected_cheapest_providers": "Estos son los socios de viaje de confianza de Skyscanner para reservar tu vuelo: ¡selecciona el sitio en el que te gustaría comprar el billete!",
         "where_from": "¿De dónde?",
         "where_to": "¿A dónde?"
     },
@@ -439,7 +439,7 @@
             "see_more_flights": "Ver más vuelos",
             "show_all": "Mostrar todo",
             "stay_options": "Opciones de estadía",
-            "things_to_do": "Cosas para hacer",
+            "things_to_do": "Experiencias",
             "travel_km_further": "Viaja ${distance} km más",
             "youre_in_luck": "Estás de suerte"
         },
@@ -639,7 +639,7 @@
         "where_will_you_depart_from": "¿Desde dónde partirás?"
     },
     "one_way": "Un solo sentido",
-    "opps": "¡Ups!",
+    "opps": "¡Uy!",
     "person": {
         "one": "${n} persona",
         "other": "${n} personas"
@@ -748,7 +748,7 @@
     "stops": "Paradas",
     "support": "Soporte",
     "thing_todo": {
-        "things_to_do": "Cosas para hacer"
+        "things_to_do": "Experiencias"
     },
     "time_ago": {
         "days": {
@@ -782,12 +782,12 @@
     "today": "Hoy",
     "tooltips": {
         "skipIntro": "Saltar introducción",
-        "tap_to_add_to_bucketlist": "Guardar y colaborar, toca para agregar a la lista de deseos.",
+        "tap_to_add_to_bucketlist": "Toca para guardar en tu lista de deseos.",
         "tap_to_bucketlist": "Toca para la lista de deseos",
         "tap_to_chat": "Toca para chatear",
         "tap_to_filter": "Toca para filtrar",
         "tap_to_help_country": "¿Necesitas ayuda para planificar un viaje a ${country}?",
-        "tap_to_open_menu": "Toca para abrir el panel de menú",
+        "tap_to_open_menu": "Toca para abrir el menú",
         "tap_to_start_new_chat": "Toca para comenzar un nuevo chat"
     },
     "total": "Total",
@@ -836,7 +836,7 @@
         "Romántico",
         "Deportes",
         "Categoría Principal",
-        "Cosas para Hacer"
+        "Experiencias"
     ],
     "videos": "Videos",
     "view": "Ver",
@@ -853,7 +853,7 @@
     ],
     "weekend": "Fin de semana",
     "what": "Qué",
-    "what_can_i_ask": "¿Qué puedo preguntar?",
+    "what_can_i_ask": "¿Qué puedo pedir?",
     "when": "Cuándo",
     "where_from": "De dónde",
     "where_to": "Dónde ir",
