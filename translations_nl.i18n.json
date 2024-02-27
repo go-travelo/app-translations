@@ -42,15 +42,15 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "Voeg toe aan bucketlist",
-        "as_you_search": "Terwijl je door de app dwaalt, tik je eenvoudigweg met het hartje op wat je maar wilt om het aan je bucketlist toe te voegen en nodig je vrienden uit om er een planningsfeestje van te maken. Laten we wat bucketlists invullen, oké?",
+        "as_you_search": "Tik tijdens je verkenning op het hartje om dingen die je leuk vindt aan een bucketlist toe te voegen. Je kunt ook vrienden uitnodigen om met je mee te plannen.",
         "bucketlist": "Bucketlist: ${name}",
         "bucketlist_copied": "Bucketlist ${name} succesvol gekopieerd",
         "bucketlist_created": "Bucketlist succesvol gecreëerd",
         "bucketlist_saved": "Bucketlist succesvol opgeslagen",
         "bucketlist_will_be_removed": "${name} zal uit je bucketlists worden verwijderd.",
-        "collaborating_and_one_more": "${name} en nog één werken met je mee.",
-        "collaborating_two": "${first} en ${second} werken met je samen.",
-        "collaborating_two_and_more": "${first} en ${count} meer werken met je samen..",
+        "collaborating_and_one_more": "${name} en nog een zijn van plan met je.",
+        "collaborating_two": "${first} en ${second} plannen met je mee.",
+        "collaborating_two_and_more": "${first} en ${count} meer zijn van plan met u..",
         "copy": "Kopiëren naar bewerken",
         "create_bucketlist": "Bucketlist aanmaken",
         "create_new_bucketlist": "Maak een nieuwe bucketlist",
@@ -76,8 +76,8 @@
                 "subtitle": "${s} nodigden je uit om hun bucketlist te bekijken. Sla het op om je volgende reis te maken door de Layla-app te downloaden.",
                 "title": "Bewaar deze bucketlist!"
             },
-            "invited_you": "${username} nodigden je uit voor hun bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
-            "login_to_collaborate": "Log in om samen te werken",
+            "invited_you": "${username} nodigde je uit op hun Bucketlist. Log in om je volgende reis op Layla op te slaan en te maken!",
+            "login_to_collaborate": "Log in om te helpen plannen",
             "login_to_view": "Log in om te bekijken",
             "one_person": "Eén persoon",
             "people": "mensen",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "Mijn Bucketlist",
         "name": "Naam",
-        "name_is_collaborating": "${name} werkt met je samen.",
-        "no_collaborators": "Nog geen samenwerkers.",
+        "name_is_collaborating": "${name} is met jou aan het plannen.",
+        "no_collaborators": "Nog niet delen.",
         "no_name": "Geen Naam",
         "one_person": "Eén persoon",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "${n} mensen werken met jou mee."
+            "other": "${n} mensen zijn samen met jou aan het plannen."
         },
         "save_destinations": "Sla bestemmingen op",
         "share": "Uitnodigen",
@@ -101,7 +101,7 @@
             "edit_message": "Gebruikers kunnen de bucketlist bewerken",
             "message": "Hoe wil je deze bucketlist delen?",
             "title": "Uitnodigen voor Bucketlist",
-            "title_alt": "Uitnodigen om samen te werken",
+            "title_alt": "Uitnodigen voor Bucketlist",
             "view": "Alleen bekijken",
             "view_message": "Gebruikers kunnen de bucketlist bekijken"
         },
@@ -127,7 +127,7 @@
                 "bad_response": "Slecht antwoord",
                 "copy": "Kopiëren",
                 "good_response": "Goed antwoord",
-                "message_copied": "Bericht succesvol gekopieerd."
+                "message_copied": "Bericht gekopieerd"
             },
             "initialQuickReplies": {
                 "msg1": "Inspireer me voor mijn volgende reis",
@@ -254,7 +254,7 @@
     "done": "Gedaan",
     "download_app": {
         "button": "Download Layla gratis",
-        "subtitle": "Koop de app voor een persoonlijke, geoptimaliseerde ervaring. Synchroniseer moeiteloos en geniet van aanbevelingen die speciaal voor jou zijn gemaakt!",
+        "subtitle": "Download de app voor de beste Layla ervaring. Geniet van gepersonaliseerde aanbevelingen & reisplannen op één plek!",
         "title": "Download de app"
     },
     "duration": "Duur",
@@ -271,7 +271,7 @@
         "ask_anything": "Vraag alles...",
         "book_flights": "Boek vluchten",
         "change_departure": "Vertrek wijzigen",
-        "check_out_this_place": "Ik weet waar we samen heen moeten gaan. Bekijk deze plaats die ik vond op Layla",
+        "check_out_this_place": "Ik vond onze volgende reis samen. Bekijk het op Layla!",
         "closest_airport": "Dichtstbijzijnde vliegveld naar ${destination}",
         "distance_from_origin": "${distance}km van ${origin}",
         "how_to_get_there": "Hoe je er komt",
@@ -286,7 +286,7 @@
             "for_your_dates": "Voor uw data",
             "min_days": "Min te besteden dagen"
         },
-        "things_to_do": "Dingen om te doen",
+        "things_to_do": "Ervaringen",
         "traveling_from": "Reizen vanuit",
         "view_map": "Bekijk kaart"
     },
@@ -400,7 +400,7 @@
             "one": "${n} reiziger",
             "other": "${n} reizigers"
         },
-        "we_collected_cheapest_providers": "We hebben de goedkoopste aanbieders voor u verzameld. Selecteer de site waar je het ticket wilt kopen!",
+        "we_collected_cheapest_providers": "Hier zijn de vertrouwde reispartners van Skyscanner om uw vlucht te boeken - selecteer een site waar u het ticket wilt kopen!",
         "where_from": "Waar vandaan?",
         "where_to": "Waar naartoe?"
     },
@@ -417,7 +417,7 @@
         "age_13_or_above": "Leeftijd 13 of ouder",
         "age_2_13": "Leeftijd 2-13",
         "all_reviews": "Alle beoordelingen",
-        "before_you_book": "Controleer voordat je boekt of je tevreden bent met de annuleringsvoorwaarden van dit hotel. Houd er rekening mee dat het beleid voor verzachtende omstandigheden niet geldt voor annuleringen als gevolg van ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
+        "before_you_book": "Voordat u boekt, moet u ervoor zorgen dat u tevreden bent met de annuleringsvoorwaarden van dit hotel. Houd er rekening mee dat de Voorwaarden bij verzachtende omstandigheden geen dekking bieden voor annuleringen als gevolg van ziekte of reisonderbrekingen veroorzaakt door COVID-19.",
         "cancel_by": "Annuleren door",
         "cancellation_policy": "Annuleringsbeleid",
         "check_availability": "Beschikbaarheid controleren",
@@ -439,7 +439,7 @@
             "see_more_flights": "Bekijk meer vluchten",
             "show_all": "Toon alles",
             "stay_options": "Verblijfsopties",
-            "things_to_do": "Dingen om te doen",
+            "things_to_do": "Ervaringen",
             "travel_km_further": "Reis ${distance} km verder",
             "youre_in_luck": "Je hebt geluk"
         },
@@ -639,7 +639,7 @@
         "where_will_you_depart_from": "Waar vertrek je?"
     },
     "one_way": "Enkele reis",
-    "opps": "Opps!",
+    "opps": "Oeps!",
     "person": {
         "one": "${n} persoon",
         "other": "${n} mensen"
@@ -748,7 +748,7 @@
     "stops": "Stops",
     "support": "Ondersteuning",
     "thing_todo": {
-        "things_to_do": "Dingen om te doen"
+        "things_to_do": "Ervaringen"
     },
     "time_ago": {
         "days": {
@@ -782,12 +782,12 @@
     "today": "Vandaag",
     "tooltips": {
         "skipIntro": "Intro overslaan",
-        "tap_to_add_to_bucketlist": "Sla op en werk samen, tik om toe te voegen aan bucketlist.",
+        "tap_to_add_to_bucketlist": "Tik om op te slaan in je bucketlist.",
         "tap_to_bucketlist": "Tik voor bucketlist",
         "tap_to_chat": "Tik om te chatten",
         "tap_to_filter": "Tik om te filteren",
         "tap_to_help_country": "Hulp nodig bij het plannen van een reis naar ${country}?",
-        "tap_to_open_menu": "Tik om het menupaneel te openen",
+        "tap_to_open_menu": "Tik om het menu te openen",
         "tap_to_start_new_chat": "Tik om een nieuw gesprek te starten"
     },
     "total": "Totaal",
@@ -836,7 +836,7 @@
         "Romantisch",
         "Sport",
         "Top Categorie",
-        "Dingen om te doen"
+        "Ervaringen"
     ],
     "videos": "Video's",
     "view": "Bekijken",

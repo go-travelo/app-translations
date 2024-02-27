@@ -42,15 +42,15 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "Ajouter à la liste de favoris",
-        "as_you_search": "Lorsque vous vous promenez dans l'application, il vous suffit de toucher le cœur sur ce qui vous plaît pour l'ajouter à votre liste de choses à faire, puis d'inviter vos amis à en faire une fête de planification. Remplissons quelques listes de seaux, voulez-vous ?",
+        "as_you_search": "Au fur et à mesure de votre exploration, appuyez sur le cœur pour ajouter des choses que vous aimez à une liste de choses à faire. Vous pouvez également inviter des amis à planifier avec vous.",
         "bucketlist": "Liste de favoris: ${name}",
         "bucketlist_copied": "Liste de souhaits ${name} copiée avec succès",
         "bucketlist_created": "Liste de souhaits créée avec succès",
         "bucketlist_saved": "Liste de favoris enregistrée avec succès",
         "bucketlist_will_be_removed": "${name} sera supprimé de vos listes de favoris.",
-        "collaborating_and_one_more": "${name} et une autre personne collaborent avec vous.",
-        "collaborating_two": "${first} et ${second} collaborent avec vous.",
-        "collaborating_two_and_more": "${first} et ${count} autres personnes collaborent avec vous..",
+        "collaborating_and_one_more": "${name} et un autre planifient avec toi.",
+        "collaborating_two": "${first} et ${second} prévoient avec toi.",
+        "collaborating_two_and_more": "{first} $ et{count} $ supplémentaires sont prévus avec vous...",
         "copy": "Copier pour éditer",
         "create_bucketlist": "Créer une liste de souhaits",
         "create_new_bucketlist": "Créer une nouvelle liste de favoris",
@@ -76,8 +76,8 @@
                 "subtitle": "${s} vous a invité à consulter leur liste de choses à faire. Enregistrez-le pour créer votre prochain voyage en téléchargeant l’application Layla.",
                 "title": "Enregistrez cette liste de choses à faire avant de mourir !"
             },
-            "invited_you": "${username} vous a invité à rejoindre sa Bucketlist",
-            "login_to_collaborate": "Connectez-vous pour collaborer",
+            "invited_you": "${username} vous a invité sur sa Bucketlist. Connectez-vous pour enregistrer et créer votre prochain voyage sur Layla !",
+            "login_to_collaborate": "Connectez-vous pour aider à planifier",
             "login_to_view": "Connectez-vous pour afficher",
             "one_person": "Une personne",
             "people": "personnes",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "Ma liste de souhaits",
         "name": "Nom",
-        "name_is_collaborating": "${name} collabore avec vous.",
-        "no_collaborators": "Aucun collaborateur pour le moment.",
+        "name_is_collaborating": "${name} planifie avec toi.",
+        "no_collaborators": "Pas encore de partage.",
         "no_name": "Sans nom",
         "one_person": "Une personne",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "${n} personnes collaborent avec vous."
+            "other": "${n} personnes planifient avec vous."
         },
         "save_destinations": "Enregistrer des destinations",
         "share": "Inviter",
@@ -101,7 +101,7 @@
             "edit_message": "Les utilisateurs pourront modifier la liste de souhaits",
             "message": "Comment souhaitez-vous partager cette liste de souhaits ?",
             "title": "Inviter à la liste de souhaits",
-            "title_alt": "Inviter à collaborer",
+            "title_alt": "Inviter à Bucketlist",
             "view": "Lecture seule",
             "view_message": "Les utilisateurs pourront consulter la liste de souhaits"
         },
@@ -127,7 +127,7 @@
                 "bad_response": "Mauvaise réponse",
                 "copy": "Copier",
                 "good_response": "Bonne réponse",
-                "message_copied": "Message copié avec succès"
+                "message_copied": "Message copié"
             },
             "initialQuickReplies": {
                 "msg1": "Inspire-moi où aller ensuite",
@@ -192,7 +192,7 @@
                 "title": "Découvrez votre prochaine\ndestination"
             },
             "page_three": {
-                "subtitle": "Nous vous débarrassons des tracas de la réservation en trouvant les hébergements, les vols et les expériences les plus avantageux et les plus pratiques pour répondre à vos besoins.",
+                "subtitle": "Nous vous facilitons la tâche en trouvant les hébergements, vols et expériences les mieux tarifés et les plus pratiques pour répondre à vos besoins",
                 "title": "Réservez votre voyage"
             },
             "page_two": {
@@ -254,7 +254,7 @@
     "done": "Terminé",
     "download_app": {
         "button": "Télécharger Layla gratuitement",
-        "subtitle": "Obtenez l'application pour une expérience personnalisée et optimisée. Synchronisez sans effort et profitez de recommandations taillées sur mesure pour vous !",
+        "subtitle": "Obtenez l'application pour la meilleure expérience Layla. Profitez de recommandations personnalisées et de plans de voyage en un seul endroit !",
         "title": "Télécharger l'application"
     },
     "duration": "Durée",
@@ -271,7 +271,7 @@
         "ask_anything": "Posez une question...",
         "book_flights": "Réserver des vols",
         "change_departure": "Changer de départ",
-        "check_out_this_place": "Je sais où nous devrions aller ensemble. Regardez ce lieu que j'ai trouvé sur Layla",
+        "check_out_this_place": "J’ai trouvé notre prochain voyage ensemble. Découvrez-le sur Layla !",
         "closest_airport": "Aéroport le plus proche de ${destination}",
         "distance_from_origin": "à ${distance}km de ${origin}",
         "how_to_get_there": "Comment s'y rendre",
@@ -286,7 +286,7 @@
             "for_your_dates": "Pour vos dates",
             "min_days": "Min jours à passer"
         },
-        "things_to_do": "Choses à faire",
+        "things_to_do": "Expériences",
         "traveling_from": "Voyage depuis",
         "view_map": "Voir la carte"
     },
@@ -400,7 +400,7 @@
             "one": "${n} voyageur",
             "other": "${n} voyageurs"
         },
-        "we_collected_cheapest_providers": "Nous avons rassemblé pour vous les fournisseurs les moins chers. Sélectionnez le site sur lequel vous souhaitez acheter le billet !",
+        "we_collected_cheapest_providers": "Voici les partenaires de voyage de confiance de Skyscanner sur lesquels vous pouvez réserver votre vol - sélectionnez le site sur lequel vous souhaitez acheter votre billet !",
         "where_from": "D'où?",
         "where_to": "Où?"
     },
@@ -417,7 +417,7 @@
         "age_13_or_above": "Âge 13 ans ou plus",
         "age_2_13": "Âge 2-13 ans",
         "all_reviews": "Tous les avis",
-        "before_you_book": "Avant de réserver, assurez-vous que vous êtes à l'aise avec les conditions d'annulation de cet hôtel. N'oubliez pas que la politique relative aux circonstances atténuantes ne couvre pas les annulations pour cause de maladie ou de perturbation du voyage causée par le COVID-19.",
+        "before_you_book": "Avant de réserver, assurez-vous d’être à l’aise avec les conditions d’annulation de cet hôtel. N’oubliez pas que la police d’assurance contre les cas de force majeure ne couvre pas les annulations pour cause de maladie ou de perturbations de voyage causées par la COVID-19.",
         "cancel_by": "Annuler par",
         "cancellation_policy": "Politique d'annulation",
         "check_availability": "Vérifier la disponibilité",
@@ -439,7 +439,7 @@
             "see_more_flights": "Voir plus de vols",
             "show_all": "Afficher tout",
             "stay_options": "Options de séjour",
-            "things_to_do": "Choses à faire",
+            "things_to_do": "Expériences",
             "travel_km_further": "Parcourir ${distance} km de plus",
             "youre_in_luck": "Vous avez de la chance"
         },
@@ -748,7 +748,7 @@
     "stops": "Arrêts",
     "support": "Soutien",
     "thing_todo": {
-        "things_to_do": "Choses à faire"
+        "things_to_do": "Expériences"
     },
     "time_ago": {
         "days": {
@@ -782,12 +782,12 @@
     "today": "Aujourd'hui",
     "tooltips": {
         "skipIntro": "Passer l'introduction",
-        "tap_to_add_to_bucketlist": "Enregistrer et collaborer, touchez pour ajouter à votre liste de souhaits.",
+        "tap_to_add_to_bucketlist": "Touchez pour enregistrer dans votre liste de favoris.",
         "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits",
         "tap_to_chat": "Appuyez pour discuter",
         "tap_to_filter": "Appuyez pour filtrer",
         "tap_to_help_country": "Besoin d'aide pour planifier un voyage en ${country}?",
-        "tap_to_open_menu": "Touchez pour ouvrir le menu",
+        "tap_to_open_menu": "Pointez pour ouvrir le menu",
         "tap_to_start_new_chat": "Touchez pour commencer une nouvelle discussion"
     },
     "total": "Total",
@@ -836,7 +836,7 @@
         "Romantique",
         "Sports",
         "Catégorie supérieure",
-        "Choses à faire"
+        "Expériences"
     ],
     "videos": "Vidéos",
     "view": "Vue",

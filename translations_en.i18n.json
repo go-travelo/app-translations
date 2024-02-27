@@ -42,15 +42,15 @@
     },
     "bucketlist": {
         "add_to_bucketlist": "Add to bucketlist",
-        "as_you_search": "As you roam around the app, simply tap the heart on anything you like to add it to your bucketlist then invite your friends to make it a planning party. Let’s fill up some bucketlists, shall we?",
+        "as_you_search": "As you explore, tap the heart to add things you like to a bucketlist. You can also invite friends to plan with you.",
         "bucketlist": "Bucketlist: ${name}",
         "bucketlist_copied": "Bucketlist ${name} copied successfully",
         "bucketlist_created": "Bucketlist created successfully",
         "bucketlist_saved": "Bucketlist saved successfully",
         "bucketlist_will_be_removed": "${name} will be removed from your bucketlists.",
-        "collaborating_and_one_more": "${name} and one more are collaborating with you.",
-        "collaborating_two": "${first} and ${second} are collaborating with you.",
-        "collaborating_two_and_more": "${first} and ${count} more are collaborating with you..",
+        "collaborating_and_one_more": "${name} and one more are planning with you.",
+        "collaborating_two": "${first} and ${second} are planning with you.",
+        "collaborating_two_and_more": "${first} and ${count} more are planning with you..",
         "copy": "Copy to Edit",
         "create_bucketlist": "Create bucketlist",
         "create_new_bucketlist": "Create new bucketlist",
@@ -76,8 +76,8 @@
                 "subtitle": "${s} invited you to view their bucketlist. Save it to create your next trip by downloading the Layla app.",
                 "title": "Save this bucketlist!"
             },
-            "invited_you": "${username} invited you to their bucketlist. Log in to save and create your next trip on Layla!",
-            "login_to_collaborate": "Log in to collaborate",
+            "invited_you": "${username} invited you to their Bucketlist. Log in to save and create your next trip on Layla!",
+            "login_to_collaborate": "Log in to help plan",
             "login_to_view": "Log in to view",
             "one_person": "One person",
             "people": "people",
@@ -86,13 +86,13 @@
         },
         "my_bucketlist": "My Bucketlist",
         "name": "Name",
-        "name_is_collaborating": "${name} is collaborating with you.",
-        "no_collaborators": "No collaborators yet.",
+        "name_is_collaborating": "${name} is planning with you.",
+        "no_collaborators": "No sharing yet.",
         "no_name": "No Name",
         "one_person": "One person",
         "people_collaborating_with_you": {
             "one": "",
-            "other": "${n} people are collaborating with you."
+            "other": "${n} people are planning with you."
         },
         "save_destinations": "Save destinations",
         "share": "Invite",
@@ -101,7 +101,7 @@
             "edit_message": "Users will be able to edit bucketlist",
             "message": "How would you like to share this bucketlist?",
             "title": "Invite to Bucketlist",
-            "title_alt": "Invite to collaborate",
+            "title_alt": "Invite to Bucketlist",
             "view": "View Only",
             "view_message": "Users will be able to view bucketlist"
         },
@@ -127,7 +127,7 @@
                 "bad_response": "Bad response",
                 "copy": "Copy",
                 "good_response": "Good response",
-                "message_copied": "Message is copied successfully"
+                "message_copied": "Message copied"
             },
             "initialQuickReplies": {
                 "msg1": "Inspire Me Where To Go Next",
@@ -192,7 +192,7 @@
                 "title": "Discover Your Next\nDestination"
             },
             "page_three": {
-                "subtitle": "We take the hassle out of booking by finding th best priced and most convenient accommodations, flights and experiences to fit your needs",
+                "subtitle": "We take the hassle out of booking by finding the best priced and most convenient accommodations, flights and experiences to fit your needs",
                 "title": "Book Your Trip"
             },
             "page_two": {
@@ -254,7 +254,7 @@
     "done": "Done",
     "download_app": {
         "button": "Download Layla for free",
-        "subtitle": "Get the app for a personalized, optimized experience. Sync effortlessly and enjoy recommendations tailored just for you!",
+        "subtitle": "Get the app for the best Layla experience. Enjoy personalized recommendations & travel plans all in one place!",
         "title": "Download the app"
     },
     "duration": "Duration",
@@ -271,7 +271,7 @@
         "ask_anything": "Ask anything...",
         "book_flights": "Book flights",
         "change_departure": "Change departure",
-        "check_out_this_place": "I know where we should go next together. Check out this place I found on Layla",
+        "check_out_this_place": "I found our next trip together. Check it out on Layla!",
         "closest_airport": "Closest airport to ${destination}",
         "distance_from_origin": "${distance}km from ${origin}",
         "how_to_get_there": "How to get there",
@@ -286,7 +286,7 @@
             "for_your_dates": "For your dates",
             "min_days": "Min days to spend"
         },
-        "things_to_do": "Things to do",
+        "things_to_do": "Experiences",
         "traveling_from": "Traveling from",
         "view_map": "View map"
     },
@@ -400,7 +400,7 @@
             "one": "${n} traveller",
             "other": "${n} travellers"
         },
-        "we_collected_cheapest_providers": "We collected the cheapest providers for you. Select a site you would like to buy the ticket from!",
+        "we_collected_cheapest_providers": "Here are Skyscanner's trusted travel partners to book your flight through - select a site you would like to buy the ticket from!",
         "where_from": "Where from?",
         "where_to": "Where to?"
     },
@@ -439,7 +439,7 @@
             "see_more_flights": "See more flights",
             "show_all": "Show all",
             "stay_options": "Stay options",
-            "things_to_do": "Things to do",
+            "things_to_do": "Experiences",
             "travel_km_further": "Travel ${distance} km further",
             "youre_in_luck": "You’re in luck"
         },
@@ -639,7 +639,7 @@
         "where_will_you_depart_from": "Where will you depart from?"
     },
     "one_way": "One way",
-    "opps": "Opps!",
+    "opps": "Oops!",
     "person": {
         "one": "${n} person",
         "other": "${n} people"
@@ -748,7 +748,7 @@
     "stops": "Stops",
     "support": "Support",
     "thing_todo": {
-        "things_to_do": "Things to do"
+        "things_to_do": "Experiences"
     },
     "time_ago": {
         "days": {
@@ -782,12 +782,12 @@
     "today": "Today",
     "tooltips": {
         "skipIntro": "Skip intro",
-        "tap_to_add_to_bucketlist": "Save and collaborate, tap to add to bucketlist.",
+        "tap_to_add_to_bucketlist": "Tap to save to your bucketlist.",
         "tap_to_bucketlist": "Tap to bucketlist",
         "tap_to_chat": "Tap to chat",
         "tap_to_filter": "Tap to filter",
         "tap_to_help_country": "Need any help in planning a trip to ${country}?",
-        "tap_to_open_menu": "Tap to open the menu panel",
+        "tap_to_open_menu": "Tap to open the menu",
         "tap_to_start_new_chat": "Tap to start a new chat"
     },
     "total": "Total",
@@ -836,7 +836,7 @@
         "Romantic",
         "Sports",
         "Top Category",
-        "Things To Do"
+        "Experiences"
     ],
     "videos": "Videos",
     "view": "View",
@@ -853,7 +853,7 @@
     ],
     "weekend": "Weekend",
     "what": "What",
-    "what_can_i_ask": "What Can I Ask?",
+    "what_can_i_ask": "What can I ask?",
     "when": "When",
     "where_from": "Where from",
     "where_to": "Where to",
