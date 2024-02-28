@@ -94,6 +94,8 @@
             "one": "",
             "other": "${n} people are planning with you."
         },
+        "rename_bucketlist": "Rename bucketlist",
+        "removed_from": "Removed from",
         "save_destinations": "Save destinations",
         "share": "Invite",
         "share_type_dialog": {
@@ -117,6 +119,10 @@
     "bucketlists": "Bucketlists",
     "cancel": "Cancel",
     "change": "Change",
+    "characters_left": {
+        "one": "${n} character left",
+        "other": "${n} characters left"
+    },
     "charactersWord": {
         "one": "${n} character",
         "other": "${n} characters"
@@ -291,6 +297,7 @@
         "view_map": "View map"
     },
     "fastest": "Fastest",
+    "faq": "FAQ",
     "feed": {
         "add_interests": "Add interests",
         "approx_for_your_dates": "Approx. for your dates",
@@ -402,7 +409,8 @@
         },
         "we_collected_cheapest_providers": "Here are Skyscanner's trusted travel partners to book your flight through - select a site you would like to buy the ticket from!",
         "where_from": "Where from?",
-        "where_to": "Where to?"
+        "where_to": "Where to?",
+        "youll_arrive_next_day": "You'll arrive the next day"
     },
     "from": "From",
     "from_var": "From ${name}",
@@ -560,6 +568,7 @@
     "hotelWord": "Hotel",
     "hotels": "Hotels",
     "infants": "Infants",
+    "internet_offline": "Internet connection appears to be offline. Please try again.",
     "itineraries": {
         "addDay": "Add day",
         "bookNow": "Book Now",
@@ -606,6 +615,11 @@
     "leave": "Leave",
     "legal": "Legal",
     "location": "Location",
+    "location_denied": {
+        "message": "This may be because vou do not have location services enabled. To enable go to Settings > Privacy > Location services",
+        "open_settings": "Open settings",
+        "title": "Current location is unavailable"
+    },
     "login": "Log in",
     "map": "Map",
     "month": "Month",
@@ -622,6 +636,7 @@
         "one": "${n} night",
         "other": "${n} nights"
     },
+    "ok": "OK",
     "onboarding": {
         "allow_location_access": "Allow location access",
         "for_best_results": "For best results, please share you location",
@@ -640,6 +655,12 @@
     },
     "one_way": "One way",
     "opps": "Oops!",
+    "permissions_dialog": {
+        "permissions_required": "Permissions required",
+        "message_photos": "This app needs access to photos in order to update your photo.",
+        "message_camera": "This app needs access to camera in order to update your photo.",
+        "deny": "Deny"
+    },
     "person": {
         "one": "${n} person",
         "other": "${n} people"
