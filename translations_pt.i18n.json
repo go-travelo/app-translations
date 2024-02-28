@@ -94,6 +94,8 @@
             "one": "",
             "other": "${n} pessoas estão planejando com você."
         },
+        "removed_from": "Removido de",
+        "rename_bucketlist": "Renomear bucketlist",
         "save_destinations": "Salvar destinos",
         "share": "Partilhar",
         "share_type_dialog": {
@@ -120,6 +122,10 @@
     "charactersWord": {
         "one": "${n} caractere",
         "other": "${n} caracteres"
+    },
+    "characters_left": {
+        "one": "${n} caractere restante",
+        "other": "Faltam ${n} caracteres"
     },
     "chatbot": {
         "chat": {
@@ -156,7 +162,7 @@
                     "minOptions": "Escolha ${min} ou mais cartões"
                 }
             },
-            "title": "Chat da Layla"
+            "title": "Layla"
         },
         "chat_settings": {
             "delete_chat": "Excluir Conversa?",
@@ -290,6 +296,7 @@
         "traveling_from": "Viajando de",
         "view_map": "Ver Mapa"
     },
+    "faq": "Perguntas Freqüentes",
     "fastest": "Mais rápido",
     "feed": {
         "add_interests": "Adicionar interesses",
@@ -402,7 +409,8 @@
         },
         "we_collected_cheapest_providers": "Aqui estão os parceiros de viagem confiáveis do Skyscanner para reservar seu voo - selecione um site no qual você gostaria de comprar o bilhete!",
         "where_from": "De onde?",
-        "where_to": "Para onde?"
+        "where_to": "Para onde?",
+        "youll_arrive_next_day": "Você chegará no dia seguinte"
     },
     "from": "De",
     "from_var": "De ${name}",
@@ -560,6 +568,7 @@
     "hotelWord": "Hotel",
     "hotels": "Hotéis",
     "infants": "Bebês",
+    "internet_offline": "A ligação à Internet parece estar offline. Por favor, tente novamente.",
     "itineraries": {
         "addDay": "Adicionar dia",
         "bookNow": "Reservar agora",
@@ -606,6 +615,11 @@
     "leave": "Sair",
     "legal": "Jurídico",
     "location": "Localização",
+    "location_denied": {
+        "message": "Pode ser que você não tenha os serviços de localização ativados. Para ativá-los, vá para Definições > Privacidade > Serviços de Localização",
+        "open_settings": "Abrir definições",
+        "title": "A localização atual não está disponível"
+    },
     "login": "Entrar",
     "map": "Mapa",
     "month": "Mês",
@@ -622,6 +636,7 @@
         "one": "${n} noite",
         "other": "${n} noites"
     },
+    "ok": "OK",
     "onboarding": {
         "allow_location_access": "Permitir acesso à localização",
         "for_best_results": "Para melhores resultados, por favor, compartilhe sua localização",
@@ -640,6 +655,12 @@
     },
     "one_way": "Só ida",
     "opps": "Ops!",
+    "permissions_dialog": {
+        "deny": "Negar",
+        "message_camera": "A Layla precisa de acesso à câmera para atualizar a sua foto.",
+        "message_photos": "A Layla precisa de acesso às fotos para atualizar a sua foto.",
+        "permissions_required": "Permissões necessárias"
+    },
     "person": {
         "one": "${n} pessoa",
         "other": "${n} pessoas"
