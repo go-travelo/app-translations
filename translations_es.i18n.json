@@ -94,6 +94,8 @@
             "one": "",
             "other": "${n} personas están planeando contigo."
         },
+        "removed_from": "Eliminado de",
+        "rename_bucketlist": "Renombrar la lista de deseos",
         "save_destinations": "Guardar destinos",
         "share": "Invitar",
         "share_type_dialog": {
@@ -120,6 +122,10 @@
     "charactersWord": {
         "one": "${n} carácter",
         "other": "${n} caracteres"
+    },
+    "characters_left": {
+        "one": "${n} carácter restante",
+        "other": "${n} caracteres restantes"
     },
     "chatbot": {
         "chat": {
@@ -290,6 +296,7 @@
         "traveling_from": "Viajando desde",
         "view_map": "Ver mapa"
     },
+    "faq": "FAQ",
     "fastest": "Más rápido",
     "feed": {
         "add_interests": "Agregar intereses",
@@ -402,7 +409,8 @@
         },
         "we_collected_cheapest_providers": "Estos son los socios de viaje de confianza de Skyscanner para reservar tu vuelo: ¡selecciona el sitio en el que te gustaría comprar el billete!",
         "where_from": "¿De dónde?",
-        "where_to": "¿A dónde?"
+        "where_to": "¿A dónde?",
+        "youll_arrive_next_day": "Llegarás al día siguiente"
     },
     "from": "Desde",
     "from_var": "Desde ${name}",
@@ -560,6 +568,7 @@
     "hotelWord": "Hotel",
     "hotels": "Hoteles",
     "infants": "Bebés",
+    "internet_offline": "La conexión a Internet parece estar desconectada. Inténtalo de nuevo.",
     "itineraries": {
         "addDay": "Añadir día",
         "bookNow": "Reservar ahora",
@@ -606,6 +615,11 @@
     "leave": "Salir",
     "legal": "Legal",
     "location": "Ubicación",
+    "location_denied": {
+        "message": "Esto puede deberse a que no tienes habilitados los servicios de localización. Para habilitarlos, ve a Ajustes > Privacidad y Seguridad > Localización.",
+        "open_settings": "Abrir ajustes",
+        "title": "La ubicación actual no está disponible"
+    },
     "login": "Iniciar sesión",
     "map": "Mapa",
     "month": "Mes",
@@ -622,6 +636,7 @@
         "one": "${n} noche",
         "other": "${n} noches"
     },
+    "ok": "Aceptar",
     "onboarding": {
         "allow_location_access": "Permitir acceso a la ubicación",
         "for_best_results": "Para obtener los mejores resultados, comparte tu ubicación",
@@ -640,6 +655,12 @@
     },
     "one_way": "Un solo sentido",
     "opps": "¡Uy!",
+    "permissions_dialog": {
+        "deny": "Denegar",
+        "message_camera": "Layla necesita acceso a la cámara para poder actualizar tu foto.",
+        "message_photos": "Layla necesita acceso a las fotos para poder actualizar tu foto.",
+        "permissions_required": "Se necesitan permisos"
+    },
     "person": {
         "one": "${n} persona",
         "other": "${n} personas"

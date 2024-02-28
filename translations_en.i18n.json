@@ -94,8 +94,8 @@
             "one": "",
             "other": "${n} people are planning with you."
         },
-        "rename_bucketlist": "Rename bucketlist",
         "removed_from": "Removed from",
+        "rename_bucketlist": "Rename bucketlist",
         "save_destinations": "Save destinations",
         "share": "Invite",
         "share_type_dialog": {
@@ -119,13 +119,13 @@
     "bucketlists": "Bucketlists",
     "cancel": "Cancel",
     "change": "Change",
-    "characters_left": {
-        "one": "${n} character left",
-        "other": "${n} characters left"
-    },
     "charactersWord": {
         "one": "${n} character",
         "other": "${n} characters"
+    },
+    "characters_left": {
+        "one": "${n} character left",
+        "other": "${n} characters left"
     },
     "chatbot": {
         "chat": {
@@ -296,8 +296,8 @@
         "traveling_from": "Traveling from",
         "view_map": "View map"
     },
-    "fastest": "Fastest",
     "faq": "FAQ",
+    "fastest": "Fastest",
     "feed": {
         "add_interests": "Add interests",
         "approx_for_your_dates": "Approx. for your dates",
@@ -616,7 +616,7 @@
     "legal": "Legal",
     "location": "Location",
     "location_denied": {
-        "message": "This may be because vou do not have location services enabled. To enable go to Settings > Privacy > Location services",
+        "message": "This may be because you do not have location services enabled. To enable go to Settings > Privacy > Location services",
         "open_settings": "Open settings",
         "title": "Current location is unavailable"
     },
@@ -656,10 +656,10 @@
     "one_way": "One way",
     "opps": "Oops!",
     "permissions_dialog": {
-        "permissions_required": "Permissions required",
-        "message_photos": "This app needs access to photos in order to update your photo.",
-        "message_camera": "This app needs access to camera in order to update your photo.",
-        "deny": "Deny"
+        "deny": "Deny",
+        "message_camera": "Layla needs access to camera in order to update your photo.",
+        "message_photos": "Layla needs access to photos in order to update your photo.",
+        "permissions_required": "Permissions required"
     },
     "person": {
         "one": "${n} person",
