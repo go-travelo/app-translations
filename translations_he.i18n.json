@@ -78,8 +78,8 @@
             "and_one_other": "ועוד אחד",
             "continue_with": "המשך\/המשיכי עם",
             "download": {
-                "button": "הורד את Layla בחינם",
-                "subtitle": "${s} הזמין\/נה אותך לראות את רשימת המשאלות שלו\/שלה. שמור\/שמרי אותו כדי ליצור את הטיול הבא שלך על ידי הורדת אפליקציית Layla.",
+                "button": "הורד את ליילה בחינם",
+                "subtitle": "${s} הזמין אותך לצפות ברשימת המשאלות שלו. שמור אותה כדי ליצור את הטיול הבא שלך באמצעות הורדת אפליקציית ליילה.",
                 "title": "שמור\/שמרי את רשימת המשאלות הזו!"
             },
             "invited_you": "${username} הזמינו אותך לרשימת הדלי שלהם. התחברו כדי לשמור וליצור את הטיול הבא שלכם ב-Layla!",
@@ -102,6 +102,8 @@
             "many": "${n} אנשים מתכננים איתך.",
             "other": "${n} אנשים מתכננים איתך."
         },
+        "removed_from": "טופס שהוסר",
+        "rename_bucketlist": "שנה\/י את שם רשימת המשאלות",
         "save_destinations": "שמור יעדים",
         "share": "הזמן\/הזמיני",
         "share_type_dialog": {
@@ -130,6 +132,12 @@
         "two": "${n} תווים",
         "many": "${n} תווים",
         "other": "${n} תווים"
+    },
+    "characters_left": {
+        "one": "נותר תו אחד",
+        "two": "נותרו  ${n} תוים",
+        "many": "נותרו  ${n} תוים",
+        "other": "נותרו  ${n} תוים"
     },
     "chatbot": {
         "chat": {
@@ -185,7 +193,7 @@
             },
             "chatbot": {
                 "inputHint": "שאל\/י אותי כל דבר",
-                "msg1": "היי ${user} 👋\n\nאני Layla, יועצת הנסיעות שלך.\n\n לפני שנתחיל, אשמח לדעת איזה סוג של מטייל\/ת את\/ה.\n\n ספר\/י לי בטקסט או בדיבור איזה סוג של טיול את\/ה מחפש\/ת.",
+                "msg1": "היי ${user} 👋\n\nאני ליילה, יועצת הנסיעות שלך.\n\nלפני שנתחיל, אשמח לדעת איזה סוג של מטייל אתה. 🌍\n\nספר לי איזה סוג של טיול אתה מחפש על ידי כתיבה או דיבור.",
                 "msg2": "מעולה! אני חושבת שאני מבינה מה את\/ה מחפש\/ת. \n\nהאם תרצה\/י לשתף במידע נוסף?",
                 "msg3": "מה מעניין אותך?",
                 "msg4": "מהי נקודת המוצא של הטיול?",
@@ -268,7 +276,7 @@
     "done": "סיים",
     "download_app": {
         "button": "הורד\/הורידי את ליילה בחינם",
-        "subtitle": "קבל את האפליקציה לחוויית Layla הטובה ביותר. תיהנו מהמלצות מותאמות אישית ומתוכניות נסיעה במקום אחד!",
+        "subtitle": "קבל את האפליקציה עבור חוויית Layla הטובה ביותר. תהנה מהמלצות מותאמות אישית ומתוכניות נסיעה במקום אחד!",
         "title": "הורד\/הורידי את האפליקציה"
     },
     "duration": "משך",
@@ -304,6 +312,7 @@
         "traveling_from": "טס מ",
         "view_map": "לצפיה במפה"
     },
+    "faq": "שאלות ותשובות",
     "fastest": "הכי מהיר",
     "feed": {
         "add_interests": "הוסף\/הוסיפי תחומי עניין",
@@ -424,7 +433,8 @@
         },
         "we_collected_cheapest_providers": "הנה שותפי הנסיעות המהימנים של Skyscanner להזמין דרכם את הטיסה שלכם - בחרו אתר שממנו תרצו לקנות את הכרטיס!",
         "where_from": "מאיפה?",
-        "where_to": "לאן?"
+        "where_to": "לאן?",
+        "youll_arrive_next_day": "את\/ה תגיע\/י ביום המחרת"
     },
     "from": "מ",
     "from_var": "מ ${name}",
@@ -588,6 +598,7 @@
     "hotelWord": "מלון",
     "hotels": "מלונות",
     "infants": "תינוקות",
+    "internet_offline": "נראה שאין גישה לרשת האינטרנט. נא נסה\/י שנית",
     "itineraries": {
         "addDay": "להוספת יום",
         "bookNow": "להזמנה עכשיו",
@@ -634,6 +645,11 @@
     "leave": "עזוב\/עזבי",
     "legal": "משפטי",
     "location": "מיקום",
+    "location_denied": {
+        "message": "יתכן שהסיבה לכך היא שהגישה לשירותי מיקום חסומה. לאפשר גישה הכנס\/י להגדרות > פרטיות > שירותי מיקום",
+        "open_settings": "לפתיחת ההגדרות",
+        "title": "מיקומך העדכני אינו זמין"
+    },
     "login": "התחברות",
     "map": "מפה",
     "month": "חודש",
@@ -654,6 +670,7 @@
         "many": "${n} לילות",
         "other": "${n} לילות"
     },
+    "ok": "או קיי",
     "onboarding": {
         "allow_location_access": "אפשר\/י גישה למיקום שלך",
         "for_best_results": "לתוצאות הטובות ביותר, שתף\/שתפי את המיקום שלך",
@@ -672,6 +689,12 @@
     },
     "one_way": "כיוון אחד",
     "opps": "אופס!",
+    "permissions_dialog": {
+        "deny": "סרב\/י",
+        "message_camera": "ליילה זקוקה לגישה למצלמה שלך כדי לעדכן את התמונה שלך,",
+        "message_photos": "ליילה זקוקה לגישה לתמונות כדי לעדכן את התמונה שלך.",
+        "permissions_required": "נדרש אישור"
+    },
     "person": {
         "one": "${n} אדם",
         "two": "${n} אנשים",

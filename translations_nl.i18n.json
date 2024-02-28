@@ -94,6 +94,8 @@
             "one": "",
             "other": "${n} mensen zijn samen met jou aan het plannen."
         },
+        "removed_from": "Verwijderd uit",
+        "rename_bucketlist": "Hernoem bucketlist",
         "save_destinations": "Sla bestemmingen op",
         "share": "Uitnodigen",
         "share_type_dialog": {
@@ -120,6 +122,10 @@
     "charactersWord": {
         "one": "${n} teken",
         "other": "${n} tekens"
+    },
+    "characters_left": {
+        "one": "${n} teken over",
+        "other": "${n} tekens over"
     },
     "chatbot": {
         "chat": {
@@ -290,6 +296,7 @@
         "traveling_from": "Reizen vanuit",
         "view_map": "Bekijk kaart"
     },
+    "faq": "FAQ",
     "fastest": "Snelste",
     "feed": {
         "add_interests": "Interesses toevoegen",
@@ -402,7 +409,8 @@
         },
         "we_collected_cheapest_providers": "Hier zijn de vertrouwde reispartners van Skyscanner om uw vlucht te boeken - selecteer een site waar u het ticket wilt kopen!",
         "where_from": "Waar vandaan?",
-        "where_to": "Waar naartoe?"
+        "where_to": "Waar naartoe?",
+        "youll_arrive_next_day": "Je komt de volgende dag aan"
     },
     "from": "Van",
     "from_var": "Van ${name}",
@@ -560,6 +568,7 @@
     "hotelWord": "Hotel",
     "hotels": "Hotels",
     "infants": "Zuigelingen",
+    "internet_offline": "De internetverbinding lijkt offline te zijn. Probeer het opnieuw.",
     "itineraries": {
         "addDay": "Dag toevoegen",
         "bookNow": "Boek nu",
@@ -606,6 +615,11 @@
     "leave": "Verlaat",
     "legal": "Wettelijk",
     "location": "Locatie",
+    "location_denied": {
+        "message": "Dit kan komen doordat locatieservices niet zijn ingeschakeld. Ga om dit in te schakelen naar Instellingen > Privacy > Locatiediensten",
+        "open_settings": "Open instellingen",
+        "title": "Huidige locatie is niet beschikbaar"
+    },
     "login": "Log in",
     "map": "Kaart",
     "month": "Maand",
@@ -622,6 +636,7 @@
         "one": "${n} nacht",
         "other": "${n} nachten"
     },
+    "ok": "OK",
     "onboarding": {
         "allow_location_access": "Toegang tot locatie toestaan",
         "for_best_results": "Voor de beste resultaten, deel je locatie",
@@ -640,6 +655,12 @@
     },
     "one_way": "Enkele reis",
     "opps": "Oeps!",
+    "permissions_dialog": {
+        "deny": "Ontkennen",
+        "message_camera": "Layla heeft toegang tot de camera nodig om je foto bij te werken.",
+        "message_photos": "Layla heeft toegang tot foto's nodig om je foto bij te werken.",
+        "permissions_required": "Machtigingen vereist"
+    },
     "person": {
         "one": "${n} persoon",
         "other": "${n} mensen"
