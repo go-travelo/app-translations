@@ -649,6 +649,13 @@
             "message": "Ping me your location and I'll line up your next adventure",
             "title": "Where are you?"
         },
+        "push_notifications": {
+            "button": "Allow push notifications",
+            "body": "Let me notify you when I find amazing deals",
+            "notification_body": "Just found you some super cheap flights to Lapland! Lets see the northern lights? 👀",
+            "skip": "No thanks, another time!",
+            "title": "Get notified!"
+        },
         "pick_cards": "Pick 3 or more cards",
         "what_are_you_interested_in": "What are you interested in?",
         "where_will_you_depart_from": "Where will you depart from?"
