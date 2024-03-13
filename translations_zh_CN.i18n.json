@@ -633,6 +633,13 @@
             "title": "您从哪里旅行？"
         },
         "pick_cards": "选择3张或更多卡片",
+        "push_notifications": {
+            "body": "让我在找到好的交易时通知你",
+            "button": "允许推送通知",
+            "notification_body": "刚为你找到了去拉普兰的超便宜航班！我们去看北极光怎么样？👀",
+            "skip": "不，谢谢，改天再说！",
+            "title": "收到通知！"
+        },
         "what_are_you_interested_in": "你对什么感兴趣？",
         "where_will_you_depart_from": "你会从哪里出发？"
     },

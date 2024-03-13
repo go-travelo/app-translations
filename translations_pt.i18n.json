@@ -650,6 +650,13 @@
             "title": "De onde você viaja?"
         },
         "pick_cards": "Escolha 3 ou mais cartões",
+        "push_notifications": {
+            "body": "Deixa-me notificar-te quando encontrar ofertas incríveis",
+            "button": "Permita notificações push",
+            "notification_body": "Apenas encontrei para você alguns voos super baratos para a Laplândia! Vamos ver a aurora boreal? 👀",
+            "skip": "Não, obrigado, outra hora!",
+            "title": "Seja notificado!"
+        },
         "what_are_you_interested_in": "Do que você tem interesse?",
         "where_will_you_depart_from": "De onde você vai partir?"
     },
