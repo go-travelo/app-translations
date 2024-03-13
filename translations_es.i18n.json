@@ -650,6 +650,13 @@
             "title": "¿Dónde estás?"
         },
         "pick_cards": "Elige 3 o más tarjetas",
+        "push_notifications": {
+            "body": "Déjame notificarte cuando encuentre ofertas increíbles",
+            "button": "Permite las notificaciones push",
+            "notification_body": "¡Acabo de encontrarte unos vuelos súper baratos a Laponia! ¿Vamos a ver las luces del norte? 👀",
+            "skip": "¡No, gracias, en otra ocasión!",
+            "title": "¡Recibe notificaciones!"
+        },
         "what_are_you_interested_in": "¿En qué estás interesado?",
         "where_will_you_depart_from": "¿Desde dónde partirás?"
     },

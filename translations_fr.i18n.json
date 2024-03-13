@@ -650,6 +650,13 @@
             "title": "D'où voyagez-vous?"
         },
         "pick_cards": "Choisissez 3 cartes ou plus",
+        "push_notifications": {
+            "body": "Laisse-moi te prévenir quand je trouve des offres incroyables",
+            "button": "Autorisez les notifications push",
+            "notification_body": "Je viens de te trouver des vols super bon marché pour la Laponie ! Allons voir les aurores boréales ? 👀",
+            "skip": "Non merci, une autre fois!",
+            "title": "Sois notifié !"
+        },
         "what_are_you_interested_in": "Qu'est-ce qui vous intéresse ?",
         "where_will_you_depart_from": "D'où partirez-vous ?"
     },

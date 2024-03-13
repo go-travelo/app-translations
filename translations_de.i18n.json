@@ -650,6 +650,13 @@
             "title": "Wo bist du?"
         },
         "pick_cards": "Wähle 3 oder mehr Karten",
+        "push_notifications": {
+            "body": "Lass mich dich benachrichtigen, wenn ich tolle Angebote finde",
+            "button": "Erlaube Push-Benachrichtigungen",
+            "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
+            "skip": "Nein danke, ein anderes Mal!",
+            "title": "Lass dich benachrichtigen!"
+        },
         "what_are_you_interested_in": "Wofür interessierst du dich?",
         "where_will_you_depart_from": "Von wo wirst du abreisen?"
     },

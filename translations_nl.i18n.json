@@ -650,6 +650,13 @@
             "title": "Waar reis je vandaan?"
         },
         "pick_cards": "Kies 3 of meer kaarten",
+        "push_notifications": {
+            "body": "Laat me je op de hoogte stellen wanneer ik geweldige aanbiedingen vind",
+            "button": "Sta pushmeldingen toe",
+            "notification_body": "Ik heb net supergoedkope vluchten naar Lapland voor je gevonden! Laten we het noorderlicht gaan bekijken? 👀",
+            "skip": "Nee bedankt, een andere keer!",
+            "title": "Krijg een melding!"
+        },
         "what_are_you_interested_in": "Waar bent u in geïnteresseerd?",
         "where_will_you_depart_from": "Waar vertrek je?"
     },
