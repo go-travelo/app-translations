@@ -295,7 +295,8 @@
         },
         "things_to_do": "Experiences",
         "traveling_from": "Traveling from",
-        "view_map": "View map"
+        "view_map": "View map",
+        "show_videos_of": "Show me videos of ${destination}"
     },
     "faq": "FAQ",
     "fastest": "Fastest",
