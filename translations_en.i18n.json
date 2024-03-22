@@ -31,6 +31,7 @@
     "around": "Around",
     "arrival": "Arrival",
     "away": "Away",
+    "bedtime": "Bedtime",
     "best": "Best",
     "blog": {
         "askLaylaAbout": "Ask Layla about ${name}",
@@ -593,7 +594,8 @@
                 "hint": "What do you want to do on day ${index}?",
                 "title": "Modify with AI"
             }
-        }
+        },
+        "find_hotels_in": "Find amazing hotels in ${location}."
     },
     "know_more": {
         "answer_generated": "Answer generated!",
