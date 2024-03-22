@@ -31,6 +31,7 @@
     "around": "Rond",
     "arrival": "Aankomst",
     "away": "Weg",
+    "bedtime": "Slaaptijd",
     "best": "Best",
     "blog": {
         "askLaylaAbout": "Vraag Layla over ${name}",
@@ -593,7 +594,8 @@
                 "hint": "Wat wilt u doen op dag ${index}?",
                 "title": "Wijzig met AI"
             }
-        }
+        },
+        "find_hotels_in": "Vind geweldige hotels in ${location}."
     },
     "know_more": {
         "answer_generated": "Antwoord gegenereerd!",
@@ -661,6 +663,7 @@
         "where_will_you_depart_from": "Waar vertrek je?"
     },
     "one_way": "Enkele reis",
+    "open": "Open",
     "opps": "Oeps!",
     "permissions_dialog": {
         "deny": "Ontkennen",
@@ -710,7 +713,7 @@
         "privacy_and_sharing": "Privacy en delen",
         "privacy_policy": "Privacybeleid",
         "set_profile_image": "Stel profielfoto in",
-        "share_message": "Bekijk deze app met de meest verbazingwekkende plekken ter wereld: ${link}",
+        "share_message": "Hé, bekijk Layla eens. Ze kan ons helpen al onze reizen te plannen en ons inspireren over waar naartoe te gaan: ${link}",
         "spread_the_word": "Verspreid het woord",
         "take_photo": "Neem foto",
         "terms_of_service": "Algemene Voorwaarden"
@@ -746,6 +749,10 @@
     "share": "Delen",
     "share_dialog": {
         "copy": "Kopiëren",
+        "share_bucketlist": "Nodig vrienden uit voor je Bucketlist",
+        "share_destination": "Deel deze bestemming",
+        "share_hotel": "Deel dit hotel",
+        "share_itinerary": "Deel deze reisroute",
         "title": "Delen"
     },
     "show_less": "Toon minder",

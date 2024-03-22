@@ -31,6 +31,7 @@
     "around": "Alrededor de",
     "arrival": "Llegada",
     "away": "Lejos",
+    "bedtime": "Hora de dormir",
     "best": "Mejor",
     "blog": {
         "askLaylaAbout": "Pregunta a Layla sobre ${name}",
@@ -593,7 +594,8 @@
                 "hint": "¿Qué quieres hacer el día ${index}?",
                 "title": "Modificar con IA"
             }
-        }
+        },
+        "find_hotels_in": "Encuentra hoteles increíbles en ${location}."
     },
     "know_more": {
         "answer_generated": "¡Respuesta generada!",
@@ -660,7 +662,8 @@
         "what_are_you_interested_in": "¿En qué estás interesado?",
         "where_will_you_depart_from": "¿Desde dónde partirás?"
     },
-    "one_way": "Un solo sentido",
+    "one_way": "Solo de ida",
+    "open": "Abrir",
     "opps": "¡Uy!",
     "permissions_dialog": {
         "deny": "Denegar",
@@ -710,7 +713,7 @@
         "privacy_and_sharing": "Privacidad y Compartición",
         "privacy_policy": "Política De Privacidad",
         "set_profile_image": "Establecer imagen de perfil",
-        "share_message": "Hola, echa un vistazo a Layla. Puede ayudarnos a planificar todos nuestros viajes e inspirarnos sobre a dónde ir: ${link}",
+        "share_message": "Hola, mira a Layla. Nos puede ayudar a organizar todos nuestros viajes y darnos ideas de a dónde ir: ${link}",
         "spread_the_word": "Corre la voz",
         "take_photo": "Tomar foto",
         "terms_of_service": "Términos de servicio"
@@ -746,6 +749,10 @@
     "share": "Compartir",
     "share_dialog": {
         "copy": "Copiar",
+        "share_bucketlist": "Invita a tus amigos a tu Bucketlist",
+        "share_destination": "Comparte este destino",
+        "share_hotel": "Comparte este hotel",
+        "share_itinerary": "Comparte este itinerario",
         "title": "Compartir"
     },
     "show_less": "Mostrar menos",

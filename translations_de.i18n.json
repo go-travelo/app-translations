@@ -31,6 +31,7 @@
     "around": "Ungefähr",
     "arrival": "Ankunft",
     "away": "Weg",
+    "bedtime": "Bettzeit",
     "best": "Beste",
     "blog": {
         "askLaylaAbout": "Frage Layla nach ${name}",
@@ -593,7 +594,8 @@
                 "hint": "Was möchtest du an Tag ${index} machen?",
                 "title": "Mit KI modifizieren"
             }
-        }
+        },
+        "find_hotels_in": "Finde tolle Hotels in ${location}."
     },
     "know_more": {
         "answer_generated": "Antwort generiert!",
@@ -661,6 +663,7 @@
         "where_will_you_depart_from": "Von wo wirst du abreisen?"
     },
     "one_way": "Nur Hinreise",
+    "open": "Öffnen",
     "opps": "Hoppla!",
     "permissions_dialog": {
         "deny": "Verweigern",
@@ -710,7 +713,7 @@
         "privacy_and_sharing": "Datenschutz und Teilen",
         "privacy_policy": "Datenschutzerklärung",
         "set_profile_image": "Profilbild festlegen",
-        "share_message": "Hey, schaut euch Layla an. Sie kann uns helfen, all unsere Reisen zu planen und uns inspirieren, wohin es gehen soll: ${link}",
+        "share_message": "Hey, schau dir Layla an. Sie kann uns helfen, all unsere Reisen zu planen und uns inspirieren, wohin wir gehen sollen: ${link}",
         "spread_the_word": "Verbreite es weiter",
         "take_photo": "Foto machen",
         "terms_of_service": "Nutzungsbedingungen"
@@ -746,6 +749,10 @@
     "share": "Teilen",
     "share_dialog": {
         "copy": "Kopieren",
+        "share_bucketlist": "Lade Freunde zu deiner Bucketlist ein",
+        "share_destination": "Teile dieses Ziel",
+        "share_hotel": "Teile dieses Hotel",
+        "share_itinerary": "Teile diesen Reiseplan",
         "title": "Teilen"
     },
     "show_less": "Weniger anzeigen",

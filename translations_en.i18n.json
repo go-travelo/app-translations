@@ -749,10 +749,10 @@
     "share": "Share",
     "share_dialog": {
         "copy": "Copy",
+        "share_bucketlist": "Invite friends to your Bucketlist",
         "share_destination": "Share this destination",
         "share_hotel": "Share this hotel",
         "share_itinerary": "Share this itinerary",
-        "share_bucketlist": "Invite friends to your Bucketlist",
         "title": "Share"
     },
     "show_less": "Show less",
