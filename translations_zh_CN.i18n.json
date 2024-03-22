@@ -279,6 +279,7 @@
         "no_flights_found": "未找到航班",
         "no_videos": "对不起，我们没有这个目的地的视频",
         "select_a_flight": "选择航班",
+        "show_videos_of": "向我展示${destination}的视频",
         "start_booking": "开始预订",
         "stats": {
             "budget": "预算估算",

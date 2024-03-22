@@ -287,6 +287,7 @@
         "no_flights_found": "No se encontraron vuelos",
         "no_videos": "Lo siento, no tenemos videos\npara este destino",
         "select_a_flight": "Selecciona un vuelo",
+        "show_videos_of": "Muéstrame videos de ${destination}",
         "start_booking": "Comenzar reserva",
         "stats": {
             "budget": "Presupuesto est.",

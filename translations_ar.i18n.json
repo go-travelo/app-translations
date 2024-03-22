@@ -319,6 +319,7 @@
         "no_flights_found": "لا توجد رحلات",
         "no_videos": "عذراً، ليس لدينا أي فيديوهات\nلهذه الوجهة",
         "select_a_flight": "اختر رحلة",
+        "show_videos_of": "أظهر لي فيديوهات من ${destination}",
         "start_booking": "ابدأ الحجز",
         "stats": {
             "budget": "مؤسسة الميزانية.",
