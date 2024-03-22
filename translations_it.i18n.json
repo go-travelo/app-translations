@@ -31,6 +31,7 @@
     "around": "Intorno",
     "arrival": "Arrivo",
     "away": "Lontano",
+    "bedtime": "Ora del letto",
     "best": "Migliore",
     "blog": {
         "askLaylaAbout": "Chiedi a Layla riguardo a ${name}",
@@ -593,7 +594,8 @@
                 "hint": "Cosa vuoi fare nel giorno ${index}?",
                 "title": "Modifica con Intelligenza Artificale"
             }
-        }
+        },
+        "find_hotels_in": "Trova hotel fantastici a ${location}."
     },
     "know_more": {
         "answer_generated": "Risposta generata!",
@@ -661,6 +663,7 @@
         "where_will_you_depart_from": "Da dove partirai?"
     },
     "one_way": "Solo andata",
+    "open": "Apri",
     "opps": "Ops!",
     "permissions_dialog": {
         "deny": "Negare",
@@ -746,6 +749,10 @@
     "share": "Condividi",
     "share_dialog": {
         "copy": "Copia",
+        "share_bucketlist": "Invita gli amici alla tua Bucketlist",
+        "share_destination": "Condividi questa destinazione",
+        "share_hotel": "Condividi questo hotel",
+        "share_itinerary": "Condividi questo itinerario",
         "title": "Condividi"
     },
     "show_less": "Mostra meno",

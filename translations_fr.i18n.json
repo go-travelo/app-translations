@@ -31,6 +31,7 @@
     "around": "Autour",
     "arrival": "Arrivée",
     "away": "Loin",
+    "bedtime": "Heure du coucher",
     "best": "Meilleur",
     "blog": {
         "askLaylaAbout": "Demandez à Layla à propos de ${name}",
@@ -593,7 +594,8 @@
                 "hint": "Que voulez-vous faire le jour ${index} ?",
                 "title": "Modifier avec l'IA"
             }
-        }
+        },
+        "find_hotels_in": "Trouvez des hôtels incroyables à ${location}."
     },
     "know_more": {
         "answer_generated": "Réponse générée!",
@@ -661,6 +663,7 @@
         "where_will_you_depart_from": "D'où partirez-vous ?"
     },
     "one_way": "Aller simple",
+    "open": "Ouvrir",
     "opps": "Oups!",
     "permissions_dialog": {
         "deny": "Refuser",
@@ -710,7 +713,7 @@
         "privacy_and_sharing": "Confidentialité et partage",
         "privacy_policy": "Politique de confidentialité",
         "set_profile_image": "Définir l'image de profil",
-        "share_message": "Découvrez cette application qui présente les lieux les plus incroyables du monde: ${link}",
+        "share_message": "Hé, jette un œil à Layla. Elle peut nous aider à planifier tous nos voyages et nous inspirer sur où aller : ${link}",
         "spread_the_word": "Faites passer le mot",
         "take_photo": "Prendre une photo",
         "terms_of_service": "Conditions Générales d'Utilisation"
@@ -746,6 +749,10 @@
     "share": "Partager",
     "share_dialog": {
         "copy": "Copier",
+        "share_bucketlist": "Invite tes amis à ta Bucketlist",
+        "share_destination": "Partage cette destination",
+        "share_hotel": "Partagez cet hôtel",
+        "share_itinerary": "Partage cet itinéraire",
         "title": "Partager"
     },
     "show_less": "Montrer moins",
