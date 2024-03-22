@@ -303,6 +303,7 @@
         "no_flights_found": "לא נמצאו טיסות",
         "no_videos": "מצטערת, אין לי סרטונים \nליעד זה",
         "select_a_flight": "לבחירת טיסה",
+        "show_videos_of": "הראה לי סרטונים של ${destination}",
         "start_booking": "להתחלת ההזמנה",
         "stats": {
             "budget": "הערכת תקציב",

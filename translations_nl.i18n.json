@@ -287,6 +287,7 @@
         "no_flights_found": "Geen vluchten gevonden",
         "no_videos": "Sorry, we hebben geen video's\nvoor deze bestemming",
         "select_a_flight": "Selecteer een vlucht",
+        "show_videos_of": "Toon me video's van ${destination}",
         "start_booking": "Boeking starten",
         "stats": {
             "budget": "Begroting geschat.",

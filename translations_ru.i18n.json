@@ -303,6 +303,7 @@
         "no_flights_found": "Рейсы не найдены",
         "no_videos": "К сожалению, у нас нет видео\nдля этого направления",
         "select_a_flight": "Выбрать рейс",
+        "show_videos_of": "Покажите мне видео о ${destination}",
         "start_booking": "Начать бронирование",
         "stats": {
             "budget": "Бюджет эст.",

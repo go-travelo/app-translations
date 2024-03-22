@@ -210,7 +210,7 @@
                 "button": "Los geht's!",
                 "msg1": "Hallo, hier ist Layla. 👋🏼",
                 "msg1_web": "Hallo, ich bin Layla. 👋🏼",
-                "msg2": "Stell dir vor: Du findest und buchst ganz einfach Reisen gemeinsam mit deinen Reisebuddies. Alles an einem Ort.",
+                "msg2": "Stell dir vor: du könntest ganz einfach Reisen mit deinen Reisebuddies finden und buchen. Alles an einem Ort.",
                 "msg2_web": "Du suchst nach deinem nächsten Urlaubsort? Ich bin hier, um zu helfen.",
                 "msg3": "Dafür bin ich da! Cool, oder?",
                 "msg3_web": "Du kannst personalisierte Inspiration finden, Reisen planen und buchen, indem du einfach mit mir chattest.",
@@ -287,6 +287,7 @@
         "no_flights_found": "Keine Flüge gefunden",
         "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel",
         "select_a_flight": "Flug auswählen",
+        "show_videos_of": "Zeige mir Videos von ${destination}",
         "start_booking": "Buchung starten",
         "stats": {
             "budget": "Geschätztes Budget.",
@@ -816,12 +817,12 @@
     "to": "Nach",
     "today": "Heute",
     "tooltips": {
-        "skipIntro": "Intro überspringen",
-        "tap_to_add_to_bucketlist": "Tippen Sie auf , um sie in Ihrer Bucketlist zu speichern.",
-        "tap_to_bucketlist": "Antippen, um zur Bucketlist hinzuzufügen",
+        "skipIntro": "Überspringen",
+        "tap_to_add_to_bucketlist": "Tippe, um auf deine Bucketlist zu speichern.",
+        "tap_to_bucketlist": "Zum Merkzettel hinzufügen",
         "tap_to_chat": "Zum Chatten tippen",
         "tap_to_filter": "Zum Filtern tippen",
-        "tap_to_help_country": "Benötigst du Hilfe bei der Planung einer Reise nach ${country}?",
+        "tap_to_help_country": "Brauchst du Hilfe bei der Planung einer Reise nach ${country}?",
         "tap_to_open_menu": "Tippen Sie, um das Menü zu öffnen",
         "tap_to_start_new_chat": "Tippe, um einen neuen Chat zu starten"
     },
