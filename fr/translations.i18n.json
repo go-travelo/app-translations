@@ -1,0 +1,29 @@
+{
+    "time_ago": {
+        "years": {
+            "one": "il y a ${n} an",
+            "other": "il y a ${n} ans"
+        },
+        "months": {
+            "one": "il y a ${n} mois",
+            "other": "il y a ${n} mois"
+        },
+        "days": {
+            "one": "il y a ${n} jour",
+            "other": "il y a ${n} jours"
+        },
+        "hours": {
+            "one": "il y a ${n} heure",
+            "other": "il y a ${n} heures"
+        },
+        "minutes": {
+            "one": "il y a ${n} minute",
+            "other": "il y a ${n} minutes"
+        },
+        "seconds": {
+            "one": "il y a ${n} seconde",
+            "other": "il y a ${n} secondes"
+        },
+        "just_now": "A l'instant"
+    }
+}
