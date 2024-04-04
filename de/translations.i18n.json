@@ -1,0 +1,29 @@
+{
+    "time_ago": {
+        "years": {
+            "one": "${n} vor jahr",
+            "other": "${n} vor jahren"
+        },
+        "months": {
+            "one": "${n} vor monat",
+            "other": "${n} vor monaten"
+        },
+        "days": {
+            "one": "${n} vor tag",
+            "other": "${n} vor tagen"
+        },
+        "hours": {
+            "one": "${n} vor stunde",
+            "other": "${n} vor stunden"
+        },
+        "minutes": {
+            "one": "${n} vor Minute",
+            "other": "${n}  vor Minuten"
+        },
+        "seconds": {
+            "one": "${n} vor sekunde",
+            "other": "${n} vor sekunden"
+        },
+        "just_now": "Gerade eben"
+    }
+}

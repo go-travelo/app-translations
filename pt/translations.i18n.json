@@ -1,0 +1,29 @@
+{
+    "time_ago": {
+        "years": {
+            "one": "${n} ano atrás",
+            "other": "há ${n} anos"
+        },
+        "months": {
+            "one": "há ${n} mês",
+            "other": "há ${n} meses"
+        },
+        "days": {
+            "one": "há ${n} dia",
+            "other": "há ${n} dias"
+        },
+        "hours": {
+            "one": "há ${n} hora",
+            "other": "há ${n} horas"
+        },
+        "minutes": {
+            "one": "há ${n} minuto",
+            "other": "há ${n} minutos"
+        },
+        "seconds": {
+            "one": "há ${n} segundo",
+            "other": "há ${n} segundos"
+        },
+        "just_now": "Agora mesmo"
+    }
+}

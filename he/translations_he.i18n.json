@@ -1,0 +1,922 @@
+{
+    "blog": {
+        "postNotFound": "אנא בדוק את כתובת ה-URL, אין לנו פוסט כזה.",
+        "askLaylaAbout": "שאל\/י את Layla על ${name}",
+        "travellerQuestion": "אני רוצה לדעת עוד על ${name} כמטייל\/ת.",
+        "blog": "בלוג",
+        "blogs": "בלוגים",
+        "noBlogs": "לא נמצאו בלוגים"
+    },
+    "chatbot": {
+        "onboarding": {
+            "page_one": {
+                "title": "גלה\/גלי את היעד הבא שלך",
+                "subtitle": "אנחנו נראה לך את היעדים היפים ביותר בעולם וביחד נמצא את המקום המושלם לטיול הבא שלך"
+            },
+            "page_two": {
+                "title": "גלה\/גלי את כל מה\nשאת\/ה צריך\/צריכה לדעת",
+                "subtitle": "כמה זמן תמשך הטיסה? האם המקום מתאים לחופשה זוגית? היכן מקומות האירוח הזולים ביותר? אין שאלה גדולה או קטנה מדי"
+            },
+            "page_three": {
+                "title": "הזמן\/הזמיני את הטיול שלך",
+                "subtitle": "אנו מוציאים את הטרחה מההזמנה על ידי מציאת מקומות הלינה, הטיסות והחוויות במחיר הטוב ביותר והנוח ביותר שיתאימו לצרכים שלך"
+            },
+            "instagram": {
+                "title": "חיבור ל אינסטגרם",
+                "button": "חבר\/י את חשבון האינסטגרם שלך",
+                "message": "חבר\/י את חשבון האינסטגרם שלך לחוויה אופטימלית ומותאמת אישית. סנכרן\/סנכרני ללא מאמץ ותהנה\/תהני מהמלצות מותאמות אישית רק בשבילך!",
+                "error": "נכשל באימות עם אינסטגרם"
+            },
+            "chatbot": {
+                "inputHint": "שאל\/י אותי כל דבר",
+                "msg1": "היי ${user} 👋\n\nאני Layla, יועצת הנסיעות שלך.\n\nלפני שנתחיל, אשמח לדעת איזה סוג של מטייל\/ת את\/ה. 🌍\n\nספר\/י לי איזה סוג של טיול את\/ה מחפש\/ת על ידי כתיבה או דיבור.",
+                "msg2": "מעולה! אני חושבת שאני מבינה מה את\/ה מחפש\/ת. \n\nהאם תרצה\/י לשתף במידע נוסף?",
+                "msg3": "מה מעניין אותך?",
+                "msg4": "מהי נקודת המוצא של הטיול?",
+                "msg5": "תודה! עכשיו יש לי כל מה שאני צריכה. לחץ\/צי על הבא כדי שאוכל להמליץ לך על היעדים היפים בעולם, מותאמים אישית רק בשבילך!"
+            },
+            "aesthetics": {
+                "message": "עזור\/עזרי לנו להבין מה הוייב שלך",
+                "title": "לחץ\/לחצי כדי לבחור 3 כרטיסים או יותר",
+                "continueButton": "בחר\/י עוד ${count} כרטיסים כדי להמשיך",
+                "titleAlt": "מה מתאים לך?\nגע\/י בכרטיסים שעושים לך את זה 💕"
+            },
+            "video": {
+                "button": "קדימה מתחילים!",
+                "msg1": "היי, Layla כאן. 👋🏼",
+                "msg2": "קלוט\/קלטי את זה: בשיא הקלילות את\/ה מוצא\/ת, מרכיב\/ה ומזמין\/מזמינה את הטיול עם החברים שלך והכל במקום אחד!",
+                "msg3": "בדיוק בשביל זה אני כאן! מגניב, לא?",
+                "msg4": "יאללה בלאגן...",
+                "msg1_web": "שלום לך, אני Layla👋",
+                "msg2_web": "מחפש\/ת את יעד הנסיעה הבאה שלך? אני כאן לעזור!",
+                "msg3_web": "את\/ה תמצא\/י השראה מותאמת אישית, תתכנן\/ני ותזמין\/ני את הטיול ככה פשוט תוך כדי השיחה איתי.",
+                "msg4_web": "מגניב, לא? בוא\/י נלך על זה!"
+            }
+        },
+        "things_ask": {
+            "title": "דברים שאת\/ה יכול\/ה לשאול אותי!",
+            "description": "אני כאן כדי לעזור לך לתכנן את ההרפתקה הבאה שלך. שאל\/י אותי כל מה שתרצה\/תרצי על היעד ואני אענה. הנה כמה דברים שכבר שאלו אותי...",
+            "possible_prompts": "שאלות נפוצות",
+            "ask_layla": "שאל\/י את Layla"
+        },
+        "chat_settings": {
+            "history": "היסטוריה",
+            "new_chat": "צ'אט חדש",
+            "rename_chat": "שני את שם הצ'אט",
+            "delete_chat": "למחוק את הצ'אט?",
+            "delete_chat_message": "${name} ימחק\/תמחק לצמיתות.",
+            "info_and_support": "מידע ותמיכה"
+        },
+        "chat": {
+            "title": "Layla",
+            "isTyping": "${name} כותב\/ת...",
+            "messages": {
+                "location": {
+                    "requestTitle": "מהי נקודת המוצא שלך?",
+                    "requestSubtitle": "עבור תוצאות מיטביות, אפשר\/י גישה למיקום שלך",
+                    "requestButton": "אפשר\/י גישה למיקום שלך"
+                },
+                "flight": {
+                    "fromToAroundPrice": "טיסות החל מ ${from} ועד ${to} בערך ${price}"
+                },
+                "tileOptions": {
+                    "minOptions": "בחר\/י ${min} כרטיסים או יותר"
+                },
+                "hotelOptions": {
+                    "title": "איזה מלון מצא חן בעיניך?"
+                },
+                "itinerary": {
+                    "day": "יום"
+                }
+            },
+            "messageHint": "שאל\/י אותי כל דבר",
+            "contextMenu": {
+                "copy": "להעתקה",
+                "good_response": "תשובה טובה",
+                "bad_response": "תשובה גרועה",
+                "message_copied": "ההודעה הועתקה"
+            },
+            "initialQuickReplies": {
+                "msg1": "תני לי השראה. לאן כדאי לי לטייל?",
+                "msg2": "חפשי לי טיסות מהעיר שלי",
+                "msg3": "הכיני לי תוכנית לטיול",
+                "msg4": "לאן כדאי לי ללכת לחופשת הקיץ שלי?"
+            }
+        }
+    },
+    "itineraries": {
+        "itineraries": "תכנונים יומיים",
+        "dayPart": [
+            "בוקר",
+            "אחר הצהריים",
+            "ערב"
+        ],
+        "bookNow": "להזמנה עכשיו",
+        "addDay": "להוספת יום",
+        "whatDoYouWant": "מה את\/ה רוצה לעשות ביום?"
+    },
+    "tooltips": {
+        "tap_to_filter": "לחץ\/לחצי לסינון",
+        "tap_to_bucketlist": "לחץ\/לחצי לרשימת המשאלות",
+        "tap_to_chat": "לחץ\/לחצי להתחיל צ'אט",
+        "tap_to_help_country": "צריך\/צריכה עזרה בתכנון הטיול ל-${country}?",
+        "tap_to_add_to_bucketlist": "הקש\/הקישי כדי לשמור ברשימת ההמשאלות שלך.",
+        "tap_to_start_new_chat": "לחץ\/לחצי להתחיל צ'אט חדש",
+        "tap_to_open_menu": "הקש\/הקישי כדי לפתוח את התפריט",
+        "skipIntro": "דלג\/י על המצגת"
+    },
+    "bucketlist": {
+        "no_name": "ללא שם",
+        "name": "שם",
+        "bucketlist": "רשימת המשאלות: ${name}",
+        "bucketlist_saved": "רשימת המשאלות נשמרה בהצלחה",
+        "bucketlist_created": "רשימת המשאלות נוצרה בהצלחה",
+        "bucketlist_copied": "רשימת המשאלות ${name} הועתקה בהצלחה",
+        "my_bucketlist": "רשימת המשאלות שלי",
+        "login_to_view": "הכנס\/י כדי לראות את רשימת המשאלות שלך",
+        "leave_bucketlist": "לצאת מרשימת המשאלות?",
+        "one_person": "אדם אחד",
+        "name_is_collaborating": "${name} מתכנן איתך.",
+        "no_collaborators": "עדיין אין שיתוף.",
+        "you_are_viewing_bucketlist": "את\/ה צופה ברשימת המשאלות של ${creator}",
+        "you_are_viewing_bucketlist_collaborator": "את\/ה צופה ברשימת המשאלות של ${creator} ושל ${collaborator}",
+        "collaborating_and_one_more": "${name} ועוד אחד מתכננים איתך.",
+        "collaborating_two": "${first} ו-${second} מתכננים איתך.",
+        "collaborating_two_and_more": "${first} ועוד ${count} מתכננים איתך..",
+        "you_are_viewing": "את\/ה צופה ברשימת המשאלות של ${creator}",
+        "you_and_viewer_are_viewing": "את\/ה ועוד אדם אחד צופים ברשימת המשאלות של ${creator}",
+        "you_and_viewers_are_viewing": "את\/ה ו ${count}  אחרים צופים ברשימת המשאלות של ${creator}",
+        "you_can_create": "את\/ה יכול\/ה ליצור, להציג או לערוך רשימת משאלות לאחר שנכנסת למערכת.",
+        "create_your_first_bucketlist": "צור\/צרי את רשימת המשאלות הראשונה שלך",
+        "as_you_search": "במהלך החיפוש, הקש\/הקישי על הלב כדי להוסיף דברים שאת\/ה אוהב\/ת לרשימת המשאלות. את\/ה יכול\/ה גם להזמין חברים לתכנן איתך.",
+        "add_to_bucketlist": "הוסף\/הוסיפי לרשימת המשאלות",
+        "create_new_bucketlist": "צור\/צרי רשימת המשאלות חדשה",
+        "create_bucketlist": "צור\/צרי רשימת המשאלות",
+        "save_destinations": "שמור יעדים",
+        "delete_bucketlist": "רוצה למחוק את רשימת המשאלות?",
+        "delete_bucketlist_message": "האם את\/ה בטוח\/ה שברצונך למחוק את רשימת המשאלות הזו?",
+        "delete_user_from_bucketlist": "מחק\/י משתמש\/ת מרשימת המשאלות?",
+        "delete_user_from_bucketlist_message": "האם את\/ה בטוח\/ה שברצונך למחוק את ${username} מרשימת המשאלות הזו?",
+        "bucketlist_will_be_removed": "${name} יוסר\/תוסר מרשימת המשאלות שלך.",
+        "travel_dates": "תאריכי החופשה",
+        "share": "הזמן\/הזמיני",
+        "copy": "העתק\/העתיקי לעריכה",
+        "destinations": {
+            "one": "יעד ${n}",
+            "two": "${n} יעדים",
+            "many": "${n} יעדים",
+            "other": "${n} יעדים"
+        },
+        "people_collaborating_with_you": {
+            "one": "אדם אחד מתכנן איתך",
+            "two": "${n} אנשים מתכננים איתך.",
+            "many": "${n} אנשים מתכננים איתך.",
+            "other": "${n} אנשים מתכננים איתך."
+        },
+        "login_widget": {
+            "title": "התחבר\/י או הרשם\/הרשמי",
+            "title_bucketlist": "התחבר\/י כדי לשמור",
+            "download": {
+                "title": "שמור\/שמרי את רשימת המשאלות הזו!",
+                "subtitle": "${s} הזמין\/הזמינה אותך לצפות ברשימת המשאלות שלו\/ה. שמור\/שמרי אותה כדי ליצור את הטיול הבא שלך באמצעות הורדת אפליקציית Layla.",
+                "button": "הורד את Layla בחינם"
+            },
+            "continue_with": "המשך\/המשיכי עם",
+            "login_to_collaborate": "היכנס כדי לעזור בתכנון",
+            "login_to_view": "התחבר\/י כדי לצפות",
+            "invited_you": "${username} הזמין\/הזמינה אותך לרשימת המשאלות שלו\/שלה. התחבר\/י כדי לשמור וליצור את הטיול הבא שלכם ב Layla!",
+            "and_one_other": "ועוד אחד",
+            "and_n_others": "ו${count} אחרים",
+            "one_person": "אדם אחד",
+            "people": "אֲנָשִׁים",
+            "and": "ו"
+        },
+        "flying_from": "טס\/ה מ",
+        "share_type_dialog": {
+            "title": "הזמן\/הזמיני לרשימת המשאלות",
+            "title_alt": "הזמן\/הזמיני לרשימת החלומות שלנו",
+            "message": "רוצה לשתף את רשימת המשאלות?",
+            "edit": "ניתן לעריכה",
+            "edit_message": "המשתמש\/ת יוכל\/תוכל לערוך את רשימת המשאלות",
+            "view": "לצפייה בלבד",
+            "view_message": "המשתמש\/ת יוכל\/תוכל לצפות ברשימת המשאלות"
+        },
+        "rename_bucketlist": "שנה\/י את שם רשימת המשאלות",
+        "removed_from": "טופס שהוסר"
+    },
+    "places": {
+        "africa": "אפריקה",
+        "antarctica": "אנטארקטיקה",
+        "asia": "אסיה",
+        "australia": "אוסטרליה",
+        "europe": "אירופה",
+        "north_america": "צפון אמריקה",
+        "oceania": "אוקיאניה",
+        "south_america": "דרום אמריקה",
+        "anywhere": "כל מקום",
+        "current_location": "המיקום הנוכחי"
+    },
+    "explore_feat": {
+        "add_destination": "להוספת יעד",
+        "add_dates": "להוספת תאריכים",
+        "check_out_this_place": "מצאתי את הטיול הבא שלנו יחד. בדוק את זה ב Layla!",
+        "book_flights": "להזמנת טיסות",
+        "land_in": "נחיתה ב-${destination}",
+        "no_flights_found": "לא נמצאו טיסות",
+        "closest_airport": "שדה התעופה הקרוב ביותר ל-${destination}",
+        "change_departure": "לשינוי מקום ההמראה",
+        "traveling_from": "טס מ",
+        "distance_from_origin": "${distance} ק''מ מ-${origin}",
+        "how_to_get_there": "איך להגיע לשם",
+        "how_to_get_to": "איך להגיע ל-${destination}",
+        "ask_anything": "שאל\/י כל דבר...",
+        "things_to_do": "חוויות",
+        "around_destination": "באזור ${destination}",
+        "select_a_flight": "לבחירת טיסה",
+        "start_booking": "להתחלת ההזמנה",
+        "no_videos": "מצטערת, אין לי סרטונים \nליעד זה",
+        "view_map": "לצפיה במפה",
+        "stats": {
+            "budget": "הערכת תקציב",
+            "min_days": "מינימום ימים לבילוי",
+            "for_your_dates": "לתאריכים שלך"
+        },
+        "show_videos_of": "הראה לי סרטונים של ${destination}"
+    },
+    "feed": {
+        "for_you_card": {
+            "budget-friendly": "יעד ידידותי לתקציב",
+            "reasonably_priced": "יעד במחיר סביר",
+            "costly": "יעד יקר למדי",
+            "very_expensive": "יעד יוקרתי באקסטרים"
+        },
+        "price_types": [
+            "יעד ידידותי לתקציב",
+            "יעד במחיר סביר",
+            "יעד ברמה גבוהה",
+            "יעד יוקרתי"
+        ],
+        "filters": {
+            "flight_price": "מחיר הטיסה",
+            "flight_duration": "משך זמן הטיסה",
+            "flight_connection": "טיסה עם קונקשן",
+            "categories": "קטגוריות",
+            "flight_price_value": "רף מחיר עליון לטיסה ${value}",
+            "flight_duration_value": "רף מחיר עליון לטיסה ${value}",
+            "flight_connection_direct": "טיסה ישירה בלבד"
+        },
+        "how_do_you_like_the_app": "מה דעתך על האפליקציה?",
+        "direct_flights": "טיסות ישירות",
+        "show_only_direct_flights": "הציגי רק טיסות ישירות",
+        "take_some_time": "דעתך והמשוב שלך חשובים לי. בבקשה תן\/תני לי מעט מזמנך כדי לעזור לנו להשתפר.",
+        "give_us_feedback": "תן\/תני לי משוב",
+        "flight_price_range": "טווח מחירי טיסות",
+        "average_price": "מחיר ממוצע ${price}",
+        "or_less": "או פחות",
+        "flight_time": "משך זמן הטיסה",
+        "average_duration": "משך ממוצע ${hours} שעות",
+        "round_hrs": "${val} שעות",
+        "one_way_with_bullet": " ${code} לכיוון אחד",
+        "something_went_wrong": "משהו השתבש",
+        "cant_show_results": "משום מה לא הצלחנו להראות לך את התוצאות.",
+        "awkward_nothing_returned": "לא נעים, החיפוש לא הניב תוצאות. אנא שנה\/שני את ההעדפות שלך וננסה שוב.",
+        "add_interests": "הוסף\/הוסיפי תחומי עניין",
+        "spaces_read_more": "קרא\/י עוד",
+        "count_destinations_for_you": "${count} יעדים יפהפיים בשבילך",
+        "sorted_and_procured": "ממוינים ומאורגנים על פי ההעדפות שלך",
+        "scroll_down_to_see_more": "גלול\/גללי למטה כדי לראות עוד מידע",
+        "no_results_found": "לא נמצאות תוצאות!",
+        "km_from": "${distance}km מ ${city}",
+        "consider_broadening": "אופסי! לא מצאתי התאמות בהתאם להעדפות הנוכחיות שלך. שקול\/שקלי להרחיב את החיפוש שלך על ידי שינוי ההעדפות שלך למגוון רחב יותר של אפשרויות.",
+        "return_with_bullet": " ${code} חוזר",
+        "approx_for_your_dates": "משוערך לתאריכים שבחרת"
+    },
+    "flights_feat": {
+        "flights_to": "טיסות ל-${to}",
+        "airport": "שדה התעופה",
+        "destination_location_updated_successfully": "מיקום היעד התעדכן בהצלחה",
+        "all_filters": "כל הפילטרים",
+        "no_flights": "אין טיסות",
+        "estimated_price": "מחיר מוערך",
+        "livePrices": "מחיר עדכני",
+        "travelers_info_updated_successfully": "פרטי הנוסעים עודכנו בהצלחה",
+        "flight_details": "פרטי הטיסה",
+        "where_from": "מאיפה?",
+        "where_to": "לאן?",
+        "city_country_airport": "עיר, מדינה או שדה תעופה...",
+        "popular_destinations": "יעדים פופולריים",
+        "my_current_location": "המיקום שלי",
+        "search_destinations": "חפש\/י יעדים",
+        "current_location": "מיקום נוכחי",
+        "departure_location_updated_successfully": "מיקום נקודת המוצא עודכן בהצלחה",
+        "no_flights_found": "לא נמצאו טיסות",
+        "choose_new_departure_location": "בחר\/י מיקום נקודת מוצא חדשה",
+        "selected_departure_destination": "יעד היציאה הנבחר",
+        "how_many_people": "כמה אנשים?",
+        "connection_in": "חיבור בשדה תעופה",
+        "total_for": {
+            "one": "סה\"כ עבור ${n} נוסע",
+            "two": "סה\"כ עבור $n נוסעים",
+            "many": "סה\"כ עבור $n נוסעים",
+            "other": "סה\"כ עבור ${n} נוסעים"
+        },
+        "search_flights": "חפש\/י טיסות",
+        "read_before_booking": "קרא\/י לפני שתזמין\/תזמיני",
+        "prices_include": "המחירים מעריכים בתוכם את כל המיסים ותשלומי החובה. אנא בדוק\/בדקי את כל פרטי הכרטיס, המחירים הסופיים והתנאים וההגבלות באתר של הספק לפני אישור ההזמנה.",
+        "check_for_extra_fees": "בדוק\/בדקי עלויות נלוות",
+        "some_airlines_and_travel_agencies": "חלק מחברות התעופה וסוכנויות הנסיעות גובות תוספת עבור מזוודות, ביטוח או שימוש בכרטיס אשראי. יתכון שייגבו גם דמי שירות.",
+        "check_terms": "בדוק\/בדקי תנאים מיוחדים לנוסעים בגילאי 12-16",
+        "restrictions_may_apply": "עבור נוסעים צעירים שמטיילים לבד יתכן שיתקיימו הגבלות.",
+        "although_sold_as": "על אף שבתוכנית מופיעה טיסה ב\"מחלקת תיירים\", התוכנית עשויה לכלול טיסות במחלקה שונה.",
+        "check_cabin_class": "בדוק\/בדקי את סוג המחלקה בטיסה שלך",
+        "select_providers": "בחר\/י את ספקי הטיסה",
+        "almost_there": "כמעט שם!",
+        "economy_class": "מחלקת תיירים",
+        "premium_economy_class": "מחלקת תיירים פרמיום",
+        "business_class": "מחלקת עסקים",
+        "first_class": "מחלקה ראשונה",
+        "choose_provider": "בחר\/י את ספק הטיסה",
+        "go_to_site": "עבור לאתר",
+        "dates_updated_successfully": "התאריכים עודכנו בהצלחה",
+        "we_collected_cheapest_providers": "הנה שותפי הנסיעות המהימנים של Skyscanner להזמין דרכם את הטיסה שלכם - בחרו אתר שממנו תרצו לקנות את הכרטיס!",
+        "travellers": {
+            "one": "${n} נוסע",
+            "two": "$n נוסעים",
+            "many": "$n נוסעים",
+            "other": "${n} נוסעים"
+        },
+        "provider_found": {
+            "one": "נמצא ספק אחד",
+            "two": "נמצאו ${n} ספקים",
+            "many": "נמצאו ${n} ספקים",
+            "other": "נמצאו ${n} ספקים"
+        },
+        "passengers": {
+            "one": "${n} נוסע",
+            "two": "$n נוסעים",
+            "many": "$n נוסעים",
+            "other": "${n} נוסעים"
+        },
+        "one_way": "כיוון אחד",
+        "youll_arrive_next_day": "את\/ה תגיע\/י ביום המחרת"
+    },
+    "hotel": {
+        "sort_filters": {
+            "most_popular": "הכי פופולרי",
+            "best_rated": "בעל הדרוג הטוב ביותר",
+            "worst_rated": "בעל הדרוג הנמוך ביותר",
+            "best_reviewed": "המומלץ ביותר",
+            "worst_reviewed": "הכי פחות מומלץ",
+            "star_rating_highest_first": "דירוג לפי כוכבים (הגבוה ביותר קודם)",
+            "star_rating_lowest_first": "דירוג לפי כוכבים (הנמוך ביותר קודם)",
+            "price_highest_first": "מחיר (הגבוה ביותר קודם)",
+            "price_lowest_first": "מחיר (הנמוך ביותר קודם)"
+        },
+        "filters": {
+            "budget": "התקציב שלך (ללילה אחד)",
+            "travel_sustainable": "מקומות לינה קיימיים",
+            "star_rating": "דירוג כוכבים",
+            "property_type": "סוג מקום האירוח",
+            "facilities": "מתקנים",
+            "free_cancellation": "ביטול חינם",
+            "chain": "רשת",
+            "review_score": "דירוג חוות דעת",
+            "room_facilities": "החדר מכיל"
+        },
+        "filters_category": {
+            "five": "סביר: 5+",
+            "six": "נעים: 6+",
+            "seven": "טוב: 7+",
+            "eight": "טוב מאד: 8+",
+            "nine": "מצויין: 9+"
+        },
+        "review_title": {
+            "five": "סביר",
+            "six": "די טוב",
+            "seven": "טוב",
+            "eight": "טוב מאד",
+            "nine": "מצויין",
+            "three": "לא טוב",
+            "two": "גרוע",
+            "one": "גרוע מאד",
+            "zero": "ממש מזעזע"
+        },
+        "property_type": {
+            "aparthotel": "דירה מלונית",
+            "camping": "אתר מחנאות",
+            "inn": "אירוח כפרי",
+            "resort": "אתר נופש",
+            "capsule-hotel": "מלון קפסולה",
+            "japanese-style-business-hotel": "מלון עסקים בסגנון יפני",
+            "holiday-home": "בית נופש",
+            "guest-house": "בית הארחה",
+            "boat": "סירה",
+            "love-hotel": "מלון אהבה",
+            "ryokan": "ריוקאן",
+            "tented-camp": "מחנה אהלים",
+            "hotel": "מלון",
+            "condo": "דירה",
+            "motel": "מוטל",
+            "sanatorium": "סנטוריום",
+            "apartment": "דירה",
+            "villa": "וילה",
+            "gite": "גיט",
+            "hostel": "הוסטל",
+            "holiday-park": "פארק נופש",
+            "lodge": "יחידת דיור",
+            "cottage": "בית קרקע",
+            "bed-and-breakfast": "מקום לינה וארוחת בוקר",
+            "homestay": "שהייה בבית",
+            "farm-stay": "שהייה בחווה",
+            "chalet": "שאלט . בית עץ אלפיני",
+            "riad": "ריאד",
+            "country-house": "בית כפרי"
+        },
+        "explore_tile": {
+            "stay_options": "אפשרויות לינה",
+            "layla_recommends": "Layla ממליצה",
+            "budget": "תקציב",
+            "luxury": "מותרות",
+            "find_more_stays": "מצאי עוד אפשרויות לינה",
+            "things_to_do": "חוויות",
+            "show_all": "הראי הכל",
+            "travel_km_further": "רחוק עוד ${distance} km ",
+            "get_route_details": "הראי פרטי מסלול",
+            "flight_options": "אפשרויות טיסה",
+            "youre_in_luck": "יש לך מזל!",
+            "prices_are_currenly_low": "המחירים זולים כעת",
+            "see_more_flights": "הראי עוד טיסות"
+        },
+        "cancellation_policy": "מדיניות ביטול",
+        "before_you_book": "לפני ביצוע ההזמנה, ודאו שאתם מרגישים בנוח עם מדיניות הביטולים של מלון זה. זכור כי מדיניות נסיבות מקלות אינה מכסה ביטולים עקב מחלה או שיבושים בנסיעות שנגרמו על ידי COVID-19.",
+        "property_views": "תצוגת הנכס",
+        "all_reviews": "כל חוות הדעת",
+        "no_hotels_found": "לא נמצאו מלונות",
+        "no_videos": "מצטערים, אין לנו סרטונים\nלמלון זה",
+        "age_13": "גיל 13 ומעלה",
+        "age_2_13": "גילאים 2-13",
+        "hotel_name": "שם המלון",
+        "cancel_by": "לבטל על ידי",
+        "hotel_unavailable": "המלון לא זמין",
+        "hotel_unavailable_for_dates": "המלון אינו זמין בתאריכים המבוקשים",
+        "hotel_unavailable_message": "אנא עדכן את התאריכים.",
+        "full_refund": "החזר כספי מלא: תקבל\/י 100% ממה ששילמת",
+        "no_refund": "אין החזר כספי",
+        "select_age": "בחר\/י גיל",
+        "read_more_here": "קרא\/י עוד כאן",
+        "enter_destination": "הזן\/הזיני יעד",
+        "search_destinations": "חפש\/י יעדים",
+        "travel_sustainable_level": "רמת תיירות ברת-קיימא ${level}",
+        "property_making_efforts": "הנכס עושה השקעות ומאמצים משמעותיים להיות יותר בר-קיימא. השפעתו הסביבתית והחברתית נמדדת לפי גודלו ומיקומו",
+        "sustainability_steps": "צעדים לקיימות",
+        "accept_credit_cards": "מקבל כרטיסי אשראי",
+        "important_information": "מידע חשוב",
+        "check_in_time": "זמני צ'ק-אין וצ'ק-אאוט",
+        "wifi_available": "וייפי זמין בכל האזורים ובחינם",
+        "free_parking": "חניה ציבורית בחינם זמינה באתר",
+        "pets_allowed": "חיות מחמד מותרות, עשויה להיות עלות נוספת",
+        "edit_your_search": "לעריכת החיפוש שלך",
+        "no_photos": "מצטערים, אין לנו תמונות\nלמלון זה",
+        "property_facilities": "מתקני הנכס",
+        "filter_and_sort": "מיון וסינון",
+        "partial_refund": "החזר כספי חלקי: החזר ${name} % מכל לילה. אין החזר של דמי השירות",
+        "check_availability": "בדיקת זמינות",
+        "select_dates": "בחירת תאריכים",
+        "detailed_reviews": {
+            "one": "חוות דעת מפורטת ${n}",
+            "two": "חוות דעת מפורטות ${n}",
+            "many": "חוות דעת מפורטות ${n}",
+            "other": "חוות דעת מפורטות ${n}"
+        },
+        "rooms_and_guests": "חדרים ואורחים",
+        "stays_close_by": "לינות בסביבה",
+        "house_rules": "חוקי הבית",
+        "levelDescription": "הנכס עושה השקעות ומאמצים משמעותיים להיות יותר בר-קיימא. השפעתו הסביבתית והחברתית נמדדת לפי גודלו ומיקומו",
+        "sustainable_level": "רמת קיימות ${level}",
+        "property_location": "מיקום הנכס",
+        "select_a_room": "בחר\/י חדר",
+        "select_rooms_and_guests": "בחר\/י חדרים ואורחים",
+        "age_13_or_above": "גילאי 13 ומעלה",
+        "what_people_said": "מה אומרים האנשים",
+        "what_people_loved": "מה אנשים אוהבים לגבי המקום הזה",
+        "read_all_reviews": "קרא\/י את כל הסקירות",
+        "see_all": "הראי את כל ה ${count}",
+        "what_this_place_offers": "מה יש למקום הזה להציע",
+        "share_text": "איך את\/ה עם המלון הזה ${name}",
+        "price_for_night": {
+            "one": "מחיר עבור ${n} לילה",
+            "two": "מחיר עבור ${n} לילות",
+            "many": "מחיר עבור ${n} לילות",
+            "other": "מחיר ${n} לילות"
+        }
+    },
+    "language": {
+        "select_language": "בחר\/י שפה"
+    },
+    "know_more": {
+        "know_more": "לפרטים נוספים",
+        "ask_city_country": "שאל\/י כל מה שאת\/ה רוצה לדעת על ${city}, ${country}",
+        "ask_something_more": "מה עוד אני יכולה לספר לך?",
+        "generating_answer": "שניה, אני עובדת על זה...",
+        "answer_generated": "התשובה מוכנה!",
+        "is_it_safe_for": "האם זה מקום בטוח למטיילים?",
+        "question1": "מתי הזמן הטוב ביותר ללכת לשם?",
+        "question2": "איך מזג האוויר?",
+        "question3": "אלו אטרקציות יש כאן?",
+        "question4": "ספרי לי קצת על ההיסטוריה של המקום."
+    },
+    "onboarding": {
+        "what_are_you_interested_in": "במה את\/ה מתעניין\/מתעניינת?",
+        "pick_cards": "בחר\/י 3 כרטיסים או יותר",
+        "where_will_you_depart_from": "מה תהיה נקודת המוצא?",
+        "for_best_results": "לתוצאות הטובות ביותר, שתף\/שתפי את המיקום שלך",
+        "allow_location_access": "אפשר\/י גישה למיקום שלך",
+        "interests": {
+            "title": "מה מעניין  אותך?",
+            "subtitle": "הוסף\/הוסיפי עוד תחומי עניין כדי שנוכל להתאים אישית עבורך."
+        },
+        "location": {
+            "title": "איפה את\/ה עכשיו?",
+            "message": "סמן\/ני לי את המיקום שלך ואני אקח את זה מכאן להרפתקה הבאה שלך",
+            "button": "אפשר\/י גישה למיקום שלך"
+        },
+        "push_notifications": {
+            "button": "אפשר התראות דחיפה  (פוש)",
+            "body": "אני אודיע לך כשאני מוצאת דילים מדהימים",
+            "notification_body": "בדיוק מצאתי לך כמה טיסות זולות מאוד ללפלנד! בוא\/י נראה את האורות הצפוניים? 👀",
+            "skip": "לא תודה, בפעם אחרת!",
+            "title": "קבל\/י התראות!"
+        }
+    },
+    "profile": {
+        "spread_the_word": "ספר\/י עלינו לאחרים",
+        "invite_friends": "הזמנת חברים",
+        "privacy_policy": "מדיניות פרטיות",
+        "imprint": "חותם",
+        "privacy_and_sharing": "פרטיות ושיתוף",
+        "delete_profile": "מחיקת פרופיל",
+        "delete_profile_message": "בטוח? למחוק את החשבון שלך?",
+        "dont_have_account": "עוד אין לך חשבון?",
+        "log_in_to_start_planning": "התחבר\/י כדי לתכנן את הנסיעה הבאה שלך",
+        "logout": "להתנתקות",
+        "edit_profile_name": "עריכת שם הפרופיל",
+        "take_photo": "צילום תמונה",
+        "choose_photo": "בחירת תמונה",
+        "set_profile_image": "הכנסת תמונת פרופיל",
+        "first_name": "שם פרטי",
+        "last_name": "שם משפחה",
+        "edit_profile": "עריכת פרופיל",
+        "member_since": "חבר מאז ${date}",
+        "share_message": "היי, תכיר\/י את Layla. היא יכולה לעזור לנו לתכנן את כל הטיולים שלנו ולתת לנו השראה לאן לנסוע: ${link}",
+        "terms_of_service": "תנאי השימוש",
+        "account_already_linked": "החשבון הזה כבר מחובר",
+        "account_already_linked_message": "החשבון הזה כבר מחובר למשתמש קיים. האם ברצונך להתחבר באמצעות משתמש זה?",
+        "chat_limit_exceeded": "כדי להמשיך את השיחה התחבר\/י בבקשה. כך גם תתאפשר שמירת השיחות והפריטים לרשימת המשאלות שלך.",
+        "new_chat_login": "כדי לפתוח שיחה חדשה, התחבר\/י בבקשה"
+    },
+    "splash": {
+        "discover_where_to": "גלה\/גלי את \nיעד הטיסה הבא שלך."
+    },
+    "travel_setting": {
+        "what_do_you_want_in_your_trip": "מה את\/ה רוצה בנסיעה שלך?",
+        "when_is_your_trip": "מתי הנסיעה שלך?",
+        "go_var": "לך\/לכי ל ${val}",
+        "flexible_dates": "תאריכים גמישים",
+        "exact_dates": "תאריכים מדויקים",
+        "select_origin": "בחר\/י נקודת מוצא",
+        "add_details": "הוסף\/הוסיפי פרטים",
+        "your_preferences_will_appear_here": "ההעדפות שלך יופיעו כאן"
+    },
+    "thing_todo": {
+        "things_to_do": "חוויות"
+    },
+    "share_dialog": {
+        "title": "שיתוף",
+        "copy": "העתקה",
+        "share_destination": "שתף את היעד הזה",
+        "share_hotel": "שתף את המלון הזה",
+        "share_itinerary": "שתף את המסלול הזה",
+        "share_bucketlist": "הזמן חברים לרשימת הדלי שלך"
+    },
+    "about_screen": {
+        "title": "מה אפשר להגיד עלי, על Layla.",
+        "subtitle": "למצוא את עצמך בכל מקום בעולם עם Layla. מתכננת טיולים מבוססת בינה מלאכותית הגאונה הצמודה והאולטימטיבית.",
+        "block_1": "היי כולם, הנה אני כאן! Layla! ואני ממש מתלהבת לקשקש את עצמי לדעת על אובססיית הטיולים החדשה שלכם - אני!!! מכירים את התכנונים האלה לטיולים סופר ספונטניים ואת הרצון לחיות את החיים על הקצה, מהרפתקה להרפתקה? טוב פה אני נכנסת לתמונה. אני ה-דבר. בינה מלאכותית שקיימת כדי שאתם תוכלו לתכנן בשניות מסעות למקומות חדשים לגמרי וליצור מתוך חלומות הטיולים שלכם מציאות. אז ככה זה עובד...",
+        "block_2": "אז ככה, הרבה אנשים אומרים \"Layla היא היא הפייה השומרת של התשוקה לטיולים\". שים\/שימי מאחוריך את השעות הארוכות של שיטוט חסר כיוון בפינטרסט או אינסטגרם - כמתכננת מבוססת בינה מלאכותית, אני מפיקה הצעות טיולים מותאמות אישית שמבוססות על מה שמעניין אותך. ותאמין\/ני לי, יש לי חושים מפותחים ואני יודעת לרחרח את אתרי החופשה שמעולם לא ידעת שקיימים. לדבר איתי זה כאילו שיש לך גורו של נסיעות בכיס ובלי להוציא על זה כספים מיותרים",
+        "block_3": "עכשיו אני יודעת על מה את\/ה חושב\/ת . \"אני באמת צריכה עוד אפליקציית טיולים בנייד שלי?\". שמע\/י לי בייב. Layla היא לא סתם עוד אפליקציה. לא לא! זה משחק אחר לגמרי. קלוט\/קלטי: את\/ה אומר\/ת לי מה הוייב שלך, בין אם זה אושר צרוף על החוף, אורות העיר או פסגות הרים ובום! אני מוצאת לך תפריט שלם של יעדים תפורים במיוחד בשבילך, כולל סרטוני וידאו כך שתוכל\/י להרגיש מיד את הוייב של כל מקום.",
+        "block_4": "והדבר הכי טוב? לדבר איתי, Layla, מוריד ממך את כל הבלאגן של תכנון הטיול. לא עוד מליון טאבים פתוחים על שולחן העבודה בחיפוש אחר הטיסות הכי טובות, המלונות, האטרקציות. הכל עלי! אני אחרוש את הרשת בחיפוש אחר היעדים הכי לוהטים, אתפוס את הטיסות הידידותיות לתקציב ואחבר אותך למקומות לינה שראויים לאינסטגרם. כל מה שאת\/ה צריך\/כה לעשות זה לארוז ולהראות טוב.",
+        "block_5": "יאללה, הגיע הזמן לדבר על הזמנות. אני פה כדי לייצר לך תהליך הזמנה קל וזורם, החל מגילוי יעד החלומות שלך ועד לחופשה מוזמנת בדיל הכי טוב בשבילך. הרי בינה מלאכותית הגיעה כדי לעשות את הדברים כל כך פשוטים שגם המאותגרים טכנולוגית יוכלו להצליח במשימה. חוץ מזה, סמוך\/סמכי על Layla להיות שם לצדך . אני לא מתעסקת עם אתרים לא מוכרים או מפוקפקים . יש לי הסכמי שיתוף פעולה עם Skyscanner ו Booking.com.",
+        "block_6": "חכה\/י, יש עוד! בינה מלאכותית לא רק עוזרת לך לתכנן, גם תוך זמן הטיול אני כאן לצדך, מלווה אותך כשאת\/ה חוקר\/ת עיר חדשה. חמושה בידע עצום על המקומות שחייבים לראות והדברים שחייבים לחוות, האטרקציות הכי שוות, הסודות החבויים והחוויות המקומיות הכי טרנדיות, אני אנווט אותך למקומות שהמקומיים מבלים בהם אם זה מה שיבוא לך.",
+        "block_7": "אז ככה, תודה\/תודי שנמאס לך מאותו תהליך ישן ומעיק של חיפוש יעד והזמנות במליון אתרים ובא לך לפרוץ לדרך חדשה וזורמת ליצירת החופשה שלך, אז תגיד\/י שלום לLayla - זו אני! אני לא סתם בינה מלאכותית, אני משחק אחר לגמרי לאיך שתתכנן\/ני את החופשות שלך מעכשיו. אני מלאת השראה, יש לי בנק שלם, שרק גדל, של תחושות, אוירות, חוויות, ואני הדרכון שלך לעולם כולו. תתכונן\/ני להמריא איתי בבטחה, כי Layla יודעת בדיוק איך להגשים את חלומות הנסיעות שלך!\n\nההרפתקה ממתינה ✈️💖",
+        "button": "דבר\/י עם Layla"
+    },
+    "download_app": {
+        "title": "הורד\/הורידי את האפליקציה",
+        "subtitle": "הורד\/הורידי את האפליקציה עבור חוויית Layla הטובה ביותר. תהנה\/י מהמלצות מותאמות אישית ומתוכניות נסיעה במקום אחד!",
+        "button": "הורד\/הורידי את Layla בחינם"
+    },
+    "itinerary_widget": {
+        "day_dialog": {
+            "add": {
+                "title": "הוסף\/הוסיפי יום עם בינה מלאכותית",
+                "hint": "מה תרצה\/י לעשות ביום זה",
+                "button": "הוסיפי יום"
+            },
+            "modify": {
+                "title": "שנה\/י עם בינה מלאכותית",
+                "hint": "מה תרצה\/י לעשות ביום ${index} ?",
+                "button": "הפיקי"
+            }
+        },
+        "find_hotels_in": "מצא מלונות מדהימים ב${location}.",
+        "find_amazing_hotels": "מצא מלונות מדהימים"
+    },
+    "video_category": [
+        "הרפתקה",
+        "תרבות",
+        "חוף",
+        "עיר",
+        "אוכל ושתייה",
+        "פנינים נסתרות",
+        "יוקרה",
+        "טבע",
+        "רגיעה",
+        "רומנטיקה",
+        "ספורט",
+        "קטגוריה מובילה",
+        "חוויות"
+    ],
+    "videoSubCategory": [
+        "פעילויות",
+        "יאכטות ושייט",
+        "פארקים ציבוריים",
+        "ברים",
+        "מסעדות וקפה",
+        "דברים לעשות בחינם",
+        "מועדוני לילה",
+        "פסטיבלים ואירועים",
+        "גלריות ומוזיאונים"
+    ],
+    "weekdays_short": [
+        "ב'",
+        "ג'",
+        "ד'",
+        "ה'",
+        "ו'",
+        "ש'",
+        "א'"
+    ],
+    "adults": {
+        "one": "${n} מבוגר",
+        "two": "${n} מבוגרים",
+        "many": "${n} מבוגרים",
+        "other": "${n} מבוגרים"
+    },
+    "dayN": "יום מס' ${n}",
+    "days": {
+        "one": "${n} יום",
+        "two": "${n} ימים",
+        "many": "${n} ימים",
+        "other": "${n} ימים"
+    },
+    "children": {
+        "one": "${n} ילד",
+        "two": "${n} ילדים",
+        "many": "${n} ילדים",
+        "other": "${n} ילדים"
+    },
+    "guest": {
+        "one": "${n} אורח\/ת",
+        "two": "${n} אורחים\/ות",
+        "many": "${n} אורחים\/ות",
+        "other": "${n} אורחים\/ות"
+    },
+    "room": {
+        "one": "${n} חדר",
+        "two": "${n} חדרים",
+        "many": "${n} חדרים",
+        "other": "${n} חדרים"
+    },
+    "person": {
+        "one": "${n} אדם",
+        "two": "${n} אנשים",
+        "many": "${n} אנשים",
+        "other": "${n} אנשים"
+    },
+    "review": {
+        "one": "${n} ביקורת",
+        "two": "${n} ביקורות",
+        "many": "${n} ביקורות",
+        "other": "${n} ביקורות"
+    },
+    "rooms": {
+        "one": "${n} חדר",
+        "two": "${n} חדרים",
+        "many": "${n} חדרים",
+        "other": "${n} חדרים"
+    },
+    "stop": {
+        "one": "תחנה",
+        "two": "${n} תחנות",
+        "many": "${n} תחנות",
+        "other": "${n} תחנות"
+    },
+    "stop_plus": {
+        "one": "תחנה",
+        "two": "+${n} תחנות",
+        "many": "+${n} תחנות",
+        "other": "+${n} תחנות"
+    },
+    "traveller": {
+        "one": "מטייל\/ת",
+        "two": "${n} מטיילים",
+        "many": "${n} מטיילים",
+        "other": "${n} מטיילים"
+    },
+    "age": {
+        "one": "שנה",
+        "two": "שנתיים",
+        "many": "${n} שנים",
+        "other": "${n} שנים"
+    },
+    "about": "אודות",
+    "afternoon": "אחר הצהריים",
+    "allow": "אפשר\/י",
+    "anything": "הכול",
+    "anytime": "בכל זמן",
+    "anywhere": "בכל מקום",
+    "adultsWord": "מבוגרים",
+    "app": "אפליקציה",
+    "apply": "הפעילי",
+    "around": "סביב",
+    "arrival": "הגעה",
+    "away": "רחוק",
+    "best": "הכי טוב",
+    "bucketlists": "רשימות משאלות",
+    "bucketlistWord": "רשימת משאלות",
+    "cancel": "ביטול",
+    "change": "שינוי",
+    "charactersWord": {
+        "one": "תו אחד",
+        "two": "${n} תווים",
+        "many": "${n} תווים",
+        "other": "${n} תווים"
+    },
+    "checkIn": "צ'ק אין",
+    "cheapest": "הזול ביותר",
+    "child": "ילד",
+    "childrenWord": "ילדים",
+    "classWord": "מחלקה",
+    "clear": "נקה\/י",
+    "clear_all": "נקי הכל",
+    "collaborators": "שותפים",
+    "confirm": "אישור",
+    "contact": "צור\/צרי קשר",
+    "contact_us": "צור\/צרי קשר",
+    "continue_label": "המשך\/המשיכי",
+    "create": "צור\/צרי",
+    "creator": "יוצר",
+    "currency": "מטבע",
+    "daysWord": "ימים",
+    "dates": "תאריכים",
+    "deals": "דילים",
+    "delete": "למחיקה",
+    "departure": "יציאה",
+    "description": "תיאור",
+    "destination": "יעד",
+    "destinationsWord": "יעדים",
+    "direct": "ישיר",
+    "done": "סיים",
+    "duration": "משך",
+    "edit": "לעריכה",
+    "editDates": "ערוך\/ערכי תאריכים",
+    "editDetails": "ערוך\/ערכי פרטים",
+    "evening": "ערב",
+    "experiences": "חוויות",
+    "explore": "חקור\/חקרי",
+    "fastest": "הכי מהיר",
+    "feedback": "משוב",
+    "filter_by": "סנני לפי",
+    "filters": "מסננים",
+    "flight": "טיסה",
+    "flights": "טיסות",
+    "from": "מ",
+    "from_var": "מ ${name}",
+    "help": "עזרה",
+    "hotelWord": "מלון",
+    "hotels": "מלונות",
+    "infants": "תינוקות",
+    "itinerary": "תוכנית",
+    "know_more_word": "דע\/י עוד",
+    "languageWord": "שפה",
+    "leave": "עזוב\/עזבי",
+    "legal": "משפטי",
+    "login": "התחברות",
+    "location": "מיקום",
+    "map": "מפה",
+    "month": "חודש",
+    "more": "עוד",
+    "morning": "בוקר",
+    "name": "שם",
+    "next": "הבא",
+    "nightWord": "לילה",
+    "nights": {
+        "one": "לילה אחד",
+        "two": "${n} לילות",
+        "many": "${n} לילות",
+        "other": "${n} לילות"
+    },
+    "nightsWithNum": {
+        "one": "לילה אחד",
+        "two": "${n} לילות",
+        "many": "${n} לילות",
+        "other": "${n} לילות"
+    },
+    "opps": "אופס!",
+    "one_way": "כיוון אחד",
+    "pets": "חיות מחמד",
+    "photos": "תמונות",
+    "plan": "תכנון",
+    "preferences": "העדפות",
+    "profileWord": "פרופיל",
+    "powered_by": "מופעל על ידי",
+    "read_more": "קרא\/י עוד",
+    "remove": "להסרה",
+    "rename": "לשינוי שם",
+    "reset": "לאיפוס",
+    "returnWord": "חזרה לאחור",
+    "roomsWord": "חדרים",
+    "search": "חיפוש",
+    "save": "שמירה",
+    "saved_to": "נשמר ב",
+    "see_all": "ראה\/ראי הכל",
+    "see_more": "ראה\/ראי עוד",
+    "select": "בחר\/י",
+    "select_dates": "בחר\/י תאריכים",
+    "selected": "נבחר",
+    "settings": "הגדרות",
+    "share": "שתף\/שתפי",
+    "show_more": "הציגי עוד",
+    "show_more_flights": "להצגת והזמנת טיסות",
+    "sign_in": "התחבר\/י",
+    "sign_up": "הרשם\/הרשמי",
+    "show_less": "הציגי פחות",
+    "support": "תמיכה",
+    "skip": "דלגי",
+    "skip_for_now": "דלגי לבינתיים",
+    "sort_by": "מיון לפי",
+    "stars": {
+        "one": "כוכב אחד",
+        "two": "${n} כוכבים",
+        "many": "${n} כוכבים",
+        "other": "${n} כוכבים"
+    },
+    "start": "התחילי",
+    "star_new_chat": "לפתיחת צ'אט חדש",
+    "stops": "עצירות",
+    "times": "זמנים",
+    "to": "אל",
+    "today": "היום",
+    "total": "סך הכל",
+    "transit": "העברות",
+    "travelers": "מטיילים",
+    "unknown_error": "שגיאה לא ידועה",
+    "unknown_name": "שם לא ידוע",
+    "update": "לעדכון",
+    "user_cancelled": "המשתמש\/ת ביטל\/ה",
+    "varTotal": "סה\"כ ${n}",
+    "videos": "סרטונים",
+    "view": "לצפיה",
+    "view_details": "לצפיה בפרטים",
+    "weekend": "סוף שבוע",
+    "week": "שבוע",
+    "what": "מה",
+    "what_can_i_ask": "מה אני יכול\/ה לשאול?",
+    "when": "מתי",
+    "where_to": "לאן",
+    "where_from": "מאיפה",
+    "yesterday": "אתמול",
+    "characters_left": {
+        "one": "נותר תו אחד",
+        "two": "נותרו  ${n} תוים",
+        "many": "נותרו  ${n} תוים",
+        "other": "נותרו  ${n} תוים"
+    },
+    "faq": "שאלות ותשובות",
+    "internet_offline": "נראה שאין גישה לרשת האינטרנט. נא נסה\/י שנית",
+    "location_denied": {
+        "message": "יתכן שהסיבה לכך היא שהגישה לשירותי מיקום חסומה. לאפשר גישה הכנס\/י להגדרות > פרטיות > שירותי מיקום",
+        "open_settings": "לפתיחת ההגדרות",
+        "title": "מיקומך העדכני אינו זמין"
+    },
+    "ok": "או קיי",
+    "permissions_dialog": {
+        "permissions_required": "נדרש אישור",
+        "message_photos": "Layla זקוקה לגישה לתמונות כדי לעדכן את התמונה שלך.",
+        "message_camera": "Layla זקוקה לגישה למצלמה שלך כדי לעדכן את התמונה שלך.",
+        "deny": "סרב\/י"
+    },
+    "open": "פתוח",
+    "bedtime": "זמן לישון",
+    "user": "משתמש"
+}

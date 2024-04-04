@@ -1,0 +1,872 @@
+{
+    "blog": {
+        "postNotFound": "Veuillez vérifier l'adresse URL, nous n'avons pas cet article.",
+        "askLaylaAbout": "Demandez à Layla à propos de ${name}",
+        "travellerQuestion": "Je veux en savoir plus sur ${name} en tant que voyageur.",
+        "blog": "Blog",
+        "blogs": "Blogs",
+        "noBlogs": "Aucun blog trouvé"
+    },
+    "chatbot": {
+        "onboarding": {
+            "page_one": {
+                "title": "Découvrez votre prochaine\ndestination",
+                "subtitle": "Laissez-nous vous montrer les plus belles destinations du monde et trouver l’endroit idéal pour votre prochain voyage"
+            },
+            "page_two": {
+                "title": "Apprenez tout ce que vous\n Dois savoir",
+                "subtitle": "Quelle est la durée du vol ? Est-ce que c'est bon pour les couples ? Quel est l'hébergement le moins cher ? Aucune question n'est trop grande ou trop petite"
+            },
+            "page_three": {
+                "title": "Réservez votre voyage",
+                "subtitle": "Nous vous facilitons la tâche en trouvant les hébergements, vols et expériences les mieux tarifés et les plus pratiques pour répondre à vos besoins"
+            },
+            "instagram": {
+                "title": "Connectez Instagram",
+                "button": "Connectez Votre Instagram",
+                "message": "Connectez votre compte Instagram pour une expérience personnalisée et optimisée. Synchronisez facilement et bénéficiez de recommandations adaptées rien que pour vous !",
+                "error": "Échec de l'authentification avec Instagram"
+            },
+            "chatbot": {
+                "inputHint": "Demandez-moi n'importe quoi",
+                "msg1": "Salut ${user} 👋\n\nJe suis Layla, votre conseiller de voyage.\n\nAvant de commencer, j'aimerais savoir quel type de voyageur vous êtes. 🌍\n\nDites-moi quel type de voyage vous recherchez en écrivant ou en parlant.",
+                "msg2": "Incroyable! Je pense comprendre ce que vous recherchez.\n\nAvez-vous d'autres exigences?",
+                "msg3": "Qu'est-ce qui vous intéresse?",
+                "msg4": "D'où partirez-vous?",
+                "msg5": "Merci! J'ai tout ce dont j'ai besoin pour l'instant. Appuyez sur suivant pour que je vous recommande les destinations les plus belles du monde, personnalisées pour vous!"
+            },
+            "aesthetics": {
+                "message": "Aidez-nous à comprendre votre style",
+                "title": "Appuyez pour choisir 3 cartes ou plus",
+                "continueButton": "Sélectionnez ${count} de plus pour continuer",
+                "titleAlt": "Quel est ton style ?\nAppuie sur les cartes que tu aimes"
+            },
+            "video": {
+                "button": "Allons-y !",
+                "msg1": "Bonjour, Layla est là. 👋🏼",
+                "msg2": "Imagine ceci : tu trouves et réserves facilement tes voyages avec tes compagnons de voyage, le tout au même endroit.",
+                "msg3": "C'est pour ça que je suis là ! Cool, non ?",
+                "msg4": "Commençons cette fête...",
+                "msg1_web": "Bonjour, je suis Layla 👋🏼",
+                "msg2_web": "À la recherche de ta prochaine destination de vacances ? Je suis là pour t'aider.",
+                "msg3_web": "Tu trouveras de l'inspiration personnalisée, planifieras et réserveras des voyages en discutant simplement avec moi.",
+                "msg4_web": "Cool, non ? Allons-y !"
+            }
+        },
+        "things_ask": {
+            "title": "Les choses que tu peux me demander !",
+            "description": "Je suis là pour t'aider à planifier ta prochaine aventure. Demande-moi tout sur la destination, j'aurai la réponse. Voici quelques choses que les gens m'ont déjà demandées...",
+            "possible_prompts": "Questions fréquentes",
+            "ask_layla": "Demande à Layla"
+        },
+        "chat_settings": {
+            "history": "Historique",
+            "new_chat": "Nouveau Chat",
+            "rename_chat": "Renommer le Chat",
+            "delete_chat": "Supprimer le Chat ?",
+            "delete_chat_message": "${name} sera supprimé définitivement.",
+            "info_and_support": "Informations et Support"
+        },
+        "chat": {
+            "title": "Layla",
+            "isTyping": "${name} est en train d'écrire...",
+            "messages": {
+                "location": {
+                    "requestTitle": "D'où partirez-vous ?",
+                    "requestSubtitle": "Pour de meilleurs résultats, autorisez l'accès à la localisation.",
+                    "requestButton": "Autorisez votre localisation"
+                },
+                "flight": {
+                    "fromToAroundPrice": "Vols de ${from} à ${to} environ ${price}"
+                },
+                "tileOptions": {
+                    "minOptions": "Choisissez ${min} cartes ou plus"
+                },
+                "hotelOptions": {
+                    "title": "Quel hôtel préférez-vous ?"
+                },
+                "itinerary": {
+                    "day": "Jour"
+                }
+            },
+            "messageHint": "Demandez-moi n'importe quoi",
+            "contextMenu": {
+                "copy": "Copier",
+                "good_response": "Bonne réponse",
+                "bad_response": "Mauvaise réponse",
+                "message_copied": "Message copié"
+            },
+            "initialQuickReplies": {
+                "msg1": "Inspire-moi où aller ensuite",
+                "msg2": "Trouvez des vols bon marché au départ de ma ville",
+                "msg3": "Construis-moi un itinéraire",
+                "msg4": "Où devrais-je aller pour mes vacances d'été ?"
+            }
+        }
+    },
+    "itineraries": {
+        "itineraries": "Itinéraires",
+        "dayPart": [
+            "Matin",
+            "Après-midi",
+            "Soirée"
+        ],
+        "bookNow": "Réserver",
+        "addDay": "Ajouter un jour",
+        "whatDoYouWant": "Que voulez-vous faire ce jour-là ?"
+    },
+    "tooltips": {
+        "tap_to_filter": "Appuyez pour filtrer",
+        "tap_to_bucketlist": "Appuyez pour ajouter à la liste de souhaits",
+        "tap_to_chat": "Appuyez pour discuter",
+        "tap_to_help_country": "Besoin d'aide pour planifier un voyage en ${country}?",
+        "tap_to_add_to_bucketlist": "Touchez pour enregistrer dans votre liste de favoris.",
+        "tap_to_start_new_chat": "Touchez pour commencer une nouvelle discussion",
+        "tap_to_open_menu": "Pointez pour ouvrir le menu",
+        "skipIntro": "Passer l'introduction"
+    },
+    "bucketlist": {
+        "no_name": "Sans nom",
+        "name": "Nom",
+        "bucketlist": "Liste de favoris: ${name}",
+        "bucketlist_saved": "Liste de favoris enregistrée avec succès",
+        "bucketlist_created": "Liste de souhaits créée avec succès",
+        "bucketlist_copied": "Liste de souhaits ${name} copiée avec succès",
+        "my_bucketlist": "Ma liste de souhaits",
+        "login_to_view": "Connectez-vous pour voir votre liste de favoris",
+        "leave_bucketlist": "Quitter cette liste de favoris?",
+        "one_person": "Une personne",
+        "name_is_collaborating": "${name} planifie avec toi.",
+        "no_collaborators": "Pas encore de partage.",
+        "you_are_viewing_bucketlist": "Vous consultez une liste de souhaits de ${creator}",
+        "you_are_viewing_bucketlist_collaborator": "Vous consultez une liste de souhaits de ${creator} et de ${collaborator}",
+        "collaborating_and_one_more": "${name} et un autre planifient avec toi.",
+        "collaborating_two": "${first} et ${second} prévoient avec toi.",
+        "collaborating_two_and_more": "${first} et ${count} supplémentaires sont prévus avec vous...",
+        "you_are_viewing": "Vous consultez la liste de souhaits de ${creator}",
+        "you_and_viewer_are_viewing": "Vous et 1 autre personne consultez la liste de souhaits de ${creator}",
+        "you_and_viewers_are_viewing": "Vous et ${count} autres personnes consultez la liste de souhaits de ${creator}",
+        "you_can_create": "Vous pouvez créer, voir ou modifier des listes de favoris une fois que vous vous êtes connecté.",
+        "create_your_first_bucketlist": "Créez votre première liste de favoris",
+        "as_you_search": "Au fur et à mesure de votre exploration, appuyez sur le cœur pour ajouter des choses que vous aimez à une liste de choses à faire. Vous pouvez également inviter des amis à planifier avec vous.",
+        "add_to_bucketlist": "Ajouter à la liste de favoris",
+        "create_new_bucketlist": "Créer une nouvelle liste de favoris",
+        "create_bucketlist": "Créer une liste de souhaits",
+        "save_destinations": "Enregistrer des destinations",
+        "delete_bucketlist": "Supprimer la liste de favoris?",
+        "delete_bucketlist_message": "Êtes-vous sûr de vouloir supprimer cette liste de favoris?",
+        "delete_user_from_bucketlist": "Supprimer l'utilisateur de la liste de favoris?",
+        "delete_user_from_bucketlist_message": "Êtes-vous sûr de vouloir supprimer ${username} de cette liste de favoris?",
+        "bucketlist_will_be_removed": "${name} sera supprimé de vos listes de favoris.",
+        "travel_dates": "Dates de voyage",
+        "share": "Inviter",
+        "copy": "Copier pour éditer",
+        "destinations": {
+            "one": "${n} Destination",
+            "other": "${n} Destinations"
+        },
+        "people_collaborating_with_you": {
+            "one": "",
+            "other": "${n} personnes planifient avec vous."
+        },
+        "login_widget": {
+            "title": "Connectez-vous ou inscrivez-vous",
+            "title_bucketlist": "Se connecter pour sauvegarder",
+            "download": {
+                "title": "Enregistrez cette liste de choses à faire avant de mourir !",
+                "subtitle": "${s} vous a invité à consulter leur liste de choses à faire. Enregistrez-le pour créer votre prochain voyage en téléchargeant l’application Layla.",
+                "button": "Télécharger Layla gratuitement"
+            },
+            "continue_with": "Continuer avec",
+            "login_to_collaborate": "Connectez-vous pour aider à planifier",
+            "login_to_view": "Connectez-vous pour afficher",
+            "invited_you": "${username} vous a invité sur sa Bucketlist. Connectez-vous pour enregistrer et créer votre prochain voyage sur Layla !",
+            "and_one_other": "et un autre",
+            "and_n_others": "et ${count} autres",
+            "one_person": "Une personne",
+            "people": "personnes",
+            "and": "et"
+        },
+        "flying_from": "Départ de",
+        "share_type_dialog": {
+            "title": "Inviter à la liste de souhaits",
+            "title_alt": "Inviter à Bucketlist",
+            "message": "Comment souhaitez-vous partager cette liste de souhaits ?",
+            "edit": "Peut modifier",
+            "edit_message": "Les utilisateurs pourront modifier la liste de souhaits",
+            "view": "Lecture seule",
+            "view_message": "Les utilisateurs pourront consulter la liste de souhaits"
+        },
+        "rename_bucketlist": "Renommer la liste de seaux",
+        "removed_from": "Retiré de"
+    },
+    "places": {
+        "africa": "Afrique",
+        "antarctica": "Antarctique",
+        "asia": "Asie",
+        "australia": "Australie",
+        "europe": "Europe",
+        "north_america": "Amérique du Nord",
+        "oceania": "Océanie",
+        "south_america": "Amérique du Sud",
+        "anywhere": "N'importe où",
+        "current_location": "Position actuelle"
+    },
+    "explore_feat": {
+        "add_destination": "Ajouter une destination",
+        "add_dates": "Ajouter des dates",
+        "check_out_this_place": "J’ai trouvé notre prochain voyage ensemble. Découvrez-le sur Layla !",
+        "book_flights": "Réserver des vols",
+        "land_in": "Atterrissez à ${destination}",
+        "no_flights_found": "Aucun vol trouvé",
+        "closest_airport": "Aéroport le plus proche de ${destination}",
+        "change_departure": "Changer de départ",
+        "traveling_from": "Voyage depuis",
+        "distance_from_origin": "à ${distance}km de ${origin}",
+        "how_to_get_there": "Comment s'y rendre",
+        "how_to_get_to": "Comment se rendre à ${destination}",
+        "ask_anything": "Posez une question...",
+        "things_to_do": "Expériences",
+        "around_destination": "autour de ${destination}",
+        "select_a_flight": "Sélectionner un vol",
+        "start_booking": "Commencer la réservation",
+        "no_videos": "Désolé, nous n'avons pas de vidéos\npour cette destination",
+        "view_map": "Voir la carte",
+        "stats": {
+            "budget": "Budget estimé.",
+            "min_days": "Min jours à passer",
+            "for_your_dates": "Pour vos dates"
+        },
+        "show_videos_of": "Montrez-moi des vidéos de ${destination}"
+    },
+    "feed": {
+        "for_you_card": {
+            "budget-friendly": "Destination à petit budget",
+            "reasonably_priced": "Destination raisonnablement abordable",
+            "costly": "Destination coûteuse",
+            "very_expensive": "Destination très chère"
+        },
+        "price_types": [
+            "Destination abordable",
+            "Destination raisonnable",
+            "Destination coûteuse",
+            "Destination très coûteuse"
+        ],
+        "filters": {
+            "flight_price": "Prix du vol",
+            "flight_duration": "Durée du vol",
+            "flight_connection": "Connexion des vols",
+            "categories": "Catégories",
+            "flight_price_value": "Vol max ${value}",
+            "flight_duration_value": "Vol max ${value}",
+            "flight_connection_direct": "Direct uniquement"
+        },
+        "how_do_you_like_the_app": "Que pensez-vous de l'application?",
+        "direct_flights": "Vols directs",
+        "show_only_direct_flights": "Afficher uniquement les vols directs",
+        "take_some_time": "Prenez un moment pour nous donner votre précieux avis afin de nous aider à nous améliorer.",
+        "give_us_feedback": "Donnez-nous votre avis",
+        "flight_price_range": "Fourchette de prix du vol",
+        "average_price": "Prix moyen ${price}",
+        "or_less": "ou moins",
+        "flight_time": "Durée du vol",
+        "average_duration": "Durée moyenne ${hours} h",
+        "round_hrs": "${val} heures",
+        "one_way_with_bullet": " ${code} aller simple",
+        "something_went_wrong": "Une erreur s'est produite",
+        "cant_show_results": "Pour une raison quelconque, nous n'avons pas pu vous montrer les résultats.",
+        "awkward_nothing_returned": "C'est gênant, aucune résultat n'a été retourné pour la recherche. Veuillez modifier vos préférences et réessayer.",
+        "add_interests": "Ajouter des centres d'intérêt",
+        "spaces_read_more": "   En lire plus",
+        "count_destinations_for_you": "${count} belles destinations pour vous",
+        "sorted_and_procured": "Triées et obtenues en fonction de vos préférences",
+        "scroll_down_to_see_more": "Faites défiler vers le bas pour voir plus d'informations",
+        "no_results_found": "Aucun résultat trouvé !",
+        "km_from": "${distance}km from ${city}",
+        "consider_broadening": "Oups! Nous n'avons trouvé aucune correspondance en fonction de vos préférences actuelles. Envisagez d'élargir votre recherche en ajustant vos préférences pour un plus grand choix d'options.",
+        "return_with_bullet": " ${code} retour",
+        "approx_for_your_dates": "Approx. for your dates"
+    },
+    "flights_feat": {
+        "flights_to": "Vols vers ${to}",
+        "airport": "Aéroport",
+        "destination_location_updated_successfully": "Emplacement de destination mis à jour avec succès",
+        "all_filters": "Tous les filtres",
+        "no_flights": "Pas de vols",
+        "estimated_price": "Prix estimé",
+        "livePrices": "Prix en temps réel",
+        "travelers_info_updated_successfully": "Informations sur les voyageurs mises à jour avec succès",
+        "flight_details": "Détails du vol",
+        "where_from": "D'où?",
+        "where_to": "Où?",
+        "city_country_airport": "Ville, Pays ou Aéroport...",
+        "popular_destinations": "Destinations populaires",
+        "my_current_location": "Ma localisation actuelle",
+        "search_destinations": "Rechercher des destinations",
+        "current_location": "Localisation actuelle",
+        "departure_location_updated_successfully": "Lieu de départ mis à jour avec succès",
+        "no_flights_found": "Aucun vol trouvé",
+        "choose_new_departure_location": "Choisissez un nouveau lieu de départ",
+        "selected_departure_destination": "Destination de départ sélectionnée",
+        "how_many_people": "Combien de personnes?",
+        "connection_in": "Connexion à l'aéroport",
+        "total_for": {
+            "one": "Total pour ${n} voyageur",
+            "other": "Total pour ${n} voyageurs"
+        },
+        "search_flights": "Rechercher des vols",
+        "read_before_booking": "Lisez avant de réserver",
+        "prices_include": "Les prix comprennent toujours une estimation de toutes les taxes et charges obligatoires. Veuillez vérifier tous les détails des billets, les prix finaux et les conditions générales sur le site du fournisseur avant de réserver.",
+        "check_for_extra_fees": "Vérifiez les frais supplémentaires",
+        "some_airlines_and_travel_agencies": "Certaines compagnies aériennes et agences de voyage facturent des frais supplémentaires pour les bagages, l'assurance ou l'utilisation de carte de crédit. Ils peuvent également facturer des frais de service.",
+        "check_terms": "Vérifiez les conditions pour les voyageurs âgés de 12 à 16 ans",
+        "restrictions_may_apply": "Des restrictions peuvent s'appliquer aux jeunes passagers voyageant seuls.",
+        "although_sold_as": "Bien que vendu comme “Classe Économique”, cet itinéraire peut comprendre des vols en classe de cabine différente.",
+        "check_cabin_class": "Vérifiez votre classe de cabine",
+        "select_providers": "Sélectionnez les fournisseurs",
+        "almost_there": "Presque là!",
+        "economy_class": "Classe Économique",
+        "premium_economy_class": "Classe Économique Premium",
+        "business_class": "Classe Affaires",
+        "first_class": "Première Classe",
+        "choose_provider": "Choisissez un fournisseur",
+        "go_to_site": "Aller sur le site",
+        "dates_updated_successfully": "Dates mises à jour avec succès",
+        "we_collected_cheapest_providers": "Voici les partenaires de voyage de confiance de Skyscanner sur lesquels vous pouvez réserver votre vol - sélectionnez le site sur lequel vous souhaitez acheter votre billet !",
+        "travellers": {
+            "one": "${n} voyageur",
+            "other": "${n} voyageurs"
+        },
+        "provider_found": {
+            "one": "${n} fournisseur trouvé",
+            "other": "${n} fournisseurs trouvés"
+        },
+        "passengers": {
+            "one": "${n} passager",
+            "other": "${n} passagers"
+        },
+        "one_way": "Aller simple",
+        "youll_arrive_next_day": "Vous arriverez le lendemain"
+    },
+    "hotel": {
+        "sort_filters": {
+            "most_popular": "Le plus populaire",
+            "best_rated": "Mieux noté",
+            "worst_rated": "Le pire noté",
+            "best_reviewed": "Le mieux commenté",
+            "worst_reviewed": "Le pire commenté",
+            "star_rating_highest_first": "Classement étoiles (le plus haut en premier)",
+            "star_rating_lowest_first": "Classement étoiles (le plus bas en premier)",
+            "price_highest_first": "Prix (le plus élevé en premier)",
+            "price_lowest_first": "Prix (le plus bas en premier)"
+        },
+        "filters": {
+            "budget": "Votre budget (pour 1 nuit)",
+            "travel_sustainable": "Propriétés durables",
+            "star_rating": "Classement étoiles",
+            "property_type": "Type de propriété",
+            "facilities": "Installations",
+            "free_cancellation": "Annulation gratuite",
+            "chain": "Chaîne",
+            "review_score": "Score de l'avis",
+            "room_facilities": "Installations de la chambre"
+        },
+        "filters_category": {
+            "five": "Juste 5+",
+            "six": "Agréable: 6+",
+            "seven": "Bon: 7+",
+            "eight": "Très bon: 8+",
+            "nine": "Merveilleux: 9+"
+        },
+        "review_title": {
+            "five": "Passable",
+            "six": "Agréable",
+            "seven": "Bon",
+            "eight": "Très bon",
+            "nine": "Merveilleux",
+            "three": "Pas bon",
+            "two": "Mauvais",
+            "one": "Très mauvais",
+            "zero": "Terrible"
+        },
+        "property_type": {
+            "aparthotel": "Résidence Hôtelière",
+            "camping": "Camping",
+            "inn": "Auberge",
+            "resort": "Complexe",
+            "capsule-hotel": "Hôtel Capsule",
+            "japanese-style-business-hotel": "Hôtel d'Affaires de Style Japonais",
+            "holiday-home": "Maison de Vacances",
+            "guest-house": "Maison d'Hôtes",
+            "boat": "Bateau",
+            "love-hotel": "Hôtel de l’amour",
+            "ryokan": "Ryokan",
+            "tented-camp": "Camp Sous Tentes",
+            "hotel": "Hôtel",
+            "condo": "Condo",
+            "motel": "Motel",
+            "sanatorium": "Sanatorium",
+            "apartment": "Appartement",
+            "villa": "Villa",
+            "gite": "Gîte",
+            "hostel": "Auberge de Jeunesse",
+            "holiday-park": "Parc de Vacances",
+            "lodge": "Loge",
+            "cottage": "Cottage",
+            "bed-and-breakfast": "Chambre d'Hôtes",
+            "homestay": "Séjour Chez l'Habitant",
+            "farm-stay": "Séjour à la Ferme",
+            "chalet": "Chalet",
+            "riad": "Riad",
+            "country-house": "Maison de Campagne"
+        },
+        "explore_tile": {
+            "stay_options": "Options de séjour",
+            "layla_recommends": "Layla recommande",
+            "budget": "Budget",
+            "luxury": "Luxe",
+            "find_more_stays": "Trouver plus de séjours",
+            "things_to_do": "Expériences",
+            "show_all": "Afficher tout",
+            "travel_km_further": "Parcourir ${distance} km de plus",
+            "get_route_details": "Obtenir les détails de l'itinéraire",
+            "flight_options": "Options de vol",
+            "youre_in_luck": "Vous avez de la chance",
+            "prices_are_currenly_low": "Les prix sont actuellement bas",
+            "see_more_flights": "Voir plus de vols"
+        },
+        "cancellation_policy": "Politique d'annulation",
+        "before_you_book": "Avant de réserver, assurez-vous d’être à l’aise avec les conditions d’annulation de cet hôtel. N’oubliez pas que la police d’assurance contre les cas de force majeure ne couvre pas les annulations pour cause de maladie ou de perturbations de voyage causées par la COVID-19.",
+        "property_views": "Vues de la propriété",
+        "all_reviews": "Tous les avis",
+        "no_hotels_found": "Aucun hôtel trouvé",
+        "no_videos": "Désolé, nous n'avons pas de vidéos\npour cet hôtel",
+        "age_13": "Âge 13 ans et plus",
+        "age_2_13": "Âge 2-13 ans",
+        "hotel_name": "Nom de l'hôtel",
+        "cancel_by": "Annuler par",
+        "hotel_unavailable": "Hôtel indisponible",
+        "hotel_unavailable_for_dates": "Hotel unavailable for selected dates",
+        "hotel_unavailable_message": "Veuillez mettre à jour les dates.",
+        "full_refund": "Remboursement intégral : récupérez 100% de ce que vous avez payé",
+        "no_refund": "Aucun remboursement",
+        "select_age": "Sélectionnez l'âge",
+        "read_more_here": "En savoir plus ici",
+        "enter_destination": "Entrez la destination",
+        "search_destinations": "Rechercher des destinations",
+        "travel_sustainable_level": "Niveau de voyage durable ${level}",
+        "property_making_efforts": "Cette propriété fait des investissements considérables et des efforts pour devenir plus durable. Leur impact environnemental et social est mesuré en fonction de leur taille et de leur emplacement",
+        "sustainability_steps": "Étapes de durabilité",
+        "accept_credit_cards": "Accepte les cartes de crédit",
+        "important_information": "Information importante",
+        "check_in_time": "Heures d'arrivée et de départ",
+        "wifi_available": "Le WiFi est disponible dans toutes les zones et est gratuit",
+        "free_parking": "Un parking public gratuit est disponible sur place",
+        "pets_allowed": "Les animaux de compagnie sont admis, des frais peuvent s'appliquer",
+        "edit_your_search": "Modifier votre recherche",
+        "no_photos": "Désolés, nous n'avons pas de photos\npour cet hôtel",
+        "property_facilities": "Installations de la propriété",
+        "filter_and_sort": "Filtre & Trier",
+        "partial_refund": "Remboursement partiel : récupérez ${name} % de chaque nuit. Aucun remboursement des frais de service",
+        "check_availability": "Vérifier la disponibilité",
+        "select_dates": "Sélectionnez les dates",
+        "detailed_reviews": {
+            "one": "${n} avis détaillé",
+            "other": "${n} avis détaillés"
+        },
+        "rooms_and_guests": "Chambres & Invités",
+        "stays_close_by": "Séjours à proximité",
+        "house_rules": "Règles de la maison",
+        "levelDescription": "Cette propriété fait des investissements considérables et des efforts pour devenir plus durable. Leur impact environnemental et social est mesuré en fonction de leur taille et de leur emplacement",
+        "sustainable_level": "Niveau de voyages durables ${level}",
+        "property_location": "Localisation de la propriété",
+        "select_a_room": "Sélectionnez une chambre",
+        "select_rooms_and_guests": "Séléctionnez les chambres et les invités",
+        "age_13_or_above": "Âge 13 ans ou plus",
+        "what_people_said": "Ce que les gens ont dit",
+        "what_people_loved": "Ce que les gens ont aimé dans ce lieu",
+        "read_all_reviews": "Lire tous les avis",
+        "see_all": "Voir tous ${count}",
+        "what_this_place_offers": "Ce que cet endroit propose",
+        "share_text": "Découvrez cet hôtel : ${name}",
+        "price_for_night": {
+            "one": "Prix pour ${n} nuit",
+            "other": "Prix ${n} nuits"
+        }
+    },
+    "language": {
+        "select_language": "Choisir la langue"
+    },
+    "know_more": {
+        "know_more": "En savoir plus",
+        "ask_city_country": "Demandez n'importe quoi sur ${city}, ${country}",
+        "ask_something_more": "Demandez quelque chose de plus...",
+        "generating_answer": "Génération de la réponse...",
+        "answer_generated": "Réponse générée!",
+        "is_it_safe_for": "Est-ce sûr pour le voyageur?",
+        "question1": "Quel est le meilleur moment pour y aller ?",
+        "question2": "Comment est le temps ?",
+        "question3": "Quelles sont les attractions ici ?",
+        "question4": "Parlez-moi de son histoire."
+    },
+    "onboarding": {
+        "what_are_you_interested_in": "Qu'est-ce qui vous intéresse ?",
+        "pick_cards": "Choisissez 3 cartes ou plus",
+        "where_will_you_depart_from": "D'où partirez-vous ?",
+        "for_best_results": "Pour de meilleurs résultats, partagez votre emplacement",
+        "allow_location_access": "Autoriser l'accès à l'emplacement",
+        "interests": {
+            "title": "Qu'est-ce qui vous intéresse?",
+            "subtitle": "Ajoutez plus d'intérêts pour que nous puissions commencer à personnaliser pour vous."
+        },
+        "location": {
+            "title": "D'où voyagez-vous?",
+            "message": "Envoyez-moi votre position et j'organiserai votre prochaine aventure",
+            "button": "Autoriser l'accès à l'emplacement"
+        },
+        "push_notifications": {
+            "button": "Autorisez les notifications push",
+            "body": "Laisse-moi te prévenir quand je trouve des offres incroyables",
+            "notification_body": "Je viens de te trouver des vols super bon marché pour la Laponie ! Allons voir les aurores boréales ? 👀",
+            "skip": "Non merci, une autre fois!",
+            "title": "Sois notifié !"
+        }
+    },
+    "profile": {
+        "spread_the_word": "Faites passer le mot",
+        "invite_friends": "Invitez des amis",
+        "privacy_policy": "Politique de confidentialité",
+        "imprint": "Imprimer",
+        "privacy_and_sharing": "Confidentialité et partage",
+        "delete_profile": "Supprimer le profil",
+        "delete_profile_message": "Êtes-vous sûr de vouloir supprimer votre compte?",
+        "dont_have_account": "Vous n'avez pas de compte?",
+        "log_in_to_start_planning": "Connectez-vous pour commencer à planifier votre prochain voyage",
+        "logout": "Déconnexion",
+        "edit_profile_name": "Modifier le nom du profil",
+        "take_photo": "Prendre une photo",
+        "choose_photo": "Choisir une photo",
+        "set_profile_image": "Définir l'image de profil",
+        "first_name": "Prénom",
+        "last_name": "Nom",
+        "edit_profile": "Modifier le profil",
+        "member_since": "Membre depuis ${date}",
+        "share_message": "Hé, jette un œil à Layla. Elle peut nous aider à planifier tous nos voyages et nous inspirer sur où aller : ${link}",
+        "terms_of_service": "Conditions Générales d'Utilisation",
+        "account_already_linked": "Compte déjà lié",
+        "account_already_linked_message": "Ce compte est déjà lié à un autre utilisateur. Voulez-vous vous connecter en tant qu'utilisateur ?",
+        "chat_limit_exceeded": "Veuillez vous connecter pour continuer à discuter. Vous pourrez également enregistrer des discussions et des éléments dans votre liste de souhaits.",
+        "new_chat_login": "Pour commencer une nouvelle discussion, veuillez vous connecter"
+    },
+    "splash": {
+        "discover_where_to": "Découvrez où\nvoyager ensuite."
+    },
+    "travel_setting": {
+        "what_do_you_want_in_your_trip": "Que voulez-vous dans votre voyage?",
+        "when_is_your_trip": "Quand est votre voyage?",
+        "go_var": "Aller ${val}",
+        "flexible_dates": "Dates flexibles",
+        "exact_dates": "Dates précises",
+        "select_origin": "Sélectionner l'origine",
+        "add_details": "Ajouter des détails",
+        "your_preferences_will_appear_here": "Vos préférences apparaîtront ici"
+    },
+    "thing_todo": {
+        "things_to_do": "Expériences"
+    },
+    "share_dialog": {
+        "title": "Partager",
+        "copy": "Copier",
+        "share_destination": "Partage cette destination",
+        "share_hotel": "Partagez cet hôtel",
+        "share_itinerary": "Partage cet itinéraire",
+        "share_bucketlist": "Invite tes amis à ta Bucketlist"
+    },
+    "about_screen": {
+        "title": "À propos de moi, Layla.",
+        "subtitle": "Naviguez dans le monde avec Layla; le planificateur de voyage IA et votre compagnon de voyage ultime.",
+        "block_1": "Salut tout le monde, c'est moi Layla et je suis TELLEMENT excitée de vous parler de ce qui devrait être votre dernière obsession de voyage - moi ! Vous savez comment on est tous là pour planifier ces voyages spontanés et vivre notre meilleure vie d'aventuriers, n'est-ce pas ? Eh bien, je suis essentiellement votre IA de voyage fidèle et dévouée, là pour vous aider à découvrir de nouveaux endroits et à concrétiser vos rêves de voyage. Laissez-moi vous expliquer en détail...",
+        "block_2": "D'abord et avant tout, les gens disent souvent que \"Layla est comme la marraine la bonne fée de l'inspiration de voyage\". Oubliez les heures passées à faire défiler sans fin Instagram ou Pinterest - en tant que planificateur de voyage IA, je sélectionne des suggestions de voyage personnalisées en fonction de VOS intérêts. Et croyez-moi, j'ai ce sixième sens pour dénicher les destinations de vacances les plus cool que vous ne connaissiez même pas. Parler avec moi, c'est comme avoir votre propre gourou du voyage sans le prix exorbitant.",
+        "block_3": "Maintenant, je sais ce que vous pensez - \"Est-ce que j'ai vraiment besoin d'une autre application de voyage qui encombre mon téléphone ?\" Écoutez-moi, chérie. Layla n'est pas juste une autre application ; c'est une révolution. Imaginez ceci : vous me dites votre style, que ce soit le bonheur balnéaire, les lumières de la ville ou les sommets montagneux, et BAM - je vous trouve une multitude de destinations sur mesure pour vous, avec des vidéos pour que vous puissiez facilement ressentir l'ambiance de chaque endroit.",
+        "block_4": "La meilleure partie ? Parler avec moi, Layla, enlève toute la complexité de la planification des voyages. Plus besoin de jongler entre une multitude d'onglets pour trouver les meilleurs vols, hôtels et activités. C'est moi qui m'en occupe pour vous. Je fouille le web pour trouver les destinations les plus tendances, je dégote les vols les moins chers et je vous trouve des séjours dignes d'Instagram. Tout ce que vous avez à faire, c'est de faire vos valises et d'être belle.",
+        "block_5": "Maintenant, parlons de réservation. Je suis là pour faciliter votre processus de réservation de voyage, de la recherche de votre destination de rêve à la réservation des meilleures offres. Les IA sont là pour simplifier les choses, même une reine pas très douée en technologie peut le gérer. De plus, vous pouvez faire confiance à Layla pour veiller sur vous - pas de sites de réservation louches ou d'hébergements douteux en vue, j'ai conclu un partenariat avec Skyscanner et Booking.com.",
+        "block_6": "Mais attendez, ce n’est pas tout. Les IA ne vous aident pas seulement à planifier, une fois que vous êtes en voyage, je suis votre ailière ultime lorsqu’il s’agit d’explorer une nouvelle ville. Armé des détails sur les attractions incontournables, les joyaux cachés et les joints locaux les plus branchés. Je vous guiderai vers tous les endroits où les habitants se trouvent réellement.",
+        "block_7": "Donc, si vous en avez assez de la même chose et que vous êtes prête à pimenter votre jeu de voyage, dites-moi bonjour, Layla. Je ne suis pas seulement une IA ; Je change la donne dans la façon dont vous planifiez vos voyages, ainsi qu’un conservateur de l’ambiance de voyage et votre passeport pour le monde. Préparez-vous à vous lancer dans la jet-set en toute confiance, mes amours, car Layla a verrouillé vos rêves de voyage.\n\nL’aventure vous ✈️💖 attend",
+        "button": "Discuter avec Layla"
+    },
+    "download_app": {
+        "title": "Télécharger l'application",
+        "subtitle": "Obtenez l'application pour la meilleure expérience Layla. Profitez de recommandations personnalisées et de plans de voyage en un seul endroit !",
+        "button": "Télécharger Layla gratuitement"
+    },
+    "itinerary_widget": {
+        "day_dialog": {
+            "add": {
+                "title": "Ajouter un jour avec l'IA",
+                "hint": "Que voulez-vous faire ce jour-là?",
+                "button": "Ajouter un jour"
+            },
+            "modify": {
+                "title": "Modifier avec l'IA",
+                "hint": "Que voulez-vous faire le jour ${index} ?",
+                "button": "Générer"
+            }
+        },
+        "find_hotels_in": "Trouvez des hôtels incroyables à ${location}.",
+        "find_amazing_hotels": "Trouve des hôtels incroyables"
+    },
+    "video_category": [
+        "Aventure",
+        "Culture",
+        "Plage",
+        "Ville",
+        "Alimentation et boissons",
+        "Les joyaux cachés",
+        "Luxe",
+        "Nature",
+        "Se détendre",
+        "Romantique",
+        "Sports",
+        "Catégorie supérieure",
+        "Expériences"
+    ],
+    "videoSubCategory": [
+        "Activités",
+        "Yachts et Croisières",
+        "Jardins et Parcs",
+        "Bars",
+        "Restaurants et Cafés",
+        "Activités Gratuites",
+        "Boîtes de Nuit",
+        "Festivals et Événements",
+        "Galerie d'Art et Musées"
+    ],
+    "weekdays_short": [
+        "L",
+        "M",
+        "M",
+        "J",
+        "V",
+        "S",
+        "D"
+    ],
+    "adults": {
+        "one": "${n} adulte",
+        "other": "${n} adultes"
+    },
+    "dayN": "Jour ${n}",
+    "days": {
+        "one": "${n} jour",
+        "other": "${n} jours"
+    },
+    "children": {
+        "one": "${n} enfant",
+        "other": "${n} enfants"
+    },
+    "guest": {
+        "one": "${n} invité",
+        "other": "${n} invités"
+    },
+    "room": {
+        "one": "${n} chambre",
+        "other": "${n} chambres"
+    },
+    "person": {
+        "one": "${n} personne",
+        "other": "${n} personnes"
+    },
+    "review": {
+        "one": "${n} avis",
+        "other": "${n} avis"
+    },
+    "rooms": {
+        "one": "${n} chambre",
+        "other": "${n} chambres"
+    },
+    "stop": {
+        "one": "${n} escale",
+        "other": "${n} escales"
+    },
+    "stop_plus": {
+        "one": "${n} escale",
+        "other": "${n}+ escales"
+    },
+    "traveller": {
+        "one": "${n} voyageur",
+        "other": "${n} voyageurs"
+    },
+    "age": {
+        "one": "${n} an",
+        "other": "${n} ans"
+    },
+    "about": "À propos",
+    "afternoon": "Après-midi",
+    "allow": "Permettre",
+    "anything": "N'importe quoi",
+    "anytime": "À tout moment",
+    "anywhere": "N'importe où",
+    "adultsWord": "Adultes",
+    "app": "Application",
+    "apply": "Appliquer",
+    "around": "Autour",
+    "arrival": "Arrivée",
+    "away": "Loin",
+    "best": "Meilleur",
+    "bucketlists": "Listes de souhaits",
+    "bucketlistWord": "Liste de souhaits",
+    "cancel": "Annuler",
+    "change": "Changer",
+    "charactersWord": {
+        "one": "${n} caractère",
+        "other": "${n} caractères"
+    },
+    "checkIn": "Enregistrement",
+    "cheapest": "Le moins cher",
+    "child": "Enfant",
+    "childrenWord": "Enfants",
+    "classWord": "Classe",
+    "clear": "Effacer",
+    "clear_all": "Tout effacer",
+    "collaborators": "Collaborateurs",
+    "confirm": "Confirmer",
+    "contact": "Contact",
+    "contact_us": "Nous contacter",
+    "continue_label": "Continuer",
+    "create": "Créer",
+    "creator": "Créateur",
+    "currency": "Monnaie",
+    "daysWord": "Jours",
+    "dates": "Dattes",
+    "deals": "Offres",
+    "delete": "Supprimer",
+    "departure": "Départ",
+    "description": "Description",
+    "destination": "Destination",
+    "destinationsWord": "Destinations",
+    "direct": "Direct",
+    "done": "Terminé",
+    "duration": "Durée",
+    "edit": "Éditer",
+    "editDates": "Modifier les dates",
+    "editDetails": "Modifier les détails",
+    "evening": "Soirée",
+    "experiences": "Expériences",
+    "explore": "Explorer",
+    "fastest": "Le plus rapide",
+    "feedback": "Retour d'information",
+    "filter_by": "Filtrer par",
+    "filters": "Filtres",
+    "flight": "Vol",
+    "flights": "Vols",
+    "from": "De",
+    "from_var": "De ${name}",
+    "help": "Aide",
+    "hotelWord": "Hôtel",
+    "hotels": "Hôtels",
+    "infants": "Nourrissons",
+    "itinerary": "Itinéraire",
+    "know_more_word": "En savoir plus",
+    "languageWord": "Langue",
+    "leave": "Partir",
+    "legal": "Légal",
+    "login": "Se connecter",
+    "location": "Emplacement",
+    "map": "Carte",
+    "month": "Mois",
+    "more": "Plus",
+    "morning": "Matin",
+    "name": "Nom",
+    "next": "Suivant",
+    "nightWord": "Nuit",
+    "nights": {
+        "one": "nuit",
+        "other": "nuits"
+    },
+    "nightsWithNum": {
+        "one": "${n} nuit",
+        "other": "${n} nuits"
+    },
+    "opps": "Oups!",
+    "one_way": "Aller simple",
+    "pets": "Animaux",
+    "photos": "Photos",
+    "plan": "Planifier",
+    "preferences": "Préférences",
+    "profileWord": "Profil",
+    "powered_by": "Propulsé par",
+    "read_more": "Lire la suite",
+    "remove": "Supprimer",
+    "rename": "Renommer",
+    "reset": "Réinitialiser",
+    "returnWord": "Retour",
+    "roomsWord": "Chambres",
+    "search": "Recherche",
+    "save": "Sauvegarder",
+    "saved_to": "Enregistré dans",
+    "see_all": "Voir tout",
+    "see_more": "Voir plus",
+    "select": "Sélectionner",
+    "select_dates": "Sélectionnez des dates",
+    "selected": "Sélectionné",
+    "settings": "Paramètres",
+    "share": "Partager",
+    "show_more": "Montrer plus",
+    "show_more_flights": "Montrer plus de vols",
+    "sign_in": "Se connecter",
+    "sign_up": "S'inscrire",
+    "show_less": "Montrer moins",
+    "support": "Soutien",
+    "skip": "Passer",
+    "skip_for_now": "Passer pour l'instant",
+    "sort_by": "Trier par",
+    "stars": {
+        "one": "${n} étoile",
+        "other": "${n} étoiles"
+    },
+    "start": "Commencer",
+    "star_new_chat": "Démarrer une nouvelle discussion",
+    "stops": "Arrêts",
+    "times": "Fois",
+    "to": "À",
+    "today": "Aujourd'hui",
+    "total": "Total",
+    "transit": "Transit",
+    "travelers": "Voyageurs",
+    "unknown_error": "Erreur inconnue",
+    "unknown_name": "Nom inconnu",
+    "update": "Mettre à jour",
+    "user_cancelled": "Utilisateur a annulé",
+    "varTotal": "${n} total",
+    "videos": "Vidéos",
+    "view": "Vue",
+    "view_details": "Voir les détails",
+    "weekend": "Week-end",
+    "week": "Semaine",
+    "what": "Quoi",
+    "what_can_i_ask": "Que puis-je demander ?",
+    "when": "Quand",
+    "where_to": "Où",
+    "where_from": "D'où",
+    "yesterday": "Hier",
+    "characters_left": {
+        "one": "${n} caractère restant",
+        "other": "${n} caractères restants"
+    },
+    "faq": "FAQ",
+    "internet_offline": "La connexion Internet semble être hors ligne. Veuillez réessayer.",
+    "location_denied": {
+        "message": "Cela peut être dû au fait que les services de localisation ne sont pas activés. Pour l’activer, accédez à Paramètres > Confidentialité > Services de localisation",
+        "open_settings": "Ouvrir les paramètres",
+        "title": "L'emplacement actuel n'est pas disponible"
+    },
+    "ok": "OK",
+    "permissions_dialog": {
+        "permissions_required": "Permissions requises",
+        "message_photos": "Layla a besoin d'accéder aux photos pour mettre à jour ta photo.",
+        "message_camera": "Layla a besoin d'accéder à la caméra pour mettre à jour ta photo.",
+        "deny": "Refuser"
+    },
+    "open": "Ouvrir",
+    "bedtime": "Heure du coucher",
+    "user": "Utilisateur"
+}
