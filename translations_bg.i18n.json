@@ -68,7 +68,7 @@
             "info_and_support": "Информация и Поддръжка"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - AI Планиране на Пътуване",
             "isTyping": "${name} пише...",
             "messages": {
                 "location": {

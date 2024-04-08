@@ -68,7 +68,7 @@
             "info_and_support": "信息和支持"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - AI旅行规划师",
             "isTyping": "${name} 正在输入...",
             "messages": {
                 "location": {

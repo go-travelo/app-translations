@@ -68,7 +68,7 @@
             "info_and_support": "Informationen und Support"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - KI Reiseplaner",
             "isTyping": "${name} tippt...",
             "messages": {
                 "location": {

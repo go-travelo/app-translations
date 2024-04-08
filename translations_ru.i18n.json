@@ -68,7 +68,7 @@
             "info_and_support": "Информация и поддержка"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - ИИ Путеводитель",
             "isTyping": "${name} печатает...",
             "messages": {
                 "location": {
