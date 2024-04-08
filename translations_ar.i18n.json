@@ -68,7 +68,7 @@
             "info_and_support": "المعلومات والدعم"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - مخطِّط السفر الذكي",
             "isTyping": "يكتب ${name}...",
             "messages": {
                 "location": {

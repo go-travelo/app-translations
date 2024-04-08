@@ -68,7 +68,7 @@
             "info_and_support": "Informações e Suporte"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - IA Planejador de Viagens",
             "isTyping": "${name} está digitando...",
             "messages": {
                 "location": {

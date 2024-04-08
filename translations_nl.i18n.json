@@ -68,7 +68,7 @@
             "info_and_support": "Informatie en Ondersteuning"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - AI Reisplanner",
             "isTyping": "${name} is aan het typen...",
             "messages": {
                 "location": {

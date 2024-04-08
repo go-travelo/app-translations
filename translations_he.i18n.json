@@ -68,7 +68,7 @@
             "info_and_support": "מידע ותמיכה"
         },
         "chat": {
-            "title": "Layla",
+            "title": "Layla - מתכנן נסיעות מבית AI",
             "isTyping": "${name} כותב\/ת...",
             "messages": {
                 "location": {
