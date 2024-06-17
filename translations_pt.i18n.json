@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Encontre hotéis incríveis em ${location}.",
-        "find_amazing_hotels": "Encontre hotéis incríveis"
+        "find_amazing_hotels": "Encontre hotéis incríveis",
+        "bedTimeRecommendedText": "Para uma estadia equilibrada, a escolha de <hotelLink> oferece uma ótima combinação de conforto e conveniência.",
+        "bedTimeLuxuryText": "Aqueles que buscam uma experiência sofisticada podem optar pelo <hotelLink>, que apresenta comodidades premium e serviço excepcional.",
+        "bedTimeBudgetText": "Visitantes conscientes do orçamento podem encontrar excelente valor em uma opção mais acessível como <hotelLink>, fornecendo confortos básicos sem gastar muito.\n\n Cada tipo de acomodação garante uma estadia agradável, atendendo a diferentes preferências e orçamentos."
     },
     "video_category": [
         "Aventura",

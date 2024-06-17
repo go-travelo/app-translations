@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Finde tolle Hotels in ${location}.",
-        "find_amazing_hotels": "Finde erstaunliche Hotels"
+        "find_amazing_hotels": "Finde erstaunliche Hotels",
+        "bedTimeRecommendedText": "Für einen ausgewogenen Aufenthalt bietet die Wahl von <hotelLink> eine großartige Mischung aus Komfort und Bequemlichkeit.",
+        "bedTimeLuxuryText": "Wer ein gehobenes Erlebnis sucht, kann sich für <hotelLink> entscheiden, das erstklassige Annehmlichkeiten und außergewöhnlichen Service bietet.",
+        "bedTimeBudgetText": "Preisbewusste Besucher finden ein ausgezeichnetes Preis-Leistungs-Verhältnis in einer günstigeren Option wie <hotelLink>, die grundlegenden Komfort bietet, ohne das Budget zu sprengen.\n\n Jede Art der Unterkunft sorgt für einen angenehmen Aufenthalt und kommt unterschiedlichen Vorlieben und Budgets entgegen."
     },
     "video_category": [
         "Abenteuer",

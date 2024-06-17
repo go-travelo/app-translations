@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Trouvez des hôtels incroyables à ${location}.",
-        "find_amazing_hotels": "Trouve des hôtels incroyables"
+        "find_amazing_hotels": "Trouve des hôtels incroyables",
+        "bedTimeRecommendedText": "Pour un séjour équilibré, le choix de <hotelLink> offre un excellent mélange de confort et de commodité.",
+        "bedTimeLuxuryText": "Ceux qui recherchent une expérience haut de gamme peuvent opter pour <hotelLink>, qui propose des équipements de qualité supérieure et un service exceptionnel.",
+        "bedTimeBudgetText": "Les visiteurs soucieux de leur budget peuvent trouver une excellente valeur dans une option plus abordable comme <hotelLink>, offrant des conforts de base sans dépasser leur budget.\n\n Chaque type d'hébergement assure un séjour agréable, répondant à différentes préférences et budgets."
     },
     "video_category": [
         "Aventure",

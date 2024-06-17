@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Find amazing hotels in ${location}.",
-        "find_amazing_hotels": "Find amazing hotels"
+        "find_amazing_hotels": "Find amazing hotels",
+        "bedTimeRecommendedText": "For a balanced stay, <hotelLink> choice offers a great mix of comfort and convenience. ",
+        "bedTimeLuxuryText": "Those seeking an upscale experience can opt for the <hotelLink>, featuring premium amenities and exceptional service. ",
+        "bedTimeBudgetText": "Budget-conscious visitors can find excellent value in a more affordable option like <hotelLink>, providing basic comforts without breaking the bank.\n\n Each type of accommodation ensures a pleasant stay, catering to different preferences and budgets."
     },
     "video_category": [
         "Adventure",

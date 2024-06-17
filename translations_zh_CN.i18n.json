@@ -605,7 +605,10 @@
             }
         },
         "find_hotels_in": "在${location}找到惊人的酒店。",
-        "find_amazing_hotels": "找到惊人的酒店"
+        "find_amazing_hotels": "找到惊人的酒店",
+        "bedTimeRecommendedText": "为了获得平衡的住宿，选择<hotelLink>提供了舒适和便利的绝佳组合。",
+        "bedTimeLuxuryText": "那些寻求高档体验的人可以选择<hotelLink>，它提供优质的设施和卓越的服务。",
+        "bedTimeBudgetText": "预算有限的游客可以选择更实惠的选项，如<hotelLink>，在不超支的情况下提供基本的舒适。\n\n 每种类型的住宿都能确保愉快的住宿，满足不同的偏好和预算。"
     },
     "video_category": [
         "探险",

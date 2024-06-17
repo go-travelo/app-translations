@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Vind geweldige hotels in ${location}.",
-        "find_amazing_hotels": "Vind geweldige hotels"
+        "find_amazing_hotels": "Vind geweldige hotels",
+        "bedTimeRecommendedText": "Voor een uitgebalanceerd verblijf biedt de keuze voor <hotelLink> een geweldige mix van comfort en gemak.",
+        "bedTimeLuxuryText": "Degenen die op zoek zijn naar een luxe ervaring, kunnen kiezen voor <hotelLink>, met eersteklas voorzieningen en uitzonderlijke service.",
+        "bedTimeBudgetText": "Bezoekers die op het budget letten, kunnen een uitstekende prijs-kwaliteitverhouding vinden in een meer betaalbare optie zoals <hotelLink>, die basiscomfort biedt zonder de bank te breken.\n\n Elk type accommodatie zorgt voor een aangenaam verblijf en voldoet aan verschillende voorkeuren en budgetten."
     },
     "video_category": [
         "Avontuur",

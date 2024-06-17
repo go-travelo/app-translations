@@ -613,7 +613,10 @@
             }
         },
         "find_hotels_in": "Trova hotel fantastici a ${location}.",
-        "find_amazing_hotels": "Trova hotel fantastici"
+        "find_amazing_hotels": "Trova hotel fantastici",
+        "bedTimeRecommendedText": "Per un soggiorno equilibrato, la scelta di <hotelLink> offre un'ottima combinazione di comfort e convenienza.",
+        "bedTimeLuxuryText": "Chi cerca un'esperienza di lusso può optare per <hotelLink>, che offre servizi di qualità superiore e un servizio eccezionale.",
+        "bedTimeBudgetText": "I visitatori attenti al budget possono trovare un ottimo rapporto qualità-prezzo in un'opzione più economica come <hotelLink>, fornendo comfort di base senza spendere troppo.\n\n Ogni tipo di alloggio assicura un soggiorno piacevole, soddisfacendo diverse preferenze e budget."
     },
     "video_category": [
         "Avventura",
