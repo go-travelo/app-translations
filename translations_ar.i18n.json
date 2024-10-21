@@ -783,6 +783,7 @@
         "other": " ${n} سنوات من العمر"
     },
     "about": "حول التطبيق",
+    "activity": "نشاط",
     "afternoon": "بعد الظهر",
     "allow": "السماح",
     "anything": "أي شيء",
@@ -931,6 +932,7 @@
     "total": "المجموع",
     "transit": "انتقال",
     "travelers": "المسافرون",
+    "trip": "رحلة",
     "unknown_error": "خطأ غير معروف",
     "unknown_name": "اسم غير معروف",
     "update": "تحديث",

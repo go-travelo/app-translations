@@ -703,6 +703,7 @@
         "other": "${n} años"
     },
     "about": "Acerca de",
+    "activity": "Actividad",
     "afternoon": "Tarde",
     "allow": "Permitir",
     "anything": "Cualquier cosa",
@@ -835,6 +836,7 @@
     "total": "Total",
     "transit": "Tránsito",
     "travelers": "Viajeros",
+    "trip": "Viaje",
     "unknown_error": "Error desconocido",
     "unknown_name": "Nombre desconocido",
     "update": "Actualizar",

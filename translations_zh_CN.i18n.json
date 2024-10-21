@@ -683,6 +683,7 @@
         "other": "${n}岁"
     },
     "about": "关于",
+    "activity": "活动",
     "afternoon": "下午",
     "allow": "允许",
     "anything": "任何事情",
@@ -811,6 +812,7 @@
     "total": "总计",
     "transit": "交通",
     "travelers": "旅行者",
+    "trip": "旅行",
     "unknown_error": "未知错误",
     "unknown_name": "未知名称",
     "update": "更新",

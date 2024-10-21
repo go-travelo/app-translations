@@ -703,6 +703,7 @@
         "other": "${n} jaar oud"
     },
     "about": "Over",
+    "activity": "Activiteit",
     "afternoon": "Middag",
     "allow": "Toestaan",
     "anything": "Alles",
@@ -835,6 +836,7 @@
     "total": "Totaal",
     "transit": "Transit",
     "travelers": "Reizigers",
+    "trip": "Reis",
     "unknown_error": "Onbekende fout",
     "unknown_name": "Onbekende naam",
     "update": "Update",

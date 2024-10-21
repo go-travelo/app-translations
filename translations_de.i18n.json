@@ -703,6 +703,7 @@
         "other": "${n} jahre alt"
     },
     "about": "Über uns",
+    "activity": "Aktivität",
     "afternoon": "Nachmittag",
     "allow": "Erlauben",
     "anything": "Egal was",
@@ -835,6 +836,7 @@
     "total": "Gesamt",
     "transit": "Transit",
     "travelers": "Reisende",
+    "trip": "Reise",
     "unknown_error": "Unbekannter Fehler",
     "unknown_name": "Unbekannter Name",
     "update": "Aktualisieren",

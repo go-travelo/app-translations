@@ -743,6 +743,7 @@
         "other": "${n} שנים"
     },
     "about": "אודות",
+    "activity": "פעילות",
     "afternoon": "אחר הצהריים",
     "allow": "אפשר\/י",
     "anything": "הכול",
@@ -883,6 +884,7 @@
     "total": "סך הכל",
     "transit": "העברות",
     "travelers": "מטיילים",
+    "trip": "טיול",
     "unknown_error": "שגיאה לא ידועה",
     "unknown_name": "שם לא ידוע",
     "update": "לעדכון",

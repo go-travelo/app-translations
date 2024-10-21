@@ -703,6 +703,7 @@
         "other": "${n} years old"
     },
     "about": "About",
+    "activity": "Activity",
     "afternoon": "Afternoon",
     "allow": "Allow",
     "anything": "Anything",
@@ -835,6 +836,7 @@
     "total": "Total",
     "transit": "Transit",
     "travelers": "Travelers",
+    "trip":"Trip",
     "unknown_error": "Unknown error",
     "unknown_name": "Unknown name",
     "update": "Update",
