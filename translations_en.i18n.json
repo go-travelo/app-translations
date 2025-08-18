@@ -662,6 +662,14 @@
         "one": "${n} day",
         "other": "${n} days"
     },
+    "hours": {
+        "one": "${n} hour",
+        "other": "${n} hours"
+    },
+    "minutes": {
+        "one": "${n} minute",
+        "other": "${n} minutes"
+    },
     "children": {
         "one": "${n} child",
         "other": "${n} children"
@@ -799,6 +807,7 @@
     "profileWord": "Profile",
     "powered_by": "Powered by",
     "read_more": "Read more",
+    "read_less": "Read less",
     "remove": "Remove",
     "rename": "Rename",
     "reset": "Reset",
@@ -900,5 +909,28 @@
     },
     "open": "Open",
     "bedtime": "Bedtime",
-    "user": "User"
+    "user": "User",
+    "trip_page": {
+        "travel_tip": "Travel Tip",
+        "daily_itinerary": "Daily Itinerary",
+        "day_by_day_plan": "Day-by-day plan for ${destination}",
+        "creator_tips": "Creator Tips",
+        "creator_videos": "Creator Videos",
+        "your_accommodation": "Your Accommodation",
+        "guest_reviews": "Guest Reviews",
+        "pricing_details": "Pricing Details",
+        "price_per_night": "Price per night",
+        "per_night": "per night",
+        "total_price": "Total price",
+        "great_value": "Great value",
+        "things_to_do": "Things to do",
+        "activity": "Activity",
+        "attraction": "Attraction",
+        "sitesAroundTitle": "Sites around ${city}",
+        "sitesAroundSubtitle": "Discover places near your destination",
+        "seeAll": "See all",
+        "videoModalComingSoon": "Full video gallery coming soon!",
+        "videosAvailable": "videos available",
+        "close": "Close"
+    }
 }
