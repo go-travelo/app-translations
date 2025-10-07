@@ -558,6 +558,19 @@
         "chat_limit_exceeded": "Effettua l'accesso per continuare a chattare. Potrai anche salvare le chat e gli elementi nella tua lista dei desideri.",
         "new_chat_login": "Per iniziare una nuova chat, effettua l'accesso"
     },
+    "auth": {
+        "email": "Email",
+        "password": "Password",
+        "forgot_password": "Password dimenticata?",
+        "create_account": "Crea account",
+        "reset_password": "Reimposta password",
+        "reset_password_description": "Inserisci il tuo indirizzo email e ti invieremo un link per reimpostare la password.",
+        "send_link": "Invia link",
+        "email_required": "L'email è obbligatoria",
+        "email_invalid": "Inserisci un'email valida",
+        "password_required": "La password è obbligatoria",
+        "password_min_length": "La password deve contenere almeno 6 caratteri"
+    },
     "splash": {
         "discover_where_to": "Scopri dove\nvola dopo."
     },

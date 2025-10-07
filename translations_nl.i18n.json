@@ -558,6 +558,19 @@
         "chat_limit_exceeded": "Log in om verder te chatten. Je kunt ook chats en items opslaan in je bucketlist.",
         "new_chat_login": "Om een nieuwe chat te starten, log alsjeblieft in"
     },
+    "auth": {
+        "email": "E-mail",
+        "password": "Wachtwoord",
+        "forgot_password": "Wachtwoord vergeten?",
+        "create_account": "Account aanmaken",
+        "reset_password": "Wachtwoord opnieuw instellen",
+        "reset_password_description": "Voer je e-mailadres in en we sturen je een link om je wachtwoord opnieuw in te stellen.",
+        "send_link": "Link versturen",
+        "email_required": "E-mail is verplicht",
+        "email_invalid": "Voer een geldig e-mailadres in",
+        "password_required": "Wachtwoord is verplicht",
+        "password_min_length": "Het wachtwoord moet minimaal 6 tekens bevatten"
+    },
     "splash": {
         "discover_where_to": "Ontdek waar je naartoe\nkan vliegen."
     },

@@ -558,6 +558,19 @@
         "chat_limit_exceeded": "Bitte melde dich an, um weiter zu chatten. Dann kannst du auch Chats und Elemente auf deiner Bucketlist speichern.",
         "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden"
     },
+    "auth": {
+        "email": "E-Mail",
+        "password": "Passwort",
+        "forgot_password": "Passwort vergessen?",
+        "create_account": "Konto erstellen",
+        "reset_password": "Passwort zurücksetzen",
+        "reset_password_description": "Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen deines Passworts.",
+        "send_link": "Link senden",
+        "email_required": "E-Mail ist erforderlich",
+        "email_invalid": "Bitte gib eine gültige E-Mail-Adresse ein",
+        "password_required": "Passwort ist erforderlich",
+        "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
+    },
     "splash": {
         "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll."
     },

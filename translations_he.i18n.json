@@ -574,6 +574,19 @@
         "chat_limit_exceeded": "כדי להמשיך את השיחה התחבר\/י בבקשה. כך גם תתאפשר שמירת השיחות והפריטים לרשימת המשאלות שלך.",
         "new_chat_login": "כדי לפתוח שיחה חדשה, התחבר\/י בבקשה"
     },
+    "auth": {
+        "email": "אימייל",
+        "password": "סיסמה",
+        "forgot_password": "שכחת את הסיסמה?",
+        "create_account": "צור חשבון",
+        "reset_password": "אפס סיסמה",
+        "reset_password_description": "הזן את כתובת האימייל שלך ונשלח לך קישור לאיפוס הסיסמה.",
+        "send_link": "שלח קישור",
+        "email_required": "אימייל הוא שדה חובה",
+        "email_invalid": "נא להזין כתובת אימייל תקפה",
+        "password_required": "סיסמה היא שדה חובה",
+        "password_min_length": "הסיסמה חייבת להכיל לפחות 6 תווים"
+    },
     "splash": {
         "discover_where_to": "גלה\/גלי את \nיעד הטיסה הבא שלך."
     },

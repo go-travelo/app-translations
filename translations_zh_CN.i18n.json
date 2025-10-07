@@ -550,6 +550,19 @@
         "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
         "new_chat_login": "要开始新的聊天，请登录"
     },
+    "auth": {
+        "email": "电子邮件",
+        "password": "密码",
+        "forgot_password": "忘记密码？",
+        "create_account": "创建账户",
+        "reset_password": "重置密码",
+        "reset_password_description": "输入您的电子邮件地址，我们将向您发送重置密码的链接。",
+        "send_link": "发送链接",
+        "email_required": "电子邮件为必填项",
+        "email_invalid": "请输入有效的电子邮件地址",
+        "password_required": "密码为必填项",
+        "password_min_length": "密码必须至少包含6个字符"
+    },
     "splash": {
         "discover_where_to": "发现下一个\n飞行目标。"
     },

@@ -540,7 +540,7 @@
         "privacy_and_sharing": "Privacy and Sharing",
         "delete_profile": "Delete profile",
         "delete_profile_message": "Are you sure you want to delete your account?",
-        "dont_have_account": "Don’t have an account?",
+        "dont_have_account": "Don't have an account?",
         "log_in_to_start_planning": "Log in to start planning your next trip",
         "logout": "Log out",
         "edit_profile_name": "Edit profile name",
@@ -557,6 +557,19 @@
         "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",
         "chat_limit_exceeded": "Please sign in to continue chatting. You'll also be able to save chats and items to your bucketlist.",
         "new_chat_login": "To start a new chat, please login"
+    },
+    "auth": {
+        "email": "Email",
+        "password": "Password",
+        "forgot_password": "Forgot password?",
+        "create_account": "Create account",
+        "reset_password": "Reset password",
+        "reset_password_description": "Enter your email address and we'll send you a link to reset your password.",
+        "send_link": "Send link",
+        "email_required": "Email is required",
+        "email_invalid": "Please enter a valid email",
+        "password_required": "Password is required",
+        "password_min_length": "Password must be at least 6 characters"
     },
     "splash": {
         "discover_where_to": "Discover where to\nfly next."

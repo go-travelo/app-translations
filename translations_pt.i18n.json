@@ -558,6 +558,19 @@
         "chat_limit_exceeded": "Por favor, faça login para continuar conversando. Você também poderá salvar conversas e itens em sua lista de desejos.",
         "new_chat_login": "Para iniciar uma nova conversa, faça login"
     },
+    "auth": {
+        "email": "E-mail",
+        "password": "Senha",
+        "forgot_password": "Esqueceu a senha?",
+        "create_account": "Criar conta",
+        "reset_password": "Redefinir senha",
+        "reset_password_description": "Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha.",
+        "send_link": "Enviar link",
+        "email_required": "E-mail é obrigatório",
+        "email_invalid": "Por favor, insira um e-mail válido",
+        "password_required": "Senha é obrigatória",
+        "password_min_length": "A senha deve ter pelo menos 6 caracteres"
+    },
     "splash": {
         "discover_where_to": "Descubra para onde\nvoar em seguida."
     },
