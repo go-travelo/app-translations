@@ -564,7 +564,8 @@
         "password_min_length": "密码必须至少包含6个字符"
     },
     "splash": {
-        "discover_where_to": "发现下一个\n飞行目标。"
+        "discover_where_to": "发现下一个\n飞行目标。",
+        "please_sign_in_to_continue": "请登录以继续。"
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "你在旅行中想要什么？",

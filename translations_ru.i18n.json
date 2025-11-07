@@ -588,7 +588,8 @@
         "password_min_length": "Пароль должен содержать не менее 6 символов"
     },
     "splash": {
-        "discover_where_to": "Узнайте, куда \nполететь в следующий раз."
+        "discover_where_to": "Узнайте, куда \nполететь в следующий раз.",
+        "please_sign_in_to_continue": "Пожалуйста, войдите, чтобы продолжить."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Что вы хотите от вашей поездки?",

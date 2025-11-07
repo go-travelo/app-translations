@@ -572,7 +572,8 @@
         "password_min_length": "Het wachtwoord moet minimaal 6 tekens bevatten"
     },
     "splash": {
-        "discover_where_to": "Ontdek waar je naartoe\nkan vliegen."
+        "discover_where_to": "Ontdek waar je naartoe\nkan vliegen.",
+        "please_sign_in_to_continue": "Meld je aan om verder te gaan."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Wat wil je in je reis?",

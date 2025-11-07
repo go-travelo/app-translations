@@ -572,7 +572,8 @@
         "password_min_length": "Le mot de passe doit contenir au moins 6 caractères"
     },
     "splash": {
-        "discover_where_to": "Découvrez où\nvoyager ensuite."
+        "discover_where_to": "Découvrez où\nvoyager ensuite.",
+        "please_sign_in_to_continue": "Veuillez vous connecter pour continuer."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Que voulez-vous dans votre voyage?",

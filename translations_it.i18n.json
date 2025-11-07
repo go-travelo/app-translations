@@ -572,7 +572,8 @@
         "password_min_length": "La password deve contenere almeno 6 caratteri"
     },
     "splash": {
-        "discover_where_to": "Scopri dove\nvola dopo."
+        "discover_where_to": "Scopri dove\nvola dopo.",
+        "please_sign_in_to_continue": "Effettua l'accesso per continuare."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Cosa desideri nel tuo viaggio?",

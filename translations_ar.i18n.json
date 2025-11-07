@@ -604,7 +604,8 @@
         "password_min_length": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل"
     },
     "splash": {
-        "discover_where_to": "اكتشف أين تريد\nالطيران التالي."
+        "discover_where_to": "اكتشف أين تريد\nالطيران التالي.",
+        "please_sign_in_to_continue": "يرجى تسجيل الدخول للمتابعة."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "ماذا تريد في رحلتك؟",

@@ -572,7 +572,8 @@
         "password_min_length": "Паролата трябва да съдържа поне 6 знака"
     },
     "splash": {
-        "discover_where_to": "Открий следващия си полет."
+        "discover_where_to": "Открий следващия си полет.",
+        "please_sign_in_to_continue": "Моля, влезте, за да продължите."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Какво искаш да правиш по време на пътуването си?",

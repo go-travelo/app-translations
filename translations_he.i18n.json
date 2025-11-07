@@ -588,7 +588,8 @@
         "password_min_length": "הסיסמה חייבת להכיל לפחות 6 תווים"
     },
     "splash": {
-        "discover_where_to": "גלה\/גלי את \nיעד הטיסה הבא שלך."
+        "discover_where_to": "גלה\/גלי את \nיעד הטיסה הבא שלך.",
+        "please_sign_in_to_continue": "אנא התחבר כדי להמשיך."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "מה את\/ה רוצה בנסיעה שלך?",

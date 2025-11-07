@@ -572,7 +572,8 @@
         "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
     },
     "splash": {
-        "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll."
+        "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll.",
+        "please_sign_in_to_continue": "Bitte melden Sie sich an, um fortzufahren."
     },
     "travel_setting": {
         "what_do_you_want_in_your_trip": "Was möchtest du auf deiner Reise erleben?",
