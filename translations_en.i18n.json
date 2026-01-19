@@ -945,6 +945,11 @@
         "seeAll": "See all",
         "videoModalComingSoon": "Full video gallery coming soon!",
         "videosAvailable": "videos available",
-        "close": "Close"
+        "close": "Close",
+        "add_hotel": "Add Hotel",
+        "add_transportation": "Add Transportation",
+        "retry": "Retry",
+        "map_unavailable": "Map unavailable",
+        "dates_tbd": "Dates to be determined"
     }
 }
