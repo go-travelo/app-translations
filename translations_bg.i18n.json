@@ -850,7 +850,316 @@
     "total": "Общо",
     "transit": "Транзит",
     "travelers": "Пътуващи",
-    "trip": "Пътуване",
+    "trip": {
+        "title": "Пътуване",
+        "header": {
+            "daysLabel": "${count} Days",
+            "chooseDate": "Choose Date",
+            "inviteSomeone": "Invite someone on your Trip"
+        },
+        "sections": {
+            "yourFlights": "Your Flights",
+            "yourTransports": "Your Transports",
+            "yourStays": "Your Stays",
+            "yourDestinations": "Your Destinations",
+            "yourAccommodation": "Your Accommodation",
+            "yourExperiences": "Your Experiences",
+            "days": "Days"
+        },
+        "emptyStates": {
+            "noFlightsFound": "No flights found",
+            "noTransportationFound": "No transportation found",
+            "noStaysFound": "No stays found",
+            "noDestinationsFound": "No destinations found",
+            "mapViewUnavailable": "Map view unavailable",
+            "mapViewNoLocations": "Map view - No locations available",
+            "dayNotFound": "Day not found"
+        },
+        "flight": {
+            "title": "Flight",
+            "perPerson": "/person",
+            "direct": "Direct",
+            "oneStop": "1 stop",
+            "stops": "${count} stops"
+        },
+        "hotel": {
+            "title": "Hotel",
+            "yourStay": "Your Stay",
+            "reviews": "${count} Reviews",
+            "viewDetails": "View Details"
+        },
+        "destination": {
+            "dayLabel": "Day ${start} - ${end}",
+            "experience": "${count} Experience",
+            "experiences": "${count} Experiences",
+            "total": "total"
+        },
+        "transport": {
+            "title": "Transport",
+            "pickUp": "Pick-up",
+            "dropOff": "Drop-off"
+        },
+        "restaurant": {
+            "title": "Restaurant"
+        },
+        "experience": {
+            "title": "Experience",
+            "activity": "Activity",
+            "attraction": "Attraction",
+            "free": "Free",
+            "clickToSeePrice": "Click to see price",
+            "reviewsCount": "${count} Reviews"
+        },
+        "actions": {
+            "change": "Change",
+            "getLivePrices": "Get live prices",
+            "bookNow": "Book Now",
+            "share": "Share",
+            "delete": "Delete",
+            "invite": "Invite"
+        },
+        "tabs": {
+            "overview": "Overview"
+        },
+        "messages": {
+            "inviteComingSoon": "Invite - Coming soon",
+            "deleteTransportComingSoon": "Delete transport - Coming soon",
+            "flightDetailsComingSoon": "Flight details - Coming soon",
+            "bookTripComingSoon": "Book trip - Coming soon",
+            "shareComingSoon": "Share - Coming soon",
+            "deleteComingSoon": "Delete - Coming soon",
+            "changeComingSoon": "Change - Coming soon",
+            "fetchingLivePrices": "Fetching live prices...",
+            "livePricesRequested": "Live prices requested! The prices will update shortly.",
+            "failedLivePrices": "Failed to request live prices. Please try again.",
+            "errorLegNotFound": "Error: Could not find leg in trip",
+            "removingHotelFromTrip": "Removing hotel from trip...",
+            "hotelRemovedSuccessfully": "Hotel removed successfully",
+            "failedRemoveHotel": "Failed to remove hotel. Please try again.",
+            "failedRemoveFlight": "Failed to remove flight. Please try again.",
+            "updatingCarOption": "Updating car option...",
+            "transportOptionUpdated": "Transport option updated successfully",
+            "failedUpdateTransport": "Failed to update transport option",
+            "failedDeleteExperience": "Failed to delete the experience. Please try again.",
+            "failedDeleteActivity": "Failed to delete activity. Please try again.",
+            "failedDeleteAttraction": "Failed to delete attraction. Please try again.",
+            "failedDeleteRestaurant": "Failed to delete restaurant. Please try again."
+        },
+        "dialogs": {
+            "removeFlight": {
+                "title": "Remove Flight",
+                "message": "Are you sure you want to remove the flight from ${from} to ${to}?",
+                "cancel": "Cancel",
+                "remove": "Remove"
+            },
+            "removeHotel": {
+                "title": "Remove Hotel",
+                "message": "Are you sure you want to remove this hotel from your trip?",
+                "cancel": "Cancel",
+                "remove": "Remove"
+            }
+        },
+        "change": {
+            "flights": {
+                "selectFlight": "Select Flight",
+                "fromTo": "From ${from} to ${to}",
+                "fromToWithIata": "From ${fromCity} (${fromIata}) to ${toCity} (${toIata})",
+                "smartFilter": "Smart Filter",
+                "poweredByLaylaAI": "Powered by Layla AI",
+                "searchFlightsHint": "Find me direct flights that land before 10am",
+                "searchFlights": "Search Flights",
+                "noFlightsFound": "No flights found",
+                "tryAdjustingQuery": "Try adjusting your search query",
+                "totalCost": "Total Cost",
+                "selected": "Selected",
+                "adult": "adult",
+                "adults": "adults",
+                "child": "child",
+                "children": "children",
+                "traveler": "traveler",
+                "travelers": "travelers",
+                "failedSearch": "Failed to search flights. Please try again.",
+                "nonStop": "Non-stop",
+                "layoverIn": "${duration} layover in ${airport}"
+            },
+            "hotels": {
+                "selectHotel": "Select Hotel",
+                "hotelsIn": "Hotels in ${location}",
+                "smartFilter": "Smart Filter",
+                "poweredByLaylaAI": "Powered by Layla AI",
+                "searchHotelsHint": "Find hotels with free cancellation and breakfast",
+                "searchHotels": "Search Hotels",
+                "freeCancellation": "Free Cancellation",
+                "rating8Plus": "8+ Rating",
+                "swimmingPool": "Swimming Pool",
+                "parking": "Parking",
+                "priceRange": "Price Range",
+                "price": "Price",
+                "clearAll": "Clear All",
+                "noHotelsFound": "No hotels found",
+                "noHotelsMatchFilters": "No hotels match your filters",
+                "tryAdjustingFilters": "Try adjusting your filters",
+                "trySearchingHotels": "Try searching for hotels in this location",
+                "failedSearch": "Failed to search hotels. Please try again.",
+                "failedAdd": "Failed to add hotel. Please try again."
+            },
+            "transport": {
+                "selectFlight": "Select Flight",
+                "origin": "Origin",
+                "destination": "Destination",
+                "noFlightOptionsAvailable": "No flight options available",
+                "cheapest": "Cheapest",
+                "latest": "Latest"
+            },
+            "cars": {
+                "carRental": "Car Rental",
+                "carRentalIn": "Car Rental in ${location}",
+                "carRentalFromTo": "Car Rental: ${from} to ${to}",
+                "smartFilter": "Smart Filter",
+                "poweredByLaylaAI": "Powered by Layla AI",
+                "searchCarRentalsHint": "Find me SUVs with automatic transmission",
+                "searchCarRentals": "Search Car Rentals",
+                "noCarRentalsFound": "No car rentals found",
+                "tryAdjustingCriteria": "Try adjusting your search criteria",
+                "failedSearch": "Failed to search car rentals. Please try again."
+            },
+            "activities": {
+                "activities": "Activities",
+                "activitiesIn": "Activities in ${city}",
+                "smartFilter": "Smart Filter",
+                "poweredByLaylaAI": "Powered by Layla AI",
+                "searchActivitiesHint": "Find me outdoor activities or museums",
+                "searchActivities": "Search Activities",
+                "noActivitiesFound": "No activities found",
+                "tryAdjustingCriteria": "Try adjusting your search criteria",
+                "failedSearch": "Failed to search activities. Please try again.",
+                "failedAdd": "Failed to add activity. Please try again."
+            },
+            "attractions": {
+                "attractions": "Attractions",
+                "attractionsIn": "Attractions in ${city}",
+                "smartFilter": "Smart Filter",
+                "poweredByLaylaAI": "Powered by Layla AI",
+                "searchAttractionsHint": "Find me historic landmarks or monuments",
+                "searchAttractions": "Search Attractions",
+                "noAttractionsFound": "No attractions found",
+                "tryAdjustingCriteria": "Try adjusting your search criteria",
+                "failedSearch": "Failed to search attractions. Please try again.",
+                "failedAdd": "Failed to add attraction. Please try again."
+            }
+        },
+        "transfer": {
+            "carTransfer": "Car Transfer",
+            "busTransfer": "Bus Transfer",
+            "trainTransfer": "Train Transfer",
+            "boatTransfer": "Boat Transfer",
+            "transfer": "Transfer",
+            "findAlternative": "Find Alternative"
+        },
+        "carTransport": {
+            "transport": "Transport",
+            "laylaAIReviewSummary": "Layla AI Review Summary",
+            "placeholderReviewText": "People say this is the most beautiful place there has ever been, a few mention that there were some...",
+            "findAlternative": "Find Alternative"
+        },
+        "common": {
+            "perPerson": "p.P. ",
+            "total": "Total",
+            "reviews": "${count} Reviews",
+            "viewOnMap": "View on map"
+        },
+        "map": {
+            "hotels": "hotels",
+            "activity": "Activity",
+            "attraction": "Attraction",
+            "pointOfInterest": "Point of Interest",
+            "restaurant": "Restaurant",
+            "emptyState": "Map view - No locations available",
+            "addressNotAvailable": "Address not available",
+            "locationNotAvailable": "Location not available",
+            "reviews": "reviews",
+            "viewOnGoogleMaps": "View on Google Maps",
+            "viewDetails": "View Details",
+            "perNight": "/night",
+            "unknown": "Unknown",
+            "ratings": {
+                "exceptional": "Exceptional",
+                "wonderful": "Wonderful",
+                "veryGood": "Very Good",
+                "good": "Good",
+                "pleasant": "Pleasant",
+                "average": "Average"
+            }
+        },
+        "addExperience": {
+            "title": "Add Experience",
+            "activityTitle": "Activity",
+            "activityDescription": "Add a ticketed activity or experience",
+            "attractionTitle": "Attraction",
+            "attractionDescription": "Add a place to visit or see"
+        },
+        "cards": {
+            "dayCard": {
+                "day": "Day",
+                "experience": "Experience",
+                "experiences": "Experiences",
+                "total": "total"
+            },
+            "carCard": {
+                "yourRental": "Your Rental",
+                "pickUp": "Pick-up",
+                "dropOff": "Drop-off",
+                "selected": "Selected",
+                "addToTrip": "Add to trip",
+                "perTotal": "/total",
+                "freeCancellation": "Free cancellation",
+                "at": "at"
+            },
+            "flightCard": {
+                "selected": "Selected",
+                "addToTrip": "Add to trip",
+                "perPerson": "/person",
+                "nonStop": "Non-stop",
+                "oneStop": "1 stop",
+                "stops": "stops"
+            },
+            "hotelCard": {
+                "reviews": "Reviews",
+                "selected": "Selected",
+                "addToTrip": "Add to trip",
+                "total": "total"
+            }
+        },
+        "widgets": {
+            "addExperienceButton": "Add Experience",
+            "dayLabel": "Day ${n}",
+            "failedToLoadTrip": "Failed to load trip",
+            "retry": "Retry"
+        },
+        "transportType": {
+            "flight": "Flight",
+            "train": "Train",
+            "bus": "Bus",
+            "car": "Car",
+            "ferry": "Ferry",
+            "transportation": "Transportation"
+        },
+        "cabinClass": {
+            "economy": "Economy Class",
+            "premiumEconomy": "Premium Economy",
+            "business": "Business Class",
+            "first": "First Class"
+        },
+        "travelerFormat": {
+            "forAdults": " for ${count} ${word}",
+            "andChildren": " and ${count} ${word}",
+            "adult": "adult",
+            "adults": "adults",
+            "child": "child",
+            "children": "children"
+        }
+    },
+    "tripWord":"Trip",
     "unknown_error": "Неизвестна грешка",
     "unknown_name": "Неизвестно име",
     "update": "Актуализирай",
