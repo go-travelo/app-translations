@@ -1166,6 +1166,22 @@
             "adults": "adults",
             "child": "child",
             "children": "children"
+        },
+        "basket": {
+            "title": "Order Summary",
+            "item": "item",
+            "items": "items",
+            "orderSummary": "Order Summary",
+            "priceChangeAlert": {
+                "title": "Prices may have changed",
+                "description": "Travel prices change frequently. The prices shown are estimates and may differ when you book."
+            },
+            "location": "Location",
+            "dates": "Dates",
+            "travelers": "Travelers",
+            "traveler": "traveler",
+            "noItemsInBasket": "No bookable items in your trip yet. Add hotels, flights, or activities to get started!",
+            "legTitle": "${location} (Days ${days})"
         }
     },
     "tripWord":"Trip",
