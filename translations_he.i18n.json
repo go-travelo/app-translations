@@ -901,313 +901,329 @@
     "trip": {
         "title": "טיול",
         "header": {
-            "daysLabel": "${count} Days",
-            "chooseDate": "Choose Date",
-            "inviteSomeone": "Invite someone on your Trip"
+            "daysLabel": "${count} ימים",
+            "chooseDate": "בחר תאריך",
+            "inviteSomeone": "הזמן מישהו לטיול שלך"
         },
         "sections": {
-            "yourFlights": "Your Flights",
-            "yourTransports": "Your Transports",
-            "yourStays": "Your Stays",
-            "yourDestinations": "Your Destinations",
-            "yourAccommodation": "Your Accommodation",
-            "yourExperiences": "Your Experiences",
-            "days": "Days"
+            "yourFlights": "הטיסות שלך",
+            "yourTransports": "התחבורה שלך",
+            "yourStays": "השהייה שלך",
+            "yourDestinations": "היעדים שלך",
+            "yourAccommodation": "הלינה שלך",
+            "yourExperiences": "החוויות שלך",
+            "days": "ימים"
         },
         "emptyStates": {
-            "noFlightsFound": "No flights found",
-            "noTransportationFound": "No transportation found",
-            "noStaysFound": "No stays found",
-            "noDestinationsFound": "No destinations found",
-            "mapViewUnavailable": "Map view unavailable",
-            "mapViewNoLocations": "Map view - No locations available",
-            "dayNotFound": "Day not found"
+            "noFlightsFound": "לא נמצאו טיסות",
+            "noTransportationFound": "לא נמצאה תחבורה",
+            "noStaysFound": "לא נמצאו מקומות לינה",
+            "noDestinationsFound": "לא נמצאו יעדים",
+            "mapViewUnavailable": "תצוגת מפה אינה זמינה",
+            "mapViewNoLocations": "תצוגת מפה - אין מיקומים זמינים",
+            "dayNotFound": "היום לא נמצא"
         },
         "flight": {
-            "title": "Flight",
-            "perPerson": "/person",
-            "direct": "Direct",
-            "oneStop": "1 stop",
-            "stops": "${count} stops"
+            "title": "טיסה",
+            "perPerson": "/לאדם",
+            "direct": "ישיר",
+            "oneStop": "עצירה אחת",
+            "stops": "${count} עצירות"
         },
         "hotel": {
-            "title": "Hotel",
-            "yourStay": "Your Stay",
-            "reviews": "${count} Reviews",
-            "viewDetails": "View Details"
+            "title": "מלון",
+            "yourStay": "השהייה שלך",
+            "reviews": "${count} ביקורות",
+            "viewDetails": "צפה בפרטים"
         },
         "destination": {
-            "dayLabel": "Day ${start} - ${end}",
-            "experience": "${count} Experience",
-            "experiences": "${count} Experiences",
-            "total": "total"
+            "dayLabel": "יום ${start} - ${end}",
+            "experience": "${count} חוויה",
+            "experiences": "${count} חוויות",
+            "total": "סה\"כ"
         },
         "transport": {
-            "title": "Transport",
-            "pickUp": "Pick-up",
-            "dropOff": "Drop-off"
+            "title": "תחבורה",
+            "pickUp": "איסוף",
+            "dropOff": "החזרה"
         },
         "restaurant": {
-            "title": "Restaurant"
+            "title": "מסעדה"
         },
         "experience": {
-            "title": "Experience",
-            "activity": "Activity",
-            "attraction": "Attraction",
-            "free": "Free",
-            "clickToSeePrice": "Click to see price",
-            "reviewsCount": "${count} Reviews"
+            "title": "חוויה",
+            "activity": "פעילות",
+            "attraction": "אטרקציה",
+            "free": "חינם",
+            "clickToSeePrice": "לחץ לצפיה במחיר",
+            "reviewsCount": "${count} ביקורות"
         },
         "actions": {
-            "change": "Change",
-            "getLivePrices": "Get live prices",
-            "bookNow": "Book Now",
-            "share": "Share",
-            "delete": "Delete",
-            "invite": "Invite"
+            "change": "שינוי",
+            "getLivePrices": "קבל מחירים עדכניים",
+            "bookNow": "הזמן עכשיו",
+            "share": "שתף",
+            "delete": "מחק",
+            "invite": "הזמן"
         },
         "tabs": {
-            "overview": "Overview"
+            "overview": "סקירה כללית"
         },
         "messages": {
-            "inviteComingSoon": "Invite - Coming soon",
-            "deleteTransportComingSoon": "Delete transport - Coming soon",
-            "flightDetailsComingSoon": "Flight details - Coming soon",
-            "bookTripComingSoon": "Book trip - Coming soon",
-            "shareComingSoon": "Share - Coming soon",
-            "deleteComingSoon": "Delete - Coming soon",
-            "changeComingSoon": "Change - Coming soon",
-            "fetchingLivePrices": "Fetching live prices...",
-            "livePricesRequested": "Live prices requested! The prices will update shortly.",
-            "failedLivePrices": "Failed to request live prices. Please try again.",
-            "errorLegNotFound": "Error: Could not find leg in trip",
-            "removingHotelFromTrip": "Removing hotel from trip...",
-            "hotelRemovedSuccessfully": "Hotel removed successfully",
-            "failedRemoveHotel": "Failed to remove hotel. Please try again.",
-            "failedRemoveFlight": "Failed to remove flight. Please try again.",
-            "updatingCarOption": "Updating car option...",
-            "transportOptionUpdated": "Transport option updated successfully",
-            "failedUpdateTransport": "Failed to update transport option",
-            "failedDeleteExperience": "Failed to delete the experience. Please try again.",
-            "failedDeleteActivity": "Failed to delete activity. Please try again.",
-            "failedDeleteAttraction": "Failed to delete attraction. Please try again.",
-            "failedDeleteRestaurant": "Failed to delete restaurant. Please try again."
+            "inviteComingSoon": "הזמנה - בקרוב",
+            "deleteTransportComingSoon": "מחיקת תחבורה - בקרוב",
+            "flightDetailsComingSoon": "פרטי הטיסה - בקרוב",
+            "bookTripComingSoon": "הזמנת טיול - בקרוב",
+            "shareComingSoon": "שיתוף - בקרוב",
+            "deleteComingSoon": "מחיקה - בקרוב",
+            "changeComingSoon": "שינוי - בקרוב",
+            "fetchingLivePrices": "טוען מחירים עדכניים...",
+            "livePricesRequested": "מחירים עדכניים נתבקשו! המחירים יתעדכנו בקרוב.",
+            "failedLivePrices": "נכשל בקבלת מחירים עדכניים. אנא נסה שוב.",
+            "errorLegNotFound": "שגיאה: לא נמצא קטע בטיול",
+            "removingHotelFromTrip": "מסיר מלון מהטיול...",
+            "hotelRemovedSuccessfully": "המלון הוסר בהצלחה",
+            "failedRemoveHotel": "נכשל בהסרת המלון. אנא נסה שוב.",
+            "failedRemoveFlight": "נכשל בהסרת הטיסה. אנא נסה שוב.",
+            "updatingCarOption": "מעדכן אפשרות רכב...",
+            "transportOptionUpdated": "אפשרות התחבורה עודכנה בהצלחה",
+            "failedUpdateTransport": "נכשל בעדכון אפשרות התחבורה",
+            "failedDeleteExperience": "נכשל במחיקת החוויה. אנא נסה שוב.",
+            "failedDeleteActivity": "נכשל במחיקת הפעילות. אנא נסה שוב.",
+            "failedDeleteAttraction": "נכשל במחיקת האטרקציה. אנא נסה שוב.",
+            "failedDeleteRestaurant": "נכשל במחיקת המסעדה. אנא נסה שוב."
         },
         "dialogs": {
             "removeFlight": {
-                "title": "Remove Flight",
-                "message": "Are you sure you want to remove the flight from ${from} to ${to}?",
-                "cancel": "Cancel",
-                "remove": "Remove"
+                "title": "הסר טיסה",
+                "message": "האם אתה בטוח שברצונך להסיר את הטיסה מ-${from} ל-${to}?",
+                "cancel": "ביטול",
+                "remove": "הסר"
             },
             "removeHotel": {
-                "title": "Remove Hotel",
-                "message": "Are you sure you want to remove this hotel from your trip?",
-                "cancel": "Cancel",
-                "remove": "Remove"
+                "title": "הסר מלון",
+                "message": "האם אתה בטוח שברצונך להסיר את המלון הזה מהטיול שלך?",
+                "cancel": "ביטול",
+                "remove": "הסר"
             }
         },
         "change": {
             "flights": {
-                "selectFlight": "Select Flight",
-                "fromTo": "From ${from} to ${to}",
-                "fromToWithIata": "From ${fromCity} (${fromIata}) to ${toCity} (${toIata})",
-                "smartFilter": "Smart Filter",
-                "poweredByLaylaAI": "Powered by Layla AI",
-                "searchFlightsHint": "Find me direct flights that land before 10am",
-                "searchFlights": "Search Flights",
-                "noFlightsFound": "No flights found",
-                "tryAdjustingQuery": "Try adjusting your search query",
-                "totalCost": "Total Cost",
-                "selected": "Selected",
-                "adult": "adult",
-                "adults": "adults",
-                "child": "child",
-                "children": "children",
-                "traveler": "traveler",
-                "travelers": "travelers",
-                "failedSearch": "Failed to search flights. Please try again.",
-                "nonStop": "Non-stop",
-                "layoverIn": "${duration} layover in ${airport}"
+                "selectFlight": "בחר טיסה",
+                "fromTo": "מ-${from} ל-${to}",
+                "fromToWithIata": "מ-${fromCity} (${fromIata}) ל-${toCity} (${toIata})",
+                "smartFilter": "סינון חכם",
+                "poweredByLaylaAI": "מופעל על ידי Layla AI",
+                "searchFlightsHint": "מצא לי טיסות ישירות שנוחתות לפני 10 בבוקר",
+                "searchFlights": "חפש טיסות",
+                "noFlightsFound": "לא נמצאו טיסות",
+                "tryAdjustingQuery": "נסה לשנות את שאילתת החיפוש",
+                "totalCost": "עלות כוללת",
+                "selected": "נבחר",
+                "adult": "מבוגר",
+                "adults": "מבוגרים",
+                "child": "ילד",
+                "children": "ילדים",
+                "traveler": "נוסע",
+                "travelers": "נוסעים",
+                "failedSearch": "נכשל בחיפוש טיסות. אנא נסה שוב.",
+                "nonStop": "ללא עצירות",
+                "layoverIn": "המתנה של ${duration} ב-${airport}"
             },
             "hotels": {
-                "selectHotel": "Select Hotel",
-                "hotelsIn": "Hotels in ${location}",
-                "smartFilter": "Smart Filter",
-                "poweredByLaylaAI": "Powered by Layla AI",
-                "searchHotelsHint": "Find hotels with free cancellation and breakfast",
-                "searchHotels": "Search Hotels",
-                "freeCancellation": "Free Cancellation",
-                "rating8Plus": "8+ Rating",
-                "swimmingPool": "Swimming Pool",
-                "parking": "Parking",
-                "priceRange": "Price Range",
-                "price": "Price",
-                "clearAll": "Clear All",
-                "noHotelsFound": "No hotels found",
-                "noHotelsMatchFilters": "No hotels match your filters",
-                "tryAdjustingFilters": "Try adjusting your filters",
-                "trySearchingHotels": "Try searching for hotels in this location",
-                "failedSearch": "Failed to search hotels. Please try again.",
-                "failedAdd": "Failed to add hotel. Please try again."
+                "selectHotel": "בחר מלון",
+                "hotelsIn": "מלונות ב-${location}",
+                "smartFilter": "סינון חכם",
+                "poweredByLaylaAI": "מופעל על ידי Layla AI",
+                "searchHotelsHint": "מצא מלונות עם ביטול חינם וארוחת בוקר",
+                "searchHotels": "חפש מלונות",
+                "freeCancellation": "ביטול חינם",
+                "rating8Plus": "דירוג 8+",
+                "swimmingPool": "בריכת שחייה",
+                "parking": "חניה",
+                "priceRange": "טווח מחירים",
+                "price": "מחיר",
+                "clearAll": "נקה הכל",
+                "noHotelsFound": "לא נמצאו מלונות",
+                "noHotelsMatchFilters": "אין מלונות התואמים את הסינונים שלך",
+                "tryAdjustingFilters": "נסה לשנות את הסינונים שלך",
+                "trySearchingHotels": "נסה לחפש מלונות במיקום זה",
+                "failedSearch": "נכשל בחיפוש מלונות. אנא נסה שוב.",
+                "failedAdd": "נכשל בהוספת המלון. אנא נסה שוב."
             },
             "transport": {
-                "selectFlight": "Select Flight",
-                "origin": "Origin",
-                "destination": "Destination",
-                "noFlightOptionsAvailable": "No flight options available",
-                "cheapest": "Cheapest",
-                "latest": "Latest"
+                "selectFlight": "בחר טיסה",
+                "origin": "מוצא",
+                "destination": "יעד",
+                "noFlightOptionsAvailable": "אין אפשרויות טיסה זמינות",
+                "cheapest": "הזול ביותר",
+                "latest": "האחרון"
             },
             "cars": {
-                "carRental": "Car Rental",
-                "carRentalIn": "Car Rental in ${location}",
-                "carRentalFromTo": "Car Rental: ${from} to ${to}",
-                "smartFilter": "Smart Filter",
-                "poweredByLaylaAI": "Powered by Layla AI",
-                "searchCarRentalsHint": "Find me SUVs with automatic transmission",
-                "searchCarRentals": "Search Car Rentals",
-                "noCarRentalsFound": "No car rentals found",
-                "tryAdjustingCriteria": "Try adjusting your search criteria",
-                "failedSearch": "Failed to search car rentals. Please try again."
+                "carRental": "השכרת רכב",
+                "carRentalIn": "השכרת רכב ב-${location}",
+                "carRentalFromTo": "השכרת רכב: ${from} ל-${to}",
+                "smartFilter": "סינון חכם",
+                "poweredByLaylaAI": "מופעל על ידי Layla AI",
+                "searchCarRentalsHint": "מצא לי רכבי שטח עם תיבת הילוכים אוטומטית",
+                "searchCarRentals": "חפש השכרת רכב",
+                "noCarRentalsFound": "לא נמצאו רכבים להשכרה",
+                "tryAdjustingCriteria": "נסה לשנות את קריטריוני החיפוש",
+                "failedSearch": "נכשל בחיפוש רכבים להשכרה. אנא נסה שוב."
             },
             "activities": {
-                "activities": "Activities",
-                "activitiesIn": "Activities in ${city}",
-                "smartFilter": "Smart Filter",
-                "poweredByLaylaAI": "Powered by Layla AI",
-                "searchActivitiesHint": "Find me outdoor activities or museums",
-                "searchActivities": "Search Activities",
-                "noActivitiesFound": "No activities found",
-                "tryAdjustingCriteria": "Try adjusting your search criteria",
-                "failedSearch": "Failed to search activities. Please try again.",
-                "failedAdd": "Failed to add activity. Please try again."
+                "activities": "פעילויות",
+                "activitiesIn": "פעילויות ב-${city}",
+                "smartFilter": "סינון חכם",
+                "poweredByLaylaAI": "מופעל על ידי Layla AI",
+                "searchActivitiesHint": "מצא לי פעילויות חוץ או מוזיאונים",
+                "searchActivities": "חפש פעילויות",
+                "noActivitiesFound": "לא נמצאו פעילויות",
+                "tryAdjustingCriteria": "נסה לשנות את קריטריוני החיפוש",
+                "failedSearch": "נכשל בחיפוש פעילויות. אנא נסה שוב.",
+                "failedAdd": "נכשל בהוספת הפעילות. אנא נסה שוב."
             },
             "attractions": {
-                "attractions": "Attractions",
-                "attractionsIn": "Attractions in ${city}",
-                "smartFilter": "Smart Filter",
-                "poweredByLaylaAI": "Powered by Layla AI",
-                "searchAttractionsHint": "Find me historic landmarks or monuments",
-                "searchAttractions": "Search Attractions",
-                "noAttractionsFound": "No attractions found",
-                "tryAdjustingCriteria": "Try adjusting your search criteria",
-                "failedSearch": "Failed to search attractions. Please try again.",
-                "failedAdd": "Failed to add attraction. Please try again."
+                "attractions": "אטרקציות",
+                "attractionsIn": "אטרקציות ב-${city}",
+                "smartFilter": "סינון חכם",
+                "poweredByLaylaAI": "מופעל על ידי Layla AI",
+                "searchAttractionsHint": "מצא לי אתרים היסטוריים או מונומנטים",
+                "searchAttractions": "חפש אטרקציות",
+                "noAttractionsFound": "לא נמצאו אטרקציות",
+                "tryAdjustingCriteria": "נסה לשנות את קריטריוני החיפוש",
+                "failedSearch": "נכשל בחיפוש אטרקציות. אנא נסה שוב.",
+                "failedAdd": "נכשל בהוספת האטרקציה. אנא נסה שוב."
             }
         },
         "transfer": {
-            "carTransfer": "Car Transfer",
-            "busTransfer": "Bus Transfer",
-            "trainTransfer": "Train Transfer",
-            "boatTransfer": "Boat Transfer",
-            "transfer": "Transfer",
-            "findAlternative": "Find Alternative"
+            "carTransfer": "העברה ברכב",
+            "busTransfer": "העברה באוטובוס",
+            "trainTransfer": "העברה ברכבת",
+            "boatTransfer": "העברה בסירה",
+            "transfer": "העברה",
+            "findAlternative": "מצא אלטרנטיבה"
         },
         "carTransport": {
-            "transport": "Transport",
-            "laylaAIReviewSummary": "Layla AI Review Summary",
-            "placeholderReviewText": "People say this is the most beautiful place there has ever been, a few mention that there were some...",
-            "findAlternative": "Find Alternative"
+            "transport": "תחבורה",
+            "laylaAIReviewSummary": "סיכום ביקורות Layla AI",
+            "placeholderReviewText": "אנשים אומרים שזה המקום הכי יפה שהיה אי פעם, כמה מציינים שהיו כמה...",
+            "findAlternative": "מצא אלטרנטיבה"
         },
         "common": {
-            "perPerson": "p.P. ",
-            "total": "Total",
-            "reviews": "${count} Reviews",
-            "viewOnMap": "View on map"
+            "perPerson": "לאדם ",
+            "total": "סה\"כ",
+            "reviews": "${count} ביקורות",
+            "viewOnMap": "צפה במפה"
         },
         "map": {
-            "hotels": "hotels",
-            "activity": "Activity",
-            "attraction": "Attraction",
-            "pointOfInterest": "Point of Interest",
-            "restaurant": "Restaurant",
-            "emptyState": "Map view - No locations available",
-            "addressNotAvailable": "Address not available",
-            "locationNotAvailable": "Location not available",
-            "reviews": "reviews",
-            "viewOnGoogleMaps": "View on Google Maps",
-            "viewDetails": "View Details",
-            "perNight": "/night",
-            "unknown": "Unknown",
+            "hotels": "מלונות",
+            "activity": "פעילות",
+            "attraction": "אטרקציה",
+            "pointOfInterest": "נקודת עניין",
+            "restaurant": "מסעדה",
+            "emptyState": "תצוגת מפה - אין מיקומים זמינים",
+            "addressNotAvailable": "כתובת לא זמינה",
+            "locationNotAvailable": "מיקום לא זמין",
+            "reviews": "ביקורות",
+            "viewOnGoogleMaps": "צפה ב-Google Maps",
+            "viewDetails": "צפה בפרטים",
+            "perNight": "/לילה",
+            "unknown": "לא ידוע",
             "ratings": {
-                "exceptional": "Exceptional",
-                "wonderful": "Wonderful",
-                "veryGood": "Very Good",
-                "good": "Good",
-                "pleasant": "Pleasant",
-                "average": "Average"
+                "exceptional": "יוצא דופן",
+                "wonderful": "נפלא",
+                "veryGood": "טוב מאוד",
+                "good": "טוב",
+                "pleasant": "נעים",
+                "average": "ממוצע"
             }
         },
         "addExperience": {
-            "title": "Add Experience",
-            "activityTitle": "Activity",
-            "activityDescription": "Add a ticketed activity or experience",
-            "attractionTitle": "Attraction",
-            "attractionDescription": "Add a place to visit or see"
+            "title": "הוסף חוויה",
+            "activityTitle": "פעילות",
+            "activityDescription": "הוסף פעילות או חוויה עם כרטיס",
+            "attractionTitle": "אטרקציה",
+            "attractionDescription": "הוסף מקום לבקר או לראות"
         },
         "cards": {
             "dayCard": {
-                "day": "Day",
-                "experience": "Experience",
-                "experiences": "Experiences",
-                "total": "total"
+                "day": "יום",
+                "experience": "חוויה",
+                "experiences": "חוויות",
+                "total": "סה\"כ"
             },
             "carCard": {
-                "yourRental": "Your Rental",
-                "pickUp": "Pick-up",
-                "dropOff": "Drop-off",
-                "selected": "Selected",
-                "addToTrip": "Add to trip",
-                "perTotal": "/total",
-                "freeCancellation": "Free cancellation",
-                "at": "at"
+                "yourRental": "השכרת הרכב שלך",
+                "pickUp": "איסוף",
+                "dropOff": "החזרה",
+                "selected": "נבחר",
+                "addToTrip": "הוסף לטיול",
+                "perTotal": "/סה\"כ",
+                "freeCancellation": "ביטול חינם",
+                "at": "ב-"
             },
             "flightCard": {
-                "selected": "Selected",
-                "addToTrip": "Add to trip",
-                "perPerson": "/person",
-                "nonStop": "Non-stop",
-                "oneStop": "1 stop",
-                "stops": "stops"
+                "selected": "נבחר",
+                "addToTrip": "הוסף לטיול",
+                "perPerson": "/לאדם",
+                "nonStop": "ללא עצירות",
+                "oneStop": "עצירה אחת",
+                "stops": "עצירות"
             },
             "hotelCard": {
-                "reviews": "Reviews",
-                "selected": "Selected",
-                "addToTrip": "Add to trip",
-                "total": "total"
+                "reviews": "ביקורות",
+                "selected": "נבחר",
+                "addToTrip": "הוסף לטיול",
+                "total": "סה\"כ"
             }
         },
         "widgets": {
-            "addExperienceButton": "Add Experience",
-            "dayLabel": "Day ${n}",
-            "failedToLoadTrip": "Failed to load trip",
-            "retry": "Retry"
+            "addExperienceButton": "הוסף חוויה",
+            "dayLabel": "יום ${n}",
+            "failedToLoadTrip": "נכשל בטעינת הטיול",
+            "retry": "נסה שוב"
         },
         "transportType": {
-            "flight": "Flight",
-            "train": "Train",
-            "bus": "Bus",
-            "car": "Car",
-            "ferry": "Ferry",
-            "transportation": "Transportation"
+            "flight": "טיסה",
+            "train": "רכבת",
+            "bus": "אוטובוס",
+            "car": "רכב",
+            "ferry": "מעבורת",
+            "transportation": "תחבורה"
         },
         "cabinClass": {
-            "economy": "Economy Class",
-            "premiumEconomy": "Premium Economy",
-            "business": "Business Class",
-            "first": "First Class"
+            "economy": "מחלקת תיירים",
+            "premiumEconomy": "מחלקת תיירים פרמיום",
+            "business": "מחלקת עסקים",
+            "first": "מחלקה ראשונה"
         },
         "travelerFormat": {
-            "forAdults": " for ${count} ${word}",
-            "andChildren": " and ${count} ${word}",
-            "adult": "adult",
-            "adults": "adults",
-            "child": "child",
-            "children": "children"
+            "forAdults": " עבור ${count} ${word}",
+            "andChildren": " ו-${count} ${word}",
+            "adult": "מבוגר",
+            "adults": "מבוגרים",
+            "child": "ילד",
+            "children": "ילדים"
+        },
+        "basket": {
+            "title": "סיכום הזמנה",
+            "item": "פריט",
+            "items": "פריטים",
+            "orderSummary": "סיכום הזמנה",
+            "priceChangeAlert": {
+                "title": "המחירים עשויים להשתנות",
+                "description": "מחירי הנסיעות משתנים לעתים קרובות. המחירים המוצגים הם הערכות ועשויים להיות שונים בעת ההזמנה."
+            },
+            "location": "מיקום",
+            "dates": "תאריכים",
+            "travelers": "נוסעים",
+            "traveler": "נוסע",
+            "noItemsInBasket": "אין עדיין פריטים הניתנים להזמנה בטיול שלך. הוסף מלונות, טיסות או פעילויות כדי להתחיל!",
+            "legTitle": "${location} (ימים ${days})"
         }
     },
-    "tripWord":"Trip",
+    "tripWord":"טיול",
     "unknown_error": "שגיאה לא ידועה",
     "unknown_name": "שם לא ידוע",
     "update": "לעדכון",
