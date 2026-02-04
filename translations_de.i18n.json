@@ -943,7 +943,8 @@
             "failedDeleteExperience": "Erlebnis konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
             "failedDeleteActivity": "Aktivität konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
             "failedDeleteAttraction": "Attraktion konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-            "failedDeleteRestaurant": "Restaurant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+            "failedDeleteRestaurant": "Restaurant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+            "noFlightUrl": "Für diesen Flug ist keine URL verfügbar."
         },
         "dialogs": {
             "removeFlight": {

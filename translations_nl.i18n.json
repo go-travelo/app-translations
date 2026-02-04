@@ -943,7 +943,8 @@
             "failedDeleteExperience": "Kan ervaring niet verwijderen. Probeer het opnieuw.",
             "failedDeleteActivity": "Kan activiteit niet verwijderen. Probeer het opnieuw.",
             "failedDeleteAttraction": "Kan attractie niet verwijderen. Probeer het opnieuw.",
-            "failedDeleteRestaurant": "Kan restaurant niet verwijderen. Probeer het opnieuw."
+            "failedDeleteRestaurant": "Kan restaurant niet verwijderen. Probeer het opnieuw.",
+            "noFlightUrl": "Geen URL beschikbaar voor deze vlucht."
         },
         "dialogs": {
             "removeFlight": {

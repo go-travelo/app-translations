@@ -991,7 +991,8 @@
             "failedDeleteExperience": "נכשל במחיקת החוויה. אנא נסה שוב.",
             "failedDeleteActivity": "נכשל במחיקת הפעילות. אנא נסה שוב.",
             "failedDeleteAttraction": "נכשל במחיקת האטרקציה. אנא נסה שוב.",
-            "failedDeleteRestaurant": "נכשל במחיקת המסעדה. אנא נסה שוב."
+            "failedDeleteRestaurant": "נכשל במחיקת המסעדה. אנא נסה שוב.",
+            "noFlightUrl": "אין כתובת URL זמינה עבור טיסה זו."
         },
         "dialogs": {
             "removeFlight": {

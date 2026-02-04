@@ -952,7 +952,8 @@
             "failedDeleteExperience": "Failed to delete the experience. Please try again.",
             "failedDeleteActivity": "Failed to delete activity. Please try again.",
             "failedDeleteAttraction": "Failed to delete attraction. Please try again.",
-            "failedDeleteRestaurant": "Failed to delete restaurant. Please try again."
+            "failedDeleteRestaurant": "Failed to delete restaurant. Please try again.",
+            "noFlightUrl": "No URL available for this flight."
         },
         "dialogs": {
             "removeFlight": {

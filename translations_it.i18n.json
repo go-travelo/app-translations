@@ -943,7 +943,8 @@
             "failedDeleteExperience": "Impossibile eliminare l'esperienza. Riprova.",
             "failedDeleteActivity": "Impossibile eliminare l'attività. Riprova.",
             "failedDeleteAttraction": "Impossibile eliminare l'attrazione. Riprova.",
-            "failedDeleteRestaurant": "Impossibile eliminare il ristorante. Riprova."
+            "failedDeleteRestaurant": "Impossibile eliminare il ristorante. Riprova.",
+            "noFlightUrl": "Nessun URL disponibile per questo volo."
         },
         "dialogs": {
             "removeFlight": {

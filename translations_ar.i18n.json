@@ -1039,7 +1039,8 @@
             "failedDeleteExperience": "فشل حذف التجربة. يرجى المحاولة مرة أخرى.",
             "failedDeleteActivity": "فشل حذف النشاط. يرجى المحاولة مرة أخرى.",
             "failedDeleteAttraction": "فشل حذف المعلم السياحي. يرجى المحاولة مرة أخرى.",
-            "failedDeleteRestaurant": "فشل حذف المطعم. يرجى المحاولة مرة أخرى."
+            "failedDeleteRestaurant": "فشل حذف المطعم. يرجى المحاولة مرة أخرى.",
+            "noFlightUrl": "لا يوجد رابط متاح لهذه الرحلة."
         },
         "dialogs": {
             "removeFlight": {

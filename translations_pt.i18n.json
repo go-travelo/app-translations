@@ -943,7 +943,8 @@
             "failedDeleteExperience": "Falha ao excluir a experiência. Por favor, tente novamente.",
             "failedDeleteActivity": "Falha ao excluir atividade. Por favor, tente novamente.",
             "failedDeleteAttraction": "Falha ao excluir atração. Por favor, tente novamente.",
-            "failedDeleteRestaurant": "Falha ao excluir restaurante. Por favor, tente novamente."
+            "failedDeleteRestaurant": "Falha ao excluir restaurante. Por favor, tente novamente.",
+            "noFlightUrl": "Nenhuma URL disponível para este voo."
         },
         "dialogs": {
             "removeFlight": {

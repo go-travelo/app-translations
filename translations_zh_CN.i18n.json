@@ -919,7 +919,8 @@
             "failedDeleteExperience": "无法删除体验。请重试。",
             "failedDeleteActivity": "无法删除活动。请重试。",
             "failedDeleteAttraction": "无法删除景点。请重试。",
-            "failedDeleteRestaurant": "无法删除餐厅。请重试。"
+            "failedDeleteRestaurant": "无法删除餐厅。请重试。",
+            "noFlightUrl": "此航班没有可用的URL。"
         },
         "dialogs": {
             "removeFlight": {
