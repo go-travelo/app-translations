@@ -864,7 +864,8 @@
         "header": {
             "daysLabel": "${count} Days",
             "chooseDate": "Choose Date",
-            "inviteSomeone": "Invite someone on your Trip"
+            "inviteSomeone": "Invite someone on your Trip",
+            "adultsLabel": "${count} Adults"
         },
         "sections": {
             "yourFlights": "Your Flights",
@@ -923,6 +924,8 @@
             "change": "Change",
             "getLivePrices": "Get live prices",
             "bookNow": "Book Now",
+            "bookThisTrip": "Book This Trip",
+            "customizeTrip": "Customize Trip",
             "share": "Share",
             "delete": "Delete",
             "invite": "Invite"
@@ -1111,6 +1114,7 @@
         "cards": {
             "dayCard": {
                 "day": "Day",
+                "dayLabel": "DAY ${n}",
                 "experience": "Experience",
                 "experiences": "Experiences",
                 "total": "total"
@@ -1144,7 +1148,10 @@
             "addExperienceButton": "Add Experience",
             "dayLabel": "Day ${n}",
             "failedToLoadTrip": "Failed to load trip",
-            "retry": "Retry"
+            "retry": "Retry",
+            "yourStay":"Your Stay",
+            "transport": "Transport",
+            "yourDayByDay": "Your Day By Day"
         },
         "transportType": {
             "flight": "Flight",
