@@ -929,13 +929,16 @@
             "perPerson": "/чел.",
             "direct": "Прямой",
             "oneStop": "1 остановка",
-            "stops": "${count} остановок"
+            "stops": "${count} остановок",
+            "bookThisFlight": "Забронировать этот рейс"
         },
         "hotel": {
             "title": "Отель",
             "yourStay": "Ваше проживание",
             "reviews": "${count} Отзывов",
-            "viewDetails": "Посмотреть детали"
+            "viewDetails": "Посмотреть детали",
+            "bookThisHotel": "Забронировать этот отель",
+            "ratingSnapshot": "Сводка оценок"
         },
         "destination": {
             "dayLabel": "День ${start} - ${end}",
@@ -946,7 +949,12 @@
         "transport": {
             "title": "Транспорт",
             "pickUp": "Посадка",
-            "dropOff": "Высадка"
+            "dropOff": "Высадка",
+            "bookThisCar": "Забронировать этот автомобиль",
+            "bookThisBus": "Забронировать этот автобус",
+            "bookThisTrain": "Забронировать этот поезд",
+            "bookThisBoat": "Забронировать эту лодку",
+            "bookThisTransfer": "Забронировать этот трансфер"
         },
         "restaurant": {
             "title": "Ресторан"
@@ -1231,7 +1239,7 @@
             "legTitle": "${location} (Дни ${days})"
         }
     },
-    "tripWord":"Поездка",
+    "tripWord": "Поездка",
     "unknown_error": "Неизвестная ошибка",
     "unknown_name": "Неизвестное имя",
     "update": "Обновить",

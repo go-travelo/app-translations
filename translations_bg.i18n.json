@@ -881,13 +881,16 @@
             "perPerson": "/на човек",
             "direct": "Директен",
             "oneStop": "1 спирка",
-            "stops": "${count} спирки"
+            "stops": "${count} спирки",
+            "bookThisFlight": "Резервирайте този полет"
         },
         "hotel": {
             "title": "Хотел",
             "yourStay": "Вашият Престой",
             "reviews": "${count} Отзиви",
-            "viewDetails": "Виж Детайли"
+            "viewDetails": "Виж Детайли",
+            "bookThisHotel": "Резервирайте този хотел",
+            "ratingSnapshot": "Преглед на оценките"
         },
         "destination": {
             "dayLabel": "Ден ${start} - ${end}",
@@ -898,7 +901,12 @@
         "transport": {
             "title": "Транспорт",
             "pickUp": "Вземане",
-            "dropOff": "Връщане"
+            "dropOff": "Връщане",
+            "bookThisCar": "Резервирайте тази кола",
+            "bookThisBus": "Резервирайте този автобус",
+            "bookThisTrain": "Резервирайте този влак",
+            "bookThisBoat": "Резервирайте тази лодка",
+            "bookThisTransfer": "Резервирайте този трансфер"
         },
         "restaurant": {
             "title": "Ресторант"
@@ -1183,7 +1191,7 @@
             "legTitle": "${location} (Дни ${days})"
         }
     },
-    "tripWord":"Пътуване",
+    "tripWord": "Пътуване",
     "unknown_error": "Неизвестна грешка",
     "unknown_name": "Неизвестно име",
     "update": "Актуализирай",

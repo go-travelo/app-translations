@@ -881,13 +881,16 @@
             "perPerson": "/Person",
             "direct": "Direkt",
             "oneStop": "1 Zwischenstopp",
-            "stops": "${count} Zwischenstopps"
+            "stops": "${count} Zwischenstopps",
+            "bookThisFlight": "Diesen Flug buchen"
         },
         "hotel": {
             "title": "Hotel",
             "yourStay": "Ihr Aufenthalt",
             "reviews": "${count} Bewertungen",
-            "viewDetails": "Details Ansehen"
+            "viewDetails": "Details Ansehen",
+            "bookThisHotel": "Dieses Hotel buchen",
+            "ratingSnapshot": "Bewertungsübersicht"
         },
         "destination": {
             "dayLabel": "Tag ${start} - ${end}",
@@ -898,7 +901,12 @@
         "transport": {
             "title": "Transport",
             "pickUp": "Abholung",
-            "dropOff": "Abgabe"
+            "dropOff": "Abgabe",
+            "bookThisCar": "Dieses Auto buchen",
+            "bookThisBus": "Diesen Bus buchen",
+            "bookThisTrain": "Diesen Zug buchen",
+            "bookThisBoat": "Dieses Boot buchen",
+            "bookThisTransfer": "Diesen Transfer buchen"
         },
         "restaurant": {
             "title": "Restaurant"
@@ -1181,10 +1189,9 @@
             "traveler": "Reisender",
             "noItemsInBasket": "Noch keine buchbaren Artikel in Ihrer Reise. Fügen Sie Hotels, Flüge oder Aktivitäten hinzu, um zu beginnen!",
             "legTitle": "${location} (Tage ${days})"
-
         }
     },
-    "tripWord":"Reise",
+    "tripWord": "Reise",
     "unknown_error": "Unbekannter Fehler",
     "unknown_name": "Unbekannter Name",
     "update": "Aktualisieren",

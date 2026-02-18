@@ -977,13 +977,16 @@
             "perPerson": "/شخص",
             "direct": "مباشر",
             "oneStop": "توقف واحد",
-            "stops": "${count} توقفات"
+            "stops": "${count} توقفات",
+            "bookThisFlight": "احجز هذه الرحلة"
         },
         "hotel": {
             "title": "فندق",
             "yourStay": "إقامتك",
             "reviews": "${count} مراجعات",
-            "viewDetails": "عرض التفاصيل"
+            "viewDetails": "عرض التفاصيل",
+            "bookThisHotel": "احجز هذا الفندق",
+            "ratingSnapshot": "لقطة التقييم"
         },
         "destination": {
             "dayLabel": "اليوم ${start} - ${end}",
@@ -994,7 +997,12 @@
         "transport": {
             "title": "النقل",
             "pickUp": "الاستلام",
-            "dropOff": "التوصيل"
+            "dropOff": "التوصيل",
+            "bookThisCar": "احجز هذه السيارة",
+            "bookThisBus": "احجز هذا الباص",
+            "bookThisTrain": "احجز هذا القطار",
+            "bookThisBoat": "احجز هذا القارب",
+            "bookThisTransfer": "احجز هذا النقل"
         },
         "restaurant": {
             "title": "مطعم"
@@ -1279,7 +1287,7 @@
             "legTitle": "${location} (الأيام ${days})"
         }
     },
-    "tripWord":"رحلة",
+    "tripWord": "رحلة",
     "unknown_error": "خطأ غير معروف",
     "unknown_name": "اسم غير معروف",
     "update": "تحديث",

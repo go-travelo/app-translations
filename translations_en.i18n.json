@@ -890,13 +890,17 @@
             "perPerson": "/person",
             "direct": "Direct",
             "oneStop": "1 stop",
-            "stops": "${count} stops"
+            "stops": "${count} stops",
+            "bookThisFlight": "Book this Flight"
         },
         "hotel": {
             "title": "Hotel",
             "yourStay": "Your Stay",
             "reviews": "${count} Reviews",
-            "viewDetails": "View Details"
+            "viewDetails": "View Details",
+	        "bookThisHotel": "Book this hotel",
+            "ratingSnapshot": "Rating Snapshot"
+
         },
         "destination": {
             "dayLabel": "Day ${start} - ${end}",
@@ -907,7 +911,12 @@
         "transport": {
             "title": "Transport",
             "pickUp": "Pick-up",
-            "dropOff": "Drop-off"
+            "dropOff": "Drop-off",
+            "bookThisCar": "Book this car",
+            "bookThisBus": "Book this bus",
+            "bookThisTrain": "Book this train",
+            "bookThisBoat": "Book this boat",
+            "bookThisTransfer": "Book this transfer"
         },
         "restaurant": {
             "title": "Restaurant"

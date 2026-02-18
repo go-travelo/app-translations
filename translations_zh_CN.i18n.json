@@ -857,13 +857,16 @@
             "perPerson": "/人",
             "direct": "直飞",
             "oneStop": "1次中转",
-            "stops": "${count}次中转"
+            "stops": "${count}次中转",
+            "bookThisFlight": "预订此航班"
         },
         "hotel": {
             "title": "酒店",
             "yourStay": "您的住宿",
             "reviews": "${count}条评论",
-            "viewDetails": "查看详情"
+            "viewDetails": "查看详情",
+            "bookThisHotel": "预订此酒店",
+            "ratingSnapshot": "评分概览"
         },
         "destination": {
             "dayLabel": "第${start}天 - 第${end}天",
@@ -874,7 +877,12 @@
         "transport": {
             "title": "交通",
             "pickUp": "上车",
-            "dropOff": "下车"
+            "dropOff": "下车",
+            "bookThisCar": "预订此车",
+            "bookThisBus": "预订此巴士",
+            "bookThisTrain": "预订此火车",
+            "bookThisBoat": "预订此船",
+            "bookThisTransfer": "预订此接送"
         },
         "restaurant": {
             "title": "餐厅"
@@ -1159,7 +1167,7 @@
             "legTitle": "${location}（第${days}天）"
         }
     },
-    "tripWord":"旅行",
+    "tripWord": "旅行",
     "unknown_error": "未知错误",
     "unknown_name": "未知名称",
     "update": "更新",

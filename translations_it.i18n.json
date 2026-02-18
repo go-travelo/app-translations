@@ -881,13 +881,16 @@
             "perPerson": "/persona",
             "direct": "Diretto",
             "oneStop": "1 scalo",
-            "stops": "${count} scali"
+            "stops": "${count} scali",
+            "bookThisFlight": "Prenota questo volo"
         },
         "hotel": {
             "title": "Hotel",
             "yourStay": "Il Tuo Soggiorno",
             "reviews": "${count} Recensioni",
-            "viewDetails": "Visualizza Dettagli"
+            "viewDetails": "Visualizza Dettagli",
+            "bookThisHotel": "Prenota questo hotel",
+            "ratingSnapshot": "Panoramica delle valutazioni"
         },
         "destination": {
             "dayLabel": "Giorno ${start} - ${end}",
@@ -898,7 +901,12 @@
         "transport": {
             "title": "Trasporto",
             "pickUp": "Ritiro",
-            "dropOff": "Riconsegna"
+            "dropOff": "Riconsegna",
+            "bookThisCar": "Prenota questa auto",
+            "bookThisBus": "Prenota questo autobus",
+            "bookThisTrain": "Prenota questo treno",
+            "bookThisBoat": "Prenota questa barca",
+            "bookThisTransfer": "Prenota questo trasferimento"
         },
         "restaurant": {
             "title": "Ristorante"
@@ -1183,7 +1191,7 @@
             "legTitle": "${location} (Giorni ${days})"
         }
     },
-    "tripWord":"Viaggio",
+    "tripWord": "Viaggio",
     "unknown_error": "Errore sconosciuto",
     "unknown_name": "Nome sconosciuto",
     "update": "Aggiorna",

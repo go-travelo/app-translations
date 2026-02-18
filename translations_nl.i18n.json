@@ -881,13 +881,16 @@
             "perPerson": "/persoon",
             "direct": "Direct",
             "oneStop": "1 stop",
-            "stops": "${count} stops"
+            "stops": "${count} stops",
+            "bookThisFlight": "Boek deze vlucht"
         },
         "hotel": {
             "title": "Hotel",
             "yourStay": "Uw Verblijf",
             "reviews": "${count} Beoordelingen",
-            "viewDetails": "Bekijk Details"
+            "viewDetails": "Bekijk Details",
+            "bookThisHotel": "Boek dit hotel",
+            "ratingSnapshot": "Beoordelingsoverzicht"
         },
         "destination": {
             "dayLabel": "Dag ${start} - ${end}",
@@ -898,7 +901,12 @@
         "transport": {
             "title": "Vervoer",
             "pickUp": "Ophalen",
-            "dropOff": "Afleveren"
+            "dropOff": "Afleveren",
+            "bookThisCar": "Boek deze auto",
+            "bookThisBus": "Boek deze bus",
+            "bookThisTrain": "Boek deze trein",
+            "bookThisBoat": "Boek deze boot",
+            "bookThisTransfer": "Boek deze transfer"
         },
         "restaurant": {
             "title": "Restaurant"
@@ -1183,7 +1191,7 @@
             "legTitle": "${location} (Dagen ${days})"
         }
     },
-    "tripWord":"Reis",
+    "tripWord": "Reis",
     "unknown_error": "Onbekende fout",
     "unknown_name": "Onbekende naam",
     "update": "Update",
