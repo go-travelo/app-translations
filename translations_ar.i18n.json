@@ -950,6 +950,7 @@
         "title": "رحلة",
         "header": {
             "daysLabel": "${count} أيام",
+            "adultsLabel": "${count} بالغين",
             "chooseDate": "اختر التاريخ",
             "inviteSomeone": "ادع شخصًا ما إلى رحلتك"
         },
@@ -1010,6 +1011,8 @@
             "change": "تغيير",
             "getLivePrices": "الحصول على الأسعار الحية",
             "bookNow": "احجز الآن",
+            "bookThisTrip": "احجز هذه الرحلة",
+            "customizeTrip": "تخصيص الرحلة",
             "share": "مشاركة",
             "delete": "حذف",
             "invite": "دعوة"
@@ -1198,6 +1201,7 @@
         "cards": {
             "dayCard": {
                 "day": "يوم",
+                "dayLabel": "اليوم ${n}",
                 "experience": "تجربة",
                 "experiences": "تجارب",
                 "total": "المجموع"
@@ -1230,6 +1234,9 @@
         "widgets": {
             "addExperienceButton": "إضافة تجربة",
             "dayLabel": "اليوم ${n}",
+            "yourStay": "إقامتك",
+            "transport": "النقل",
+            "yourDayByDay": "يومك بعد يوم",
             "failedToLoadTrip": "فشل تحميل الرحلة",
             "retry": "إعادة المحاولة"
         },
@@ -1392,5 +1399,15 @@
         "retry": "إعادة المحاولة",
         "map_unavailable": "الخريطة غير متاحة",
         "dates_tbd": "التواريخ سيتم تحديدها"
+    },
+    "paywall": {
+        "title": "افتح رحلتك الكاملة",
+        "subtitle": "تابع مع Premium للتخطيط غير المحدود والتوفير الحصري.",
+        "feature_complete_itinerary": "مسار رحلة واحد كامل وخالٍ من التوتر",
+        "feature_download_share": "قم بالتنزيل والمشاركة والتحرير في أي وقت",
+        "price_with_trial": "ابدأ بتجربة مجانية لمدة ${days} يوم. السعر ${price} بعد التجربة.",
+        "price_only": "السعر ${price}",
+        "processing": "جاري المعالجة...",
+        "unlock_now": "افتح الآن"
     }
 }

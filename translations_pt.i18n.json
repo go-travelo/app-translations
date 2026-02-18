@@ -854,6 +854,7 @@
         "title": "Viagem",
         "header": {
             "daysLabel": "${count} Dias",
+            "adultsLabel": "${count} Adultos",
             "chooseDate": "Escolher Data",
             "inviteSomeone": "Convide alguém para sua Viagem"
         },
@@ -914,6 +915,8 @@
             "change": "Alterar",
             "getLivePrices": "Obter preços ao vivo",
             "bookNow": "Reservar Agora",
+            "bookThisTrip": "Reservar Esta Viagem",
+            "customizeTrip": "Personalizar Viagem",
             "share": "Compartilhar",
             "delete": "Excluir",
             "invite": "Convidar"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Dia",
+                "dayLabel": "DIA ${n}",
                 "experience": "Experiência",
                 "experiences": "Experiências",
                 "total": "total"
@@ -1134,6 +1138,9 @@
         "widgets": {
             "addExperienceButton": "Adicionar Experiência",
             "dayLabel": "Dia ${n}",
+            "yourStay": "Sua Estadia",
+            "transport": "Transporte",
+            "yourDayByDay": "Seu Dia a Dia",
             "failedToLoadTrip": "Falha ao carregar viagem",
             "retry": "Tentar Novamente"
         },
@@ -1268,5 +1275,15 @@
         "retry": "Tentar Novamente",
         "map_unavailable": "Mapa indisponível",
         "dates_tbd": "Datas a serem determinadas"
+    },
+    "paywall": {
+        "title": "Desbloqueie Sua Viagem Completa",
+        "subtitle": "Continue com Premium para planejamento ilimitado e economias exclusivas.",
+        "feature_complete_itinerary": "Um itinerário completo e sem estresse",
+        "feature_download_share": "Baixe, compartilhe e edite a qualquer momento",
+        "price_with_trial": "Comece com um teste gratuito de ${days} dias. Preço ${price} após o período de teste.",
+        "price_only": "Preço ${price}",
+        "processing": "Processando...",
+        "unlock_now": "Desbloquear agora"
     }
 }

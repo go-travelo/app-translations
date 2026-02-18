@@ -902,6 +902,7 @@
         "title": "טיול",
         "header": {
             "daysLabel": "${count} ימים",
+            "adultsLabel": "${count} מבוגרים",
             "chooseDate": "בחר תאריך",
             "inviteSomeone": "הזמן מישהו לטיול שלך"
         },
@@ -962,6 +963,8 @@
             "change": "שינוי",
             "getLivePrices": "קבל מחירים עדכניים",
             "bookNow": "הזמן עכשיו",
+            "bookThisTrip": "הזמן את הטיול הזה",
+            "customizeTrip": "התאם אישית את הטיול",
             "share": "שתף",
             "delete": "מחק",
             "invite": "הזמן"
@@ -1150,6 +1153,7 @@
         "cards": {
             "dayCard": {
                 "day": "יום",
+                "dayLabel": "יום ${n}",
                 "experience": "חוויה",
                 "experiences": "חוויות",
                 "total": "סה\"כ"
@@ -1182,6 +1186,9 @@
         "widgets": {
             "addExperienceButton": "הוסף חוויה",
             "dayLabel": "יום ${n}",
+            "yourStay": "השהייה שלך",
+            "transport": "תחבורה",
+            "yourDayByDay": "יום אחר יום שלך",
             "failedToLoadTrip": "נכשל בטעינת הטיול",
             "retry": "נסה שוב"
         },
@@ -1330,5 +1337,15 @@
         "retry": "Retry",
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
+    },
+    "paywall": {
+        "title": "פתח את המסע השלם שלך",
+        "subtitle": "המשך עם Premium לתכנון בלתי מוגבל וחסכון בלעדי.",
+        "feature_complete_itinerary": "מסלול אחד שלם וללא מתח",
+        "feature_download_share": "הורד, שתף וערוך בכל עת",
+        "price_with_trial": "התחל עם ניסיון חינם של ${days} ימים. מחיר ${price} לאחר הניסיון.",
+        "price_only": "מחיר ${price}",
+        "processing": "מעבד...",
+        "unlock_now": "פתח עכשיו"
     }
 }

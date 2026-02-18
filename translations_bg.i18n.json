@@ -854,6 +854,7 @@
         "title": "Пътуване",
         "header": {
             "daysLabel": "${count} Дни",
+            "adultsLabel": "${count} Възрастни",
             "chooseDate": "Изберете Дата",
             "inviteSomeone": "Поканете някого на вашето Пътуване"
         },
@@ -914,6 +915,8 @@
             "change": "Промени",
             "getLivePrices": "Вземи актуални цени",
             "bookNow": "Резервирай Сега",
+            "bookThisTrip": "Резервирайте Това Пътуване",
+            "customizeTrip": "Персонализирайте Пътуването",
             "share": "Сподели",
             "delete": "Изтрий",
             "invite": "Покани"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Ден",
+                "dayLabel": "ДЕН ${n}",
                 "experience": "Преживяване",
                 "experiences": "Преживявания",
                 "total": "общо"
@@ -1134,6 +1138,9 @@
         "widgets": {
             "addExperienceButton": "Добави Преживяване",
             "dayLabel": "Ден ${n}",
+            "yourStay": "Вашият Престой",
+            "transport": "Транспорт",
+            "yourDayByDay": "Вашият Ден по Ден",
             "failedToLoadTrip": "Неуспешно зареждане на пътуването",
             "retry": "Опитай отново"
         },
@@ -1268,5 +1275,15 @@
         "retry": "Retry",
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
+    },
+    "paywall": {
+        "title": "Отключете Вашето Пълно Пътуване",
+        "subtitle": "Продължете с Premium за неограничено планиране и ексклузивни спестявания.",
+        "feature_complete_itinerary": "Един пълен, безстресов маршрут",
+        "feature_download_share": "Изтеглете, споделете и редактирайте по всяко време",
+        "price_with_trial": "Започнете с безплатен ${days}-дневен пробен период. Цена ${price} след пробния период.",
+        "price_only": "Цена ${price}",
+        "processing": "Обработва се...",
+        "unlock_now": "Отключете сега"
     }
 }

@@ -854,6 +854,7 @@
         "title": "Viaggio",
         "header": {
             "daysLabel": "${count} Giorni",
+            "adultsLabel": "${count} Adulti",
             "chooseDate": "Scegli Data",
             "inviteSomeone": "Invita qualcuno al tuo Viaggio"
         },
@@ -914,6 +915,8 @@
             "change": "Cambia",
             "getLivePrices": "Ottieni prezzi in tempo reale",
             "bookNow": "Prenota Ora",
+            "bookThisTrip": "Prenota Questo Viaggio",
+            "customizeTrip": "Personalizza Viaggio",
             "share": "Condividi",
             "delete": "Elimina",
             "invite": "Invita"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Giorno",
+                "dayLabel": "GIORNO ${n}",
                 "experience": "Esperienza",
                 "experiences": "Esperienze",
                 "total": "totale"
@@ -1134,6 +1138,9 @@
         "widgets": {
             "addExperienceButton": "Aggiungi Esperienza",
             "dayLabel": "Giorno ${n}",
+            "yourStay": "Il Tuo Soggiorno",
+            "transport": "Trasporto",
+            "yourDayByDay": "Il Tuo Giorno per Giorno",
             "failedToLoadTrip": "Impossibile caricare il viaggio",
             "retry": "Riprova"
         },
@@ -1268,5 +1275,15 @@
         "retry": "Riprova",
         "map_unavailable": "Mappa non disponibile",
         "dates_tbd": "Date da determinare"
+    },
+    "paywall": {
+        "title": "Sblocca Il Tuo Viaggio Completo",
+        "subtitle": "Continua con Premium per pianificazione illimitata e risparmi esclusivi.",
+        "feature_complete_itinerary": "Un itinerario completo e senza stress",
+        "feature_download_share": "Scarica, condividi e modifica in qualsiasi momento",
+        "price_with_trial": "Inizia con una prova gratuita di ${days} giorni. Prezzo ${price} dopo la prova.",
+        "price_only": "Prezzo ${price}",
+        "processing": "Elaborazione...",
+        "unlock_now": "Sblocca ora"
     }
 }

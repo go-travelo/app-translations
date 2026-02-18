@@ -855,7 +855,8 @@
         "header": {
             "daysLabel": "${count} Días",
             "chooseDate": "Elegir Fecha",
-            "inviteSomeone": "Invita a alguien a tu Viaje"
+            "inviteSomeone": "Invita a alguien a tu Viaje",
+            "adultsLabel": "${count} Adultos"
         },
         "sections": {
             "yourFlights": "Tus Vuelos",
@@ -914,6 +915,8 @@
             "change": "Cambiar",
             "getLivePrices": "Obtener precios en vivo",
             "bookNow": "Reservar Ahora",
+            "bookThisTrip": "Reservar Este Viaje",
+            "customizeTrip": "Personalizar Viaje",
             "share": "Compartir",
             "delete": "Eliminar",
             "invite": "Invitar"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Día",
+                "dayLabel": "DÍA ${n}",
                 "experience": "Experiencia",
                 "experiences": "Experiencias",
                 "total": "total"
@@ -1135,7 +1139,10 @@
             "addExperienceButton": "Agregar Experiencia",
             "dayLabel": "Día ${n}",
             "failedToLoadTrip": "No se pudo cargar el viaje",
-            "retry": "Reintentar"
+            "retry": "Reintentar",
+            "yourStay": "Tu Estadía",
+            "transport": "Transporte",
+            "yourDayByDay": "Tu Día a Día"
         },
         "transportType": {
             "flight": "Vuelo",
@@ -1268,5 +1275,15 @@
         "retry": "Reintentar",
         "map_unavailable": "Mapa no disponible",
         "dates_tbd": "Fechas por determinar"
+    },
+    "paywall": {
+        "title": "Desbloquea Tu Viaje Completo",
+        "subtitle": "Continúa con Premium para planificación ilimitada y ahorros exclusivos.",
+        "feature_complete_itinerary": "Un itinerario completo y sin estrés",
+        "feature_download_share": "Descarga, comparte y edita en cualquier momento",
+        "price_with_trial": "Comienza con una prueba gratuita de ${days} días. Precio ${price} después del período de prueba.",
+        "price_only": "Precio ${price}",
+        "processing": "Procesando...",
+        "unlock_now": "Desbloquear ahora"
     }
 }

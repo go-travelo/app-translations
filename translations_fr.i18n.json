@@ -855,7 +855,8 @@
         "header": {
             "daysLabel": "${count} Jours",
             "chooseDate": "Choisir la Date",
-            "inviteSomeone": "Inviter quelqu'un sur votre Voyage"
+            "inviteSomeone": "Inviter quelqu'un sur votre Voyage",
+            "adultsLabel": "${count} Adultes"
         },
         "sections": {
             "yourFlights": "Vos Vols",
@@ -914,6 +915,8 @@
             "change": "Changer",
             "getLivePrices": "Obtenir les prix en direct",
             "bookNow": "Réserver Maintenant",
+            "bookThisTrip": "Réserver Ce Voyage",
+            "customizeTrip": "Personnaliser le Voyage",
             "share": "Partager",
             "delete": "Supprimer",
             "invite": "Inviter"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Jour",
+                "dayLabel": "JOUR ${n}",
                 "experience": "Expérience",
                 "experiences": "Expériences",
                 "total": "total"
@@ -1135,7 +1139,10 @@
             "addExperienceButton": "Ajouter une Expérience",
             "dayLabel": "Jour ${n}",
             "failedToLoadTrip": "Échec du chargement du voyage",
-            "retry": "Réessayer"
+            "retry": "Réessayer",
+            "yourStay": "Votre Séjour",
+            "transport": "Transport",
+            "yourDayByDay": "Votre Programme Jour par Jour"
         },
         "transportType": {
             "flight": "Vol",
@@ -1268,5 +1275,15 @@
         "retry": "Réessayer",
         "map_unavailable": "Carte non disponible",
         "dates_tbd": "Dates à déterminer"
+    },
+    "paywall": {
+        "title": "Débloquez Votre Voyage Complet",
+        "subtitle": "Continuez avec Premium pour une planification illimitée et des économies exclusives.",
+        "feature_complete_itinerary": "Un itinéraire complet et sans stress",
+        "feature_download_share": "Téléchargez, partagez et modifiez à tout moment",
+        "price_with_trial": "Commencez avec un essai gratuit de ${days} jours. Prix ${price} après l'essai.",
+        "price_only": "Prix ${price}",
+        "processing": "Traitement en cours...",
+        "unlock_now": "Débloquer maintenant"
     }
 }

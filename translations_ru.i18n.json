@@ -902,6 +902,7 @@
         "title": "Поездка",
         "header": {
             "daysLabel": "${count} Дней",
+            "adultsLabel": "${count} Взрослых",
             "chooseDate": "Выбрать Дату",
             "inviteSomeone": "Пригласите кого-нибудь в вашу Поездку"
         },
@@ -962,6 +963,8 @@
             "change": "Изменить",
             "getLivePrices": "Обновить цены",
             "bookNow": "Забронировать",
+            "bookThisTrip": "Забронировать Эту Поездку",
+            "customizeTrip": "Настроить Поездку",
             "share": "Поделиться",
             "delete": "Удалить",
             "invite": "Пригласить"
@@ -1150,6 +1153,7 @@
         "cards": {
             "dayCard": {
                 "day": "День",
+                "dayLabel": "ДЕНЬ ${n}",
                 "experience": "Впечатление",
                 "experiences": "Впечатления",
                 "total": "всего"
@@ -1182,6 +1186,9 @@
         "widgets": {
             "addExperienceButton": "Добавить впечатление",
             "dayLabel": "День ${n}",
+            "yourStay": "Ваше Проживание",
+            "transport": "Транспорт",
+            "yourDayByDay": "Ваш День за Днём",
             "failedToLoadTrip": "Не удалось загрузить поездку",
             "retry": "Повторить"
         },
@@ -1330,5 +1337,15 @@
         "retry": "Повторить",
         "map_unavailable": "Карта недоступна",
         "dates_tbd": "Даты будут определены"
+    },
+    "paywall": {
+        "title": "Разблокируйте Ваше Полное Путешествие",
+        "subtitle": "Продолжите с Premium для неограниченного планирования и эксклюзивной экономии.",
+        "feature_complete_itinerary": "Один полный, беззаботный маршрут",
+        "feature_download_share": "Скачивайте, делитесь и редактируйте в любое время",
+        "price_with_trial": "Начните с бесплатной ${days}-дневной пробной версии. Цена ${price} после пробного периода.",
+        "price_only": "Цена ${price}",
+        "processing": "Обработка...",
+        "unlock_now": "Разблокировать сейчас"
     }
 }

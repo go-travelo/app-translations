@@ -830,6 +830,7 @@
         "title": "旅行",
         "header": {
             "daysLabel": "${count} 天",
+            "adultsLabel": "${count} 成人",
             "chooseDate": "选择日期",
             "inviteSomeone": "邀请某人加入您的旅行"
         },
@@ -890,6 +891,8 @@
             "change": "更改",
             "getLivePrices": "获取实时价格",
             "bookNow": "立即预订",
+            "bookThisTrip": "预订此行程",
+            "customizeTrip": "定制行程",
             "share": "分享",
             "delete": "删除",
             "invite": "邀请"
@@ -1078,6 +1081,7 @@
         "cards": {
             "dayCard": {
                 "day": "天",
+                "dayLabel": "第${n}天",
                 "experience": "体验",
                 "experiences": "体验",
                 "total": "总计"
@@ -1110,6 +1114,9 @@
         "widgets": {
             "addExperienceButton": "添加体验",
             "dayLabel": "第${n}天",
+            "yourStay": "您的住宿",
+            "transport": "交通",
+            "yourDayByDay": "您的每日行程",
             "failedToLoadTrip": "无法加载行程",
             "retry": "重试"
         },
@@ -1237,5 +1244,15 @@
         "retry": "重试",
         "map_unavailable": "地图不可用",
         "dates_tbd": "日期待定"
+    },
+    "paywall": {
+        "title": "解锁您的完整旅程",
+        "subtitle": "使用高级版继续进行无限规划和独家节省。",
+        "feature_complete_itinerary": "一个完整、无压力的行程",
+        "feature_download_share": "随时下载、分享和编辑",
+        "price_with_trial": "从${days}天免费试用开始。试用后价格${price}。",
+        "price_only": "价格 ${price}",
+        "processing": "处理中...",
+        "unlock_now": "立即解锁"
     }
 }

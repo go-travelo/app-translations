@@ -854,6 +854,7 @@
         "title": "Reise",
         "header": {
             "daysLabel": "${count} Tage",
+            "adultsLabel": "${count} Erwachsene",
             "chooseDate": "Datum Wählen",
             "inviteSomeone": "Jemanden zu Ihrer Reise einladen"
         },
@@ -914,6 +915,8 @@
             "change": "Ändern",
             "getLivePrices": "Live-Preise abrufen",
             "bookNow": "Jetzt Buchen",
+            "bookThisTrip": "Diese Reise Buchen",
+            "customizeTrip": "Reise Anpassen",
             "share": "Teilen",
             "delete": "Löschen",
             "invite": "Einladen"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Tag",
+                "dayLabel": "TAG ${n}",
                 "experience": "Erlebnis",
                 "experiences": "Erlebnisse",
                 "total": "gesamt"
@@ -1134,6 +1138,9 @@
         "widgets": {
             "addExperienceButton": "Erlebnis Hinzufügen",
             "dayLabel": "Tag ${n}",
+            "yourStay": "Ihr Aufenthalt",
+            "transport": "Transport",
+            "yourDayByDay": "Ihr Tag für Tag",
             "failedToLoadTrip": "Reise konnte nicht geladen werden",
             "retry": "Erneut Versuchen"
         },
@@ -1269,5 +1276,15 @@
         "retry": "Erneut Versuchen",
         "map_unavailable": "Karte nicht verfügbar",
         "dates_tbd": "Daten noch festzulegen"
+    },
+    "paywall": {
+        "title": "Schalten Sie Ihre Vollständige Reise Frei",
+        "subtitle": "Fahren Sie mit Premium fort für unbegrenzte Planung und exklusive Ersparnisse.",
+        "feature_complete_itinerary": "Ein vollständiger, stressfreier Reiseplan",
+        "feature_download_share": "Jederzeit herunterladen, teilen und bearbeiten",
+        "price_with_trial": "Beginnen Sie mit einer kostenlosen ${days}-Tage-Testversion. Preis ${price} nach der Testversion.",
+        "price_only": "Preis ${price}",
+        "processing": "Wird verarbeitet...",
+        "unlock_now": "Jetzt freischalten"
     }
 }

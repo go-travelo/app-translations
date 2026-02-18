@@ -1284,5 +1284,15 @@
         "retry": "Retry",
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
+    },
+    "paywall": {
+        "title": "Unlock Your Full Trip",
+        "subtitle": "Continue with Premium for unlimited planning and exclusive savings.",
+        "feature_complete_itinerary": "One complete, stress-free itinerary",
+        "feature_download_share": "Download, share, and edit anytime",
+        "price_with_trial": "Start with a free ${days}-day trial. Price ${price} after trial.",
+        "price_only": "Price ${price}",
+        "processing": "Processing...",
+        "unlock_now": "Unlock now"
     }
 }

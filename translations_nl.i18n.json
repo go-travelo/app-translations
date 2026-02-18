@@ -854,6 +854,7 @@
         "title": "Reis",
         "header": {
             "daysLabel": "${count} Dagen",
+            "adultsLabel": "${count} Volwassenen",
             "chooseDate": "Kies Datum",
             "inviteSomeone": "Nodig iemand uit voor je Reis"
         },
@@ -914,6 +915,8 @@
             "change": "Wijzigen",
             "getLivePrices": "Ontvang live prijzen",
             "bookNow": "Boek Nu",
+            "bookThisTrip": "Boek Deze Reis",
+            "customizeTrip": "Pas Reis Aan",
             "share": "Delen",
             "delete": "Verwijderen",
             "invite": "Uitnodigen"
@@ -1102,6 +1105,7 @@
         "cards": {
             "dayCard": {
                 "day": "Dag",
+                "dayLabel": "DAG ${n}",
                 "experience": "Ervaring",
                 "experiences": "Ervaringen",
                 "total": "totaal"
@@ -1134,6 +1138,9 @@
         "widgets": {
             "addExperienceButton": "Ervaring Toevoegen",
             "dayLabel": "Dag ${n}",
+            "yourStay": "Uw Verblijf",
+            "transport": "Vervoer",
+            "yourDayByDay": "Uw Dag tot Dag",
             "failedToLoadTrip": "Kan reis niet laden",
             "retry": "Opnieuw Proberen"
         },
@@ -1268,5 +1275,15 @@
         "retry": "Opnieuw Proberen",
         "map_unavailable": "Kaart niet beschikbaar",
         "dates_tbd": "Data nog te bepalen"
+    },
+    "paywall": {
+        "title": "Ontgrendel Uw Volledige Reis",
+        "subtitle": "Ga verder met Premium voor onbeperkte planning en exclusieve besparingen.",
+        "feature_complete_itinerary": "Eén complete, stressvrije reisroute",
+        "feature_download_share": "Download, deel en bewerk op elk moment",
+        "price_with_trial": "Begin met een gratis proefperiode van ${days} dagen. Prijs ${price} na de proefperiode.",
+        "price_only": "Prijs ${price}",
+        "processing": "Verwerken...",
+        "unlock_now": "Nu ontgrendelen"
     }
 }
