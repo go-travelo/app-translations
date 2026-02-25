@@ -101,6 +101,11 @@
                 "msg2": "Encuéntrame vuelos baratos desde mi ciudad",
                 "msg3": "Constrúyeme Un Itinerario",
                 "msg4": "¿A dónde debo ir para mis vacaciones de verano?"
+            },
+            "tripCard": {
+                "latestTrip": "Último viaje",
+                "previousTrip": "Viaje anterior",
+                "expiredTripTooltip": "Esta es una versión anterior. Tu último viaje se muestra arriba."
             }
         }
     },

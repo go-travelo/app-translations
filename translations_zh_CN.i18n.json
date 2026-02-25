@@ -101,6 +101,11 @@
                 "msg2": "为我查找从我所在城市出发的廉价航班",
                 "msg3": "为我制定行程",
                 "msg4": "我的暑假应该去哪里？"
+            },
+            "tripCard": {
+                "latestTrip": "最新行程",
+                "previousTrip": "历史行程",
+                "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
             }
         }
     },

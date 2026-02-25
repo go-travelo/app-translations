@@ -101,6 +101,11 @@
                 "msg2": "Zoek goedkope vluchten vanuit mijn stad",
                 "msg3": "Bouw een reisplan voor me",
                 "msg4": "Waar moet ik heen voor mijn zomervakantie?"
+            },
+            "tripCard": {
+                "latestTrip": "Laatste reis",
+                "previousTrip": "Vorige reis",
+                "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven."
             }
         }
     },

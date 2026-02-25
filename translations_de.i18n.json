@@ -101,6 +101,11 @@
                 "msg2": "Finde günstige Flüge für mich von meiner Stadt",
                 "msg3": "Stelle mir einen Reiseplan zusammen",
                 "msg4": "Wo soll ich meinen Sommerurlaub verbringen?"
+            },
+            "tripCard": {
+                "latestTrip": "Neueste Reise",
+                "previousTrip": "Frühere Reise",
+                "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
             }
         }
     },

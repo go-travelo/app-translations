@@ -101,6 +101,11 @@
                 "msg2": "Trova voli economici dalla mia città",
                 "msg3": "Crea un itinerario per me",
                 "msg4": "Dove andare per le vacanze estive?"
+            },
+            "tripCard": {
+                "latestTrip": "Ultimo viaggio",
+                "previousTrip": "Viaggio precedente",
+                "expiredTripTooltip": "Questa è una versione precedente. Il tuo ultimo viaggio è mostrato sopra."
             }
         }
     },

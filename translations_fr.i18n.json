@@ -101,6 +101,11 @@
                 "msg2": "Trouvez des vols bon marché au départ de ma ville",
                 "msg3": "Construis-moi un itinéraire",
                 "msg4": "Où devrais-je aller pour mes vacances d'été ?"
+            },
+            "tripCard": {
+                "latestTrip": "Dernier voyage",
+                "previousTrip": "Voyage précédent",
+                "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus."
             }
         }
     },

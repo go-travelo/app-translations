@@ -101,6 +101,11 @@
                 "msg2": "Find me flights from my city",
                 "msg3": "Build Me An Itinerary",
                 "msg4": "Where should I go for my summer vacation?"
+            },
+            "tripCard": {
+                "latestTrip": "Latest trip",
+                "previousTrip": "Previous trip",
+                "expiredTripTooltip": "This is a previous version. Your latest trip is shown above."
             }
         }
     },
