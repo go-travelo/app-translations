@@ -1297,6 +1297,7 @@
         "price_with_trial": "Inizia con una prova gratuita di ${days} giorni. Prezzo ${price} dopo la prova.",
         "price_only": "Prezzo ${price}",
         "processing": "Elaborazione...",
-        "unlock_now": "Sblocca ora"
+        "unlock_now": "Sblocca ora",
+        "become_subscriber": "Diventa abbonato"
     }
 }

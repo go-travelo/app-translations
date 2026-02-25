@@ -1421,6 +1421,7 @@
         "price_with_trial": "ابدأ بتجربة مجانية لمدة ${days} يوم. السعر ${price} بعد التجربة.",
         "price_only": "السعر ${price}",
         "processing": "جاري المعالجة...",
-        "unlock_now": "افتح الآن"
+        "unlock_now": "افتح الآن",
+        "become_subscriber": "كن مشتركاً"
     }
 }

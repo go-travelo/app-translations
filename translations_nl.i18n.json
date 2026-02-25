@@ -1297,6 +1297,7 @@
         "price_with_trial": "Begin met een gratis proefperiode van ${days} dagen. Prijs ${price} na de proefperiode.",
         "price_only": "Prijs ${price}",
         "processing": "Verwerken...",
-        "unlock_now": "Nu ontgrendelen"
+        "unlock_now": "Nu ontgrendelen",
+        "become_subscriber": "Word abonnee"
     }
 }

@@ -1297,6 +1297,7 @@
         "price_with_trial": "Beginnen Sie mit einer kostenlosen ${days}-Tage-Testversion. Preis ${price} nach der Testversion.",
         "price_only": "Preis ${price}",
         "processing": "Wird verarbeitet...",
-        "unlock_now": "Jetzt freischalten"
+        "unlock_now": "Jetzt freischalten",
+        "become_subscriber": "Abonnent werden"
     }
 }

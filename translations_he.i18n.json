@@ -1359,6 +1359,7 @@
         "price_with_trial": "התחל עם ניסיון חינם של ${days} ימים. מחיר ${price} לאחר הניסיון.",
         "price_only": "מחיר ${price}",
         "processing": "מעבד...",
-        "unlock_now": "פתח עכשיו"
+        "unlock_now": "פתח עכשיו",
+        "become_subscriber": "הפוך למנוי"
     }
 }

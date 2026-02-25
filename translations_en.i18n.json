@@ -1307,6 +1307,7 @@
         "price_with_trial": "Start with a free ${days}-day trial. Price ${price} after trial.",
         "price_only": "Price ${price}",
         "processing": "Processing...",
-        "unlock_now": "Unlock now"
+        "unlock_now": "Unlock now",
+        "become_subscriber": "Become a subscriber"
     }
 }

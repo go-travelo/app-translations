@@ -1266,6 +1266,7 @@
         "price_with_trial": "从${days}天免费试用开始。试用后价格${price}。",
         "price_only": "价格 ${price}",
         "processing": "处理中...",
-        "unlock_now": "立即解锁"
+        "unlock_now": "立即解锁",
+        "become_subscriber": "成为订阅者"
     }
 }
