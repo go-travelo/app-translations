@@ -935,7 +935,9 @@
             "direct": "Прямой",
             "oneStop": "1 остановка",
             "stops": "${count} остановок",
-            "bookThisFlight": "Забронировать этот рейс"
+            "bookThisFlight": "Забронировать этот рейс",
+            "totalDuration": "Итого ${duration}",
+            "layoverAt": "Пересадка в ${airport}: ${duration}"
         },
         "hotel": {
             "title": "Отель",
@@ -1119,7 +1121,10 @@
             "trainTransfer": "Трансфер на поезде",
             "boatTransfer": "Трансфер на лодке",
             "transfer": "Трансфер",
-            "findAlternative": "Найти альтернативу"
+            "findAlternative": "Найти альтернативу",
+            "fromTo": "${from} до ${to}",
+            "oneStop": "1 остановка",
+            "stops": "${count} остановок"
         },
         "carTransport": {
             "transport": "Транспорт",

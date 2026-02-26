@@ -983,7 +983,9 @@
             "direct": "مباشر",
             "oneStop": "توقف واحد",
             "stops": "${count} توقفات",
-            "bookThisFlight": "احجز هذه الرحلة"
+            "bookThisFlight": "احجز هذه الرحلة",
+            "totalDuration": "الإجمالي ${duration}",
+            "layoverAt": "توقف في ${airport}: ${duration}"
         },
         "hotel": {
             "title": "فندق",
@@ -1167,7 +1169,10 @@
             "trainTransfer": "نقل بالقطار",
             "boatTransfer": "نقل بالقارب",
             "transfer": "نقل",
-            "findAlternative": "ابحث عن بديل"
+            "findAlternative": "ابحث عن بديل",
+            "fromTo": "${from} إلى ${to}",
+            "oneStop": "توقف واحد",
+            "stops": "${count} توقفات"
         },
         "carTransport": {
             "transport": "النقل",

@@ -887,7 +887,9 @@
             "direct": "Директен",
             "oneStop": "1 спирка",
             "stops": "${count} спирки",
-            "bookThisFlight": "Резервирайте този полет"
+            "bookThisFlight": "Резервирайте този полет",
+            "totalDuration": "Общо ${duration}",
+            "layoverAt": "Престой в ${airport}: ${duration}"
         },
         "hotel": {
             "title": "Хотел",
@@ -1071,7 +1073,10 @@
             "trainTransfer": "Трансфер с Влак",
             "boatTransfer": "Трансфер с Лодка",
             "transfer": "Трансфер",
-            "findAlternative": "Намери Алтернатива"
+            "findAlternative": "Намери Алтернатива",
+            "fromTo": "${from} до ${to}",
+            "oneStop": "1 спирка",
+            "stops": "${count} спирки"
         },
         "carTransport": {
             "transport": "Транспорт",

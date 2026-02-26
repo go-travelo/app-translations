@@ -863,7 +863,9 @@
             "direct": "直飞",
             "oneStop": "1次中转",
             "stops": "${count}次中转",
-            "bookThisFlight": "预订此航班"
+            "bookThisFlight": "预订此航班",
+            "totalDuration": "总时长 ${duration}",
+            "layoverAt": "中转 ${airport}: ${duration}"
         },
         "hotel": {
             "title": "酒店",
@@ -1047,7 +1049,10 @@
             "trainTransfer": "火车接送",
             "boatTransfer": "船只接送",
             "transfer": "接送",
-            "findAlternative": "寻找替代方案"
+            "findAlternative": "寻找替代方案",
+            "fromTo": "${from}到${to}",
+            "oneStop": "1次中转",
+            "stops": "${count}次中转"
         },
         "carTransport": {
             "transport": "交通",

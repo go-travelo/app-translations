@@ -887,7 +887,9 @@
             "direct": "Direto",
             "oneStop": "1 parada",
             "stops": "${count} paradas",
-            "bookThisFlight": "Reservar este voo"
+            "bookThisFlight": "Reservar este voo",
+            "totalDuration": "Total ${duration}",
+            "layoverAt": "Escala em ${airport}: ${duration}"
         },
         "hotel": {
             "title": "Hotel",
@@ -1071,7 +1073,10 @@
             "trainTransfer": "Transferência de Trem",
             "boatTransfer": "Transferência de Barco",
             "transfer": "Transferência",
-            "findAlternative": "Encontrar Alternativa"
+            "findAlternative": "Encontrar Alternativa",
+            "fromTo": "${from} para ${to}",
+            "oneStop": "1 parada",
+            "stops": "${count} paradas"
         },
         "carTransport": {
             "transport": "Transporte",

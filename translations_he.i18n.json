@@ -935,7 +935,9 @@
             "direct": "ישיר",
             "oneStop": "עצירה אחת",
             "stops": "${count} עצירות",
-            "bookThisFlight": "הזמן טיסה זו"
+            "bookThisFlight": "הזמן טיסה זו",
+            "totalDuration": "סך הכל ${duration}",
+            "layoverAt": "עצירה ב-${airport}: ${duration}"
         },
         "hotel": {
             "title": "מלון",
@@ -1119,7 +1121,10 @@
             "trainTransfer": "העברה ברכבת",
             "boatTransfer": "העברה בסירה",
             "transfer": "העברה",
-            "findAlternative": "מצא אלטרנטיבה"
+            "findAlternative": "מצא אלטרנטיבה",
+            "fromTo": "${from} ל-${to}",
+            "oneStop": "עצירה אחת",
+            "stops": "${count} עצירות"
         },
         "carTransport": {
             "transport": "תחבורה",

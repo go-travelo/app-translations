@@ -887,7 +887,9 @@
             "direct": "Direct",
             "oneStop": "1 stop",
             "stops": "${count} stops",
-            "bookThisFlight": "Boek deze vlucht"
+            "bookThisFlight": "Boek deze vlucht",
+            "totalDuration": "Totaal ${duration}",
+            "layoverAt": "Tussenstop ${airport}: ${duration}"
         },
         "hotel": {
             "title": "Hotel",
@@ -1071,7 +1073,10 @@
             "trainTransfer": "Treintransfer",
             "boatTransfer": "Boottransfer",
             "transfer": "Transfer",
-            "findAlternative": "Vind Alternatief"
+            "findAlternative": "Vind Alternatief",
+            "fromTo": "${from} naar ${to}",
+            "oneStop": "1 stop",
+            "stops": "${count} stops"
         },
         "carTransport": {
             "transport": "Vervoer",
