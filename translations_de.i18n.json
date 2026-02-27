@@ -1304,5 +1304,36 @@
         "processing": "Wird verarbeitet...",
         "unlock_now": "Jetzt freischalten",
         "become_subscriber": "Abonnent werden"
+    },
+    "data_consent": {
+        "title": "Datenschutz",
+        "allow": "Erlauben",
+        "dont_allow": "Nicht erlauben",
+        "privacy_policy": "Datenschutzrichtlinie",
+        "turn_on": "Aktivieren",
+        "learn_more": "Mehr erfahren",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "Um deine Reiseroute zu erstellen, senden wir die ",
+            "messages_you_enter": "von dir eingegebenen Nachrichten",
+            "and_the": " und die ",
+            "trip_details_you_provide": "von dir angegebenen Reisedetails",
+            "details_suffix": " (z. B. Reiseziel, Daten, Budget, Vorlieben, Reisende und weitere Infos) an ",
+            "provider_and": " und ",
+            "processing": " zur Verarbeitung.",
+            "warning": "Wenn du dies nicht erlaubst, sind der KI-Chat und die Reiseplanung nicht verfügbar.",
+            "settings_note": "Du kannst dies jederzeit in den Einstellungen ändern. Weitere Informationen findest du in unserer ",
+            "settings_note_end": "."
+        },
+        "profile": {
+            "title": "KI-Reiseplanung (OpenAI & Google)",
+            "subtitle_before": "Wenn aktiviert, werden deine Nachrichten und Reisedetails an ",
+            "subtitle_after": " gesendet, um deine Reiseroute zu erstellen. Deaktiviere, um KI-Chat und Planung zu deaktivieren."
+        },
+        "locked": {
+            "title": "KI-Planung ist deaktiviert",
+            "subtitle": "Aktiviere die KI-Verarbeitung in den Einstellungen, um zu chatten und einen Reiseplan zu erstellen."
+        }
     }
 }

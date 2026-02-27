@@ -1304,5 +1304,36 @@
         "processing": "Traitement en cours...",
         "unlock_now": "Débloquer maintenant",
         "become_subscriber": "Devenir abonné"
+    },
+    "data_consent": {
+        "title": "Confidentialité des données",
+        "allow": "Autoriser",
+        "dont_allow": "Ne pas autoriser",
+        "privacy_policy": "Politique de confidentialité",
+        "turn_on": "Activer",
+        "learn_more": "En savoir plus",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "Pour créer ton itinéraire, nous enverrons les ",
+            "messages_you_enter": "messages que tu saisies",
+            "and_the": " et les ",
+            "trip_details_you_provide": "détails du voyage que tu fournis",
+            "details_suffix": " (ex. destination, dates, budget, préférences, nombre de voyageurs et toute autre information) à ",
+            "provider_and": " et ",
+            "processing": " pour traitement.",
+            "warning": "Si tu n'autorises pas cela, le chat IA et les fonctions de planification de voyage ne seront pas disponibles.",
+            "settings_note": "Tu peux modifier cela à tout moment dans les Paramètres. Consulte notre ",
+            "settings_note_end": " pour plus de détails."
+        },
+        "profile": {
+            "title": "Planification de voyage IA (OpenAI & Google)",
+            "subtitle_before": "Lorsqu'activé, les messages que tu saisies et les détails du voyage sont envoyés à ",
+            "subtitle_after": " pour générer ton itinéraire. Désactive pour désactiver le chat IA et la planification."
+        },
+        "locked": {
+            "title": "La planification IA est désactivée",
+            "subtitle": "Active le traitement IA dans les Paramètres pour discuter et générer un plan de voyage."
+        }
     }
 }

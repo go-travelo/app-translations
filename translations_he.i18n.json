@@ -1366,5 +1366,36 @@
         "processing": "מעבד...",
         "unlock_now": "פתח עכשיו",
         "become_subscriber": "הפוך למנוי"
+    },
+    "data_consent": {
+        "title": "פרטיות נתונים",
+        "allow": "אישור",
+        "dont_allow": "לא לאשר",
+        "privacy_policy": "מדיניות פרטיות",
+        "turn_on": "הפעל",
+        "learn_more": "למד עוד",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "כדי ליצור את המסלול שלך, נשלח את ",
+            "messages_you_enter": "ההודעות שאתה מזין",
+            "and_the": " ואת ",
+            "trip_details_you_provide": "פרטי הטיול שאתה מספק",
+            "details_suffix": " (כגון יעד, תאריכים, תקציב, העדפות, מספר מטיילים וכל מידע אחר) אל ",
+            "provider_and": " ואל ",
+            "processing": " לעיבוד.",
+            "warning": "אם לא תאשר זאת, צ׳אט הבינה המלאכותית ותכונות תכנון הטיולים לא יהיו זמינות.",
+            "settings_note": "תוכל לשנות זאת בכל עת בהגדרות. עיין ב",
+            "settings_note_end": " שלנו לפרטים נוספים."
+        },
+        "profile": {
+            "title": "תכנון טיולים חכם (OpenAI ו-Google)",
+            "subtitle_before": "כשמופעל, ההודעות שאתה מזין ופרטי הטיול נשלחים אל ",
+            "subtitle_after": " ליצירת המסלול שלך. כבה כדי להשבית את הצ׳אט החכם והתכנון."
+        },
+        "locked": {
+            "title": "תכנון הבינה המלאכותית כבוי",
+            "subtitle": "הפעל עיבוד בינה מלאכותית בהגדרות כדי לשוחח וליצור תוכנית טיול."
+        }
     }
 }

@@ -1273,5 +1273,36 @@
         "processing": "处理中...",
         "unlock_now": "立即解锁",
         "become_subscriber": "成为订阅者"
+    },
+    "data_consent": {
+        "title": "数据隐私",
+        "allow": "允许",
+        "dont_allow": "不允许",
+        "privacy_policy": "隐私政策",
+        "turn_on": "开启",
+        "learn_more": "了解更多",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "为了创建您的行程，我们将向",
+            "messages_you_enter": "您输入的消息",
+            "and_the": "和",
+            "trip_details_you_provide": "您提供的旅行详情",
+            "details_suffix": "（例如目的地、日期、预算、偏好、旅行者人数及其他信息）发送至",
+            "provider_and": "和",
+            "processing": "进行处理。",
+            "warning": "如果您不允许，AI对话和行程规划功能将无法使用。",
+            "settings_note": "您可以随时在设置中更改此选项。请查看我们的",
+            "settings_note_end": "了解详情。"
+        },
+        "profile": {
+            "title": "AI旅行规划（OpenAI & Google）",
+            "subtitle_before": "开启后，您输入的消息和提供的旅行详情将发送至",
+            "subtitle_after": "以生成您的行程。关闭以禁用AI对话和规划。"
+        },
+        "locked": {
+            "title": "AI规划已关闭",
+            "subtitle": "在设置中启用AI处理以开始对话并生成旅行计划。"
+        }
     }
 }

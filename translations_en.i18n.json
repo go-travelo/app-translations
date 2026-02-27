@@ -905,9 +905,8 @@
             "yourStay": "Your Stay",
             "reviews": "${count} Reviews",
             "viewDetails": "View Details",
-	        "bookThisHotel": "Book this hotel",
+            "bookThisHotel": "Book this hotel",
             "ratingSnapshot": "Rating Snapshot"
-
         },
         "destination": {
             "dayLabel": "Day ${start} - ${end}",
@@ -1168,7 +1167,7 @@
             "dayLabel": "Day ${n}",
             "failedToLoadTrip": "Failed to load trip",
             "retry": "Retry",
-            "yourStay":"Your Stay",
+            "yourStay": "Your Stay",
             "transport": "Transport",
             "yourDayByDay": "Your Day By Day"
         },
@@ -1211,7 +1210,7 @@
             "legTitle": "${location} (Days ${days})"
         }
     },
-    "tripWord":"Trip",
+    "tripWord": "Trip",
     "unknown_error": "Unknown error",
     "unknown_name": "Unknown name",
     "update": "Update",
@@ -1314,5 +1313,36 @@
         "processing": "Processing...",
         "unlock_now": "Unlock now",
         "become_subscriber": "Become a subscriber"
+    },
+    "data_consent": {
+        "title": "Data Privacy",
+        "allow": "Allow",
+        "dont_allow": "Don't Allow",
+        "privacy_policy": "Privacy Policy",
+        "turn_on": "Turn On",
+        "learn_more": "Learn more",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "To create your itinerary, we will send the ",
+            "messages_you_enter": "messages you enter",
+            "and_the": " and the ",
+            "trip_details_you_provide": "trip details you provide",
+            "details_suffix": " (e.g., destination, dates, budget, preferences, number of travelers, and any other info you include) to ",
+            "provider_and": " and ",
+            "processing": " for processing.",
+            "warning": "If you don't allow this, the AI chat and trip planning features won't be available.",
+            "settings_note": "You can change this anytime in Settings. See our ",
+            "settings_note_end": " for details."
+        },
+        "profile": {
+            "title": "AI Travel Planning (OpenAI & Google)",
+            "subtitle_before": "When enabled, the messages you enter and trip details you provide are sent to ",
+            "subtitle_after": " to generate your itinerary. Turn off to disable AI chat and planning."
+        },
+        "locked": {
+            "title": "AI planning is turned off",
+            "subtitle": "Enable AI processing in Settings to chat and generate a trip plan."
+        }
     }
 }

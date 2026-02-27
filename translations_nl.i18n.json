@@ -1304,5 +1304,36 @@
         "processing": "Verwerken...",
         "unlock_now": "Nu ontgrendelen",
         "become_subscriber": "Word abonnee"
+    },
+    "data_consent": {
+        "title": "Gegevensprivacy",
+        "allow": "Toestaan",
+        "dont_allow": "Niet toestaan",
+        "privacy_policy": "Privacybeleid",
+        "turn_on": "Inschakelen",
+        "learn_more": "Meer weten",
+        "openai": "OpenAI (ChatGPT)",
+        "google": "Google (Gemini)",
+        "body": {
+            "intro": "Om je reisplan te maken, sturen we de ",
+            "messages_you_enter": "berichten die je invoert",
+            "and_the": " en de ",
+            "trip_details_you_provide": "reisgegevens die je verstrekt",
+            "details_suffix": " (bijv. bestemming, datums, budget, voorkeuren, aantal reizigers en andere informatie) naar ",
+            "provider_and": " en ",
+            "processing": " voor verwerking.",
+            "warning": "Als je dit niet toestaat, zijn de AI-chat en reisplanningsfuncties niet beschikbaar.",
+            "settings_note": "Je kunt dit op elk moment wijzigen in Instellingen. Zie ons ",
+            "settings_note_end": " voor meer details."
+        },
+        "profile": {
+            "title": "AI reisplanning (OpenAI & Google)",
+            "subtitle_before": "Wanneer ingeschakeld, worden de berichten die je invoert en de reisgegevens verzonden naar ",
+            "subtitle_after": " om je reisplan te genereren. Schakel uit om AI-chat en planning te deactiveren."
+        },
+        "locked": {
+            "title": "AI-planning is uitgeschakeld",
+            "subtitle": "Schakel AI-verwerking in via Instellingen om te chatten en een reisplan te genereren."
+        }
     }
 }
