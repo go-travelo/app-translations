@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - AI Reisplanner",
             "isTyping": "${name} is aan het typen...",
+            "typing": "Layla typt...",
+            "generatingTrip": "Je reis wordt aangemaakt...",
             "messages": {
                 "location": {
                     "requestTitle": "Waar vertrek je vandaan?",

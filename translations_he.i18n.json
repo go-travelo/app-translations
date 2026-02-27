@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - מתכנן נסיעות מבית AI",
             "isTyping": "${name} כותב/ת...",
+            "typing": "ליילה מקלידה...",
+            "generatingTrip": "מייצר את הטיול שלך...",
             "messages": {
                 "location": {
                     "requestTitle": "מהי נקודת המוצא שלך?",

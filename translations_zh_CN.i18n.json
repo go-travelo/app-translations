@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - AI旅行规划师",
             "isTyping": "${name} 正在输入...",
+            "typing": "Layla 正在输入...",
+            "generatingTrip": "正在生成您的行程...",
             "messages": {
                 "location": {
                     "requestTitle": "你将从哪里出发？",

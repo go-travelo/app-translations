@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - KI Reiseplaner",
             "isTyping": "${name} tippt...",
+            "typing": "Layla tippt...",
+            "generatingTrip": "Ihre Reise wird erstellt...",
             "messages": {
                 "location": {
                     "requestTitle": "Von wo wirst du abreisen?",

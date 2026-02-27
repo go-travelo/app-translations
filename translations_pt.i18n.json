@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - IA Planejador de Viagens",
             "isTyping": "${name} está digitando...",
+            "typing": "Layla está digitando...",
+            "generatingTrip": "Gerando sua viagem...",
             "messages": {
                 "location": {
                     "requestTitle": "De onde você irá partir?",

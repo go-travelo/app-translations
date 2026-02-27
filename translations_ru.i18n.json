@@ -70,6 +70,8 @@
         "chat": {
             "title": "Layla - ИИ Путеводитель",
             "isTyping": "${name} печатает...",
+            "typing": "Layla печатает...",
+            "generatingTrip": "Создаём ваше путешествие...",
             "messages": {
                 "location": {
                     "requestTitle": "Откуда вы отправитесь?",
