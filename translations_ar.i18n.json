@@ -1035,7 +1035,10 @@
             "invite": "دعوة"
         },
         "tabs": {
-            "overview": "نظرة عامة"
+            "overview": "نظرة عامة",
+            "chat": "الدردشة",
+            "trip": "الرحلة",
+            "cart": "السلة"
         },
         "messages": {
             "inviteComingSoon": "دعوة - قريباً",

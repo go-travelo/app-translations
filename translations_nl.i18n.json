@@ -939,7 +939,10 @@
             "invite": "Uitnodigen"
         },
         "tabs": {
-            "overview": "Overzicht"
+            "overview": "Overzicht",
+            "chat": "Chat",
+            "trip": "Reis",
+            "cart": "Winkelwagen"
         },
         "messages": {
             "inviteComingSoon": "Uitnodigen - Binnenkort beschikbaar",

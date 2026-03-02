@@ -987,7 +987,10 @@
             "invite": "הזמן"
         },
         "tabs": {
-            "overview": "סקירה כללית"
+            "overview": "סקירה כללית",
+            "chat": "צ'אט",
+            "trip": "טיול",
+            "cart": "עגלה"
         },
         "messages": {
             "inviteComingSoon": "הזמנה - בקרוב",

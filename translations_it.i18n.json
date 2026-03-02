@@ -939,7 +939,10 @@
             "invite": "Invita"
         },
         "tabs": {
-            "overview": "Panoramica"
+            "overview": "Panoramica",
+            "chat": "Chat",
+            "trip": "Viaggio",
+            "cart": "Carrello"
         },
         "messages": {
             "inviteComingSoon": "Invita - Prossimamente",

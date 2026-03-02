@@ -987,7 +987,10 @@
             "invite": "Пригласить"
         },
         "tabs": {
-            "overview": "Обзор"
+            "overview": "Обзор",
+            "chat": "Чат",
+            "trip": "Поездка",
+            "cart": "Корзина"
         },
         "messages": {
             "inviteComingSoon": "Пригласить - Скоро будет",

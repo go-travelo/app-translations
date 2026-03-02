@@ -939,7 +939,10 @@
             "invite": "Покани"
         },
         "tabs": {
-            "overview": "Обзор"
+            "overview": "Обзор",
+            "chat": "Чат",
+            "trip": "Пътуване",
+            "cart": "Кошница"
         },
         "messages": {
             "inviteComingSoon": "Покана - Скоро",

@@ -939,7 +939,10 @@
             "invite": "Einladen"
         },
         "tabs": {
-            "overview": "Übersicht"
+            "overview": "Übersicht",
+            "chat": "Chat",
+            "trip": "Reise",
+            "cart": "Warenkorb"
         },
         "messages": {
             "inviteComingSoon": "Einladen - Demnächst verfügbar",

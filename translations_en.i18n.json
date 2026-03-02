@@ -948,7 +948,10 @@
             "invite": "Invite"
         },
         "tabs": {
-            "overview": "Overview"
+            "overview": "Overview",
+            "chat": "Chat",
+            "trip": "Trip",
+            "cart": "Cart"
         },
         "messages": {
             "inviteComingSoon": "Invite - Coming soon",

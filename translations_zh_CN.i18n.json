@@ -915,7 +915,10 @@
             "invite": "邀请"
         },
         "tabs": {
-            "overview": "概览"
+            "overview": "概览",
+            "chat": "聊天",
+            "trip": "行程",
+            "cart": "购物车"
         },
         "messages": {
             "inviteComingSoon": "邀请 - 即将推出",
