@@ -1296,6 +1296,16 @@
         "map_unavailable": "Mapa indisponível",
         "dates_tbd": "Datas a serem determinadas"
     },
+    "trip_sharing": {
+        "title": "Compartilhe sua viagem",
+        "share": "Compartilhar",
+        "copyLink": "Copiar link",
+        "linkCopied": "Link copiado",
+        "dayByDay": "Dia a dia",
+        "highlights": "Destaques",
+        "day": "Dia",
+        "category": "Categoria"
+    },
     "paywall": {
         "title": "Desbloqueie Sua Viagem Completa",
         "subtitle": "Continue com Premium para planejamento ilimitado e economias exclusivas.",

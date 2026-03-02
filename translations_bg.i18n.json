@@ -1296,6 +1296,16 @@
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
     },
+    "trip_sharing": {
+        "title": "Споделете пътуването си",
+        "share": "Споделяне",
+        "copyLink": "Копиране на връзка",
+        "linkCopied": "Връзката е копирана",
+        "dayByDay": "Ден по ден",
+        "highlights": "Акценти",
+        "day": "Ден",
+        "category": "Категория"
+    },
     "paywall": {
         "title": "Отключете Вашето Пълно Пътуване",
         "subtitle": "Продължете с Premium за неограничено планиране и ексклузивни спестявания.",

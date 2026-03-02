@@ -1358,6 +1358,16 @@
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
     },
+    "trip_sharing": {
+        "title": "שתף את הטיול שלך",
+        "share": "שתף",
+        "copyLink": "העתק קישור",
+        "linkCopied": "הקישור הועתק",
+        "dayByDay": "יום אחר יום",
+        "highlights": "הדגשות",
+        "day": "יום",
+        "category": "קטגוריה"
+    },
     "paywall": {
         "title": "פתח את המסע השלם שלך",
         "subtitle": "המשך עם Premium לתכנון בלתי מוגבל וחסכון בלעדי.",

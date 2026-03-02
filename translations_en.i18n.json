@@ -1305,6 +1305,16 @@
         "map_unavailable": "Map unavailable",
         "dates_tbd": "Dates to be determined"
     },
+    "trip_sharing": {
+        "title": "Share your trip",
+        "share": "Share",
+        "copyLink": "Copy Link",
+        "linkCopied": "Link copied",
+        "dayByDay": "Day by Day",
+        "highlights": "Highlights",
+        "day": "Day",
+        "category": "Category"
+    },
     "paywall": {
         "title": "Unlock Your Full Trip",
         "subtitle": "Continue with Premium for unlimited planning and exclusive savings.",

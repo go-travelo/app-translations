@@ -1296,6 +1296,16 @@
         "map_unavailable": "Kaart niet beschikbaar",
         "dates_tbd": "Data nog te bepalen"
     },
+    "trip_sharing": {
+        "title": "Deel je reis",
+        "share": "Delen",
+        "copyLink": "Link kopiëren",
+        "linkCopied": "Link gekopieerd",
+        "dayByDay": "Dag voor dag",
+        "highlights": "Hoogtepunten",
+        "day": "Dag",
+        "category": "Categorie"
+    },
     "paywall": {
         "title": "Ontgrendel Uw Volledige Reis",
         "subtitle": "Ga verder met Premium voor onbeperkte planning en exclusieve besparingen.",

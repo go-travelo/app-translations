@@ -1296,6 +1296,16 @@
         "map_unavailable": "Karte nicht verfügbar",
         "dates_tbd": "Daten noch festzulegen"
     },
+    "trip_sharing": {
+        "title": "Teile deine Reise",
+        "share": "Teilen",
+        "copyLink": "Link kopieren",
+        "linkCopied": "Link kopiert",
+        "dayByDay": "Tag für Tag",
+        "highlights": "Highlights",
+        "day": "Tag",
+        "category": "Kategorie"
+    },
     "paywall": {
         "title": "Schalten Sie Ihre Vollständige Reise Frei",
         "subtitle": "Fahren Sie mit Premium fort für unbegrenzte Planung und exklusive Ersparnisse.",

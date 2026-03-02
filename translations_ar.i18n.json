@@ -1420,6 +1420,16 @@
         "map_unavailable": "الخريطة غير متاحة",
         "dates_tbd": "التواريخ سيتم تحديدها"
     },
+    "trip_sharing": {
+        "title": "شارك رحلتك",
+        "share": "مشاركة",
+        "copyLink": "نسخ الرابط",
+        "linkCopied": "تم نسخ الرابط",
+        "dayByDay": "يوم بيوم",
+        "highlights": "أبرز المعالم",
+        "day": "يوم",
+        "category": "الفئة"
+    },
     "paywall": {
         "title": "افتح رحلتك الكاملة",
         "subtitle": "تابع مع Premium للتخطيط غير المحدود والتوفير الحصري.",

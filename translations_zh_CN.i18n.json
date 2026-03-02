@@ -1265,6 +1265,16 @@
         "map_unavailable": "地图不可用",
         "dates_tbd": "日期待定"
     },
+    "trip_sharing": {
+        "title": "分享您的行程",
+        "share": "分享",
+        "copyLink": "复制链接",
+        "linkCopied": "链接已复制",
+        "dayByDay": "逐日行程",
+        "highlights": "精彩亮点",
+        "day": "日",
+        "category": "类别"
+    },
     "paywall": {
         "title": "解锁您的完整旅程",
         "subtitle": "使用高级版继续进行无限规划和独家节省。",
