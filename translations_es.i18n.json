@@ -1350,5 +1350,26 @@
             "title": "La planificación con IA está desactivada",
             "subtitle": "Activa el procesamiento de IA en Configuración para chatear y generar un plan de viaje."
         }
+    },
+    "trip_book": {
+        "accommodations": "Alojamientos",
+        "flights": "Vuelos",
+        "private_transport": "Transporte privado",
+        "experiences": "Experiencias",
+        "save_on_booking": "Ahorra ${amount} en comparación con reservar por separado",
+        "layla_brings_deals": "Layla te trae las mejores ofertas.",
+        "title": "Reservar viaje",
+        "book": "Reservar",
+        "delete": "Eliminar",
+        "alternative": "Alternativa",
+        "experts_title": "Reserva este viaje con nuestros expertos",
+        "benefit1_title": "Más de 32 horas de planificación ahorradas",
+        "benefit1_description": "Relájate — nuestros expertos se encargan de cada detalle.",
+        "benefit2_title": "Más de 12 reservas individuales gestionadas",
+        "benefit2_description": "Hoteles, vuelos, actividades — coordinamos todo para tu viaje soñado.",
+        "benefit3_title": "Más de 9 traslados organizados sin problemas",
+        "benefit3_description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
+        "continue_with_human": "Continuar la reserva con un asesor",
+        "continue_with_booking": "Continuar con la reserva"
     }
 }

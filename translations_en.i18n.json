@@ -1318,6 +1318,27 @@
         "day": "Day",
         "category": "Category"
     },
+    "trip_book": {
+        "accommodations": "Accommodations",
+        "flights": "Flights",
+        "private_transport": "Private Transport",
+        "experiences": "Experiences",
+        "save_on_booking": "Save ${amount} compared to booking separately",
+        "layla_brings_deals": "Layla brings the best Deals to you.",
+        "title": "Book Trip",
+        "book": "Book",
+        "delete": "Delete",
+        "alternative": "Alternative",
+        "experts_title": "Book this Trip with our Experts",
+        "benefit1_title": "32+ hours of planning saved",
+        "benefit1_description": "Sit back — our experts take care of every detail for you.",
+        "benefit2_title": "12+ individual bookings handled",
+        "benefit2_description": "Hotels, flights, activities — we coordinate everything for your dream trip.",
+        "benefit3_title": "9+ transfers seamlessly organized",
+        "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
+        "continue_with_human": "Continue Booking with a Human",
+        "continue_with_booking": "Continue with Booking"
+    },
     "paywall": {
         "title": "Unlock Your Full Trip",
         "subtitle": "Continue with Premium for unlimited planning and exclusive savings.",

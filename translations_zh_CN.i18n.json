@@ -1319,5 +1319,26 @@
             "title": "AI规划已关闭",
             "subtitle": "在设置中启用AI处理以开始对话并生成旅行计划。"
         }
+    },
+    "trip_book": {
+        "accommodations": "住宿",
+        "flights": "航班",
+        "private_transport": "私人交通",
+        "experiences": "体验",
+        "save_on_booking": "与单独预订相比，节省 ${amount}",
+        "layla_brings_deals": "Layla 为您带来最佳优惠。",
+        "title": "预订行程",
+        "book": "预订",
+        "delete": "删除",
+        "alternative": "替代方案",
+        "experts_title": "与我们的专家一起预订此行程",
+        "benefit1_title": "节省超过 32 小时的规划时间",
+        "benefit1_description": "放松一下——我们的专家会为您处理每一个细节。",
+        "benefit2_title": "处理超过 12 项个人预订",
+        "benefit2_description": "酒店、航班、活动——我们为您梦想之旅协调一切。",
+        "benefit3_title": "无缝安排超过 9 次接送",
+        "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
+        "continue_with_human": "继续与人工顾问预订",
+        "continue_with_booking": "继续预订"
     }
 }

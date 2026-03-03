@@ -1350,5 +1350,26 @@
             "title": "La pianificazione IA è disattivata",
             "subtitle": "Attiva l'elaborazione IA nelle Impostazioni per chattare e generare un piano di viaggio."
         }
+    },
+    "trip_book": {
+        "accommodations": "Alloggi",
+        "flights": "Voli",
+        "private_transport": "Trasporto privato",
+        "experiences": "Esperienze",
+        "save_on_booking": "Risparmia ${amount} rispetto alla prenotazione separata",
+        "layla_brings_deals": "Layla ti porta le migliori offerte.",
+        "title": "Prenota viaggio",
+        "book": "Prenota",
+        "delete": "Elimina",
+        "alternative": "Alternativa",
+        "experts_title": "Prenota questo viaggio con i nostri esperti",
+        "benefit1_title": "Oltre 32 ore di pianificazione risparmiate",
+        "benefit1_description": "Rilassati — i nostri esperti si occupano di ogni dettaglio.",
+        "benefit2_title": "Oltre 12 prenotazioni individuali gestite",
+        "benefit2_description": "Hotel, voli, attività — coordiniamo tutto per il tuo viaggio da sogno.",
+        "benefit3_title": "Oltre 9 trasferimenti organizzati senza intoppi",
+        "benefit3_description": "Da tappa a tappa — garantiamo coincidenze perfettamente sincronizzate sul tuo percorso.",
+        "continue_with_human": "Continua la prenotazione con un consulente",
+        "continue_with_booking": "Continua con la prenotazione"
     }
 }
