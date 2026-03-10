@@ -969,6 +969,7 @@
             "hotelRemovedSuccessfully": "Hotel removed successfully",
             "failedRemoveHotel": "Failed to remove hotel. Please try again.",
             "failedRemoveFlight": "Failed to remove flight. Please try again.",
+            "failedRemoveExperience": "Failed to remove experience. Please try again.",
             "updatingCarOption": "Updating car option...",
             "transportOptionUpdated": "Transport option updated successfully",
             "failedUpdateTransport": "Failed to update transport option",
@@ -988,6 +989,12 @@
             "removeHotel": {
                 "title": "Remove Hotel",
                 "message": "Are you sure you want to remove this hotel from your trip?",
+                "cancel": "Cancel",
+                "remove": "Remove"
+            },
+            "removeExperience": {
+                "title": "Remove Experience",
+                "message": "Are you sure you want to remove this experience from your trip?",
                 "cancel": "Cancel",
                 "remove": "Remove"
             }
@@ -1213,6 +1220,55 @@
             "traveler": "traveler",
             "noItemsInBasket": "No bookable items in your trip yet. Add hotels, flights, or activities to get started!",
             "legTitle": "${location} (Days ${days})"
+        },
+        "overview": {
+            "madeBy": "Made by ${creator}",
+            "highlightsTitle": "Trip highlights at a glance",
+            "showAll": "Show All",
+            "showAllFlights": "Show all flights",
+            "showAllStays": "Show all stays",
+            "showAllActivities": "Show all activities",
+            "showAllTransfers": "Show all transfers",
+            "showAllRentals": "Show all rentals",
+            "dayLabel": "DAY ${number}",
+            "sections": {
+                "itinerary": "Itinerary",
+                "route": "Route",
+                "flights": "Flights",
+                "stays": "Stays",
+                "activities": "Activities",
+                "transfers": "Private transfers",
+                "rental": "Rental"
+            },
+            "hotel": {
+                "night": {
+                    "one": "${n} night",
+                    "other": "${n} nights"
+                },
+                "stars": {
+                    "one": "${n} star",
+                    "other": "${n} stars"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} min",
+                "durationHr": "${n} hr",
+                "durationDay": {
+                    "one": "${n} day",
+		            "other": "${n} days"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "No activities found",
+            "noStaysFound": "No stays found",
+            "noFlightsFound": "'No flights found",
+            "noRentalsFound": "No rentals found",
+            "perPerson": "per person",
+            "free": "Free",
+            "transportFlight": "Flight",
+            "transportTrain": "Train",
+            "transportRental": "Rental"
         }
     },
     "tripWord": "Trip",

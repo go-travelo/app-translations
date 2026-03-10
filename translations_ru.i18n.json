@@ -1029,6 +1029,12 @@
                 "message": "Вы уверены, что хотите удалить этот отель из вашей поездки?",
                 "cancel": "Отменить",
                 "remove": "Удалить"
+            },
+            "removeExperience": {
+                "title": "Удалить впечатление",
+                "message": "Вы уверены, что хотите удалить это впечатление из вашей поездки?",
+                "cancel": "Отменить",
+                "remove": "Удалить"
             }
         },
         "change": {
@@ -1252,6 +1258,55 @@
             "traveler": "путешественник",
             "noItemsInBasket": "В вашей поездке пока нет доступных для бронирования товаров. Добавьте отели, рейсы или мероприятия, чтобы начать!",
             "legTitle": "${location} (Дни ${days})"
+        },
+        "overview": {
+            "madeBy": "Создано ${creator}",
+            "highlightsTitle": "Основные впечатления от поездки",
+            "showAll": "Показать все",
+            "showAllFlights": "Показать все рейсы",
+            "showAllStays": "Показать все отели",
+            "showAllActivities": "Показать все активности",
+            "showAllTransfers": "Показать все трансферы",
+            "showAllRentals": "Показать все аренды",
+            "dayLabel": "ДЕНЬ ${number}",
+            "sections": {
+                "itinerary": "Маршрут",
+                "route": "Маршрут",
+                "flights": "Рейсы",
+                "stays": "Проживание",
+                "activities": "Активности",
+                "transfers": "Частные трансферы",
+                "rental": "Аренда"
+            },
+            "hotel": {
+                "night": {
+                    "one": "${n} ночь",
+                    "other": "${n} ночей"
+                },
+                "stars": {
+                    "one": "${n} звезда",
+                    "other": "${n} звёзд"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} мин",
+                "durationHr": "${n} ч",
+                "durationDay": {
+                    "one": "${n} день",
+                    "other": "${n} дней"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "Активности не найдены",
+            "noStaysFound": "Проживание не найдено",
+            "noFlightsFound": "Рейсы не найдены",
+            "noRentalsFound": "Аренда не найдена",
+            "perPerson": "на человека",
+            "free": "Бесплатно",
+            "transportFlight": "Рейс",
+            "transportTrain": "Поезд",
+            "transportRental": "Аренда"
         }
     },
     "tripWord": "Поездка",

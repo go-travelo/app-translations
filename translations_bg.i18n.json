@@ -981,6 +981,12 @@
                 "message": "Сигурен ли сте, че искате да премахнете този хотел от вашето пътуване?",
                 "cancel": "Отмяна",
                 "remove": "Премахни"
+            },
+            "removeExperience": {
+                "title": "Премахни Преживяване",
+                "message": "Сигурен ли сте, че искате да премахнете това преживяване от вашето пътуване?",
+                "cancel": "Отмяна",
+                "remove": "Премахни"
             }
         },
         "change": {
@@ -1204,6 +1210,55 @@
             "traveler": "пътник",
             "noItemsInBasket": "Все още няма артикули за резервация във вашето пътуване. Добавете хотели, полети или дейности, за да започнете!",
             "legTitle": "${location} (Дни ${days})"
+        },
+        "overview": {
+            "madeBy": "Създадено от ${creator}",
+            "highlightsTitle": "Основни моменти от пътуването с един поглед",
+            "showAll": "Покажи всички",
+            "showAllFlights": "Покажи всички полети",
+            "showAllStays": "Покажи всички престои",
+            "showAllActivities": "Покажи всички дейности",
+            "showAllTransfers": "Покажи всички трансфери",
+            "showAllRentals": "Покажи всички наеми",
+            "dayLabel": "ДЕН ${number}",
+            "sections": {
+                "itinerary": "Маршрут",
+                "route": "Маршрут",
+                "flights": "Полети",
+                "stays": "Престои",
+                "activities": "Дейности",
+                "transfers": "Частни трансфери",
+                "rental": "Наем"
+            },
+            "hotel": {
+                "night": {
+                    "one": "${n} нощ",
+                    "other": "${n} нощи"
+                },
+                "stars": {
+                    "one": "${n} звезда",
+                    "other": "${n} звезди"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} мин",
+                "durationHr": "${n} ч",
+                "durationDay": {
+                    "one": "${n} ден",
+                    "other": "${n} дни"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "Няма намерени дейности",
+            "noStaysFound": "Няма намерени престои",
+            "noFlightsFound": "Няма намерени полети",
+            "noRentalsFound": "Няма намерени наеми",
+            "perPerson": "на човек",
+            "free": "Безплатно",
+            "transportFlight": "Полет",
+            "transportTrain": "Влак",
+            "transportRental": "Наем"
         }
     },
     "tripWord": "Пътуване",

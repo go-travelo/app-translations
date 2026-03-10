@@ -1077,6 +1077,12 @@
                 "message": "هل أنت متأكد أنك تريد حذف هذا الفندق من رحلتك؟",
                 "cancel": "إلغاء",
                 "remove": "حذف"
+            },
+            "removeExperience": {
+                "title": "حذف التجربة",
+                "message": "هل أنت متأكد أنك تريد حذف هذه التجربة من رحلتك؟",
+                "cancel": "إلغاء",
+                "remove": "حذف"
             }
         },
         "change": {
@@ -1300,6 +1306,55 @@
             "traveler": "مسافر",
             "noItemsInBasket": "لا توجد عناصر قابلة للحجز في رحلتك حتى الآن. أضف فنادق أو رحلات جوية أو أنشطة للبدء!",
             "legTitle": "${location} (الأيام ${days})"
+        },
+        "overview": {
+            "madeBy": "أنشأه ${creator}",
+            "highlightsTitle": "أبرز معالم الرحلة في لمحة",
+            "showAll": "عرض الكل",
+            "showAllFlights": "عرض جميع الرحلات",
+            "showAllStays": "عرض جميع الإقامات",
+            "showAllActivities": "عرض جميع الأنشطة",
+            "showAllTransfers": "عرض جميع التنقلات",
+            "showAllRentals": "عرض جميع الإيجارات",
+            "dayLabel": "اليوم ${number}",
+            "sections": {
+                "itinerary": "خط السير",
+                "route": "المسار",
+                "flights": "الرحلات الجوية",
+                "stays": "الإقامات",
+                "activities": "الأنشطة",
+                "transfers": "التنقلات الخاصة",
+                "rental": "الإيجار"
+            },
+            "hotel": {
+                "night": {
+                    "one": "ليلة ${n}",
+                    "other": "${n} ليالٍ"
+                },
+                "stars": {
+                    "one": "نجمة ${n}",
+                    "other": "${n} نجوم"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} دقيقة",
+                "durationHr": "${n} ساعة",
+                "durationDay": {
+                    "one": "يوم ${n}",
+                    "other": "${n} أيام"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "لم يتم العثور على أنشطة",
+            "noStaysFound": "لم يتم العثور على إقامات",
+            "noFlightsFound": "لم يتم العثور على رحلات",
+            "noRentalsFound": "لم يتم العثور على إيجارات",
+            "perPerson": "للشخص",
+            "free": "مجاني",
+            "transportFlight": "رحلة جوية",
+            "transportTrain": "قطار",
+            "transportRental": "إيجار"
         }
     },
     "tripWord": "رحلة",

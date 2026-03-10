@@ -981,6 +981,12 @@
                 "message": "¿Estás seguro de que quieres eliminar este hotel de tu viaje?",
                 "cancel": "Cancelar",
                 "remove": "Eliminar"
+            },
+            "removeExperience": {
+                "title": "Eliminar Experiencia",
+                "message": "¿Estás seguro de que quieres eliminar esta experiencia de tu viaje?",
+                "cancel": "Cancelar",
+                "remove": "Eliminar"
             }
         },
         "change": {
@@ -1204,6 +1210,55 @@
             "traveler": "viajero",
             "noItemsInBasket": "Aún no hay artículos reservables en tu viaje. ¡Agrega hoteles, vuelos o actividades para comenzar!",
             "legTitle": "${location} (Días ${days})"
+        },
+        "overview": {
+            "madeBy": "Creado por ${creator}",
+            "highlightsTitle": "Aspectos destacados del viaje de un vistazo",
+            "showAll": "Mostrar todo",
+            "showAllFlights": "Ver todos los vuelos",
+            "showAllStays": "Ver todos los alojamientos",
+            "showAllActivities": "Ver todas las actividades",
+            "showAllTransfers": "Ver todos los traslados",
+            "showAllRentals": "Ver todos los alquileres",
+            "dayLabel": "DÍA ${number}",
+            "sections": {
+                "itinerary": "Itinerario",
+                "route": "Ruta",
+                "flights": "Vuelos",
+                "stays": "Alojamientos",
+                "activities": "Actividades",
+                "transfers": "Traslados privados",
+                "rental": "Alquiler"
+            },
+            "hotel": {
+                "night": {
+                    "one": "${n} noche",
+                    "other": "${n} noches"
+                },
+                "stars": {
+                    "one": "${n} estrella",
+                    "other": "${n} estrellas"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} min",
+                "durationHr": "${n} h",
+                "durationDay": {
+                    "one": "${n} día",
+                    "other": "${n} días"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "No se encontraron actividades",
+            "noStaysFound": "No se encontraron alojamientos",
+            "noFlightsFound": "No se encontraron vuelos",
+            "noRentalsFound": "No se encontraron alquileres",
+            "perPerson": "por persona",
+            "free": "Gratis",
+            "transportFlight": "Vuelo",
+            "transportTrain": "Tren",
+            "transportRental": "Alquiler"
         }
     },
     "tripWord": "Viaje",

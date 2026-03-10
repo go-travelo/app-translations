@@ -1029,6 +1029,12 @@
                 "message": "האם אתה בטוח שברצונך להסיר את המלון הזה מהטיול שלך?",
                 "cancel": "ביטול",
                 "remove": "הסר"
+            },
+            "removeExperience": {
+                "title": "הסר חוויה",
+                "message": "האם אתה בטוח שברצונך להסיר את החוויה הזו מהטיול שלך?",
+                "cancel": "ביטול",
+                "remove": "הסר"
             }
         },
         "change": {
@@ -1252,6 +1258,55 @@
             "traveler": "נוסע",
             "noItemsInBasket": "אין עדיין פריטים הניתנים להזמנה בטיול שלך. הוסף מלונות, טיסות או פעילויות כדי להתחיל!",
             "legTitle": "${location} (ימים ${days})"
+        },
+        "overview": {
+            "madeBy": "נוצר על ידי ${creator}",
+            "highlightsTitle": "דגשי הטיול במבט אחד",
+            "showAll": "הצג הכל",
+            "showAllFlights": "הצג את כל הטיסות",
+            "showAllStays": "הצג את כל השהות",
+            "showAllActivities": "הצג את כל הפעילויות",
+            "showAllTransfers": "הצג את כל ההסעות",
+            "showAllRentals": "הצג את כל השכירויות",
+            "dayLabel": "יום ${number}",
+            "sections": {
+                "itinerary": "מסלול",
+                "route": "מסלול",
+                "flights": "טיסות",
+                "stays": "שהות",
+                "activities": "פעילויות",
+                "transfers": "הסעות פרטיות",
+                "rental": "השכרה"
+            },
+            "hotel": {
+                "night": {
+                    "one": "לילה ${n}",
+                    "other": "${n} לילות"
+                },
+                "stars": {
+                    "one": "כוכב ${n}",
+                    "other": "${n} כוכבים"
+                }
+            },
+            "activity": {
+                "durationMin": "${n} דק'",
+                "durationHr": "${n} שע'",
+                "durationDay": {
+                    "one": "יום ${n}",
+                    "other": "${n} ימים"
+                }
+            }
+        },
+        "lists": {
+            "noActivitiesFound": "לא נמצאו פעילויות",
+            "noStaysFound": "לא נמצאו שהות",
+            "noFlightsFound": "לא נמצאו טיסות",
+            "noRentalsFound": "לא נמצאו השכרות",
+            "perPerson": "לאדם",
+            "free": "חינם",
+            "transportFlight": "טיסה",
+            "transportTrain": "רכבת",
+            "transportRental": "השכרה"
         }
     },
     "tripWord": "טיול",
