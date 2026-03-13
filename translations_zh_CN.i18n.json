@@ -190,7 +190,8 @@
       "and_n_others": "和 ${count} 其他",
       "one_person": "一人",
       "people": "人民",
-      "and": "和"
+      "and": "和",
+      "email_password_required_error": "电子邮件和密码为必填项"
     },
     "flying_from": "从哪里飞往",
     "share_type_dialog": {
@@ -530,6 +531,14 @@
       "notification_body": "刚为你找到了去拉普兰的超便宜航班！我们去看北极光怎么样？👀",
       "skip": "不，谢谢，改天再说！",
       "title": "收到通知！"
+    },
+    "video": {
+      "step1Title": "用AI生成您的完美旅行",
+      "step1Subtitle": "只需告诉Layla您理想中的旅行是什么样的，她会为您找到最优惠的方案，无需额外规划",
+      "step2Title": "自定义您的旅行并通过真人代理预订",
+      "step2Subtitle": "将每次生成的旅行变成您自己的，并在出行前由真人为您全程指导预订",
+      "step3Title": "与旅行伙伴协作",
+      "step3Subtitle": "告别群聊。直接在Layla中邀请朋友，与他人一起规划旅行"
     }
   },
   "profile": {
@@ -1359,7 +1368,20 @@
     "price_only": "价格 ${price}",
     "processing": "处理中...",
     "unlock_now": "立即解锁",
-    "become_subscriber": "成为订阅者"
+    "become_subscriber": "开始3天试用",
+    "testimonial1": "\" 我喜欢使用Layla，因为它是最好的 \"",
+    "testimonial2": "\" 规划旅行的绝佳应用 \"",
+    "testimonial3": "\" 我用过的最好的旅行伴侣 \"",
+    "restorePurchase": "恢复购买 · 随时取消",
+    "yearly": "年度",
+    "monthly": "月度",
+    "weekly": "每周",
+    "perYear": "/年",
+    "perMonth": "/月",
+    "perWeek": "/周",
+    "startNow": "立即开始",
+    "dayTrial": "${days}天试用",
+    "savePercent": "节省${percent}%"
   },
   "data_consent": {
     "title": "数据隐私",

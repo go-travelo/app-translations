@@ -192,7 +192,8 @@
       "and_n_others": "et ${count} autres",
       "one_person": "Une personne",
       "people": "personnes",
-      "and": "et"
+      "and": "et",
+      "email_password_required_error": "L'adresse e-mail et le mot de passe sont obligatoires"
     },
     "flying_from": "Départ de",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "Je viens de te trouver des vols super bon marché pour la Laponie ! Allons voir les aurores boréales ? 👀",
       "skip": "Non merci, une autre fois!",
       "title": "Sois notifié !"
+    },
+    "video": {
+      "step1Title": "Générez votre voyage parfait avec l'IA",
+      "step1Subtitle": "Dites simplement à Layla à quoi ressemble votre voyage idéal et elle trouve les meilleures offres sans aucune planification supplémentaire",
+      "step2Title": "Personnalisez votre voyage et réservez-le avec des agents",
+      "step2Subtitle": "Faites de chaque voyage généré le vôtre et réservez-le avec une vraie personne qui vous guide avant de partir",
+      "step3Title": "Collaborez avec vos partenaires de voyage",
+      "step3Subtitle": "Fini le groupe de discussion. Invitez des amis et organisez le voyage avec d'autres personnes directement dans Layla"
     }
   },
   "profile": {
@@ -1390,7 +1399,20 @@
     "price_only": "Prix ${price}",
     "processing": "Traitement en cours...",
     "unlock_now": "Débloquer maintenant",
-    "become_subscriber": "Devenir abonné"
+    "become_subscriber": "Commencer l'essai de 3 jours",
+    "testimonial1": "\" J'adore utiliser Layla car c'est le meilleur \"",
+    "testimonial2": "\" Application incroyable pour planifier mes voyages \"",
+    "testimonial3": "\" Le meilleur compagnon de voyage que j'aie jamais utilisé \"",
+    "restorePurchase": "Restaurer l'achat · Annuler à tout moment",
+    "yearly": "Annuel",
+    "monthly": "Mensuel",
+    "weekly": "Hebdomadaire",
+    "perYear": "/an",
+    "perMonth": "/mois",
+    "perWeek": "/semaine",
+    "startNow": "Commencer maintenant",
+    "dayTrial": "Essai de ${days} jours",
+    "savePercent": "Économisez ${percent}%"
   },
   "data_consent": {
     "title": "Confidentialité des données",

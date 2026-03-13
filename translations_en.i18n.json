@@ -192,7 +192,8 @@
       "and_n_others": "and ${count} others",
       "one_person": "One person",
       "people": "people",
-      "and": "and"
+      "and": "and",
+      "email_password_required_error": "Email and password are required"
     },
     "flying_from": "Flying from",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "Just found you some super cheap flights to Lapland! Let's see the northern lights? 👀",
       "skip": "No thanks, another time!",
       "title": "Get notified!"
+    },
+    "video": {
+      "step1Title": "Generate your perfect trip with AI",
+      "step1Subtitle": "Just tell Layla how your perfect trip would look and feel like and she finds the best deals for you without any extra planning needed",
+      "step2Title": "Customize your Trip and Book it with Human Agents",
+      "step2Subtitle": "Make every generated trip yours and book it with a real person guiding you before traveling",
+      "step3Title": "Collaborate with your travel Partners",
+      "step3Subtitle": "No more Group Chat. Invite friends and set up the trip with other people straight in Layla"
     }
   },
   "profile": {
@@ -1421,7 +1430,20 @@
     "price_only": "Price ${price}",
     "processing": "Processing...",
     "unlock_now": "Unlock now",
-    "become_subscriber": "Become a subscriber"
+    "become_subscriber": "Start 3 day trial",
+    "testimonial1": "\" I love using Layla because its the best \"",
+    "testimonial2": "\" Amazing app for planning my travels \"",
+    "testimonial3": "\" Best travel companion I have ever used \"",
+    "restorePurchase": "Restore purchase · Cancel any time",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "weekly": "Weekly",
+    "perYear": "/year",
+    "perMonth": "/month",
+    "perWeek": "/week",
+    "startNow": "Start now",
+    "dayTrial": "${days} day trial",
+    "savePercent": "Save ${percent}%"
   },
   "data_consent": {
     "title": "Data Privacy",

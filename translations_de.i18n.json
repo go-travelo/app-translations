@@ -192,7 +192,8 @@
       "and_n_others": "und ${count} Andere",
       "one_person": "Eine Person",
       "people": "Leute",
-      "and": "und"
+      "and": "und",
+      "email_password_required_error": "E-Mail und Passwort sind erforderlich"
     },
     "flying_from": "Abflug von",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
       "skip": "Nein danke, ein anderes Mal!",
       "title": "Lass dich benachrichtigen!"
+    },
+    "video": {
+      "step1Title": "Erstelle deine perfekte Reise mit KI",
+      "step1Subtitle": "Sag Layla einfach, wie deine perfekte Reise aussehen und sich anfühlen soll, und sie findet die besten Angebote ohne zusätzliche Planung",
+      "step2Title": "Passe deine Reise an und buche sie mit echten Agenten",
+      "step2Subtitle": "Mach jede generierte Reise zu deiner eigenen und buche sie mit einer echten Person, die dich vor dem Reisen begleitet",
+      "step3Title": "Arbeite mit deinen Reisepartnern zusammen",
+      "step3Subtitle": "Kein Gruppen-Chat mehr. Lade Freunde ein und plane die Reise gemeinsam direkt in Layla"
     }
   },
   "profile": {
@@ -1390,7 +1399,20 @@
     "price_only": "Preis ${price}",
     "processing": "Wird verarbeitet...",
     "unlock_now": "Jetzt freischalten",
-    "become_subscriber": "Abonnent werden"
+    "become_subscriber": "3-Tage-Probe starten",
+    "testimonial1": "\" Ich liebe Layla, weil es das Beste ist \"",
+    "testimonial2": "\" Großartige App für die Planung meiner Reisen \"",
+    "testimonial3": "\" Bester Reisebegleiter, den ich je benutzt habe \"",
+    "restorePurchase": "Kauf wiederherstellen · Jederzeit kündigen",
+    "yearly": "Jährlich",
+    "monthly": "Monatlich",
+    "weekly": "Wöchentlich",
+    "perYear": "/Jahr",
+    "perMonth": "/Monat",
+    "perWeek": "/Woche",
+    "startNow": "Jetzt starten",
+    "dayTrial": "${days}-Tage-Probe",
+    "savePercent": "${percent}% sparen"
   },
   "data_consent": {
     "title": "Datenschutz",

@@ -192,7 +192,8 @@
       "and_n_others": "y ${count} otras",
       "one_person": "Una persona",
       "people": "gente",
-      "and": "y"
+      "and": "y",
+      "email_password_required_error": "El correo electrónico y la contraseña son obligatorios"
     },
     "flying_from": "Volando desde",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "¡Acabo de encontrarte unos vuelos súper baratos a Laponia! ¿Vamos a ver las luces del norte? 👀",
       "skip": "¡No, gracias, en otra ocasión!",
       "title": "¡Recibe notificaciones!"
+    },
+    "video": {
+      "step1Title": "Genera tu viaje perfecto con IA",
+      "step1Subtitle": "Solo dile a Layla cómo quieres que sea tu viaje perfecto y ella encontrará las mejores ofertas sin necesidad de planificación adicional",
+      "step2Title": "Personaliza tu viaje y resérvalo con agentes humanos",
+      "step2Subtitle": "Haz tuyo cada viaje generado y resérvalo con una persona real que te guíe antes de viajar",
+      "step3Title": "Colabora con tus compañeros de viaje",
+      "step3Subtitle": "Adiós al chat grupal. Invita a amigos y organiza el viaje con otros directamente en Layla"
     }
   },
   "profile": {
@@ -1390,7 +1399,20 @@
     "price_only": "Precio ${price}",
     "processing": "Procesando...",
     "unlock_now": "Desbloquear ahora",
-    "become_subscriber": "Conviértete en suscriptor"
+    "become_subscriber": "Iniciar prueba de 3 días",
+    "testimonial1": "\" Me encanta usar Layla porque es lo mejor \"",
+    "testimonial2": "\" App increíble para planificar mis viajes \"",
+    "testimonial3": "\" El mejor compañero de viaje que he usado \"",
+    "restorePurchase": "Restaurar compra · Cancela cuando quieras",
+    "yearly": "Anual",
+    "monthly": "Mensual",
+    "weekly": "Semanal",
+    "perYear": "/año",
+    "perMonth": "/mes",
+    "perWeek": "/semana",
+    "startNow": "Empezar ahora",
+    "dayTrial": "Prueba de ${days} días",
+    "savePercent": "Ahorra ${percent}%"
   },
   "data_consent": {
     "title": "Privacidad de datos",

@@ -192,7 +192,8 @@
       "and_n_others": "e ${count} altri",
       "one_person": "Una persona",
       "people": "persone",
-      "and": "e"
+      "and": "e",
+      "email_password_required_error": "L'email e la password sono obbligatorie"
     },
     "flying_from": "Partenza da",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "Ho appena trovato per te alcuni voli super economici per la Lapponia! Andiamo a vedere l'aurora boreale? 👀",
       "skip": "No grazie, un'altra volta!",
       "title": "Ricevi notifiche!"
+    },
+    "video": {
+      "step1Title": "Genera il tuo viaggio perfetto con l'IA",
+      "step1Subtitle": "Di' semplicemente a Layla come vuoi che sia il tuo viaggio perfetto e lei troverà le migliori offerte senza bisogno di ulteriore pianificazione",
+      "step2Title": "Personalizza il tuo viaggio e prenotalo con agenti umani",
+      "step2Subtitle": "Rendi tuo ogni viaggio generato e prenotalo con una persona reale che ti guida prima di partire",
+      "step3Title": "Collabora con i tuoi compagni di viaggio",
+      "step3Subtitle": "Niente più chat di gruppo. Invita amici e organizza il viaggio con altri direttamente su Layla"
     }
   },
   "profile": {
@@ -1390,7 +1399,20 @@
     "price_only": "Prezzo ${price}",
     "processing": "Elaborazione...",
     "unlock_now": "Sblocca ora",
-    "become_subscriber": "Diventa abbonato"
+    "become_subscriber": "Inizia la prova di 3 giorni",
+    "testimonial1": "\" Adoro usare Layla perché è la migliore \"",
+    "testimonial2": "\" App fantastica per pianificare i miei viaggi \"",
+    "testimonial3": "\" Il miglior compagno di viaggio che abbia mai usato \"",
+    "restorePurchase": "Ripristina acquisto · Annulla in qualsiasi momento",
+    "yearly": "Annuale",
+    "monthly": "Mensile",
+    "weekly": "Settimanale",
+    "perYear": "/anno",
+    "perMonth": "/mese",
+    "perWeek": "/settimana",
+    "startNow": "Inizia ora",
+    "dayTrial": "Prova di ${days} giorni",
+    "savePercent": "Risparmia ${percent}%"
   },
   "data_consent": {
     "title": "Privacy dei dati",

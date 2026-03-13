@@ -192,7 +192,8 @@
       "and_n_others": "en ${count} anderen",
       "one_person": "Eén persoon",
       "people": "mensen",
-      "and": "en"
+      "and": "en",
+      "email_password_required_error": "E-mail en wachtwoord zijn vereist"
     },
     "flying_from": "Vertrekken vanuit",
     "share_type_dialog": {
@@ -538,6 +539,14 @@
       "notification_body": "Ik heb net supergoedkope vluchten naar Lapland voor je gevonden! Laten we het noorderlicht gaan bekijken? 👀",
       "skip": "Nee bedankt, een andere keer!",
       "title": "Krijg een melding!"
+    },
+    "video": {
+      "step1Title": "Genereer je perfecte reis met AI",
+      "step1Subtitle": "Vertel Layla gewoon hoe je perfecte reis eruit zou moeten zien en ze vindt de beste deals zonder extra planning",
+      "step2Title": "Pas je reis aan en boek hem met menselijke agenten",
+      "step2Subtitle": "Maak elke gegenereerde reis de jouwe en boek hem met een echte persoon die je begeleidt voor het reizen",
+      "step3Title": "Werk samen met je reispartners",
+      "step3Subtitle": "Geen groepschat meer. Nodig vrienden uit en plan de reis samen met anderen rechtstreeks in Layla"
     }
   },
   "profile": {
@@ -1390,7 +1399,20 @@
     "price_only": "Prijs ${price}",
     "processing": "Verwerken...",
     "unlock_now": "Nu ontgrendelen",
-    "become_subscriber": "Word abonnee"
+    "become_subscriber": "Start 3 dagen proberen",
+    "testimonial1": "\" Ik hou van Layla omdat het het beste is \"",
+    "testimonial2": "\" Geweldige app voor het plannen van mijn reizen \"",
+    "testimonial3": "\" Beste reisgezel die ik ooit heb gebruikt \"",
+    "restorePurchase": "Aankoop herstellen · Annuleer op elk moment",
+    "yearly": "Jaarlijks",
+    "monthly": "Maandelijks",
+    "weekly": "Wekelijks",
+    "perYear": "/jaar",
+    "perMonth": "/maand",
+    "perWeek": "/week",
+    "startNow": "Nu beginnen",
+    "dayTrial": "${days} dagen proberen",
+    "savePercent": "Bespaar ${percent}%"
   },
   "data_consent": {
     "title": "Gegevensprivacy",
