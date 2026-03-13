@@ -1,1399 +1,1416 @@
 {
-    "blog": {
-        "postNotFound": "请检查网址，我们没有这篇文章。",
-        "askLaylaAbout": "询问Layla关于 ${name}",
-        "travellerQuestion": "我想了解${name}作为旅行者的更多信息。",
-        "blog": "博客",
-        "blogs": "博客",
-        "noBlogs": "没有找到博客"
-    },
-    "chatbot": {
-        "onboarding": {
-            "page_one": {
-                "title": "发现您的下一个\n目的地",
-                "subtitle": "让我们带您领略世界上最美丽的旅游胜地，为您的下一次旅行寻找最完美的地方"
-            },
-            "page_two": {
-                "title": "学习你的一切\n需要知道",
-                "subtitle": "飞行多长时间？对夫妻有好处吗？最便宜的住宿是哪家？没有太大或太小的问题"
-            },
-            "page_three": {
-                "title": "预定您的旅行",
-                "subtitle": "我们通过寻找价格最优惠、最方便的住宿、航班和体验来满足您的需求，从而消除预订的麻烦"
-            },
-            "instagram": {
-                "title": "连接 Instagram",
-                "button": "连接您的 Instagram",
-                "message": "连接您的 Instagram 账户以获得个性化、优化的体验。无需努力同步，并享受专为您定制的推荐！",
-                "error": "无法通过 Instagram 进行身份验证"
-            },
-            "chatbot": {
-                "inputHint": "随便问我",
-                "msg1": "嘿，${user} 👋\n\n我是你的旅行顾问Layla。\n\n在我们开始之前，我很想了解你是什么样的旅行者。🌍\n\n告诉我你在寻找什么样的旅行，可以通过写或说出来。",
-                "msg2": "太棒了！我想我理解你在寻找什么。\n\n您还有其他需求吗？",
-                "msg3": "你对什么感兴趣？",
-                "msg4": "你将从哪里出发？",
-                "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
-            },
-            "aesthetics": {
-                "message": "帮助我们了解你的气质",
-                "title": "点击选择3张或更多的卡片",
-                "continueButton": "选择 ${count} 张继续",
-                "titleAlt": "你的风格是什么？\n点击你喜欢的卡片"
-            },
-            "video": {
-                "button": "开始吧！",
-                "msg1": "嘿，我是Layla。👋🏼",
-                "msg2": "想象一下：你可以轻松找到和你的旅行伙伴一起预订旅行的地方，都在一个应用里。",
-                "msg3": "这就是我存在的意义！很酷，对吧？",
-                "msg4": "我们开始吧...",
-                "msg1_web": "嘿，我是Layla 👋🏼",
-                "msg2_web": "正在寻找下一个度假胜地吗？我在这里帮助你。",
-                "msg3_web": "你将会在与我聊天的过程中找到个性化的灵感，计划并预订旅行。",
-                "msg4_web": "很酷，对吧？我们开始吧！"
-            }
-        },
-        "things_ask": {
-            "title": "你可以问我这些问题！",
-            "description": "我在这里帮助你计划你的下一个冒险。无论是对目的地的任何问题，我都能回答。下面是一些人们已经问过我的问题...",
-            "possible_prompts": "常见问题",
-            "ask_layla": "问Layla"
-        },
-        "chat_settings": {
-            "history": "历史记录",
-            "new_chat": "新聊天",
-            "rename_chat": "重命名聊天",
-            "delete_chat": "删除聊天？",
-            "delete_chat_message": "${name} 将被永久删除。",
-            "info_and_support": "信息和支持"
-        },
-        "chat": {
-            "title": "Layla - AI旅行规划师",
-            "isTyping": "${name} 正在输入...",
-            "typing": "Layla 正在输入...",
-            "generatingTrip": "正在生成您的行程...",
-            "messages": {
-                "location": {
-                    "requestTitle": "你将从哪里出发？",
-                    "requestSubtitle": "为了获得最佳效果，请允许使用位置",
-                    "requestButton": "允许你的位置"
-                },
-                "flight": {
-                    "fromToAroundPrice": "从 ${from} 到 ${to} 的航班大约 ${price}"
-                },
-                "tileOptions": {
-                    "minOptions": "选择 ${min} 或更多的卡片"
-                },
-                "hotelOptions": {
-                    "title": "你喜欢哪家酒店？"
-                },
-                "itinerary": {
-                    "day": "天"
-                }
-            },
-            "messageHint": "随便问我",
-            "contextMenu": {
-                "copy": "复制",
-                "good_response": "好的回答",
-                "bad_response": "不好的回答",
-                "message_copied": "复制的信息"
-            },
-            "initialQuickReplies": {
-                "msg1": "给我灵感，下一个去哪里",
-                "msg2": "为我查找从我所在城市出发的廉价航班",
-                "msg3": "为我制定行程",
-                "msg4": "我的暑假应该去哪里？"
-            },
-            "tripCard": {
-                "latestTrip": "最新行程",
-                "previousTrip": "历史行程",
-                "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
-            }
-        }
-    },
-    "itineraries": {
-        "itineraries": "行程",
-        "dayPart": [
-            "上午",
-            "下午",
-            "晚上"
-        ],
-        "bookNow": "立即预订",
-        "addDay": "添加一天",
-        "whatDoYouWant": "你想在这一天做些什么？"
-    },
-    "tooltips": {
-        "tap_to_filter": "点击以过滤",
-        "tap_to_bucketlist": "点击以加入心愿单",
-        "tap_to_chat": "点击以聊天",
-        "tap_to_help_country": "计划去 ${country} 旅行需要任何帮助吗？",
-        "tap_to_add_to_bucketlist": "点击以保存到您的遗愿清单。",
-        "tap_to_start_new_chat": "轻点开始新聊天",
-        "tap_to_open_menu": "轻点打开菜单",
-        "skipIntro": "跳过介绍"
-    },
-    "bucketlist": {
-        "no_name": "无名",
-        "name": "姓名",
-        "bucketlist": "心愿单: ${name}",
-        "bucketlist_saved": "心愿单保存成功",
-        "bucketlist_created": "心愿单创建成功",
-        "bucketlist_copied": "水桶名单 ${name} 复制成功",
-        "my_bucketlist": "我的心愿单",
-        "login_to_view": "登录查看您的心愿单",
-        "leave_bucketlist": "离开此心愿单？",
-        "one_person": "一人",
-        "name_is_collaborating": "${name} 美元与您一起规划。",
-        "no_collaborators": "暂无共享。",
-        "you_are_viewing_bucketlist": "您正在查看的是 ${creator} 的水桶名单",
-        "you_are_viewing_bucketlist_collaborator": "您正在查看由 ${creator} 和 ${collaborator} 制作的水桶名单",
-        "collaborating_and_one_more": "${name} 美元，还有一个正在与您一起计划。",
-        "collaborating_two": "${first} 美元和 ${second} 美元与您一起规划。",
-        "collaborating_two_and_more": "${first} 和 ${count} 更多正在与你一起计划。.",
-        "you_are_viewing": "您正在查看 ${creator} 的愿望清单！",
-        "you_and_viewer_are_viewing": "您和其他 1 位用户正在查看由 ${creator} 创建的愿望清单",
-        "you_and_viewers_are_viewing": "您和 ${count} 其他人正在查看由 ${creator} 创建的水桶名单",
-        "you_can_create": "登录后您可以创建、查看或编辑心愿单。",
-        "create_your_first_bucketlist": "创建您的第一个心愿单",
-        "as_you_search": "在探索的过程中，点击心形按钮可将喜欢的事物添加到水桶清单中。您还可以邀请朋友与您一起计划。",
-        "add_to_bucketlist": "添加至心愿单",
-        "create_new_bucketlist": "创建新的心愿单",
-        "create_bucketlist": "创建心愿单",
-        "save_destinations": "保存目的地",
-        "delete_bucketlist": "删除心愿单？",
-        "delete_bucketlist_message": "您确定要删除此心愿单吗？",
-        "delete_user_from_bucketlist": "从心愿单中删除用户？",
-        "delete_user_from_bucketlist_message": "您确定要从此心愿单中删除${username}吗？",
-        "bucketlist_will_be_removed": "${name}将从您的心愿单中移除。",
-        "travel_dates": "旅行日期",
-        "share": "邀请",
-        "copy": "复制到编辑",
-        "destinations": {
-            "other": "${n}个旅行地点"
-        },
-        "people_collaborating_with_you": {
-            "other": "${n} 人与您一起计划。"
-        },
-        "login_widget": {
-            "title": "登录或注册",
-            "title_bucketlist": "登录保存",
-            "download": {
-                "title": "保存这份水桶清单",
-                "subtitle": "${s} 邀请您查看他们的旅行清单。下载 Layla 应用程序，保存并创建您的下一次旅行。",
-                "button": "免费下载 Layla"
-            },
-            "continue_with": "继续使用",
-            "login_to_collaborate": "登录以帮助规划",
-            "login_to_view": "登录查看",
-            "invited_you": "${username}邀请您加入他们的 \"遗愿清单\"。登录 Layla 保存并创建您的下一次旅行！",
-            "and_one_other": "和一个",
-            "and_n_others": "和 ${count} 其他",
-            "one_person": "一人",
-            "people": "人民",
-            "and": "和"
-        },
-        "flying_from": "从哪里飞往",
-        "share_type_dialog": {
-            "title": "邀请加入",
-            "title_alt": "邀请加入遗愿清单",
-            "message": "您想如何分享这份愿望清单？",
-            "edit": "可以编辑",
-            "edit_message": "用户可以编辑愿望清单",
-            "view": "仅查看",
-            "view_message": "用户将能查看愿望清单"
-        },
-        "rename_bucketlist": "重命名水桶名单",
-        "removed_from": "已移除"
-    },
-    "places": {
-        "africa": "非洲",
-        "antarctica": "南极洲",
-        "asia": "亚洲",
-        "australia": "澳大利亚",
-        "europe": "欧洲",
-        "north_america": "北美洲",
-        "oceania": "大洋洲",
-        "south_america": "南美洲",
-        "anywhere": "任何地方",
-        "current_location": "当前地点"
-    },
-    "explore_feat": {
-        "add_destination": "添加目的地",
-        "add_dates": "添加日期",
-        "check_out_this_place": "我找到了我们的下一次旅行。在Layla上看看吧！",
-        "book_flights": "预订航班",
-        "land_in": "在${destination}降落",
-        "no_flights_found": "未找到航班",
-        "closest_airport": "距离${destination}最近的机场",
-        "change_departure": "更改出发地",
-        "traveling_from": "起飞地",
-        "distance_from_origin": "距离起始地${distance}公里${origin}",
-        "how_to_get_there": "如何到达那里",
-        "how_to_get_to": "如何到达${destination}",
-        "ask_anything": "询问任何事情...",
-        "things_to_do": "经历",
-        "around_destination": "在${destination}附近",
-        "select_a_flight": "选择航班",
-        "start_booking": "开始预订",
-        "no_videos": "对不起，我们没有这个目的地的视频",
-        "view_map": "查看地图",
-        "stats": {
-            "budget": "预算估算",
-            "min_days": "最少花费天数",
-            "for_your_dates": "为了您的日期"
-        },
-        "show_videos_of": "向我展示${destination}的视频"
-    },
-    "feed": {
-        "for_you_card": {
-            "budget-friendly": "预算友好目的地",
-            "reasonably_priced": "价格合理的目的地",
-            "costly": "昂贵的目的地",
-            "very_expensive": "非常昂贵的目的地"
-        },
-        "price_types": [
-            "预算友好的目的地",
-            "价格合理的目的地",
-            "高价目的地",
-            "非常昂贵的目的地"
-        ],
-        "filters": {
-            "flight_price": "航班价格",
-            "flight_duration": "飞行时间",
-            "flight_connection": "航班连接",
-            "categories": "类别",
-            "flight_price_value": "最大飞行${value}",
-            "flight_duration_value": "最大飞行${value}",
-            "flight_connection_direct": "仅限直接"
-        },
-        "how_do_you_like_the_app": "你觉得这个应用怎么样？",
-        "direct_flights": "直达航班",
-        "show_only_direct_flights": "只显示直达航班",
-        "take_some_time": "花点时间给我们你宝贵的反馈，帮助我们改进。",
-        "give_us_feedback": "给我们反馈",
-        "flight_price_range": "航班价格范围",
-        "average_price": "平均价格 ${price}",
-        "or_less": "或更少",
-        "flight_time": "航班时间持续",
-        "average_duration": "平均持续时间 ${hours} h",
-        "round_hrs": "${val} 小时",
-        "one_way_with_bullet": "${code} 单程",
-        "something_went_wrong": "出了点问题",
-        "cant_show_results": "由于某种原因，我们无法向你显示结果。",
-        "awkward_nothing_returned": "这有点尴尬，没有找到搜索结果。请修改你的偏好设置再试一次。",
-        "add_interests": "增加兴趣点",
-        "spaces_read_more": "读取更多",
-        "count_destinations_for_you": "为您找到的美丽目的地有 ${count} 个",
-        "sorted_and_procured": "根据你的偏好进行排序和采购",
-        "scroll_down_to_see_more": "向下滚动查看更多信息",
-        "no_results_found": "未找到结果！",
-        "km_from": "${distance}km from ${city}",
-        "consider_broadening": "哎呀！根据你当前的偏好，我们无法找到任何匹配的结果。考虑扩大你的搜索范围，调整你的偏好设置以获取更多的选项。",
-        "return_with_bullet": "${code} 回程",
-        "approx_for_your_dates": "您所在日期的大致价格"
-    },
-    "flights_feat": {
-        "flights_to": "飞往 ${to} 的航班",
-        "airport": "机场",
-        "destination_location_updated_successfully": "目的地位置已成功更新",
-        "all_filters": "所有筛选项",
-        "no_flights": "没有航班",
-        "estimated_price": "估计价格",
-        "livePrices": "实时价格",
-        "travelers_info_updated_successfully": "旅行者信息已成功更新",
-        "flight_details": "航班详情",
-        "where_from": "从哪里出发？",
-        "where_to": "去哪里？",
-        "city_country_airport": "城市，国家或机场...",
-        "popular_destinations": "热门目的地",
-        "my_current_location": "我的当前位置",
-        "search_destinations": "搜索目的地",
-        "current_location": "当前位置",
-        "departure_location_updated_successfully": "出发位置已成功更新",
-        "no_flights_found": "未找到航班",
-        "choose_new_departure_location": "选择新的出发地",
-        "selected_departure_destination": "选定的出发目的地",
-        "how_many_people": "多少人？",
-        "connection_in": "转机机场",
-        "total_for": {
-            "other": "共计 ${n} 位旅行者的费用"
-        },
-        "search_flights": "搜索航班",
-        "read_before_booking": "预订前请阅读",
-        "prices_include": "价格始终包含所有必要税费和费用的估算。在您预订之前，请在提供商的网站上检查所有机票详情、最终价格以及条款和条件。",
-        "check_for_extra_fees": "注意额外费用",
-        "some_airlines_and_travel_agencies": "一些航空公司和旅行社可能会对行李、保险或信用卡使用收取额外费用。他们也可能收取服务费。",
-        "check_terms": "检查12-16岁旅行者的条款",
-        "restrictions_may_apply": "独自旅行的年轻乘客可能受到限制。",
-        "although_sold_as": "尽管被标示为“经济舱”，但此行程可能包含一些不同舱位的航班。",
-        "check_cabin_class": "检查您的机舱等级",
-        "select_providers": "选择供应商",
-        "almost_there": "快要完成了！",
-        "economy_class": "经济舱",
-        "premium_economy_class": "超级经济舱",
-        "business_class": "商务舱",
-        "first_class": "头等舱",
-        "choose_provider": "选择供应商",
-        "go_to_site": "前往网站",
-        "dates_updated_successfully": "日期已成功更新",
-        "we_collected_cheapest_providers": "以下是Skyscanner值得信赖的旅行合作伙伴，可通过其预订航班 - 选择您想从中购买机票的网站！",
-        "travellers": {
-            "other": "${n} 位旅行者"
-        },
-        "provider_found": {
-            "other": "找到 ${n} 个供应商"
-        },
-        "passengers": {
-            "other": "${n} 位乘客"
-        },
-        "one_way": "单程",
-        "youll_arrive_next_day": "您将在第二天抵达"
-    },
-    "hotel": {
-        "sort_filters": {
-            "most_popular": "最受欢迎",
-            "best_rated": "评价最好",
-            "worst_rated": "评价最差",
-            "best_reviewed": "好评最多",
-            "worst_reviewed": "差评最多",
-            "star_rating_highest_first": "星级（从高到低）",
-            "star_rating_lowest_first": "星级（从低到高）",
-            "price_highest_first": "价格（从高到低）",
-            "price_lowest_first": "价格（从低到高）"
-        },
-        "filters": {
-            "budget": "你的预算（1晚）",
-            "travel_sustainable": "可持续旅行属性",
-            "star_rating": "星级",
-            "property_type": "房源类型",
-            "facilities": "设施",
-            "free_cancellation": "免费取消",
-            "chain": "连锁",
-            "review_score": "评分",
-            "room_facilities": "房间设施"
-        },
-        "filters_category": {
-            "five": "公平 5+",
-            "six": "舒适：6+",
-            "seven": "好：7+",
-            "eight": "很好：8+",
-            "nine": "精彩：9+"
-        },
-        "review_title": {
-            "five": "公平",
-            "six": "舒适",
-            "seven": "好",
-            "eight": "很好",
-            "nine": "精彩",
-            "three": "不好",
-            "two": "差",
-            "one": "很差",
-            "zero": "糟糕"
-        },
-        "property_type": {
-            "aparthotel": "公寓酒店",
-            "camping": "露营",
-            "inn": "旅馆",
-            "resort": "度假村",
-            "capsule-hotel": "胶囊旅馆",
-            "japanese-style-business-hotel": "日式商务旅馆",
-            "holiday-home": "假日房屋",
-            "guest-house": "客房",
-            "boat": "船房",
-            "love-hotel": "情侣旅馆",
-            "ryokan": "旅馆",
-            "tented-camp": "帐篷营地",
-            "hotel": "酒店",
-            "condo": "公寓",
-            "motel": "汽车旅馆",
-            "sanatorium": "疗养院",
-            "apartment": "公寓",
-            "villa": "别墅",
-            "gite": "农家乐",
-            "hostel": "旅舍",
-            "holiday-park": "度假公园",
-            "lodge": "小屋",
-            "cottage": "村舍",
-            "bed-and-breakfast": "民宿",
-            "homestay": "寄宿",
-            "farm-stay": "农场住宿",
-            "chalet": "木屋",
-            "riad": "利雅德",
-            "country-house": "乡村房屋"
-        },
-        "explore_tile": {
-            "stay_options": "住宿选择",
-            "layla_recommends": "Layla 推荐",
-            "budget": "预算",
-            "luxury": "豪华",
-            "find_more_stays": "查找更多住宿",
-            "things_to_do": "经历",
-            "show_all": "显示全部",
-            "travel_km_further": "再往前走 ${distance} 公里",
-            "get_route_details": "获取路线详情",
-            "flight_options": "航班选择",
-            "youre_in_luck": "你很幸运",
-            "prices_are_currenly_low": "目前价格较低",
-            "see_more_flights": "查看更多航班"
-        },
-        "cancellation_policy": "取消政策",
-        "before_you_book": "预订前，请确保您对这家酒店的取消政策感到满意。请记住，\"特殊情况 \"政策不包括因疾病或 COVID-19 导致的旅行中断而取消预订的情况。",
-        "property_views": "物业视图",
-        "all_reviews": "所有评论",
-        "no_hotels_found": "未找到酒店",
-        "no_videos": "对不起，我们没有这家酒店的视频",
-        "age_13": "13岁或以上",
-        "age_2_13": "2-13岁",
-        "hotel_name": "酒店名称",
-        "cancel_by": "取消日期",
-        "hotel_unavailable": "酒店不可用",
-        "hotel_unavailable_for_dates": "酒店在所选日期不可用",
-        "hotel_unavailable_message": "请更新日期。",
-        "full_refund": "全额退款：退还您支付的100%",
-        "no_refund": "无退款",
-        "select_age": "选择年龄",
-        "read_more_here": "在此处阅读更多",
-        "enter_destination": "输入目的地",
-        "search_destinations": "搜索目的地",
-        "travel_sustainable_level": "可持续旅行等级 ${level}",
-        "property_making_efforts": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
-        "sustainability_steps": "可持续发展的步骤",
-        "accept_credit_cards": "接受信用卡",
-        "important_information": "重要信息",
-        "check_in_time": "入住 & 退房时间",
-        "wifi_available": "Wi-Fi在所有区域可用，且不收费",
-        "free_parking": "在旁有免费公共停车处",
-        "pets_allowed": "允许携带宠物，可能需要额外收费",
-        "edit_your_search": "编辑您的搜索",
-        "no_photos": "对不起，我们没有这家酒店的照片",
-        "property_facilities": "物业设施",
-        "filter_and_sort": "过滤 & 排序",
-        "partial_refund": "部分退款：退还您每晚${name}%的费用。服务费不退款",
-        "check_availability": "检查可用性",
-        "select_dates": "选择日期",
-        "detailed_reviews": {
-            "other": "${n}个详细评论"
-        },
-        "rooms_and_guests": "房间 & 宾客",
-        "stays_close_by": "附近的住宿",
-        "house_rules": "房规",
-        "levelDescription": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
-        "sustainable_level": "可持续旅行等级 ${level}",
-        "property_location": "物业位置",
-        "select_a_room": "选择一个房间",
-        "select_rooms_and_guests": "选择房间和宾客",
-        "age_13_or_above": "13岁或以上",
-        "what_people_said": "人们怎么说",
-        "what_people_loved": "人们喜欢这个地方的原因",
-        "read_all_reviews": "阅读所有评论",
-        "see_all": "查看所有 ${count}",
-        "what_this_place_offers": "此地能够提供",
-        "share_text": "看看这家酒店：${name}",
-        "price_for_night": {
-            "other": "价格 ${n} 晚"
-        }
-    },
-    "language": {
-        "select_language": "选择语言"
-    },
-    "know_more": {
-        "know_more": "了解更多",
-        "ask_city_country": "关于${city}, ${country}的任何问题",
-        "ask_something_more": "多问一些....",
-        "generating_answer": "正在生成答案...",
-        "answer_generated": "答案已生成！",
-        "is_it_safe_for": "对游客安全吗？",
-        "question1": "什么时候去那里最好？",
-        "question2": "天气如何？",
-        "question3": "这里有什么景点？",
-        "question4": "告诉我关于它的历史。"
-    },
+  "blog": {
+    "postNotFound": "请检查网址，我们没有这篇文章。",
+    "askLaylaAbout": "询问Layla关于 ${name}",
+    "travellerQuestion": "我想了解${name}作为旅行者的更多信息。",
+    "blog": "博客",
+    "blogs": "博客",
+    "noBlogs": "没有找到博客"
+  },
+  "chatbot": {
     "onboarding": {
-        "what_are_you_interested_in": "你对什么感兴趣？",
-        "pick_cards": "选择3张或更多卡片",
-        "where_will_you_depart_from": "你会从哪里出发？",
-        "for_best_results": "为了获得最佳效果，请分享你的位置",
-        "allow_location_access": "允许访问位置",
-        "interests": {
-            "title": "你对什么感兴趣？",
-            "subtitle": "添加更多感兴趣的内容，我们将开始为您进行个性化推荐。"
-        },
+      "page_one": {
+        "title": "发现您的下一个\n目的地",
+        "subtitle": "让我们带您领略世界上最美丽的旅游胜地，为您的下一次旅行寻找最完美的地方"
+      },
+      "page_two": {
+        "title": "学习你的一切\n需要知道",
+        "subtitle": "飞行多长时间？对夫妻有好处吗？最便宜的住宿是哪家？没有太大或太小的问题"
+      },
+      "page_three": {
+        "title": "预定您的旅行",
+        "subtitle": "我们通过寻找价格最优惠、最方便的住宿、航班和体验来满足您的需求，从而消除预订的麻烦"
+      },
+      "instagram": {
+        "title": "连接 Instagram",
+        "button": "连接您的 Instagram",
+        "message": "连接您的 Instagram 账户以获得个性化、优化的体验。无需努力同步，并享受专为您定制的推荐！",
+        "error": "无法通过 Instagram 进行身份验证"
+      },
+      "chatbot": {
+        "inputHint": "随便问我",
+        "msg1": "嘿，${user} 👋\n\n我是你的旅行顾问Layla。\n\n在我们开始之前，我很想了解你是什么样的旅行者。🌍\n\n告诉我你在寻找什么样的旅行，可以通过写或说出来。",
+        "msg2": "太棒了！我想我理解你在寻找什么。\n\n您还有其他需求吗？",
+        "msg3": "你对什么感兴趣？",
+        "msg4": "你将从哪里出发？",
+        "msg5": "谢谢！到目前为止，我所需要的一切都有了。按下一步，让我推荐给您适合您的世界上最美的目的地！"
+      },
+      "aesthetics": {
+        "message": "帮助我们了解你的气质",
+        "title": "点击选择3张或更多的卡片",
+        "continueButton": "选择 ${count} 张继续",
+        "titleAlt": "你的风格是什么？\n点击你喜欢的卡片"
+      },
+      "video": {
+        "button": "开始吧！",
+        "msg1": "嘿，我是Layla。👋🏼",
+        "msg2": "想象一下：你可以轻松找到和你的旅行伙伴一起预订旅行的地方，都在一个应用里。",
+        "msg3": "这就是我存在的意义！很酷，对吧？",
+        "msg4": "我们开始吧...",
+        "msg1_web": "嘿，我是Layla 👋🏼",
+        "msg2_web": "正在寻找下一个度假胜地吗？我在这里帮助你。",
+        "msg3_web": "你将会在与我聊天的过程中找到个性化的灵感，计划并预订旅行。",
+        "msg4_web": "很酷，对吧？我们开始吧！"
+      }
+    },
+    "things_ask": {
+      "title": "你可以问我这些问题！",
+      "description": "我在这里帮助你计划你的下一个冒险。无论是对目的地的任何问题，我都能回答。下面是一些人们已经问过我的问题...",
+      "possible_prompts": "常见问题",
+      "ask_layla": "问Layla"
+    },
+    "chat_settings": {
+      "history": "历史记录",
+      "new_chat": "新聊天",
+      "rename_chat": "重命名聊天",
+      "delete_chat": "删除聊天？",
+      "delete_chat_message": "${name} 将被永久删除。",
+      "info_and_support": "信息和支持"
+    },
+    "chat": {
+      "title": "Layla - AI旅行规划师",
+      "isTyping": "${name} 正在输入...",
+      "typing": "Layla 正在输入...",
+      "generatingTrip": "正在生成您的行程...",
+      "messages": {
         "location": {
-            "title": "您从哪里旅行？",
-            "message": "告诉我你的位置，我会安排你的下一次探险",
-            "button": "允许位置访问"
-        },
-        "push_notifications": {
-            "button": "允许推送通知",
-            "body": "让我在找到好的交易时通知你",
-            "notification_body": "刚为你找到了去拉普兰的超便宜航班！我们去看北极光怎么样？👀",
-            "skip": "不，谢谢，改天再说！",
-            "title": "收到通知！"
-        }
-    },
-    "profile": {
-        "spread_the_word": "推广",
-        "invite_friends": "邀请好友",
-        "privacy_policy": "隐私政策",
-        "imprint": "版本说明",
-        "privacy_and_sharing": "隐私和分享",
-        "delete_profile": "删除资料",
-        "delete_profile_message": "您确定要删除您的账户吗？",
-        "dont_have_account": "还没有账户？",
-        "log_in_to_start_planning": "登录开始规划您的下次旅行",
-        "logout": "注销",
-        "edit_profile_name": "编辑档案名称",
-        "take_photo": "拍照",
-        "choose_photo": "选择照片",
-        "set_profile_image": "设置个人资料图片",
-        "first_name": "名",
-        "last_name": "姓",
-        "edit_profile": "编辑个人资料",
-        "member_since": "自${date}以来的成员",
-        "share_message": "嘿，来看看Layla。她可以帮助我们规划所有的旅行，并给我们提供去哪里的灵感：${link}",
-        "terms_of_service": "服务条款",
-        "account_already_linked": "账号已经被链接",
-        "account_already_linked_message": "此账号已经链接到其他用户。您是否想以此用户身份登录？",
-        "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
-        "new_chat_login": "要开始新的聊天，请登录"
-    },
-    "auth": {
-        "email": "电子邮件",
-        "password": "密码",
-        "forgot_password": "忘记密码？",
-        "create_account": "创建账户",
-        "reset_password": "重置密码",
-        "reset_password_description": "输入您的电子邮件地址，我们将向您发送重置密码的链接。",
-        "send_link": "发送链接",
-        "email_required": "电子邮件为必填项",
-        "email_invalid": "请输入有效的电子邮件地址",
-        "password_required": "密码为必填项",
-        "password_min_length": "密码必须至少包含6个字符"
-    },
-    "splash": {
-        "discover_where_to": "发现下一个\n飞行目标。",
-        "please_sign_in_to_continue": "请登录以继续。"
-    },
-    "travel_setting": {
-        "what_do_you_want_in_your_trip": "你在旅行中想要什么？",
-        "when_is_your_trip": "你的旅行是什么时候？",
-        "go_var": "去${val}",
-        "flexible_dates": "日期灵活",
-        "exact_dates": "具体日期",
-        "select_origin": "选择起点",
-        "add_details": "添加详细信息",
-        "your_preferences_will_appear_here": "您的偏好将显示在这里"
-    },
-    "thing_todo": {
-        "things_to_do": "经历"
-    },
-    "share_dialog": {
-        "title": "分享",
-        "copy": "复制",
-        "share_destination": "分享这个目的地",
-        "share_hotel": "分享这家酒店",
-        "share_itinerary": "分享这个行程",
-        "share_bucketlist": "邀请朋友加入您的遗愿清单"
-    },
-    "about_screen": {
-        "title": "关于我，Layla。",
-        "subtitle": "用Layla导航世界；AI旅行规划师和你的终极旅行伙伴。",
-        "block_1": "嘿，大家好，我是你们的女孩，Layla，我非常兴奋地要向你们透露你们最新的旅行痴迷——我！你知道我们都喜欢计划那些即兴的旅行，过我们最好的冒险生活，对吧？好吧，我基本上就是你的决定生死的旅行AI，帮助你找到新的去处，让你的旅行梦想成为现实。让我为你解释一下...",
-        "block_2": "首先，人们经常说“Layla就像旅行灵感的仙女教母”。别再花费数小时无意义地在Instagram或Pinterest上滚动了——作为一名AI旅行规划师，我会根据您的兴趣提供个性化的旅行建议。相信我，我有一种第六感，可以发现你以前从未听说过的最酷的度假胜地。和我聊天就像拥有自己的旅行顾问，而不需要花费大笔的费用。",
-        "block_3": "现在，我知道你在想什么 - \"我真的需要另一个堆积在我手机上的旅行应用吗？\" 听我说，宝贝。Layla不仅仅是另一个应用；它是一个游戏规则改变者。想象一下：你告诉我你的感觉，无论是海滩的幸福，城市的灯光，还是山峰的高度，然后砰 - 我会为你找到一大堆专为你量身定制的目的地，配有视频，这样你就可以轻松感受每个地方的氛围。",
-        "block_4": "最棒的部分？和我，Layla，聊天可以让你规划旅行变得轻松。再也不用打开一大堆网页，试图找到最好的航班、酒店和活动。我已经为你准备好了。我会在网上寻找最热门的目的地，找到那些价格合理的航班，还会帮你预定在Insta上值得炫耀的住宿。你只需要打包行李，看起来可爱就行了。",
-        "block_5": "现在，让我们谈谈预订。我在这里简化您的旅行预订流程，从寻找您梦想中的目的地到获得最优惠的价格。人工智能在这里让事情变得如此简单，即使是技术挑战的女王也可以处理它。此外，您可以相信 Layla 会支持您——没有阴暗的预订网站或简陋的住宿——我已经与 Skyscanner 和 Booking.com 合作。",
-        "block_6": "但是等等，还有更多。人工智能不仅能帮助你计划，一旦你开始旅行，我就是你探索新城市的终极女僚机。拥有必看景点、隐藏的宝石和最时尚的当地关节。我会带你去所有当地人实际挂的地方。",
-        "block_7": "所以，如果你厌倦了千篇一律，准备给你的旅行游戏增添一些新鲜感，就对我说声你好，我是Layla。我不仅仅是一个AI；我是你计划旅行方式的改变者，也是旅行氛围的策划者，以及你的世界通行证。准备好自信地出发吧，我的爱人们，因为Layla已经为你的旅行梦想做好了准备。\n\n冒险等待着你 ✈️💖",
-        "button": "和Layla聊天"
-    },
-    "download_app": {
-        "title": "下载应用程序",
-        "subtitle": "获取该应用程序，获得最佳的 Layla 体验。一站式享受个性化推荐和旅行计划！",
-        "button": "免费下载Layla"
-    },
-    "itinerary_widget": {
-        "day_dialog": {
-            "add": {
-                "title": "使用 AI 添加一天",
-                "hint": "你想在这一天做些什么？",
-                "button": "增加天数"
-            },
-            "modify": {
-                "title": "使用人工智能进行修改",
-                "hint": "您想在 ${index} 日做什么？",
-                "button": "生成"
-            }
-        },
-        "find_hotels_in": "在${location}找到惊人的酒店。",
-        "find_amazing_hotels": "找到惊人的酒店",
-        "bedTimeRecommendedText": "为了获得平衡的住宿，选择<hotelLink>提供了舒适和便利的绝佳组合。",
-        "bedTimeLuxuryText": "那些寻求高档体验的人可以选择<hotelLink>，它提供优质的设施和卓越的服务。",
-        "bedTimeBudgetText": "预算有限的游客可以选择更实惠的选项，如<hotelLink>，在不超支的情况下提供基本的舒适。\n\n 每种类型的住宿都能确保愉快的住宿，满足不同的偏好和预算。"
-    },
-    "video_category": [
-        "探险",
-        "文化",
-        "海滩",
-        "城市",
-        "食品和饮料",
-        "隐藏的宝石",
-        "豪华",
-        "自然",
-        "放松",
-        "浪漫",
-        "体育",
-        "顶级类别",
-        "经历"
-    ],
-    "videoSubCategory": [
-        "活动",
-        "游艇和游轮",
-        "花园和公园",
-        "酒吧",
-        "餐厅和咖啡馆",
-        "免费活动",
-        "夜店",
-        "节日和活动",
-        "艺术画廊和博物馆"
-    ],
-    "weekdays_short": [
-        "周一",
-        "周二",
-        "周三",
-        "周四",
-        "周五",
-        "周六",
-        "周日"
-    ],
-    "adults": {
-        "other": "${n}位成年人"
-    },
-    "dayN": "天 ${n}",
-    "days": {
-        "other": "${n}天"
-    },
-    "children": {
-        "other": "${n}位儿童"
-    },
-    "guest": {
-        "other": "${n}位客人"
-    },
-    "room": {
-        "other": "${n}间房"
-    },
-    "person": {
-        "other": "${n}个人"
-    },
-    "review": {
-        "other": "${n}个评论"
-    },
-    "rooms": {
-        "other": "${n}间房"
-    },
-    "stop": {
-        "other": "${n}停"
-    },
-    "stop_plus": {
-        "other": "${n}+停"
-    },
-    "traveller": {
-        "other": "${n}位旅行者"
-    },
-    "age": {
-        "other": "${n}岁"
-    },
-    "about": "关于",
-    "activity": "活动",
-    "afternoon": "下午",
-    "allow": "允许",
-    "anything": "任何事情",
-    "anytime": "任何时候",
-    "anywhere": "任何地方",
-    "adultsWord": "成年人",
-    "app": "应用",
-    "apply": "应用",
-    "around": "周围",
-    "arrival": "到达",
-    "away": "离开",
-    "best": "最好",
-    "bucketlists": "愿望清单",
-    "bucketlistWord": "愿望清单",
-    "cancel": "取消",
-    "change": "更改",
-    "charactersWord": {
-        "other": "${n}个字符"
-    },
-    "checkIn": "入住",
-    "cheapest": "最便宜",
-    "child": "儿童",
-    "childrenWord": "儿童",
-    "classWord": "类",
-    "clear": "清楚",
-    "clear_all": "清除全部",
-    "collaborators": "合作者",
-    "confirm": "确认",
-    "contact": "联系方式",
-    "contact_us": "联系我们",
-    "continue_label": "继续",
-    "create": "创建",
-    "creator": "创建者",
-    "currency": "货币",
-    "daysWord": "天",
-    "dates": "日期",
-    "deals": "交易",
-    "delete": "删除",
-    "departure": "出发",
-    "description": "描述",
-    "destination": "目的地",
-    "destinationsWord": "目的地",
-    "direct": "直达",
-    "done": "完成",
-    "duration": "持续时间",
-    "edit": "编辑",
-    "editDates": "编辑日期",
-    "editDetails": "编辑详情",
-    "evening": "晚上",
-    "experiences": "体验",
-    "explore": "探索",
-    "fastest": "最快",
-    "feedback": "反馈",
-    "filter_by": "筛选条件",
-    "filters": "筛选器",
-    "flight": "航班",
-    "flights": "航班",
-    "from": "从",
-    "from_var": "从 ${name}",
-    "help": "帮助",
-    "hotelWord": "酒店",
-    "hotels": "酒店",
-    "infants": "婴儿",
-    "itinerary": "行程",
-    "know_more_word": "了解更多",
-    "languageWord": "语言",
-    "leave": "离开",
-    "legal": "法律",
-    "login": "登录",
-    "location": "位置",
-    "map": "地图",
-    "month": "月",
-    "more": "更多",
-    "morning": "早上",
-    "name": "名称",
-    "next": "下一个",
-    "nightWord": "晚",
-    "nights": {
-        "other": "夜晚"
-    },
-    "nightsWithNum": {
-        "other": "${n} 晚"
-    },
-    "opps": "哎呀！",
-    "one_way": "单程",
-    "pets": "宠物",
-    "photos": "照片",
-    "plan": "计划",
-    "preferences": "首选项",
-    "profileWord": "个人档案",
-    "powered_by": "由...提供技术支持",
-    "read_more": "阅读更多",
-    "remove": "移除",
-    "rename": "重命名",
-    "reset": "重置",
-    "returnWord": "返回",
-    "roomsWord": "房间",
-    "search": "搜索",
-    "save": "保存",
-    "saved_to": "保存至",
-    "see_all": "查看全部",
-    "see_more": "看更多",
-    "select": "选择",
-    "select_dates": "选择日期",
-    "selected": "已选择",
-    "settings": "设置",
-    "share": "分享",
-    "show_more": "显示更多",
-    "show_more_flights": "显示更多航班",
-    "sign_in": "登录",
-    "sign_up": "注册",
-    "show_less": "显示更少",
-    "support": "支持",
-    "skip": "跳过",
-    "skip_for_now": "暂时跳过",
-    "sort_by": "排序方式",
-    "stars": {
-        "other": "${n} 星"
-    },
-    "start": "开始",
-    "star_new_chat": "开始新聊天",
-    "stops": "停靠",
-    "times": "次",
-    "to": "到",
-    "today": "今天",
-    "total": "总计",
-    "transit": "交通",
-    "travelers": "旅行者",
-    "trip": {
-        "title": "旅行",
-        "header": {
-            "daysLabel": "${count} 天",
-            "adultsLabel": "${count} 成人",
-            "chooseDate": "选择日期",
-            "inviteSomeone": "邀请某人加入您的旅行"
-        },
-        "sections": {
-            "yourFlights": "您的航班",
-            "yourTransports": "您的交通",
-            "yourStays": "您的住宿",
-            "yourDestinations": "您的目的地",
-            "yourAccommodation": "您的住宿",
-            "yourExperiences": "您的体验",
-            "days": "Days"
-        },
-        "emptyStates": {
-            "noFlightsFound": "未找到航班",
-            "noTransportationFound": "未找到交通工具",
-            "noStaysFound": "未找到住宿",
-            "noDestinationsFound": "未找到目的地",
-            "mapViewUnavailable": "地图视图不可用",
-            "mapViewNoLocations": "地图视图 - 没有可用位置",
-            "dayNotFound": "未找到日期"
+          "requestTitle": "你将从哪里出发？",
+          "requestSubtitle": "为了获得最佳效果，请允许使用位置",
+          "requestButton": "允许你的位置"
         },
         "flight": {
-            "title": "航班",
-            "perPerson": "/人",
-            "direct": "直飞",
-            "oneStop": "1次中转",
-            "stops": "${count}次中转",
-            "bookThisFlight": "预订此航班",
-            "totalDuration": "总时长 ${duration}",
-            "layoverAt": "中转 ${airport}: ${duration}"
+          "fromToAroundPrice": "从 ${from} 到 ${to} 的航班大约 ${price}"
         },
-        "hotel": {
-            "title": "酒店",
-            "yourStay": "您的住宿",
-            "reviews": "${count}条评论",
-            "viewDetails": "查看详情",
-            "bookThisHotel": "预订此酒店",
-            "ratingSnapshot": "评分概览"
+        "tileOptions": {
+          "minOptions": "选择 ${min} 或更多的卡片"
         },
-        "destination": {
-            "dayLabel": "第${start}天 - 第${end}天",
-            "experience": "${count}个体验",
-            "experiences": "${count}个体验",
-            "total": "总计"
+        "hotelOptions": {
+          "title": "你喜欢哪家酒店？"
         },
-        "transport": {
-            "title": "交通",
-            "pickUp": "上车",
-            "dropOff": "下车",
-            "bookThisCar": "预订此车",
-            "bookThisBus": "预订此巴士",
-            "bookThisTrain": "预订此火车",
-            "bookThisBoat": "预订此船",
-            "bookThisTransfer": "预订此接送"
-        },
-        "restaurant": {
-            "title": "餐厅"
-        },
-        "experience": {
-            "title": "体验",
-            "activity": "活动",
-            "attraction": "景点",
-            "free": "免费",
-            "clickToSeePrice": "点击查看价格",
-            "reviewsCount": "${count}条评论"
-        },
-        "actions": {
-            "change": "更改",
-            "getLivePrices": "获取实时价格",
-            "bookNow": "立即预订",
-            "bookThisTrip": "预订此行程",
-            "customizeTrip": "定制行程",
-            "share": "分享",
-            "delete": "删除",
-            "invite": "邀请"
-        },
-        "tabs": {
-            "overview": "概览",
-            "chat": "聊天",
-            "trip": "行程",
-            "cart": "购物车"
-        },
-        "messages": {
-            "inviteComingSoon": "邀请 - 即将推出",
-            "deleteTransportComingSoon": "删除交通 - 即将推出",
-            "flightDetailsComingSoon": "航班详情 - 即将推出",
-            "bookTripComingSoon": "预订行程 - 即将推出",
-            "shareComingSoon": "分享 - 即将推出",
-            "deleteComingSoon": "删除 - 即将推出",
-            "changeComingSoon": "更改 - 即将推出",
-            "fetchingLivePrices": "正在获取实时价格...",
-            "livePricesRequested": "已请求实时价格！价格将很快更新。",
-            "failedLivePrices": "无法请求实时价格。请重试。",
-            "errorLegNotFound": "错误：在行程中未找到航段",
-            "removingHotelFromTrip": "正在从行程中删除酒店...",
-            "hotelRemovedSuccessfully": "酒店已成功删除",
-            "failedRemoveHotel": "无法删除酒店。请重试。",
-            "failedRemoveFlight": "无法删除航班。请重试。",
-            "updatingCarOption": "正在更新汽车选项...",
-            "transportOptionUpdated": "交通选项已成功更新",
-            "failedUpdateTransport": "无法更新交通选项",
-            "failedDeleteExperience": "无法删除体验。请重试。",
-            "failedDeleteActivity": "无法删除活动。请重试。",
-            "failedDeleteAttraction": "无法删除景点。请重试。",
-            "failedDeleteRestaurant": "无法删除餐厅。请重试。",
-            "noFlightUrl": "此航班没有可用的URL。"
-        },
-        "dialogs": {
-            "removeFlight": {
-                "title": "删除航班",
-                "message": "您确定要删除从${from}到${to}的航班吗？",
-                "cancel": "取消",
-                "remove": "删除"
-            },
-            "removeHotel": {
-                "title": "删除酒店",
-                "message": "您确定要从行程中删除此酒店吗？",
-                "cancel": "取消",
-                "remove": "删除"
-            },
-            "removeExperience": {
-                "title": "删除体验",
-                "message": "您确定要从行程中删除此体验吗？",
-                "cancel": "取消",
-                "remove": "删除"
-            }
-        },
-        "change": {
-            "flights": {
-                "selectFlight": "选择航班",
-                "fromTo": "从${from}到${to}",
-                "fromToWithIata": "从${fromCity} (${fromIata}) 到${toCity} (${toIata})",
-                "smartFilter": "智能筛选",
-                "poweredByLaylaAI": "由Layla AI提供支持",
-                "searchFlightsHint": "为我找到10点前降落的直飞航班",
-                "searchFlights": "搜索航班",
-                "noFlightsFound": "未找到航班",
-                "tryAdjustingQuery": "尝试调整您的搜索查询",
-                "totalCost": "总费用",
-                "selected": "已选择",
-                "adult": "成人",
-                "adults": "成人",
-                "child": "儿童",
-                "children": "儿童",
-                "traveler": "旅客",
-                "travelers": "旅客",
-                "failedSearch": "无法搜索航班。请重试。",
-                "nonStop": "直飞",
-                "layoverIn": "在${airport}中转${duration}"
-            },
-            "hotels": {
-                "selectHotel": "选择酒店",
-                "hotelsIn": "${location}的酒店",
-                "smartFilter": "智能筛选",
-                "poweredByLaylaAI": "由Layla AI提供支持",
-                "searchHotelsHint": "查找提供免费取消和早餐的酒店",
-                "searchHotels": "搜索酒店",
-                "freeCancellation": "免费取消",
-                "rating8Plus": "8+评分",
-                "swimmingPool": "游泳池",
-                "parking": "停车场",
-                "priceRange": "价格范围",
-                "price": "价格",
-                "clearAll": "清除所有",
-                "noHotelsFound": "未找到酒店",
-                "noHotelsMatchFilters": "没有酒店符合您的筛选条件",
-                "tryAdjustingFilters": "尝试调整您的筛选条件",
-                "trySearchingHotels": "尝试在此位置搜索酒店",
-                "failedSearch": "无法搜索酒店。请重试。",
-                "failedAdd": "无法添加酒店。请重试。"
-            },
-            "transport": {
-                "selectFlight": "选择航班",
-                "origin": "出发地",
-                "destination": "目的地",
-                "noFlightOptionsAvailable": "无可用航班选项",
-                "cheapest": "最便宜",
-                "latest": "最新"
-            },
-            "cars": {
-                "carRental": "租车",
-                "carRentalIn": "${location}的租车",
-                "carRentalFromTo": "租车：${from}到${to}",
-                "smartFilter": "智能筛选",
-                "poweredByLaylaAI": "由Layla AI提供支持",
-                "searchCarRentalsHint": "为我找到自动挡SUV",
-                "searchCarRentals": "搜索租车",
-                "noCarRentalsFound": "未找到租车",
-                "tryAdjustingCriteria": "尝试调整您的搜索条件",
-                "failedSearch": "无法搜索租车。请重试。"
-            },
-            "activities": {
-                "activities": "活动",
-                "activitiesIn": "${city}的活动",
-                "smartFilter": "智能筛选",
-                "poweredByLaylaAI": "由Layla AI提供支持",
-                "searchActivitiesHint": "为我找到户外活动或博物馆",
-                "searchActivities": "搜索活动",
-                "noActivitiesFound": "未找到活动",
-                "tryAdjustingCriteria": "尝试调整您的搜索条件",
-                "failedSearch": "无法搜索活动。请重试。",
-                "failedAdd": "无法添加活动。请重试。"
-            },
-            "attractions": {
-                "attractions": "景点",
-                "attractionsIn": "${city}的景点",
-                "smartFilter": "智能筛选",
-                "poweredByLaylaAI": "由Layla AI提供支持",
-                "searchAttractionsHint": "为我找到历史地标或纪念碑",
-                "searchAttractions": "搜索景点",
-                "noAttractionsFound": "未找到景点",
-                "tryAdjustingCriteria": "尝试调整您的搜索条件",
-                "failedSearch": "无法搜索景点。请重试。",
-                "failedAdd": "无法添加景点。请重试。"
-            }
-        },
-        "transfer": {
-            "carTransfer": "汽车接送",
-            "busTransfer": "巴士接送",
-            "trainTransfer": "火车接送",
-            "boatTransfer": "船只接送",
-            "transfer": "接送",
-            "findAlternative": "寻找替代方案",
-            "fromTo": "${from}到${to}",
-            "oneStop": "1次中转",
-            "stops": "${count}次中转"
-        },
-        "carTransport": {
-            "transport": "交通",
-            "laylaAIReviewSummary": "Layla AI评论摘要",
-            "placeholderReviewText": "人们说这是有史以来最美丽的地方，有些人提到...",
-            "findAlternative": "寻找替代方案"
-        },
-        "common": {
-            "perPerson": "每人 ",
-            "total": "总计",
-            "reviews": "${count}条评论",
-            "viewOnMap": "在地图上查看"
-        },
-        "map": {
-            "hotels": "酒店",
-            "activity": "活动",
-            "attraction": "景点",
-            "pointOfInterest": "兴趣点",
-            "restaurant": "餐厅",
-            "emptyState": "地图视图 - 没有可用位置",
-            "addressNotAvailable": "地址不可用",
-            "locationNotAvailable": "位置不可用",
-            "reviews": "评论",
-            "viewOnGoogleMaps": "在谷歌地图上查看",
-            "viewDetails": "查看详情",
-            "perNight": "/晚",
-            "unknown": "未知",
-            "ratings": {
-                "exceptional": "卓越",
-                "wonderful": "精彩",
-                "veryGood": "非常好",
-                "good": "好",
-                "pleasant": "愉快",
-                "average": "一般"
-            }
-        },
-        "addExperience": {
-            "title": "添加体验",
-            "activityTitle": "活动",
-            "activityDescription": "添加门票活动或体验",
-            "attractionTitle": "景点",
-            "attractionDescription": "添加要参观或查看的地方"
-        },
-        "cards": {
-            "dayCard": {
-                "day": "天",
-                "dayLabel": "第${n}天",
-                "experience": "体验",
-                "experiences": "体验",
-                "total": "总计"
-            },
-            "carCard": {
-                "yourRental": "您的租车",
-                "pickUp": "上车",
-                "dropOff": "下车",
-                "selected": "已选择",
-                "addToTrip": "添加到行程",
-                "perTotal": "/总计",
-                "freeCancellation": "免费取消",
-                "at": "在"
-            },
-            "flightCard": {
-                "selected": "已选择",
-                "addToTrip": "添加到行程",
-                "perPerson": "/人",
-                "nonStop": "直飞",
-                "oneStop": "1次中转",
-                "stops": "中转"
-            },
-            "hotelCard": {
-                "reviews": "评论",
-                "selected": "已选择",
-                "addToTrip": "添加到行程",
-                "total": "总计"
-            }
-        },
-        "widgets": {
-            "addExperienceButton": "添加体验",
-            "dayLabel": "第${n}天",
-            "yourStay": "您的住宿",
-            "transport": "交通",
-            "yourDayByDay": "您的每日行程",
-            "failedToLoadTrip": "无法加载行程",
-            "retry": "重试"
-        },
-        "transportType": {
-            "flight": "航班",
-            "train": "火车",
-            "bus": "巴士",
-            "car": "汽车",
-            "ferry": "渡轮",
-            "transportation": "交通"
-        },
-        "cabinClass": {
-            "economy": "经济舱",
-            "premiumEconomy": "超级经济舱",
-            "business": "商务舱",
-            "first": "头等舱"
-        },
-        "travelerFormat": {
-            "forAdults": " 为${count}${word}",
-            "andChildren": " 和${count}${word}",
-            "adult": "成人",
-            "adults": "成人",
-            "child": "儿童",
-            "children": "儿童"
-        },
-        "basket": {
-            "title": "订单摘要",
-            "item": "项目",
-            "items": "项目",
-            "orderSummary": "订单摘要",
-            "priceChangeAlert": {
-                "title": "价格可能已更改",
-                "description": "旅行价格经常变化。显示的价格为估算价格，预订时可能会有所不同。"
-            },
-            "location": "位置",
-            "dates": "日期",
-            "travelers": "旅客",
-            "traveler": "旅客",
-            "noItemsInBasket": "您的行程中还没有可预订的项目。添加酒店、航班或活动即可开始！",
-            "legTitle": "${location}（第${days}天）"
-        },
-        "overview": {
-            "madeBy": "由 ${creator} 创建",
-            "highlightsTitle": "行程亮点一览",
-            "showAll": "查看全部",
-            "showAllFlights": "查看所有航班",
-            "showAllStays": "查看所有住宿",
-            "showAllActivities": "查看所有活动",
-            "showAllTransfers": "查看所有接送",
-            "showAllRentals": "查看所有租车",
-            "dayLabel": "第 ${number} 天",
-            "sections": {
-                "itinerary": "行程",
-                "route": "路线",
-                "flights": "航班",
-                "stays": "住宿",
-                "activities": "活动",
-                "transfers": "专属接送",
-                "rental": "租车"
-            },
-            "hotel": {
-                "night": {
-                    "one": "${n} 晚",
-                    "other": "${n} 晚"
-                },
-                "stars": {
-                    "one": "${n} 星",
-                    "other": "${n} 星"
-                }
-            },
-            "activity": {
-                "durationMin": "${n} 分钟",
-                "durationHr": "${n} 小时",
-                "durationDay": {
-                    "one": "${n} 天",
-                    "other": "${n} 天"
-                }
-            }
-        },
-        "lists": {
-            "noActivitiesFound": "未找到活动",
-            "noStaysFound": "未找到住宿",
-            "noFlightsFound": "未找到航班",
-            "noRentalsFound": "未找到租车",
-            "perPerson": "每人",
-            "free": "免费",
-            "transportFlight": "航班",
-            "transportTrain": "火车",
-            "transportRental": "租车"
+        "itinerary": {
+          "day": "天"
         }
-    },
-    "tripWord": "旅行",
-    "unknown_error": "未知错误",
-    "unknown_name": "未知名称",
-    "update": "更新",
-    "user_cancelled": "用户取消",
-    "varTotal": "${n} 总计",
-    "videos": "视频",
-    "view": "查看",
-    "view_details": "查看详情",
-    "weekend": "周末",
-    "week": "周",
-    "what": "什么",
-    "what_can_i_ask": "我能问什么呢？",
-    "when": "何时",
-    "where_to": "去哪里",
-    "where_from": "从哪里出发",
-    "yesterday": "昨天",
-    "time_ago": {
-        "years": {
-            "other": "${n}年前"
-        },
-        "months": {
-            "other": "${n}个月前"
-        },
-        "days": {
-            "other": "${n}天前"
-        },
-        "hours": {
-            "other": "${n}小时前"
-        },
-        "minutes": {
-            "other": "${n}分钟前"
-        },
-        "seconds": {
-            "other": "${n}秒前"
-        },
-        "just_now": "现在"
-    },
-    "characters_left": {
-        "other": "剩余${n}个字符"
-    },
-    "faq": "常问问题",
-    "internet_offline": "Internet 连接似乎处于脱机状态。请再试一次。",
-    "location_denied": {
-        "message": "这可能是因为您没有启用定位服务。要启用此功能，请访问设置> 隐私> 定位服务",
-        "open_settings": "打开设置",
-        "title": "当前位置不可用"
-    },
-    "ok": "好的",
-    "permissions_dialog": {
-        "permissions_required": "所需权限",
-        "message_photos": "为了更新你的照片，Layla需要访问照片。",
-        "message_camera": "Layla需要访问相机才能更新你的照片。",
-        "deny": "拒绝"
-    },
-    "open": "打开",
-    "bedtime": "睡觉时间",
-    "user": "用户",
-    "trip_page": {
-        "travel_tip": "旅行贴士",
-        "daily_itinerary": "每日行程",
-        "day_by_day_plan": "${destination}的逐日计划",
-        "creator_tips": "创作者建议",
-        "creator_videos": "创作者视频",
-        "your_accommodation": "您的住宿",
-        "guest_reviews": "客人评论",
-        "pricing_details": "价格详情",
-        "price_per_night": "每晚价格",
-        "per_night": "每晚",
-        "total_price": "总价",
-        "great_value": "超值",
-        "things_to_do": "可做的事",
-        "activity": "活动",
-        "attraction": "景点",
-        "sitesAroundTitle": "${city}周边景点",
-        "sitesAroundSubtitle": "发现您目的地附近的地方",
-        "seeAll": "查看全部",
-        "videoModalComingSoon": "完整视频库即将推出！",
-        "videosAvailable": "可用视频",
-        "close": "关闭",
-        "add_hotel": "添加酒店",
-        "add_transportation": "添加交通",
-        "retry": "重试",
-        "map_unavailable": "地图不可用",
-        "dates_tbd": "日期待定"
-    },
-    "trip_sharing": {
-        "title": "分享您的行程",
-        "share": "分享",
-        "copyLink": "复制链接",
-        "linkCopied": "链接已复制",
-        "dayByDay": "逐日行程",
-        "highlights": "精彩亮点",
-        "day": "日",
-        "category": "类别"
-    },
-    "paywall": {
-        "title": "解锁您的完整旅程",
-        "subtitle": "使用高级版继续进行无限规划和独家节省。",
-        "feature_complete_itinerary": "一个完整、无压力的行程",
-        "feature_download_share": "随时下载、分享和编辑",
-        "price_with_trial": "从${days}天免费试用开始。试用后价格${price}。",
-        "price_only": "价格 ${price}",
-        "processing": "处理中...",
-        "unlock_now": "立即解锁",
-        "become_subscriber": "成为订阅者"
-    },
-    "data_consent": {
-        "title": "数据隐私",
-        "allow": "允许",
-        "dont_allow": "不允许",
-        "privacy_policy": "隐私政策",
-        "turn_on": "开启",
-        "learn_more": "了解更多",
-        "openai": "OpenAI (ChatGPT)",
-        "google": "Google (Gemini)",
-        "body": {
-            "intro": "为了创建您的行程，我们将向",
-            "messages_you_enter": "您输入的消息",
-            "and_the": "和",
-            "trip_details_you_provide": "您提供的旅行详情",
-            "details_suffix": "（例如目的地、日期、预算、偏好、旅行者人数及其他信息）发送至",
-            "provider_and": "和",
-            "processing": "进行处理。",
-            "warning": "如果您不允许，AI对话和行程规划功能将无法使用。",
-            "settings_note": "您可以随时在设置中更改此选项。请查看我们的",
-            "settings_note_end": "了解详情。"
-        },
-        "profile": {
-            "title": "AI旅行规划（OpenAI & Google）",
-            "subtitle_before": "开启后，您输入的消息和提供的旅行详情将发送至",
-            "subtitle_after": "以生成您的行程。关闭以禁用AI对话和规划。"
-        },
-        "locked": {
-            "title": "AI规划已关闭",
-            "subtitle": "在设置中启用AI处理以开始对话并生成旅行计划。"
-        }
-    },
-    "trip_book": {
-        "accommodations": "住宿",
-        "flights": "航班",
-        "private_transport": "私人交通",
-        "experiences": "体验",
-        "save_on_booking": "与单独预订相比，节省 ${amount}",
-        "layla_brings_deals": "Layla 为您带来最佳优惠。",
-        "title": "预订行程",
-        "book": "预订",
-        "delete": "删除",
-        "alternative": "替代方案",
-        "experts_title": "与我们的专家一起预订此行程",
-        "benefit1_title": "节省超过 32 小时的规划时间",
-        "benefit1_description": "放松一下——我们的专家会为您处理每一个细节。",
-        "benefit2_title": "处理超过 12 项个人预订",
-        "benefit2_description": "酒店、航班、活动——我们为您梦想之旅协调一切。",
-        "benefit3_title": "无缝安排超过 9 次接送",
-        "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
-        "continue_with_human": "继续与人工顾问预订",
-        "continue_with_booking": "继续预订"
+      },
+      "messageHint": "随便问我",
+      "contextMenu": {
+        "copy": "复制",
+        "good_response": "好的回答",
+        "bad_response": "不好的回答",
+        "message_copied": "复制的信息"
+      },
+      "initialQuickReplies": {
+        "msg1": "给我灵感，下一个去哪里",
+        "msg2": "为我查找从我所在城市出发的廉价航班",
+        "msg3": "为我制定行程",
+        "msg4": "我的暑假应该去哪里？"
+      },
+      "tripCard": {
+        "latestTrip": "最新行程",
+        "previousTrip": "历史行程",
+        "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
+      }
     }
+  },
+  "itineraries": {
+    "itineraries": "行程",
+    "dayPart": [
+      "上午",
+      "下午",
+      "晚上"
+    ],
+    "bookNow": "立即预订",
+    "addDay": "添加一天",
+    "whatDoYouWant": "你想在这一天做些什么？"
+  },
+  "tooltips": {
+    "tap_to_filter": "点击以过滤",
+    "tap_to_bucketlist": "点击以加入心愿单",
+    "tap_to_chat": "点击以聊天",
+    "tap_to_help_country": "计划去 ${country} 旅行需要任何帮助吗？",
+    "tap_to_add_to_bucketlist": "点击以保存到您的遗愿清单。",
+    "tap_to_start_new_chat": "轻点开始新聊天",
+    "tap_to_open_menu": "轻点打开菜单",
+    "skipIntro": "跳过介绍"
+  },
+  "bucketlist": {
+    "no_name": "无名",
+    "name": "姓名",
+    "bucketlist": "心愿单: ${name}",
+    "bucketlist_saved": "心愿单保存成功",
+    "bucketlist_created": "心愿单创建成功",
+    "bucketlist_copied": "水桶名单 ${name} 复制成功",
+    "my_bucketlist": "我的心愿单",
+    "login_to_view": "登录查看您的心愿单",
+    "leave_bucketlist": "离开此心愿单？",
+    "one_person": "一人",
+    "name_is_collaborating": "${name} 美元与您一起规划。",
+    "no_collaborators": "暂无共享。",
+    "you_are_viewing_bucketlist": "您正在查看的是 ${creator} 的水桶名单",
+    "you_are_viewing_bucketlist_collaborator": "您正在查看由 ${creator} 和 ${collaborator} 制作的水桶名单",
+    "collaborating_and_one_more": "${name} 美元，还有一个正在与您一起计划。",
+    "collaborating_two": "${first} 美元和 ${second} 美元与您一起规划。",
+    "collaborating_two_and_more": "${first} 和 ${count} 更多正在与你一起计划。.",
+    "you_are_viewing": "您正在查看 ${creator} 的愿望清单！",
+    "you_and_viewer_are_viewing": "您和其他 1 位用户正在查看由 ${creator} 创建的愿望清单",
+    "you_and_viewers_are_viewing": "您和 ${count} 其他人正在查看由 ${creator} 创建的水桶名单",
+    "you_can_create": "登录后您可以创建、查看或编辑心愿单。",
+    "create_your_first_bucketlist": "创建您的第一个心愿单",
+    "as_you_search": "在探索的过程中，点击心形按钮可将喜欢的事物添加到水桶清单中。您还可以邀请朋友与您一起计划。",
+    "add_to_bucketlist": "添加至心愿单",
+    "create_new_bucketlist": "创建新的心愿单",
+    "create_bucketlist": "创建心愿单",
+    "save_destinations": "保存目的地",
+    "delete_bucketlist": "删除心愿单？",
+    "delete_bucketlist_message": "您确定要删除此心愿单吗？",
+    "delete_user_from_bucketlist": "从心愿单中删除用户？",
+    "delete_user_from_bucketlist_message": "您确定要从此心愿单中删除${username}吗？",
+    "bucketlist_will_be_removed": "${name}将从您的心愿单中移除。",
+    "travel_dates": "旅行日期",
+    "share": "邀请",
+    "copy": "复制到编辑",
+    "destinations": {
+      "other": "${n}个旅行地点"
+    },
+    "people_collaborating_with_you": {
+      "other": "${n} 人与您一起计划。"
+    },
+    "login_widget": {
+      "title": "登录或注册",
+      "title_bucketlist": "登录保存",
+      "download": {
+        "title": "保存这份水桶清单",
+        "subtitle": "${s} 邀请您查看他们的旅行清单。下载 Layla 应用程序，保存并创建您的下一次旅行。",
+        "button": "免费下载 Layla"
+      },
+      "continue_with": "继续使用",
+      "login_to_collaborate": "登录以帮助规划",
+      "login_to_view": "登录查看",
+      "invited_you": "${username}邀请您加入他们的 \"遗愿清单\"。登录 Layla 保存并创建您的下一次旅行！",
+      "and_one_other": "和一个",
+      "and_n_others": "和 ${count} 其他",
+      "one_person": "一人",
+      "people": "人民",
+      "and": "和"
+    },
+    "flying_from": "从哪里飞往",
+    "share_type_dialog": {
+      "title": "邀请加入",
+      "title_alt": "邀请加入遗愿清单",
+      "message": "您想如何分享这份愿望清单？",
+      "edit": "可以编辑",
+      "edit_message": "用户可以编辑愿望清单",
+      "view": "仅查看",
+      "view_message": "用户将能查看愿望清单"
+    },
+    "rename_bucketlist": "重命名水桶名单",
+    "removed_from": "已移除"
+  },
+  "places": {
+    "africa": "非洲",
+    "antarctica": "南极洲",
+    "asia": "亚洲",
+    "australia": "澳大利亚",
+    "europe": "欧洲",
+    "north_america": "北美洲",
+    "oceania": "大洋洲",
+    "south_america": "南美洲",
+    "anywhere": "任何地方",
+    "current_location": "当前地点"
+  },
+  "explore_feat": {
+    "add_destination": "添加目的地",
+    "add_dates": "添加日期",
+    "check_out_this_place": "我找到了我们的下一次旅行。在Layla上看看吧！",
+    "book_flights": "预订航班",
+    "land_in": "在${destination}降落",
+    "no_flights_found": "未找到航班",
+    "closest_airport": "距离${destination}最近的机场",
+    "change_departure": "更改出发地",
+    "traveling_from": "起飞地",
+    "distance_from_origin": "距离起始地${distance}公里${origin}",
+    "how_to_get_there": "如何到达那里",
+    "how_to_get_to": "如何到达${destination}",
+    "ask_anything": "询问任何事情...",
+    "things_to_do": "经历",
+    "around_destination": "在${destination}附近",
+    "select_a_flight": "选择航班",
+    "start_booking": "开始预订",
+    "no_videos": "对不起，我们没有这个目的地的视频",
+    "view_map": "查看地图",
+    "stats": {
+      "budget": "预算估算",
+      "min_days": "最少花费天数",
+      "for_your_dates": "为了您的日期"
+    },
+    "show_videos_of": "向我展示${destination}的视频"
+  },
+  "feed": {
+    "for_you_card": {
+      "budget-friendly": "预算友好目的地",
+      "reasonably_priced": "价格合理的目的地",
+      "costly": "昂贵的目的地",
+      "very_expensive": "非常昂贵的目的地"
+    },
+    "price_types": [
+      "预算友好的目的地",
+      "价格合理的目的地",
+      "高价目的地",
+      "非常昂贵的目的地"
+    ],
+    "filters": {
+      "flight_price": "航班价格",
+      "flight_duration": "飞行时间",
+      "flight_connection": "航班连接",
+      "categories": "类别",
+      "flight_price_value": "最大飞行${value}",
+      "flight_duration_value": "最大飞行${value}",
+      "flight_connection_direct": "仅限直接"
+    },
+    "how_do_you_like_the_app": "你觉得这个应用怎么样？",
+    "direct_flights": "直达航班",
+    "show_only_direct_flights": "只显示直达航班",
+    "take_some_time": "花点时间给我们你宝贵的反馈，帮助我们改进。",
+    "give_us_feedback": "给我们反馈",
+    "flight_price_range": "航班价格范围",
+    "average_price": "平均价格 ${price}",
+    "or_less": "或更少",
+    "flight_time": "航班时间持续",
+    "average_duration": "平均持续时间 ${hours} h",
+    "round_hrs": "${val} 小时",
+    "one_way_with_bullet": "${code} 单程",
+    "something_went_wrong": "出了点问题",
+    "cant_show_results": "由于某种原因，我们无法向你显示结果。",
+    "awkward_nothing_returned": "这有点尴尬，没有找到搜索结果。请修改你的偏好设置再试一次。",
+    "add_interests": "增加兴趣点",
+    "spaces_read_more": "读取更多",
+    "count_destinations_for_you": "为您找到的美丽目的地有 ${count} 个",
+    "sorted_and_procured": "根据你的偏好进行排序和采购",
+    "scroll_down_to_see_more": "向下滚动查看更多信息",
+    "no_results_found": "未找到结果！",
+    "km_from": "${distance}km from ${city}",
+    "consider_broadening": "哎呀！根据你当前的偏好，我们无法找到任何匹配的结果。考虑扩大你的搜索范围，调整你的偏好设置以获取更多的选项。",
+    "return_with_bullet": "${code} 回程",
+    "approx_for_your_dates": "您所在日期的大致价格",
+    "or": "或"
+  },
+  "flights_feat": {
+    "flights_to": "飞往 ${to} 的航班",
+    "airport": "机场",
+    "destination_location_updated_successfully": "目的地位置已成功更新",
+    "all_filters": "所有筛选项",
+    "no_flights": "没有航班",
+    "estimated_price": "估计价格",
+    "livePrices": "实时价格",
+    "travelers_info_updated_successfully": "旅行者信息已成功更新",
+    "flight_details": "航班详情",
+    "where_from": "从哪里出发？",
+    "where_to": "去哪里？",
+    "city_country_airport": "城市，国家或机场...",
+    "popular_destinations": "热门目的地",
+    "my_current_location": "我的当前位置",
+    "search_destinations": "搜索目的地",
+    "current_location": "当前位置",
+    "departure_location_updated_successfully": "出发位置已成功更新",
+    "no_flights_found": "未找到航班",
+    "choose_new_departure_location": "选择新的出发地",
+    "selected_departure_destination": "选定的出发目的地",
+    "how_many_people": "多少人？",
+    "connection_in": "转机机场",
+    "total_for": {
+      "other": "共计 ${n} 位旅行者的费用"
+    },
+    "search_flights": "搜索航班",
+    "read_before_booking": "预订前请阅读",
+    "prices_include": "价格始终包含所有必要税费和费用的估算。在您预订之前，请在提供商的网站上检查所有机票详情、最终价格以及条款和条件。",
+    "check_for_extra_fees": "注意额外费用",
+    "some_airlines_and_travel_agencies": "一些航空公司和旅行社可能会对行李、保险或信用卡使用收取额外费用。他们也可能收取服务费。",
+    "check_terms": "检查12-16岁旅行者的条款",
+    "restrictions_may_apply": "独自旅行的年轻乘客可能受到限制。",
+    "although_sold_as": "尽管被标示为“经济舱”，但此行程可能包含一些不同舱位的航班。",
+    "check_cabin_class": "检查您的机舱等级",
+    "select_providers": "选择供应商",
+    "almost_there": "快要完成了！",
+    "economy_class": "经济舱",
+    "premium_economy_class": "超级经济舱",
+    "business_class": "商务舱",
+    "first_class": "头等舱",
+    "choose_provider": "选择供应商",
+    "go_to_site": "前往网站",
+    "dates_updated_successfully": "日期已成功更新",
+    "we_collected_cheapest_providers": "以下是Skyscanner值得信赖的旅行合作伙伴，可通过其预订航班 - 选择您想从中购买机票的网站！",
+    "travellers": {
+      "other": "${n} 位旅行者"
+    },
+    "provider_found": {
+      "other": "找到 ${n} 个供应商"
+    },
+    "passengers": {
+      "other": "${n} 位乘客"
+    },
+    "one_way": "单程",
+    "youll_arrive_next_day": "您将在第二天抵达"
+  },
+  "hotel": {
+    "sort_filters": {
+      "most_popular": "最受欢迎",
+      "best_rated": "评价最好",
+      "worst_rated": "评价最差",
+      "best_reviewed": "好评最多",
+      "worst_reviewed": "差评最多",
+      "star_rating_highest_first": "星级（从高到低）",
+      "star_rating_lowest_first": "星级（从低到高）",
+      "price_highest_first": "价格（从高到低）",
+      "price_lowest_first": "价格（从低到高）"
+    },
+    "filters": {
+      "budget": "你的预算（1晚）",
+      "travel_sustainable": "可持续旅行属性",
+      "star_rating": "星级",
+      "property_type": "房源类型",
+      "facilities": "设施",
+      "free_cancellation": "免费取消",
+      "chain": "连锁",
+      "review_score": "评分",
+      "room_facilities": "房间设施"
+    },
+    "filters_category": {
+      "five": "公平 5+",
+      "six": "舒适：6+",
+      "seven": "好：7+",
+      "eight": "很好：8+",
+      "nine": "精彩：9+"
+    },
+    "review_title": {
+      "five": "公平",
+      "six": "舒适",
+      "seven": "好",
+      "eight": "很好",
+      "nine": "精彩",
+      "three": "不好",
+      "two": "差",
+      "one": "很差",
+      "zero": "糟糕"
+    },
+    "property_type": {
+      "aparthotel": "公寓酒店",
+      "camping": "露营",
+      "inn": "旅馆",
+      "resort": "度假村",
+      "capsule-hotel": "胶囊旅馆",
+      "japanese-style-business-hotel": "日式商务旅馆",
+      "holiday-home": "假日房屋",
+      "guest-house": "客房",
+      "boat": "船房",
+      "love-hotel": "情侣旅馆",
+      "ryokan": "旅馆",
+      "tented-camp": "帐篷营地",
+      "hotel": "酒店",
+      "condo": "公寓",
+      "motel": "汽车旅馆",
+      "sanatorium": "疗养院",
+      "apartment": "公寓",
+      "villa": "别墅",
+      "gite": "农家乐",
+      "hostel": "旅舍",
+      "holiday-park": "度假公园",
+      "lodge": "小屋",
+      "cottage": "村舍",
+      "bed-and-breakfast": "民宿",
+      "homestay": "寄宿",
+      "farm-stay": "农场住宿",
+      "chalet": "木屋",
+      "riad": "利雅德",
+      "country-house": "乡村房屋"
+    },
+    "explore_tile": {
+      "stay_options": "住宿选择",
+      "layla_recommends": "Layla 推荐",
+      "budget": "预算",
+      "luxury": "豪华",
+      "find_more_stays": "查找更多住宿",
+      "things_to_do": "经历",
+      "show_all": "显示全部",
+      "travel_km_further": "再往前走 ${distance} 公里",
+      "get_route_details": "获取路线详情",
+      "flight_options": "航班选择",
+      "youre_in_luck": "你很幸运",
+      "prices_are_currenly_low": "目前价格较低",
+      "see_more_flights": "查看更多航班"
+    },
+    "cancellation_policy": "取消政策",
+    "before_you_book": "预订前，请确保您对这家酒店的取消政策感到满意。请记住，\"特殊情况 \"政策不包括因疾病或 COVID-19 导致的旅行中断而取消预订的情况。",
+    "property_views": "物业视图",
+    "all_reviews": "所有评论",
+    "no_hotels_found": "未找到酒店",
+    "no_videos": "对不起，我们没有这家酒店的视频",
+    "age_13": "13岁或以上",
+    "age_2_13": "2-13岁",
+    "hotel_name": "酒店名称",
+    "cancel_by": "取消日期",
+    "hotel_unavailable": "酒店不可用",
+    "hotel_unavailable_for_dates": "酒店在所选日期不可用",
+    "hotel_unavailable_message": "请更新日期。",
+    "full_refund": "全额退款：退还您支付的100%",
+    "no_refund": "无退款",
+    "select_age": "选择年龄",
+    "read_more_here": "在此处阅读更多",
+    "enter_destination": "输入目的地",
+    "search_destinations": "搜索目的地",
+    "travel_sustainable_level": "可持续旅行等级 ${level}",
+    "property_making_efforts": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
+    "sustainability_steps": "可持续发展的步骤",
+    "accept_credit_cards": "接受信用卡",
+    "important_information": "重要信息",
+    "check_in_time": "入住 & 退房时间",
+    "wifi_available": "Wi-Fi在所有区域可用，且不收费",
+    "free_parking": "在旁有免费公共停车处",
+    "pets_allowed": "允许携带宠物，可能需要额外收费",
+    "edit_your_search": "编辑您的搜索",
+    "no_photos": "对不起，我们没有这家酒店的照片",
+    "property_facilities": "物业设施",
+    "filter_and_sort": "过滤 & 排序",
+    "partial_refund": "部分退款：退还您每晚${name}%的费用。服务费不退款",
+    "check_availability": "检查可用性",
+    "select_dates": "选择日期",
+    "detailed_reviews": {
+      "other": "${n}个详细评论"
+    },
+    "rooms_and_guests": "房间 & 宾客",
+    "stays_close_by": "附近的住宿",
+    "house_rules": "房规",
+    "levelDescription": "此物业正在做出相当的投资和努力，以变得更为持久。根据他们的规模和位置，衡量其环境和社会影响",
+    "sustainable_level": "可持续旅行等级 ${level}",
+    "property_location": "物业位置",
+    "select_a_room": "选择一个房间",
+    "select_rooms_and_guests": "选择房间和宾客",
+    "age_13_or_above": "13岁或以上",
+    "what_people_said": "人们怎么说",
+    "what_people_loved": "人们喜欢这个地方的原因",
+    "read_all_reviews": "阅读所有评论",
+    "see_all": "查看所有 ${count}",
+    "what_this_place_offers": "此地能够提供",
+    "share_text": "看看这家酒店：${name}",
+    "price_for_night": {
+      "other": "价格 ${n} 晚"
+    }
+  },
+  "language": {
+    "select_language": "选择语言"
+  },
+  "know_more": {
+    "know_more": "了解更多",
+    "ask_city_country": "关于${city}, ${country}的任何问题",
+    "ask_something_more": "多问一些....",
+    "generating_answer": "正在生成答案...",
+    "answer_generated": "答案已生成！",
+    "is_it_safe_for": "对游客安全吗？",
+    "question1": "什么时候去那里最好？",
+    "question2": "天气如何？",
+    "question3": "这里有什么景点？",
+    "question4": "告诉我关于它的历史。"
+  },
+  "onboarding": {
+    "what_are_you_interested_in": "你对什么感兴趣？",
+    "pick_cards": "选择3张或更多卡片",
+    "where_will_you_depart_from": "你会从哪里出发？",
+    "for_best_results": "为了获得最佳效果，请分享你的位置",
+    "allow_location_access": "允许访问位置",
+    "interests": {
+      "title": "你对什么感兴趣？",
+      "subtitle": "添加更多感兴趣的内容，我们将开始为您进行个性化推荐。"
+    },
+    "location": {
+      "title": "您从哪里旅行？",
+      "message": "告诉我你的位置，我会安排你的下一次探险",
+      "button": "允许位置访问"
+    },
+    "push_notifications": {
+      "button": "允许推送通知",
+      "body": "让我在找到好的交易时通知你",
+      "notification_body": "刚为你找到了去拉普兰的超便宜航班！我们去看北极光怎么样？👀",
+      "skip": "不，谢谢，改天再说！",
+      "title": "收到通知！"
+    }
+  },
+  "profile": {
+    "spread_the_word": "推广",
+    "invite_friends": "邀请好友",
+    "privacy_policy": "隐私政策",
+    "imprint": "版本说明",
+    "privacy_and_sharing": "隐私和分享",
+    "delete_profile": "删除资料",
+    "delete_profile_message": "您确定要删除您的账户吗？",
+    "dont_have_account": "还没有账户？",
+    "log_in_to_start_planning": "登录开始规划您的下次旅行",
+    "logout": "注销",
+    "edit_profile_name": "编辑档案名称",
+    "take_photo": "拍照",
+    "choose_photo": "选择照片",
+    "set_profile_image": "设置个人资料图片",
+    "first_name": "名",
+    "last_name": "姓",
+    "edit_profile": "编辑个人资料",
+    "member_since": "自${date}以来的成员",
+    "share_message": "嘿，来看看Layla。她可以帮助我们规划所有的旅行，并给我们提供去哪里的灵感：${link}",
+    "terms_of_service": "服务条款",
+    "account_already_linked": "账号已经被链接",
+    "account_already_linked_message": "此账号已经链接到其他用户。您是否想以此用户身份登录？",
+    "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
+    "new_chat_login": "要开始新的聊天，请登录"
+  },
+  "auth": {
+    "email": "电子邮件",
+    "password": "密码",
+    "forgot_password": "忘记密码？",
+    "create_account": "创建账户",
+    "reset_password": "重置密码",
+    "reset_password_description": "输入您的电子邮件地址，我们将向您发送重置密码的链接。",
+    "send_link": "发送链接",
+    "email_required": "电子邮件为必填项",
+    "email_invalid": "请输入有效的电子邮件地址",
+    "password_required": "密码为必填项",
+    "password_min_length": "密码必须至少包含6个字符"
+  },
+  "splash": {
+    "discover_where_to": "发现下一个\n飞行目标。",
+    "please_sign_in_to_continue": "请登录以继续。"
+  },
+  "travel_setting": {
+    "what_do_you_want_in_your_trip": "你在旅行中想要什么？",
+    "when_is_your_trip": "你的旅行是什么时候？",
+    "go_var": "去${val}",
+    "flexible_dates": "日期灵活",
+    "exact_dates": "具体日期",
+    "select_origin": "选择起点",
+    "add_details": "添加详细信息",
+    "your_preferences_will_appear_here": "您的偏好将显示在这里"
+  },
+  "thing_todo": {
+    "things_to_do": "经历"
+  },
+  "share_dialog": {
+    "title": "分享",
+    "copy": "复制",
+    "share_destination": "分享这个目的地",
+    "share_hotel": "分享这家酒店",
+    "share_itinerary": "分享这个行程",
+    "share_bucketlist": "邀请朋友加入您的遗愿清单"
+  },
+  "about_screen": {
+    "title": "关于我，Layla。",
+    "subtitle": "用Layla导航世界；AI旅行规划师和你的终极旅行伙伴。",
+    "block_1": "嘿，大家好，我是你们的女孩，Layla，我非常兴奋地要向你们透露你们最新的旅行痴迷——我！你知道我们都喜欢计划那些即兴的旅行，过我们最好的冒险生活，对吧？好吧，我基本上就是你的决定生死的旅行AI，帮助你找到新的去处，让你的旅行梦想成为现实。让我为你解释一下...",
+    "block_2": "首先，人们经常说“Layla就像旅行灵感的仙女教母”。别再花费数小时无意义地在Instagram或Pinterest上滚动了——作为一名AI旅行规划师，我会根据您的兴趣提供个性化的旅行建议。相信我，我有一种第六感，可以发现你以前从未听说过的最酷的度假胜地。和我聊天就像拥有自己的旅行顾问，而不需要花费大笔的费用。",
+    "block_3": "现在，我知道你在想什么 - \"我真的需要另一个堆积在我手机上的旅行应用吗？\" 听我说，宝贝。Layla不仅仅是另一个应用；它是一个游戏规则改变者。想象一下：你告诉我你的感觉，无论是海滩的幸福，城市的灯光，还是山峰的高度，然后砰 - 我会为你找到一大堆专为你量身定制的目的地，配有视频，这样你就可以轻松感受每个地方的氛围。",
+    "block_4": "最棒的部分？和我，Layla，聊天可以让你规划旅行变得轻松。再也不用打开一大堆网页，试图找到最好的航班、酒店和活动。我已经为你准备好了。我会在网上寻找最热门的目的地，找到那些价格合理的航班，还会帮你预定在Insta上值得炫耀的住宿。你只需要打包行李，看起来可爱就行了。",
+    "block_5": "现在，让我们谈谈预订。我在这里简化您的旅行预订流程，从寻找您梦想中的目的地到获得最优惠的价格。人工智能在这里让事情变得如此简单，即使是技术挑战的女王也可以处理它。此外，您可以相信 Layla 会支持您——没有阴暗的预订网站或简陋的住宿——我已经与 Skyscanner 和 Booking.com 合作。",
+    "block_6": "但是等等，还有更多。人工智能不仅能帮助你计划，一旦你开始旅行，我就是你探索新城市的终极女僚机。拥有必看景点、隐藏的宝石和最时尚的当地关节。我会带你去所有当地人实际挂的地方。",
+    "block_7": "所以，如果你厌倦了千篇一律，准备给你的旅行游戏增添一些新鲜感，就对我说声你好，我是Layla。我不仅仅是一个AI；我是你计划旅行方式的改变者，也是旅行氛围的策划者，以及你的世界通行证。准备好自信地出发吧，我的爱人们，因为Layla已经为你的旅行梦想做好了准备。\n\n冒险等待着你 ✈️💖",
+    "button": "和Layla聊天"
+  },
+  "download_app": {
+    "title": "下载应用程序",
+    "subtitle": "获取该应用程序，获得最佳的 Layla 体验。一站式享受个性化推荐和旅行计划！",
+    "button": "免费下载Layla"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "使用 AI 添加一天",
+        "hint": "你想在这一天做些什么？",
+        "button": "增加天数"
+      },
+      "modify": {
+        "title": "使用人工智能进行修改",
+        "hint": "您想在 ${index} 日做什么？",
+        "button": "生成"
+      }
+    },
+    "find_hotels_in": "在${location}找到惊人的酒店。",
+    "find_amazing_hotels": "找到惊人的酒店",
+    "bedTimeRecommendedText": "为了获得平衡的住宿，选择<hotelLink>提供了舒适和便利的绝佳组合。",
+    "bedTimeLuxuryText": "那些寻求高档体验的人可以选择<hotelLink>，它提供优质的设施和卓越的服务。",
+    "bedTimeBudgetText": "预算有限的游客可以选择更实惠的选项，如<hotelLink>，在不超支的情况下提供基本的舒适。\n\n 每种类型的住宿都能确保愉快的住宿，满足不同的偏好和预算。"
+  },
+  "video_category": [
+    "探险",
+    "文化",
+    "海滩",
+    "城市",
+    "食品和饮料",
+    "隐藏的宝石",
+    "豪华",
+    "自然",
+    "放松",
+    "浪漫",
+    "体育",
+    "顶级类别",
+    "经历"
+  ],
+  "videoSubCategory": [
+    "活动",
+    "游艇和游轮",
+    "花园和公园",
+    "酒吧",
+    "餐厅和咖啡馆",
+    "免费活动",
+    "夜店",
+    "节日和活动",
+    "艺术画廊和博物馆"
+  ],
+  "weekdays_short": [
+    "周一",
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+  ],
+  "adults": {
+    "other": "${n}位成年人"
+  },
+  "dayN": "天 ${n}",
+  "days": {
+    "other": "${n}天"
+  },
+  "children": {
+    "other": "${n}位儿童"
+  },
+  "guest": {
+    "other": "${n}位客人"
+  },
+  "room": {
+    "other": "${n}间房"
+  },
+  "person": {
+    "other": "${n}个人"
+  },
+  "review": {
+    "other": "${n}个评论"
+  },
+  "rooms": {
+    "other": "${n}间房"
+  },
+  "stop": {
+    "other": "${n}停"
+  },
+  "stop_plus": {
+    "other": "${n}+停"
+  },
+  "traveller": {
+    "other": "${n}位旅行者"
+  },
+  "age": {
+    "other": "${n}岁"
+  },
+  "about": "关于",
+  "activity": "活动",
+  "afternoon": "下午",
+  "allow": "允许",
+  "anything": "任何事情",
+  "anytime": "任何时候",
+  "anywhere": "任何地方",
+  "adultsWord": "成年人",
+  "app": "应用",
+  "apply": "应用",
+  "around": "周围",
+  "arrival": "到达",
+  "away": "离开",
+  "best": "最好",
+  "bucketlists": "愿望清单",
+  "bucketlistWord": "愿望清单",
+  "cancel": "取消",
+  "change": "更改",
+  "charactersWord": {
+    "other": "${n}个字符"
+  },
+  "checkIn": "入住",
+  "cheapest": "最便宜",
+  "child": "儿童",
+  "childrenWord": "儿童",
+  "classWord": "类",
+  "clear": "清楚",
+  "clear_all": "清除全部",
+  "collaborators": "合作者",
+  "confirm": "确认",
+  "contact": "联系方式",
+  "contact_us": "联系我们",
+  "continue_label": "继续",
+  "create": "创建",
+  "creator": "创建者",
+  "currency": "货币",
+  "daysWord": "天",
+  "dates": "日期",
+  "deals": "交易",
+  "delete": "删除",
+  "departure": "出发",
+  "description": "描述",
+  "destination": "目的地",
+  "destinationsWord": "目的地",
+  "direct": "直达",
+  "done": "完成",
+  "duration": "持续时间",
+  "edit": "编辑",
+  "editDates": "编辑日期",
+  "editDetails": "编辑详情",
+  "evening": "晚上",
+  "experiences": "体验",
+  "explore": "探索",
+  "fastest": "最快",
+  "feedback": "反馈",
+  "filter_by": "筛选条件",
+  "filters": "筛选器",
+  "flight": "航班",
+  "flights": "航班",
+  "from": "从",
+  "from_var": "从 ${name}",
+  "help": "帮助",
+  "hotelWord": "酒店",
+  "hotels": "酒店",
+  "infants": "婴儿",
+  "itinerary": "行程",
+  "know_more_word": "了解更多",
+  "languageWord": "语言",
+  "leave": "离开",
+  "legal": "法律",
+  "login": "登录",
+  "location": "位置",
+  "map": "地图",
+  "month": "月",
+  "more": "更多",
+  "morning": "早上",
+  "name": "名称",
+  "next": "下一个",
+  "nightWord": "晚",
+  "nights": {
+    "other": "夜晚"
+  },
+  "nightsWithNum": {
+    "other": "${n} 晚"
+  },
+  "opps": "哎呀！",
+  "one_way": "单程",
+  "pets": "宠物",
+  "photos": "照片",
+  "plan": "计划",
+  "preferences": "首选项",
+  "profileWord": "个人档案",
+  "powered_by": "由...提供技术支持",
+  "read_more": "阅读更多",
+  "remove": "移除",
+  "rename": "重命名",
+  "reset": "重置",
+  "returnWord": "返回",
+  "roomsWord": "房间",
+  "search": "搜索",
+  "save": "保存",
+  "saved_to": "保存至",
+  "see_all": "查看全部",
+  "see_more": "看更多",
+  "select": "选择",
+  "select_dates": "选择日期",
+  "selected": "已选择",
+  "settings": "设置",
+  "share": "分享",
+  "show_more": "显示更多",
+  "show_more_flights": "显示更多航班",
+  "sign_in": "登录",
+  "sign_up": "注册",
+  "show_less": "显示更少",
+  "support": "支持",
+  "skip": "跳过",
+  "skip_for_now": "暂时跳过",
+  "sort_by": "排序方式",
+  "stars": {
+    "other": "${n} 星"
+  },
+  "start": "开始",
+  "star_new_chat": "开始新聊天",
+  "stops": "停靠",
+  "times": "次",
+  "to": "到",
+  "today": "今天",
+  "total": "总计",
+  "transit": "交通",
+  "travelers": "旅行者",
+  "trip": {
+    "title": "旅行",
+    "header": {
+      "daysLabel": "${count} 天",
+      "adultsLabel": "${count} 成人",
+      "chooseDate": "选择日期",
+      "inviteSomeone": "邀请某人加入您的旅行"
+    },
+    "sections": {
+      "yourFlights": "您的航班",
+      "yourTransports": "您的交通",
+      "yourStays": "您的住宿",
+      "yourDestinations": "您的目的地",
+      "yourAccommodation": "您的住宿",
+      "yourExperiences": "您的体验",
+      "days": "Days"
+    },
+    "emptyStates": {
+      "noFlightsFound": "未找到航班",
+      "noTransportationFound": "未找到交通工具",
+      "noStaysFound": "未找到住宿",
+      "noDestinationsFound": "未找到目的地",
+      "mapViewUnavailable": "地图视图不可用",
+      "mapViewNoLocations": "地图视图 - 没有可用位置",
+      "dayNotFound": "未找到日期"
+    },
+    "flight": {
+      "title": "航班",
+      "perPerson": "/人",
+      "direct": "直飞",
+      "oneStop": "1次中转",
+      "stops": "${count}次中转",
+      "bookThisFlight": "预订此航班",
+      "totalDuration": "总时长 ${duration}",
+      "layoverAt": "中转 ${airport}: ${duration}"
+    },
+    "hotel": {
+      "title": "酒店",
+      "yourStay": "您的住宿",
+      "reviews": "${count}条评论",
+      "viewDetails": "查看详情",
+      "bookThisHotel": "预订此酒店",
+      "ratingSnapshot": "评分概览"
+    },
+    "destination": {
+      "dayLabel": "第${start}天 - 第${end}天",
+      "experience": "${count}个体验",
+      "experiences": "${count}个体验",
+      "total": "总计"
+    },
+    "transport": {
+      "title": "交通",
+      "pickUp": "上车",
+      "dropOff": "下车",
+      "bookThisCar": "预订此车",
+      "bookThisBus": "预订此巴士",
+      "bookThisTrain": "预订此火车",
+      "bookThisBoat": "预订此船",
+      "bookThisTransfer": "预订此接送"
+    },
+    "restaurant": {
+      "title": "餐厅"
+    },
+    "experience": {
+      "title": "体验",
+      "activity": "活动",
+      "attraction": "景点",
+      "free": "免费",
+      "clickToSeePrice": "点击查看价格",
+      "reviewsCount": "${count}条评论"
+    },
+    "actions": {
+      "change": "更改",
+      "getLivePrices": "获取实时价格",
+      "bookNow": "立即预订",
+      "bookThisTrip": "预订此行程",
+      "customizeTrip": "定制行程",
+      "share": "分享",
+      "delete": "删除",
+      "invite": "邀请"
+    },
+    "tabs": {
+      "overview": "概览",
+      "chat": "聊天",
+      "trip": "行程",
+      "cart": "购物车"
+    },
+    "messages": {
+      "inviteComingSoon": "邀请 - 即将推出",
+      "deleteTransportComingSoon": "删除交通 - 即将推出",
+      "flightDetailsComingSoon": "航班详情 - 即将推出",
+      "bookTripComingSoon": "预订行程 - 即将推出",
+      "shareComingSoon": "分享 - 即将推出",
+      "deleteComingSoon": "删除 - 即将推出",
+      "changeComingSoon": "更改 - 即将推出",
+      "fetchingLivePrices": "正在获取实时价格...",
+      "livePricesRequested": "已请求实时价格！价格将很快更新。",
+      "failedLivePrices": "无法请求实时价格。请重试。",
+      "errorLegNotFound": "错误：在行程中未找到航段",
+      "removingHotelFromTrip": "正在从行程中删除酒店...",
+      "hotelRemovedSuccessfully": "酒店已成功删除",
+      "failedRemoveHotel": "无法删除酒店。请重试。",
+      "failedRemoveFlight": "无法删除航班。请重试。",
+      "updatingCarOption": "正在更新汽车选项...",
+      "transportOptionUpdated": "交通选项已成功更新",
+      "failedUpdateTransport": "无法更新交通选项",
+      "failedDeleteExperience": "无法删除体验。请重试。",
+      "failedDeleteActivity": "无法删除活动。请重试。",
+      "failedDeleteAttraction": "无法删除景点。请重试。",
+      "failedDeleteRestaurant": "无法删除餐厅。请重试。",
+      "noFlightUrl": "此航班没有可用的URL。"
+    },
+    "dialogs": {
+      "removeFlight": {
+        "title": "删除航班",
+        "message": "您确定要删除从${from}到${to}的航班吗？",
+        "cancel": "取消",
+        "remove": "删除"
+      },
+      "removeHotel": {
+        "title": "删除酒店",
+        "message": "您确定要从行程中删除此酒店吗？",
+        "cancel": "取消",
+        "remove": "删除"
+      },
+      "removeExperience": {
+        "title": "删除体验",
+        "message": "您确定要从行程中删除此体验吗？",
+        "cancel": "取消",
+        "remove": "删除"
+      }
+    },
+    "change": {
+      "flights": {
+        "selectFlight": "选择航班",
+        "fromTo": "从${from}到${to}",
+        "fromToWithIata": "从${fromCity} (${fromIata}) 到${toCity} (${toIata})",
+        "smartFilter": "智能筛选",
+        "poweredByLaylaAI": "由Layla AI提供支持",
+        "searchFlightsHint": "为我找到10点前降落的直飞航班",
+        "searchFlights": "搜索航班",
+        "noFlightsFound": "未找到航班",
+        "tryAdjustingQuery": "尝试调整您的搜索查询",
+        "totalCost": "总费用",
+        "selected": "已选择",
+        "adult": "成人",
+        "adults": "成人",
+        "child": "儿童",
+        "children": "儿童",
+        "traveler": "旅客",
+        "travelers": "旅客",
+        "failedSearch": "无法搜索航班。请重试。",
+        "nonStop": "直飞",
+        "layoverIn": "在${airport}中转${duration}",
+        "confirmReplaceFlightTitle": "替换航班？",
+        "confirmReplaceFlightMessage": "您确定要用所选航班替换当前航班吗？"
+      },
+      "hotels": {
+        "selectHotel": "选择酒店",
+        "hotelsIn": "${location}的酒店",
+        "smartFilter": "智能筛选",
+        "poweredByLaylaAI": "由Layla AI提供支持",
+        "searchHotelsHint": "查找提供免费取消和早餐的酒店",
+        "searchHotels": "搜索酒店",
+        "freeCancellation": "免费取消",
+        "rating8Plus": "8+评分",
+        "swimmingPool": "游泳池",
+        "parking": "停车场",
+        "priceRange": "价格范围",
+        "price": "价格",
+        "clearAll": "清除所有",
+        "noHotelsFound": "未找到酒店",
+        "noHotelsMatchFilters": "没有酒店符合您的筛选条件",
+        "tryAdjustingFilters": "尝试调整您的筛选条件",
+        "trySearchingHotels": "尝试在此位置搜索酒店",
+        "failedSearch": "无法搜索酒店。请重试。",
+        "failedAdd": "无法添加酒店。请重试。",
+        "confirmReplaceHotelTitle": "替换酒店？",
+        "confirmReplaceHotelMessage": "您确定要用所选酒店替换当前酒店吗？"
+      },
+      "transport": {
+        "selectFlight": "选择航班",
+        "origin": "出发地",
+        "destination": "目的地",
+        "noFlightOptionsAvailable": "无可用航班选项",
+        "cheapest": "最便宜",
+        "latest": "最新"
+      },
+      "cars": {
+        "carRental": "租车",
+        "carRentalIn": "${location}的租车",
+        "carRentalFromTo": "租车：${from}到${to}",
+        "smartFilter": "智能筛选",
+        "poweredByLaylaAI": "由Layla AI提供支持",
+        "searchCarRentalsHint": "为我找到自动挡SUV",
+        "searchCarRentals": "搜索租车",
+        "noCarRentalsFound": "未找到租车",
+        "tryAdjustingCriteria": "尝试调整您的搜索条件",
+        "failedSearch": "无法搜索租车。请重试。"
+      },
+      "activities": {
+        "activities": "活动",
+        "activitiesIn": "${city}的活动",
+        "smartFilter": "智能筛选",
+        "poweredByLaylaAI": "由Layla AI提供支持",
+        "searchActivitiesHint": "为我找到户外活动或博物馆",
+        "searchActivities": "搜索活动",
+        "noActivitiesFound": "未找到活动",
+        "tryAdjustingCriteria": "尝试调整您的搜索条件",
+        "failedSearch": "无法搜索活动。请重试。",
+        "failedAdd": "无法添加活动。请重试。",
+        "confirmAddActivityTitle": "添加${activityName}？",
+        "confirmRemoveActivityTitle": "删除${activityName}？",
+        "confirmReplaceActivityTitle": "替换为${activityName}？",
+        "confirmAddActivityMessage": "您确定要将${activityName}添加到您的行程中吗？",
+        "confirmRemoveActivityMessage": "您确定要从您的行程中删除${activityName}吗？",
+        "confirmReplaceActivityMessage": "您确定要用${activityName}替换当前活动吗？"
+      },
+      "attractions": {
+        "attractions": "景点",
+        "attractionsIn": "${city}的景点",
+        "smartFilter": "智能筛选",
+        "poweredByLaylaAI": "由Layla AI提供支持",
+        "searchAttractionsHint": "为我找到历史地标或纪念碑",
+        "searchAttractions": "搜索景点",
+        "noAttractionsFound": "未找到景点",
+        "tryAdjustingCriteria": "尝试调整您的搜索条件",
+        "failedSearch": "无法搜索景点。请重试。",
+        "failedAdd": "无法添加景点。请重试。",
+        "confirmAddAttractionTitle": "添加${attractionName}？",
+        "confirmRemoveAttractionTitle": "删除${attractionName}？",
+        "confirmReplaceAttractionTitle": "替换为${attractionName}？",
+        "confirmAddAttractionMessage": "您确定要将${attractionName}添加到您的行程中吗？",
+        "confirmRemoveAttractionMessage": "您确定要从您的行程中删除${attractionName}吗？",
+        "confirmReplaceAttractionMessage": "您确定要用${attractionName}替换当前景点吗？"
+      }
+    },
+    "transfer": {
+      "carTransfer": "汽车接送",
+      "busTransfer": "巴士接送",
+      "trainTransfer": "火车接送",
+      "boatTransfer": "船只接送",
+      "transfer": "接送",
+      "findAlternative": "寻找替代方案",
+      "fromTo": "${from}到${to}",
+      "oneStop": "1次中转",
+      "stops": "${count}次中转"
+    },
+    "carTransport": {
+      "transport": "交通",
+      "laylaAIReviewSummary": "Layla AI评论摘要",
+      "placeholderReviewText": "人们说这是有史以来最美丽的地方，有些人提到...",
+      "findAlternative": "寻找替代方案"
+    },
+    "common": {
+      "perPerson": "每人 ",
+      "total": "总计",
+      "reviews": "${count}条评论",
+      "viewOnMap": "在地图上查看"
+    },
+    "map": {
+      "hotels": "酒店",
+      "activity": "活动",
+      "attraction": "景点",
+      "pointOfInterest": "兴趣点",
+      "restaurant": "餐厅",
+      "emptyState": "地图视图 - 没有可用位置",
+      "addressNotAvailable": "地址不可用",
+      "locationNotAvailable": "位置不可用",
+      "reviews": "评论",
+      "viewOnGoogleMaps": "在谷歌地图上查看",
+      "viewDetails": "查看详情",
+      "perNight": "/晚",
+      "unknown": "未知",
+      "ratings": {
+        "exceptional": "卓越",
+        "wonderful": "精彩",
+        "veryGood": "非常好",
+        "good": "好",
+        "pleasant": "愉快",
+        "average": "一般"
+      }
+    },
+    "addExperience": {
+      "title": "添加体验",
+      "activityTitle": "活动",
+      "activityDescription": "添加门票活动或体验",
+      "attractionTitle": "景点",
+      "attractionDescription": "添加要参观或查看的地方"
+    },
+    "cards": {
+      "dayCard": {
+        "day": "天",
+        "dayLabel": "第${n}天",
+        "experience": "体验",
+        "experiences": "体验",
+        "total": "总计"
+      },
+      "carCard": {
+        "yourRental": "您的租车",
+        "pickUp": "上车",
+        "dropOff": "下车",
+        "selected": "已选择",
+        "addToTrip": "添加到行程",
+        "perTotal": "/总计",
+        "freeCancellation": "免费取消",
+        "at": "在"
+      },
+      "flightCard": {
+        "selected": "已选择",
+        "addToTrip": "添加到行程",
+        "perPerson": "/人",
+        "nonStop": "直飞",
+        "oneStop": "1次中转",
+        "stops": "中转"
+      },
+      "hotelCard": {
+        "reviews": "评论",
+        "selected": "已选择",
+        "addToTrip": "添加到行程",
+        "total": "总计"
+      }
+    },
+    "widgets": {
+      "addExperienceButton": "添加体验",
+      "dayLabel": "第${n}天",
+      "yourStay": "您的住宿",
+      "transport": "交通",
+      "yourDayByDay": "您的每日行程",
+      "failedToLoadTrip": "无法加载行程",
+      "retry": "重试"
+    },
+    "transportType": {
+      "flight": "航班",
+      "train": "火车",
+      "bus": "巴士",
+      "car": "汽车",
+      "ferry": "渡轮",
+      "transportation": "交通"
+    },
+    "cabinClass": {
+      "economy": "经济舱",
+      "premiumEconomy": "超级经济舱",
+      "business": "商务舱",
+      "first": "头等舱"
+    },
+    "travelerFormat": {
+      "forAdults": " 为${count}${word}",
+      "andChildren": " 和${count}${word}",
+      "adult": "成人",
+      "adults": "成人",
+      "child": "儿童",
+      "children": "儿童"
+    },
+    "basket": {
+      "title": "订单摘要",
+      "item": "项目",
+      "items": "项目",
+      "orderSummary": "订单摘要",
+      "priceChangeAlert": {
+        "title": "价格可能已更改",
+        "description": "旅行价格经常变化。显示的价格为估算价格，预订时可能会有所不同。"
+      },
+      "location": "位置",
+      "dates": "日期",
+      "travelers": "旅客",
+      "traveler": "旅客",
+      "noItemsInBasket": "您的行程中还没有可预订的项目。添加酒店、航班或活动即可开始！",
+      "legTitle": "${location}（第${days}天）"
+    },
+    "overview": {
+      "madeBy": "由 ${creator} 创建",
+      "highlightsTitle": "行程亮点一览",
+      "showAll": "查看全部",
+      "showAllFlights": "查看所有航班",
+      "showAllStays": "查看所有住宿",
+      "showAllActivities": "查看所有活动",
+      "showAllTransfers": "查看所有接送",
+      "showAllRentals": "查看所有租车",
+      "dayLabel": "第 ${number} 天",
+      "sections": {
+        "itinerary": "行程",
+        "route": "路线",
+        "flights": "航班",
+        "stays": "住宿",
+        "activities": "活动",
+        "transfers": "专属接送",
+        "rental": "租车"
+      },
+      "hotel": {
+        "night": {
+          "one": "${n} 晚",
+          "other": "${n} 晚"
+        },
+        "stars": {
+          "one": "${n} 星",
+          "other": "${n} 星"
+        }
+      },
+      "activity": {
+        "durationMin": "${n} 分钟",
+        "durationHr": "${n} 小时",
+        "durationDay": {
+          "one": "${n} 天",
+          "other": "${n} 天"
+        }
+      }
+    },
+    "lists": {
+      "noActivitiesFound": "未找到活动",
+      "noStaysFound": "未找到住宿",
+      "noFlightsFound": "未找到航班",
+      "noRentalsFound": "未找到租车",
+      "perPerson": "每人",
+      "free": "免费",
+      "transportFlight": "航班",
+      "transportTrain": "火车",
+      "transportRental": "租车"
+    }
+  },
+  "tripWord": "旅行",
+  "unknown_error": "未知错误",
+  "unknown_name": "未知名称",
+  "update": "更新",
+  "user_cancelled": "用户取消",
+  "varTotal": "${n} 总计",
+  "videos": "视频",
+  "view": "查看",
+  "view_details": "查看详情",
+  "weekend": "周末",
+  "week": "周",
+  "what": "什么",
+  "what_can_i_ask": "我能问什么呢？",
+  "when": "何时",
+  "where_to": "去哪里",
+  "where_from": "从哪里出发",
+  "yesterday": "昨天",
+  "time_ago": {
+    "years": {
+      "other": "${n}年前"
+    },
+    "months": {
+      "other": "${n}个月前"
+    },
+    "days": {
+      "other": "${n}天前"
+    },
+    "hours": {
+      "other": "${n}小时前"
+    },
+    "minutes": {
+      "other": "${n}分钟前"
+    },
+    "seconds": {
+      "other": "${n}秒前"
+    },
+    "just_now": "现在"
+  },
+  "characters_left": {
+    "other": "剩余${n}个字符"
+  },
+  "faq": "常问问题",
+  "internet_offline": "Internet 连接似乎处于脱机状态。请再试一次。",
+  "location_denied": {
+    "message": "这可能是因为您没有启用定位服务。要启用此功能，请访问设置> 隐私> 定位服务",
+    "open_settings": "打开设置",
+    "title": "当前位置不可用"
+  },
+  "ok": "好的",
+  "permissions_dialog": {
+    "permissions_required": "所需权限",
+    "message_photos": "为了更新你的照片，Layla需要访问照片。",
+    "message_camera": "Layla需要访问相机才能更新你的照片。",
+    "deny": "拒绝"
+  },
+  "open": "打开",
+  "bedtime": "睡觉时间",
+  "user": "用户",
+  "trip_page": {
+    "travel_tip": "旅行贴士",
+    "daily_itinerary": "每日行程",
+    "day_by_day_plan": "${destination}的逐日计划",
+    "creator_tips": "创作者建议",
+    "creator_videos": "创作者视频",
+    "your_accommodation": "您的住宿",
+    "guest_reviews": "客人评论",
+    "pricing_details": "价格详情",
+    "price_per_night": "每晚价格",
+    "per_night": "每晚",
+    "total_price": "总价",
+    "great_value": "超值",
+    "things_to_do": "可做的事",
+    "activity": "活动",
+    "attraction": "景点",
+    "sitesAroundTitle": "${city}周边景点",
+    "sitesAroundSubtitle": "发现您目的地附近的地方",
+    "seeAll": "查看全部",
+    "videoModalComingSoon": "完整视频库即将推出！",
+    "videosAvailable": "可用视频",
+    "close": "关闭",
+    "add_hotel": "添加酒店",
+    "add_transportation": "添加交通",
+    "retry": "重试",
+    "map_unavailable": "地图不可用",
+    "dates_tbd": "日期待定"
+  },
+  "trip_sharing": {
+    "title": "分享您的行程",
+    "share": "分享",
+    "copyLink": "复制链接",
+    "linkCopied": "链接已复制",
+    "dayByDay": "逐日行程",
+    "highlights": "精彩亮点",
+    "day": "日",
+    "category": "类别"
+  },
+  "paywall": {
+    "title": "解锁您的完整旅程",
+    "subtitle": "使用高级版继续进行无限规划和独家节省。",
+    "feature_complete_itinerary": "一个完整、无压力的行程",
+    "feature_download_share": "随时下载、分享和编辑",
+    "price_with_trial": "从${days}天免费试用开始。试用后价格${price}。",
+    "price_only": "价格 ${price}",
+    "processing": "处理中...",
+    "unlock_now": "立即解锁",
+    "become_subscriber": "成为订阅者"
+  },
+  "data_consent": {
+    "title": "数据隐私",
+    "allow": "允许",
+    "dont_allow": "不允许",
+    "privacy_policy": "隐私政策",
+    "turn_on": "开启",
+    "learn_more": "了解更多",
+    "openai": "OpenAI (ChatGPT)",
+    "google": "Google (Gemini)",
+    "body": {
+      "intro": "为了创建您的行程，我们将向",
+      "messages_you_enter": "您输入的消息",
+      "and_the": "和",
+      "trip_details_you_provide": "您提供的旅行详情",
+      "details_suffix": "（例如目的地、日期、预算、偏好、旅行者人数及其他信息）发送至",
+      "provider_and": "和",
+      "processing": "进行处理。",
+      "warning": "如果您不允许，AI对话和行程规划功能将无法使用。",
+      "settings_note": "您可以随时在设置中更改此选项。请查看我们的",
+      "settings_note_end": "了解详情。"
+    },
+    "profile": {
+      "title": "AI旅行规划（OpenAI & Google）",
+      "subtitle_before": "开启后，您输入的消息和提供的旅行详情将发送至",
+      "subtitle_after": "以生成您的行程。关闭以禁用AI对话和规划。"
+    },
+    "locked": {
+      "title": "AI规划已关闭",
+      "subtitle": "在设置中启用AI处理以开始对话并生成旅行计划。"
+    }
+  },
+  "trip_book": {
+    "accommodations": "住宿",
+    "flights": "航班",
+    "private_transport": "私人交通",
+    "experiences": "体验",
+    "save_on_booking": "与单独预订相比，节省 ${amount}",
+    "layla_brings_deals": "Layla 为您带来最佳优惠。",
+    "title": "预订行程",
+    "book": "预订",
+    "delete": "删除",
+    "alternative": "替代方案",
+    "experts_title": "与我们的专家一起预订此行程",
+    "benefit1_title": "节省超过 32 小时的规划时间",
+    "benefit1_description": "放松一下——我们的专家会为您处理每一个细节。",
+    "benefit2_title": "处理超过 12 项个人预订",
+    "benefit2_description": "酒店、航班、活动——我们为您梦想之旅协调一切。",
+    "benefit3_title": "无缝安排超过 9 次接送",
+    "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
+    "continue_with_human": "继续与人工顾问预订",
+    "continue_with_booking": "继续预订"
+  }
 }

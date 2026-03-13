@@ -1,1430 +1,1447 @@
 {
-    "blog": {
-        "postNotFound": "Bitte überprüfe die URL-Adresse, wir haben keinen solchen Beitrag.",
-        "askLaylaAbout": "Frage Layla nach ${name}",
-        "travellerQuestion": "Ich möchte mehr über ${name} als Reisenden erfahren.",
-        "blog": "Blog",
-        "blogs": "Blogs",
-        "noBlogs": "Keine Blogs gefunden"
-    },
-    "chatbot": {
-        "onboarding": {
-            "page_one": {
-                "title": "Entdecke dein nächstes Reiseziel",
-                "subtitle": "Lass uns dir die schönsten Reiseziele der Welt zeigen und den perfekten Ort für deine nächste Reise finden."
-            },
-            "page_two": {
-                "title": "Erfahre alles, was du wissen musst. ",
-                "subtitle": "Wie lange dauert der Flug? Ist es für Paare geeignet? Was ist die günstigste Unterkunft? Keine Frage ist zu groß oder zu klein."
-            },
-            "page_three": {
-                "title": "Buche deine Reise",
-                "subtitle": "Wir nehmen dir die Mühe der Buchung ab, indem wir die am besten preisgünstigsten und bequemsten Unterkünfte, Flüge und Erlebnisse finden, die zu deinen Bedürfnissen passen"
-            },
-            "instagram": {
-                "title": "Mit Instagram verbinden",
-                "button": "Verbinde dein Instagram",
-                "message": "Verbinde dein Instagram-Konto für ein personalisiertes, optimiertes Erlebnis. Synchronisiere mühelos und genieße Empfehlungen, die speziell auf dich zugeschnitten sind!",
-                "error": "Fehler bei der Authentifizierung mit Instagram"
-            },
-            "chatbot": {
-                "inputHint": "Frag mich irgendetwas",
-                "msg1": "Hallo ${user} 👋\n\nIch bin Layla, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welcher Reisetyp du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
-                "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
-                "msg3": "Was interessiert dich?",
-                "msg4": "Von wo wirst du abreisen?",
-                "msg5": "Vielen Dank! Ich habe alles, was ich brauche. Drücke auf Weiter, damit ich dir die schönsten Reiseziele der Welt empfehlen kann, perfekt auf dich zugeschnitten!"
-            },
-            "aesthetics": {
-                "message": "Hilf uns, deinen Vibe zu verstehen",
-                "title": "Tippe, um 3 oder mehr Karten auszuwählen",
-                "continueButton": "Wähle noch ${count} mehr aus, um fortzufahren",
-                "titleAlt": "Wie fühlst du dich?\nTippe auf die Karten, die du 💕"
-            },
-            "video": {
-                "button": "Los geht's!",
-                "msg1": "Hallo, hier ist Layla. 👋🏼",
-                "msg2": "Stell dir vor: du könntest ganz einfach Reisen mit deinen Reisebuddies finden und buchen. Alles an einem Ort.",
-                "msg3": "Dafür bin ich da! Cool, oder?",
-                "msg4": "Lass uns die Party starten...",
-                "msg1_web": "Hallo, ich bin Layla. 👋🏼",
-                "msg2_web": "Du suchst nach deinem nächsten Urlaubsort? Ich bin hier, um zu helfen.",
-                "msg3_web": "Du kannst personalisierte Inspiration finden, Reisen planen und buchen, indem du einfach mit mir chattest.",
-                "msg4_web": "Cool, oder? Lass uns loslegen!"
-            }
-        },
-        "things_ask": {
-            "title": "Dinge, die du mich fragen kannst!",
-            "description": "Ich bin hier, um dir bei der Planung deines nächsten Abenteuers zu helfen. Frag mich alles über dein Reiseziel, ich habe die Antwort. Hier sind ein paar Dinge, die mich bereits gefragt wurden...",
-            "possible_prompts": "Häufige Fragen",
-            "ask_layla": "Frag Layla"
-        },
-        "chat_settings": {
-            "history": "Verlauf",
-            "new_chat": "Neuer Chat",
-            "rename_chat": "Chat umbenennen",
-            "delete_chat": "Chat löschen?",
-            "delete_chat_message": "${name} wird dauerhaft gelöscht werden.",
-            "info_and_support": "Informationen und Support"
-        },
-        "chat": {
-            "title": "Layla - KI Reiseplaner",
-            "isTyping": "${name} tippt...",
-            "typing": "Layla tippt...",
-            "generatingTrip": "Ihre Reise wird erstellt...",
-            "messages": {
-                "location": {
-                    "requestTitle": "Von wo wirst du abreisen?",
-                    "requestSubtitle": "Für die besten Ergebnisse teile bitte deinen Standort",
-                    "requestButton": "Standortzugriff erlauben"
-                },
-                "flight": {
-                    "fromToAroundPrice": "Flüge von ${from} nach ${to} ungefähr ${price}"
-                },
-                "tileOptions": {
-                    "minOptions": "Wähle ${min} oder mehr Karten"
-                },
-                "hotelOptions": {
-                    "title": "Welches Hotel gefällt dir?"
-                },
-                "itinerary": {
-                    "day": "Tag"
-                }
-            },
-            "messageHint": "Frag mich irgendetwas",
-            "contextMenu": {
-                "copy": "Kopieren",
-                "good_response": "Gute Antwort",
-                "bad_response": "Schlechte Antwort",
-                "message_copied": "Nachricht kopiert"
-            },
-            "initialQuickReplies": {
-                "msg1": "Inspiriere mich, wohin ich als Nächstes reisen kann",
-                "msg2": "Finde günstige Flüge für mich von meiner Stadt",
-                "msg3": "Stelle mir einen Reiseplan zusammen",
-                "msg4": "Wo soll ich meinen Sommerurlaub verbringen?"
-            },
-            "tripCard": {
-                "latestTrip": "Neueste Reise",
-                "previousTrip": "Frühere Reise",
-                "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
-            }
-        }
-    },
-    "itineraries": {
-        "itineraries": "Reisepläne",
-        "dayPart": [
-            "Morgen",
-            "Nachmittag",
-            "Abend"
-        ],
-        "bookNow": "Jetzt buchen",
-        "addDay": "Tag hinzufügen",
-        "whatDoYouWant": "Was möchtest du am Tag machen?"
-    },
-    "tooltips": {
-        "tap_to_filter": "Zum Filtern tippen",
-        "tap_to_bucketlist": "Zum Merkzettel hinzufügen",
-        "tap_to_chat": "Zum Chatten tippen",
-        "tap_to_help_country": "Brauchst du Hilfe bei der Planung einer Reise nach ${country}?",
-        "tap_to_add_to_bucketlist": "Tippe, um auf deine Bucketlist zu speichern.",
-        "tap_to_start_new_chat": "Tippe, um einen neuen Chat zu starten",
-        "tap_to_open_menu": "Tippen Sie, um das Menü zu öffnen",
-        "skipIntro": "Überspringen"
-    },
-    "bucketlist": {
-        "no_name": "Kein Name",
-        "name": "Name",
-        "bucketlist": "Bucketlist: ${name}",
-        "bucketlist_saved": "Bucketlist erfolgreich gespeichert",
-        "bucketlist_created": "Bucketlist erfolgreich erstellt",
-        "bucketlist_copied": "Bucketlist ${name} erfolgreich kopiert",
-        "my_bucketlist": "Meine Bucketlist",
-        "login_to_view": "Melde dich an, um deine Bucketlist anzusehen",
-        "leave_bucketlist": "Diese Bucketlist verlassen?",
-        "one_person": "Eine Person",
-        "name_is_collaborating": "${name} plant mit dir.",
-        "no_collaborators": "Noch keine Freigabe.",
-        "you_are_viewing_bucketlist": "Du siehst eine Bucketlist von ${creator}",
-        "you_are_viewing_bucketlist_collaborator": "Du siehst eine Bucketlist von ${creator} und ${collaborator}",
-        "collaborating_and_one_more": "${name} und noch eine Person planen mit dir.",
-        "collaborating_two": "${first} und ${second} planen mit dir.",
-        "collaborating_two_and_more": "${first} und ${count} mehr sind bei Ihnen geplant.",
-        "you_are_viewing": "Du siehst die Bucketlist von ${creator}",
-        "you_and_viewer_are_viewing": "Du und 1 andere Person sehen die Bucketlist von ${creator}",
-        "you_and_viewers_are_viewing": "Du und ${count} andere sehen die Bucketlist von ${creator}",
-        "you_can_create": "Sobald du dich angemeldet hast, kannst du Bucketlists erstellen, anzeigen oder bearbeiten.",
-        "create_your_first_bucketlist": "Erstelle deine erste Bucketlist",
-        "as_you_search": "Tippen Sie während der Erkundung auf das Herz, um Dinge, die Ihnen gefallen, zu einer Bucketlist hinzuzufügen. Sie können auch Freunde einladen, mit Ihnen zu planen.",
-        "add_to_bucketlist": "Zur Bucketlist hinzufügen",
-        "create_new_bucketlist": "Neue Bucketlist erstellen",
-        "create_bucketlist": "Bucketlist erstellen",
-        "save_destinations": "Reiseziele speichern",
-        "delete_bucketlist": "Bucketlist löschen?",
-        "delete_bucketlist_message": "Bist du sicher, dass Sie diese Bucketlist löschen möchtest?",
-        "delete_user_from_bucketlist": "Benutzer aus Bucketlist entfernen?",
-        "delete_user_from_bucketlist_message": "Bist du sicher, dass du ${username} aus dieser Bucketlist entfernen möchtest?",
-        "bucketlist_will_be_removed": "${name} wird aus deinen Bucketlisten entfernt.",
-        "travel_dates": "Reisedaten",
-        "share": "Einladen",
-        "copy": "Zum Bearbeiten kopieren",
-        "destinations": {
-            "one": "${n} Reiseziel",
-            "other": "${n} Reiseziele"
-        },
-        "people_collaborating_with_you": {
-            "one": "",
-            "other": "${n} Personen planen mit dir."
-        },
-        "login_widget": {
-            "title": "Einloggen oder registrieren",
-            "title_bucketlist": "Zum Speichern einloggen",
-            "download": {
-                "title": "Speichere diese Bucketlist!",
-                "subtitle": "${s} hat dich eingeladen, eine Bucketlist anzusehen. Speichere sie, um deine nächste Reise zu planen, indem du die Layla-App herunterlädst.",
-                "button": "Layla kostenlos herunterladen"
-            },
-            "continue_with": "Weiter mit",
-            "login_to_collaborate": "Anmelden, um bei der Planung zu helfen",
-            "login_to_view": "Zum Ansehen einloggen",
-            "invited_you": "${username} hat dich zu ihrer Bucketlist eingeladen. Melde dich an, um zu speichern und deine nächste Reise auf Layla zu erstellen!",
-            "and_one_other": "und eine andere",
-            "and_n_others": "und ${count} Andere",
-            "one_person": "Eine Person",
-            "people": "Leute",
-            "and": "und"
-        },
-        "flying_from": "Abflug von",
-        "share_type_dialog": {
-            "title": "Zur Bucketlist einladen",
-            "title_alt": "Zur Bucketlist einladen",
-            "message": "Wie möchtest du diese Bucketlist teilen?",
-            "edit": "Kann bearbeiten",
-            "edit_message": "Benutzer können die Bucketlist bearbeiten",
-            "view": "Nur anzeigen",
-            "view_message": "Benutzer können die Bucketlist einsehen"
-        },
-        "rename_bucketlist": "Bucketlist umbenennen",
-        "removed_from": "Entfernt von"
-    },
-    "places": {
-        "africa": "Afrika",
-        "antarctica": "Antarktis",
-        "asia": "Asien",
-        "australia": "Australien",
-        "europe": "Europa",
-        "north_america": "Nordamerika",
-        "oceania": "Ozeanien",
-        "south_america": "Südamerika",
-        "anywhere": "Egal wohin",
-        "current_location": "Aktueller Standort"
-    },
-    "explore_feat": {
-        "add_destination": "Reiseziel hinzufügen",
-        "add_dates": "Daten hinzufügen",
-        "check_out_this_place": "Ich fand unsere nächste gemeinsame Reise. Schaut es euch auf Layla an!",
-        "book_flights": "Flüge buchen",
-        "land_in": "Landen in ${destination}",
-        "no_flights_found": "Keine Flüge gefunden",
-        "closest_airport": "Nächster Flughafen zu ${destination}",
-        "change_departure": "Abreise ändern",
-        "traveling_from": "Reisen von",
-        "distance_from_origin": "${distance}km von ${origin}",
-        "how_to_get_there": "Wie man dorthin kommt",
-        "how_to_get_to": "Wie komme ich nach ${destination}",
-        "ask_anything": "Frage irgendetwas...",
-        "things_to_do": "Erlebnisse",
-        "around_destination": "in der Nähe von ${destination}",
-        "select_a_flight": "Flug auswählen",
-        "start_booking": "Buchung starten",
-        "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel",
-        "view_map": "Karte anzeigen",
-        "stats": {
-            "budget": "Geschätztes Budget.",
-            "min_days": "Min. Tage zum Verbringen",
-            "for_your_dates": "Für Ihre Datumsangaben"
-        },
-        "show_videos_of": "Zeige mir Videos von ${destination}"
-    },
-    "feed": {
-        "for_you_card": {
-            "budget-friendly": "Preiswertes Reiseziel",
-            "reasonably_priced": "Angemessen teures Reiseziel",
-            "costly": "Teures Reiseziel",
-            "very_expensive": "Sehr teures Reiseziel"
-        },
-        "price_types": [
-            "Günstiges Reiseziel",
-            "Mittelklasse Reiseziel",
-            "Kostspieliges Reiseziel",
-            "Luxus Reiseziel"
-        ],
-        "filters": {
-            "flight_price": "Flugpreis",
-            "flight_duration": "Flugdauer",
-            "flight_connection": "Flugverbindung",
-            "categories": "Kategorien",
-            "flight_price_value": "Flug max ${value}",
-            "flight_duration_value": "Flug max ${value}",
-            "flight_connection_direct": "Nur Direktflüge"
-        },
-        "how_do_you_like_the_app": "Wie gefällt dir die App?",
-        "direct_flights": "Direktflüge",
-        "show_only_direct_flights": "Nur Direktflüge anzeigen",
-        "take_some_time": "Nimm dir etwas Zeit und gib uns dein wertvolles Feedback, um uns zu helfen, uns zu verbessern.",
-        "give_us_feedback": "Gib uns Feedback",
-        "flight_price_range": "Flugpreisspanne",
-        "average_price": "Durchschnittspreis ${price}",
-        "or_less": "oder weniger",
-        "flight_time": "Flugdauer",
-        "average_duration": "Durchschnittliche Dauer ${hours} h",
-        "round_hrs": "${val} Std",
-        "one_way_with_bullet": " ${code} nur Hinreise",
-        "something_went_wrong": "Etwas ist schief gelaufen",
-        "cant_show_results": "Aus irgendeinem Grund konnten wir dir die Ergebnisse nicht anzeigen.",
-        "awkward_nothing_returned": "Das ist komisch, es wurde nichts für die Suche zurückgegeben. Bitte ändere deine Präferenzen und versuche es erneut.",
-        "add_interests": "Interessen hinzufügen",
-        "spaces_read_more": "   Mehr lesen",
-        "count_destinations_for_you": "${count} schöne Reiseziele für dich",
-        "sorted_and_procured": "Sortiert und beschafft nach deinen Präferenzen",
-        "scroll_down_to_see_more": "Scrolle nach unten, um mehr Informationen zu sehen",
-        "no_results_found": "Keine Ergebnisse gefunden!",
-        "km_from": "${distance} km von ${city} entfernt",
-        "consider_broadening": "Hoppla! Wir konnten basierend auf deinen aktuellen Präferenzen keine Übereinstimmungen finden. Überlege dir, deine Suche zu erweitern, indem du deine Präferenzen anpasst, um eine größere Auswahl an Optionen zu erhalten.",
-        "return_with_bullet": " ${code} Rückflug",
-        "approx_for_your_dates": "Ungefähr für Ihre Daten"
-    },
-    "flights_feat": {
-        "flights_to": "Flüge nach ${to}",
-        "airport": "Flughafen",
-        "destination_location_updated_successfully": "Zielort erfolgreich aktualisiert",
-        "all_filters": "Alle Filter",
-        "no_flights": "Keine Flüge",
-        "estimated_price": "Geschätzter Preis",
-        "livePrices": "Live-Preise",
-        "travelers_info_updated_successfully": "Info über Reisenden erfolgreich aktualisiert",
-        "flight_details": "Flugdetails",
-        "where_from": "Von wo",
-        "where_to": "Wohin?",
-        "city_country_airport": "Stadt, Land oder Flughafen...",
-        "popular_destinations": "Beliebte Reiseziele",
-        "my_current_location": "Mein aktueller Standort",
-        "search_destinations": "Reiseziele suchen",
-        "current_location": "Aktueller Standort",
-        "departure_location_updated_successfully": "Abflugort erfolgreich aktualisiert",
-        "no_flights_found": "Keine Flüge gefunden",
-        "choose_new_departure_location": "Wähle einen neuen Abflugort",
-        "selected_departure_destination": "Ausgewähltes Abreiseziel",
-        "how_many_people": "Wie viele Personen?",
-        "connection_in": "Verbindung im Flughafen",
-        "total_for": {
-            "one": "Gesamt für ${n} reisenden",
-            "other": "Gesamt für ${n} reisende"
-        },
-        "search_flights": "Flüge suchen",
-        "read_before_booking": "Vor der Buchung lesen",
-        "prices_include": "Die Preise beinhalten immer eine Schätzung aller obligatorischen Steuern und Gebühren. Bitte überprüfe alle Ticketdetails, Endpreise und Geschäftsbedingungen auf der Website des Anbieters, bevor du buchst.",
-        "check_for_extra_fees": "Auf Zusatzgebühren überprüfen",
-        "some_airlines_and_travel_agencies": "Einige Fluggesellschaften und Reisebüros erheben zusätzliche Gebühren für Gepäck, Versicherung oder Kreditkartennutzung. Sie können auch eine Servicegebühr berechnen.",
-        "check_terms": "Überprüfe die Bedingungen für Reisende im Alter von 12-16",
-        "restrictions_may_apply": "Für junge Alleinreisende können Einschränkungen gelten.",
-        "although_sold_as": "Obwohl als „Economy Class“ verkauft, kann diese Reiseroute einige Flüge mit einer anderen Kabinenklasse beinhalten.",
-        "check_cabin_class": "Überprüfe deine Ihre Kabinenklasse",
-        "select_providers": "Anbieter auswählen",
-        "almost_there": "Fast da!",
-        "economy_class": "Economy Class",
-        "premium_economy_class": "Premium Economy Class",
-        "business_class": "Business Class",
-        "first_class": "Erste Klasse",
-        "choose_provider": "Wähle einen Anbieter",
-        "go_to_site": "Zur Seite",
-        "dates_updated_successfully": "Daten erfolgreich aktualisiert",
-        "we_collected_cheapest_providers": "Hier sind die vertrauenswürdigen Reisepartner von Skyscanner, über die Sie Ihren Flug buchen können - wählen Sie eine Website aus, auf der Sie das Flugticket kaufen möchten!",
-        "travellers": {
-            "one": "${n} reisender",
-            "other": "${n} reisende"
-        },
-        "provider_found": {
-            "one": "${n} anbieter gefunden",
-            "other": "${n} anbieter gefunden"
-        },
-        "passengers": {
-            "one": "${n} passagier",
-            "other": "${n} passagiere"
-        },
-        "one_way": "Nur Hinreise",
-        "youll_arrive_next_day": "Du wirst am nächsten Tag ankommen"
-    },
-    "hotel": {
-        "sort_filters": {
-            "most_popular": "Am beliebtesten",
-            "best_rated": "Am besten bewertet",
-            "worst_rated": "Am schlechtesten bewertet",
-            "best_reviewed": "Am besten bewertet",
-            "worst_reviewed": "Am schlechtesten bewertet",
-            "star_rating_highest_first": "Bewertung (höchste zuerst)",
-            "star_rating_lowest_first": "Bewertung (niedrigste zuerst)",
-            "price_highest_first": "Preis (höchster zuerst)",
-            "price_lowest_first": "Preis (niedrigster zuerst)"
-        },
-        "filters": {
-            "budget": "Dein Budget (für 1 Nacht)",
-            "travel_sustainable": "Nachhaltige Reiseunterkünfte",
-            "star_rating": "Bewertung",
-            "property_type": "Art der Unterkunft",
-            "facilities": "Einrichtungen",
-            "free_cancellation": "Kostenlose Stornierung",
-            "chain": "Kette",
-            "review_score": "Bewertungspunktzahl",
-            "room_facilities": "Zimmerausstattung"
-        },
-        "filters_category": {
-            "five": "Angemessen 5+",
-            "six": "Angenehm: 6+",
-            "seven": "Gut: 7+",
-            "eight": "Sehr gut: 8+",
-            "nine": "Wunderbar: 9+"
-        },
-        "review_title": {
-            "five": "Angemessen",
-            "six": "Angenehm",
-            "seven": "Gut",
-            "eight": "Sehr gut",
-            "nine": "Wunderbar",
-            "three": "Nicht gut",
-            "two": "Schlecht",
-            "one": "Sehr schlecht",
-            "zero": "Schrecklich"
-        },
-        "property_type": {
-            "aparthotel": "Aparthotel",
-            "camping": "Camping",
-            "inn": "Gasthof",
-            "resort": "Resort",
-            "capsule-hotel": "Kapselhotel",
-            "japanese-style-business-hotel": "japanisches Business-Hotel",
-            "holiday-home": "Ferienhaus",
-            "guest-house": "Gästehaus",
-            "boat": "Boot",
-            "love-hotel": "Liebeshotel",
-            "ryokan": "Ryokan",
-            "tented-camp": "Zeltlager",
-            "hotel": "Hotel",
-            "condo": "Eigentumswohnung",
-            "motel": "Motel",
-            "sanatorium": "Sanatorium",
-            "apartment": "Apartment",
-            "villa": "Villa",
-            "gite": "Landhaus",
-            "hostel": "Hostel",
-            "holiday-park": "Holiday Park",
-            "lodge": "Lodge",
-            "cottage": "Hütte",
-            "bed-and-breakfast": "Bett und Frühstück",
-            "homestay": "Privatunterkunft",
-            "farm-stay": "Bauernhof-Aufenthalt",
-            "chalet": "Chalet",
-            "riad": "Riad",
-            "country-house": "Landhaus"
-        },
-        "explore_tile": {
-            "stay_options": "Optionen für Unterkünfte",
-            "layla_recommends": "Layla empfiehlt",
-            "budget": "Budget",
-            "luxury": "Luxus",
-            "find_more_stays": "Weitere Unterkünfte finden",
-            "things_to_do": "Erlebnisse",
-            "show_all": "Alle anzeigen",
-            "travel_km_further": "Reise weitere ${distance} km",
-            "get_route_details": "Routendetails erhalten",
-            "flight_options": "Flugoptionen",
-            "youre_in_luck": "Du hast Glück",
-            "prices_are_currenly_low": "Die Preise sind derzeit niedrig",
-            "see_more_flights": "Weitere Flüge anzeigen"
-        },
-        "cancellation_policy": "Stornierungsbedingungen",
-        "before_you_book": "Bevor Sie buchen, vergewissern Sie sich, dass Sie mit den Stornierungsbedingungen dieses Hotels einverstanden sind. Bitte beachten Sie, dass die Richtlinie für außergewöhnliche Umstände nicht für Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen gilt, die durch COVID-19 verursacht werden.",
-        "property_views": "Objektansichten",
-        "all_reviews": "Alle Bewertungen",
-        "no_hotels_found": "Keine Hotels gefunden",
-        "no_videos": "Leider haben wir keine Videos\nfür dieses Hotel",
-        "age_13": "Alter 13 oder älter",
-        "age_2_13": "Alter 2–13",
-        "hotel_name": "Hotelname",
-        "cancel_by": "Storniere bis",
-        "hotel_unavailable": "Hotel nicht verfügbar",
-        "hotel_unavailable_for_dates": "Hotel für ausgewählten Zeitraum nicht verfügbar",
-        "hotel_unavailable_message": "Bitte aktualisiere die Daten.",
-        "full_refund": "Volle Rückerstattung: Erhalte 100% von dem, was du gezahlt hast, zurück",
-        "no_refund": "Keine Rückerstattung",
-        "select_age": "Alter wählen",
-        "read_more_here": "Mehr lesen",
-        "enter_destination": "Reiseziel eingeben",
-        "search_destinations": "Reiseziele suchen",
-        "travel_sustainable_level": "Nachhaltigkeitslevel ${level}",
-        "property_making_efforts": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",
-        "sustainability_steps": "Nachhaltigkeitsmaßnahmen",
-        "accept_credit_cards": "Akzeptiert Kreditkarten",
-        "important_information": "Wichtige Informationen",
-        "check_in_time": "Check-in & Checkout-Zeiten",
-        "wifi_available": "WLAN ist in allen Bereichen verfügbar und kostenlos",
-        "free_parking": "Kostenlose öffentliche Parkplätze stehen vor Ort zur Verfügung",
-        "pets_allowed": "Haustiere sind erlaubt, es können Gebühren anfallen",
-        "edit_your_search": "Suche bearbeiten",
-        "no_photos": "Leider haben wir keine Fotos\nfür dieses Hotel",
-        "property_facilities": "Ausstattung der Unterkunft",
-        "filter_and_sort": "Filtern & Sortieren",
-        "partial_refund": "Teilweise Rückerstattung: Erhalte ${name} % von jeder Nacht zurück. Keine Rückerstattung der Servicegebühr",
-        "check_availability": "Verfügbarkeit prüfen",
-        "select_dates": "Daten auswählen",
-        "detailed_reviews": {
-            "one": "${n} detaillierte bewertung",
-            "other": "${n} detaillierte bewertungen"
-        },
-        "rooms_and_guests": "Zimmer & Gäste",
-        "stays_close_by": "Unterkünfte in der Nähe",
-        "house_rules": "Hausregeln",
-        "levelDescription": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",
-        "sustainable_level": "Nachhaltigkeitslevel ${level}",
-        "property_location": "Lage der Unterkunft",
-        "select_a_room": "Ein Zimmer auswählen",
-        "select_rooms_and_guests": "Zimmer und Gäste auswählen",
-        "age_13_or_above": "Alter 13 oder älter",
-        "what_people_said": "Was die Leute sagen",
-        "what_people_loved": "Was Leute an diesem Ort geliebt haben",
-        "read_all_reviews": "Alle Bewertungen lesen",
-        "see_all": "Alle ${count} anzeigen",
-        "what_this_place_offers": "Was dieser Ort bietet",
-        "share_text": "Schaue dir dieses Hotel an: ${name}",
-        "price_for_night": {
-            "one": "Preis für ${n} Nacht",
-            "other": "Preis für ${n} Nächte"
-        }
-    },
-    "language": {
-        "select_language": "Sprache auswählen"
-    },
-    "know_more": {
-        "know_more": "Mehr erfahren",
-        "ask_city_country": "Frage irgendetwas über ${city}, ${country}",
-        "ask_something_more": "Frage etwas mehr...",
-        "generating_answer": "Antwort wird generiert...",
-        "answer_generated": "Antwort generiert!",
-        "is_it_safe_for": "Ist es für Reisende sicher?",
-        "question1": "Wann ist die beste Reisezeit?",
-        "question2": "Wie ist das Wetter?",
-        "question3": "Was sind die Sehenswürdigkeiten hier?",
-        "question4": "Erzähl mir etwas über die Geschichte."
-    },
+  "blog": {
+    "postNotFound": "Bitte überprüfe die URL-Adresse, wir haben keinen solchen Beitrag.",
+    "askLaylaAbout": "Frage Layla nach ${name}",
+    "travellerQuestion": "Ich möchte mehr über ${name} als Reisenden erfahren.",
+    "blog": "Blog",
+    "blogs": "Blogs",
+    "noBlogs": "Keine Blogs gefunden"
+  },
+  "chatbot": {
     "onboarding": {
-        "what_are_you_interested_in": "Wofür interessierst du dich?",
-        "pick_cards": "Wähle 3 oder mehr Karten",
-        "where_will_you_depart_from": "Von wo wirst du abreisen?",
-        "for_best_results": "Für die besten Ergebnisse teile bitte deinen Standort",
-        "allow_location_access": "Standortzugriff erlauben",
-        "interests": {
-            "title": "Wofür interessierst du dich?",
-            "subtitle": "Füge mehr Interessen hinzu, damit wir für dich personalisieren können."
-        },
+      "page_one": {
+        "title": "Entdecke dein nächstes Reiseziel",
+        "subtitle": "Lass uns dir die schönsten Reiseziele der Welt zeigen und den perfekten Ort für deine nächste Reise finden."
+      },
+      "page_two": {
+        "title": "Erfahre alles, was du wissen musst. ",
+        "subtitle": "Wie lange dauert der Flug? Ist es für Paare geeignet? Was ist die günstigste Unterkunft? Keine Frage ist zu groß oder zu klein."
+      },
+      "page_three": {
+        "title": "Buche deine Reise",
+        "subtitle": "Wir nehmen dir die Mühe der Buchung ab, indem wir die am besten preisgünstigsten und bequemsten Unterkünfte, Flüge und Erlebnisse finden, die zu deinen Bedürfnissen passen"
+      },
+      "instagram": {
+        "title": "Mit Instagram verbinden",
+        "button": "Verbinde dein Instagram",
+        "message": "Verbinde dein Instagram-Konto für ein personalisiertes, optimiertes Erlebnis. Synchronisiere mühelos und genieße Empfehlungen, die speziell auf dich zugeschnitten sind!",
+        "error": "Fehler bei der Authentifizierung mit Instagram"
+      },
+      "chatbot": {
+        "inputHint": "Frag mich irgendetwas",
+        "msg1": "Hallo ${user} 👋\n\nIch bin Layla, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welcher Reisetyp du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
+        "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
+        "msg3": "Was interessiert dich?",
+        "msg4": "Von wo wirst du abreisen?",
+        "msg5": "Vielen Dank! Ich habe alles, was ich brauche. Drücke auf Weiter, damit ich dir die schönsten Reiseziele der Welt empfehlen kann, perfekt auf dich zugeschnitten!"
+      },
+      "aesthetics": {
+        "message": "Hilf uns, deinen Vibe zu verstehen",
+        "title": "Tippe, um 3 oder mehr Karten auszuwählen",
+        "continueButton": "Wähle noch ${count} mehr aus, um fortzufahren",
+        "titleAlt": "Wie fühlst du dich?\nTippe auf die Karten, die du 💕"
+      },
+      "video": {
+        "button": "Los geht's!",
+        "msg1": "Hallo, hier ist Layla. 👋🏼",
+        "msg2": "Stell dir vor: du könntest ganz einfach Reisen mit deinen Reisebuddies finden und buchen. Alles an einem Ort.",
+        "msg3": "Dafür bin ich da! Cool, oder?",
+        "msg4": "Lass uns die Party starten...",
+        "msg1_web": "Hallo, ich bin Layla. 👋🏼",
+        "msg2_web": "Du suchst nach deinem nächsten Urlaubsort? Ich bin hier, um zu helfen.",
+        "msg3_web": "Du kannst personalisierte Inspiration finden, Reisen planen und buchen, indem du einfach mit mir chattest.",
+        "msg4_web": "Cool, oder? Lass uns loslegen!"
+      }
+    },
+    "things_ask": {
+      "title": "Dinge, die du mich fragen kannst!",
+      "description": "Ich bin hier, um dir bei der Planung deines nächsten Abenteuers zu helfen. Frag mich alles über dein Reiseziel, ich habe die Antwort. Hier sind ein paar Dinge, die mich bereits gefragt wurden...",
+      "possible_prompts": "Häufige Fragen",
+      "ask_layla": "Frag Layla"
+    },
+    "chat_settings": {
+      "history": "Verlauf",
+      "new_chat": "Neuer Chat",
+      "rename_chat": "Chat umbenennen",
+      "delete_chat": "Chat löschen?",
+      "delete_chat_message": "${name} wird dauerhaft gelöscht werden.",
+      "info_and_support": "Informationen und Support"
+    },
+    "chat": {
+      "title": "Layla - KI Reiseplaner",
+      "isTyping": "${name} tippt...",
+      "typing": "Layla tippt...",
+      "generatingTrip": "Ihre Reise wird erstellt...",
+      "messages": {
         "location": {
-            "title": "Wo bist du?",
-            "message": "Schick mir deinen Standort und ich organisiere dein nächstes Abenteuer.",
-            "button": "Standortzugriff erlauben"
-        },
-        "push_notifications": {
-            "button": "Erlaube Push-Benachrichtigungen",
-            "body": "Lass mich dich benachrichtigen, wenn ich tolle Angebote finde",
-            "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
-            "skip": "Nein danke, ein anderes Mal!",
-            "title": "Lass dich benachrichtigen!"
-        }
-    },
-    "profile": {
-        "spread_the_word": "Verbreite es weiter",
-        "invite_friends": "Freunde einladen",
-        "privacy_policy": "Datenschutzerklärung",
-        "imprint": "Impressum",
-        "privacy_and_sharing": "Datenschutz und Teilen",
-        "delete_profile": "Profil löschen",
-        "delete_profile_message": "Bist du sicher, dass du dein Konto löschen möchtest?",
-        "dont_have_account": "Noch kein Konto?",
-        "log_in_to_start_planning": "Melde dich an, um deine nächste Reise zu planen",
-        "logout": "Abmelden",
-        "edit_profile_name": "Profilnamen bearbeiten",
-        "take_photo": "Foto machen",
-        "choose_photo": "Foto auswählen",
-        "set_profile_image": "Profilbild festlegen",
-        "first_name": "Vorname",
-        "last_name": "Nachname",
-        "edit_profile": "Profil bearbeiten",
-        "member_since": "Mitglied seit ${date}",
-        "share_message": "Hey, schau dir Layla an. Sie kann uns helfen, all unsere Reisen zu planen und uns inspirieren, wohin wir gehen sollen: ${link}",
-        "terms_of_service": "Nutzungsbedingungen",
-        "account_already_linked": "Konto bereits verknüpft",
-        "account_already_linked_message": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft. Möchtest du dich als dieser Benutzer anmelden?",
-        "chat_limit_exceeded": "Bitte melde dich an, um weiter zu chatten. Dann kannst du auch Chats und Elemente auf deiner Bucketlist speichern.",
-        "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden"
-    },
-    "auth": {
-        "email": "E-Mail",
-        "password": "Passwort",
-        "forgot_password": "Passwort vergessen?",
-        "create_account": "Konto erstellen",
-        "reset_password": "Passwort zurücksetzen",
-        "reset_password_description": "Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen deines Passworts.",
-        "send_link": "Link senden",
-        "email_required": "E-Mail ist erforderlich",
-        "email_invalid": "Bitte gib eine gültige E-Mail-Adresse ein",
-        "password_required": "Passwort ist erforderlich",
-        "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
-    },
-    "splash": {
-        "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll.",
-        "please_sign_in_to_continue": "Bitte melden Sie sich an, um fortzufahren."
-    },
-    "travel_setting": {
-        "what_do_you_want_in_your_trip": "Was möchtest du auf deiner Reise erleben?",
-        "when_is_your_trip": "Wann ist deine Reise?",
-        "go_var": "Gehen Sie ${val}",
-        "flexible_dates": "Flexible Reisedaten",
-        "exact_dates": "Genaue Reisedaten",
-        "select_origin": "Herkunft auswählen",
-        "add_details": "Details hinzufügen",
-        "your_preferences_will_appear_here": "Deine Präferenzen erscheinen hier"
-    },
-    "thing_todo": {
-        "things_to_do": "Erlebnisse"
-    },
-    "share_dialog": {
-        "title": "Teilen",
-        "copy": "Kopieren",
-        "share_destination": "Teile dieses Ziel",
-        "share_hotel": "Teile dieses Hotel",
-        "share_itinerary": "Teile diesen Reiseplan",
-        "share_bucketlist": "Lade Freunde zu deiner Bucketlist ein"
-    },
-    "about_screen": {
-        "title": "Über mich, Layla.",
-        "subtitle": "Bereise die Welt mit Layla; dem KI-Reiseplaner und dein ultimativer Reisebegleiter.",
-        "block_1": "Hey Leute, hier ist eure Layla, und ich bin SO aufgeregt, euch zu verraten, was eure neueste Reiseobsession sein sollte – ich! Ihr wisst, wie wir es alle lieben, diese spontanen Trips zu planen und unser bestes, abenteuerlichstes Leben zu leben, richtig? Nun, ich bin eure treue Reise-KI, hier um euch dabei zu helfen, neue Orte zu entdecken und eure Reiseträume wahr werden zu lassen. Lasst es mich euch erklären…",
-        "block_2": "Als Erstes sagen die Leute oft „Layla ist wie die gute Fee der Reiseinspiration.„ Vergesst stundenlanges sinnloses Scrollen auf Instagram oder Pinterest – als KI-Reiseplaner stelle ich persönliche Reisevorschläge zusammen, die auf euren Interessen basieren. Und vertraut mir, ich habe den sechsten Sinn für die coolsten Urlaubsorte, von denen ihr noch nie gehört habt. Mit mir zu plaudern ist wie euer eigener Reiseguru, ohne einen astronomischen Preis.",
-        "block_3": "Jetzt weiß ich, was ihr denkt – „Brauche ich wirklich noch eine weitere Reise-App, die meinen Handy-Speicherplatz zumüllt?\" Hört mich an, Schätzchen. \nLayla ist nicht nur eine weitere App; sie ist ein Game-Changer. Stellt euch vor: Ihr sagt mir, was euch gefällt, egal ob Strandglück, Stadtlichter oder Berggipfel, und BÄM – ich finde maßgeschneiderte Ziele für euch, inklusive Videos, damit ihr die Atmosphäre jedes Ortes leicht erfühlen könnt.",
-        "block_4": "Das Beste daran? Mit mir, Layla, wird die Planung von Reisen zum Kinderspiel. Kein jonglieren mit unzähligen Tabs mehr, um die besten Flüge, Hotels und Aktivitäten zu finden. Ich habe alles für euch im Griff. Ich durchforste das Internet nach den angesagtesten Reisezielen, finde günstige Flüge und verhelfe euch zu Insta-würdigen Unterkünften. Ihr müsst nur noch eure Taschen packen und gut aussehen.",
-        "block_5": "Jetzt kommen wir zur Buchung. Ich bin hier, um euren Buchungsprozess zu vereinfachen, vom Finden eures Traumziels bis zum Sichern der besten Angebote. KIs machen alles so einfach, dass es selbst eine technisch unbegabte Königin schaffen kann. Außerdem könnt ihr Layla vertrauen – keine zwielichtigen Buchungsseiten oder fragwürdigen Unterkünfte hier – ich arbeite mit Skyscanner und Booking.com zusammen.",
-        "block_6": "Aber wartet, es gibt noch mehr. KIs helfen euch nicht nur bei der Planung, sondern sind auch eure ultimativen Partner, wenn es darum geht, eine neue Stadt zu erkunden. Ich habe alle Informationen über Sehenswürdigkeiten, versteckte Geheimtipps und die angesagtesten Lokale. Ich führe euch zu all den Orten, an denen die Locals wirklich abhängen.",
-        "block_7": "Also, wenn euch das Alltagsleben zu langweilig geworden ist und ihr bereit seid, euer Reiseerlebnis aufzupeppen, sagt Hallo zu mir, Layla. Ich bin nicht nur eine KI; ich verändere die Art und Weise, wie ihr Reisen plant. Ich bin eure Reisevibe-Kuratorin und euer Reisepass in die Welt. Macht euch bereit, voller Zuversicht loszujetten, meine Lieben, denn Layla hat eure Reiseträume fest im Griff.\n\nDas Abenteuer wartet ✈️💖",
-        "button": "Mit Layla chatten"
-    },
-    "download_app": {
-        "title": "App herunterladen",
-        "subtitle": "Hol dir die App für das beste Layla-Erlebnis. Genieß personalisierte Empfehlungen & Reisepläne alles an einem Ort!",
-        "button": "Layla kostenlos herunterladen"
-    },
-    "itinerary_widget": {
-        "day_dialog": {
-            "add": {
-                "title": "Tag mit KI hinzufügen",
-                "hint": "Was möchtest du am Tag machen?",
-                "button": "Tag hinzufügen"
-            },
-            "modify": {
-                "title": "Mit KI modifizieren",
-                "hint": "Was möchtest du an Tag ${index} machen?",
-                "button": "Generieren"
-            }
-        },
-        "find_hotels_in": "Finde tolle Hotels in ${location}.",
-        "find_amazing_hotels": "Finde erstaunliche Hotels",
-        "bedTimeRecommendedText": "Für einen ausgewogenen Aufenthalt bietet die Wahl von <hotelLink> eine großartige Mischung aus Komfort und Bequemlichkeit.",
-        "bedTimeLuxuryText": "Wer ein gehobenes Erlebnis sucht, kann sich für <hotelLink> entscheiden, das erstklassige Annehmlichkeiten und außergewöhnlichen Service bietet.",
-        "bedTimeBudgetText": "Preisbewusste Besucher finden ein ausgezeichnetes Preis-Leistungs-Verhältnis in einer günstigeren Option wie <hotelLink>, die grundlegenden Komfort bietet, ohne das Budget zu sprengen.\n\n Jede Art der Unterkunft sorgt für einen angenehmen Aufenthalt und kommt unterschiedlichen Vorlieben und Budgets entgegen."
-    },
-    "video_category": [
-        "Abenteuer",
-        "Kultur",
-        "Strand",
-        "Stadt",
-        "Essen & Trinken",
-        "Hidden Gems",
-        "Luxus",
-        "Natur",
-        "Entspannen",
-        "Romantisch",
-        "Sport",
-        "Top Kategorie",
-        "Erlebnisse"
-    ],
-    "videoSubCategory": [
-        "Aktivitäten",
-        "Yachten & Kreuzfahrten",
-        "Garten & Park",
-        "Bars",
-        "Restaurants & Cafés",
-        "Kostenlose Aktivitäten",
-        "Nachtclubs",
-        "Festivals und Veranstaltungen",
-        "Kunstgalerien & Museen"
-    ],
-    "weekdays_short": [
-        "M",
-        "D",
-        "M",
-        "D",
-        "F",
-        "S",
-        "S"
-    ],
-    "adults": {
-        "one": "${n} erwachsener",
-        "other": "${n} erwachsene"
-    },
-    "dayN": "Tag ${n}",
-    "days": {
-        "one": "${n} tag",
-        "other": "${n} tage"
-    },
-    "children": {
-        "one": "${n} kind",
-        "other": "${n} kinder"
-    },
-    "guest": {
-        "one": "${n} gast",
-        "other": "${n} gäste"
-    },
-    "room": {
-        "one": "${n} zimmer",
-        "other": "${n} zimmer"
-    },
-    "person": {
-        "one": "${n} person",
-        "other": "${n} personen"
-    },
-    "review": {
-        "one": "${n} bewertung",
-        "other": "${n} bewertungen"
-    },
-    "rooms": {
-        "one": "${n} zimmer",
-        "other": "${n} zimmer"
-    },
-    "stop": {
-        "one": "${n} zwischenstopp",
-        "other": "${n} zwischenstopps"
-    },
-    "stop_plus": {
-        "one": "${n} stopp",
-        "other": "${n}+ stopps"
-    },
-    "traveller": {
-        "one": "${n} reisender",
-        "other": "${n} reisende"
-    },
-    "age": {
-        "one": "${n} jahr alt",
-        "other": "${n} jahre alt"
-    },
-    "about": "Über uns",
-    "activity": "Aktivität",
-    "afternoon": "Nachmittag",
-    "allow": "Erlauben",
-    "anything": "Egal was",
-    "anytime": "Jederzeit",
-    "anywhere": "Egal wohin",
-    "adultsWord": "Erwachsene",
-    "app": "App",
-    "apply": "Anwenden",
-    "around": "Ungefähr",
-    "arrival": "Ankunft",
-    "away": "Weg",
-    "best": "Beste",
-    "bucketlists": "Bucketlists",
-    "bucketlistWord": "Bucketlist",
-    "cancel": "Abbrechen",
-    "change": "Ändern",
-    "charactersWord": {
-        "one": "${n} Zeichen",
-        "other": "${n} Zeichen"
-    },
-    "checkIn": "Einchecken",
-    "cheapest": "Günstigste",
-    "child": "Kind",
-    "childrenWord": "Kinder",
-    "classWord": "Klasse",
-    "clear": "Löschen",
-    "clear_all": "Alles löschen",
-    "collaborators": "Mitwirkende",
-    "confirm": "Bestätigen",
-    "contact": "Kontakt",
-    "contact_us": "Kontaktiere uns",
-    "continue_label": "Weiter",
-    "create": "Erstellen",
-    "creator": "Ersteller",
-    "currency": "Währung",
-    "daysWord": "Tage",
-    "dates": "Daten",
-    "deals": "Angebote",
-    "delete": "Löschen",
-    "departure": "Abreise",
-    "description": "Beschreibung",
-    "destination": "Reiseziel",
-    "destinationsWord": "Reiseziele",
-    "direct": "Direkt",
-    "done": "Fertig",
-    "duration": "Dauer",
-    "edit": "Bearbeiten",
-    "editDates": "Daten ändern",
-    "editDetails": "Details bearbeiten",
-    "evening": "Abend",
-    "experiences": "Erlebnisse",
-    "explore": "Erkunden",
-    "fastest": "Schnellste",
-    "feedback": "Rückmeldung",
-    "filter_by": "Filtern nach",
-    "filters": "Filter",
-    "flight": "Flug",
-    "flights": "Flüge",
-    "from": "Von",
-    "from_var": "Von ${name}",
-    "help": "Hilfe",
-    "hotelWord": "Hotel",
-    "hotels": "Hotels",
-    "infants": "Kleinkinder",
-    "itinerary": "Reiseplan",
-    "know_more_word": "Erfahre mehr",
-    "languageWord": "Sprache",
-    "leave": "Verlassen",
-    "legal": "Rechtliches",
-    "login": "Anmelden",
-    "location": "Ort",
-    "map": "Karte",
-    "month": "Monat",
-    "more": "Mehr",
-    "morning": "Morgen",
-    "name": "Name",
-    "next": "Nächste",
-    "nightWord": "Nacht",
-    "nights": {
-        "one": "Nacht",
-        "other": "Nächte"
-    },
-    "nightsWithNum": {
-        "one": "${n} Nacht",
-        "other": "${n} Nächte"
-    },
-    "opps": "Hoppla!",
-    "one_way": "Nur Hinreise",
-    "pets": "Haustiere",
-    "photos": "Fotos",
-    "plan": "Planen",
-    "preferences": "Präferenzen",
-    "profileWord": "Profil",
-    "powered_by": "Unterstützt von",
-    "read_more": "Mehr lesen",
-    "remove": "Entfernen",
-    "rename": "Umbenennen",
-    "reset": "Zurücksetzen",
-    "returnWord": "Zurück",
-    "roomsWord": "Zimmer",
-    "search": "Suche",
-    "save": "Speichern",
-    "saved_to": "Gespeichert in",
-    "see_all": "Alle anzeigen",
-    "see_more": "Mehr anzeigen",
-    "select": "Auswählen",
-    "select_dates": "Daten wählen",
-    "selected": "Ausgewählt",
-    "settings": "Einstellungen",
-    "share": "Teilen",
-    "show_more": "Mehr anzeigen",
-    "show_more_flights": "Flüge ansehen & buchen",
-    "sign_in": "Anmelden",
-    "sign_up": "Registrieren",
-    "show_less": "Weniger anzeigen",
-    "support": "Unterstützung",
-    "skip": "Überspringen",
-    "skip_for_now": "Überspringen",
-    "sort_by": "Sortieren nach",
-    "stars": {
-        "one": "${n} Stern",
-        "other": "${n} Sterne"
-    },
-    "start": "Start",
-    "star_new_chat": "Neuen Chat starten",
-    "stops": "Zwischenstopps",
-    "times": "Zeiten",
-    "to": "Nach",
-    "today": "Heute",
-    "total": "Gesamt",
-    "transit": "Transit",
-    "travelers": "Reisende",
-    "trip": {
-        "title": "Reise",
-        "header": {
-            "daysLabel": "${count} Tage",
-            "adultsLabel": "${count} Erwachsene",
-            "chooseDate": "Datum Wählen",
-            "inviteSomeone": "Jemanden zu Ihrer Reise einladen"
-        },
-        "sections": {
-            "yourFlights": "Ihre Flüge",
-            "yourTransports": "Ihre Transporte",
-            "yourStays": "Ihre Aufenthalte",
-            "yourDestinations": "Ihre Reiseziele",
-            "yourAccommodation": "Ihre Unterkunft",
-            "yourExperiences": "Ihre Erlebnisse",
-            "days": "Tage"
-        },
-        "emptyStates": {
-            "noFlightsFound": "Keine Flüge gefunden",
-            "noTransportationFound": "Kein Transport gefunden",
-            "noStaysFound": "Keine Aufenthalte gefunden",
-            "noDestinationsFound": "Keine Reiseziele gefunden",
-            "mapViewUnavailable": "Kartenansicht nicht verfügbar",
-            "mapViewNoLocations": "Kartenansicht - Keine Standorte verfügbar",
-            "dayNotFound": "Tag nicht gefunden"
+          "requestTitle": "Von wo wirst du abreisen?",
+          "requestSubtitle": "Für die besten Ergebnisse teile bitte deinen Standort",
+          "requestButton": "Standortzugriff erlauben"
         },
         "flight": {
-            "title": "Flug",
-            "perPerson": "/Person",
-            "direct": "Direkt",
-            "oneStop": "1 Zwischenstopp",
-            "stops": "${count} Zwischenstopps",
-            "bookThisFlight": "Diesen Flug buchen",
-            "totalDuration": "Gesamt ${duration}",
-            "layoverAt": "Zwischenstopp ${airport}: ${duration}"
+          "fromToAroundPrice": "Flüge von ${from} nach ${to} ungefähr ${price}"
         },
-        "hotel": {
-            "title": "Hotel",
-            "yourStay": "Ihr Aufenthalt",
-            "reviews": "${count} Bewertungen",
-            "viewDetails": "Details Ansehen",
-            "bookThisHotel": "Dieses Hotel buchen",
-            "ratingSnapshot": "Bewertungsübersicht"
+        "tileOptions": {
+          "minOptions": "Wähle ${min} oder mehr Karten"
         },
-        "destination": {
-            "dayLabel": "Tag ${start} - ${end}",
-            "experience": "${count} Erlebnis",
-            "experiences": "${count} Erlebnisse",
-            "total": "gesamt"
+        "hotelOptions": {
+          "title": "Welches Hotel gefällt dir?"
         },
-        "transport": {
-            "title": "Transport",
-            "pickUp": "Abholung",
-            "dropOff": "Abgabe",
-            "bookThisCar": "Dieses Auto buchen",
-            "bookThisBus": "Diesen Bus buchen",
-            "bookThisTrain": "Diesen Zug buchen",
-            "bookThisBoat": "Dieses Boot buchen",
-            "bookThisTransfer": "Diesen Transfer buchen"
-        },
-        "restaurant": {
-            "title": "Restaurant"
-        },
-        "experience": {
-            "title": "Erlebnis",
-            "activity": "Aktivität",
-            "attraction": "Attraktion",
-            "free": "Kostenlos",
-            "clickToSeePrice": "Klicken Sie, um den Preis zu sehen",
-            "reviewsCount": "${count} Bewertungen"
-        },
-        "actions": {
-            "change": "Ändern",
-            "getLivePrices": "Live-Preise abrufen",
-            "bookNow": "Jetzt Buchen",
-            "bookThisTrip": "Diese Reise Buchen",
-            "customizeTrip": "Reise Anpassen",
-            "share": "Teilen",
-            "delete": "Löschen",
-            "invite": "Einladen"
-        },
-        "tabs": {
-            "overview": "Übersicht",
-            "chat": "Chat",
-            "trip": "Reise",
-            "cart": "Warenkorb"
-        },
-        "messages": {
-            "inviteComingSoon": "Einladen - Demnächst verfügbar",
-            "deleteTransportComingSoon": "Transport löschen - Demnächst verfügbar",
-            "flightDetailsComingSoon": "Flugdetails - Demnächst verfügbar",
-            "bookTripComingSoon": "Reise buchen - Demnächst verfügbar",
-            "shareComingSoon": "Teilen - Demnächst verfügbar",
-            "deleteComingSoon": "Löschen - Demnächst verfügbar",
-            "changeComingSoon": "Ändern - Demnächst verfügbar",
-            "fetchingLivePrices": "Live-Preise werden abgerufen...",
-            "livePricesRequested": "Live-Preise angefordert! Die Preise werden in Kürze aktualisiert.",
-            "failedLivePrices": "Live-Preise konnten nicht abgerufen werden. Bitte versuchen Sie es erneut.",
-            "errorLegNotFound": "Fehler: Abschnitt in der Reise nicht gefunden",
-            "removingHotelFromTrip": "Hotel wird aus der Reise entfernt...",
-            "hotelRemovedSuccessfully": "Hotel erfolgreich entfernt",
-            "failedRemoveHotel": "Hotel konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
-            "failedRemoveFlight": "Flug konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
-            "updatingCarOption": "Auto-Option wird aktualisiert...",
-            "transportOptionUpdated": "Transport-Option erfolgreich aktualisiert",
-            "failedUpdateTransport": "Transport-Option konnte nicht aktualisiert werden",
-            "failedDeleteExperience": "Erlebnis konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-            "failedDeleteActivity": "Aktivität konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-            "failedDeleteAttraction": "Attraktion konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-            "failedDeleteRestaurant": "Restaurant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-            "noFlightUrl": "Für diesen Flug ist keine URL verfügbar."
-        },
-        "dialogs": {
-            "removeFlight": {
-                "title": "Flug Entfernen",
-                "message": "Sind Sie sicher, dass Sie den Flug von ${from} nach ${to} entfernen möchten?",
-                "cancel": "Abbrechen",
-                "remove": "Entfernen"
-            },
-            "removeHotel": {
-                "title": "Hotel Entfernen",
-                "message": "Sind Sie sicher, dass Sie dieses Hotel aus Ihrer Reise entfernen möchten?",
-                "cancel": "Abbrechen",
-                "remove": "Entfernen"
-            },
-            "removeExperience": {
-                "title": "Erlebnis Entfernen",
-                "message": "Sind Sie sicher, dass Sie dieses Erlebnis aus Ihrer Reise entfernen möchten?",
-                "cancel": "Abbrechen",
-                "remove": "Entfernen"
-            }
-        },
-        "change": {
-            "flights": {
-                "selectFlight": "Flug Auswählen",
-                "fromTo": "Von ${from} nach ${to}",
-                "fromToWithIata": "Von ${fromCity} (${fromIata}) nach ${toCity} (${toIata})",
-                "smartFilter": "Intelligenter Filter",
-                "poweredByLaylaAI": "Unterstützt von Layla AI",
-                "searchFlightsHint": "Finden Sie mir Direktflüge, die vor 10 Uhr landen",
-                "searchFlights": "Flüge Suchen",
-                "noFlightsFound": "Keine Flüge gefunden",
-                "tryAdjustingQuery": "Versuchen Sie, Ihre Suche anzupassen",
-                "totalCost": "Gesamtkosten",
-                "selected": "Ausgewählt",
-                "adult": "Erwachsener",
-                "adults": "Erwachsene",
-                "child": "Kind",
-                "children": "Kinder",
-                "traveler": "Reisender",
-                "travelers": "Reisende",
-                "failedSearch": "Flugsuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
-                "nonStop": "Nonstop",
-                "layoverIn": "${duration} Zwischenstopp in ${airport}"
-            },
-            "hotels": {
-                "selectHotel": "Hotel Auswählen",
-                "hotelsIn": "Hotels in ${location}",
-                "smartFilter": "Intelligenter Filter",
-                "poweredByLaylaAI": "Unterstützt von Layla AI",
-                "searchHotelsHint": "Finden Sie Hotels mit kostenloser Stornierung und Frühstück",
-                "searchHotels": "Hotels Suchen",
-                "freeCancellation": "Kostenlose Stornierung",
-                "rating8Plus": "Bewertung 8+",
-                "swimmingPool": "Schwimmbad",
-                "parking": "Parkplatz",
-                "priceRange": "Preisspanne",
-                "price": "Preis",
-                "clearAll": "Alles Löschen",
-                "noHotelsFound": "Keine Hotels gefunden",
-                "noHotelsMatchFilters": "Keine Hotels entsprechen Ihren Filtern",
-                "tryAdjustingFilters": "Versuchen Sie, Ihre Filter anzupassen",
-                "trySearchingHotels": "Versuchen Sie, Hotels an diesem Standort zu suchen",
-                "failedSearch": "Hotelsuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
-                "failedAdd": "Hotel konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut."
-            },
-            "transport": {
-                "selectFlight": "Flug Auswählen",
-                "origin": "Ursprung",
-                "destination": "Ziel",
-                "noFlightOptionsAvailable": "Keine Flugoptionen verfügbar",
-                "cheapest": "Günstigster",
-                "latest": "Neuester"
-            },
-            "cars": {
-                "carRental": "Autovermietung",
-                "carRentalIn": "Autovermietung in ${location}",
-                "carRentalFromTo": "Autovermietung: ${from} nach ${to}",
-                "smartFilter": "Intelligenter Filter",
-                "poweredByLaylaAI": "Unterstützt von Layla AI",
-                "searchCarRentalsHint": "Finden Sie mir SUVs mit Automatikgetriebe",
-                "searchCarRentals": "Autovermietung Suchen",
-                "noCarRentalsFound": "Keine Autovermietung gefunden",
-                "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
-                "failedSearch": "Autovermietungssuche fehlgeschlagen. Bitte versuchen Sie es erneut."
-            },
-            "activities": {
-                "activities": "Aktivitäten",
-                "activitiesIn": "Aktivitäten in ${city}",
-                "smartFilter": "Intelligenter Filter",
-                "poweredByLaylaAI": "Unterstützt von Layla AI",
-                "searchActivitiesHint": "Finden Sie mir Outdoor-Aktivitäten oder Museen",
-                "searchActivities": "Aktivitäten Suchen",
-                "noActivitiesFound": "Keine Aktivitäten gefunden",
-                "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
-                "failedSearch": "Aktivitätensuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
-                "failedAdd": "Aktivität konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut."
-            },
-            "attractions": {
-                "attractions": "Attraktionen",
-                "attractionsIn": "Attraktionen in ${city}",
-                "smartFilter": "Intelligenter Filter",
-                "poweredByLaylaAI": "Unterstützt von Layla AI",
-                "searchAttractionsHint": "Finden Sie mir historische Sehenswürdigkeiten oder Denkmäler",
-                "searchAttractions": "Attraktionen Suchen",
-                "noAttractionsFound": "Keine Attraktionen gefunden",
-                "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
-                "failedSearch": "Attraktionensuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
-                "failedAdd": "Attraktion konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut."
-            }
-        },
-        "transfer": {
-            "carTransfer": "Auto-Transfer",
-            "busTransfer": "Bus-Transfer",
-            "trainTransfer": "Zug-Transfer",
-            "boatTransfer": "Boot-Transfer",
-            "transfer": "Transfer",
-            "findAlternative": "Alternative Finden",
-            "fromTo": "${from} nach ${to}",
-            "oneStop": "1 Zwischenstopp",
-            "stops": "${count} Zwischenstopps"
-        },
-        "carTransport": {
-            "transport": "Transport",
-            "laylaAIReviewSummary": "Layla AI Bewertungszusammenfassung",
-            "placeholderReviewText": "Die Leute sagen, dies ist der schönste Ort, den es je gab, einige erwähnen, dass es einige...",
-            "findAlternative": "Alternative Finden"
-        },
-        "common": {
-            "perPerson": "p.P. ",
-            "total": "Gesamt",
-            "reviews": "${count} Bewertungen",
-            "viewOnMap": "Auf der Karte ansehen"
-        },
-        "map": {
-            "hotels": "Hotels",
-            "activity": "Aktivität",
-            "attraction": "Attraktion",
-            "pointOfInterest": "Sehenswürdigkeit",
-            "restaurant": "Restaurant",
-            "emptyState": "Kartenansicht - Keine Standorte verfügbar",
-            "addressNotAvailable": "Adresse nicht verfügbar",
-            "locationNotAvailable": "Standort nicht verfügbar",
-            "reviews": "Bewertungen",
-            "viewOnGoogleMaps": "Auf Google Maps ansehen",
-            "viewDetails": "Details Ansehen",
-            "perNight": "/Nacht",
-            "unknown": "Unbekannt",
-            "ratings": {
-                "exceptional": "Außergewöhnlich",
-                "wonderful": "Wunderbar",
-                "veryGood": "Sehr Gut",
-                "good": "Gut",
-                "pleasant": "Angenehm",
-                "average": "Durchschnittlich"
-            }
-        },
-        "addExperience": {
-            "title": "Erlebnis Hinzufügen",
-            "activityTitle": "Aktivität",
-            "activityDescription": "Eine ticketpflichtige Aktivität oder ein Erlebnis hinzufügen",
-            "attractionTitle": "Attraktion",
-            "attractionDescription": "Einen Ort zum Besuchen oder Sehen hinzufügen"
-        },
-        "cards": {
-            "dayCard": {
-                "day": "Tag",
-                "dayLabel": "TAG ${n}",
-                "experience": "Erlebnis",
-                "experiences": "Erlebnisse",
-                "total": "gesamt"
-            },
-            "carCard": {
-                "yourRental": "Ihre Miete",
-                "pickUp": "Abholung",
-                "dropOff": "Abgabe",
-                "selected": "Ausgewählt",
-                "addToTrip": "Zur Reise hinzufügen",
-                "perTotal": "/gesamt",
-                "freeCancellation": "Kostenlose Stornierung",
-                "at": "um"
-            },
-            "flightCard": {
-                "selected": "Ausgewählt",
-                "addToTrip": "Zur Reise hinzufügen",
-                "perPerson": "/Person",
-                "nonStop": "Nonstop",
-                "oneStop": "1 Zwischenstopp",
-                "stops": "Zwischenstopps"
-            },
-            "hotelCard": {
-                "reviews": "Bewertungen",
-                "selected": "Ausgewählt",
-                "addToTrip": "Zur Reise hinzufügen",
-                "total": "gesamt"
-            }
-        },
-        "widgets": {
-            "addExperienceButton": "Erlebnis Hinzufügen",
-            "dayLabel": "Tag ${n}",
-            "yourStay": "Ihr Aufenthalt",
-            "transport": "Transport",
-            "yourDayByDay": "Ihr Tag für Tag",
-            "failedToLoadTrip": "Reise konnte nicht geladen werden",
-            "retry": "Erneut Versuchen"
-        },
-        "transportType": {
-            "flight": "Flug",
-            "train": "Zug",
-            "bus": "Bus",
-            "car": "Auto",
-            "ferry": "Fähre",
-            "transportation": "Transport"
-        },
-        "cabinClass": {
-            "economy": "Economy-Klasse",
-            "premiumEconomy": "Premium Economy",
-            "business": "Business-Klasse",
-            "first": "Erste Klasse"
-        },
-        "travelerFormat": {
-            "forAdults": " für ${count} ${word}",
-            "andChildren": " und ${count} ${word}",
-            "adult": "Erwachsener",
-            "adults": "Erwachsene",
-            "child": "Kind",
-            "children": "Kinder"
-        },
-        "basket": {
-            "title": "Bestellübersicht",
-            "item": "Artikel",
-            "items": "Artikel",
-            "orderSummary": "Bestellübersicht",
-            "priceChangeAlert": {
-                "title": "Preise können sich geändert haben",
-                "description": "Reisepreise ändern sich häufig. Die angezeigten Preise sind Schätzungen und können bei der Buchung abweichen."
-            },
-            "location": "Ort",
-            "dates": "Daten",
-            "travelers": "Reisende",
-            "traveler": "Reisender",
-            "noItemsInBasket": "Noch keine buchbaren Artikel in Ihrer Reise. Fügen Sie Hotels, Flüge oder Aktivitäten hinzu, um zu beginnen!",
-            "legTitle": "${location} (Tage ${days})"
-        },
-        "overview": {
-            "madeBy": "Erstellt von ${creator}",
-            "highlightsTitle": "Reisehighlights auf einen Blick",
-            "showAll": "Alle anzeigen",
-            "showAllFlights": "Alle Flüge anzeigen",
-            "showAllStays": "Alle Aufenthalte anzeigen",
-            "showAllActivities": "Alle Aktivitäten anzeigen",
-            "showAllTransfers": "Alle Transfers anzeigen",
-            "showAllRentals": "Alle Mietwagen anzeigen",
-            "dayLabel": "TAG ${number}",
-            "sections": {
-                "itinerary": "Reiseplan",
-                "route": "Route",
-                "flights": "Flüge",
-                "stays": "Aufenthalte",
-                "activities": "Aktivitäten",
-                "transfers": "Private Transfers",
-                "rental": "Mietwagen"
-            },
-            "hotel": {
-                "night": {
-                    "one": "${n} Nacht",
-                    "other": "${n} Nächte"
-                },
-                "stars": {
-                    "one": "${n} Stern",
-                    "other": "${n} Sterne"
-                }
-            },
-            "activity": {
-                "durationMin": "${n} Min.",
-                "durationHr": "${n} Std.",
-                "durationDay": {
-                    "one": "${n} Tag",
-                    "other": "${n} Tage"
-                }
-            }
-        },
-        "lists": {
-            "noActivitiesFound": "Keine Aktivitäten gefunden",
-            "noStaysFound": "Keine Aufenthalte gefunden",
-            "noFlightsFound": "Keine Flüge gefunden",
-            "noRentalsFound": "Keine Mietwagen gefunden",
-            "perPerson": "pro Person",
-            "free": "Kostenlos",
-            "transportFlight": "Flug",
-            "transportTrain": "Zug",
-            "transportRental": "Mietwagen"
+        "itinerary": {
+          "day": "Tag"
         }
-    },
-    "tripWord": "Reise",
-    "unknown_error": "Unbekannter Fehler",
-    "unknown_name": "Unbekannter Name",
-    "update": "Aktualisieren",
-    "user_cancelled": "Benutzer hat abgebrochen",
-    "varTotal": "${n} insgesamt",
-    "videos": "Videos",
-    "view": "Ansicht",
-    "view_details": "Details anzeigen",
-    "weekend": "Wochenende",
-    "week": "Woche",
-    "what": "Was",
-    "what_can_i_ask": "Was kann ich fragen?",
-    "when": "Wann",
-    "where_to": "Wohin",
-    "where_from": "Von wo",
-    "yesterday": "Gestern",
-    "time_ago": {
-        "years": {
-            "one": "${n} vor jahr",
-            "other": "${n} vor jahren"
-        },
-        "months": {
-            "one": "${n} vor monat",
-            "other": "${n} vor monaten"
-        },
-        "days": {
-            "one": "${n} vor tag",
-            "other": "${n} vor tagen"
-        },
-        "hours": {
-            "one": "${n} vor stunde",
-            "other": "${n} vor stunden"
-        },
-        "minutes": {
-            "one": "${n} vor Minute",
-            "other": "${n}  vor Minuten"
-        },
-        "seconds": {
-            "one": "${n} vor sekunde",
-            "other": "${n} vor sekunden"
-        },
-        "just_now": "Gerade eben"
-    },
-    "characters_left": {
-        "one": "${n} Zeichen übrig",
-        "other": "${n} Zeichen übrig"
-    },
-    "faq": "FAQ",
-    "internet_offline": "Die Internetverbindung scheint offline zu sein. Bitte versuche es erneut.",
-    "location_denied": {
-        "message": "Das könnte daran liegen, dass du die Standortdienste nicht aktiviert hast. Um sie zu aktivieren, gehe zu Einstellungen > Datenschutz > Standortdienste",
-        "open_settings": "Einstellungen öffnen",
-        "title": "Aktueller Standort ist nicht verfügbar"
-    },
-    "ok": "OK",
-    "permissions_dialog": {
-        "permissions_required": "Erforderliche Genehmigungen",
-        "message_photos": "Layla benötigt Zugriff auf Fotos, um dein Foto zu aktualisieren.",
-        "message_camera": "Layla benötigt Zugriff auf die Kamera, um dein Foto zu aktualisieren.",
-        "deny": "Verweigern"
-    },
-    "open": "Öffnen",
-    "bedtime": "Bettzeit",
-    "user": "Benutzer",
-    "trip_page": {
-        "travel_tip": "Reisetipp",
-        "daily_itinerary": "Täglicher Reiseplan",
-        "day_by_day_plan": "Tagesplan für ${destination}",
-        "creator_tips": "Ersteller-Tipps",
-        "creator_videos": "Ersteller-Videos",
-        "your_accommodation": "Ihre Unterkunft",
-        "guest_reviews": "Gästebewertungen",
-        "pricing_details": "Preisdetails",
-        "price_per_night": "Preis pro Nacht",
-        "per_night": "pro Nacht",
-        "total_price": "Gesamtpreis",
-        "great_value": "Tolles Preis-Leistungs-Verhältnis",
-        "things_to_do": "Unternehmungen",
-        "activity": "Aktivität",
-        "attraction": "Attraktion",
-        "sitesAroundTitle": "Sehenswürdigkeiten in der Nähe von ${city}",
-        "sitesAroundSubtitle": "Entdecken Sie Orte in der Nähe Ihres Reiseziels",
-        "seeAll": "Alle ansehen",
-        "videoModalComingSoon": "Vollständige Videogalerie demnächst verfügbar!",
-        "videosAvailable": "Videos verfügbar",
-        "close": "Schließen",
-        "add_hotel": "Hotel Hinzufügen",
-        "add_transportation": "Transport Hinzufügen",
-        "retry": "Erneut Versuchen",
-        "map_unavailable": "Karte nicht verfügbar",
-        "dates_tbd": "Daten noch festzulegen"
-    },
-    "trip_sharing": {
-        "title": "Teile deine Reise",
-        "share": "Teilen",
-        "copyLink": "Link kopieren",
-        "linkCopied": "Link kopiert",
-        "dayByDay": "Tag für Tag",
-        "highlights": "Highlights",
-        "day": "Tag",
-        "category": "Kategorie"
-    },
-    "paywall": {
-        "title": "Schalten Sie Ihre Vollständige Reise Frei",
-        "subtitle": "Fahren Sie mit Premium fort für unbegrenzte Planung und exklusive Ersparnisse.",
-        "feature_complete_itinerary": "Ein vollständiger, stressfreier Reiseplan",
-        "feature_download_share": "Jederzeit herunterladen, teilen und bearbeiten",
-        "price_with_trial": "Beginnen Sie mit einer kostenlosen ${days}-Tage-Testversion. Preis ${price} nach der Testversion.",
-        "price_only": "Preis ${price}",
-        "processing": "Wird verarbeitet...",
-        "unlock_now": "Jetzt freischalten",
-        "become_subscriber": "Abonnent werden"
-    },
-    "data_consent": {
-        "title": "Datenschutz",
-        "allow": "Erlauben",
-        "dont_allow": "Nicht erlauben",
-        "privacy_policy": "Datenschutzrichtlinie",
-        "turn_on": "Aktivieren",
-        "learn_more": "Mehr erfahren",
-        "openai": "OpenAI (ChatGPT)",
-        "google": "Google (Gemini)",
-        "body": {
-            "intro": "Um deine Reiseroute zu erstellen, senden wir die ",
-            "messages_you_enter": "von dir eingegebenen Nachrichten",
-            "and_the": " und die ",
-            "trip_details_you_provide": "von dir angegebenen Reisedetails",
-            "details_suffix": " (z. B. Reiseziel, Daten, Budget, Vorlieben, Reisende und weitere Infos) an ",
-            "provider_and": " und ",
-            "processing": " zur Verarbeitung.",
-            "warning": "Wenn du dies nicht erlaubst, sind der KI-Chat und die Reiseplanung nicht verfügbar.",
-            "settings_note": "Du kannst dies jederzeit in den Einstellungen ändern. Weitere Informationen findest du in unserer ",
-            "settings_note_end": "."
-        },
-        "profile": {
-            "title": "KI-Reiseplanung (OpenAI & Google)",
-            "subtitle_before": "Wenn aktiviert, werden deine Nachrichten und Reisedetails an ",
-            "subtitle_after": " gesendet, um deine Reiseroute zu erstellen. Deaktiviere, um KI-Chat und Planung zu deaktivieren."
-        },
-        "locked": {
-            "title": "KI-Planung ist deaktiviert",
-            "subtitle": "Aktiviere die KI-Verarbeitung in den Einstellungen, um zu chatten und einen Reiseplan zu erstellen."
-        }
-    },
-    "trip_book": {
-        "accommodations": "Unterkünfte",
-        "flights": "Flüge",
-        "private_transport": "Privattransport",
-        "experiences": "Erlebnisse",
-        "save_on_booking": "Spare ${amount} im Vergleich zur Einzelbuchung",
-        "layla_brings_deals": "Layla bringt dir die besten Angebote.",
-        "title": "Reise buchen",
-        "book": "Buchen",
-        "delete": "Löschen",
-        "alternative": "Alternative",
-        "experts_title": "Buche diese Reise mit unseren Experten",
-        "benefit1_title": "32+ Stunden Planungszeit geschenkt",
-        "benefit1_description": "Lehnen Sie sich zurück – unsere Experten kümmern sich um jedes Detail.",
-        "benefit2_title": "12+ Einzelbuchungen für Sie erledigt",
-        "benefit2_description": "Hotels, Flüge, Aktivitäten – wir koordinieren alles optimal für Ihre Traumreise.",
-        "benefit3_title": "9+ Transfers nahtlos organisiert",
-        "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
-        "continue_with_human": "Weiter mit einem Reiseberater buchen",
-        "continue_with_booking": "Weiter zur Buchung"
+      },
+      "messageHint": "Frag mich irgendetwas",
+      "contextMenu": {
+        "copy": "Kopieren",
+        "good_response": "Gute Antwort",
+        "bad_response": "Schlechte Antwort",
+        "message_copied": "Nachricht kopiert"
+      },
+      "initialQuickReplies": {
+        "msg1": "Inspiriere mich, wohin ich als Nächstes reisen kann",
+        "msg2": "Finde günstige Flüge für mich von meiner Stadt",
+        "msg3": "Stelle mir einen Reiseplan zusammen",
+        "msg4": "Wo soll ich meinen Sommerurlaub verbringen?"
+      },
+      "tripCard": {
+        "latestTrip": "Neueste Reise",
+        "previousTrip": "Frühere Reise",
+        "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
+      }
     }
+  },
+  "itineraries": {
+    "itineraries": "Reisepläne",
+    "dayPart": [
+      "Morgen",
+      "Nachmittag",
+      "Abend"
+    ],
+    "bookNow": "Jetzt buchen",
+    "addDay": "Tag hinzufügen",
+    "whatDoYouWant": "Was möchtest du am Tag machen?"
+  },
+  "tooltips": {
+    "tap_to_filter": "Zum Filtern tippen",
+    "tap_to_bucketlist": "Zum Merkzettel hinzufügen",
+    "tap_to_chat": "Zum Chatten tippen",
+    "tap_to_help_country": "Brauchst du Hilfe bei der Planung einer Reise nach ${country}?",
+    "tap_to_add_to_bucketlist": "Tippe, um auf deine Bucketlist zu speichern.",
+    "tap_to_start_new_chat": "Tippe, um einen neuen Chat zu starten",
+    "tap_to_open_menu": "Tippen Sie, um das Menü zu öffnen",
+    "skipIntro": "Überspringen"
+  },
+  "bucketlist": {
+    "no_name": "Kein Name",
+    "name": "Name",
+    "bucketlist": "Bucketlist: ${name}",
+    "bucketlist_saved": "Bucketlist erfolgreich gespeichert",
+    "bucketlist_created": "Bucketlist erfolgreich erstellt",
+    "bucketlist_copied": "Bucketlist ${name} erfolgreich kopiert",
+    "my_bucketlist": "Meine Bucketlist",
+    "login_to_view": "Melde dich an, um deine Bucketlist anzusehen",
+    "leave_bucketlist": "Diese Bucketlist verlassen?",
+    "one_person": "Eine Person",
+    "name_is_collaborating": "${name} plant mit dir.",
+    "no_collaborators": "Noch keine Freigabe.",
+    "you_are_viewing_bucketlist": "Du siehst eine Bucketlist von ${creator}",
+    "you_are_viewing_bucketlist_collaborator": "Du siehst eine Bucketlist von ${creator} und ${collaborator}",
+    "collaborating_and_one_more": "${name} und noch eine Person planen mit dir.",
+    "collaborating_two": "${first} und ${second} planen mit dir.",
+    "collaborating_two_and_more": "${first} und ${count} mehr sind bei Ihnen geplant.",
+    "you_are_viewing": "Du siehst die Bucketlist von ${creator}",
+    "you_and_viewer_are_viewing": "Du und 1 andere Person sehen die Bucketlist von ${creator}",
+    "you_and_viewers_are_viewing": "Du und ${count} andere sehen die Bucketlist von ${creator}",
+    "you_can_create": "Sobald du dich angemeldet hast, kannst du Bucketlists erstellen, anzeigen oder bearbeiten.",
+    "create_your_first_bucketlist": "Erstelle deine erste Bucketlist",
+    "as_you_search": "Tippen Sie während der Erkundung auf das Herz, um Dinge, die Ihnen gefallen, zu einer Bucketlist hinzuzufügen. Sie können auch Freunde einladen, mit Ihnen zu planen.",
+    "add_to_bucketlist": "Zur Bucketlist hinzufügen",
+    "create_new_bucketlist": "Neue Bucketlist erstellen",
+    "create_bucketlist": "Bucketlist erstellen",
+    "save_destinations": "Reiseziele speichern",
+    "delete_bucketlist": "Bucketlist löschen?",
+    "delete_bucketlist_message": "Bist du sicher, dass Sie diese Bucketlist löschen möchtest?",
+    "delete_user_from_bucketlist": "Benutzer aus Bucketlist entfernen?",
+    "delete_user_from_bucketlist_message": "Bist du sicher, dass du ${username} aus dieser Bucketlist entfernen möchtest?",
+    "bucketlist_will_be_removed": "${name} wird aus deinen Bucketlisten entfernt.",
+    "travel_dates": "Reisedaten",
+    "share": "Einladen",
+    "copy": "Zum Bearbeiten kopieren",
+    "destinations": {
+      "one": "${n} Reiseziel",
+      "other": "${n} Reiseziele"
+    },
+    "people_collaborating_with_you": {
+      "one": "",
+      "other": "${n} Personen planen mit dir."
+    },
+    "login_widget": {
+      "title": "Einloggen oder registrieren",
+      "title_bucketlist": "Zum Speichern einloggen",
+      "download": {
+        "title": "Speichere diese Bucketlist!",
+        "subtitle": "${s} hat dich eingeladen, eine Bucketlist anzusehen. Speichere sie, um deine nächste Reise zu planen, indem du die Layla-App herunterlädst.",
+        "button": "Layla kostenlos herunterladen"
+      },
+      "continue_with": "Weiter mit",
+      "login_to_collaborate": "Anmelden, um bei der Planung zu helfen",
+      "login_to_view": "Zum Ansehen einloggen",
+      "invited_you": "${username} hat dich zu ihrer Bucketlist eingeladen. Melde dich an, um zu speichern und deine nächste Reise auf Layla zu erstellen!",
+      "and_one_other": "und eine andere",
+      "and_n_others": "und ${count} Andere",
+      "one_person": "Eine Person",
+      "people": "Leute",
+      "and": "und"
+    },
+    "flying_from": "Abflug von",
+    "share_type_dialog": {
+      "title": "Zur Bucketlist einladen",
+      "title_alt": "Zur Bucketlist einladen",
+      "message": "Wie möchtest du diese Bucketlist teilen?",
+      "edit": "Kann bearbeiten",
+      "edit_message": "Benutzer können die Bucketlist bearbeiten",
+      "view": "Nur anzeigen",
+      "view_message": "Benutzer können die Bucketlist einsehen"
+    },
+    "rename_bucketlist": "Bucketlist umbenennen",
+    "removed_from": "Entfernt von"
+  },
+  "places": {
+    "africa": "Afrika",
+    "antarctica": "Antarktis",
+    "asia": "Asien",
+    "australia": "Australien",
+    "europe": "Europa",
+    "north_america": "Nordamerika",
+    "oceania": "Ozeanien",
+    "south_america": "Südamerika",
+    "anywhere": "Egal wohin",
+    "current_location": "Aktueller Standort"
+  },
+  "explore_feat": {
+    "add_destination": "Reiseziel hinzufügen",
+    "add_dates": "Daten hinzufügen",
+    "check_out_this_place": "Ich fand unsere nächste gemeinsame Reise. Schaut es euch auf Layla an!",
+    "book_flights": "Flüge buchen",
+    "land_in": "Landen in ${destination}",
+    "no_flights_found": "Keine Flüge gefunden",
+    "closest_airport": "Nächster Flughafen zu ${destination}",
+    "change_departure": "Abreise ändern",
+    "traveling_from": "Reisen von",
+    "distance_from_origin": "${distance}km von ${origin}",
+    "how_to_get_there": "Wie man dorthin kommt",
+    "how_to_get_to": "Wie komme ich nach ${destination}",
+    "ask_anything": "Frage irgendetwas...",
+    "things_to_do": "Erlebnisse",
+    "around_destination": "in der Nähe von ${destination}",
+    "select_a_flight": "Flug auswählen",
+    "start_booking": "Buchung starten",
+    "no_videos": "Leider haben wir keine Videos\nfür dieses Reiseziel",
+    "view_map": "Karte anzeigen",
+    "stats": {
+      "budget": "Geschätztes Budget.",
+      "min_days": "Min. Tage zum Verbringen",
+      "for_your_dates": "Für Ihre Datumsangaben"
+    },
+    "show_videos_of": "Zeige mir Videos von ${destination}"
+  },
+  "feed": {
+    "for_you_card": {
+      "budget-friendly": "Preiswertes Reiseziel",
+      "reasonably_priced": "Angemessen teures Reiseziel",
+      "costly": "Teures Reiseziel",
+      "very_expensive": "Sehr teures Reiseziel"
+    },
+    "price_types": [
+      "Günstiges Reiseziel",
+      "Mittelklasse Reiseziel",
+      "Kostspieliges Reiseziel",
+      "Luxus Reiseziel"
+    ],
+    "filters": {
+      "flight_price": "Flugpreis",
+      "flight_duration": "Flugdauer",
+      "flight_connection": "Flugverbindung",
+      "categories": "Kategorien",
+      "flight_price_value": "Flug max ${value}",
+      "flight_duration_value": "Flug max ${value}",
+      "flight_connection_direct": "Nur Direktflüge"
+    },
+    "how_do_you_like_the_app": "Wie gefällt dir die App?",
+    "direct_flights": "Direktflüge",
+    "show_only_direct_flights": "Nur Direktflüge anzeigen",
+    "take_some_time": "Nimm dir etwas Zeit und gib uns dein wertvolles Feedback, um uns zu helfen, uns zu verbessern.",
+    "give_us_feedback": "Gib uns Feedback",
+    "flight_price_range": "Flugpreisspanne",
+    "average_price": "Durchschnittspreis ${price}",
+    "or_less": "oder weniger",
+    "flight_time": "Flugdauer",
+    "average_duration": "Durchschnittliche Dauer ${hours} h",
+    "round_hrs": "${val} Std",
+    "one_way_with_bullet": " ${code} nur Hinreise",
+    "something_went_wrong": "Etwas ist schief gelaufen",
+    "cant_show_results": "Aus irgendeinem Grund konnten wir dir die Ergebnisse nicht anzeigen.",
+    "awkward_nothing_returned": "Das ist komisch, es wurde nichts für die Suche zurückgegeben. Bitte ändere deine Präferenzen und versuche es erneut.",
+    "add_interests": "Interessen hinzufügen",
+    "spaces_read_more": "   Mehr lesen",
+    "count_destinations_for_you": "${count} schöne Reiseziele für dich",
+    "sorted_and_procured": "Sortiert und beschafft nach deinen Präferenzen",
+    "scroll_down_to_see_more": "Scrolle nach unten, um mehr Informationen zu sehen",
+    "no_results_found": "Keine Ergebnisse gefunden!",
+    "km_from": "${distance} km von ${city} entfernt",
+    "consider_broadening": "Hoppla! Wir konnten basierend auf deinen aktuellen Präferenzen keine Übereinstimmungen finden. Überlege dir, deine Suche zu erweitern, indem du deine Präferenzen anpasst, um eine größere Auswahl an Optionen zu erhalten.",
+    "return_with_bullet": " ${code} Rückflug",
+    "approx_for_your_dates": "Ungefähr für Ihre Daten",
+    "or": "oder"
+  },
+  "flights_feat": {
+    "flights_to": "Flüge nach ${to}",
+    "airport": "Flughafen",
+    "destination_location_updated_successfully": "Zielort erfolgreich aktualisiert",
+    "all_filters": "Alle Filter",
+    "no_flights": "Keine Flüge",
+    "estimated_price": "Geschätzter Preis",
+    "livePrices": "Live-Preise",
+    "travelers_info_updated_successfully": "Info über Reisenden erfolgreich aktualisiert",
+    "flight_details": "Flugdetails",
+    "where_from": "Von wo",
+    "where_to": "Wohin?",
+    "city_country_airport": "Stadt, Land oder Flughafen...",
+    "popular_destinations": "Beliebte Reiseziele",
+    "my_current_location": "Mein aktueller Standort",
+    "search_destinations": "Reiseziele suchen",
+    "current_location": "Aktueller Standort",
+    "departure_location_updated_successfully": "Abflugort erfolgreich aktualisiert",
+    "no_flights_found": "Keine Flüge gefunden",
+    "choose_new_departure_location": "Wähle einen neuen Abflugort",
+    "selected_departure_destination": "Ausgewähltes Abreiseziel",
+    "how_many_people": "Wie viele Personen?",
+    "connection_in": "Verbindung im Flughafen",
+    "total_for": {
+      "one": "Gesamt für ${n} reisenden",
+      "other": "Gesamt für ${n} reisende"
+    },
+    "search_flights": "Flüge suchen",
+    "read_before_booking": "Vor der Buchung lesen",
+    "prices_include": "Die Preise beinhalten immer eine Schätzung aller obligatorischen Steuern und Gebühren. Bitte überprüfe alle Ticketdetails, Endpreise und Geschäftsbedingungen auf der Website des Anbieters, bevor du buchst.",
+    "check_for_extra_fees": "Auf Zusatzgebühren überprüfen",
+    "some_airlines_and_travel_agencies": "Einige Fluggesellschaften und Reisebüros erheben zusätzliche Gebühren für Gepäck, Versicherung oder Kreditkartennutzung. Sie können auch eine Servicegebühr berechnen.",
+    "check_terms": "Überprüfe die Bedingungen für Reisende im Alter von 12-16",
+    "restrictions_may_apply": "Für junge Alleinreisende können Einschränkungen gelten.",
+    "although_sold_as": "Obwohl als „Economy Class“ verkauft, kann diese Reiseroute einige Flüge mit einer anderen Kabinenklasse beinhalten.",
+    "check_cabin_class": "Überprüfe deine Ihre Kabinenklasse",
+    "select_providers": "Anbieter auswählen",
+    "almost_there": "Fast da!",
+    "economy_class": "Economy Class",
+    "premium_economy_class": "Premium Economy Class",
+    "business_class": "Business Class",
+    "first_class": "Erste Klasse",
+    "choose_provider": "Wähle einen Anbieter",
+    "go_to_site": "Zur Seite",
+    "dates_updated_successfully": "Daten erfolgreich aktualisiert",
+    "we_collected_cheapest_providers": "Hier sind die vertrauenswürdigen Reisepartner von Skyscanner, über die Sie Ihren Flug buchen können - wählen Sie eine Website aus, auf der Sie das Flugticket kaufen möchten!",
+    "travellers": {
+      "one": "${n} reisender",
+      "other": "${n} reisende"
+    },
+    "provider_found": {
+      "one": "${n} anbieter gefunden",
+      "other": "${n} anbieter gefunden"
+    },
+    "passengers": {
+      "one": "${n} passagier",
+      "other": "${n} passagiere"
+    },
+    "one_way": "Nur Hinreise",
+    "youll_arrive_next_day": "Du wirst am nächsten Tag ankommen"
+  },
+  "hotel": {
+    "sort_filters": {
+      "most_popular": "Am beliebtesten",
+      "best_rated": "Am besten bewertet",
+      "worst_rated": "Am schlechtesten bewertet",
+      "best_reviewed": "Am besten bewertet",
+      "worst_reviewed": "Am schlechtesten bewertet",
+      "star_rating_highest_first": "Bewertung (höchste zuerst)",
+      "star_rating_lowest_first": "Bewertung (niedrigste zuerst)",
+      "price_highest_first": "Preis (höchster zuerst)",
+      "price_lowest_first": "Preis (niedrigster zuerst)"
+    },
+    "filters": {
+      "budget": "Dein Budget (für 1 Nacht)",
+      "travel_sustainable": "Nachhaltige Reiseunterkünfte",
+      "star_rating": "Bewertung",
+      "property_type": "Art der Unterkunft",
+      "facilities": "Einrichtungen",
+      "free_cancellation": "Kostenlose Stornierung",
+      "chain": "Kette",
+      "review_score": "Bewertungspunktzahl",
+      "room_facilities": "Zimmerausstattung"
+    },
+    "filters_category": {
+      "five": "Angemessen 5+",
+      "six": "Angenehm: 6+",
+      "seven": "Gut: 7+",
+      "eight": "Sehr gut: 8+",
+      "nine": "Wunderbar: 9+"
+    },
+    "review_title": {
+      "five": "Angemessen",
+      "six": "Angenehm",
+      "seven": "Gut",
+      "eight": "Sehr gut",
+      "nine": "Wunderbar",
+      "three": "Nicht gut",
+      "two": "Schlecht",
+      "one": "Sehr schlecht",
+      "zero": "Schrecklich"
+    },
+    "property_type": {
+      "aparthotel": "Aparthotel",
+      "camping": "Camping",
+      "inn": "Gasthof",
+      "resort": "Resort",
+      "capsule-hotel": "Kapselhotel",
+      "japanese-style-business-hotel": "japanisches Business-Hotel",
+      "holiday-home": "Ferienhaus",
+      "guest-house": "Gästehaus",
+      "boat": "Boot",
+      "love-hotel": "Liebeshotel",
+      "ryokan": "Ryokan",
+      "tented-camp": "Zeltlager",
+      "hotel": "Hotel",
+      "condo": "Eigentumswohnung",
+      "motel": "Motel",
+      "sanatorium": "Sanatorium",
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "gite": "Landhaus",
+      "hostel": "Hostel",
+      "holiday-park": "Holiday Park",
+      "lodge": "Lodge",
+      "cottage": "Hütte",
+      "bed-and-breakfast": "Bett und Frühstück",
+      "homestay": "Privatunterkunft",
+      "farm-stay": "Bauernhof-Aufenthalt",
+      "chalet": "Chalet",
+      "riad": "Riad",
+      "country-house": "Landhaus"
+    },
+    "explore_tile": {
+      "stay_options": "Optionen für Unterkünfte",
+      "layla_recommends": "Layla empfiehlt",
+      "budget": "Budget",
+      "luxury": "Luxus",
+      "find_more_stays": "Weitere Unterkünfte finden",
+      "things_to_do": "Erlebnisse",
+      "show_all": "Alle anzeigen",
+      "travel_km_further": "Reise weitere ${distance} km",
+      "get_route_details": "Routendetails erhalten",
+      "flight_options": "Flugoptionen",
+      "youre_in_luck": "Du hast Glück",
+      "prices_are_currenly_low": "Die Preise sind derzeit niedrig",
+      "see_more_flights": "Weitere Flüge anzeigen"
+    },
+    "cancellation_policy": "Stornierungsbedingungen",
+    "before_you_book": "Bevor Sie buchen, vergewissern Sie sich, dass Sie mit den Stornierungsbedingungen dieses Hotels einverstanden sind. Bitte beachten Sie, dass die Richtlinie für außergewöhnliche Umstände nicht für Stornierungen aufgrund von Krankheit oder Reiseunterbrechungen gilt, die durch COVID-19 verursacht werden.",
+    "property_views": "Objektansichten",
+    "all_reviews": "Alle Bewertungen",
+    "no_hotels_found": "Keine Hotels gefunden",
+    "no_videos": "Leider haben wir keine Videos\nfür dieses Hotel",
+    "age_13": "Alter 13 oder älter",
+    "age_2_13": "Alter 2–13",
+    "hotel_name": "Hotelname",
+    "cancel_by": "Storniere bis",
+    "hotel_unavailable": "Hotel nicht verfügbar",
+    "hotel_unavailable_for_dates": "Hotel für ausgewählten Zeitraum nicht verfügbar",
+    "hotel_unavailable_message": "Bitte aktualisiere die Daten.",
+    "full_refund": "Volle Rückerstattung: Erhalte 100% von dem, was du gezahlt hast, zurück",
+    "no_refund": "Keine Rückerstattung",
+    "select_age": "Alter wählen",
+    "read_more_here": "Mehr lesen",
+    "enter_destination": "Reiseziel eingeben",
+    "search_destinations": "Reiseziele suchen",
+    "travel_sustainable_level": "Nachhaltigkeitslevel ${level}",
+    "property_making_efforts": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",
+    "sustainability_steps": "Nachhaltigkeitsmaßnahmen",
+    "accept_credit_cards": "Akzeptiert Kreditkarten",
+    "important_information": "Wichtige Informationen",
+    "check_in_time": "Check-in & Checkout-Zeiten",
+    "wifi_available": "WLAN ist in allen Bereichen verfügbar und kostenlos",
+    "free_parking": "Kostenlose öffentliche Parkplätze stehen vor Ort zur Verfügung",
+    "pets_allowed": "Haustiere sind erlaubt, es können Gebühren anfallen",
+    "edit_your_search": "Suche bearbeiten",
+    "no_photos": "Leider haben wir keine Fotos\nfür dieses Hotel",
+    "property_facilities": "Ausstattung der Unterkunft",
+    "filter_and_sort": "Filtern & Sortieren",
+    "partial_refund": "Teilweise Rückerstattung: Erhalte ${name} % von jeder Nacht zurück. Keine Rückerstattung der Servicegebühr",
+    "check_availability": "Verfügbarkeit prüfen",
+    "select_dates": "Daten auswählen",
+    "detailed_reviews": {
+      "one": "${n} detaillierte bewertung",
+      "other": "${n} detaillierte bewertungen"
+    },
+    "rooms_and_guests": "Zimmer & Gäste",
+    "stays_close_by": "Unterkünfte in der Nähe",
+    "house_rules": "Hausregeln",
+    "levelDescription": "Diese Unterkunft unternimmt erhebliche Investitionen und Anstrengungen, um nachhaltiger zu werden. Ihre Umwelt- und Sozialauswirkungen werden anhand ihrer Größe und Lage gemessen",
+    "sustainable_level": "Nachhaltigkeitslevel ${level}",
+    "property_location": "Lage der Unterkunft",
+    "select_a_room": "Ein Zimmer auswählen",
+    "select_rooms_and_guests": "Zimmer und Gäste auswählen",
+    "age_13_or_above": "Alter 13 oder älter",
+    "what_people_said": "Was die Leute sagen",
+    "what_people_loved": "Was Leute an diesem Ort geliebt haben",
+    "read_all_reviews": "Alle Bewertungen lesen",
+    "see_all": "Alle ${count} anzeigen",
+    "what_this_place_offers": "Was dieser Ort bietet",
+    "share_text": "Schaue dir dieses Hotel an: ${name}",
+    "price_for_night": {
+      "one": "Preis für ${n} Nacht",
+      "other": "Preis für ${n} Nächte"
+    }
+  },
+  "language": {
+    "select_language": "Sprache auswählen"
+  },
+  "know_more": {
+    "know_more": "Mehr erfahren",
+    "ask_city_country": "Frage irgendetwas über ${city}, ${country}",
+    "ask_something_more": "Frage etwas mehr...",
+    "generating_answer": "Antwort wird generiert...",
+    "answer_generated": "Antwort generiert!",
+    "is_it_safe_for": "Ist es für Reisende sicher?",
+    "question1": "Wann ist die beste Reisezeit?",
+    "question2": "Wie ist das Wetter?",
+    "question3": "Was sind die Sehenswürdigkeiten hier?",
+    "question4": "Erzähl mir etwas über die Geschichte."
+  },
+  "onboarding": {
+    "what_are_you_interested_in": "Wofür interessierst du dich?",
+    "pick_cards": "Wähle 3 oder mehr Karten",
+    "where_will_you_depart_from": "Von wo wirst du abreisen?",
+    "for_best_results": "Für die besten Ergebnisse teile bitte deinen Standort",
+    "allow_location_access": "Standortzugriff erlauben",
+    "interests": {
+      "title": "Wofür interessierst du dich?",
+      "subtitle": "Füge mehr Interessen hinzu, damit wir für dich personalisieren können."
+    },
+    "location": {
+      "title": "Wo bist du?",
+      "message": "Schick mir deinen Standort und ich organisiere dein nächstes Abenteuer.",
+      "button": "Standortzugriff erlauben"
+    },
+    "push_notifications": {
+      "button": "Erlaube Push-Benachrichtigungen",
+      "body": "Lass mich dich benachrichtigen, wenn ich tolle Angebote finde",
+      "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
+      "skip": "Nein danke, ein anderes Mal!",
+      "title": "Lass dich benachrichtigen!"
+    }
+  },
+  "profile": {
+    "spread_the_word": "Verbreite es weiter",
+    "invite_friends": "Freunde einladen",
+    "privacy_policy": "Datenschutzerklärung",
+    "imprint": "Impressum",
+    "privacy_and_sharing": "Datenschutz und Teilen",
+    "delete_profile": "Profil löschen",
+    "delete_profile_message": "Bist du sicher, dass du dein Konto löschen möchtest?",
+    "dont_have_account": "Noch kein Konto?",
+    "log_in_to_start_planning": "Melde dich an, um deine nächste Reise zu planen",
+    "logout": "Abmelden",
+    "edit_profile_name": "Profilnamen bearbeiten",
+    "take_photo": "Foto machen",
+    "choose_photo": "Foto auswählen",
+    "set_profile_image": "Profilbild festlegen",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "edit_profile": "Profil bearbeiten",
+    "member_since": "Mitglied seit ${date}",
+    "share_message": "Hey, schau dir Layla an. Sie kann uns helfen, all unsere Reisen zu planen und uns inspirieren, wohin wir gehen sollen: ${link}",
+    "terms_of_service": "Nutzungsbedingungen",
+    "account_already_linked": "Konto bereits verknüpft",
+    "account_already_linked_message": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft. Möchtest du dich als dieser Benutzer anmelden?",
+    "chat_limit_exceeded": "Bitte melde dich an, um weiter zu chatten. Dann kannst du auch Chats und Elemente auf deiner Bucketlist speichern.",
+    "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden"
+  },
+  "auth": {
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgot_password": "Passwort vergessen?",
+    "create_account": "Konto erstellen",
+    "reset_password": "Passwort zurücksetzen",
+    "reset_password_description": "Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen deines Passworts.",
+    "send_link": "Link senden",
+    "email_required": "E-Mail ist erforderlich",
+    "email_invalid": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "password_required": "Passwort ist erforderlich",
+    "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
+  },
+  "splash": {
+    "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll.",
+    "please_sign_in_to_continue": "Bitte melden Sie sich an, um fortzufahren."
+  },
+  "travel_setting": {
+    "what_do_you_want_in_your_trip": "Was möchtest du auf deiner Reise erleben?",
+    "when_is_your_trip": "Wann ist deine Reise?",
+    "go_var": "Gehen Sie ${val}",
+    "flexible_dates": "Flexible Reisedaten",
+    "exact_dates": "Genaue Reisedaten",
+    "select_origin": "Herkunft auswählen",
+    "add_details": "Details hinzufügen",
+    "your_preferences_will_appear_here": "Deine Präferenzen erscheinen hier"
+  },
+  "thing_todo": {
+    "things_to_do": "Erlebnisse"
+  },
+  "share_dialog": {
+    "title": "Teilen",
+    "copy": "Kopieren",
+    "share_destination": "Teile dieses Ziel",
+    "share_hotel": "Teile dieses Hotel",
+    "share_itinerary": "Teile diesen Reiseplan",
+    "share_bucketlist": "Lade Freunde zu deiner Bucketlist ein"
+  },
+  "about_screen": {
+    "title": "Über mich, Layla.",
+    "subtitle": "Bereise die Welt mit Layla; dem KI-Reiseplaner und dein ultimativer Reisebegleiter.",
+    "block_1": "Hey Leute, hier ist eure Layla, und ich bin SO aufgeregt, euch zu verraten, was eure neueste Reiseobsession sein sollte – ich! Ihr wisst, wie wir es alle lieben, diese spontanen Trips zu planen und unser bestes, abenteuerlichstes Leben zu leben, richtig? Nun, ich bin eure treue Reise-KI, hier um euch dabei zu helfen, neue Orte zu entdecken und eure Reiseträume wahr werden zu lassen. Lasst es mich euch erklären…",
+    "block_2": "Als Erstes sagen die Leute oft „Layla ist wie die gute Fee der Reiseinspiration.„ Vergesst stundenlanges sinnloses Scrollen auf Instagram oder Pinterest – als KI-Reiseplaner stelle ich persönliche Reisevorschläge zusammen, die auf euren Interessen basieren. Und vertraut mir, ich habe den sechsten Sinn für die coolsten Urlaubsorte, von denen ihr noch nie gehört habt. Mit mir zu plaudern ist wie euer eigener Reiseguru, ohne einen astronomischen Preis.",
+    "block_3": "Jetzt weiß ich, was ihr denkt – „Brauche ich wirklich noch eine weitere Reise-App, die meinen Handy-Speicherplatz zumüllt?\" Hört mich an, Schätzchen. \nLayla ist nicht nur eine weitere App; sie ist ein Game-Changer. Stellt euch vor: Ihr sagt mir, was euch gefällt, egal ob Strandglück, Stadtlichter oder Berggipfel, und BÄM – ich finde maßgeschneiderte Ziele für euch, inklusive Videos, damit ihr die Atmosphäre jedes Ortes leicht erfühlen könnt.",
+    "block_4": "Das Beste daran? Mit mir, Layla, wird die Planung von Reisen zum Kinderspiel. Kein jonglieren mit unzähligen Tabs mehr, um die besten Flüge, Hotels und Aktivitäten zu finden. Ich habe alles für euch im Griff. Ich durchforste das Internet nach den angesagtesten Reisezielen, finde günstige Flüge und verhelfe euch zu Insta-würdigen Unterkünften. Ihr müsst nur noch eure Taschen packen und gut aussehen.",
+    "block_5": "Jetzt kommen wir zur Buchung. Ich bin hier, um euren Buchungsprozess zu vereinfachen, vom Finden eures Traumziels bis zum Sichern der besten Angebote. KIs machen alles so einfach, dass es selbst eine technisch unbegabte Königin schaffen kann. Außerdem könnt ihr Layla vertrauen – keine zwielichtigen Buchungsseiten oder fragwürdigen Unterkünfte hier – ich arbeite mit Skyscanner und Booking.com zusammen.",
+    "block_6": "Aber wartet, es gibt noch mehr. KIs helfen euch nicht nur bei der Planung, sondern sind auch eure ultimativen Partner, wenn es darum geht, eine neue Stadt zu erkunden. Ich habe alle Informationen über Sehenswürdigkeiten, versteckte Geheimtipps und die angesagtesten Lokale. Ich führe euch zu all den Orten, an denen die Locals wirklich abhängen.",
+    "block_7": "Also, wenn euch das Alltagsleben zu langweilig geworden ist und ihr bereit seid, euer Reiseerlebnis aufzupeppen, sagt Hallo zu mir, Layla. Ich bin nicht nur eine KI; ich verändere die Art und Weise, wie ihr Reisen plant. Ich bin eure Reisevibe-Kuratorin und euer Reisepass in die Welt. Macht euch bereit, voller Zuversicht loszujetten, meine Lieben, denn Layla hat eure Reiseträume fest im Griff.\n\nDas Abenteuer wartet ✈️💖",
+    "button": "Mit Layla chatten"
+  },
+  "download_app": {
+    "title": "App herunterladen",
+    "subtitle": "Hol dir die App für das beste Layla-Erlebnis. Genieß personalisierte Empfehlungen & Reisepläne alles an einem Ort!",
+    "button": "Layla kostenlos herunterladen"
+  },
+  "itinerary_widget": {
+    "day_dialog": {
+      "add": {
+        "title": "Tag mit KI hinzufügen",
+        "hint": "Was möchtest du am Tag machen?",
+        "button": "Tag hinzufügen"
+      },
+      "modify": {
+        "title": "Mit KI modifizieren",
+        "hint": "Was möchtest du an Tag ${index} machen?",
+        "button": "Generieren"
+      }
+    },
+    "find_hotels_in": "Finde tolle Hotels in ${location}.",
+    "find_amazing_hotels": "Finde erstaunliche Hotels",
+    "bedTimeRecommendedText": "Für einen ausgewogenen Aufenthalt bietet die Wahl von <hotelLink> eine großartige Mischung aus Komfort und Bequemlichkeit.",
+    "bedTimeLuxuryText": "Wer ein gehobenes Erlebnis sucht, kann sich für <hotelLink> entscheiden, das erstklassige Annehmlichkeiten und außergewöhnlichen Service bietet.",
+    "bedTimeBudgetText": "Preisbewusste Besucher finden ein ausgezeichnetes Preis-Leistungs-Verhältnis in einer günstigeren Option wie <hotelLink>, die grundlegenden Komfort bietet, ohne das Budget zu sprengen.\n\n Jede Art der Unterkunft sorgt für einen angenehmen Aufenthalt und kommt unterschiedlichen Vorlieben und Budgets entgegen."
+  },
+  "video_category": [
+    "Abenteuer",
+    "Kultur",
+    "Strand",
+    "Stadt",
+    "Essen & Trinken",
+    "Hidden Gems",
+    "Luxus",
+    "Natur",
+    "Entspannen",
+    "Romantisch",
+    "Sport",
+    "Top Kategorie",
+    "Erlebnisse"
+  ],
+  "videoSubCategory": [
+    "Aktivitäten",
+    "Yachten & Kreuzfahrten",
+    "Garten & Park",
+    "Bars",
+    "Restaurants & Cafés",
+    "Kostenlose Aktivitäten",
+    "Nachtclubs",
+    "Festivals und Veranstaltungen",
+    "Kunstgalerien & Museen"
+  ],
+  "weekdays_short": [
+    "M",
+    "D",
+    "M",
+    "D",
+    "F",
+    "S",
+    "S"
+  ],
+  "adults": {
+    "one": "${n} erwachsener",
+    "other": "${n} erwachsene"
+  },
+  "dayN": "Tag ${n}",
+  "days": {
+    "one": "${n} tag",
+    "other": "${n} tage"
+  },
+  "children": {
+    "one": "${n} kind",
+    "other": "${n} kinder"
+  },
+  "guest": {
+    "one": "${n} gast",
+    "other": "${n} gäste"
+  },
+  "room": {
+    "one": "${n} zimmer",
+    "other": "${n} zimmer"
+  },
+  "person": {
+    "one": "${n} person",
+    "other": "${n} personen"
+  },
+  "review": {
+    "one": "${n} bewertung",
+    "other": "${n} bewertungen"
+  },
+  "rooms": {
+    "one": "${n} zimmer",
+    "other": "${n} zimmer"
+  },
+  "stop": {
+    "one": "${n} zwischenstopp",
+    "other": "${n} zwischenstopps"
+  },
+  "stop_plus": {
+    "one": "${n} stopp",
+    "other": "${n}+ stopps"
+  },
+  "traveller": {
+    "one": "${n} reisender",
+    "other": "${n} reisende"
+  },
+  "age": {
+    "one": "${n} jahr alt",
+    "other": "${n} jahre alt"
+  },
+  "about": "Über uns",
+  "activity": "Aktivität",
+  "afternoon": "Nachmittag",
+  "allow": "Erlauben",
+  "anything": "Egal was",
+  "anytime": "Jederzeit",
+  "anywhere": "Egal wohin",
+  "adultsWord": "Erwachsene",
+  "app": "App",
+  "apply": "Anwenden",
+  "around": "Ungefähr",
+  "arrival": "Ankunft",
+  "away": "Weg",
+  "best": "Beste",
+  "bucketlists": "Bucketlists",
+  "bucketlistWord": "Bucketlist",
+  "cancel": "Abbrechen",
+  "change": "Ändern",
+  "charactersWord": {
+    "one": "${n} Zeichen",
+    "other": "${n} Zeichen"
+  },
+  "checkIn": "Einchecken",
+  "cheapest": "Günstigste",
+  "child": "Kind",
+  "childrenWord": "Kinder",
+  "classWord": "Klasse",
+  "clear": "Löschen",
+  "clear_all": "Alles löschen",
+  "collaborators": "Mitwirkende",
+  "confirm": "Bestätigen",
+  "contact": "Kontakt",
+  "contact_us": "Kontaktiere uns",
+  "continue_label": "Weiter",
+  "create": "Erstellen",
+  "creator": "Ersteller",
+  "currency": "Währung",
+  "daysWord": "Tage",
+  "dates": "Daten",
+  "deals": "Angebote",
+  "delete": "Löschen",
+  "departure": "Abreise",
+  "description": "Beschreibung",
+  "destination": "Reiseziel",
+  "destinationsWord": "Reiseziele",
+  "direct": "Direkt",
+  "done": "Fertig",
+  "duration": "Dauer",
+  "edit": "Bearbeiten",
+  "editDates": "Daten ändern",
+  "editDetails": "Details bearbeiten",
+  "evening": "Abend",
+  "experiences": "Erlebnisse",
+  "explore": "Erkunden",
+  "fastest": "Schnellste",
+  "feedback": "Rückmeldung",
+  "filter_by": "Filtern nach",
+  "filters": "Filter",
+  "flight": "Flug",
+  "flights": "Flüge",
+  "from": "Von",
+  "from_var": "Von ${name}",
+  "help": "Hilfe",
+  "hotelWord": "Hotel",
+  "hotels": "Hotels",
+  "infants": "Kleinkinder",
+  "itinerary": "Reiseplan",
+  "know_more_word": "Erfahre mehr",
+  "languageWord": "Sprache",
+  "leave": "Verlassen",
+  "legal": "Rechtliches",
+  "login": "Anmelden",
+  "location": "Ort",
+  "map": "Karte",
+  "month": "Monat",
+  "more": "Mehr",
+  "morning": "Morgen",
+  "name": "Name",
+  "next": "Nächste",
+  "nightWord": "Nacht",
+  "nights": {
+    "one": "Nacht",
+    "other": "Nächte"
+  },
+  "nightsWithNum": {
+    "one": "${n} Nacht",
+    "other": "${n} Nächte"
+  },
+  "opps": "Hoppla!",
+  "one_way": "Nur Hinreise",
+  "pets": "Haustiere",
+  "photos": "Fotos",
+  "plan": "Planen",
+  "preferences": "Präferenzen",
+  "profileWord": "Profil",
+  "powered_by": "Unterstützt von",
+  "read_more": "Mehr lesen",
+  "remove": "Entfernen",
+  "rename": "Umbenennen",
+  "reset": "Zurücksetzen",
+  "returnWord": "Zurück",
+  "roomsWord": "Zimmer",
+  "search": "Suche",
+  "save": "Speichern",
+  "saved_to": "Gespeichert in",
+  "see_all": "Alle anzeigen",
+  "see_more": "Mehr anzeigen",
+  "select": "Auswählen",
+  "select_dates": "Daten wählen",
+  "selected": "Ausgewählt",
+  "settings": "Einstellungen",
+  "share": "Teilen",
+  "show_more": "Mehr anzeigen",
+  "show_more_flights": "Flüge ansehen & buchen",
+  "sign_in": "Anmelden",
+  "sign_up": "Registrieren",
+  "show_less": "Weniger anzeigen",
+  "support": "Unterstützung",
+  "skip": "Überspringen",
+  "skip_for_now": "Überspringen",
+  "sort_by": "Sortieren nach",
+  "stars": {
+    "one": "${n} Stern",
+    "other": "${n} Sterne"
+  },
+  "start": "Start",
+  "star_new_chat": "Neuen Chat starten",
+  "stops": "Zwischenstopps",
+  "times": "Zeiten",
+  "to": "Nach",
+  "today": "Heute",
+  "total": "Gesamt",
+  "transit": "Transit",
+  "travelers": "Reisende",
+  "trip": {
+    "title": "Reise",
+    "header": {
+      "daysLabel": "${count} Tage",
+      "adultsLabel": "${count} Erwachsene",
+      "chooseDate": "Datum Wählen",
+      "inviteSomeone": "Jemanden zu Ihrer Reise einladen"
+    },
+    "sections": {
+      "yourFlights": "Ihre Flüge",
+      "yourTransports": "Ihre Transporte",
+      "yourStays": "Ihre Aufenthalte",
+      "yourDestinations": "Ihre Reiseziele",
+      "yourAccommodation": "Ihre Unterkunft",
+      "yourExperiences": "Ihre Erlebnisse",
+      "days": "Tage"
+    },
+    "emptyStates": {
+      "noFlightsFound": "Keine Flüge gefunden",
+      "noTransportationFound": "Kein Transport gefunden",
+      "noStaysFound": "Keine Aufenthalte gefunden",
+      "noDestinationsFound": "Keine Reiseziele gefunden",
+      "mapViewUnavailable": "Kartenansicht nicht verfügbar",
+      "mapViewNoLocations": "Kartenansicht - Keine Standorte verfügbar",
+      "dayNotFound": "Tag nicht gefunden"
+    },
+    "flight": {
+      "title": "Flug",
+      "perPerson": "/Person",
+      "direct": "Direkt",
+      "oneStop": "1 Zwischenstopp",
+      "stops": "${count} Zwischenstopps",
+      "bookThisFlight": "Diesen Flug buchen",
+      "totalDuration": "Gesamt ${duration}",
+      "layoverAt": "Zwischenstopp ${airport}: ${duration}"
+    },
+    "hotel": {
+      "title": "Hotel",
+      "yourStay": "Ihr Aufenthalt",
+      "reviews": "${count} Bewertungen",
+      "viewDetails": "Details Ansehen",
+      "bookThisHotel": "Dieses Hotel buchen",
+      "ratingSnapshot": "Bewertungsübersicht"
+    },
+    "destination": {
+      "dayLabel": "Tag ${start} - ${end}",
+      "experience": "${count} Erlebnis",
+      "experiences": "${count} Erlebnisse",
+      "total": "gesamt"
+    },
+    "transport": {
+      "title": "Transport",
+      "pickUp": "Abholung",
+      "dropOff": "Abgabe",
+      "bookThisCar": "Dieses Auto buchen",
+      "bookThisBus": "Diesen Bus buchen",
+      "bookThisTrain": "Diesen Zug buchen",
+      "bookThisBoat": "Dieses Boot buchen",
+      "bookThisTransfer": "Diesen Transfer buchen"
+    },
+    "restaurant": {
+      "title": "Restaurant"
+    },
+    "experience": {
+      "title": "Erlebnis",
+      "activity": "Aktivität",
+      "attraction": "Attraktion",
+      "free": "Kostenlos",
+      "clickToSeePrice": "Klicken Sie, um den Preis zu sehen",
+      "reviewsCount": "${count} Bewertungen"
+    },
+    "actions": {
+      "change": "Ändern",
+      "getLivePrices": "Live-Preise abrufen",
+      "bookNow": "Jetzt Buchen",
+      "bookThisTrip": "Diese Reise Buchen",
+      "customizeTrip": "Reise Anpassen",
+      "share": "Teilen",
+      "delete": "Löschen",
+      "invite": "Einladen"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "chat": "Chat",
+      "trip": "Reise",
+      "cart": "Warenkorb"
+    },
+    "messages": {
+      "inviteComingSoon": "Einladen - Demnächst verfügbar",
+      "deleteTransportComingSoon": "Transport löschen - Demnächst verfügbar",
+      "flightDetailsComingSoon": "Flugdetails - Demnächst verfügbar",
+      "bookTripComingSoon": "Reise buchen - Demnächst verfügbar",
+      "shareComingSoon": "Teilen - Demnächst verfügbar",
+      "deleteComingSoon": "Löschen - Demnächst verfügbar",
+      "changeComingSoon": "Ändern - Demnächst verfügbar",
+      "fetchingLivePrices": "Live-Preise werden abgerufen...",
+      "livePricesRequested": "Live-Preise angefordert! Die Preise werden in Kürze aktualisiert.",
+      "failedLivePrices": "Live-Preise konnten nicht abgerufen werden. Bitte versuchen Sie es erneut.",
+      "errorLegNotFound": "Fehler: Abschnitt in der Reise nicht gefunden",
+      "removingHotelFromTrip": "Hotel wird aus der Reise entfernt...",
+      "hotelRemovedSuccessfully": "Hotel erfolgreich entfernt",
+      "failedRemoveHotel": "Hotel konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
+      "failedRemoveFlight": "Flug konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
+      "updatingCarOption": "Auto-Option wird aktualisiert...",
+      "transportOptionUpdated": "Transport-Option erfolgreich aktualisiert",
+      "failedUpdateTransport": "Transport-Option konnte nicht aktualisiert werden",
+      "failedDeleteExperience": "Erlebnis konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+      "failedDeleteActivity": "Aktivität konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+      "failedDeleteAttraction": "Attraktion konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+      "failedDeleteRestaurant": "Restaurant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+      "noFlightUrl": "Für diesen Flug ist keine URL verfügbar."
+    },
+    "dialogs": {
+      "removeFlight": {
+        "title": "Flug Entfernen",
+        "message": "Sind Sie sicher, dass Sie den Flug von ${from} nach ${to} entfernen möchten?",
+        "cancel": "Abbrechen",
+        "remove": "Entfernen"
+      },
+      "removeHotel": {
+        "title": "Hotel Entfernen",
+        "message": "Sind Sie sicher, dass Sie dieses Hotel aus Ihrer Reise entfernen möchten?",
+        "cancel": "Abbrechen",
+        "remove": "Entfernen"
+      },
+      "removeExperience": {
+        "title": "Erlebnis Entfernen",
+        "message": "Sind Sie sicher, dass Sie dieses Erlebnis aus Ihrer Reise entfernen möchten?",
+        "cancel": "Abbrechen",
+        "remove": "Entfernen"
+      }
+    },
+    "change": {
+      "flights": {
+        "selectFlight": "Flug Auswählen",
+        "fromTo": "Von ${from} nach ${to}",
+        "fromToWithIata": "Von ${fromCity} (${fromIata}) nach ${toCity} (${toIata})",
+        "smartFilter": "Intelligenter Filter",
+        "poweredByLaylaAI": "Unterstützt von Layla AI",
+        "searchFlightsHint": "Finden Sie mir Direktflüge, die vor 10 Uhr landen",
+        "searchFlights": "Flüge Suchen",
+        "noFlightsFound": "Keine Flüge gefunden",
+        "tryAdjustingQuery": "Versuchen Sie, Ihre Suche anzupassen",
+        "totalCost": "Gesamtkosten",
+        "selected": "Ausgewählt",
+        "adult": "Erwachsener",
+        "adults": "Erwachsene",
+        "child": "Kind",
+        "children": "Kinder",
+        "traveler": "Reisender",
+        "travelers": "Reisende",
+        "failedSearch": "Flugsuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "nonStop": "Nonstop",
+        "layoverIn": "${duration} Zwischenstopp in ${airport}",
+        "confirmReplaceFlightTitle": "Flug ersetzen?",
+        "confirmReplaceFlightMessage": "Möchten Sie den aktuellen Flug wirklich durch den ausgewählten ersetzen?"
+      },
+      "hotels": {
+        "selectHotel": "Hotel Auswählen",
+        "hotelsIn": "Hotels in ${location}",
+        "smartFilter": "Intelligenter Filter",
+        "poweredByLaylaAI": "Unterstützt von Layla AI",
+        "searchHotelsHint": "Finden Sie Hotels mit kostenloser Stornierung und Frühstück",
+        "searchHotels": "Hotels Suchen",
+        "freeCancellation": "Kostenlose Stornierung",
+        "rating8Plus": "Bewertung 8+",
+        "swimmingPool": "Schwimmbad",
+        "parking": "Parkplatz",
+        "priceRange": "Preisspanne",
+        "price": "Preis",
+        "clearAll": "Alles Löschen",
+        "noHotelsFound": "Keine Hotels gefunden",
+        "noHotelsMatchFilters": "Keine Hotels entsprechen Ihren Filtern",
+        "tryAdjustingFilters": "Versuchen Sie, Ihre Filter anzupassen",
+        "trySearchingHotels": "Versuchen Sie, Hotels an diesem Standort zu suchen",
+        "failedSearch": "Hotelsuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "failedAdd": "Hotel konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
+        "confirmReplaceHotelTitle": "Hotel ersetzen?",
+        "confirmReplaceHotelMessage": "Möchten Sie das aktuelle Hotel wirklich durch das ausgewählte ersetzen?"
+      },
+      "transport": {
+        "selectFlight": "Flug Auswählen",
+        "origin": "Ursprung",
+        "destination": "Ziel",
+        "noFlightOptionsAvailable": "Keine Flugoptionen verfügbar",
+        "cheapest": "Günstigster",
+        "latest": "Neuester"
+      },
+      "cars": {
+        "carRental": "Autovermietung",
+        "carRentalIn": "Autovermietung in ${location}",
+        "carRentalFromTo": "Autovermietung: ${from} nach ${to}",
+        "smartFilter": "Intelligenter Filter",
+        "poweredByLaylaAI": "Unterstützt von Layla AI",
+        "searchCarRentalsHint": "Finden Sie mir SUVs mit Automatikgetriebe",
+        "searchCarRentals": "Autovermietung Suchen",
+        "noCarRentalsFound": "Keine Autovermietung gefunden",
+        "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
+        "failedSearch": "Autovermietungssuche fehlgeschlagen. Bitte versuchen Sie es erneut."
+      },
+      "activities": {
+        "activities": "Aktivitäten",
+        "activitiesIn": "Aktivitäten in ${city}",
+        "smartFilter": "Intelligenter Filter",
+        "poweredByLaylaAI": "Unterstützt von Layla AI",
+        "searchActivitiesHint": "Finden Sie mir Outdoor-Aktivitäten oder Museen",
+        "searchActivities": "Aktivitäten Suchen",
+        "noActivitiesFound": "Keine Aktivitäten gefunden",
+        "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
+        "failedSearch": "Aktivitätensuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "failedAdd": "Aktivität konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
+        "confirmAddActivityTitle": "${activityName} hinzufügen?",
+        "confirmRemoveActivityTitle": "${activityName} entfernen?",
+        "confirmReplaceActivityTitle": "Durch ${activityName} ersetzen?",
+        "confirmAddActivityMessage": "Möchten Sie ${activityName} wirklich zu Ihrer Reise hinzufügen?",
+        "confirmRemoveActivityMessage": "Möchten Sie ${activityName} wirklich von Ihrer Reise entfernen?",
+        "confirmReplaceActivityMessage": "Möchten Sie die aktuelle Aktivität wirklich durch ${activityName} ersetzen?"
+      },
+      "attractions": {
+        "attractions": "Attraktionen",
+        "attractionsIn": "Attraktionen in ${city}",
+        "smartFilter": "Intelligenter Filter",
+        "poweredByLaylaAI": "Unterstützt von Layla AI",
+        "searchAttractionsHint": "Finden Sie mir historische Sehenswürdigkeiten oder Denkmäler",
+        "searchAttractions": "Attraktionen Suchen",
+        "noAttractionsFound": "Keine Attraktionen gefunden",
+        "tryAdjustingCriteria": "Versuchen Sie, Ihre Suchkriterien anzupassen",
+        "failedSearch": "Attraktionensuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "failedAdd": "Attraktion konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
+        "confirmAddAttractionTitle": "${attractionName} hinzufügen?",
+        "confirmRemoveAttractionTitle": "${attractionName} entfernen?",
+        "confirmReplaceAttractionTitle": "Durch ${attractionName} ersetzen?",
+        "confirmAddAttractionMessage": "Möchten Sie ${attractionName} wirklich zu Ihrer Reise hinzufügen?",
+        "confirmRemoveAttractionMessage": "Möchten Sie ${attractionName} wirklich von Ihrer Reise entfernen?",
+        "confirmReplaceAttractionMessage": "Möchten Sie die aktuelle Sehenswürdigkeit wirklich durch ${attractionName} ersetzen?"
+      }
+    },
+    "transfer": {
+      "carTransfer": "Auto-Transfer",
+      "busTransfer": "Bus-Transfer",
+      "trainTransfer": "Zug-Transfer",
+      "boatTransfer": "Boot-Transfer",
+      "transfer": "Transfer",
+      "findAlternative": "Alternative Finden",
+      "fromTo": "${from} nach ${to}",
+      "oneStop": "1 Zwischenstopp",
+      "stops": "${count} Zwischenstopps"
+    },
+    "carTransport": {
+      "transport": "Transport",
+      "laylaAIReviewSummary": "Layla AI Bewertungszusammenfassung",
+      "placeholderReviewText": "Die Leute sagen, dies ist der schönste Ort, den es je gab, einige erwähnen, dass es einige...",
+      "findAlternative": "Alternative Finden"
+    },
+    "common": {
+      "perPerson": "p.P. ",
+      "total": "Gesamt",
+      "reviews": "${count} Bewertungen",
+      "viewOnMap": "Auf der Karte ansehen"
+    },
+    "map": {
+      "hotels": "Hotels",
+      "activity": "Aktivität",
+      "attraction": "Attraktion",
+      "pointOfInterest": "Sehenswürdigkeit",
+      "restaurant": "Restaurant",
+      "emptyState": "Kartenansicht - Keine Standorte verfügbar",
+      "addressNotAvailable": "Adresse nicht verfügbar",
+      "locationNotAvailable": "Standort nicht verfügbar",
+      "reviews": "Bewertungen",
+      "viewOnGoogleMaps": "Auf Google Maps ansehen",
+      "viewDetails": "Details Ansehen",
+      "perNight": "/Nacht",
+      "unknown": "Unbekannt",
+      "ratings": {
+        "exceptional": "Außergewöhnlich",
+        "wonderful": "Wunderbar",
+        "veryGood": "Sehr Gut",
+        "good": "Gut",
+        "pleasant": "Angenehm",
+        "average": "Durchschnittlich"
+      }
+    },
+    "addExperience": {
+      "title": "Erlebnis Hinzufügen",
+      "activityTitle": "Aktivität",
+      "activityDescription": "Eine ticketpflichtige Aktivität oder ein Erlebnis hinzufügen",
+      "attractionTitle": "Attraktion",
+      "attractionDescription": "Einen Ort zum Besuchen oder Sehen hinzufügen"
+    },
+    "cards": {
+      "dayCard": {
+        "day": "Tag",
+        "dayLabel": "TAG ${n}",
+        "experience": "Erlebnis",
+        "experiences": "Erlebnisse",
+        "total": "gesamt"
+      },
+      "carCard": {
+        "yourRental": "Ihre Miete",
+        "pickUp": "Abholung",
+        "dropOff": "Abgabe",
+        "selected": "Ausgewählt",
+        "addToTrip": "Zur Reise hinzufügen",
+        "perTotal": "/gesamt",
+        "freeCancellation": "Kostenlose Stornierung",
+        "at": "um"
+      },
+      "flightCard": {
+        "selected": "Ausgewählt",
+        "addToTrip": "Zur Reise hinzufügen",
+        "perPerson": "/Person",
+        "nonStop": "Nonstop",
+        "oneStop": "1 Zwischenstopp",
+        "stops": "Zwischenstopps"
+      },
+      "hotelCard": {
+        "reviews": "Bewertungen",
+        "selected": "Ausgewählt",
+        "addToTrip": "Zur Reise hinzufügen",
+        "total": "gesamt"
+      }
+    },
+    "widgets": {
+      "addExperienceButton": "Erlebnis Hinzufügen",
+      "dayLabel": "Tag ${n}",
+      "yourStay": "Ihr Aufenthalt",
+      "transport": "Transport",
+      "yourDayByDay": "Ihr Tag für Tag",
+      "failedToLoadTrip": "Reise konnte nicht geladen werden",
+      "retry": "Erneut Versuchen"
+    },
+    "transportType": {
+      "flight": "Flug",
+      "train": "Zug",
+      "bus": "Bus",
+      "car": "Auto",
+      "ferry": "Fähre",
+      "transportation": "Transport"
+    },
+    "cabinClass": {
+      "economy": "Economy-Klasse",
+      "premiumEconomy": "Premium Economy",
+      "business": "Business-Klasse",
+      "first": "Erste Klasse"
+    },
+    "travelerFormat": {
+      "forAdults": " für ${count} ${word}",
+      "andChildren": " und ${count} ${word}",
+      "adult": "Erwachsener",
+      "adults": "Erwachsene",
+      "child": "Kind",
+      "children": "Kinder"
+    },
+    "basket": {
+      "title": "Bestellübersicht",
+      "item": "Artikel",
+      "items": "Artikel",
+      "orderSummary": "Bestellübersicht",
+      "priceChangeAlert": {
+        "title": "Preise können sich geändert haben",
+        "description": "Reisepreise ändern sich häufig. Die angezeigten Preise sind Schätzungen und können bei der Buchung abweichen."
+      },
+      "location": "Ort",
+      "dates": "Daten",
+      "travelers": "Reisende",
+      "traveler": "Reisender",
+      "noItemsInBasket": "Noch keine buchbaren Artikel in Ihrer Reise. Fügen Sie Hotels, Flüge oder Aktivitäten hinzu, um zu beginnen!",
+      "legTitle": "${location} (Tage ${days})"
+    },
+    "overview": {
+      "madeBy": "Erstellt von ${creator}",
+      "highlightsTitle": "Reisehighlights auf einen Blick",
+      "showAll": "Alle anzeigen",
+      "showAllFlights": "Alle Flüge anzeigen",
+      "showAllStays": "Alle Aufenthalte anzeigen",
+      "showAllActivities": "Alle Aktivitäten anzeigen",
+      "showAllTransfers": "Alle Transfers anzeigen",
+      "showAllRentals": "Alle Mietwagen anzeigen",
+      "dayLabel": "TAG ${number}",
+      "sections": {
+        "itinerary": "Reiseplan",
+        "route": "Route",
+        "flights": "Flüge",
+        "stays": "Aufenthalte",
+        "activities": "Aktivitäten",
+        "transfers": "Private Transfers",
+        "rental": "Mietwagen"
+      },
+      "hotel": {
+        "night": {
+          "one": "${n} Nacht",
+          "other": "${n} Nächte"
+        },
+        "stars": {
+          "one": "${n} Stern",
+          "other": "${n} Sterne"
+        }
+      },
+      "activity": {
+        "durationMin": "${n} Min.",
+        "durationHr": "${n} Std.",
+        "durationDay": {
+          "one": "${n} Tag",
+          "other": "${n} Tage"
+        }
+      }
+    },
+    "lists": {
+      "noActivitiesFound": "Keine Aktivitäten gefunden",
+      "noStaysFound": "Keine Aufenthalte gefunden",
+      "noFlightsFound": "Keine Flüge gefunden",
+      "noRentalsFound": "Keine Mietwagen gefunden",
+      "perPerson": "pro Person",
+      "free": "Kostenlos",
+      "transportFlight": "Flug",
+      "transportTrain": "Zug",
+      "transportRental": "Mietwagen"
+    }
+  },
+  "tripWord": "Reise",
+  "unknown_error": "Unbekannter Fehler",
+  "unknown_name": "Unbekannter Name",
+  "update": "Aktualisieren",
+  "user_cancelled": "Benutzer hat abgebrochen",
+  "varTotal": "${n} insgesamt",
+  "videos": "Videos",
+  "view": "Ansicht",
+  "view_details": "Details anzeigen",
+  "weekend": "Wochenende",
+  "week": "Woche",
+  "what": "Was",
+  "what_can_i_ask": "Was kann ich fragen?",
+  "when": "Wann",
+  "where_to": "Wohin",
+  "where_from": "Von wo",
+  "yesterday": "Gestern",
+  "time_ago": {
+    "years": {
+      "one": "${n} vor jahr",
+      "other": "${n} vor jahren"
+    },
+    "months": {
+      "one": "${n} vor monat",
+      "other": "${n} vor monaten"
+    },
+    "days": {
+      "one": "${n} vor tag",
+      "other": "${n} vor tagen"
+    },
+    "hours": {
+      "one": "${n} vor stunde",
+      "other": "${n} vor stunden"
+    },
+    "minutes": {
+      "one": "${n} vor Minute",
+      "other": "${n}  vor Minuten"
+    },
+    "seconds": {
+      "one": "${n} vor sekunde",
+      "other": "${n} vor sekunden"
+    },
+    "just_now": "Gerade eben"
+  },
+  "characters_left": {
+    "one": "${n} Zeichen übrig",
+    "other": "${n} Zeichen übrig"
+  },
+  "faq": "FAQ",
+  "internet_offline": "Die Internetverbindung scheint offline zu sein. Bitte versuche es erneut.",
+  "location_denied": {
+    "message": "Das könnte daran liegen, dass du die Standortdienste nicht aktiviert hast. Um sie zu aktivieren, gehe zu Einstellungen > Datenschutz > Standortdienste",
+    "open_settings": "Einstellungen öffnen",
+    "title": "Aktueller Standort ist nicht verfügbar"
+  },
+  "ok": "OK",
+  "permissions_dialog": {
+    "permissions_required": "Erforderliche Genehmigungen",
+    "message_photos": "Layla benötigt Zugriff auf Fotos, um dein Foto zu aktualisieren.",
+    "message_camera": "Layla benötigt Zugriff auf die Kamera, um dein Foto zu aktualisieren.",
+    "deny": "Verweigern"
+  },
+  "open": "Öffnen",
+  "bedtime": "Bettzeit",
+  "user": "Benutzer",
+  "trip_page": {
+    "travel_tip": "Reisetipp",
+    "daily_itinerary": "Täglicher Reiseplan",
+    "day_by_day_plan": "Tagesplan für ${destination}",
+    "creator_tips": "Ersteller-Tipps",
+    "creator_videos": "Ersteller-Videos",
+    "your_accommodation": "Ihre Unterkunft",
+    "guest_reviews": "Gästebewertungen",
+    "pricing_details": "Preisdetails",
+    "price_per_night": "Preis pro Nacht",
+    "per_night": "pro Nacht",
+    "total_price": "Gesamtpreis",
+    "great_value": "Tolles Preis-Leistungs-Verhältnis",
+    "things_to_do": "Unternehmungen",
+    "activity": "Aktivität",
+    "attraction": "Attraktion",
+    "sitesAroundTitle": "Sehenswürdigkeiten in der Nähe von ${city}",
+    "sitesAroundSubtitle": "Entdecken Sie Orte in der Nähe Ihres Reiseziels",
+    "seeAll": "Alle ansehen",
+    "videoModalComingSoon": "Vollständige Videogalerie demnächst verfügbar!",
+    "videosAvailable": "Videos verfügbar",
+    "close": "Schließen",
+    "add_hotel": "Hotel Hinzufügen",
+    "add_transportation": "Transport Hinzufügen",
+    "retry": "Erneut Versuchen",
+    "map_unavailable": "Karte nicht verfügbar",
+    "dates_tbd": "Daten noch festzulegen"
+  },
+  "trip_sharing": {
+    "title": "Teile deine Reise",
+    "share": "Teilen",
+    "copyLink": "Link kopieren",
+    "linkCopied": "Link kopiert",
+    "dayByDay": "Tag für Tag",
+    "highlights": "Highlights",
+    "day": "Tag",
+    "category": "Kategorie"
+  },
+  "paywall": {
+    "title": "Schalten Sie Ihre Vollständige Reise Frei",
+    "subtitle": "Fahren Sie mit Premium fort für unbegrenzte Planung und exklusive Ersparnisse.",
+    "feature_complete_itinerary": "Ein vollständiger, stressfreier Reiseplan",
+    "feature_download_share": "Jederzeit herunterladen, teilen und bearbeiten",
+    "price_with_trial": "Beginnen Sie mit einer kostenlosen ${days}-Tage-Testversion. Preis ${price} nach der Testversion.",
+    "price_only": "Preis ${price}",
+    "processing": "Wird verarbeitet...",
+    "unlock_now": "Jetzt freischalten",
+    "become_subscriber": "Abonnent werden"
+  },
+  "data_consent": {
+    "title": "Datenschutz",
+    "allow": "Erlauben",
+    "dont_allow": "Nicht erlauben",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "turn_on": "Aktivieren",
+    "learn_more": "Mehr erfahren",
+    "openai": "OpenAI (ChatGPT)",
+    "google": "Google (Gemini)",
+    "body": {
+      "intro": "Um deine Reiseroute zu erstellen, senden wir die ",
+      "messages_you_enter": "von dir eingegebenen Nachrichten",
+      "and_the": " und die ",
+      "trip_details_you_provide": "von dir angegebenen Reisedetails",
+      "details_suffix": " (z. B. Reiseziel, Daten, Budget, Vorlieben, Reisende und weitere Infos) an ",
+      "provider_and": " und ",
+      "processing": " zur Verarbeitung.",
+      "warning": "Wenn du dies nicht erlaubst, sind der KI-Chat und die Reiseplanung nicht verfügbar.",
+      "settings_note": "Du kannst dies jederzeit in den Einstellungen ändern. Weitere Informationen findest du in unserer ",
+      "settings_note_end": "."
+    },
+    "profile": {
+      "title": "KI-Reiseplanung (OpenAI & Google)",
+      "subtitle_before": "Wenn aktiviert, werden deine Nachrichten und Reisedetails an ",
+      "subtitle_after": " gesendet, um deine Reiseroute zu erstellen. Deaktiviere, um KI-Chat und Planung zu deaktivieren."
+    },
+    "locked": {
+      "title": "KI-Planung ist deaktiviert",
+      "subtitle": "Aktiviere die KI-Verarbeitung in den Einstellungen, um zu chatten und einen Reiseplan zu erstellen."
+    }
+  },
+  "trip_book": {
+    "accommodations": "Unterkünfte",
+    "flights": "Flüge",
+    "private_transport": "Privattransport",
+    "experiences": "Erlebnisse",
+    "save_on_booking": "Spare ${amount} im Vergleich zur Einzelbuchung",
+    "layla_brings_deals": "Layla bringt dir die besten Angebote.",
+    "title": "Reise buchen",
+    "book": "Buchen",
+    "delete": "Löschen",
+    "alternative": "Alternative",
+    "experts_title": "Buche diese Reise mit unseren Experten",
+    "benefit1_title": "32+ Stunden Planungszeit geschenkt",
+    "benefit1_description": "Lehnen Sie sich zurück – unsere Experten kümmern sich um jedes Detail.",
+    "benefit2_title": "12+ Einzelbuchungen für Sie erledigt",
+    "benefit2_description": "Hotels, Flüge, Aktivitäten – wir koordinieren alles optimal für Ihre Traumreise.",
+    "benefit3_title": "9+ Transfers nahtlos organisiert",
+    "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
+    "continue_with_human": "Weiter mit einem Reiseberater buchen",
+    "continue_with_booking": "Weiter zur Buchung"
+  }
 }
