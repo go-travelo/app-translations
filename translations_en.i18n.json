@@ -1414,9 +1414,9 @@
     "experts_title": "Book this Trip with our Experts",
     "benefit1_title": "32+ hours of planning saved",
     "benefit1_description": "Sit back — our experts take care of every detail for you.",
-    "benefit2_title": "12+ individual bookings handled",
+    "benefit2_title": "${n}+ individual bookings handled",
     "benefit2_description": "Hotels, flights, activities — we coordinate everything for your dream trip.",
-    "benefit3_title": "9+ transfers seamlessly organized",
+    "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
     "continue_with_human": "Continue Booking with a Human",
     "continue_with_booking": "Continue with Booking"

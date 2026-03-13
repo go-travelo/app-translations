@@ -1459,9 +1459,9 @@
     "experts_title": "Buche diese Reise mit unseren Experten",
     "benefit1_title": "32+ Stunden Planungszeit geschenkt",
     "benefit1_description": "Lehnen Sie sich zurück – unsere Experten kümmern sich um jedes Detail.",
-    "benefit2_title": "12+ Einzelbuchungen für Sie erledigt",
+    "benefit2_title": "${n}+ Einzelbuchungen für Sie erledigt",
     "benefit2_description": "Hotels, Flüge, Aktivitäten – wir koordinieren alles optimal für Ihre Traumreise.",
-    "benefit3_title": "9+ Transfers nahtlos organisiert",
+    "benefit3_title": "${n}+ Transfers nahtlos organisiert",
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
     "continue_with_human": "Weiter mit einem Reiseberater buchen",
     "continue_with_booking": "Weiter zur Buchung"

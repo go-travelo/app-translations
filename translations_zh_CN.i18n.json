@@ -1428,9 +1428,9 @@
     "experts_title": "与我们的专家一起预订此行程",
     "benefit1_title": "节省超过 32 小时的规划时间",
     "benefit1_description": "放松一下——我们的专家会为您处理每一个细节。",
-    "benefit2_title": "处理超过 12 项个人预订",
+    "benefit2_title": "${n}+项个人预订已处理",
     "benefit2_description": "酒店、航班、活动——我们为您梦想之旅协调一切。",
-    "benefit3_title": "无缝安排超过 9 次接送",
+    "benefit3_title": "${n}+次接送无缝安排",
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
     "continue_with_human": "继续与人工顾问预订",
     "continue_with_booking": "继续预订"

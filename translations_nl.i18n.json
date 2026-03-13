@@ -1459,9 +1459,9 @@
     "experts_title": "Boek deze reis met onze experts",
     "benefit1_title": "32+ uur planningswerk bespaard",
     "benefit1_description": "Achterover leunen — onze experts zorgen voor elk detail.",
-    "benefit2_title": "12+ individuele boekingen afgehandeld",
+    "benefit2_title": "${n}+ individuele boekingen afgehandeld",
     "benefit2_description": "Hotels, vluchten, activiteiten — wij coördineren alles voor uw droomreis.",
-    "benefit3_title": "9+ transfers naadloos georganiseerd",
+    "benefit3_title": "${n}+ transfers naadloos georganiseerd",
     "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
     "continue_with_human": "Verder boeken met een reisadviseur",
     "continue_with_booking": "Doorgaan met boeken"

@@ -1459,9 +1459,9 @@
     "experts_title": "Reserve esta viagem com nossos especialistas",
     "benefit1_title": "Mais de 32 horas de planejamento economizadas",
     "benefit1_description": "Relaxe — nossos especialistas cuidam de cada detalhe.",
-    "benefit2_title": "Mais de 12 reservas individuais gerenciadas",
+    "benefit2_title": "${n}+ reservas individuais gerenciadas",
     "benefit2_description": "Hotéis, voos, atividades — coordenamos tudo para a sua viagem dos sonhos.",
-    "benefit3_title": "Mais de 9 transferências organizadas sem problemas",
+    "benefit3_title": "${n}+ transferências organizadas sem problemas",
     "benefit3_description": "De parada em parada — garantimos conexões perfeitamente sincronizadas em sua rota.",
     "continue_with_human": "Continuar a reserva com um consultor",
     "continue_with_booking": "Continuar com a reserva"
