@@ -987,7 +987,11 @@
       "failedDeleteActivity": "Failed to delete activity. Please try again.",
       "failedDeleteAttraction": "Failed to delete attraction. Please try again.",
       "failedDeleteRestaurant": "Failed to delete restaurant. Please try again.",
-      "noFlightUrl": "No URL available for this flight."
+      "noFlightUrl": "No URL available for this flight.",
+      "failedAddExperience": "Failed to add the experience. Please try again.",
+      "addingHotelToTrip": "Adding hotel to trip...",
+      "hotelAddedSuccessfully": "Hotel added successfully",
+      "failedAddHotel": "Failed to add hotel. Please try again."
     },
     "dialogs": {
       "removeFlight": {
@@ -1007,6 +1011,17 @@
         "message": "Are you sure you want to remove this experience from your trip?",
         "cancel": "Cancel",
         "remove": "Remove"
+      },
+      "addExperience": {
+        "title": "Add Experience",
+        "message": "Are you sure you want to add this experience to your trip?",
+        "add": "Add"
+      },
+      "addHotel": {
+        "title": "Add Hotel",
+        "message": "Are you sure you want to add this hotel to your trip?",
+        "cancel": "Cancel",
+        "add": "Add"
       }
     },
     "change": {

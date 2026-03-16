@@ -1025,7 +1025,11 @@
       "failedDeleteActivity": "נכשל במחיקת הפעילות. אנא נסה שוב.",
       "failedDeleteAttraction": "נכשל במחיקת האטרקציה. אנא נסה שוב.",
       "failedDeleteRestaurant": "נכשל במחיקת המסעדה. אנא נסה שוב.",
-      "noFlightUrl": "אין כתובת URL זמינה עבור טיסה זו."
+      "noFlightUrl": "אין כתובת URL זמינה עבור טיסה זו.",
+      "failedAddExperience": "הוספת החוויה נכשלה. אנא נסה שוב.",
+      "addingHotelToTrip": "מוסיף מלון לטיול...",
+      "hotelAddedSuccessfully": "המלון נוסף בהצלחה",
+      "failedAddHotel": "הוספת המלון נכשלה. אנא נסה שוב."
     },
     "dialogs": {
       "removeFlight": {
@@ -1045,6 +1049,17 @@
         "message": "האם אתה בטוח שברצונך להסיר את החוויה הזו מהטיול שלך?",
         "cancel": "ביטול",
         "remove": "הסר"
+      },
+      "addExperience": {
+        "title": "הוסף חוויה",
+        "message": "האם אתה בטוח שברצונך להוסיף חוויה זו לטיול שלך?",
+        "add": "הוסף"
+      },
+      "addHotel": {
+        "title": "הוסף מלון",
+        "message": "האם אתה בטוח שברצונך להוסיף מלון זה לטיול שלך?",
+        "cancel": "ביטול",
+        "add": "הוסף"
       }
     },
     "change": {

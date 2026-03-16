@@ -977,7 +977,11 @@
       "failedDeleteActivity": "Aktivität konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
       "failedDeleteAttraction": "Attraktion konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
       "failedDeleteRestaurant": "Restaurant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
-      "noFlightUrl": "Für diesen Flug ist keine URL verfügbar."
+      "noFlightUrl": "Für diesen Flug ist keine URL verfügbar.",
+      "failedAddExperience": "Erlebnis konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
+      "addingHotelToTrip": "Hotel wird zur Reise hinzugefügt...",
+      "hotelAddedSuccessfully": "Hotel erfolgreich hinzugefügt",
+      "failedAddHotel": "Hotel konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut."
     },
     "dialogs": {
       "removeFlight": {
@@ -997,6 +1001,17 @@
         "message": "Sind Sie sicher, dass Sie dieses Erlebnis aus Ihrer Reise entfernen möchten?",
         "cancel": "Abbrechen",
         "remove": "Entfernen"
+      },
+      "addExperience": {
+        "title": "Erlebnis hinzufügen",
+        "message": "Möchten Sie dieses Erlebnis wirklich zu Ihrer Reise hinzufügen?",
+        "add": "Hinzufügen"
+      },
+      "addHotel": {
+        "title": "Hotel hinzufügen",
+        "message": "Möchten Sie dieses Hotel wirklich zu Ihrer Reise hinzufügen?",
+        "cancel": "Abbrechen",
+        "add": "Hinzufügen"
       }
     },
     "change": {

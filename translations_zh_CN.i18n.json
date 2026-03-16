@@ -953,7 +953,11 @@
       "failedDeleteActivity": "无法删除活动。请重试。",
       "failedDeleteAttraction": "无法删除景点。请重试。",
       "failedDeleteRestaurant": "无法删除餐厅。请重试。",
-      "noFlightUrl": "此航班没有可用的URL。"
+      "noFlightUrl": "此航班没有可用的URL。",
+      "failedAddExperience": "添加体验失败。请重试。",
+      "addingHotelToTrip": "正在将酒店添加到行程...",
+      "hotelAddedSuccessfully": "酒店添加成功",
+      "failedAddHotel": "添加酒店失败。请重试。"
     },
     "dialogs": {
       "removeFlight": {
@@ -973,6 +977,17 @@
         "message": "您确定要从行程中删除此体验吗？",
         "cancel": "取消",
         "remove": "删除"
+      },
+      "addExperience": {
+        "title": "添加体验",
+        "message": "您确定要将此体验添加到您的行程中吗？",
+        "add": "添加"
+      },
+      "addHotel": {
+        "title": "添加酒店",
+        "message": "您确定要将此酒店添加到您的行程中吗？",
+        "cancel": "取消",
+        "add": "添加"
       }
     },
     "change": {
