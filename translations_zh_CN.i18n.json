@@ -1384,10 +1384,10 @@
     "processing": "处理中...",
     "unlock_now": "立即解锁",
     "become_subscriber": "开始3天试用",
-    "testimonial1": "\" 我喜欢使用Layla，因为它是最好的 \"",
-    "testimonial2": "\" 规划旅行的绝佳应用 \"",
-    "testimonial3": "\" 我用过的最好的旅行伴侣 \"",
-    "restorePurchase": "恢复购买 · 随时取消",
+    "testimonial1": " 我通常要花好几个小时规划旅行。\nLayla 大概 2 分钟就搞定了。 ",
+    "testimonial2": " Layla 找到了一家比我预期便宜很多的酒店。\n真的帮我省了不少。 ",
+    "testimonial3": " 我喜欢同时看到航班、酒店和想法。\n让规划变得轻松多了。 ",
+    "restorePurchase": "节省数小时，随时取消",
     "yearly": "年度",
     "monthly": "月度",
     "weekly": "每周",
@@ -1396,7 +1396,8 @@
     "perWeek": "/周",
     "startNow": "立即开始",
     "dayTrial": "${days}天试用",
-    "savePercent": "节省${percent}%"
+    "savePercent": "节省${percent}%",
+    "zeroForDays": "${days}天仅需${zeroPrice}"
   },
   "data_consent": {
     "title": "数据隐私",

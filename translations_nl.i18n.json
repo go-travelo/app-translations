@@ -1415,10 +1415,10 @@
     "processing": "Verwerken...",
     "unlock_now": "Nu ontgrendelen",
     "become_subscriber": "Start 3 dagen proberen",
-    "testimonial1": "\" Ik hou van Layla omdat het het beste is \"",
-    "testimonial2": "\" Geweldige app voor het plannen van mijn reizen \"",
-    "testimonial3": "\" Beste reisgezel die ik ooit heb gebruikt \"",
-    "restorePurchase": "Aankoop herstellen · Annuleer op elk moment",
+    "testimonial1": " Normaal besteed ik uren aan het plannen van reizen.\nLayla deed het in zo'n 2 minuten. ",
+    "testimonial2": " Layla vond een hotel veel goedkoper dan ik had verwacht.\nEerlijk gezegd een hoop bespaard. ",
+    "testimonial3": " Ik vind het geweldig om vluchten, hotels en ideeën samen te zien.\nMaakt plannen zoveel makkelijker. ",
+    "restorePurchase": "Bespaar uren, annuleer op elk moment",
     "yearly": "Jaarlijks",
     "monthly": "Maandelijks",
     "weekly": "Wekelijks",
@@ -1426,8 +1426,9 @@
     "perMonth": "/maand",
     "perWeek": "/week",
     "startNow": "Nu beginnen",
-    "dayTrial": "${days} dagen proberen",
-    "savePercent": "Bespaar ${percent}%"
+    "dayTrial": "${days} dagen proefperiode",
+    "savePercent": "Bespaar ${percent}%",
+    "zeroForDays": "${zeroPrice} voor ${days} dagen"
   },
   "data_consent": {
     "title": "Gegevensprivacy",

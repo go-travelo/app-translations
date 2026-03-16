@@ -1415,10 +1415,10 @@
     "processing": "Processando...",
     "unlock_now": "Desbloquear agora",
     "become_subscriber": "Iniciar teste de 3 dias",
-    "testimonial1": "\" Adoro usar o Layla porque é o melhor \"",
-    "testimonial2": "\" App incrível para planear as minhas viagens \"",
-    "testimonial3": "\" O melhor companheiro de viagem que já usei \"",
-    "restorePurchase": "Restaurar compra · Cancele a qualquer momento",
+    "testimonial1": " Normalmente passo horas planejando viagens.\nLayla fez isso em cerca de 2 minutos. ",
+    "testimonial2": " Layla encontrou um hotel muito mais barato do que eu esperava.\nHonestamente me economizou muito. ",
+    "testimonial3": " Adoro ver voos, hotéis e ideias juntos.\nTorna o planejamento muito mais fácil. ",
+    "restorePurchase": "Economize horas, cancele a qualquer momento",
     "yearly": "Anual",
     "monthly": "Mensal",
     "weekly": "Semanal",
@@ -1427,7 +1427,8 @@
     "perWeek": "/semana",
     "startNow": "Começar agora",
     "dayTrial": "Teste de ${days} dias",
-    "savePercent": "Poupe ${percent}%"
+    "savePercent": "Poupe ${percent}%",
+    "zeroForDays": "${zeroPrice} por ${days} dias"
   },
   "data_consent": {
     "title": "Privacidade de dados",
