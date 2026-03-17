@@ -991,7 +991,8 @@
       "failedAddExperience": "Failed to add the experience. Please try again.",
       "addingHotelToTrip": "Adding hotel to trip...",
       "hotelAddedSuccessfully": "Hotel added successfully",
-      "failedAddHotel": "Failed to add hotel. Please try again."
+      "failedAddHotel": "Failed to add hotel. Please try again.",
+      "failedAddFlight": "Failed to add flight. Please try again."
     },
     "dialogs": {
       "removeFlight": {
@@ -1020,6 +1021,12 @@
       "addHotel": {
         "title": "Add Hotel",
         "message": "Are you sure you want to add this hotel to your trip?",
+        "cancel": "Cancel",
+        "add": "Add"
+      },
+      "addFlight": {
+        "title": "Add Flight",
+        "message": "Are you sure you want to add these flights to your trip?",
         "cancel": "Cancel",
         "add": "Add"
       }

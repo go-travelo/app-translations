@@ -981,7 +981,8 @@
       "failedAddExperience": "No se pudo añadir la experiencia. Por favor, inténtalo de nuevo.",
       "addingHotelToTrip": "Añadiendo hotel al viaje...",
       "hotelAddedSuccessfully": "Hotel añadido correctamente",
-      "failedAddHotel": "No se pudo añadir el hotel. Por favor, inténtalo de nuevo."
+      "failedAddHotel": "No se pudo añadir el hotel. Por favor, inténtalo de nuevo.",
+      "failedAddFlight": "No se pudo añadir el vuelo. Por favor, inténtalo de nuevo."
     },
     "dialogs": {
       "removeFlight": {
@@ -1010,6 +1011,12 @@
       "addHotel": {
         "title": "Añadir hotel",
         "message": "¿Estás seguro de que quieres añadir este hotel a tu viaje?",
+        "cancel": "Cancelar",
+        "add": "Añadir"
+      },
+      "addFlight": {
+        "title": "Añadir vuelo",
+        "message": "¿Estás seguro de que quieres añadir estos vuelos a tu viaje?",
         "cancel": "Cancelar",
         "add": "Añadir"
       }

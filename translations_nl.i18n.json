@@ -981,7 +981,8 @@
       "failedAddExperience": "Kan de ervaring niet toevoegen. Probeer het opnieuw.",
       "addingHotelToTrip": "Hotel wordt toegevoegd aan reis...",
       "hotelAddedSuccessfully": "Hotel succesvol toegevoegd",
-      "failedAddHotel": "Kan het hotel niet toevoegen. Probeer het opnieuw."
+      "failedAddHotel": "Kan het hotel niet toevoegen. Probeer het opnieuw.",
+      "failedAddFlight": "Kan de vlucht niet toevoegen. Probeer het opnieuw."
     },
     "dialogs": {
       "removeFlight": {
@@ -1010,6 +1011,12 @@
       "addHotel": {
         "title": "Hotel toevoegen",
         "message": "Weet je zeker dat je dit hotel aan je reis wilt toevoegen?",
+        "cancel": "Annuleren",
+        "add": "Toevoegen"
+      },
+      "addFlight": {
+        "title": "Vlucht toevoegen",
+        "message": "Weet je zeker dat je deze vluchten aan je reis wilt toevoegen?",
         "cancel": "Annuleren",
         "add": "Toevoegen"
       }

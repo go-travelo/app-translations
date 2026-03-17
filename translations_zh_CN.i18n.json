@@ -957,7 +957,8 @@
       "failedAddExperience": "添加体验失败。请重试。",
       "addingHotelToTrip": "正在将酒店添加到行程...",
       "hotelAddedSuccessfully": "酒店添加成功",
-      "failedAddHotel": "添加酒店失败。请重试。"
+      "failedAddHotel": "添加酒店失败。请重试。",
+      "failedAddFlight": "添加航班失败。请重试。"
     },
     "dialogs": {
       "removeFlight": {
@@ -986,6 +987,12 @@
       "addHotel": {
         "title": "添加酒店",
         "message": "您确定要将此酒店添加到您的行程中吗？",
+        "cancel": "取消",
+        "add": "添加"
+      },
+      "addFlight": {
+        "title": "添加航班",
+        "message": "您确定要将这些航班添加到您的行程中吗？",
         "cancel": "取消",
         "add": "添加"
       }

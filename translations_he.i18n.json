@@ -1029,7 +1029,8 @@
       "failedAddExperience": "הוספת החוויה נכשלה. אנא נסה שוב.",
       "addingHotelToTrip": "מוסיף מלון לטיול...",
       "hotelAddedSuccessfully": "המלון נוסף בהצלחה",
-      "failedAddHotel": "הוספת המלון נכשלה. אנא נסה שוב."
+      "failedAddHotel": "הוספת המלון נכשלה. אנא נסה שוב.",
+      "failedAddFlight": "הוספת הטיסה נכשלה. אנא נסה שוב."
     },
     "dialogs": {
       "removeFlight": {
@@ -1058,6 +1059,12 @@
       "addHotel": {
         "title": "הוסף מלון",
         "message": "האם אתה בטוח שברצונך להוסיף מלון זה לטיול שלך?",
+        "cancel": "ביטול",
+        "add": "הוסף"
+      },
+      "addFlight": {
+        "title": "הוסף טיסה",
+        "message": "האם אתה בטוח שברצונך להוסיף את הטיסות האלה לטיול שלך?",
         "cancel": "ביטול",
         "add": "הוסף"
       }
