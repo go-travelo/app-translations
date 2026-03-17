@@ -108,7 +108,8 @@
         "latestTrip": "最新行程",
         "previousTrip": "历史行程",
         "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
-      }
+      },
+      "possibleNextSteps": "可能的下一步"
     }
   },
   "itineraries": {
@@ -521,7 +522,7 @@
       "subtitle": "添加更多感兴趣的内容，我们将开始为您进行个性化推荐。"
     },
     "location": {
-      "title": "您从哪里旅行？",
+      "title": "您将从哪里出发旅行？",
       "message": "告诉我你的位置，我会安排你的下一次探险",
       "button": "允许位置访问"
     },
@@ -565,7 +566,12 @@
     "account_already_linked": "账号已经被链接",
     "account_already_linked_message": "此账号已经链接到其他用户。您是否想以此用户身份登录？",
     "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
-    "new_chat_login": "要开始新的聊天，请登录"
+    "new_chat_login": "要开始新的聊天，请登录",
+    "unknown": "未知",
+    "years_on_layla": "在Layla的年数",
+    "months_on_layla": "在Layla的月数",
+    "weeks_on_layla": "在Layla的周数",
+    "days_on_layla": "在Layla的天数"
   },
   "auth": {
     "email": "电子邮件",
@@ -1457,5 +1463,13 @@
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
     "continue_with_human": "继续与人工顾问预订",
     "continue_with_booking": "继续预订"
-  }
+  },
+  "create_screen": {
+    "greetingWithName": "你好 ${name}，\n你想要\n体验什么？",
+    "greeting": "你想要\n体验什么？",
+    "listening": "正在聆听...",
+    "placeholder": "一次浪漫的岛屿之旅..."
+  },
+  "tripsWord": "行程",
+  "searchTrips": "搜索行程..."
 }

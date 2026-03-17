@@ -108,7 +108,8 @@
         "latestTrip": "Dernier voyage",
         "previousTrip": "Voyage précédent",
         "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus."
-      }
+      },
+      "possibleNextSteps": "Prochaines étapes possibles"
     }
   },
   "itineraries": {
@@ -529,7 +530,7 @@
       "subtitle": "Ajoutez plus d'intérêts pour que nous puissions commencer à personnaliser pour vous."
     },
     "location": {
-      "title": "D'où voyagez-vous?",
+      "title": "D'où voyagerez-vous ?",
       "message": "Envoyez-moi votre position et j'organiserai votre prochaine aventure",
       "button": "Autoriser l'accès à l'emplacement"
     },
@@ -573,7 +574,12 @@
     "account_already_linked": "Compte déjà lié",
     "account_already_linked_message": "Ce compte est déjà lié à un autre utilisateur. Voulez-vous vous connecter en tant qu'utilisateur ?",
     "chat_limit_exceeded": "Veuillez vous connecter pour continuer à discuter. Vous pourrez également enregistrer des discussions et des éléments dans votre liste de souhaits.",
-    "new_chat_login": "Pour commencer une nouvelle discussion, veuillez vous connecter"
+    "new_chat_login": "Pour commencer une nouvelle discussion, veuillez vous connecter",
+    "unknown": "Inconnu",
+    "years_on_layla": "Ans sur Layla",
+    "months_on_layla": "Mois sur Layla",
+    "weeks_on_layla": "Semaines sur Layla",
+    "days_on_layla": "Jours sur Layla"
   },
   "auth": {
     "email": "E-mail",
@@ -1488,5 +1494,13 @@
     "benefit3_description": "D'étape en étape — nous assurons des correspondances parfaitement synchronisées sur votre itinéraire.",
     "continue_with_human": "Continuer la réservation avec un conseiller",
     "continue_with_booking": "Continuer la réservation"
-  }
+  },
+  "create_screen": {
+    "greetingWithName": "Bonjour ${name},\nque souhaitez-vous\nvivre ?",
+    "greeting": "Que souhaitez-vous\nvivre ?",
+    "listening": "J'écoute...",
+    "placeholder": "Un voyage romantique sur une île..."
+  },
+  "tripsWord": "Voyages",
+  "searchTrips": "Rechercher des voyages..."
 }

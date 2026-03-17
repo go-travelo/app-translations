@@ -108,7 +108,8 @@
         "latestTrip": "Neueste Reise",
         "previousTrip": "Frühere Reise",
         "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
-      }
+      },
+      "possibleNextSteps": "Mögliche nächste Schritte"
     }
   },
   "itineraries": {
@@ -529,7 +530,7 @@
       "subtitle": "Füge mehr Interessen hinzu, damit wir für dich personalisieren können."
     },
     "location": {
-      "title": "Wo bist du?",
+      "title": "Von wo wirst du reisen?",
       "message": "Schick mir deinen Standort und ich organisiere dein nächstes Abenteuer.",
       "button": "Standortzugriff erlauben"
     },
@@ -573,7 +574,12 @@
     "account_already_linked": "Konto bereits verknüpft",
     "account_already_linked_message": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft. Möchtest du dich als dieser Benutzer anmelden?",
     "chat_limit_exceeded": "Bitte melde dich an, um weiter zu chatten. Dann kannst du auch Chats und Elemente auf deiner Bucketlist speichern.",
-    "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden"
+    "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden",
+    "unknown": "Unbekannt",
+    "years_on_layla": "Jahre auf Layla",
+    "months_on_layla": "Monate auf Layla",
+    "weeks_on_layla": "Wochen auf Layla",
+    "days_on_layla": "Tage auf Layla"
   },
   "auth": {
     "email": "E-Mail",
@@ -1488,5 +1494,13 @@
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
     "continue_with_human": "Weiter mit einem Reiseberater buchen",
     "continue_with_booking": "Weiter zur Buchung"
-  }
+  },
+  "create_screen": {
+    "greetingWithName": "Hallo ${name},\nwas möchtest du\nerleben?",
+    "greeting": "Was möchtest du\nerleben?",
+    "listening": "Höre zu...",
+    "placeholder": "Eine romantische Reise auf eine Insel..."
+  },
+  "tripsWord": "Reisen",
+  "searchTrips": "Reisen suchen..."
 }

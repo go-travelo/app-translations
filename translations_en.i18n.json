@@ -92,6 +92,7 @@
         }
       },
       "messageHint": "Ask me anything",
+      "possibleNextSteps": "Possible next steps",
       "contextMenu": {
         "copy": "Copy",
         "good_response": "Good response",
@@ -529,7 +530,7 @@
       "subtitle": "Add more interests so we can begin to personalize for you."
     },
     "location": {
-      "title": "Where are you?",
+      "title": "Where will you travel from?",
       "message": "Ping me your location and I'll line up your next adventure",
       "button": "Allow Location Access"
     },
@@ -573,7 +574,12 @@
     "account_already_linked": "Account already linked",
     "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",
     "chat_limit_exceeded": "Please sign in to continue chatting. You'll also be able to save chats and items to your bucketlist.",
-    "new_chat_login": "To start a new chat, please login"
+    "new_chat_login": "To start a new chat, please login",
+    "unknown": "Unknown",
+    "years_on_layla": "Years on Layla",
+    "months_on_layla": "Months on Layla",
+    "weeks_on_layla": "Weeks on Layla",
+    "days_on_layla": "Days on Layla"
   },
   "auth": {
     "email": "Email",
@@ -776,6 +782,12 @@
   "contact_us": "Contact Us",
   "continue_label": "Continue",
   "create": "Create",
+  "create_screen": {
+    "greetingWithName": "Hi ${name},\nwhat do you want to\nexperience?",
+    "greeting": "What do you want to\nexperience?",
+    "listening": "Listening...",
+    "placeholder": "A romantic trip to an island..."
+  },
   "creator": "Creator",
   "currency": "Currency",
   "daysWord": "Days",
@@ -836,6 +848,7 @@
   "plan": "Plan",
   "preferences": "Preferences",
   "profileWord": "Profile",
+  "tripsWord": "Trips",
   "powered_by": "Powered by",
   "read_more": "Read more",
   "read_less": "Read less",
@@ -845,6 +858,7 @@
   "returnWord": "Return",
   "roomsWord": "Rooms",
   "search": "Search",
+  "searchTrips": "Search Trips...",
   "save": "Save",
   "saved_to": "Saved to",
   "see_all": "See all",

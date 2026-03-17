@@ -108,7 +108,8 @@
         "latestTrip": "Última viagem",
         "previousTrip": "Viagem anterior",
         "expiredTripTooltip": "Esta é uma versão anterior. A sua última viagem é exibida acima."
-      }
+      },
+      "possibleNextSteps": "Próximos passos possíveis"
     }
   },
   "itineraries": {
@@ -529,7 +530,7 @@
       "subtitle": "Adicione mais interesses para que possamos começar a personalizar para você."
     },
     "location": {
-      "title": "De onde você viaja?",
+      "title": "De onde você viajará?",
       "message": "Partilha sua localizção que eu vou encontrar sua próxima aventura",
       "button": "Permitir acesso à localização"
     },
@@ -573,7 +574,12 @@
     "account_already_linked": "Conta já vinculada",
     "account_already_linked_message": "Esta conta já está vinculada a outro usuário. Você gostaria de fazer login como esse usuário?",
     "chat_limit_exceeded": "Por favor, faça login para continuar conversando. Você também poderá salvar conversas e itens em sua lista de desejos.",
-    "new_chat_login": "Para iniciar uma nova conversa, faça login"
+    "new_chat_login": "Para iniciar uma nova conversa, faça login",
+    "unknown": "Desconhecido",
+    "years_on_layla": "Anos no Layla",
+    "months_on_layla": "Meses no Layla",
+    "weeks_on_layla": "Semanas no Layla",
+    "days_on_layla": "Dias no Layla"
   },
   "auth": {
     "email": "E-mail",
@@ -1488,5 +1494,13 @@
     "benefit3_description": "De parada em parada — garantimos conexões perfeitamente sincronizadas em sua rota.",
     "continue_with_human": "Continuar a reserva com um consultor",
     "continue_with_booking": "Continuar com a reserva"
-  }
+  },
+  "create_screen": {
+    "greetingWithName": "Olá ${name},\no que você quer\nexperimentar?",
+    "greeting": "O que você quer\nexperimentar?",
+    "listening": "Ouvindo...",
+    "placeholder": "Uma viagem romântica para uma ilha..."
+  },
+  "tripsWord": "Viagens",
+  "searchTrips": "Pesquisar viagens..."
 }
