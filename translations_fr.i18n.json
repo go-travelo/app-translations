@@ -544,15 +544,15 @@
       "body": "Laisse-moi te prévenir quand je trouve des offres incroyables",
       "notification_body": "Je viens de te trouver des vols super bon marché pour la Laponie ! Allons voir les aurores boréales ? 👀",
       "skip": "Non merci, une autre fois!",
-      "title": "Sois notifié !"
+      "title": "Ne ratez pas un voyage !"
     },
     "video": {
-      "step1Title": "Générez votre voyage parfait avec l'IA",
-      "step1Subtitle": "Dites simplement à Layla à quoi ressemble votre voyage idéal et elle trouve les meilleures offres sans aucune planification supplémentaire",
-      "step2Title": "Personnalisez votre voyage et réservez-le avec des agents",
-      "step2Subtitle": "Faites de chaque voyage généré le vôtre et réservez-le avec une vraie personne qui vous guide avant de partir",
-      "step3Title": "Collaborez avec vos partenaires de voyage",
-      "step3Subtitle": "Fini le groupe de discussion. Invitez des amis et organisez le voyage avec d'autres personnes directement dans Layla"
+      "step1Title": "Votre voyage parfait,\nen quelques minutes.",
+      "step1Subtitle": "Prix réels, sélection curatée. Sans onglets, sans devinettes.",
+      "step2Title": "Un expert humain.\nToujours disponible.",
+      "step2Subtitle": "Affinement du voyage, conseils et réservations. Tout fait pour vous",
+      "step3Title": "De meilleurs hôtels.\nDe meilleurs prix.",
+      "step3Subtitle": "Offres exclusives sur des séjours sélectionnés. À vous de les débloquer."
     }
   },
   "profile": {

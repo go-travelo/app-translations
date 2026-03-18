@@ -544,15 +544,15 @@
       "body": "Deixa-me notificar-te quando encontrar ofertas incríveis",
       "notification_body": "Apenas encontrei para você alguns voos super baratos para a Laplândia! Vamos ver a aurora boreal? 👀",
       "skip": "Não, obrigado, outra hora!",
-      "title": "Seja notificado!"
+      "title": "Não perca uma viagem!"
     },
     "video": {
-      "step1Title": "Gere a sua viagem perfeita com IA",
-      "step1Subtitle": "Basta dizer à Layla como a sua viagem perfeita seria e ela encontra as melhores ofertas sem necessidade de planeamento adicional",
-      "step2Title": "Personalize a sua viagem e reserve-a com agentes humanos",
-      "step2Subtitle": "Torne cada viagem gerada sua e reserve-a com uma pessoa real que o guia antes de viajar",
-      "step3Title": "Colabore com os seus parceiros de viagem",
-      "step3Subtitle": "Chega de chats em grupo. Convide amigos e organize a viagem com outras pessoas diretamente no Layla"
+      "step1Title": "A sua viagem perfeita,\nem minutos.",
+      "step1Subtitle": "Preços reais, seleções curadas. Sem abas, sem suposições.",
+      "step2Title": "Um especialista humano.\nSempre disponível.",
+      "step2Subtitle": "Refinamento de viagem, orientação e reservas. Tudo feito por você",
+      "step3Title": "Melhores hotéis.\nMelhores preços.",
+      "step3Subtitle": "Ofertas exclusivas em estadias selecionadas. Suas para desbloquear."
     }
   },
   "profile": {

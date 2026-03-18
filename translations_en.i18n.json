@@ -544,15 +544,15 @@
       "body": "Let me notify you when I find amazing deals",
       "notification_body": "Just found you some super cheap flights to Lapland! Let's see the northern lights? 👀",
       "skip": "No thanks, another time!",
-      "title": "Get notified!"
+      "title": "Don't miss a trip!"
     },
     "video": {
-      "step1Title": "Generate your perfect trip with AI",
-      "step1Subtitle": "Just tell Layla how your perfect trip would look and feel like and she finds the best deals for you without any extra planning needed",
-      "step2Title": "Customize your Trip and Book it with Human Agents",
-      "step2Subtitle": "Make every generated trip yours and book it with a real person guiding you before traveling",
-      "step3Title": "Collaborate with your travel Partners",
-      "step3Subtitle": "No more Group Chat. Invite friends and set up the trip with other people straight in Layla"
+      "step1Title": "Your perfect trip,\nin minutes.",
+      "step1Subtitle": "Real prices, curated picks. No tabs, no guesswork.",
+      "step2Title": "A Human Expert.\nAlways on standby.",
+      "step2Subtitle": "Trip refinement, guidance and bookings. All done for you",
+      "step3Title": "Better hotels.\nBetter prices.",
+      "step3Subtitle": "Exclusive offers on selected stays. Yours to unlock."
     }
   },
   "profile": {
@@ -581,7 +581,7 @@
     "chat_limit_exceeded": "Please sign in to continue chatting. You'll also be able to save chats and items to your bucketlist.",
     "new_chat_login": "To start a new chat, please login",
     "unknown": "Unknown",
-    "guest" : "Guest",
+    "guest": "Guest",
     "years_on_layla": "Years on Layla",
     "months_on_layla": "Months on Layla",
     "weeks_on_layla": "Weeks on Layla",

@@ -544,15 +544,15 @@
       "body": "Laat me je op de hoogte stellen wanneer ik geweldige aanbiedingen vind",
       "notification_body": "Ik heb net supergoedkope vluchten naar Lapland voor je gevonden! Laten we het noorderlicht gaan bekijken? 👀",
       "skip": "Nee bedankt, een andere keer!",
-      "title": "Krijg een melding!"
+      "title": "Mis geen reis!"
     },
     "video": {
-      "step1Title": "Genereer je perfecte reis met AI",
-      "step1Subtitle": "Vertel Layla gewoon hoe je perfecte reis eruit zou moeten zien en ze vindt de beste deals zonder extra planning",
-      "step2Title": "Pas je reis aan en boek hem met menselijke agenten",
-      "step2Subtitle": "Maak elke gegenereerde reis de jouwe en boek hem met een echte persoon die je begeleidt voor het reizen",
-      "step3Title": "Werk samen met je reispartners",
-      "step3Subtitle": "Geen groepschat meer. Nodig vrienden uit en plan de reis samen met anderen rechtstreeks in Layla"
+      "step1Title": "Jouw perfecte reis,\nin minuten.",
+      "step1Subtitle": "Echte prijzen, zorgvuldige selectie. Geen tabbladen, geen giswerk.",
+      "step2Title": "Een menselijke expert.\nAltijd beschikbaar.",
+      "step2Subtitle": "Reisverbetering, begeleiding en boekingen. Alles voor jou gedaan",
+      "step3Title": "Betere hotels.\nBetere prijzen.",
+      "step3Subtitle": "Exclusieve aanbiedingen voor geselecteerde verblijven. Van jou om te ontgrendelen."
     }
   },
   "profile": {

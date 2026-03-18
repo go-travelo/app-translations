@@ -544,15 +544,15 @@
       "body": "Lass mich dich benachrichtigen, wenn ich tolle Angebote finde",
       "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
       "skip": "Nein danke, ein anderes Mal!",
-      "title": "Lass dich benachrichtigen!"
+      "title": "Verpass keine Reise!"
     },
     "video": {
-      "step1Title": "Erstelle deine perfekte Reise mit KI",
-      "step1Subtitle": "Sag Layla einfach, wie deine perfekte Reise aussehen und sich anfühlen soll, und sie findet die besten Angebote ohne zusätzliche Planung",
-      "step2Title": "Passe deine Reise an und buche sie mit echten Agenten",
-      "step2Subtitle": "Mach jede generierte Reise zu deiner eigenen und buche sie mit einer echten Person, die dich vor dem Reisen begleitet",
-      "step3Title": "Arbeite mit deinen Reisepartnern zusammen",
-      "step3Subtitle": "Kein Gruppen-Chat mehr. Lade Freunde ein und plane die Reise gemeinsam direkt in Layla"
+      "step1Title": "Deine perfekte Reise,\nin Minuten.",
+      "step1Subtitle": "Echte Preise, kuratierte Auswahl. Keine Tabs, kein Rätselraten.",
+      "step2Title": "Ein menschlicher Experte.\nImmer bereit.",
+      "step2Subtitle": "Reiseverbesserung, Beratung und Buchungen. Alles für dich erledigt",
+      "step3Title": "Bessere Hotels.\nBessere Preise.",
+      "step3Subtitle": "Exklusive Angebote für ausgewählte Unterkünfte. Deins zum Freischalten."
     }
   },
   "profile": {

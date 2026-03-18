@@ -544,15 +544,15 @@
       "body": "Déjame notificarte cuando encuentre ofertas increíbles",
       "notification_body": "¡Acabo de encontrarte unos vuelos súper baratos a Laponia! ¿Vamos a ver las luces del norte? 👀",
       "skip": "¡No, gracias, en otra ocasión!",
-      "title": "¡Recibe notificaciones!"
+      "title": "¡No te pierdas un viaje!"
     },
     "video": {
-      "step1Title": "Genera tu viaje perfecto con IA",
-      "step1Subtitle": "Solo dile a Layla cómo quieres que sea tu viaje perfecto y ella encontrará las mejores ofertas sin necesidad de planificación adicional",
-      "step2Title": "Personaliza tu viaje y resérvalo con agentes humanos",
-      "step2Subtitle": "Haz tuyo cada viaje generado y resérvalo con una persona real que te guíe antes de viajar",
-      "step3Title": "Colabora con tus compañeros de viaje",
-      "step3Subtitle": "Adiós al chat grupal. Invita a amigos y organiza el viaje con otros directamente en Layla"
+      "step1Title": "Tu viaje perfecto,\nen minutos.",
+      "step1Subtitle": "Precios reales, selección curada. Sin pestañas, sin suposiciones.",
+      "step2Title": "Un experto humano.\nSiempre disponible.",
+      "step2Subtitle": "Refinamiento del viaje, orientación y reservas. Todo hecho para ti",
+      "step3Title": "Mejores hoteles.\nMejores precios.",
+      "step3Subtitle": "Ofertas exclusivas en estancias seleccionadas. Tuyas para desbloquear."
     }
   },
   "profile": {
