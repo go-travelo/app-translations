@@ -361,7 +361,8 @@
       "other": "${n} passagiers"
     },
     "one_way": "Enkele reis",
-    "youll_arrive_next_day": "Je komt de volgende dag aan"
+    "youll_arrive_next_day": "Je komt de volgende dag aan",
+    "estimated": "Geschat"
   },
   "hotel": {
     "sort_filters": {

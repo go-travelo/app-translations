@@ -385,7 +385,8 @@
       "other": "${n} مسافرين"
     },
     "one_way": "رحلة ذهاب فقط",
-    "youll_arrive_next_day": "الوصول في اليوم التالي"
+    "youll_arrive_next_day": "الوصول في اليوم التالي",
+    "estimated": "تقديري"
   },
   "hotel": {
     "sort_filters": {

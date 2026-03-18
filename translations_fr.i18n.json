@@ -361,7 +361,8 @@
       "other": "${n} passagers"
     },
     "one_way": "Aller simple",
-    "youll_arrive_next_day": "Vous arriverez le lendemain"
+    "youll_arrive_next_day": "Vous arriverez le lendemain",
+    "estimated": "Estimé"
   },
   "hotel": {
     "sort_filters": {

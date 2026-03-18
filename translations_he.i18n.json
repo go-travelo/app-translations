@@ -373,7 +373,8 @@
       "other": "${n} נוסעים"
     },
     "one_way": "כיוון אחד",
-    "youll_arrive_next_day": "את/ה תגיע/י ביום המחרת"
+    "youll_arrive_next_day": "את/ה תגיע/י ביום המחרת",
+    "estimated": "משוער"
   },
   "hotel": {
     "sort_filters": {

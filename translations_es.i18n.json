@@ -361,7 +361,8 @@
       "other": "${n} pasajeros"
     },
     "one_way": "Solo ida",
-    "youll_arrive_next_day": "Llegarás al día siguiente"
+    "youll_arrive_next_day": "Llegarás al día siguiente",
+    "estimated": "Estimado"
   },
   "hotel": {
     "sort_filters": {

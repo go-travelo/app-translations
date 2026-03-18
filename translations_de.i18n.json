@@ -361,7 +361,8 @@
       "other": "${n} passagiere"
     },
     "one_way": "Nur Hinreise",
-    "youll_arrive_next_day": "Du wirst am nächsten Tag ankommen"
+    "youll_arrive_next_day": "Du wirst am nächsten Tag ankommen",
+    "estimated": "Geschätzt"
   },
   "hotel": {
     "sort_filters": {
