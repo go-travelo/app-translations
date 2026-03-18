@@ -356,7 +356,8 @@
       "other": "${n} passeggeri"
     },
     "one_way": "Solo andata",
-    "youll_arrive_next_day": "Arriverai il giorno dopo"
+    "youll_arrive_next_day": "Arriverai il giorno dopo",
+    "estimated": "Stimato"
   },
   "hotel": {
     "sort_filters": {

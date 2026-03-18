@@ -350,7 +350,8 @@
       "other": "${n} 位乘客"
     },
     "one_way": "单程",
-    "youll_arrive_next_day": "您将在第二天抵达"
+    "youll_arrive_next_day": "您将在第二天抵达",
+    "estimated": "预估"
   },
   "hotel": {
     "sort_filters": {

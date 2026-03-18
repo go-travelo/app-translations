@@ -368,7 +368,8 @@
       "other": "${n} пассажиры"
     },
     "one_way": "В одну сторону",
-    "youll_arrive_next_day": "Вы прибудете на следующий день."
+    "youll_arrive_next_day": "Вы прибудете на следующий день.",
+    "estimated": "Приблизительно"
   },
   "hotel": {
     "sort_filters": {

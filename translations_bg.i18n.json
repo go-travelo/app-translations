@@ -356,7 +356,8 @@
       "other": "${n} пътници"
     },
     "one_way": "Еднопосочен",
-    "youll_arrive_next_day": "Пристигане на следващия ден"
+    "youll_arrive_next_day": "Пристигане на следващия ден",
+    "estimated": "Приблизително"
   },
   "hotel": {
     "sort_filters": {
