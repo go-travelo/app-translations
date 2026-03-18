@@ -110,6 +110,11 @@
         "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه."
       },
       "possibleNextSteps": "الخطوات المحتملة التالية"
+    },
+    "trip_empty": {
+      "title": "الدردشة وإنشاء رحلة",
+      "subtitle": "تحدث مع Layla لبناء رحلتك المثالية، ثم ستجد جميع عناصر رحلتك مرتبة هنا",
+      "back_to_chat": "العودة إلى الدردشة"
     }
   },
   "itineraries": {
@@ -608,10 +613,19 @@
     "chat_limit_exceeded": "يرجى تسجيل الدخول للمتابعة في المحادثة. ستتمكن أيضًا من حفظ المحادثات والعناصر في قائمة الأمنيات الخاصة بك.",
     "new_chat_login": "لبدء محادثة جديدة، يرجى تسجيل الدخول",
     "unknown": "غير معروف",
+    "guest": "ضيف",
     "years_on_layla": "سنوات على لايلا",
     "months_on_layla": "أشهر على لايلا",
     "weeks_on_layla": "أسابيع على لايلا",
-    "days_on_layla": "أيام على لايلا"
+    "days_on_layla": "أيام على لايلا",
+    "developer_options": "خيارات المطور",
+    "reset_onboarding": "إعادة ضبط التعريف",
+    "reset_tooltips": "إعادة ضبط التلميحات",
+    "user_id": "معرف المستخدم",
+    "user_id_copied": "تم نسخ معرف المستخدم إلى الحافظة",
+    "subscription_id_copied": "تم نسخ معرف الاشتراك إلى الحافظة",
+    "user_id_label": "معرف المستخدم:\n${userId}",
+    "subscription_id_label": "معرف الاشتراك:\n${subscriptionId}"
   },
   "auth": {
     "email": "البريد الإلكتروني",
@@ -1626,5 +1640,25 @@
     "placeholder": "رحلة رومانسية إلى جزيرة..."
   },
   "tripsWord": "الرحلات",
-  "searchTrips": "البحث عن رحلات..."
+  "searchTrips": "البحث عن رحلات...",
+  "main": {
+    "tripsEmpty": {
+      "title": "أنشئ رحلتك الأولى",
+      "subtitle": "أخبري لايلا بأسلوبك وميزانيتك وستصمم لك الرحلة المثالية",
+      "getStarted": "ابدأ"
+    }
+  },
+  "layla_tip": "نصيحة Layla",
+  "could_not_generate_pdf": "تعذّر إنشاء ملف PDF. يرجى المحاولة مرة أخرى.",
+  "activity_unavailable": "النشاط غير متاح",
+  "per_person_label": "للشخص",
+  "rating": "تقييم",
+  "ratings": "تقييمات",
+  "admin": {
+    "confirmation": "تأكيد",
+    "confirm_reject_video": "هل أنت متأكد من رفض هذا الفيديو؟",
+    "confirm_maybe_video": "هل أنت متأكد من وضع علامة ربما على هذا الفيديو؟",
+    "confirm_remove_category": "هل أنت متأكد من إزالة الفئة \"${category}\" من هذا الفيديو؟",
+    "video_copied": "تم نسخ معرف الفيديو: ${videoId} بنجاح"
+  }
 }

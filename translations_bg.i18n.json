@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе."
       },
       "possibleNextSteps": "Възможни следващи стъпки"
+    },
+    "trip_empty": {
+      "title": "Чат и създаване на пътуване",
+      "subtitle": "Говорете с Layla, за да изградите идеалното си пътуване, и след това вижте всички елементи тук",
+      "back_to_chat": "Обратно към чата"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Моля, влез, за да продължиш разговора. Също ще можеш да запазваш чатове и неща във твоя списък с желания.",
     "new_chat_login": "За да започнеш нов чат, моля влез в профила си",
     "unknown": "Неизвестен",
+    "guest": "Гост",
     "years_on_layla": "Години в Layla",
     "months_on_layla": "Месеца в Layla",
     "weeks_on_layla": "Седмици в Layla",
-    "days_on_layla": "Дни в Layla"
+    "days_on_layla": "Дни в Layla",
+    "developer_options": "Опции за разработчик",
+    "reset_onboarding": "Нулиране на въвеждането",
+    "reset_tooltips": "Нулиране на подсказките",
+    "user_id": "Потребителски ID",
+    "user_id_copied": "Потребителският ID е копиран",
+    "subscription_id_copied": "Идентификаторът на абонамента е копиран",
+    "user_id_label": "Потребителски ID:\n${userId}",
+    "subscription_id_label": "Идентификатор на абонамент:\n${subscriptionId}"
   },
   "auth": {
     "email": "Имейл",
@@ -1502,5 +1516,25 @@
     "placeholder": "Романтично пътуване до остров..."
   },
   "tripsWord": "Пътувания",
-  "searchTrips": "Търсене на пътувания..."
+  "searchTrips": "Търсене на пътувания...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Създайте първото си пътуване",
+      "subtitle": "Кажете на Лейла вашия стил и бюджет и тя ще проектира перфектното пътуване",
+      "getStarted": "Започнете"
+    }
+  },
+  "layla_tip": "Съвет от Layla",
+  "could_not_generate_pdf": "Неуспешно генериране на PDF. Моля, опитайте отново.",
+  "activity_unavailable": "Активността е недостъпна",
+  "per_person_label": "на човек",
+  "rating": "оценка",
+  "ratings": "оценки",
+  "admin": {
+    "confirmation": "Потвърждение",
+    "confirm_reject_video": "Сигурни ли сте, че искате да отхвърлите това видео?",
+    "confirm_maybe_video": "Сигурни ли сте, че искате да маркирате това видео като може би?",
+    "confirm_remove_category": "Сигурни ли сте, че искате да премахнете категория \"${category}\" от това видео?",
+    "video_copied": "ID на видео: ${videoId} е копирано успешно"
+  }
 }

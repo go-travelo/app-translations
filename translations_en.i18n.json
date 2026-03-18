@@ -110,6 +110,11 @@
         "previousTrip": "Previous trip",
         "expiredTripTooltip": "This is a previous version. Your latest trip is shown above."
       }
+    },
+    "trip_empty": {
+      "title": "Chat & create trip",
+      "subtitle": "Talk with Layla to build your perfect trip and then see all your trip items organised here",
+      "back_to_chat": "Back to chat"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Please sign in to continue chatting. You'll also be able to save chats and items to your bucketlist.",
     "new_chat_login": "To start a new chat, please login",
     "unknown": "Unknown",
+    "guest" : "Guest",
     "years_on_layla": "Years on Layla",
     "months_on_layla": "Months on Layla",
     "weeks_on_layla": "Weeks on Layla",
-    "days_on_layla": "Days on Layla"
+    "days_on_layla": "Days on Layla",
+    "developer_options": "Developer options",
+    "reset_onboarding": "Reset onboarding",
+    "reset_tooltips": "Reset tooltips",
+    "user_id": "User ID",
+    "user_id_copied": "User ID copied to clipboard",
+    "subscription_id_copied": "Subscription ID copied to clipboard",
+    "user_id_label": "User ID:\n${userId}",
+    "subscription_id_label": "Subscription ID:\n${subscriptionId}"
   },
   "auth": {
     "email": "Email",
@@ -1512,5 +1526,25 @@
       "title": "AI planning is turned off",
       "subtitle": "Enable AI processing in Settings to chat and generate a trip plan."
     }
+  },
+  "main": {
+    "tripsEmpty": {
+      "title": "Create your first trip",
+      "subtitle": "Tell Layla your style and budget and she will design the perfect trip",
+      "getStarted": "Get started"
+    }
+  },
+  "layla_tip": "Layla's Tip",
+  "could_not_generate_pdf": "Could not generate PDF. Please try again.",
+  "activity_unavailable": "Activity Unavailable",
+  "per_person_label": "per Person",
+  "rating": "rating",
+  "ratings": "ratings",
+  "admin": {
+    "confirmation": "Confirmation",
+    "confirm_reject_video": "Are you sure you want to reject this video?",
+    "confirm_maybe_video": "Are you sure you want to mark this video as maybe?",
+    "confirm_remove_category": "Are you sure you want to remove category \"${category}\" for this video?",
+    "video_copied": "Video id: ${videoId} is Copied successfully"
   }
 }

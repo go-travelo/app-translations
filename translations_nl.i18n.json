@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven."
       },
       "possibleNextSteps": "Mogelijke volgende stappen"
+    },
+    "trip_empty": {
+      "title": "Chat & maak een reis",
+      "subtitle": "Praat met Layla om je perfecte reis te plannen en zie dan al je reisitems hier georganiseerd",
+      "back_to_chat": "Terug naar chat"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Log in om verder te chatten. Je kunt ook chats en items opslaan in je bucketlist.",
     "new_chat_login": "Om een nieuwe chat te starten, log alsjeblieft in",
     "unknown": "Onbekend",
+    "guest": "Gast",
     "years_on_layla": "Jaar op Layla",
     "months_on_layla": "Maanden op Layla",
     "weeks_on_layla": "Weken op Layla",
-    "days_on_layla": "Dagen op Layla"
+    "days_on_layla": "Dagen op Layla",
+    "developer_options": "Ontwikkelaarsopties",
+    "reset_onboarding": "Onboarding resetten",
+    "reset_tooltips": "Tooltips resetten",
+    "user_id": "Gebruikers-ID",
+    "user_id_copied": "Gebruikers-ID gekopieerd",
+    "subscription_id_copied": "Abonnements-ID gekopieerd",
+    "user_id_label": "Gebruikers-ID:\n${userId}",
+    "subscription_id_label": "Abonnements-ID:\n${subscriptionId}"
   },
   "auth": {
     "email": "E-mail",
@@ -1502,5 +1516,25 @@
     "placeholder": "Een romantische reis naar een eiland..."
   },
   "tripsWord": "Reizen",
-  "searchTrips": "Reizen zoeken..."
+  "searchTrips": "Reizen zoeken...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Maak je eerste reis",
+      "subtitle": "Vertel Layla je stijl en budget en zij ontwerpt de perfecte reis",
+      "getStarted": "Aan de slag"
+    }
+  },
+  "layla_tip": "Layla's tip",
+  "could_not_generate_pdf": "Kan PDF niet genereren. Probeer het opnieuw.",
+  "activity_unavailable": "Activiteit niet beschikbaar",
+  "per_person_label": "per persoon",
+  "rating": "beoordeling",
+  "ratings": "beoordelingen",
+  "admin": {
+    "confirmation": "Bevestiging",
+    "confirm_reject_video": "Weet je zeker dat je deze video wilt weigeren?",
+    "confirm_maybe_video": "Weet je zeker dat je deze video als misschien wilt markeren?",
+    "confirm_remove_category": "Weet je zeker dat je de categorie \"${category}\" van deze video wilt verwijderen?",
+    "video_copied": "Video-ID: ${videoId} succesvol gekopieerd"
+  }
 }

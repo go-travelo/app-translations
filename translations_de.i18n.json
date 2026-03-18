@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
       },
       "possibleNextSteps": "Mögliche nächste Schritte"
+    },
+    "trip_empty": {
+      "title": "Chat & Reise erstellen",
+      "subtitle": "Sprich mit Layla, um deine perfekte Reise zu planen, und sieh dann alle Reiseelemente hier organisiert",
+      "back_to_chat": "Zurück zum Chat"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Bitte melde dich an, um weiter zu chatten. Dann kannst du auch Chats und Elemente auf deiner Bucketlist speichern.",
     "new_chat_login": "Um einen neuen Chat zu starten, bitte anmelden",
     "unknown": "Unbekannt",
+    "guest": "Gast",
     "years_on_layla": "Jahre auf Layla",
     "months_on_layla": "Monate auf Layla",
     "weeks_on_layla": "Wochen auf Layla",
-    "days_on_layla": "Tage auf Layla"
+    "days_on_layla": "Tage auf Layla",
+    "developer_options": "Entwickleroptionen",
+    "reset_onboarding": "Onboarding zurücksetzen",
+    "reset_tooltips": "Tooltips zurücksetzen",
+    "user_id": "Benutzer-ID",
+    "user_id_copied": "Benutzer-ID kopiert",
+    "subscription_id_copied": "Abonnement-ID kopiert",
+    "user_id_label": "Benutzer-ID:\n${userId}",
+    "subscription_id_label": "Abonnement-ID:\n${subscriptionId}"
   },
   "auth": {
     "email": "E-Mail",
@@ -1502,5 +1516,25 @@
     "placeholder": "Eine romantische Reise auf eine Insel..."
   },
   "tripsWord": "Reisen",
-  "searchTrips": "Reisen suchen..."
+  "searchTrips": "Reisen suchen...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Erstelle deine erste Reise",
+      "subtitle": "Erzähle Layla deinen Stil und Budget und sie wird die perfekte Reise gestalten",
+      "getStarted": "Loslegen"
+    }
+  },
+  "layla_tip": "Laylas Tipp",
+  "could_not_generate_pdf": "PDF konnte nicht erstellt werden. Bitte versuche es erneut.",
+  "activity_unavailable": "Aktivität nicht verfügbar",
+  "per_person_label": "pro Person",
+  "rating": "Bewertung",
+  "ratings": "Bewertungen",
+  "admin": {
+    "confirmation": "Bestätigung",
+    "confirm_reject_video": "Möchtest du dieses Video wirklich ablehnen?",
+    "confirm_maybe_video": "Möchtest du dieses Video wirklich als \"Vielleicht\" markieren?",
+    "confirm_remove_category": "Möchtest du die Kategorie \"${category}\" wirklich von diesem Video entfernen?",
+    "video_copied": "Video-ID: ${videoId} wurde erfolgreich kopiert"
+  }
 }

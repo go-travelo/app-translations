@@ -110,6 +110,11 @@
         "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
       },
       "possibleNextSteps": "可能的下一步"
+    },
+    "trip_empty": {
+      "title": "聊天并创建行程",
+      "subtitle": "与Layla交流以规划完美的行程，然后在此查看所有行程安排",
+      "back_to_chat": "返回聊天"
     }
   },
   "itineraries": {
@@ -568,10 +573,19 @@
     "chat_limit_exceeded": "请登录以继续聊天。您还可以将聊天记录和项目保存至您的愿望清单。",
     "new_chat_login": "要开始新的聊天，请登录",
     "unknown": "未知",
+    "guest": "访客",
     "years_on_layla": "在Layla的年数",
     "months_on_layla": "在Layla的月数",
     "weeks_on_layla": "在Layla的周数",
-    "days_on_layla": "在Layla的天数"
+    "days_on_layla": "在Layla的天数",
+    "developer_options": "开发者选项",
+    "reset_onboarding": "重置引导",
+    "reset_tooltips": "重置提示",
+    "user_id": "用户ID",
+    "user_id_copied": "用户ID已复制",
+    "subscription_id_copied": "订阅ID已复制",
+    "user_id_label": "用户ID:\n${userId}",
+    "subscription_id_label": "订阅ID:\n${subscriptionId}"
   },
   "auth": {
     "email": "电子邮件",
@@ -1471,5 +1485,25 @@
     "placeholder": "一次浪漫的岛屿之旅..."
   },
   "tripsWord": "行程",
-  "searchTrips": "搜索行程..."
+  "searchTrips": "搜索行程...",
+  "main": {
+    "tripsEmpty": {
+      "title": "创建您的第一次旅行",
+      "subtitle": "告诉莱拉您的风格和预算，她将为您设计完美的旅行",
+      "getStarted": "开始"
+    }
+  },
+  "layla_tip": "Layla的建议",
+  "could_not_generate_pdf": "无法生成PDF，请重试。",
+  "activity_unavailable": "活动不可用",
+  "per_person_label": "每人",
+  "rating": "评分",
+  "ratings": "评分",
+  "admin": {
+    "confirmation": "确认",
+    "confirm_reject_video": "您确定要拒绝此视频吗？",
+    "confirm_maybe_video": "您确定要将此视频标记为也许吗？",
+    "confirm_remove_category": "您确定要从此视频中删除类别\"${category}\"吗？",
+    "video_copied": "视频ID: ${videoId} 已成功复制"
+  }
 }

@@ -110,6 +110,11 @@
         "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה."
       },
       "possibleNextSteps": "צעדים אפשריים הבאים"
+    },
+    "trip_empty": {
+      "title": "צ'אט ויצירת טיול",
+      "subtitle": "שוחח עם ליילה כדי לבנות את הטיול המושלם שלך, ואז ראה את כל פריטי הטיול מסודרים כאן",
+      "back_to_chat": "חזרה לצ'אט"
     }
   },
   "itineraries": {
@@ -592,10 +597,19 @@
     "chat_limit_exceeded": "כדי להמשיך את השיחה התחבר/י בבקשה. כך גם תתאפשר שמירת השיחות והפריטים לרשימת המשאלות שלך.",
     "new_chat_login": "כדי לפתוח שיחה חדשה, התחבר/י בבקשה",
     "unknown": "לא ידוע",
+    "guest": "אורח",
     "years_on_layla": "שנים בלילה",
     "months_on_layla": "חודשים בלילה",
     "weeks_on_layla": "שבועות בלילה",
-    "days_on_layla": "ימים בלילה"
+    "days_on_layla": "ימים בלילה",
+    "developer_options": "אפשרויות מפתח",
+    "reset_onboarding": "איפוס הכניסה",
+    "reset_tooltips": "איפוס טיפים",
+    "user_id": "מזהה משתמש",
+    "user_id_copied": "מזהה המשתמש הועתק",
+    "subscription_id_copied": "מזהה המנוי הועתק",
+    "user_id_label": "מזהה משתמש:\n${userId}",
+    "subscription_id_label": "מזהה מנוי:\n${subscriptionId}"
   },
   "auth": {
     "email": "אימייל",
@@ -1564,5 +1578,25 @@
     "placeholder": "טיול רומנטי לאי..."
   },
   "tripsWord": "טיולים",
-  "searchTrips": "חיפוש טיולים..."
+  "searchTrips": "חיפוש טיולים...",
+  "main": {
+    "tripsEmpty": {
+      "title": "צור את הטיול הראשון שלך",
+      "subtitle": "ספר ללילה על הסגנון והתקציב שלך והיא תתכנן את הטיול המושלם",
+      "getStarted": "התחל"
+    }
+  },
+  "layla_tip": "טיפ של ליילה",
+  "could_not_generate_pdf": "לא ניתן ליצור PDF. אנא נסה שוב.",
+  "activity_unavailable": "הפעילות אינה זמינה",
+  "per_person_label": "לאדם",
+  "rating": "דירוג",
+  "ratings": "דירוגים",
+  "admin": {
+    "confirmation": "אישור",
+    "confirm_reject_video": "האם אתה בטוח שברצונך לדחות סרטון זה?",
+    "confirm_maybe_video": "האם אתה בטוח שברצונך לסמן סרטון זה כאולי?",
+    "confirm_remove_category": "האם אתה בטוח שברצונך להסיר את הקטגוריה \"${category}\" מסרטון זה?",
+    "video_copied": "מזהה הסרטון: ${videoId} הועתק בהצלחה"
+  }
 }

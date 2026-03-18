@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus."
       },
       "possibleNextSteps": "Prochaines étapes possibles"
+    },
+    "trip_empty": {
+      "title": "Discuter et créer un voyage",
+      "subtitle": "Discutez avec Layla pour construire votre voyage parfait et retrouvez tous vos éléments de voyage organisés ici",
+      "back_to_chat": "Retour au chat"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Veuillez vous connecter pour continuer à discuter. Vous pourrez également enregistrer des discussions et des éléments dans votre liste de souhaits.",
     "new_chat_login": "Pour commencer une nouvelle discussion, veuillez vous connecter",
     "unknown": "Inconnu",
+    "guest": "Invité",
     "years_on_layla": "Ans sur Layla",
     "months_on_layla": "Mois sur Layla",
     "weeks_on_layla": "Semaines sur Layla",
-    "days_on_layla": "Jours sur Layla"
+    "days_on_layla": "Jours sur Layla",
+    "developer_options": "Options développeur",
+    "reset_onboarding": "Réinitialiser l'intégration",
+    "reset_tooltips": "Réinitialiser les infobulles",
+    "user_id": "Identifiant utilisateur",
+    "user_id_copied": "Identifiant utilisateur copié",
+    "subscription_id_copied": "Identifiant d'abonnement copié",
+    "user_id_label": "Identifiant utilisateur:\n${userId}",
+    "subscription_id_label": "Identifiant d'abonnement:\n${subscriptionId}"
   },
   "auth": {
     "email": "E-mail",
@@ -1502,5 +1516,25 @@
     "placeholder": "Un voyage romantique sur une île..."
   },
   "tripsWord": "Voyages",
-  "searchTrips": "Rechercher des voyages..."
+  "searchTrips": "Rechercher des voyages...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Créez votre premier voyage",
+      "subtitle": "Dites à Layla votre style et votre budget et elle concevra le voyage parfait",
+      "getStarted": "Commencer"
+    }
+  },
+  "layla_tip": "Conseil de Layla",
+  "could_not_generate_pdf": "Impossible de générer le PDF. Veuillez réessayer.",
+  "activity_unavailable": "Activité indisponible",
+  "per_person_label": "par personne",
+  "rating": "avis",
+  "ratings": "avis",
+  "admin": {
+    "confirmation": "Confirmation",
+    "confirm_reject_video": "Êtes-vous sûr de vouloir rejeter cette vidéo ?",
+    "confirm_maybe_video": "Êtes-vous sûr de vouloir marquer cette vidéo comme peut-être ?",
+    "confirm_remove_category": "Êtes-vous sûr de vouloir supprimer la catégorie \"${category}\" de cette vidéo ?",
+    "video_copied": "ID vidéo : ${videoId} copié avec succès"
+  }
 }

@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Esta é uma versão anterior. A sua última viagem é exibida acima."
       },
       "possibleNextSteps": "Próximos passos possíveis"
+    },
+    "trip_empty": {
+      "title": "Conversar e criar viagem",
+      "subtitle": "Converse com Layla para construir sua viagem perfeita e depois veja todos os itens da viagem organizados aqui",
+      "back_to_chat": "Voltar ao chat"
     }
   },
   "itineraries": {
@@ -576,10 +581,19 @@
     "chat_limit_exceeded": "Por favor, faça login para continuar conversando. Você também poderá salvar conversas e itens em sua lista de desejos.",
     "new_chat_login": "Para iniciar uma nova conversa, faça login",
     "unknown": "Desconhecido",
+    "guest": "Convidado",
     "years_on_layla": "Anos no Layla",
     "months_on_layla": "Meses no Layla",
     "weeks_on_layla": "Semanas no Layla",
-    "days_on_layla": "Dias no Layla"
+    "days_on_layla": "Dias no Layla",
+    "developer_options": "Opções de desenvolvedor",
+    "reset_onboarding": "Redefinir integração",
+    "reset_tooltips": "Redefinir dicas",
+    "user_id": "ID do usuário",
+    "user_id_copied": "ID do usuário copiado",
+    "subscription_id_copied": "ID de assinatura copiado",
+    "user_id_label": "ID do usuário:\n${userId}",
+    "subscription_id_label": "ID de assinatura:\n${subscriptionId}"
   },
   "auth": {
     "email": "E-mail",
@@ -1502,5 +1516,25 @@
     "placeholder": "Uma viagem romântica para uma ilha..."
   },
   "tripsWord": "Viagens",
-  "searchTrips": "Pesquisar viagens..."
+  "searchTrips": "Pesquisar viagens...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Crie sua primeira viagem",
+      "subtitle": "Conte à Layla seu estilo e orçamento e ela vai criar a viagem perfeita",
+      "getStarted": "Começar"
+    }
+  },
+  "layla_tip": "Dica da Layla",
+  "could_not_generate_pdf": "Não foi possível gerar o PDF. Por favor, tente novamente.",
+  "activity_unavailable": "Atividade indisponível",
+  "per_person_label": "por pessoa",
+  "rating": "avaliação",
+  "ratings": "avaliações",
+  "admin": {
+    "confirmation": "Confirmação",
+    "confirm_reject_video": "Tem certeza de que deseja rejeitar este vídeo?",
+    "confirm_maybe_video": "Tem certeza de que deseja marcar este vídeo como talvez?",
+    "confirm_remove_category": "Tem certeza de que deseja remover a categoria \"${category}\" deste vídeo?",
+    "video_copied": "ID do vídeo: ${videoId} copiado com sucesso"
+  }
 }

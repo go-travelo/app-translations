@@ -110,6 +110,11 @@
         "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше."
       },
       "possibleNextSteps": "Возможные следующие шаги"
+    },
+    "trip_empty": {
+      "title": "Чат и создание поездки",
+      "subtitle": "Поговорите с Layla, чтобы спланировать идеальную поездку, и увидьте все элементы поездки здесь",
+      "back_to_chat": "Вернуться к чату"
     }
   },
   "itineraries": {
@@ -592,10 +597,19 @@
     "chat_limit_exceeded": "Пожалуйста, войдите в систему, чтобы продолжить общение. Вы также сможете сохранять чаты и предметы в свой список пожеланий.",
     "new_chat_login": "Для начала нового чата, пожалуйста, войдите в систему",
     "unknown": "Неизвестно",
+    "guest": "Гость",
     "years_on_layla": "Лет на Layla",
     "months_on_layla": "Месяцев на Layla",
     "weeks_on_layla": "Недель на Layla",
-    "days_on_layla": "Дней на Layla"
+    "days_on_layla": "Дней на Layla",
+    "developer_options": "Параметры разработчика",
+    "reset_onboarding": "Сбросить онбординг",
+    "reset_tooltips": "Сбросить подсказки",
+    "user_id": "ID пользователя",
+    "user_id_copied": "ID пользователя скопирован",
+    "subscription_id_copied": "ID подписки скопирован",
+    "user_id_label": "ID пользователя:\n${userId}",
+    "subscription_id_label": "ID подписки:\n${subscriptionId}"
   },
   "auth": {
     "email": "Электронная почта",
@@ -1564,5 +1578,25 @@
     "placeholder": "Романтическое путешествие на остров..."
   },
   "tripsWord": "Поездки",
-  "searchTrips": "Поиск поездок..."
+  "searchTrips": "Поиск поездок...",
+  "main": {
+    "tripsEmpty": {
+      "title": "Создайте свою первую поездку",
+      "subtitle": "Расскажите Лайле о своём стиле и бюджете, и она разработает идеальное путешествие",
+      "getStarted": "Начать"
+    }
+  },
+  "layla_tip": "Совет Layla",
+  "could_not_generate_pdf": "Не удалось создать PDF. Пожалуйста, попробуйте снова.",
+  "activity_unavailable": "Активность недоступна",
+  "per_person_label": "на человека",
+  "rating": "отзыв",
+  "ratings": "отзывов",
+  "admin": {
+    "confirmation": "Подтверждение",
+    "confirm_reject_video": "Вы уверены, что хотите отклонить это видео?",
+    "confirm_maybe_video": "Вы уверены, что хотите пометить это видео как «возможно»?",
+    "confirm_remove_category": "Вы уверены, что хотите удалить категорию \"${category}\" из этого видео?",
+    "video_copied": "ID видео: ${videoId} успешно скопирован"
+  }
 }
