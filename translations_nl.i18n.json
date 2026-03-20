@@ -251,7 +251,32 @@
       "min_days": "Min te besteden dagen",
       "for_your_dates": "Voor uw data"
     },
-    "show_videos_of": "Toon me video's van ${destination}"
+    "show_videos_of": "Toon me video's van ${destination}",
+    "trip_card": {
+      "plan_trip": "Reis plannen",
+      "help_me_plan": "Help me een reis zoals deze te plannen",
+      "planning_failed": "Plannen starten mislukt. Probeer het opnieuw.",
+      "highlight_activities": "Uitgelichte activiteiten",
+      "stays": "Verblijven",
+      "category": "Categorie",
+      "season": "Seizoen",
+      "days": "Dagen",
+      "budget": "Budget",
+      "spring": "Lente",
+      "summer": "Zomer",
+      "autumn": "Herfst",
+      "winter": "Winter",
+      "nights": {
+        "one": "${n} Nacht",
+        "other": "${n} Nachten"
+      },
+      "stars": {
+        "one": "${n} Ster",
+        "other": "${n} Sterren"
+      },
+      "use_this_template": "Gebruik dit sjabloon",
+      "by": "door"
+    }
   },
   "feed": {
     "for_you_card": {

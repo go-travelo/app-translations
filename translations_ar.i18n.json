@@ -259,7 +259,32 @@
       "min_days": "أيام قليلة لقضاء",
       "for_your_dates": "لتواريخك"
     },
-    "show_videos_of": "أظهر لي فيديوهات من ${destination}"
+    "show_videos_of": "أظهر لي فيديوهات من ${destination}",
+    "trip_card": {
+      "plan_trip": "خطط رحلة",
+      "help_me_plan": "ساعدني في التخطيط لرحلة مثل هذه",
+      "planning_failed": "فشل بدء التخطيط. يرجى المحاولة مرة أخرى.",
+      "highlight_activities": "الأنشطة المميزة",
+      "stays": "الإقامات",
+      "category": "الفئة",
+      "season": "الموسم",
+      "days": "الأيام",
+      "budget": "الميزانية",
+      "spring": "الربيع",
+      "summer": "الصيف",
+      "autumn": "الخريف",
+      "winter": "الشتاء",
+      "nights": {
+        "one": "ليلة واحدة",
+        "other": "${n} ليالٍ"
+      },
+      "stars": {
+        "one": "${n} نجمة",
+        "other": "${n} نجوم"
+      },
+      "use_this_template": "استخدم هذا النموذج",
+      "by": "بواسطة"
+    }
   },
   "feed": {
     "for_you_card": {

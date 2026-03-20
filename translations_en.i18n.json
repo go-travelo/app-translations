@@ -251,7 +251,32 @@
       "min_days": "Min days to spend",
       "for_your_dates": "For your dates"
     },
-    "show_videos_of": "Show me videos of ${destination}"
+    "show_videos_of": "Show me videos of ${destination}",
+    "trip_card": {
+      "plan_trip": "Plan Trip",
+      "help_me_plan": "Help me plan a trip like this",
+      "planning_failed": "Failed to start planning. Please try again.",
+      "highlight_activities": "Highlight Activities",
+      "stays": "Stays",
+      "category": "Category",
+      "season": "Season",
+      "days": "Days",
+      "budget": "Budget",
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn",
+      "winter": "Winter",
+      "nights": {
+        "one": "${n} Night",
+        "other": "${n} Nights"
+      },
+      "stars": {
+        "one": "${n} Star",
+        "other": "${n} Stars"
+      },
+      "use_this_template": "Use this Template",
+      "by": "by"
+    }
   },
   "feed": {
     "for_you_card": {

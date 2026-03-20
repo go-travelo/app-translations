@@ -251,7 +251,32 @@
       "min_days": "Min. Tage zum Verbringen",
       "for_your_dates": "Für Ihre Datumsangaben"
     },
-    "show_videos_of": "Zeige mir Videos von ${destination}"
+    "show_videos_of": "Zeige mir Videos von ${destination}",
+    "trip_card": {
+      "plan_trip": "Reise planen",
+      "help_me_plan": "Hilf mir, eine Reise wie diese zu planen",
+      "planning_failed": "Planung konnte nicht gestartet werden. Bitte versuche es erneut.",
+      "highlight_activities": "Highlight-Aktivitäten",
+      "stays": "Unterkünfte",
+      "category": "Kategorie",
+      "season": "Saison",
+      "days": "Tage",
+      "budget": "Budget",
+      "spring": "Frühling",
+      "summer": "Sommer",
+      "autumn": "Herbst",
+      "winter": "Winter",
+      "nights": {
+        "one": "${n} Nacht",
+        "other": "${n} Nächte"
+      },
+      "stars": {
+        "one": "${n} Stern",
+        "other": "${n} Sterne"
+      },
+      "use_this_template": "Diese Vorlage nutzen",
+      "by": "von"
+    }
   },
   "feed": {
     "for_you_card": {

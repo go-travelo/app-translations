@@ -251,7 +251,32 @@
       "min_days": "Mínimo de dias para gastar",
       "for_your_dates": "Para suas datas"
     },
-    "show_videos_of": "Mostre-me vídeos de ${destination}"
+    "show_videos_of": "Mostre-me vídeos de ${destination}",
+    "trip_card": {
+      "plan_trip": "Planejar viagem",
+      "help_me_plan": "Ajude-me a planejar uma viagem como esta",
+      "planning_failed": "Falha ao iniciar o planejamento. Por favor, tente novamente.",
+      "highlight_activities": "Atividades em destaque",
+      "stays": "Estadias",
+      "category": "Categoria",
+      "season": "Temporada",
+      "days": "Dias",
+      "budget": "Orçamento",
+      "spring": "Primavera",
+      "summer": "Verão",
+      "autumn": "Outono",
+      "winter": "Inverno",
+      "nights": {
+        "one": "${n} Noite",
+        "other": "${n} Noites"
+      },
+      "stars": {
+        "one": "${n} Estrela",
+        "other": "${n} Estrelas"
+      },
+      "use_this_template": "Usar este modelo",
+      "by": "por"
+    }
   },
   "feed": {
     "for_you_card": {

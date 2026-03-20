@@ -251,7 +251,32 @@
       "min_days": "Min giorni da trascorrere",
       "for_your_dates": "Per le tue date"
     },
-    "show_videos_of": "Mostrami video di ${destination}"
+    "show_videos_of": "Mostrami video di ${destination}",
+    "trip_card": {
+      "plan_trip": "Pianifica il viaggio",
+      "help_me_plan": "Aiutami a pianificare un viaggio come questo",
+      "planning_failed": "Impossibile avviare la pianificazione. Riprova.",
+      "highlight_activities": "Attività in evidenza",
+      "stays": "Soggiorni",
+      "category": "Categoria",
+      "season": "Stagione",
+      "days": "Giorni",
+      "budget": "Budget",
+      "spring": "Primavera",
+      "summer": "Estate",
+      "autumn": "Autunno",
+      "winter": "Inverno",
+      "nights": {
+        "one": "${n} Notte",
+        "other": "${n} Notti"
+      },
+      "stars": {
+        "one": "${n} Stella",
+        "other": "${n} Stelle"
+      },
+      "use_this_template": "Usa questo modello",
+      "by": "di"
+    }
   },
   "feed": {
     "for_you_card": {

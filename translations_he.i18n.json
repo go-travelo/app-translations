@@ -255,7 +255,32 @@
       "min_days": "מינימום ימים לבילוי",
       "for_your_dates": "לתאריכים שלך"
     },
-    "show_videos_of": "הראה לי סרטונים של ${destination}"
+    "show_videos_of": "הראה לי סרטונים של ${destination}",
+    "trip_card": {
+      "plan_trip": "תכנן טיול",
+      "help_me_plan": "עזור לי לתכנן טיול כזה",
+      "planning_failed": "תכנון הטיול נכשל. אנא נסה שנית.",
+      "highlight_activities": "פעילויות מומלצות",
+      "stays": "לינות",
+      "category": "קטגוריה",
+      "season": "עונה",
+      "days": "ימים",
+      "budget": "תקציב",
+      "spring": "אביב",
+      "summer": "קיץ",
+      "autumn": "סתיו",
+      "winter": "חורף",
+      "nights": {
+        "one": "לילה ${n}",
+        "other": "${n} לילות"
+      },
+      "stars": {
+        "one": "כוכב ${n}",
+        "other": "${n} כוכבים"
+      },
+      "use_this_template": "השתמש בתבנית זו",
+      "by": "מאת"
+    }
   },
   "feed": {
     "for_you_card": {

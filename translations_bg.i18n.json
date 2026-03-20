@@ -251,7 +251,32 @@
       "min_days": "Мин. дни за престой",
       "for_your_dates": "За твоите дати"
     },
-    "show_videos_of": "Покажи ми видеоклипове на ${destination}"
+    "show_videos_of": "Покажи ми видеоклипове на ${destination}",
+    "trip_card": {
+      "plan_trip": "Планирай пътуване",
+      "help_me_plan": "Помогни ми да планирам пътуване като това",
+      "planning_failed": "Неуспешно стартиране на планирането. Моля, опитайте отново.",
+      "highlight_activities": "Основни дейности",
+      "stays": "Престои",
+      "category": "Категория",
+      "season": "Сезон",
+      "days": "Дни",
+      "budget": "Бюджет",
+      "spring": "Пролет",
+      "summer": "Лято",
+      "autumn": "Есен",
+      "winter": "Зима",
+      "nights": {
+        "one": "${n} нощ",
+        "other": "${n} нощи"
+      },
+      "stars": {
+        "one": "${n} звезда",
+        "other": "${n} звезди"
+      },
+      "use_this_template": "Използвай шаблона",
+      "by": "от"
+    }
   },
   "feed": {
     "for_you_card": {

@@ -249,7 +249,32 @@
       "min_days": "最少花费天数",
       "for_your_dates": "为了您的日期"
     },
-    "show_videos_of": "向我展示${destination}的视频"
+    "show_videos_of": "向我展示${destination}的视频",
+    "trip_card": {
+      "plan_trip": "规划行程",
+      "help_me_plan": "帮我规划一次这样的旅行",
+      "planning_failed": "无法开始规划。请重试。",
+      "highlight_activities": "精选活动",
+      "stays": "住宿",
+      "category": "类别",
+      "season": "季节",
+      "days": "天数",
+      "budget": "预算",
+      "spring": "春季",
+      "summer": "夏季",
+      "autumn": "秋季",
+      "winter": "冬季",
+      "nights": {
+        "one": "${n} 晚",
+        "other": "${n} 晚"
+      },
+      "stars": {
+        "one": "${n} 星",
+        "other": "${n} 星"
+      },
+      "use_this_template": "使用此模板",
+      "by": "来自"
+    }
   },
   "feed": {
     "for_you_card": {

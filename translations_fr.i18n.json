@@ -251,7 +251,32 @@
       "min_days": "Min jours à passer",
       "for_your_dates": "Pour vos dates"
     },
-    "show_videos_of": "Montrez-moi des vidéos de ${destination}"
+    "show_videos_of": "Montrez-moi des vidéos de ${destination}",
+    "trip_card": {
+      "plan_trip": "Planifier un voyage",
+      "help_me_plan": "Aide-moi à planifier un voyage comme celui-ci",
+      "planning_failed": "Impossible de démarrer la planification. Veuillez réessayer.",
+      "highlight_activities": "Activités phares",
+      "stays": "Séjours",
+      "category": "Catégorie",
+      "season": "Saison",
+      "days": "Jours",
+      "budget": "Budget",
+      "spring": "Printemps",
+      "summer": "Été",
+      "autumn": "Automne",
+      "winter": "Hiver",
+      "nights": {
+        "one": "${n} Nuit",
+        "other": "${n} Nuits"
+      },
+      "stars": {
+        "one": "${n} Étoile",
+        "other": "${n} Étoiles"
+      },
+      "use_this_template": "Utiliser ce modèle",
+      "by": "par"
+    }
   },
   "feed": {
     "for_you_card": {

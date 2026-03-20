@@ -255,7 +255,32 @@
       "min_days": "Мин дней на трату",
       "for_your_dates": "Для твоих дат"
     },
-    "show_videos_of": "Покажите мне видео о ${destination}"
+    "show_videos_of": "Покажите мне видео о ${destination}",
+    "trip_card": {
+      "plan_trip": "Спланировать поездку",
+      "help_me_plan": "Помоги мне спланировать такое путешествие",
+      "planning_failed": "Не удалось начать планирование. Пожалуйста, попробуйте ещё раз.",
+      "highlight_activities": "Лучшие активности",
+      "stays": "Проживание",
+      "category": "Категория",
+      "season": "Сезон",
+      "days": "Дни",
+      "budget": "Бюджет",
+      "spring": "Весна",
+      "summer": "Лето",
+      "autumn": "Осень",
+      "winter": "Зима",
+      "nights": {
+        "one": "${n} ночь",
+        "other": "${n} ночей"
+      },
+      "stars": {
+        "one": "${n} звезда",
+        "other": "${n} звёзд"
+      },
+      "use_this_template": "Использовать шаблон",
+      "by": "от"
+    }
   },
   "feed": {
     "for_you_card": {
