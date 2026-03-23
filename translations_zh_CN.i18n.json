@@ -1451,7 +1451,14 @@
     "startNow": "立即开始",
     "dayTrial": "${days}天试用",
     "savePercent": "节省${percent}%",
-    "zeroForDays": "${days}天仅需${zeroPrice}"
+    "zeroForDays": "${days}天仅需${zeroPrice}",
+    "privacy": "隐私",
+    "terms": "条款",
+    "restore": "恢复购买",
+    "restoring": "正在恢复购买...",
+    "restoreFailed": "未找到有效订阅。",
+    "subscriptionAlreadyLinked": "此订阅已关联到另一个 Layla 账户。请登录该账户以使用，或如需帮助请联系客服。",
+    "subscriptionLinkedToAccount": "此购买将关联到您当前的 Layla 账户。\n恢复的购买将应用于购买时使用的原始 Layla 账户。"
   },
   "data_consent": {
     "title": "数据隐私",

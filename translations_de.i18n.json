@@ -1482,7 +1482,14 @@
     "startNow": "Jetzt starten",
     "dayTrial": "${days}-Tage-Testversion",
     "savePercent": "${percent}% sparen",
-    "zeroForDays": "${zeroPrice} für ${days} Tage"
+    "zeroForDays": "${zeroPrice} für ${days} Tage",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "restore": "Wiederherstellen",
+    "restoring": "Kauf wird wiederhergestellt...",
+    "restoreFailed": "Kein aktives Abonnement gefunden.",
+    "subscriptionAlreadyLinked": "Dieses Abonnement ist mit einem anderen Layla-Konto verknüpft. Melde dich bei diesem Konto an, um es zu nutzen, oder kontaktiere den Support, wenn du Hilfe benötigst.",
+    "subscriptionLinkedToAccount": "Dieser Kauf wird mit deinem aktuellen Layla-Konto verknüpft.\nWiederhergestellte Käufe werden auf das ursprüngliche Layla-Konto angewendet, das beim Kauf verwendet wurde."
   },
   "data_consent": {
     "title": "Datenschutz",

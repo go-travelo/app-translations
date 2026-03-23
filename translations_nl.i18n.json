@@ -1482,7 +1482,14 @@
     "startNow": "Nu beginnen",
     "dayTrial": "${days} dagen proefperiode",
     "savePercent": "Bespaar ${percent}%",
-    "zeroForDays": "${zeroPrice} voor ${days} dagen"
+    "zeroForDays": "${zeroPrice} voor ${days} dagen",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "restore": "Herstellen",
+    "restoring": "Aankoop herstellen...",
+    "restoreFailed": "Geen actief abonnement gevonden.",
+    "subscriptionAlreadyLinked": "Dit abonnement is gekoppeld aan een ander Layla-account. Log in op dat account om het te gebruiken, of neem contact op met ondersteuning als je hulp nodig hebt.",
+    "subscriptionLinkedToAccount": "Deze aankoop wordt gekoppeld aan je huidige Layla-account.\nHerstelde aankopen worden toegepast op het originele Layla-account dat bij de aankoop is gebruikt."
   },
   "data_consent": {
     "title": "Gegevensprivacy",

@@ -1606,7 +1606,14 @@
     "startNow": "ابدأ الآن",
     "dayTrial": "تجربة ${days} أيام",
     "savePercent": "وفّر ${percent}%",
-    "zeroForDays": "${zeroPrice} لمدة ${days} أيام"
+    "zeroForDays": "${zeroPrice} لمدة ${days} أيام",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "restore": "استعادة",
+    "restoring": "جارٍ استعادة الشراء...",
+    "restoreFailed": "لم يتم العثور على اشتراك نشط.",
+    "subscriptionAlreadyLinked": "هذا الاشتراك مرتبط بحساب Layla آخر. سجّل الدخول إلى ذلك الحساب لاستخدامه، أو تواصل مع الدعم إذا كنت بحاجة إلى مساعدة.",
+    "subscriptionLinkedToAccount": "سيتم ربط هذا الشراء بحساب Layla الحالي.\nتُطبَّق المشتريات المستعادة على حساب Layla الأصلي المستخدم عند الشراء."
   },
   "data_consent": {
     "title": "خصوصية البيانات",

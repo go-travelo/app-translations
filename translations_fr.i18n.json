@@ -1482,7 +1482,14 @@
     "startNow": "Commencer maintenant",
     "dayTrial": "Essai de ${days} jours",
     "savePercent": "Économisez ${percent}%",
-    "zeroForDays": "${zeroPrice} pendant ${days} jours"
+    "zeroForDays": "${zeroPrice} pendant ${days} jours",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "restore": "Restaurer",
+    "restoring": "Restauration de l'achat...",
+    "restoreFailed": "Aucun abonnement actif trouvé.",
+    "subscriptionAlreadyLinked": "Cet abonnement est lié à un autre compte Layla. Connectez-vous à ce compte pour l'utiliser, ou contactez le support si vous avez besoin d'aide.",
+    "subscriptionLinkedToAccount": "Cet achat sera lié à votre compte Layla actuel.\nLes achats restaurés sont appliqués au compte Layla d'origine utilisé lors de l'achat."
   },
   "data_consent": {
     "title": "Confidentialité des données",

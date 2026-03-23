@@ -1521,7 +1521,14 @@
     "startNow": "Start now",
     "dayTrial": "${days} Day Trial",
     "savePercent": "Save ${percent}%",
-    "zeroForDays": "${zeroPrice} for ${days} days"
+    "zeroForDays": "${zeroPrice} for ${days} days",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "restore": "Restore",
+    "restoring": "Restoring purchase...",
+    "restoreFailed": "No active subscription found.",
+    "subscriptionAlreadyLinked": "This subscription is linked to another Layla account. Sign into that account to use it, or contact support if you need help.",
+    "subscriptionLinkedToAccount": "This purchase will be linked to your current Layla account.\nRestored purchases are applied to the original Layla account used at purchase."
   },
   "data_consent": {
     "title": "Data Privacy",
