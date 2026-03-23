@@ -1563,5 +1563,13 @@
     "confirm_maybe_video": "Möchtest du dieses Video wirklich als \"Vielleicht\" markieren?",
     "confirm_remove_category": "Möchtest du die Kategorie \"${category}\" wirklich von diesem Video entfernen?",
     "video_copied": "Video-ID: ${videoId} wurde erfolgreich kopiert"
+  },
+  "minutes": {
+    "one": "${n} Minute",
+    "other": "${n} Minuten"
+  },
+  "hours": {
+    "one": "${n} Stunde",
+    "other": "${n} Stunden"
   }
 }

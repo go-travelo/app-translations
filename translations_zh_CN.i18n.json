@@ -1532,5 +1532,11 @@
     "confirm_maybe_video": "您确定要将此视频标记为也许吗？",
     "confirm_remove_category": "您确定要从此视频中删除类别\"${category}\"吗？",
     "video_copied": "视频ID: ${videoId} 已成功复制"
+  },
+  "minutes": {
+    "other": "${n}分钟"
+  },
+  "hours": {
+    "other": "${n}小时"
   }
 }

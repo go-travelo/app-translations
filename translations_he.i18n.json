@@ -1625,5 +1625,13 @@
     "confirm_maybe_video": "האם אתה בטוח שברצונך לסמן סרטון זה כאולי?",
     "confirm_remove_category": "האם אתה בטוח שברצונך להסיר את הקטגוריה \"${category}\" מסרטון זה?",
     "video_copied": "מזהה הסרטון: ${videoId} הועתק בהצלחה"
+  },
+  "minutes": {
+    "one": "${n} דקה",
+    "other": "${n} דקות"
+  },
+  "hours": {
+    "one": "${n} שעה",
+    "other": "${n} שעות"
   }
 }

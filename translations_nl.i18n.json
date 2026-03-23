@@ -1563,5 +1563,13 @@
     "confirm_maybe_video": "Weet je zeker dat je deze video als misschien wilt markeren?",
     "confirm_remove_category": "Weet je zeker dat je de categorie \"${category}\" van deze video wilt verwijderen?",
     "video_copied": "Video-ID: ${videoId} succesvol gekopieerd"
+  },
+  "minutes": {
+    "one": "${n} minuut",
+    "other": "${n} minuten"
+  },
+  "hours": {
+    "one": "${n} uur",
+    "other": "${n} uur"
   }
 }
