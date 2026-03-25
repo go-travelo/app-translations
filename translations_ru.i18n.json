@@ -1402,7 +1402,8 @@
       "transportFlight": "Рейс",
       "transportTrain": "Поезд",
       "transportRental": "Аренда"
-    }
+    },
+    "timeline": "Хронология"
   },
   "tripWord": "Поездка",
   "unknown_error": "Неизвестная ошибка",
