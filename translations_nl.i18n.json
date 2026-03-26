@@ -1354,7 +1354,8 @@
       "transportFlight": "Vlucht",
       "transportTrain": "Trein",
       "transportRental": "Huurwagen"
-    }
+    },
+    "timeline": "Tijdlijn"
   },
   "tripWord": "Reis",
   "unknown_error": "Onbekende fout",

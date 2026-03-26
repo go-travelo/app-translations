@@ -1402,7 +1402,8 @@
       "transportFlight": "טיסה",
       "transportTrain": "רכבת",
       "transportRental": "השכרה"
-    }
+    },
+    "timeline": "ציר זמן"
   },
   "tripWord": "טיול",
   "unknown_error": "שגיאה לא ידועה",

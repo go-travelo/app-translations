@@ -1330,7 +1330,8 @@
       "transportFlight": "航班",
       "transportTrain": "火车",
       "transportRental": "租车"
-    }
+    },
+    "timeline": "时间线"
   },
   "tripWord": "旅行",
   "unknown_error": "未知错误",

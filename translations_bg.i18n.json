@@ -1354,7 +1354,8 @@
       "transportFlight": "Полет",
       "transportTrain": "Влак",
       "transportRental": "Наем"
-    }
+    },
+    "timeline": "Хронология"
   },
   "tripWord": "Пътуване",
   "unknown_error": "Неизвестна грешка",

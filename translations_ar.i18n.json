@@ -1450,7 +1450,8 @@
       "transportFlight": "رحلة جوية",
       "transportTrain": "قطار",
       "transportRental": "إيجار"
-    }
+    },
+    "timeline": "الجدول الزمني"
   },
   "tripWord": "رحلة",
   "unknown_error": "خطأ غير معروف",

@@ -1354,7 +1354,8 @@
       "transportFlight": "Voo",
       "transportTrain": "Trem",
       "transportRental": "Aluguel"
-    }
+    },
+    "timeline": "Linha do tempo"
   },
   "tripWord": "Viagem",
   "unknown_error": "Erro desconhecido",

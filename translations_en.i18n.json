@@ -933,6 +933,7 @@
   "travelers": "Travelers",
   "trip": {
     "title": "Trip",
+    "timeline": "Timeline",
     "header": {
       "daysLabel": "${count} Days",
       "chooseDate": "Choose Date",
