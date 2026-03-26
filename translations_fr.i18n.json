@@ -1409,9 +1409,15 @@
   "internet_offline": "La connexion Internet semble être hors ligne. Veuillez réessayer.",
   "location_denied": {
     "message": "Cela peut être dû au fait que les services de localisation ne sont pas activés. Pour l’activer, accédez à Paramètres > Confidentialité > Services de localisation",
-    "message_permissions": "Cela peut être dû au fait que les autorisations de localisation ne sont pas activées pour cette application. Pour les activer, accédez à Paramètres > Applications > Layya > Localisation",
+    "message_permissions": "Cela peut être dû au fait que les autorisations de localisation ne sont pas activées pour cette application. Pour les activer, accédez à Paramètres > Applications > Layla > Localisation",
     "open_settings": "Ouvrir les paramètres",
     "title": "L'emplacement actuel n'est pas disponible"
+  },
+  "notifications_denied": {
+    "message": "Cela peut être dû au fait que les notifications ne sont pas activées. Pour les activer, accédez à Paramètres > Confidentialité > Notifications",
+    "message_permissions": "Cela peut être dû au fait que les autorisations de notifications ne sont pas activées pour cette application. Pour les activer, accédez à Paramètres > Applications > Layla > Notifications",
+    "open_settings": "Ouvrir les paramètres",
+    "title": "Les notifications ne sont pas disponibles"
   },
   "ok": "OK",
   "permissions_dialog": {

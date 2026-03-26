@@ -1409,9 +1409,15 @@
   "internet_offline": "A ligação à Internet parece estar offline. Por favor, tente novamente.",
   "location_denied": {
     "message": "Pode ser que você não tenha os serviços de localização ativados. Para ativá-los, vá para Definições > Privacidade > Serviços de Localização",
-    "message_permissions": "Pode ser que você não tenha as permissões de localização ativadas para esta app. Para ativá-las, vá para Definições > Apps > Layya > Localização",
+    "message_permissions": "Pode ser que você não tenha as permissões de localização ativadas para esta app. Para ativá-las, vá para Definições > Apps > Layla > Localização",
     "open_settings": "Abrir definições",
     "title": "A localização atual não está disponível"
+  },
+  "notifications_denied": {
+    "message": "Pode ser que você não tenha as notificações ativadas. Para ativá-las, vá para Definições > Privacidade > Notificações",
+    "message_permissions": "Pode ser que você não tenha as permissões de notificações ativadas para esta app. Para ativá-las, vá para Definições > Apps > Layla > Notificações",
+    "open_settings": "Abrir definições",
+    "title": "As notificações não estão disponíveis"
   },
   "ok": "OK",
   "permissions_dialog": {

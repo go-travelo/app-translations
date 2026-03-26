@@ -1378,9 +1378,15 @@
   "internet_offline": "Internet 连接似乎处于脱机状态。请再试一次。",
   "location_denied": {
     "message": "这可能是因为您没有启用定位服务。要启用此功能，请访问设置> 隐私> 定位服务",
-    "message_permissions": "这可能是因为您没有为此应用启用位置权限。要启用此功能，请访问设置 > 应用 > Layya > 位置",
+    "message_permissions": "这可能是因为您没有为此应用启用位置权限。要启用此功能，请访问设置 > 应用 > Layla > 位置",
     "open_settings": "打开设置",
     "title": "当前位置不可用"
+  },
+  "notifications_denied": {
+    "message": "这可能是因为您没有启用通知。要启用此功能，请访问设置 > 隐私 > 通知",
+    "message_permissions": "这可能是因为您没有为此应用启用通知权限。要启用此功能，请访问设置 > 应用 > Layla > 通知",
+    "open_settings": "打开设置",
+    "title": "通知不可用"
   },
   "ok": "好的",
   "permissions_dialog": {
