@@ -1426,6 +1426,7 @@
   "internet_offline": "Internet connection appears to be offline. Please try again.",
   "location_denied": {
     "message": "This may be because you do not have location services enabled. To enable go to Settings > Privacy > Location services",
+    "message_permissions": "This may be because you do not have location permissions enabled for this app. To enable go to Settings > Apps > Layya > Location",
     "open_settings": "Open settings",
     "title": "Current location is unavailable"
   },

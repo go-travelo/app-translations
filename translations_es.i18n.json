@@ -1408,6 +1408,7 @@
   "internet_offline": "La conexión a Internet parece estar desconectada. Inténtalo de nuevo.",
   "location_denied": {
     "message": "Esto puede deberse a que no tienes habilitados los servicios de localización. Para habilitarlos, ve a Ajustes > Privacidad y Seguridad > Localización.",
+    "message_permissions": "Esto puede deberse a que no tienes habilitados los permisos de ubicación para esta app. Para habilitarlos, ve a Ajustes > Apps > Layya > Ubicación",
     "open_settings": "Abrir ajustes",
     "title": "La ubicación actual no está disponible"
   },

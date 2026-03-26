@@ -1408,6 +1408,7 @@
   "internet_offline": "La connessione Internet sembra essere offline. Per favore riprova.",
   "location_denied": {
     "message": "Ciò potrebbe essere causato dal fatto che non hai abilitato i servizi di localizzazione. Per abilitare vai su Impostazioni > Privacy > Servizi di localizzazione",
+    "message_permissions": "Ciò potrebbe essere causato dal fatto che non hai abilitato i permessi di localizzazione per questa app. Per abilitare vai su Impostazioni > App > Layya > Posizione",
     "open_settings": "Apri le impostazioni",
     "title": "La posizione attuale non è disponibile"
   },

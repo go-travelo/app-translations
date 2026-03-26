@@ -1408,6 +1408,7 @@
   "internet_offline": "Die Internetverbindung scheint offline zu sein. Bitte versuche es erneut.",
   "location_denied": {
     "message": "Das könnte daran liegen, dass du die Standortdienste nicht aktiviert hast. Um sie zu aktivieren, gehe zu Einstellungen > Datenschutz > Standortdienste",
+    "message_permissions": "Das könnte daran liegen, dass du die Standortberechtigungen für diese App nicht aktiviert hast. Um sie zu aktivieren, gehe zu Einstellungen > Apps > Layya > Standort",
     "open_settings": "Einstellungen öffnen",
     "title": "Aktueller Standort ist nicht verfügbar"
   },
