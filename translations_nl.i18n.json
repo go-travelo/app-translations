@@ -841,6 +841,7 @@
   "flights": "Vluchten",
   "from": "Van",
   "from_var": "Van ${name}",
+  "go_premium": "Ga naar premium",
   "help": "Help",
   "hotelWord": "Hotel",
   "hotels": "Hotels",

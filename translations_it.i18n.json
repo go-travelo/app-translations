@@ -841,6 +841,7 @@
   "flights": "Voli",
   "from": "Da",
   "from_var": "Da ${name}",
+  "go_premium": "Vai al premium",
   "help": "Aiuto",
   "hotelWord": "Hotel",
   "hotels": "Hotel",

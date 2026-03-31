@@ -820,6 +820,7 @@
   "flights": "航班",
   "from": "从",
   "from_var": "从 ${name}",
+  "go_premium": "升级为高级版",
   "help": "帮助",
   "hotelWord": "酒店",
   "hotels": "酒店",

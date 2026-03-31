@@ -841,6 +841,7 @@
   "flights": "Полети",
   "from": "От",
   "from_var": "От ${name}",
+  "go_premium": "Вземете Премиум",
   "help": "Помощ",
   "hotelWord": "Хотел",
   "hotels": "Хотели",

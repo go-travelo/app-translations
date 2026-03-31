@@ -883,6 +883,7 @@
   "flights": "טיסות",
   "from": "מ",
   "from_var": "מ ${name}",
+  "go_premium": "עבור לפרמיום",
   "help": "עזרה",
   "hotelWord": "מלון",
   "hotels": "מלונות",

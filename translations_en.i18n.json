@@ -855,6 +855,7 @@
   "flights": "Flights",
   "from": "From",
   "from_var": "From ${name}",
+  "go_premium": "Go premium",
   "help": "Help",
   "hotelWord": "Hotel",
   "hotels": "Hotels",
