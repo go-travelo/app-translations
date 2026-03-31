@@ -1343,7 +1343,8 @@
         "stays": "Stays",
         "activities": "Activities",
         "transfers": "Private transfers",
-        "rental": "Rental"
+        "rental": "Rental",
+        "transportation": "Transportation"
       },
       "hotel": {
         "night": {
