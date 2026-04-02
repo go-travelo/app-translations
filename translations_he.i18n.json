@@ -966,6 +966,13 @@
   "travelers": "מטיילים",
   "trip": {
     "title": "טיול",
+    "itemType": {
+      "restaurant": "מסעדה",
+      "place": "מקום",
+      "activity": "פעילות",
+      "attraction": "אטרקציה",
+      "note": "הערה"
+    },
     "header": {
       "daysLabel": "${count} ימים",
       "adultsLabel": "${count} מבוגרים",

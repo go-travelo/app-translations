@@ -918,6 +918,13 @@
   "travelers": "Пътуващи",
   "trip": {
     "title": "Пътуване",
+    "itemType": {
+      "restaurant": "Ресторант",
+      "place": "Място",
+      "activity": "Активност",
+      "attraction": "Забележителност",
+      "note": "Бележка"
+    },
     "header": {
       "daysLabel": "${count} Дни",
       "adultsLabel": "${count} Възрастни",

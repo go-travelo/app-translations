@@ -918,6 +918,13 @@
   "travelers": "Viajantes",
   "trip": {
     "title": "Viagem",
+    "itemType": {
+      "restaurant": "Restaurante",
+      "place": "Local",
+      "activity": "Atividade",
+      "attraction": "Atração",
+      "note": "Nota"
+    },
     "header": {
       "daysLabel": "${count} Dias",
       "adultsLabel": "${count} Adultos",

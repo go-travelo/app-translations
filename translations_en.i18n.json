@@ -935,6 +935,13 @@
   "travelers": "Travelers",
   "trip": {
     "title": "Trip",
+    "itemType": {
+      "restaurant": "Restaurant",
+      "place": "Place",
+      "activity": "Activity",
+      "attraction": "Attraction",
+      "note": "Note"
+    },
     "timeline": "Timeline",
     "header": {
       "daysLabel": "${count} Days",

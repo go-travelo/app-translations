@@ -1014,6 +1014,13 @@
   "travelers": "المسافرون",
   "trip": {
     "title": "رحلة",
+    "itemType": {
+      "restaurant": "مطعم",
+      "place": "مكان",
+      "activity": "نشاط",
+      "attraction": "معلم سياحي",
+      "note": "ملاحظة"
+    },
     "header": {
       "daysLabel": "${count} أيام",
       "adultsLabel": "${count} بالغين",

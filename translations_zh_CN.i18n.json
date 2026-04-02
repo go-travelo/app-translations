@@ -894,6 +894,13 @@
   "travelers": "旅行者",
   "trip": {
     "title": "旅行",
+    "itemType": {
+      "restaurant": "餐厅",
+      "place": "地点",
+      "activity": "活动",
+      "attraction": "景点",
+      "note": "备注"
+    },
     "header": {
       "daysLabel": "${count} 天",
       "adultsLabel": "${count} 成人",

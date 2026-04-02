@@ -918,6 +918,13 @@
   "travelers": "Reizigers",
   "trip": {
     "title": "Reis",
+    "itemType": {
+      "restaurant": "Restaurant",
+      "place": "Locatie",
+      "activity": "Activiteit",
+      "attraction": "Attractie",
+      "note": "Notitie"
+    },
     "header": {
       "daysLabel": "${count} Dagen",
       "adultsLabel": "${count} Volwassenen",

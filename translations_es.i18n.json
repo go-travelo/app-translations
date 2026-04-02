@@ -918,6 +918,13 @@
   "travelers": "Viajeros",
   "trip": {
     "title": "Viaje",
+    "itemType": {
+      "restaurant": "Restaurante",
+      "place": "Lugar",
+      "activity": "Actividad",
+      "attraction": "Atracción",
+      "note": "Nota"
+    },
     "header": {
       "daysLabel": "${count} Días",
       "chooseDate": "Elegir Fecha",

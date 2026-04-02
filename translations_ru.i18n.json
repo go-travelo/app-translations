@@ -966,6 +966,13 @@
   "travelers": "Путешественники",
   "trip": {
     "title": "Поездка",
+    "itemType": {
+      "restaurant": "Ресторан",
+      "place": "Место",
+      "activity": "Активность",
+      "attraction": "Достопримечательность",
+      "note": "Заметка"
+    },
     "header": {
       "daysLabel": "${count} Дней",
       "adultsLabel": "${count} Взрослых",
