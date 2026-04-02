@@ -108,7 +108,8 @@
       "tripCard": {
         "latestTrip": "Latest trip",
         "previousTrip": "Previous trip",
-        "expiredTripTooltip": "This is a previous version. Your latest trip is shown above."
+        "expiredTripTooltip": "This is a previous version. Your latest trip is shown above.",
+        "continueWithHuman": "Continue booking with a Human"
       }
     },
     "trip_empty": {
@@ -1336,6 +1337,7 @@
       "showAllActivities": "Show all activities",
       "showAllTransfers": "Show all transfers",
       "showAllRentals": "Show all rentals",
+      "showAllTransport": "Show all transport",
       "dayLabel": "DAY ${number}",
       "sections": {
         "itinerary": "Itinerary",
@@ -1347,7 +1349,7 @@
         "activities": "Activities",
         "transfers": "Private transfers",
         "rental": "Rental",
-        "transportation": "Transportation"
+        "transport": "Transport"
       },
       "hotel": {
         "night": {

@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "Dernier voyage",
         "previousTrip": "Voyage précédent",
-        "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus."
+        "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus.",
+        "continueWithHuman": "Continuer la réservation avec un conseiller"
       },
       "possibleNextSteps": "Prochaines étapes possibles"
     },
@@ -1317,6 +1318,7 @@
       "showAllActivities": "Afficher toutes les activités",
       "showAllTransfers": "Afficher tous les transferts",
       "showAllRentals": "Afficher toutes les locations",
+      "showAllTransport": "Afficher tous les transports",
       "dayLabel": "JOUR ${number}",
       "sections": {
         "itinerary": "Itinéraire",
@@ -1327,7 +1329,9 @@
         "stays": "Séjours",
         "activities": "Activités",
         "transfers": "Transferts privés",
-        "rental": "Location"
+        "rental": "Location",
+        "otherTransport": "Autres transports",
+        "transport": "Transport"
       },
       "hotel": {
         "night": {

@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "最新行程",
         "previousTrip": "历史行程",
-        "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。"
+        "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。",
+        "continueWithHuman": "与人工客服继续预订"
       },
       "possibleNextSteps": "可能的下一步"
     },
@@ -1293,6 +1294,7 @@
       "showAllActivities": "查看所有活动",
       "showAllTransfers": "查看所有接送",
       "showAllRentals": "查看所有租车",
+      "showAllTransport": "查看所有交通",
       "dayLabel": "第 ${number} 天",
       "sections": {
         "itinerary": "行程",
@@ -1303,7 +1305,9 @@
         "stays": "住宿",
         "activities": "活动",
         "transfers": "专属接送",
-        "rental": "租车"
+        "rental": "租车",
+        "otherTransport": "其他交通",
+        "transport": "交通"
       },
       "hotel": {
         "night": {

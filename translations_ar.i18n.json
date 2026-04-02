@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "أحدث رحلة",
         "previousTrip": "رحلة سابقة",
-        "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه."
+        "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه.",
+        "continueWithHuman": "متابعة الحجز مع مستشار"
       },
       "possibleNextSteps": "الخطوات المحتملة التالية"
     },
@@ -1413,6 +1414,7 @@
       "showAllActivities": "عرض جميع الأنشطة",
       "showAllTransfers": "عرض جميع التنقلات",
       "showAllRentals": "عرض جميع الإيجارات",
+      "showAllTransport": "عرض جميع وسائل النقل",
       "dayLabel": "اليوم ${number}",
       "sections": {
         "itinerary": "خط السير",
@@ -1423,7 +1425,9 @@
         "stays": "الإقامات",
         "activities": "الأنشطة",
         "transfers": "التنقلات الخاصة",
-        "rental": "الإيجار"
+        "rental": "الإيجار",
+        "otherTransport": "وسائل النقل الأخرى",
+        "transport": "النقل"
       },
       "hotel": {
         "night": {

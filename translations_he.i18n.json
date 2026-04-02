@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "הטיול האחרון",
         "previousTrip": "טיול קודם",
-        "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה."
+        "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה.",
+        "continueWithHuman": "המשך הזמנה עם נציג אנושי"
       },
       "possibleNextSteps": "צעדים אפשריים הבאים"
     },
@@ -1365,6 +1366,7 @@
       "showAllActivities": "הצג את כל הפעילויות",
       "showAllTransfers": "הצג את כל ההסעות",
       "showAllRentals": "הצג את כל השכירויות",
+      "showAllTransport": "הצג את כל התחבורה",
       "dayLabel": "יום ${number}",
       "sections": {
         "itinerary": "מסלול",
@@ -1375,7 +1377,9 @@
         "stays": "שהות",
         "activities": "פעילויות",
         "transfers": "הסעות פרטיות",
-        "rental": "השכרה"
+        "rental": "השכרה",
+        "otherTransport": "תחבורה אחרת",
+        "transport": "תחבורה"
       },
       "hotel": {
         "night": {

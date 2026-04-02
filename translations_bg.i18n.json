@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "Последно пътуване",
         "previousTrip": "Предишно пътуване",
-        "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе."
+        "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе.",
+        "continueWithHuman": "Продължете резервацията с агент"
       },
       "possibleNextSteps": "Възможни следващи стъпки"
     },
@@ -1317,6 +1318,7 @@
       "showAllActivities": "Покажи всички дейности",
       "showAllTransfers": "Покажи всички трансфери",
       "showAllRentals": "Покажи всички наеми",
+      "showAllTransport": "Покажи целия транспорт",
       "dayLabel": "ДЕН ${number}",
       "sections": {
         "itinerary": "Маршрут",
@@ -1327,7 +1329,9 @@
         "stays": "Престои",
         "activities": "Дейности",
         "transfers": "Частни трансфери",
-        "rental": "Наем"
+        "rental": "Наем",
+        "otherTransport": "Друг транспорт",
+        "transport": "Транспорт"
       },
       "hotel": {
         "night": {

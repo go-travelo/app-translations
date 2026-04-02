@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "Neueste Reise",
         "previousTrip": "Frühere Reise",
-        "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt."
+        "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt.",
+        "continueWithHuman": "Buchung mit einem Menschen fortsetzen"
       },
       "possibleNextSteps": "Mögliche nächste Schritte"
     },
@@ -1317,6 +1318,7 @@
       "showAllActivities": "Alle Aktivitäten anzeigen",
       "showAllTransfers": "Alle Transfers anzeigen",
       "showAllRentals": "Alle Mietwagen anzeigen",
+      "showAllTransport": "Alle Transportmittel anzeigen",
       "dayLabel": "TAG ${number}",
       "sections": {
         "itinerary": "Reiseplan",
@@ -1327,7 +1329,9 @@
         "stays": "Aufenthalte",
         "activities": "Aktivitäten",
         "transfers": "Private Transfers",
-        "rental": "Mietwagen"
+        "rental": "Mietwagen",
+        "otherTransport": "Andere Transportmittel",
+        "transport": "Transport"
       },
       "hotel": {
         "night": {

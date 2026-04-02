@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "Последняя поездка",
         "previousTrip": "Предыдущая поездка",
-        "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше."
+        "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше.",
+        "continueWithHuman": "Продолжить бронирование с агентом"
       },
       "possibleNextSteps": "Возможные следующие шаги"
     },
@@ -1365,6 +1366,7 @@
       "showAllActivities": "Показать все активности",
       "showAllTransfers": "Показать все трансферы",
       "showAllRentals": "Показать все аренды",
+      "showAllTransport": "Показать весь транспорт",
       "dayLabel": "ДЕНЬ ${number}",
       "sections": {
         "itinerary": "Маршрут",
@@ -1375,7 +1377,9 @@
         "stays": "Проживание",
         "activities": "Активности",
         "transfers": "Частные трансферы",
-        "rental": "Аренда"
+        "rental": "Аренда",
+        "otherTransport": "Другой транспорт",
+        "transport": "Транспорт"
       },
       "hotel": {
         "night": {

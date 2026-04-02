@@ -107,7 +107,8 @@
       "tripCard": {
         "latestTrip": "Laatste reis",
         "previousTrip": "Vorige reis",
-        "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven."
+        "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven.",
+        "continueWithHuman": "Doorgaan met boeken via een medewerker"
       },
       "possibleNextSteps": "Mogelijke volgende stappen"
     },
@@ -1317,6 +1318,7 @@
       "showAllActivities": "Alle activiteiten tonen",
       "showAllTransfers": "Alle transfers tonen",
       "showAllRentals": "Alle huurwagens tonen",
+      "showAllTransport": "Alle transport tonen",
       "dayLabel": "DAG ${number}",
       "sections": {
         "itinerary": "Reisschema",
@@ -1327,7 +1329,9 @@
         "stays": "Verblijven",
         "activities": "Activiteiten",
         "transfers": "Privétransfers",
-        "rental": "Huurwagen"
+        "rental": "Huurwagen",
+        "otherTransport": "Ander transport",
+        "transport": "Transport"
       },
       "hotel": {
         "night": {
