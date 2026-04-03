@@ -1325,7 +1325,6 @@
       "showAllActivities": "Alle Aktivitäten anzeigen",
       "showAllTransfers": "Alle Transfers anzeigen",
       "showAllRentals": "Alle Mietwagen anzeigen",
-      "showAllTransport": "Alle Transportmittel anzeigen",
       "dayLabel": "TAG ${number}",
       "sections": {
         "itinerary": "Reiseplan",

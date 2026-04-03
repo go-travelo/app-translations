@@ -1421,7 +1421,6 @@
       "showAllActivities": "عرض جميع الأنشطة",
       "showAllTransfers": "عرض جميع التنقلات",
       "showAllRentals": "عرض جميع الإيجارات",
-      "showAllTransport": "عرض جميع وسائل النقل",
       "dayLabel": "اليوم ${number}",
       "sections": {
         "itinerary": "خط السير",

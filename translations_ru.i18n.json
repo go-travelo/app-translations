@@ -1373,7 +1373,6 @@
       "showAllActivities": "Показать все активности",
       "showAllTransfers": "Показать все трансферы",
       "showAllRentals": "Показать все аренды",
-      "showAllTransport": "Показать весь транспорт",
       "dayLabel": "ДЕНЬ ${number}",
       "sections": {
         "itinerary": "Маршрут",

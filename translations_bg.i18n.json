@@ -1325,7 +1325,6 @@
       "showAllActivities": "Покажи всички дейности",
       "showAllTransfers": "Покажи всички трансфери",
       "showAllRentals": "Покажи всички наеми",
-      "showAllTransport": "Покажи целия транспорт",
       "dayLabel": "ДЕН ${number}",
       "sections": {
         "itinerary": "Маршрут",

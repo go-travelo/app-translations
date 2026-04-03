@@ -1325,7 +1325,6 @@
       "showAllActivities": "Alle activiteiten tonen",
       "showAllTransfers": "Alle transfers tonen",
       "showAllRentals": "Alle huurwagens tonen",
-      "showAllTransport": "Alle transport tonen",
       "dayLabel": "DAG ${number}",
       "sections": {
         "itinerary": "Reisschema",

@@ -1325,7 +1325,6 @@
       "showAllActivities": "Ver todas las actividades",
       "showAllTransfers": "Ver todos los traslados",
       "showAllRentals": "Ver todos los alquileres",
-      "showAllTransport": "Ver todos los transportes",
       "dayLabel": "DÍA ${number}",
       "sections": {
         "itinerary": "Itinerario",

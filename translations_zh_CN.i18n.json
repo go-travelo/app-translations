@@ -1301,7 +1301,6 @@
       "showAllActivities": "查看所有活动",
       "showAllTransfers": "查看所有接送",
       "showAllRentals": "查看所有租车",
-      "showAllTransport": "查看所有交通",
       "dayLabel": "第 ${number} 天",
       "sections": {
         "itinerary": "行程",

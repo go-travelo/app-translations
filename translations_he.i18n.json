@@ -1373,7 +1373,6 @@
       "showAllActivities": "הצג את כל הפעילויות",
       "showAllTransfers": "הצג את כל ההסעות",
       "showAllRentals": "הצג את כל השכירויות",
-      "showAllTransport": "הצג את כל התחבורה",
       "dayLabel": "יום ${number}",
       "sections": {
         "itinerary": "מסלול",

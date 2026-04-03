@@ -1325,7 +1325,6 @@
       "showAllActivities": "Ver todas as atividades",
       "showAllTransfers": "Ver todas as transferências",
       "showAllRentals": "Ver todos os aluguéis",
-      "showAllTransport": "Ver todos os transportes",
       "dayLabel": "DIA ${number}",
       "sections": {
         "itinerary": "Itinerário",

@@ -1344,7 +1344,6 @@
       "showAllActivities": "Show all activities",
       "showAllTransfers": "Show all transfers",
       "showAllRentals": "Show all rentals",
-      "showAllTransport": "Show all transport",
       "dayLabel": "DAY ${number}",
       "sections": {
         "itinerary": "Itinerary",
