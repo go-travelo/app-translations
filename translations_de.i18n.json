@@ -1123,7 +1123,11 @@
         "failedSearch": "Hotelsuche fehlgeschlagen. Bitte versuchen Sie es erneut.",
         "failedAdd": "Hotel konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
         "confirmReplaceHotelTitle": "Hotel ersetzen?",
-        "confirmReplaceHotelMessage": "Möchten Sie das aktuelle Hotel wirklich durch das ausgewählte ersetzen?"
+        "confirmReplaceHotelMessage": "Möchten Sie das aktuelle Hotel wirklich durch das ausgewählte ersetzen?",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "sortBy": "Sortieren nach",
+        "apply": "Anwenden"
       },
       "transport": {
         "selectFlight": "Flug Auswählen",
@@ -1513,6 +1517,28 @@
     "subscriptionAlreadyLinked": "Dieses Abonnement ist mit einem anderen Layla-Konto verknüpft. Melde dich bei diesem Konto an, um es zu nutzen, oder kontaktiere den Support, wenn du Hilfe benötigst.",
     "subscriptionLinkedToAccount": "Dieser Kauf wird mit deinem aktuellen Layla-Konto verknüpft.\nWiederhergestellte Käufe werden auf das ursprüngliche Layla-Konto angewendet, das beim Kauf verwendet wurde."
   },
+  "tripBook": {
+    "accommodations": "Unterkünfte",
+    "flights": "Flüge",
+    "privateTransport": "Privattransport",
+    "experiences": "Erlebnisse",
+    "saveOnBooking": "Spare ${amount} im Vergleich zur Einzelbuchung",
+    "laylaBringsDeals": "Layla bringt Ihnen die besten Angebote.",
+    "title": "Reise buchen",
+    "book": "Buchen",
+    "delete": "Löschen",
+    "alternative": "Alternative",
+    "expertsTitle": "Diese Reise mit unseren Experten buchen",
+    "benefit1Title": "32+ Stunden Planung gespart",
+    "benefit1Description": "Lehnen Sie sich zurück — unsere Experten kümmern sich um jedes Detail für Sie.",
+    "benefit2Title": "${n}+ Einzelbuchungen erledigt",
+    "benefit2Description": "Hotels, Flüge, Aktivitäten — wir koordinieren alles für Ihre Traumreise.",
+    "benefit3Title": "${n}+ Transfers nahtlos organisiert",
+    "benefit3Description": "Von Station zu Station — wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
+    "continueWithHuman": "Buchung mit einem Menschen fortsetzen",
+    "continueWithBooking": "Mit der Buchung fortfahren",
+    "bookWithHuman": "Mit einem Menschen buchen"
+  },
   "data_consent": {
     "title": "Datenschutz",
     "allow": "Erlauben",
@@ -1563,7 +1589,8 @@
     "benefit3_title": "${n}+ Transfers nahtlos organisiert",
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
     "continue_with_human": "Weiter mit einem Reiseberater buchen",
-    "continue_with_booking": "Weiter zur Buchung"
+    "continue_with_booking": "Weiter zur Buchung",
+    "book_with_human": "Mit einem Menschen buchen"
   },
   "create_screen": {
     "greetingWithName": "Hallo ${name},\nwas möchtest du\nerleben?",

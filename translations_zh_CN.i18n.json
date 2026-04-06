@@ -1099,7 +1099,11 @@
         "failedSearch": "无法搜索酒店。请重试。",
         "failedAdd": "无法添加酒店。请重试。",
         "confirmReplaceHotelTitle": "替换酒店？",
-        "confirmReplaceHotelMessage": "您确定要用所选酒店替换当前酒店吗？"
+        "confirmReplaceHotelMessage": "您确定要用所选酒店替换当前酒店吗？",
+        "checkIn": "入住",
+        "checkOut": "退房",
+        "sortBy": "排序方式",
+        "apply": "应用"
       },
       "transport": {
         "selectFlight": "选择航班",
@@ -1482,6 +1486,28 @@
     "subscriptionAlreadyLinked": "此订阅已关联到另一个 Layla 账户。请登录该账户以使用，或如需帮助请联系客服。",
     "subscriptionLinkedToAccount": "此购买将关联到您当前的 Layla 账户。\n恢复的购买将应用于购买时使用的原始 Layla 账户。"
   },
+  "tripBook": {
+    "accommodations": "住宿",
+    "flights": "航班",
+    "privateTransport": "私人交通",
+    "experiences": "体验",
+    "saveOnBooking": "与单独预订相比节省 ${amount}",
+    "laylaBringsDeals": "Layla 为您带来最优惠的价格。",
+    "title": "预订行程",
+    "book": "预订",
+    "delete": "删除",
+    "alternative": "替代方案",
+    "expertsTitle": "与我们的专家预订此行程",
+    "benefit1Title": "节省了 32+ 小时的规划时间",
+    "benefit1Description": "放松一下 — 我们的专家为您处理每个细节。",
+    "benefit2Title": "${n}+ 个单独预订已处理",
+    "benefit2Description": "酒店、航班、活动 — 我们为您的梦想之旅统筹安排一切。",
+    "benefit3Title": "${n}+ 次接送已无缝安排",
+    "benefit3Description": "从一站到另一站 — 我们确保您路线上的换乘完美衔接。",
+    "continueWithHuman": "与人工客服继续预订",
+    "continueWithBooking": "继续预订",
+    "bookWithHuman": "与人工客服预订"
+  },
   "data_consent": {
     "title": "数据隐私",
     "allow": "允许",
@@ -1532,7 +1558,8 @@
     "benefit3_title": "${n}+次接送无缝安排",
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
     "continue_with_human": "继续与人工顾问预订",
-    "continue_with_booking": "继续预订"
+    "continue_with_booking": "继续预订",
+    "book_with_human": "与人工客服预订"
   },
   "create_screen": {
     "greetingWithName": "你好 ${name}，\n你想要\n体验什么？",

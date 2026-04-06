@@ -1123,7 +1123,11 @@
         "failedSearch": "No se pudo buscar hoteles. Por favor, inténtalo de nuevo.",
         "failedAdd": "No se pudo agregar el hotel. Por favor, inténtalo de nuevo.",
         "confirmReplaceHotelTitle": "¿Reemplazar hotel?",
-        "confirmReplaceHotelMessage": "¿Estás seguro de que quieres reemplazar el hotel actual por el seleccionado?"
+        "confirmReplaceHotelMessage": "¿Estás seguro de que quieres reemplazar el hotel actual por el seleccionado?",
+        "checkIn": "Llegada",
+        "checkOut": "Salida",
+        "sortBy": "Ordenar por",
+        "apply": "Aplicar"
       },
       "transport": {
         "selectFlight": "Seleccionar Vuelo",
@@ -1513,6 +1517,28 @@
     "subscriptionAlreadyLinked": "Esta suscripción está vinculada a otra cuenta de Layla. Inicia sesión en esa cuenta para usarla, o contacta con soporte si necesitas ayuda.",
     "subscriptionLinkedToAccount": "Esta compra se vinculará a tu cuenta actual de Layla.\nLas compras restauradas se aplican a la cuenta original de Layla utilizada en el momento de la compra."
   },
+  "tripBook": {
+    "accommodations": "Alojamientos",
+    "flights": "Vuelos",
+    "privateTransport": "Transporte privado",
+    "experiences": "Experiencias",
+    "saveOnBooking": "Ahorra ${amount} en comparación con reservar por separado",
+    "laylaBringsDeals": "Layla te trae las mejores ofertas.",
+    "title": "Reservar viaje",
+    "book": "Reservar",
+    "delete": "Eliminar",
+    "alternative": "Alternativa",
+    "expertsTitle": "Reserva este viaje con nuestros expertos",
+    "benefit1Title": "32+ horas de planificación ahorradas",
+    "benefit1Description": "Relájate — nuestros expertos se encargan de cada detalle por ti.",
+    "benefit2Title": "${n}+ reservas individuales gestionadas",
+    "benefit2Description": "Hoteles, vuelos, actividades — coordinamos todo para tu viaje soñado.",
+    "benefit3Title": "${n}+ traslados organizados sin problemas",
+    "benefit3Description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
+    "continueWithHuman": "Continuar reserva con un agente",
+    "continueWithBooking": "Continuar con la reserva",
+    "bookWithHuman": "Reservar con un agente"
+  },
   "data_consent": {
     "title": "Privacidad de datos",
     "allow": "Permitir",
@@ -1563,7 +1589,8 @@
     "benefit3_title": "${n}+ traslados organizados sin problemas",
     "benefit3_description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
     "continue_with_human": "Continuar la reserva con un asesor",
-    "continue_with_booking": "Continuar con la reserva"
+    "continue_with_booking": "Continuar con la reserva",
+    "book_with_human": "Reservar con un agente"
   },
   "create_screen": {
     "greetingWithName": "Hola ${name},\n¿qué quieres\nexperimentar?",
