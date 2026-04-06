@@ -1219,7 +1219,11 @@
         "failedSearch": "فشل البحث عن الفنادق. يرجى المحاولة مرة أخرى.",
         "failedAdd": "فشل إضافة الفندق. يرجى المحاولة مرة أخرى.",
         "confirmReplaceHotelTitle": "استبدال الفندق؟",
-        "confirmReplaceHotelMessage": "هل أنت متأكد أنك تريد استبدال الفندق الحالي بالفندق المحدد؟"
+        "confirmReplaceHotelMessage": "هل أنت متأكد أنك تريد استبدال الفندق الحالي بالفندق المحدد؟",
+        "checkIn": "تسجيل الوصول",
+        "checkOut": "تسجيل المغادرة",
+        "sortBy": "الترتيب حسب",
+        "apply": "تطبيق"
       },
       "transport": {
         "selectFlight": "اختر رحلة",
@@ -1637,6 +1641,28 @@
     "subscriptionAlreadyLinked": "هذا الاشتراك مرتبط بحساب Layla آخر. سجّل الدخول إلى ذلك الحساب لاستخدامه، أو تواصل مع الدعم إذا كنت بحاجة إلى مساعدة.",
     "subscriptionLinkedToAccount": "سيتم ربط هذا الشراء بحساب Layla الحالي.\nتُطبَّق المشتريات المستعادة على حساب Layla الأصلي المستخدم عند الشراء."
   },
+  "tripBook": {
+    "accommodations": "الإقامة",
+    "flights": "الرحلات الجوية",
+    "privateTransport": "النقل الخاص",
+    "experiences": "التجارب",
+    "saveOnBooking": "وفّر ${amount} مقارنةً بالحجز المنفصل",
+    "laylaBringsDeals": "Layla تجلب لك أفضل العروض.",
+    "title": "حجز الرحلة",
+    "book": "احجز",
+    "delete": "حذف",
+    "alternative": "بديل",
+    "expertsTitle": "احجز هذه الرحلة مع خبرائنا",
+    "benefit1Title": "تم توفير أكثر من 32 ساعة تخطيط",
+    "benefit1Description": "استرخِ — يهتم خبراؤنا بكل تفصيلة نيابةً عنك.",
+    "benefit2Title": "أكثر من ${n} حجز فردي تمت معالجته",
+    "benefit2Description": "الفنادق والرحلات والأنشطة — ننسّق كل شيء لرحلة أحلامك.",
+    "benefit3Title": "أكثر من ${n} نقل تم تنظيمه بسلاسة",
+    "benefit3Description": "من محطة إلى محطة — نضمن اتصالات منسّقة بشكل مثالي على مسارك.",
+    "continueWithHuman": "متابعة الحجز مع مستشار",
+    "continueWithBooking": "متابعة الحجز",
+    "bookWithHuman": "الحجز مع مستشار"
+  },
   "data_consent": {
     "title": "خصوصية البيانات",
     "allow": "السماح",
@@ -1687,8 +1713,8 @@
     "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
     "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
     "continue_with_human": "متابعة الحجز مع مستشار",
-    "book_with_human": "احجز مع مستشار",
-    "continue_with_booking": "متابعة الحجز"
+    "continue_with_booking": "متابعة الحجز",
+    "book_with_human": "الحجز مع مستشار"
   },
   "create_screen": {
     "greetingWithName": "مرحباً ${name}،\nماذا تريد أن\nتجرّب؟",

@@ -1142,7 +1142,11 @@
         "failedSearch": "Failed to search hotels. Please try again.",
         "failedAdd": "Failed to add hotel. Please try again.",
         "confirmReplaceHotelTitle": "Replace hotel?",
-        "confirmReplaceHotelMessage": "Are you sure you want to replace the current hotel with the selected one?"
+        "confirmReplaceHotelMessage": "Are you sure you want to replace the current hotel with the selected one?",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "sortBy": "Sort by",
+        "apply": "Apply"
       },
       "transport": {
         "selectFlight": "Select Flight",
@@ -1517,8 +1521,8 @@
     "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
     "continue_with_human": "Continue Booking with a Human",
-    "book_with_human": "Book with a Human",
-    "continue_with_booking": "Continue with Booking"
+    "continue_with_booking": "Continue with Booking",
+    "book_with_human": "Book with a Human"
   },
   "paywall": {
     "title": "Unlock Your Full Trip",
@@ -1551,6 +1555,28 @@
     "restoreFailed": "No active subscription found.",
     "subscriptionAlreadyLinked": "This subscription is linked to another Layla account. Sign into that account to use it, or contact support if you need help.",
     "subscriptionLinkedToAccount": "This purchase will be linked to your current Layla account.\nRestored purchases are applied to the original Layla account used at purchase."
+  },
+  "tripBook": {
+    "accommodations": "Accommodations",
+    "flights": "Flights",
+    "privateTransport": "Private Transport",
+    "experiences": "Experiences",
+    "saveOnBooking": "Save ${amount} compared to booking separately",
+    "laylaBringsDeals": "Layla brings the best Deals to you.",
+    "title": "Book Trip",
+    "book": "Book",
+    "delete": "Delete",
+    "alternative": "Alternative",
+    "expertsTitle": "Book this Trip with our Experts",
+    "benefit1Title": "32+ hours of planning saved",
+    "benefit1Description": "Sit back — our experts take care of every detail for you.",
+    "benefit2Title": "${n}+ individual bookings handled",
+    "benefit2Description": "Hotels, flights, activities — we coordinate everything for your dream trip.",
+    "benefit3Title": "${n}+ transfers seamlessly organized",
+    "benefit3Description": "From stop to stop — we ensure perfectly timed connections on your route.",
+    "continueWithHuman": "Continue Booking with a Human",
+    "continueWithBooking": "Continue with Booking",
+    "bookWithHuman": "Book with a Human"
   },
   "data_consent": {
     "title": "Data Privacy",
