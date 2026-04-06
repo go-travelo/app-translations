@@ -1124,10 +1124,10 @@
         "failedAdd": "Hotel konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
         "confirmReplaceHotelTitle": "Hotel ersetzen?",
         "confirmReplaceHotelMessage": "Möchten Sie das aktuelle Hotel wirklich durch das ausgewählte ersetzen?",
-        "checkIn": "Check-in",
-        "checkOut": "Check-out",
+        "apply": "Anwenden",
         "sortBy": "Sortieren nach",
-        "apply": "Anwenden"
+        "checkIn": "Check-in",
+        "checkOut": "Check-out"
       },
       "transport": {
         "selectFlight": "Flug Auswählen",
@@ -1494,7 +1494,7 @@
     "price_only": "Preis ${price}",
     "processing": "Wird verarbeitet...",
     "unlock_now": "Jetzt freischalten",
-    "become_subscriber": "3-Tage-Probe starten",
+    "become_subscriber": "7-Tage-Probe starten",
     "testimonial1": " Normalerweise verbringe ich Stunden mit Reiseplanung.\nLayla hat das in etwa 2 Minuten erledigt. ",
     "testimonial2": " Layla hat ein Hotel gefunden, das viel günstiger war als erwartet.\nHat mir wirklich viel gespart. ",
     "testimonial3": " Ich liebe es, Flüge, Hotels und Ideen zusammen zu sehen.\nDas macht die Planung so viel einfacher. ",
@@ -1516,28 +1516,6 @@
     "restoreFailed": "Kein aktives Abonnement gefunden.",
     "subscriptionAlreadyLinked": "Dieses Abonnement ist mit einem anderen Layla-Konto verknüpft. Melde dich bei diesem Konto an, um es zu nutzen, oder kontaktiere den Support, wenn du Hilfe benötigst.",
     "subscriptionLinkedToAccount": "Dieser Kauf wird mit deinem aktuellen Layla-Konto verknüpft.\nWiederhergestellte Käufe werden auf das ursprüngliche Layla-Konto angewendet, das beim Kauf verwendet wurde."
-  },
-  "tripBook": {
-    "accommodations": "Unterkünfte",
-    "flights": "Flüge",
-    "privateTransport": "Privattransport",
-    "experiences": "Erlebnisse",
-    "saveOnBooking": "Spare ${amount} im Vergleich zur Einzelbuchung",
-    "laylaBringsDeals": "Layla bringt Ihnen die besten Angebote.",
-    "title": "Reise buchen",
-    "book": "Buchen",
-    "delete": "Löschen",
-    "alternative": "Alternative",
-    "expertsTitle": "Diese Reise mit unseren Experten buchen",
-    "benefit1Title": "32+ Stunden Planung gespart",
-    "benefit1Description": "Lehnen Sie sich zurück — unsere Experten kümmern sich um jedes Detail für Sie.",
-    "benefit2Title": "${n}+ Einzelbuchungen erledigt",
-    "benefit2Description": "Hotels, Flüge, Aktivitäten — wir koordinieren alles für Ihre Traumreise.",
-    "benefit3Title": "${n}+ Transfers nahtlos organisiert",
-    "benefit3Description": "Von Station zu Station — wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
-    "continueWithHuman": "Buchung mit einem Menschen fortsetzen",
-    "continueWithBooking": "Mit der Buchung fortfahren",
-    "bookWithHuman": "Mit einem Menschen buchen"
   },
   "data_consent": {
     "title": "Datenschutz",
@@ -1589,8 +1567,8 @@
     "benefit3_title": "${n}+ Transfers nahtlos organisiert",
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
     "continue_with_human": "Weiter mit einem Reiseberater buchen",
-    "continue_with_booking": "Weiter zur Buchung",
-    "book_with_human": "Mit einem Menschen buchen"
+    "book_with_human": "Mit einem Reiseberater buchen",
+    "continue_with_booking": "Weiter zur Buchung"
   },
   "create_screen": {
     "greetingWithName": "Hallo ${name},\nwas möchtest du\nerleben?",

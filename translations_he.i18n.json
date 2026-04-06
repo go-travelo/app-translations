@@ -1172,10 +1172,10 @@
         "failedAdd": "נכשל בהוספת המלון. אנא נסה שוב.",
         "confirmReplaceHotelTitle": "להחליף את המלון?",
         "confirmReplaceHotelMessage": "האם אתה בטוח שברצונך להחליף את המלון הנוכחי בזה שנבחר?",
+        "apply": "החל",
+        "sortBy": "מיין לפי",
         "checkIn": "צ'ק-אין",
-        "checkOut": "צ'ק-אאוט",
-        "sortBy": "מיון לפי",
-        "apply": "החל"
+        "checkOut": "צ'ק-אאוט"
       },
       "transport": {
         "selectFlight": "בחר טיסה",
@@ -1556,7 +1556,7 @@
     "price_only": "מחיר ${price}",
     "processing": "מעבד...",
     "unlock_now": "פתח עכשיו",
-    "become_subscriber": "התחל ניסיון של 3 ימים",
+    "become_subscriber": "התחל ניסיון של 7 ימים",
     "testimonial1": " בדרך כלל אני מבלה שעות בתכנון טיולים.\nלילה עשתה את זה בערך ב-2 דקות. ",
     "testimonial2": " לילה מצאה מלון הרבה יותר זול ממה שציפיתי.\nבאמת חסכה לי המון. ",
     "testimonial3": " אני אוהב לראות טיסות, מלונות ורעיונות יחד.\nהופך את התכנון להרבה יותר קל. ",
@@ -1578,28 +1578,6 @@
     "restoreFailed": "לא נמצא מנוי פעיל.",
     "subscriptionAlreadyLinked": "מנוי זה מקושר לחשבון Layla אחר. היכנס לאותו חשבון כדי להשתמש בו, או פנה לתמיכה אם אתה זקוק לעזרה.",
     "subscriptionLinkedToAccount": "רכישה זו תקושר לחשבון Layla הנוכחי שלך.\nרכישות משוחזרות מוחלות על חשבון Layla המקורי שבו השתמשת בעת הרכישה."
-  },
-  "tripBook": {
-    "accommodations": "לינה",
-    "flights": "טיסות",
-    "privateTransport": "תחבורה פרטית",
-    "experiences": "חוויות",
-    "saveOnBooking": "חסוך ${amount} בהשוואה להזמנה נפרדת",
-    "laylaBringsDeals": "Layla מביאה לך את העסקאות הטובות ביותר.",
-    "title": "הזמן טיול",
-    "book": "הזמן",
-    "delete": "מחק",
-    "alternative": "חלופה",
-    "expertsTitle": "הזמן את הטיול הזה עם המומחים שלנו",
-    "benefit1Title": "חסכת 32+ שעות תכנון",
-    "benefit1Description": "הישען לאחור — המומחים שלנו מטפלים בכל פרט עבורך.",
-    "benefit2Title": "${n}+ הזמנות בודדות טופלו",
-    "benefit2Description": "מלונות, טיסות, פעילויות — אנו מתאמים הכל לטיול החלומות שלך.",
-    "benefit3Title": "${n}+ העברות אורגנו בצורה חלקה",
-    "benefit3Description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בצורה מושלמת במסלול שלך.",
-    "continueWithHuman": "המשך הזמנה עם נציג אנושי",
-    "continueWithBooking": "המשך עם ההזמנה",
-    "bookWithHuman": "הזמן עם נציג אנושי"
   },
   "data_consent": {
     "title": "פרטיות נתונים",
@@ -1651,8 +1629,8 @@
     "benefit3_title": "${n}+ העברות אורגנו בצורה חלקה",
     "benefit3_description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בשלמות במסלול שלכם.",
     "continue_with_human": "המשך הזמנה עם נציג",
-    "continue_with_booking": "המשך להזמנה",
-    "book_with_human": "הזמן עם נציג אנושי"
+    "book_with_human": "הזמן עם נציג",
+    "continue_with_booking": "המשך להזמנה"
   },
   "create_screen": {
     "greetingWithName": "היי ${name},\nמה אתה רוצה\nלחוות?",
