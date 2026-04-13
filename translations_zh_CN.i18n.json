@@ -1549,8 +1549,8 @@
   "searchTrips": "搜索行程...",
   "main": {
     "tripsEmpty": {
-      "title": "创建您的第一次旅行",
-      "subtitle": "告诉莱拉您的风格和预算，她将为您设计完美的旅行",
+      "title": "您的行程在这里",
+      "subtitle": "创建行程后，它将显示在此标签页中，以便您随时访问。",
       "getStarted": "开始"
     }
   },

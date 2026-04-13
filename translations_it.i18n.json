@@ -1580,8 +1580,8 @@
   "searchTrips": "Cerca viaggi...",
   "main": {
     "tripsEmpty": {
-      "title": "Crea il tuo primo viaggio",
-      "subtitle": "Racconta a Layla il tuo stile e budget e lei progetterà il viaggio perfetto",
+      "title": "I tuoi viaggi sono qui",
+      "subtitle": "Una volta creato un viaggio, apparirà in questa scheda così potrai accedervi in qualsiasi momento.",
       "getStarted": "Inizia"
     }
   },

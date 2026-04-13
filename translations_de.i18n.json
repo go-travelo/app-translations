@@ -1580,8 +1580,8 @@
   "searchTrips": "Reisen suchen...",
   "main": {
     "tripsEmpty": {
-      "title": "Erstelle deine erste Reise",
-      "subtitle": "Erzähle Layla deinen Stil und Budget und sie wird die perfekte Reise gestalten",
+      "title": "Deine Reisen sind hier",
+      "subtitle": "Sobald du eine Reise erstellst, erscheint sie in diesem Tab, damit du jederzeit darauf zugreifen kannst.",
       "getStarted": "Loslegen"
     }
   },

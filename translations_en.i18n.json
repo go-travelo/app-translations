@@ -1589,8 +1589,8 @@
   },
   "main": {
     "tripsEmpty": {
-      "title": "Create your first trip",
-      "subtitle": "Tell Layla your style and budget and she will design the perfect trip",
+      "title": "Your trips live here",
+      "subtitle": "Once you create a trip, it will appear in this tab so you can access it anytime.",
       "getStarted": "Get started"
     }
   },

@@ -1580,8 +1580,8 @@
   "searchTrips": "Reizen zoeken...",
   "main": {
     "tripsEmpty": {
-      "title": "Maak je eerste reis",
-      "subtitle": "Vertel Layla je stijl en budget en zij ontwerpt de perfecte reis",
+      "title": "Je reizen staan hier",
+      "subtitle": "Zodra je een reis aanmaakt, verschijnt die in dit tabblad zodat je er altijd bij kunt.",
       "getStarted": "Aan de slag"
     }
   },
