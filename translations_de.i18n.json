@@ -633,7 +633,12 @@
     "email_required": "E-Mail ist erforderlich",
     "email_invalid": "Bitte gib eine gültige E-Mail-Adresse ein",
     "password_required": "Passwort ist erforderlich",
-    "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein"
+    "password_min_length": "Das Passwort muss mindestens 6 Zeichen lang sein",
+    "confirm_password": "Passwort bestätigen",
+    "already_have_account": "Bereits ein Konto?",
+    "new_to_layla": "Neu bei Layla?",
+    "confirm_password_required": "Bitte bestätige dein Passwort",
+    "passwords_do_not_match": "Passwörter stimmen nicht überein"
   },
   "splash": {
     "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll.",

@@ -649,7 +649,12 @@
     "email_required": "אימייל הוא שדה חובה",
     "email_invalid": "נא להזין כתובת אימייל תקפה",
     "password_required": "סיסמה היא שדה חובה",
-    "password_min_length": "הסיסמה חייבת להכיל לפחות 6 תווים"
+    "password_min_length": "הסיסמה חייבת להכיל לפחות 6 תווים",
+    "confirm_password": "אשר סיסמה",
+    "already_have_account": "כבר יש לך חשבון?",
+    "new_to_layla": "חדש ב-Layla?",
+    "confirm_password_required": "אנא אשר את הסיסמה שלך",
+    "passwords_do_not_match": "הסיסמאות אינן תואמות"
   },
   "splash": {
     "discover_where_to": "גלה/גלי את \nיעד הטיסה הבא שלך.",

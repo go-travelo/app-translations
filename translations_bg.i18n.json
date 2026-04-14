@@ -633,7 +633,12 @@
     "email_required": "Имейлът е задължителен",
     "email_invalid": "Моля, въведи валиден имейл адрес",
     "password_required": "Паролата е задължителна",
-    "password_min_length": "Паролата трябва да съдържа поне 6 знака"
+    "password_min_length": "Паролата трябва да съдържа поне 6 знака",
+    "confirm_password": "Потвърди паролата",
+    "already_have_account": "Вече имаш акаунт?",
+    "new_to_layla": "Нов в Layla?",
+    "confirm_password_required": "Моля потвърди паролата си",
+    "passwords_do_not_match": "Паролите не съвпадат"
   },
   "splash": {
     "discover_where_to": "Открий следващия си полет.",

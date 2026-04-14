@@ -633,7 +633,12 @@
     "email_required": "L'email è obbligatoria",
     "email_invalid": "Inserisci un'email valida",
     "password_required": "La password è obbligatoria",
-    "password_min_length": "La password deve contenere almeno 6 caratteri"
+    "password_min_length": "La password deve contenere almeno 6 caratteri",
+    "confirm_password": "Conferma password",
+    "already_have_account": "Hai già un account?",
+    "new_to_layla": "Nuovo su Layla?",
+    "confirm_password_required": "Conferma la tua password",
+    "passwords_do_not_match": "Le password non corrispondono"
   },
   "splash": {
     "discover_where_to": "Scopri dove\nvola dopo.",

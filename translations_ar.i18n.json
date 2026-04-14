@@ -665,7 +665,12 @@
     "email_required": "البريد الإلكتروني مطلوب",
     "email_invalid": "يرجى إدخال بريد إلكتروني صالح",
     "password_required": "كلمة المرور مطلوبة",
-    "password_min_length": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل"
+    "password_min_length": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+    "confirm_password": "تأكيد كلمة المرور",
+    "already_have_account": "هل لديك حساب بالفعل؟",
+    "new_to_layla": "جديد على Layla؟",
+    "confirm_password_required": "يرجى تأكيد كلمة المرور",
+    "passwords_do_not_match": "كلمات المرور غير متطابقة"
   },
   "splash": {
     "discover_where_to": "اكتشف أين تريد\nالطيران التالي.",
