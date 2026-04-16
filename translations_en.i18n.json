@@ -1358,12 +1358,13 @@
         "itinerary": "Itinerary",
         "route": "Route",
         "flights": "Flights",
-        "transportation": "Transport",
+        "transportation": "Transportation",
         "otherTransport": "Other transport",
         "stays": "Stays",
         "activities": "Activities",
         "transfers": "Private transfers",
         "rental": "Rental",
+        "rentals": "Rentals",
         "transport": "Transport"
       },
       "hotel": {
