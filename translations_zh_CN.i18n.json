@@ -1556,7 +1556,7 @@
     "tripsEmpty": {
       "title": "您的行程在这里",
       "subtitle": "创建行程后，它将显示在此标签页中，以便您随时访问。",
-      "getStarted": "开始"
+      "createFirstTrip": "创建第一次旅行"
     }
   },
   "layla_tip": "Layla的建议",

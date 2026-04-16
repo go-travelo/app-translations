@@ -1587,7 +1587,7 @@
     "tripsEmpty": {
       "title": "Deine Reisen sind hier",
       "subtitle": "Sobald du eine Reise erstellst, erscheint sie in diesem Tab, damit du jederzeit darauf zugreifen kannst.",
-      "getStarted": "Loslegen"
+      "createFirstTrip": "Erste Reise erstellen"
     }
   },
   "layla_tip": "Laylas Tipp",

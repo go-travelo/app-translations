@@ -1587,7 +1587,7 @@
     "tripsEmpty": {
       "title": "Je reizen staan hier",
       "subtitle": "Zodra je een reis aanmaakt, verschijnt die in dit tabblad zodat je er altijd bij kunt.",
-      "getStarted": "Aan de slag"
+      "createFirstTrip": "Eerste reis aanmaken"
     }
   },
   "layla_tip": "Layla's tip",

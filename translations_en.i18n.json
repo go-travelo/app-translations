@@ -1596,7 +1596,7 @@
     "tripsEmpty": {
       "title": "Your trips live here",
       "subtitle": "Once you create a trip, it will appear in this tab so you can access it anytime.",
-      "getStarted": "Get started"
+      "createFirstTrip": "Create first trip"
     }
   },
   "layla_tip": "Layla's Tip",

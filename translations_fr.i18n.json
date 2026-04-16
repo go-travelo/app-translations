@@ -1587,7 +1587,7 @@
     "tripsEmpty": {
       "title": "Vos voyages sont ici",
       "subtitle": "Une fois que vous créez un voyage, il apparaîtra dans cet onglet pour que vous puissiez y accéder à tout moment.",
-      "getStarted": "Commencer"
+      "createFirstTrip": "Créer mon premier voyage"
     }
   },
   "layla_tip": "Conseil de Layla",
