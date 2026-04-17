@@ -654,7 +654,14 @@
     "already_have_account": "Уже есть аккаунт?",
     "new_to_layla": "Новый пользователь Layla?",
     "confirm_password_required": "Пожалуйста, подтвердите пароль",
-    "passwords_do_not_match": "Пароли не совпадают"
+    "passwords_do_not_match": "Пароли не совпадают",
+    "error_user_not_found": "Аккаунт с таким email не найден.",
+    "error_email_in_use": "Аккаунт с таким email уже существует.",
+    "error_user_disabled": "Этот аккаунт отключён.",
+    "error_wrong_password": "Неверный пароль. Попробуйте ещё раз.",
+    "error_invalid_credential": "Неверный email или пароль.",
+    "error_too_many_requests": "Слишком много попыток. Попробуйте позже.",
+    "error_network": "Ошибка сети. Проверьте подключение."
   },
   "splash": {
     "discover_where_to": "Узнайте, куда \nполететь в следующий раз.",
@@ -1394,7 +1401,6 @@
         "transfers": "Частные трансферы",
         "rental": "Аренда",
         "rentals": "Аренда автомобилей",
-        "otherTransport": "Другой транспорт",
         "transport": "Транспорт"
       },
       "hotel": {

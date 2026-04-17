@@ -638,7 +638,14 @@
     "already_have_account": "Already have an account?",
     "new_to_layla": "New to Layla?",
     "confirm_password_required": "Please confirm your password",
-    "passwords_do_not_match": "Passwords do not match"
+    "passwords_do_not_match": "Passwords do not match",
+    "error_user_not_found": "No account found with this email.",
+    "error_email_in_use": "An account with this email already exists.",
+    "error_user_disabled": "This account has been disabled.",
+    "error_wrong_password": "Incorrect password. Please try again.",
+    "error_invalid_credential": "Incorrect email or password.",
+    "error_too_many_requests": "Too many attempts. Please try again later.",
+    "error_network": "Network error. Please check your connection."
   },
   "splash": {
     "discover_where_to": "Discover where to\nfly next.",

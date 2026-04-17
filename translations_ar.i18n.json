@@ -670,7 +670,14 @@
     "already_have_account": "هل لديك حساب بالفعل؟",
     "new_to_layla": "جديد على Layla؟",
     "confirm_password_required": "يرجى تأكيد كلمة المرور",
-    "passwords_do_not_match": "كلمات المرور غير متطابقة"
+    "passwords_do_not_match": "كلمات المرور غير متطابقة",
+    "error_user_not_found": "لم يتم العثور على حساب بهذا البريد الإلكتروني.",
+    "error_email_in_use": "يوجد حساب بهذا البريد الإلكتروني بالفعل.",
+    "error_user_disabled": "تم تعطيل هذا الحساب.",
+    "error_wrong_password": "كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى.",
+    "error_invalid_credential": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+    "error_too_many_requests": "محاولات كثيرة جداً. يرجى المحاولة لاحقاً.",
+    "error_network": "خطأ في الشبكة. يرجى التحقق من اتصالك."
   },
   "splash": {
     "discover_where_to": "اكتشف أين تريد\nالطيران التالي.",
@@ -1436,13 +1443,12 @@
         "route": "المسار",
         "flights": "الرحلات الجوية",
         "transportation": "المواصلات",
-        "otherTransport": "مواصلات أخرى",
+        "otherTransport": "وسائل النقل الأخرى",
         "stays": "الإقامات",
         "activities": "الأنشطة",
         "transfers": "التنقلات الخاصة",
         "rental": "الإيجار",
         "rentals": "إيجارات",
-        "otherTransport": "وسائل النقل الأخرى",
         "transport": "النقل"
       },
       "hotel": {

@@ -638,7 +638,14 @@
     "already_have_account": "Вече имаш акаунт?",
     "new_to_layla": "Нов в Layla?",
     "confirm_password_required": "Моля потвърди паролата си",
-    "passwords_do_not_match": "Паролите не съвпадат"
+    "passwords_do_not_match": "Паролите не съвпадат",
+    "error_user_not_found": "Не е намерен акаунт с този имейл.",
+    "error_email_in_use": "Вече съществува акаунт с този имейл.",
+    "error_user_disabled": "Този акаунт е деактивиран.",
+    "error_wrong_password": "Грешна парола. Моля, опитайте отново.",
+    "error_invalid_credential": "Грешен имейл или парола.",
+    "error_too_many_requests": "Твърде много опити. Моля, опитайте по-късно.",
+    "error_network": "Мрежова грешка. Проверете връзката си."
   },
   "splash": {
     "discover_where_to": "Открий следващия си полет.",
@@ -1346,7 +1353,6 @@
         "transfers": "Частни трансфери",
         "rental": "Наем",
         "rentals": "Наеми",
-        "otherTransport": "Друг транспорт",
         "transport": "Транспорт"
       },
       "hotel": {

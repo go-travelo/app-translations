@@ -638,7 +638,14 @@
     "already_have_account": "Já tem uma conta?",
     "new_to_layla": "Novo na Layla?",
     "confirm_password_required": "Por favor confirme sua senha",
-    "passwords_do_not_match": "As senhas não coincidem"
+    "passwords_do_not_match": "As senhas não coincidem",
+    "error_user_not_found": "Nenhuma conta encontrada com este e-mail.",
+    "error_email_in_use": "Já existe uma conta com este e-mail.",
+    "error_user_disabled": "Esta conta foi desativada.",
+    "error_wrong_password": "Senha incorreta. Tente novamente.",
+    "error_invalid_credential": "E-mail ou senha incorretos.",
+    "error_too_many_requests": "Muitas tentativas. Tente novamente mais tarde.",
+    "error_network": "Erro de rede. Verifique sua conexão."
   },
   "splash": {
     "discover_where_to": "Descubra para onde\nvoar em seguida.",
@@ -1340,13 +1347,12 @@
         "route": "Rota",
         "flights": "Voos",
         "transportation": "Transporte",
-        "otherTransport": "Outro transporte",
+        "otherTransport": "Outros transportes",
         "stays": "Estadias",
         "activities": "Atividades",
         "transfers": "Transfers privados",
         "rental": "Aluguel",
         "rentals": "Aluguéis",
-        "otherTransport": "Outros transportes",
         "transport": "Transporte"
       },
       "hotel": {

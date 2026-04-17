@@ -638,7 +638,14 @@
     "already_have_account": "Heb je al een account?",
     "new_to_layla": "Nieuw bij Layla?",
     "confirm_password_required": "Bevestig je wachtwoord",
-    "passwords_do_not_match": "Wachtwoorden komen niet overeen"
+    "passwords_do_not_match": "Wachtwoorden komen niet overeen",
+    "error_user_not_found": "Geen account gevonden met dit e-mailadres.",
+    "error_email_in_use": "Er bestaat al een account met dit e-mailadres.",
+    "error_user_disabled": "Dit account is uitgeschakeld.",
+    "error_wrong_password": "Onjuist wachtwoord. Probeer het opnieuw.",
+    "error_invalid_credential": "Onjuist e-mailadres of wachtwoord.",
+    "error_too_many_requests": "Te veel pogingen. Probeer het later opnieuw.",
+    "error_network": "Netwerkfout. Controleer uw verbinding."
   },
   "splash": {
     "discover_where_to": "Ontdek waar je naartoe\nkan vliegen.",
@@ -1340,13 +1347,12 @@
         "route": "Route",
         "flights": "Vluchten",
         "transportation": "Vervoer",
-        "otherTransport": "Ander vervoer",
+        "otherTransport": "Ander transport",
         "stays": "Verblijven",
         "activities": "Activiteiten",
         "transfers": "Privétransfers",
         "rental": "Huurwagen",
         "rentals": "Huurwagens",
-        "otherTransport": "Ander transport",
         "transport": "Transport"
       },
       "hotel": {

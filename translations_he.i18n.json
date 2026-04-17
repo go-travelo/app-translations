@@ -654,7 +654,14 @@
     "already_have_account": "כבר יש לך חשבון?",
     "new_to_layla": "חדש ב-Layla?",
     "confirm_password_required": "אנא אשר את הסיסמה שלך",
-    "passwords_do_not_match": "הסיסמאות אינן תואמות"
+    "passwords_do_not_match": "הסיסמאות אינן תואמות",
+    "error_user_not_found": "לא נמצא חשבון עם כתובת אימייל זו.",
+    "error_email_in_use": "כבר קיים חשבון עם כתובת אימייל זו.",
+    "error_user_disabled": "חשבון זה הושבת.",
+    "error_wrong_password": "סיסמה שגויה. אנא נסה שוב.",
+    "error_invalid_credential": "כתובת אימייל או סיסמה שגויים.",
+    "error_too_many_requests": "יותר מדי ניסיונות. אנא נסה שוב מאוחר יותר.",
+    "error_network": "שגיאת רשת. אנא בדוק את החיבור שלך."
   },
   "splash": {
     "discover_where_to": "גלה/גלי את \nיעד הטיסה הבא שלך.",
@@ -1394,7 +1401,6 @@
         "transfers": "הסעות פרטיות",
         "rental": "השכרה",
         "rentals": "השכרות",
-        "otherTransport": "תחבורה אחרת",
         "transport": "תחבורה"
       },
       "hotel": {
