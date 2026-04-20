@@ -1235,7 +1235,10 @@
         "apply": "تطبيق",
         "sortBy": "ترتيب حسب",
         "checkIn": "تسجيل الوصول",
-        "checkOut": "تسجيل المغادرة"
+        "checkOut": "تسجيل المغادرة",
+        "tripWillChangeTitle": "ستتغير رحلتك",
+        "tripWillChangeMessage": "تغيير الوجهة أو التواريخ أو المسافرين سيؤدي إلى إعادة إنشاء خطة الرحلة. هل تريد المتابعة؟",
+        "regenerateAndSearch": "أعد الإنشاء وابحث"
       },
       "transport": {
         "selectFlight": "اختر رحلة",

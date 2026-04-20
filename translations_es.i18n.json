@@ -1139,7 +1139,10 @@
         "apply": "Aplicar",
         "sortBy": "Ordenar por",
         "checkIn": "Entrada",
-        "checkOut": "Salida"
+        "checkOut": "Salida",
+        "tripWillChangeTitle": "Tu viaje cambiará",
+        "tripWillChangeMessage": "Cambiar el destino, las fechas o los viajeros regenerará el itinerario del viaje. ¿Quieres continuar?",
+        "regenerateAndSearch": "Regenerar y buscar"
       },
       "transport": {
         "selectFlight": "Seleccionar Vuelo",

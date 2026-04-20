@@ -1187,7 +1187,10 @@
         "apply": "החל",
         "sortBy": "מיין לפי",
         "checkIn": "צ'ק-אין",
-        "checkOut": "צ'ק-אאוט"
+        "checkOut": "צ'ק-אאוט",
+        "tripWillChangeTitle": "הטיול שלך ישתנה",
+        "tripWillChangeMessage": "שינוי היעד, התאריכים או המטיילים יחולל מחדש את מסלול הטיול. האם ברצונך להמשיך?",
+        "regenerateAndSearch": "צור מחדש וחפש"
       },
       "transport": {
         "selectFlight": "בחר טיסה",

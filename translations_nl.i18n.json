@@ -1139,7 +1139,10 @@
         "apply": "Toepassen",
         "sortBy": "Sorteren op",
         "checkIn": "Inchecken",
-        "checkOut": "Uitchecken"
+        "checkOut": "Uitchecken",
+        "tripWillChangeTitle": "Je reis verandert",
+        "tripWillChangeMessage": "Het wijzigen van de bestemming, datums of reizigers zal de reisroute opnieuw genereren. Wil je doorgaan?",
+        "regenerateAndSearch": "Opnieuw genereren & zoeken"
       },
       "transport": {
         "selectFlight": "Selecteer Vlucht",

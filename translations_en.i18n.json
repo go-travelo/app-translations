@@ -1158,7 +1158,10 @@
         "apply": "Apply",
         "sortBy": "Sort by",
         "checkIn": "Check-in",
-        "checkOut": "Check-out"
+        "checkOut": "Check-out",
+        "tripWillChangeTitle": "Your trip will change",
+        "tripWillChangeMessage": "Changing the destination, dates, or travelers will regenerate the trip itinerary. Do you want to continue?",
+        "regenerateAndSearch": "Regenerate & Search"
       },
       "transport": {
         "selectFlight": "Select Flight",

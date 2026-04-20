@@ -1115,7 +1115,10 @@
         "apply": "应用",
         "sortBy": "排序方式",
         "checkIn": "入住",
-        "checkOut": "退房"
+        "checkOut": "退房",
+        "tripWillChangeTitle": "您的行程将会更改",
+        "tripWillChangeMessage": "更改目的地、日期或旅行者将重新生成行程计划。您要继续吗？",
+        "regenerateAndSearch": "重新生成并搜索"
       },
       "transport": {
         "selectFlight": "选择航班",

@@ -1139,7 +1139,10 @@
         "apply": "Anwenden",
         "sortBy": "Sortieren nach",
         "checkIn": "Check-in",
-        "checkOut": "Check-out"
+        "checkOut": "Check-out",
+        "tripWillChangeTitle": "Ihre Reise wird sich ändern",
+        "tripWillChangeMessage": "Das Ändern des Ziels, der Daten oder der Reisenden wird den Reiseplan neu generieren. Möchten Sie fortfahren?",
+        "regenerateAndSearch": "Neu generieren & Suchen"
       },
       "transport": {
         "selectFlight": "Flug Auswählen",
