@@ -605,6 +605,9 @@
     },
     "rating": {
       "button": "ספר לנו איך אנחנו מסתדרים"
+    },
+    "notification": {
+      "later": "מאוחר יותר"
     }
   },
   "profile": {

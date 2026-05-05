@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Vertel ons hoe het gaat"
+    },
+    "notification": {
+      "later": "Later"
     }
   },
   "profile": {

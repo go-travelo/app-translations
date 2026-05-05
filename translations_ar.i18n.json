@@ -621,6 +621,9 @@
     },
     "rating": {
       "button": "أخبرنا برأيك عن أدائنا"
+    },
+    "notification": {
+      "later": "لاحقاً"
     }
   },
   "profile": {

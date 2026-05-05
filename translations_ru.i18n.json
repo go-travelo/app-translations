@@ -605,6 +605,9 @@
     },
     "rating": {
       "button": "Скажи, как у нас получается"
+    },
+    "notification": {
+      "later": "Позже"
     }
   },
   "profile": {

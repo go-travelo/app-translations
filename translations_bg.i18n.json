@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Кажи ни как се справяме"
+    },
+    "notification": {
+      "later": "По-късно"
     }
   },
   "profile": {

@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Dis-nous comment on s'en sort"
+    },
+    "notification": {
+      "later": "Plus tard"
     }
   },
   "profile": {

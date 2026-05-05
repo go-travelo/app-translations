@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Tell us how we're doing"
+    },
+    "notification": {
+      "later": "Later"
     }
   },
   "profile": {

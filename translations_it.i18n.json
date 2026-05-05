@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Dicci come stiamo andando"
+    },
+    "notification": {
+      "later": "Più tardi"
     }
   },
   "profile": {

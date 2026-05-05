@@ -581,6 +581,9 @@
     },
     "rating": {
       "button": "告诉我们做得怎么样"
+    },
+    "notification": {
+      "later": "稍后"
     }
   },
   "profile": {

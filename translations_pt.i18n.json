@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Conte-nos como estamos indo"
+    },
+    "notification": {
+      "later": "Mais tarde"
     }
   },
   "profile": {

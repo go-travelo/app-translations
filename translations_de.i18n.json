@@ -589,6 +589,9 @@
     },
     "rating": {
       "button": "Sag uns, wie wir abschneiden"
+    },
+    "notification": {
+      "later": "Später"
     }
   },
   "profile": {
