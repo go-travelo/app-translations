@@ -586,6 +586,9 @@
       "seeYourTrip": "Vedi il tuo viaggio",
       "laylaIsPlanning": "Layla sta pianificando...",
       "yourTripIsReady": "Il tuo viaggio è pronto"
+    },
+    "rating": {
+      "button": "Dicci come stiamo andando"
     }
   },
   "profile": {

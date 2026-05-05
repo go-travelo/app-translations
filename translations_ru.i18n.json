@@ -602,6 +602,9 @@
       "seeYourTrip": "Посмотри свою поездку",
       "laylaIsPlanning": "Layla планирует...",
       "yourTripIsReady": "Твоя поездка готова"
+    },
+    "rating": {
+      "button": "Скажи, как у нас получается"
     }
   },
   "profile": {

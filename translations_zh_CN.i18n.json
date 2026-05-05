@@ -578,6 +578,9 @@
       "seeYourTrip": "查看你的行程",
       "laylaIsPlanning": "Layla 正在规划...",
       "yourTripIsReady": "你的行程已准备好"
+    },
+    "rating": {
+      "button": "告诉我们做得怎么样"
     }
   },
   "profile": {

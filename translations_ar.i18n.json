@@ -618,6 +618,9 @@
       "seeYourTrip": "شاهد رحلتك",
       "laylaIsPlanning": "Layla تخطط...",
       "yourTripIsReady": "رحلتك جاهزة"
+    },
+    "rating": {
+      "button": "أخبرنا برأيك عن أدائنا"
     }
   },
   "profile": {

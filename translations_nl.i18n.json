@@ -586,6 +586,9 @@
       "seeYourTrip": "Bekijk je reis",
       "laylaIsPlanning": "Layla is aan het plannen...",
       "yourTripIsReady": "Je reis is klaar"
+    },
+    "rating": {
+      "button": "Vertel ons hoe het gaat"
     }
   },
   "profile": {

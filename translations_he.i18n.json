@@ -602,6 +602,9 @@
       "seeYourTrip": "ראה את הטיול שלך",
       "laylaIsPlanning": "Layla מתכננת...",
       "yourTripIsReady": "הטיול שלך מוכן"
+    },
+    "rating": {
+      "button": "ספר לנו איך אנחנו מסתדרים"
     }
   },
   "profile": {

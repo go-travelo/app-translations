@@ -586,6 +586,9 @@
       "seeYourTrip": "See your trip",
       "laylaIsPlanning": "Layla is planning...",
       "yourTripIsReady": "Your trip is ready"
+    },
+    "rating": {
+      "button": "Tell us how we're doing"
     }
   },
   "profile": {
