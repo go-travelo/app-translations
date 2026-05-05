@@ -581,7 +581,8 @@
       "title": "מאיפה תסע?",
       "message": "סמן/ני לי את המיקום שלך ואני אקח את זה מכאן להרפתקה הבאה שלך",
       "button": "אפשר/י גישה למיקום שלך",
-      "maybeLater": "אולי מאוחר יותר"
+      "maybeLater": "אולי מאוחר יותר",
+      "locating": "מאתר"
     },
     "push_notifications": {
       "button": "אפשר התראות דחיפה  (פוש)",
@@ -644,6 +645,43 @@
       "iLove": "אני אוהב: ${labels}.",
       "iNeedHelpWith": "אני צריך עזרה עם: ${labels}.",
       "inspireMe": "תן לי השראה לאן ללכת."
+    },
+    "alreadyUsed": "כבר השתמשת ב-Layla?",
+    "share": {
+      "anyoneWithLink": "כל מי שיש לו את הקישור יכול לצפות ולערוך את הטיול הזה.",
+      "inviteFriends": "הזמן חברים",
+      "shareLink": "שתף קישור",
+      "copyLink": "העתק קישור",
+      "copied": "הועתק!"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "אנחנו מכינים את\nמנוע החקר האישי שלך",
+      "defaultText": "רגע אחד, Layla מכינה הכל בשבילך.",
+      "settingThingsUp": "מכין..",
+      "steps": [
+        {
+          "title": "מכייל את המצפן שלך",
+          "subtitle": "קורא אותות של נסיעה"
+        },
+        {
+          "title": "ממפה יעדים",
+          "subtitle": ""
+        },
+        {
+          "title": "מתכנן מסלולים",
+          "subtitle": "מוצא חיבורים חכמים"
+        },
+        {
+          "title": "מכוון את ההמלצות",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "בהמשך אתה מסכים ל",
+      "terms": "תנאים",
+      "and": " ול",
+      "privacyPolicy": "מדיניות הפרטיות."
     }
   },
   "profile": {

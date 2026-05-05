@@ -565,7 +565,8 @@
       "title": "D'où voyagerez-vous ?",
       "message": "Envoyez-moi votre position et j'organiserai votre prochaine aventure",
       "button": "Autoriser l'accès à l'emplacement",
-      "maybeLater": "Peut-être plus tard"
+      "maybeLater": "Peut-être plus tard",
+      "locating": "Localisation"
     },
     "push_notifications": {
       "button": "Autorisez les notifications push",
@@ -627,6 +628,43 @@
       "iLove": "J'adore : ${labels}.",
       "iNeedHelpWith": "J'ai besoin d'aide pour : ${labels}.",
       "inspireMe": "Inspire-moi pour décider où aller."
+    },
+    "alreadyUsed": "Déjà utilisé Layla ?",
+    "share": {
+      "anyoneWithLink": "Toute personne avec le lien peut voir et modifier ce voyage.",
+      "inviteFriends": "Inviter des amis",
+      "shareLink": "Partager le lien",
+      "copyLink": "Copier le lien",
+      "copied": "Copié !"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "On prépare ton\nmoteur d'exploration personnel",
+      "defaultText": "Un instant, Layla prépare tout pour toi.",
+      "settingThingsUp": "Configuration en cours..",
+      "steps": [
+        {
+          "title": "Calibrage de ta boussole",
+          "subtitle": "Lecture des signaux de voyage"
+        },
+        {
+          "title": "Cartographie des destinations",
+          "subtitle": ""
+        },
+        {
+          "title": "Tracé des itinéraires",
+          "subtitle": "Recherche de connexions intelligentes"
+        },
+        {
+          "title": "Ajustement des recommandations",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "En continuant tu acceptes les ",
+      "terms": "Conditions",
+      "and": " et la ",
+      "privacyPolicy": "Politique de confidentialité."
     }
   },
   "profile": {

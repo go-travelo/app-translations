@@ -565,7 +565,8 @@
       "title": "Van waar ga je reizen?",
       "message": "Stuur mij je locatie en ik zal je volgende avontuur regelen",
       "button": "Locatietoegang toestaan",
-      "maybeLater": "Misschien later"
+      "maybeLater": "Misschien later",
+      "locating": "Locatie zoeken"
     },
     "push_notifications": {
       "button": "Sta pushmeldingen toe",
@@ -627,6 +628,43 @@
       "iLove": "Ik hou van: ${labels}.",
       "iNeedHelpWith": "Ik heb hulp nodig bij: ${labels}.",
       "inspireMe": "Inspireer me waarheen ik moet gaan."
+    },
+    "alreadyUsed": "Al eens Layla gebruikt?",
+    "share": {
+      "anyoneWithLink": "Iedereen met de link kan deze reis bekijken en bewerken.",
+      "inviteFriends": "Vrienden uitnodigen",
+      "shareLink": "Link delen",
+      "copyLink": "Link kopiëren",
+      "copied": "Gekopieerd!"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "We stellen je\npersoonlijke ontdekkingsmotor in",
+      "defaultText": "Een momentje, Layla maakt alles voor je klaar.",
+      "settingThingsUp": "Bezig met instellen..",
+      "steps": [
+        {
+          "title": "Kompas kalibreren",
+          "subtitle": "Reissignalen lezen"
+        },
+        {
+          "title": "Bestemmingen in kaart brengen",
+          "subtitle": ""
+        },
+        {
+          "title": "Routes uitstippelen",
+          "subtitle": "Slimme verbindingen vinden"
+        },
+        {
+          "title": "Aanbevelingen afstemmen",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "Door door te gaan ga je akkoord met de ",
+      "terms": "Voorwaarden",
+      "and": " en het ",
+      "privacyPolicy": "Privacybeleid."
     }
   },
   "profile": {

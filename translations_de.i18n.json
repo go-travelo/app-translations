@@ -565,7 +565,8 @@
       "title": "Von wo wirst du reisen?",
       "message": "Schick mir deinen Standort und ich organisiere dein nächstes Abenteuer.",
       "button": "Standortzugriff erlauben",
-      "maybeLater": "Vielleicht später"
+      "maybeLater": "Vielleicht später",
+      "locating": "Suche Standort"
     },
     "push_notifications": {
       "button": "Erlaube Push-Benachrichtigungen",
@@ -627,6 +628,43 @@
       "iLove": "Ich liebe: ${labels}.",
       "iNeedHelpWith": "Ich brauche Hilfe bei: ${labels}.",
       "inspireMe": "Inspiriere mich, wohin ich gehen soll."
+    },
+    "alreadyUsed": "Schon mal Layla benutzt?",
+    "share": {
+      "anyoneWithLink": "Jeder mit dem Link kann diese Reise ansehen und bearbeiten.",
+      "inviteFriends": "Freunde einladen",
+      "shareLink": "Link teilen",
+      "copyLink": "Link kopieren",
+      "copied": "Kopiert!"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "Wir richten dein\npersönliches Reise-Tool ein",
+      "defaultText": "Einen Moment, Layla bereitet alles für dich vor.",
+      "settingThingsUp": "Wird vorbereitet..",
+      "steps": [
+        {
+          "title": "Kompass kalibrieren",
+          "subtitle": "Reisesignale lesen"
+        },
+        {
+          "title": "Ziele kartieren",
+          "subtitle": ""
+        },
+        {
+          "title": "Routen planen",
+          "subtitle": "Smarte Verbindungen finden"
+        },
+        {
+          "title": "Empfehlungen feinjustieren",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "Durch Fortfahren akzeptierst du die ",
+      "terms": "Nutzungsbedingungen",
+      "and": " und die ",
+      "privacyPolicy": "Datenschutzerklärung."
     }
   },
   "profile": {

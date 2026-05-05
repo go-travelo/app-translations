@@ -597,7 +597,8 @@
       "title": "من أين ستسافر؟",
       "message": "أرسل لي موقعك الحالي وسأقوم بترتيب مغامرتك التالية",
       "button": "السماح بالوصول للموقع",
-      "maybeLater": "ربما لاحقًا"
+      "maybeLater": "ربما لاحقًا",
+      "locating": "جاري التحديد"
     },
     "push_notifications": {
       "button": "اسمح بالإشعارات الفورية",
@@ -662,6 +663,43 @@
       "iLove": "أحب: ${labels}.",
       "iNeedHelpWith": "أحتاج مساعدة في: ${labels}.",
       "inspireMe": "ألهمني إلى أين أذهب."
+    },
+    "alreadyUsed": "استخدمت Layla من قبل؟",
+    "share": {
+      "anyoneWithLink": "أي شخص لديه الرابط يقدر يشوف الرحلة ويعدل عليها.",
+      "inviteFriends": "ادعُ أصدقاءك",
+      "shareLink": "شارك الرابط",
+      "copyLink": "انسخ الرابط",
+      "copied": "تم النسخ!"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "نجهز لك\nمحرك استكشافك الشخصي",
+      "defaultText": "لحظة، ليلى تجهز كل شيء لك.",
+      "settingThingsUp": "جاري الإعداد..",
+      "steps": [
+        {
+          "title": "أعير بوصلتك",
+          "subtitle": "أقرأ إشارات السفر"
+        },
+        {
+          "title": "أرسم خريطة الوجهات",
+          "subtitle": ""
+        },
+        {
+          "title": "أرسم المسارات",
+          "subtitle": "أبحث عن أفضل الوصلات"
+        },
+        {
+          "title": "أضبط التوصيات",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "بمتابعتك فأنت توافق على ",
+      "terms": "الشروط",
+      "and": " و",
+      "privacyPolicy": "سياسة الخصوصية."
     }
   },
   "profile": {

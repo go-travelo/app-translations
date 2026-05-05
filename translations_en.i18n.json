@@ -565,7 +565,8 @@
       "title": "Where will you travel from?",
       "message": "Ping me your location and I'll line up your next adventure",
       "button": "Allow Location Access",
-      "maybeLater": "Maybe later"
+      "maybeLater": "Maybe later",
+      "locating": "Locating"
     },
     "push_notifications": {
       "button": "Allow push notifications",
@@ -627,6 +628,43 @@
       "iLove": "I love: ${labels}.",
       "iNeedHelpWith": "I need help with: ${labels}.",
       "inspireMe": "Inspire me where to go."
+    },
+    "alreadyUsed": "Already used Layla?",
+    "share": {
+      "anyoneWithLink": "Anyone with the link can view and edit this trip.",
+      "inviteFriends": "Invite friends",
+      "shareLink": "Share link",
+      "copyLink": "Copy link",
+      "copied": "Copied!"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "We're setting up your\npersonal exploration engine",
+      "defaultText": "Just a moment while Layla gets everything ready for you.",
+      "settingThingsUp": "Setting things up..",
+      "steps": [
+        {
+          "title": "Calibrating your compass",
+          "subtitle": "Reading travel signals"
+        },
+        {
+          "title": "Mapping destinations",
+          "subtitle": ""
+        },
+        {
+          "title": "Charting routes",
+          "subtitle": "Finding smart connections"
+        },
+        {
+          "title": "Tuning recommendations",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "By continuing you agree to the ",
+      "terms": "Terms",
+      "and": " and ",
+      "privacyPolicy": "Privacy Policy."
     }
   },
   "profile": {

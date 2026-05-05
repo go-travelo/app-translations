@@ -557,7 +557,8 @@
       "title": "您将从哪里出发旅行？",
       "message": "告诉我你的位置，我会安排你的下一次探险",
       "button": "允许位置访问",
-      "maybeLater": "稍后再说"
+      "maybeLater": "稍后再说",
+      "locating": "定位中"
     },
     "push_notifications": {
       "button": "允许推送通知",
@@ -618,6 +619,43 @@
       "iLove": "我喜欢：${labels}。",
       "iNeedHelpWith": "我需要帮助：${labels}。",
       "inspireMe": "给我一些目的地的灵感。"
+    },
+    "alreadyUsed": "之前用过 Layla？",
+    "share": {
+      "anyoneWithLink": "任何人有链接都可以查看和编辑这次旅行。",
+      "inviteFriends": "邀请好友",
+      "shareLink": "分享链接",
+      "copyLink": "复制链接",
+      "copied": "已复制！"
+    },
+    "personalizationLoader": {
+      "defaultPrompt": "正在为你设置\n个人探索引擎",
+      "defaultText": "稍等一下，Layla 正在为你准备一切。",
+      "settingThingsUp": "正在设置..",
+      "steps": [
+        {
+          "title": "校准你的指南针",
+          "subtitle": "读取旅行信号"
+        },
+        {
+          "title": "标记目的地",
+          "subtitle": ""
+        },
+        {
+          "title": "规划路线",
+          "subtitle": "寻找便捷中转"
+        },
+        {
+          "title": "调整推荐",
+          "subtitle": ""
+        }
+      ]
+    },
+    "legalTerms": {
+      "prefix": "继续即表示你同意",
+      "terms": "服务条款",
+      "and": "和",
+      "privacyPolicy": "隐私政策。"
     }
   },
   "profile": {
