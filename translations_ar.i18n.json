@@ -651,6 +651,12 @@
     },
     "notification": {
       "later": "لاحقاً"
+    },
+    "tripPreview": {
+      "viewTrip": "عرض الخطة",
+      "viewMap": "عرض الخريطة",
+      "itineraryHeader": "خط سير الرحلة",
+      "dayN": "اليوم ${n}"
     }
   },
   "profile": {

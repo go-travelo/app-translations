@@ -607,6 +607,12 @@
     },
     "notification": {
       "later": "稍后"
+    },
+    "tripPreview": {
+      "viewTrip": "查看计划",
+      "viewMap": "查看地图",
+      "itineraryHeader": "行程",
+      "dayN": "第 ${n} 天"
     }
   },
   "profile": {

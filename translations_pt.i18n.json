@@ -616,6 +616,12 @@
     },
     "notification": {
       "later": "Mais tarde"
+    },
+    "tripPreview": {
+      "viewTrip": "Ver plano",
+      "viewMap": "Ver mapa",
+      "itineraryHeader": "Itinerário",
+      "dayN": "Dia ${n}"
     }
   },
   "profile": {

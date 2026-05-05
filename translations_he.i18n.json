@@ -633,6 +633,12 @@
     },
     "notification": {
       "later": "מאוחר יותר"
+    },
+    "tripPreview": {
+      "viewTrip": "הצג תוכנית",
+      "viewMap": "הצג מפה",
+      "itineraryHeader": "מסלול טיול",
+      "dayN": "יום ${n}"
     }
   },
   "profile": {

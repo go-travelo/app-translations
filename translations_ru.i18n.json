@@ -634,6 +634,12 @@
     },
     "notification": {
       "later": "Позже"
+    },
+    "tripPreview": {
+      "viewTrip": "Показать план",
+      "viewMap": "Показать карту",
+      "itineraryHeader": "Маршрут",
+      "dayN": "День ${n}"
     }
   },
   "profile": {

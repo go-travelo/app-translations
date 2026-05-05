@@ -616,6 +616,12 @@
     },
     "notification": {
       "later": "По-късно"
+    },
+    "tripPreview": {
+      "viewTrip": "Виж плана",
+      "viewMap": "Виж картата",
+      "itineraryHeader": "Маршрут",
+      "dayN": "Ден ${n}"
     }
   },
   "profile": {

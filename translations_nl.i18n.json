@@ -616,6 +616,12 @@
     },
     "notification": {
       "later": "Later"
+    },
+    "tripPreview": {
+      "viewTrip": "Bekijk plan",
+      "viewMap": "Bekijk kaart",
+      "itineraryHeader": "Reisplan",
+      "dayN": "Dag ${n}"
     }
   },
   "profile": {
