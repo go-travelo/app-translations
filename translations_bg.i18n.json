@@ -585,7 +585,31 @@
     "tripLoading": {
       "seeYourTrip": "Виж пътуването си",
       "laylaIsPlanning": "Layla планира...",
-      "yourTripIsReady": "Пътуването ти е готово"
+      "yourTripIsReady": "Пътуването ти е готово",
+      "progressLabel": "Прогрес на планирането",
+      "daysCount": {
+        "one": "${n} ден",
+        "other": "${n} дни"
+      },
+      "stages": {
+        "you": {
+          "title": "Ти",
+          "subtitle": "Само кажи"
+        },
+        "flights": {
+          "title": "Полети",
+          "subtitle": "Най-добрите маршрути, фиксирани"
+        },
+        "stays": {
+          "title": "Настаняване",
+          "subtitle": "Избрани специално за теб"
+        },
+        "destination": {
+          "fallbackTitle": "Маршрут",
+          "ready": "Готово",
+          "almostReady": "Почти готово"
+        }
+      }
     },
     "rating": {
       "button": "Кажи ни как се справяме"

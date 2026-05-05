@@ -601,7 +601,33 @@
     "tripLoading": {
       "seeYourTrip": "Посмотри свою поездку",
       "laylaIsPlanning": "Layla планирует...",
-      "yourTripIsReady": "Твоя поездка готова"
+      "yourTripIsReady": "Твоя поездка готова",
+      "progressLabel": "Прогресс планирования",
+      "daysCount": {
+        "one": "${n} день",
+        "few": "${n} дня",
+        "many": "${n} дней",
+        "other": "${n} дней"
+      },
+      "stages": {
+        "you": {
+          "title": "Ты",
+          "subtitle": "Просто скажи"
+        },
+        "flights": {
+          "title": "Рейсы",
+          "subtitle": "Лучшие маршруты найдены"
+        },
+        "stays": {
+          "title": "Жильё",
+          "subtitle": "Подобрано вручную"
+        },
+        "destination": {
+          "fallbackTitle": "Маршрут",
+          "ready": "Готово",
+          "almostReady": "Почти готово"
+        }
+      }
     },
     "rating": {
       "button": "Скажи, как у нас получается"

@@ -617,7 +617,34 @@
     "tripLoading": {
       "seeYourTrip": "شاهد رحلتك",
       "laylaIsPlanning": "Layla تخطط...",
-      "yourTripIsReady": "رحلتك جاهزة"
+      "yourTripIsReady": "رحلتك جاهزة",
+      "progressLabel": "تقدم التخطيط",
+      "daysCount": {
+        "one": "يوم واحد",
+        "two": "يومان",
+        "few": "${n} أيام",
+        "many": "${n} يوماً",
+        "other": "${n} يوم"
+      },
+      "stages": {
+        "you": {
+          "title": "أنت",
+          "subtitle": "فقط قل الكلمة"
+        },
+        "flights": {
+          "title": "الرحلات",
+          "subtitle": "أفضل المسارات، تم الحجز"
+        },
+        "stays": {
+          "title": "الإقامات",
+          "subtitle": "مختارة خصيصًا لك"
+        },
+        "destination": {
+          "fallbackTitle": "المسار",
+          "ready": "جاهز",
+          "almostReady": "شبه جاهز"
+        }
+      }
     },
     "rating": {
       "button": "أخبرنا برأيك عن أدائنا"

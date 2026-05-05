@@ -577,7 +577,30 @@
     "tripLoading": {
       "seeYourTrip": "查看你的行程",
       "laylaIsPlanning": "Layla 正在规划...",
-      "yourTripIsReady": "你的行程已准备好"
+      "yourTripIsReady": "你的行程已准备好",
+      "progressLabel": "规划进度",
+      "daysCount": {
+        "other": "${n}天"
+      },
+      "stages": {
+        "you": {
+          "title": "你",
+          "subtitle": "一句话的事"
+        },
+        "flights": {
+          "title": "航班",
+          "subtitle": "最佳路线已锁定"
+        },
+        "stays": {
+          "title": "住宿",
+          "subtitle": "为你精心挑选"
+        },
+        "destination": {
+          "fallbackTitle": "行程",
+          "ready": "已准备好",
+          "almostReady": "即将准备好"
+        }
+      }
     },
     "rating": {
       "button": "告诉我们做得怎么样"

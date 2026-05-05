@@ -585,7 +585,31 @@
     "tripLoading": {
       "seeYourTrip": "Bekijk je reis",
       "laylaIsPlanning": "Layla is aan het plannen...",
-      "yourTripIsReady": "Je reis is klaar"
+      "yourTripIsReady": "Je reis is klaar",
+      "progressLabel": "Planning-voortgang",
+      "daysCount": {
+        "one": "${n} dag",
+        "other": "${n} dagen"
+      },
+      "stages": {
+        "you": {
+          "title": "Jij",
+          "subtitle": "Zeg het maar"
+        },
+        "flights": {
+          "title": "Vluchten",
+          "subtitle": "Beste routes, geboekt"
+        },
+        "stays": {
+          "title": "Verblijven",
+          "subtitle": "Speciaal voor jou geselecteerd"
+        },
+        "destination": {
+          "fallbackTitle": "Reisplan",
+          "ready": "Klaar",
+          "almostReady": "Bijna klaar"
+        }
+      }
     },
     "rating": {
       "button": "Vertel ons hoe het gaat"

@@ -585,7 +585,31 @@
     "tripLoading": {
       "seeYourTrip": "Reise ansehen",
       "laylaIsPlanning": "Layla plant...",
-      "yourTripIsReady": "Deine Reise ist bereit"
+      "yourTripIsReady": "Deine Reise ist bereit",
+      "progressLabel": "Planungsfortschritt",
+      "daysCount": {
+        "one": "${n} Tag",
+        "other": "${n} Tage"
+      },
+      "stages": {
+        "you": {
+          "title": "Du",
+          "subtitle": "Sag einfach Bescheid"
+        },
+        "flights": {
+          "title": "Flüge",
+          "subtitle": "Beste Routen, gesichert"
+        },
+        "stays": {
+          "title": "Unterkünfte",
+          "subtitle": "Handverlesen für dich"
+        },
+        "destination": {
+          "fallbackTitle": "Reiseplan",
+          "ready": "Bereit",
+          "almostReady": "Fast bereit"
+        }
+      }
     },
     "rating": {
       "button": "Sag uns, wie wir abschneiden"
