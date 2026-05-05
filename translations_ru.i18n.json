@@ -599,7 +599,9 @@
       "step3Subtitle": "Эксклюзивные предложения по избранным отелям. Доступны тебе."
     },
     "tripLoading": {
-      "seeYourTrip": "Посмотри свою поездку"
+      "seeYourTrip": "Посмотри свою поездку",
+      "laylaIsPlanning": "Layla планирует...",
+      "yourTripIsReady": "Твоя поездка готова"
     }
   },
   "profile": {

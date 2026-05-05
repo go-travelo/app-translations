@@ -583,7 +583,9 @@
       "step3Subtitle": "Ofertas exclusivas em estadias selecionadas. Suas para desbloquear."
     },
     "tripLoading": {
-      "seeYourTrip": "Ver sua viagem"
+      "seeYourTrip": "Ver sua viagem",
+      "laylaIsPlanning": "Layla está planejando...",
+      "yourTripIsReady": "Sua viagem está pronta"
     }
   },
   "profile": {

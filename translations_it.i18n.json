@@ -583,7 +583,9 @@
       "step3Subtitle": "Offerte esclusive su soggiorni selezionati. Tuoi da sbloccare."
     },
     "tripLoading": {
-      "seeYourTrip": "Vedi il tuo viaggio"
+      "seeYourTrip": "Vedi il tuo viaggio",
+      "laylaIsPlanning": "Layla sta pianificando...",
+      "yourTripIsReady": "Il tuo viaggio è pronto"
     }
   },
   "profile": {

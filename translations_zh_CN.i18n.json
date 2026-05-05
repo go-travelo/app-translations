@@ -575,7 +575,9 @@
       "step3Subtitle": "精选住宿专属优惠，等你来解锁。"
     },
     "tripLoading": {
-      "seeYourTrip": "查看你的行程"
+      "seeYourTrip": "查看你的行程",
+      "laylaIsPlanning": "Layla 正在规划...",
+      "yourTripIsReady": "你的行程已准备好"
     }
   },
   "profile": {

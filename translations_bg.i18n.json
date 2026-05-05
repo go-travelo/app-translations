@@ -583,7 +583,9 @@
       "step3Subtitle": "Ексклузивни оферти за избрани настанявания. Твоят за отключване."
     },
     "tripLoading": {
-      "seeYourTrip": "Виж пътуването си"
+      "seeYourTrip": "Виж пътуването си",
+      "laylaIsPlanning": "Layla планира...",
+      "yourTripIsReady": "Пътуването ти е готово"
     }
   },
   "profile": {

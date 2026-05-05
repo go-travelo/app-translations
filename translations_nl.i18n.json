@@ -583,7 +583,9 @@
       "step3Subtitle": "Exclusieve aanbiedingen voor geselecteerde verblijven. Van jou om te ontgrendelen."
     },
     "tripLoading": {
-      "seeYourTrip": "Bekijk je reis"
+      "seeYourTrip": "Bekijk je reis",
+      "laylaIsPlanning": "Layla is aan het plannen...",
+      "yourTripIsReady": "Je reis is klaar"
     }
   },
   "profile": {

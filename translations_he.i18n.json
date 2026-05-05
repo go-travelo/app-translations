@@ -599,7 +599,9 @@
       "step3Subtitle": "הצעות בלעדיות על לינות נבחרות. שלך לפתיחה."
     },
     "tripLoading": {
-      "seeYourTrip": "ראה את הטיול שלך"
+      "seeYourTrip": "ראה את הטיול שלך",
+      "laylaIsPlanning": "Layla מתכננת...",
+      "yourTripIsReady": "הטיול שלך מוכן"
     }
   },
   "profile": {

@@ -583,7 +583,9 @@
       "step3Subtitle": "Exclusive offers on selected stays. Yours to unlock."
     },
     "tripLoading": {
-      "seeYourTrip": "See your trip"
+      "seeYourTrip": "See your trip",
+      "laylaIsPlanning": "Layla is planning...",
+      "yourTripIsReady": "Your trip is ready"
     }
   },
   "profile": {

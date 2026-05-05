@@ -583,7 +583,9 @@
       "step3Subtitle": "Exklusive Angebote für ausgewählte Unterkünfte. Deins zum Freischalten."
     },
     "tripLoading": {
-      "seeYourTrip": "Reise ansehen"
+      "seeYourTrip": "Reise ansehen",
+      "laylaIsPlanning": "Layla plant...",
+      "yourTripIsReady": "Deine Reise ist bereit"
     }
   },
   "profile": {
