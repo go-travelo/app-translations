@@ -573,6 +573,9 @@
       "step2Subtitle": "行程优化、指导和预订，全部为您一手包办",
       "step3Title": "更好的酒店，\n更优惠的价格。",
       "step3Subtitle": "精选住宿专属优惠，等你来解锁。"
+    },
+    "tripLoading": {
+      "seeYourTrip": "查看你的行程"
     }
   },
   "profile": {

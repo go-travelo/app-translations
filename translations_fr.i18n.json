@@ -581,6 +581,9 @@
       "step2Subtitle": "Affinement du voyage, conseils et réservations. Tout fait pour vous",
       "step3Title": "De meilleurs hôtels.\nDe meilleurs prix.",
       "step3Subtitle": "Offres exclusives sur des séjours sélectionnés. À vous de les débloquer."
+    },
+    "tripLoading": {
+      "seeYourTrip": "Voir ton voyage"
     }
   },
   "profile": {

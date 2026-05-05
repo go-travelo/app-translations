@@ -581,6 +581,9 @@
       "step2Subtitle": "Trip refinement, guidance and bookings. All done for you",
       "step3Title": "Better hotels.\nBetter prices.",
       "step3Subtitle": "Exclusive offers on selected stays. Yours to unlock."
+    },
+    "tripLoading": {
+      "seeYourTrip": "See your trip"
     }
   },
   "profile": {

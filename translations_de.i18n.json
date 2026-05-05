@@ -581,6 +581,9 @@
       "step2Subtitle": "Reiseverbesserung, Beratung und Buchungen. Alles für dich erledigt",
       "step3Title": "Bessere Hotels.\nBessere Preise.",
       "step3Subtitle": "Exklusive Angebote für ausgewählte Unterkünfte. Deins zum Freischalten."
+    },
+    "tripLoading": {
+      "seeYourTrip": "Reise ansehen"
     }
   },
   "profile": {
