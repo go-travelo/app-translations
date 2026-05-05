@@ -639,6 +639,11 @@
       "viewMap": "הצג מפה",
       "itineraryHeader": "מסלול טיול",
       "dayN": "יום ${n}"
+    },
+    "chat": {
+      "iLove": "אני אוהב: ${labels}.",
+      "iNeedHelpWith": "אני צריך עזרה עם: ${labels}.",
+      "inspireMe": "תן לי השראה לאן ללכת."
     }
   },
   "profile": {

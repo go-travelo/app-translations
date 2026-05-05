@@ -640,6 +640,11 @@
       "viewMap": "Показать карту",
       "itineraryHeader": "Маршрут",
       "dayN": "День ${n}"
+    },
+    "chat": {
+      "iLove": "Я люблю: ${labels}.",
+      "iNeedHelpWith": "Мне нужна помощь с: ${labels}.",
+      "inspireMe": "Вдохнови меня, куда поехать."
     }
   },
   "profile": {

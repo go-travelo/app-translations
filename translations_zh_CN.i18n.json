@@ -613,6 +613,11 @@
       "viewMap": "查看地图",
       "itineraryHeader": "行程",
       "dayN": "第 ${n} 天"
+    },
+    "chat": {
+      "iLove": "我喜欢：${labels}。",
+      "iNeedHelpWith": "我需要帮助：${labels}。",
+      "inspireMe": "给我一些目的地的灵感。"
     }
   },
   "profile": {

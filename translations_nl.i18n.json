@@ -622,6 +622,11 @@
       "viewMap": "Bekijk kaart",
       "itineraryHeader": "Reisplan",
       "dayN": "Dag ${n}"
+    },
+    "chat": {
+      "iLove": "Ik hou van: ${labels}.",
+      "iNeedHelpWith": "Ik heb hulp nodig bij: ${labels}.",
+      "inspireMe": "Inspireer me waarheen ik moet gaan."
     }
   },
   "profile": {

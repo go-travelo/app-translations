@@ -622,6 +622,11 @@
       "viewMap": "Виж картата",
       "itineraryHeader": "Маршрут",
       "dayN": "Ден ${n}"
+    },
+    "chat": {
+      "iLove": "Обичам: ${labels}.",
+      "iNeedHelpWith": "Нуждая се от помощ с: ${labels}.",
+      "inspireMe": "Вдъхнови ме къде да отида."
     }
   },
   "profile": {

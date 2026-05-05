@@ -622,6 +622,11 @@
       "viewMap": "Ver mapa",
       "itineraryHeader": "Itinerario",
       "dayN": "Día ${n}"
+    },
+    "chat": {
+      "iLove": "Me encanta: ${labels}.",
+      "iNeedHelpWith": "Necesito ayuda con: ${labels}.",
+      "inspireMe": "Inspírame a dónde ir."
     }
   },
   "profile": {

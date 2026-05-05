@@ -657,6 +657,11 @@
       "viewMap": "عرض الخريطة",
       "itineraryHeader": "خط سير الرحلة",
       "dayN": "اليوم ${n}"
+    },
+    "chat": {
+      "iLove": "أحب: ${labels}.",
+      "iNeedHelpWith": "أحتاج مساعدة في: ${labels}.",
+      "inspireMe": "ألهمني إلى أين أذهب."
     }
   },
   "profile": {
