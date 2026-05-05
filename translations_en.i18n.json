@@ -564,7 +564,8 @@
     "location": {
       "title": "Where will you travel from?",
       "message": "Ping me your location and I'll line up your next adventure",
-      "button": "Allow Location Access"
+      "button": "Allow Location Access",
+      "maybeLater": "Maybe later"
     },
     "push_notifications": {
       "button": "Allow push notifications",

@@ -564,7 +564,8 @@
     "location": {
       "title": "Van waar ga je reizen?",
       "message": "Stuur mij je locatie en ik zal je volgende avontuur regelen",
-      "button": "Locatietoegang toestaan"
+      "button": "Locatietoegang toestaan",
+      "maybeLater": "Misschien later"
     },
     "push_notifications": {
       "button": "Sta pushmeldingen toe",

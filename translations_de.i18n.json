@@ -564,7 +564,8 @@
     "location": {
       "title": "Von wo wirst du reisen?",
       "message": "Schick mir deinen Standort und ich organisiere dein nächstes Abenteuer.",
-      "button": "Standortzugriff erlauben"
+      "button": "Standortzugriff erlauben",
+      "maybeLater": "Vielleicht später"
     },
     "push_notifications": {
       "button": "Erlaube Push-Benachrichtigungen",

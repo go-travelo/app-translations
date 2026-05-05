@@ -564,7 +564,8 @@
     "location": {
       "title": "De onde você viajará?",
       "message": "Partilha sua localizção que eu vou encontrar sua próxima aventura",
-      "button": "Permitir acesso à localização"
+      "button": "Permitir acesso à localização",
+      "maybeLater": "Talvez mais tarde"
     },
     "push_notifications": {
       "button": "Permita notificações push",

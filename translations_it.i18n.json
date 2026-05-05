@@ -564,7 +564,8 @@
     "location": {
       "title": "Da dove viaggerai?",
       "message": "Inviami la tua posizione e ti proporrò la tua prossima avventura",
-      "button": "Permetti accesso alla posizione"
+      "button": "Permetti accesso alla posizione",
+      "maybeLater": "Forse più tardi"
     },
     "push_notifications": {
       "button": "Permetti le notifiche push",
