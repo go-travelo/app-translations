@@ -1674,7 +1674,18 @@
     "greetingWithName": "Hallo ${name},\nwat wil je\nbeleven?",
     "greeting": "Wat wil je\nbeleven?",
     "listening": "Aan het luisteren...",
-    "placeholder": "Een romantische reis naar een eiland..."
+    "placeholders": [
+      "Een 2-weekse reis door Italië: Rome, Florence en de Amalfikust...",
+      "Een maand door Thailand, Vietnam en Bali...",
+      "Drie weken Japan, van Tokio via Kyoto naar Hokkaido...",
+      "Een 10-daagse roadtrip door het Amerikaanse zuidwesten...",
+      "Een 3-weekse treinreis door Europa...",
+      "Een 2-weekse huwelijksreis op de Malediven en Seychellen...",
+      "Een 12-daagse familiereis: Parijs, Barcelona, Lissabon...",
+      "Twee weken op jacht naar het noorderlicht in IJsland en Noorwegen...",
+      "Een 16-daagse safari en strand in Kenia en Zanzibar...",
+      "Een 21-daags backpackavontuur door Zuid-Amerika..."
+    ]
   },
   "tripsWord": "Reizen",
   "searchTrips": "Reizen zoeken...",

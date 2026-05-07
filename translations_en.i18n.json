@@ -924,7 +924,18 @@
     "greetingWithName": "Hi ${name},\nwhat do you want to\nexperience?",
     "greeting": "What do you want to\nexperience?",
     "listening": "Listening...",
-    "placeholder": "A romantic trip to an island..."
+    "placeholders": [
+      "A 2-week tour of Italy: Rome, Florence, and the Amalfi Coast...",
+      "A month exploring Thailand, Vietnam, and Bali...",
+      "Three weeks in Japan, from Tokyo to Kyoto to Hokkaido...",
+      "A 10-day road trip through the American Southwest...",
+      "A 3-week rail journey across Europe...",
+      "A 2-week honeymoon in the Maldives and Seychelles...",
+      "A 12-day family trip: Paris, Barcelona, Lisbon...",
+      "Two weeks chasing the Northern Lights in Iceland and Norway...",
+      "A 16-day safari and beach trip in Kenya and Zanzibar...",
+      "A 21-day backpacking adventure through South America..."
+    ]
   },
   "creator": "Creator",
   "currency": "Currency",

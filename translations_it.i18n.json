@@ -1674,7 +1674,18 @@
     "greetingWithName": "Ciao ${name},\ncosa vuoi\nvivere?",
     "greeting": "Cosa vuoi\nvivere?",
     "listening": "Ascolto...",
-    "placeholder": "Un viaggio romantico su un'isola..."
+    "placeholders": [
+      "Un tour di 2 settimane in Italia: Roma, Firenze e la Costiera Amalfitana...",
+      "Un mese alla scoperta di Thailandia, Vietnam e Bali...",
+      "Tre settimane in Giappone, da Tokyo a Kyoto a Hokkaido...",
+      "Un viaggio in auto di 10 giorni nel Sud-Ovest americano...",
+      "Un viaggio in treno di 3 settimane attraverso l'Europa...",
+      "Una luna di miele di 2 settimane alle Maldive e Seychelles...",
+      "Un viaggio in famiglia di 12 giorni: Parigi, Barcellona, Lisbona...",
+      "Due settimane a caccia dell'aurora boreale in Islanda e Norvegia...",
+      "Un safari e mare di 16 giorni in Kenya e Zanzibar...",
+      "Un'avventura zaino in spalla di 21 giorni in Sud America..."
+    ]
   },
   "tripsWord": "Viaggi",
   "searchTrips": "Cerca viaggi...",
