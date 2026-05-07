@@ -72,6 +72,14 @@
       "isTyping": "${name} est en train d'écrire...",
       "typing": "Layla est en train d'écrire...",
       "generatingTrip": "Génération de votre voyage...",
+      "tripGenerating": {
+        "routes": "Meilleurs itinéraires, verrouillés",
+        "transfers": "Assemblage des vols et transferts",
+        "stays": "Sélection de vos hébergements parfaits",
+        "activities": "Alignement des incontournables",
+        "andSeparator": " & ",
+        "listSeparator": ", "
+      },
       "messages": {
         "location": {
           "requestTitle": "D'où partirez-vous ?",

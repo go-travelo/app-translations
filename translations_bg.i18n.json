@@ -72,6 +72,14 @@
       "isTyping": "${name} пише...",
       "typing": "Layla пише...",
       "generatingTrip": "Генериране на вашето пътуване...",
+      "tripGenerating": {
+        "routes": "Най-добрите маршрути, заключени",
+        "transfers": "Свързване на полети и трансфери",
+        "stays": "Подбор на перфектните настанявания",
+        "activities": "Подреждане на акцентите",
+        "andSeparator": " & ",
+        "listSeparator": ", "
+      },
       "messages": {
         "location": {
           "requestTitle": "Откъде ще тръгнеш?",

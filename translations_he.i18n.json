@@ -72,6 +72,14 @@
       "isTyping": "${name} כותב/ת...",
       "typing": "ליילה מקלידה...",
       "generatingTrip": "מייצר את הטיול שלך...",
+      "tripGenerating": {
+        "routes": "המסלולים הטובים ביותר ננעלו",
+        "transfers": "מחברים טיסות והעברות",
+        "stays": "אוצרים את אכסניות החלום שלך",
+        "activities": "מסדרים את הרגעים הבולטים",
+        "andSeparator": " & ",
+        "listSeparator": ", "
+      },
       "messages": {
         "location": {
           "requestTitle": "מהי נקודת המוצא שלך?",

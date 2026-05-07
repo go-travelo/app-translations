@@ -72,6 +72,14 @@
       "isTyping": "${name} 正在输入...",
       "typing": "Layla 正在输入...",
       "generatingTrip": "正在生成您的行程...",
+      "tripGenerating": {
+        "routes": "最佳路线已锁定",
+        "transfers": "拼接航班与中转",
+        "stays": "精选你的完美住宿",
+        "activities": "串联旅途亮点",
+        "andSeparator": " & ",
+        "listSeparator": "、"
+      },
       "messages": {
         "location": {
           "requestTitle": "你将从哪里出发？",

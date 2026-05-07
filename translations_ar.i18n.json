@@ -72,6 +72,14 @@
       "isTyping": "يكتب ${name}...",
       "typing": "ليلى تكتب...",
       "generatingTrip": "جارٍ إنشاء رحلتك...",
+      "tripGenerating": {
+        "routes": "أفضل المسارات، مؤمَّنة",
+        "transfers": "ربط الرحلات والتنقلات",
+        "stays": "اختيار أماكن إقامتك المثالية",
+        "activities": "ترتيب أبرز معالم الرحلة",
+        "andSeparator": " & ",
+        "listSeparator": "، "
+      },
       "messages": {
         "location": {
           "requestTitle": "من أين ستبدأ رحلتك؟",

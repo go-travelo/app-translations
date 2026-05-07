@@ -72,6 +72,14 @@
       "isTyping": "${name} tippt...",
       "typing": "Layla tippt...",
       "generatingTrip": "Ihre Reise wird erstellt...",
+      "tripGenerating": {
+        "routes": "Beste Routen, fixiert",
+        "transfers": "Flüge und Transfers verknüpfen",
+        "stays": "Deine perfekten Unterkünfte handverlesen",
+        "activities": "Die Highlights aneinanderreihen",
+        "andSeparator": " & ",
+        "listSeparator": ", "
+      },
       "messages": {
         "location": {
           "requestTitle": "Von wo wirst du abreisen?",

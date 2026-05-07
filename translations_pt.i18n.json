@@ -72,6 +72,14 @@
       "isTyping": "${name} está digitando...",
       "typing": "Layla está digitando...",
       "generatingTrip": "Gerando sua viagem...",
+      "tripGenerating": {
+        "routes": "Melhores rotas, garantidas",
+        "transfers": "Conectando voos e traslados",
+        "stays": "Selecionando suas estadias perfeitas",
+        "activities": "Alinhando os destaques",
+        "andSeparator": " & ",
+        "listSeparator": ", "
+      },
       "messages": {
         "location": {
           "requestTitle": "De onde você irá partir?",
