@@ -1674,8 +1674,8 @@
     "benefit2_description": "Hôtels, vols, activités — nous coordonnons tout pour votre voyage de rêve.",
     "benefit3_title": "${n}+ transferts organisés sans accroc",
     "benefit3_description": "D'étape en étape — nous assurons des correspondances parfaitement synchronisées sur votre itinéraire.",
-    "continue_with_human": "Continuer la réservation avec un conseiller",
-    "book_with_human": "Réserver avec un conseiller",
+    "continue_with_human": "Continuer avec un expert voyage",
+    "book_with_human": "Réserver avec un expert voyage",
     "continue_with_booking": "Continuer la réservation"
   },
   "create_screen": {

@@ -1801,8 +1801,8 @@
     "benefit2_description": "الفنادق والرحلات الجوية والأنشطة — ننسّق كل شيء لرحلتك الحلم.",
     "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
     "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
-    "continue_with_human": "متابعة الحجز مع مستشار",
-    "book_with_human": "احجز مع مستشار",
+    "continue_with_human": "تابع مع خبير سفر",
+    "book_with_human": "احجز مع خبير سفر",
     "continue_with_booking": "متابعة الحجز"
   },
   "create_screen": {
