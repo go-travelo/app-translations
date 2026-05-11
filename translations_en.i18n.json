@@ -694,7 +694,7 @@
     "last_name": "Last name",
     "edit_profile": "Edit profile",
     "member_since": "Member since ${date}",
-    "share_message": "Hey check out Layla. She can help us plan all our trips and inspire us on where to go: ${link}",
+    "share_message": "I've been using Layla to plan trips — she's genuinely good at it. Try her: ${link}",
     "terms_of_service": "Terms of Service",
     "account_already_linked": "Account already linked",
     "account_already_linked_message": "This account is already linked to another user. Would you like to sign in as this user?",

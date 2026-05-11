@@ -711,7 +711,7 @@
     "last_name": "שם משפחה",
     "edit_profile": "עריכת פרופיל",
     "member_since": "חבר מאז ${date}",
-    "share_message": "היי, תכיר/י את Layla. היא יכולה לעזור לנו לתכנן את כל הטיולים שלנו ולתת לנו השראה לאן לנסוע: ${link}",
+    "share_message": "אני משתמש/ת ב-Layla כדי לתכנן טיולים — היא ממש טובה בזה. תנסה/י אותה: ${link}",
     "terms_of_service": "תנאי השימוש",
     "account_already_linked": "החשבון הזה כבר מחובר",
     "account_already_linked_message": "החשבון הזה כבר מחובר למשתמש קיים. האם ברצונך להתחבר באמצעות משתמש זה?",

@@ -729,7 +729,7 @@
     "last_name": "الاسم الأخير",
     "edit_profile": "تعديل الملف الشخصي",
     "member_since": "عضو منذ ${date}",
-    "share_message": "مرحبًا، تحقق من Layla. يمكنها مساعدتنا في تخطيط جميع رحلاتنا وتلهمنا بأماكن الذهاب: ${link}",
+    "share_message": "أستخدم Layla لتخطيط رحلاتي — هي فعلاً ممتازة في ذلك. جربها: ${link}",
     "terms_of_service": "شروط الخدمة",
     "account_already_linked": "الحساب مرتبط بالفعل",
     "account_already_linked_message": "هذا الحساب مرتبط بمستخدم آخر. هل ترغب في تسجيل الدخول كهذا المستخدم؟",

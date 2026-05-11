@@ -694,7 +694,7 @@
     "last_name": "Achternaam",
     "edit_profile": "Bewerk profiel",
     "member_since": "Lid sinds ${date}",
-    "share_message": "Hé, bekijk Layla eens. Ze kan ons helpen al onze reizen te plannen en ons inspireren over waar naartoe te gaan: ${link}",
+    "share_message": "Ik gebruik Layla om reizen te plannen — ze is er echt goed in. Probeer maar: ${link}",
     "terms_of_service": "Algemene Voorwaarden",
     "account_already_linked": "Account al gekoppeld",
     "account_already_linked_message": "Dit account is al gekoppeld aan een andere gebruiker. Wil je inloggen als deze gebruiker?",

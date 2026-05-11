@@ -685,7 +685,7 @@
     "last_name": "姓",
     "edit_profile": "编辑个人资料",
     "member_since": "自${date}以来的成员",
-    "share_message": "嘿，来看看Layla。她可以帮助我们规划所有的旅行，并给我们提供去哪里的灵感：${link}",
+    "share_message": "我一直在用Layla规划旅行——她真的挺厉害的。试试看：${link}",
     "terms_of_service": "服务条款",
     "account_already_linked": "账号已经被链接",
     "account_already_linked_message": "此账号已经链接到其他用户。您是否想以此用户身份登录？",

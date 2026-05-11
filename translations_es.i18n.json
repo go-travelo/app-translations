@@ -694,7 +694,7 @@
     "last_name": "Apellido",
     "edit_profile": "Editar perfil",
     "member_since": "Miembro desde ${date}",
-    "share_message": "Hola, mira a Layla. Nos puede ayudar a organizar todos nuestros viajes y darnos ideas de a dónde ir: ${link}",
+    "share_message": "Uso Layla para organizar mis viajes — es buenísima. Pruébala: ${link}",
     "terms_of_service": "Términos de servicio",
     "account_already_linked": "Cuenta ya vinculada",
     "account_already_linked_message": "Esta cuenta ya está vinculada a otro usuario. ¿Quieres iniciar sesión como este usuario?",
