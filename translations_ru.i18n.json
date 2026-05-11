@@ -126,6 +126,12 @@
       "back_to_chat": "Вернуться к чату"
     }
   },
+  "discovery": {
+    "continue_planning": {
+      "title": "Продолжить планирование",
+      "subtitle": "Продолжите с того места, где остановились"
+    }
+  },
   "itineraries": {
     "itineraries": "Маршруты",
     "dayPart": [

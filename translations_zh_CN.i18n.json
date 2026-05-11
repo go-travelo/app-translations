@@ -126,6 +126,12 @@
       "back_to_chat": "返回聊天"
     }
   },
+  "discovery": {
+    "continue_planning": {
+      "title": "继续规划",
+      "subtitle": "从上次离开的地方继续"
+    }
+  },
   "itineraries": {
     "itineraries": "行程",
     "dayPart": [

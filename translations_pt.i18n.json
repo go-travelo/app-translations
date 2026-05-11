@@ -126,6 +126,12 @@
       "back_to_chat": "Voltar ao chat"
     }
   },
+  "discovery": {
+    "continue_planning": {
+      "title": "Continuar a planear",
+      "subtitle": "Continua de onde paraste"
+    }
+  },
   "itineraries": {
     "itineraries": "Itinerários",
     "dayPart": [

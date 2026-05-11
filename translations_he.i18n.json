@@ -126,6 +126,12 @@
       "back_to_chat": "חזרה לצ'אט"
     }
   },
+  "discovery": {
+    "continue_planning": {
+      "title": "המשך לתכנן",
+      "subtitle": "המשך מהמקום שבו עצרת"
+    }
+  },
   "itineraries": {
     "itineraries": "תכנונים יומיים",
     "dayPart": [

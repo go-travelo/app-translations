@@ -126,6 +126,12 @@
       "back_to_chat": "العودة إلى الدردشة"
     }
   },
+  "discovery": {
+    "continue_planning": {
+      "title": "تابع التخطيط",
+      "subtitle": "تابع من حيث توقفت"
+    }
+  },
   "itineraries": {
     "itineraries": "مسارات",
     "dayPart": [
