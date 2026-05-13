@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "Planung fortsetzen",
       "subtitle": "Mach dort weiter, wo du aufgehört hast"
-    }
+    },
+    "feed_unavailable": "Entdecken konnte nicht geladen werden. Bitte versuche es erneut.",
+    "untitled_trip": "Neue Reise",
+    "created_on": "Erstellt am ${date}"
   },
   "itineraries": {
     "itineraries": "Reisepläne",

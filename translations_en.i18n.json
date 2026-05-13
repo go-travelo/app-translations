@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "Continue planning",
       "subtitle": "Pick up where you left off"
-    }
+    },
+    "feed_unavailable": "Couldn't load the Discover feed. Please try again.",
+    "untitled_trip": "New Trip",
+    "created_on": "Created on ${date}"
   },
   "itineraries": {
     "itineraries": "Itineraries",

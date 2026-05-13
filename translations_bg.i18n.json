@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "Продължи планирането",
       "subtitle": "Продължи оттам, докъдето стигна"
-    }
+    },
+    "feed_unavailable": "Не успяхме да заредим Открий. Опитайте отново.",
+    "untitled_trip": "Ново пътуване",
+    "created_on": "Създадено на ${date}"
   },
   "itineraries": {
     "itineraries": "Планове за пътуване",

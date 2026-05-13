@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "המשך לתכנן",
       "subtitle": "המשך מהמקום שבו עצרת"
-    }
+    },
+    "feed_unavailable": "טעינת לשונית הגילוי נכשלה. נסו שוב.",
+    "untitled_trip": "טיול חדש",
+    "created_on": "נוצר ב-${date}"
   },
   "itineraries": {
     "itineraries": "תכנונים יומיים",

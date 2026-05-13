@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "继续规划",
       "subtitle": "从上次离开的地方继续"
-    }
+    },
+    "feed_unavailable": "无法加载发现内容，请重试。",
+    "untitled_trip": "新行程",
+    "created_on": "创建于 ${date}"
   },
   "itineraries": {
     "itineraries": "行程",

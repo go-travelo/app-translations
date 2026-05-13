@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "تابع التخطيط",
       "subtitle": "تابع من حيث توقفت"
-    }
+    },
+    "feed_unavailable": "تعذّر تحميل قسم الاكتشاف. يُرجى المحاولة مرة أخرى.",
+    "untitled_trip": "رحلة جديدة",
+    "created_on": "أُنشئت في ${date}"
   },
   "itineraries": {
     "itineraries": "مسارات",

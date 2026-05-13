@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "Verder plannen",
       "subtitle": "Ga verder waar je gebleven was"
-    }
+    },
+    "feed_unavailable": "Ontdek kon niet worden geladen. Probeer het opnieuw.",
+    "untitled_trip": "Nieuwe reis",
+    "created_on": "Gemaakt op ${date}"
   },
   "itineraries": {
     "itineraries": "Routes",

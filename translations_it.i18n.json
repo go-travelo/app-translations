@@ -130,7 +130,10 @@
     "continue_planning": {
       "title": "Continua a pianificare",
       "subtitle": "Riprendi da dove avevi lasciato"
-    }
+    },
+    "feed_unavailable": "Impossibile caricare Scopri. Riprova.",
+    "untitled_trip": "Nuovo viaggio",
+    "created_on": "Creato il ${date}"
   },
   "itineraries": {
     "itineraries": "Itinerari",
