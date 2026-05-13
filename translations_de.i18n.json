@@ -369,8 +369,8 @@
     "how_many_people": "Wie viele Personen?",
     "connection_in": "Verbindung im Flughafen",
     "total_for": {
-      "one": "Gesamt für ${n} reisenden",
-      "other": "Gesamt für ${n} reisende"
+      "one": "Gesamt für ${n} Reisenden",
+      "other": "Gesamt für ${n} Reisende"
     },
     "search_flights": "Flüge suchen",
     "read_before_booking": "Vor der Buchung lesen",
@@ -392,16 +392,16 @@
     "dates_updated_successfully": "Daten erfolgreich aktualisiert",
     "we_collected_cheapest_providers": "Hier sind die vertrauenswürdigen Reisepartner von Skyscanner, über die Sie Ihren Flug buchen können - wählen Sie eine Website aus, auf der Sie das Flugticket kaufen möchten!",
     "travellers": {
-      "one": "${n} reisender",
-      "other": "${n} reisende"
+      "one": "${n} Reisender",
+      "other": "${n} Reisende"
     },
     "provider_found": {
-      "one": "${n} anbieter gefunden",
-      "other": "${n} anbieter gefunden"
+      "one": "${n} Anbieter gefunden",
+      "other": "${n} Anbieter gefunden"
     },
     "passengers": {
-      "one": "${n} passagier",
-      "other": "${n} passagiere"
+      "one": "${n} Passagier",
+      "other": "${n} Passagiere"
     },
     "one_way": "Nur Hinreise",
     "youll_arrive_next_day": "Du wirst am nächsten Tag ankommen",
@@ -530,8 +530,8 @@
     "check_availability": "Verfügbarkeit prüfen",
     "select_dates": "Daten auswählen",
     "detailed_reviews": {
-      "one": "${n} detaillierte bewertung",
-      "other": "${n} detaillierte bewertungen"
+      "one": "${n} detaillierte Bewertung",
+      "other": "${n} detaillierte Bewertungen"
     },
     "rooms_and_guests": "Zimmer & Gäste",
     "stays_close_by": "Unterkünfte in der Nähe",
@@ -846,53 +846,53 @@
     "S"
   ],
   "adults": {
-    "one": "${n} erwachsener",
-    "other": "${n} erwachsene"
+    "one": "${n} Erwachsener",
+    "other": "${n} Erwachsene"
   },
   "dayN": "Tag ${n}",
   "days": {
-    "one": "${n} tag",
-    "other": "${n} tage"
+    "one": "${n} Tag",
+    "other": "${n} Tage"
   },
   "children": {
-    "one": "${n} kind",
-    "other": "${n} kinder"
+    "one": "${n} Kind",
+    "other": "${n} Kinder"
   },
   "guest": {
-    "one": "${n} gast",
-    "other": "${n} gäste"
+    "one": "${n} Gast",
+    "other": "${n} Gäste"
   },
   "room": {
-    "one": "${n} zimmer",
-    "other": "${n} zimmer"
+    "one": "${n} Zimmer",
+    "other": "${n} Zimmer"
   },
   "person": {
-    "one": "${n} person",
-    "other": "${n} personen"
+    "one": "${n} Person",
+    "other": "${n} Personen"
   },
   "review": {
-    "one": "${n} bewertung",
-    "other": "${n} bewertungen"
+    "one": "${n} Bewertung",
+    "other": "${n} Bewertungen"
   },
   "rooms": {
-    "one": "${n} zimmer",
-    "other": "${n} zimmer"
+    "one": "${n} Zimmer",
+    "other": "${n} Zimmer"
   },
   "stop": {
-    "one": "${n} zwischenstopp",
-    "other": "${n} zwischenstopps"
+    "one": "${n} Zwischenstopp",
+    "other": "${n} Zwischenstopps"
   },
   "stop_plus": {
-    "one": "${n} stopp",
-    "other": "${n}+ stopps"
+    "one": "${n} Stopp",
+    "other": "${n}+ Stopps"
   },
   "traveller": {
-    "one": "${n} reisender",
-    "other": "${n} reisende"
+    "one": "${n} Reisender",
+    "other": "${n} Reisende"
   },
   "age": {
-    "one": "${n} jahr alt",
-    "other": "${n} jahre alt"
+    "one": "${n} Jahr alt",
+    "other": "${n} Jahre alt"
   },
   "about": "Über uns",
   "activity": "Aktivität",
@@ -1087,7 +1087,7 @@
       "dayLabel": "Tag ${start} - ${end}",
       "experience": "${count} Erlebnis",
       "experiences": "${count} Erlebnisse",
-      "total": "gesamt"
+      "total": "Gesamt"
     },
     "transport": {
       "title": "Transport",
@@ -1364,7 +1364,7 @@
         "dayLabel": "TAG ${n}",
         "experience": "Erlebnis",
         "experiences": "Erlebnisse",
-        "total": "gesamt"
+        "total": "Gesamt"
       },
       "carCard": {
         "yourRental": "Ihre Miete",
@@ -1372,7 +1372,7 @@
         "dropOff": "Abgabe",
         "selected": "Ausgewählt",
         "addToTrip": "Zur Reise hinzufügen",
-        "perTotal": "/gesamt",
+        "perTotal": "/Gesamt",
         "freeCancellation": "Kostenlose Stornierung",
         "at": "um"
       },
@@ -1388,7 +1388,7 @@
         "reviews": "Bewertungen",
         "selected": "Ausgewählt",
         "addToTrip": "Zur Reise hinzufügen",
-        "total": "gesamt"
+        "total": "Gesamt"
       }
     },
     "widgets": {
@@ -1513,28 +1513,28 @@
   "yesterday": "Gestern",
   "time_ago": {
     "years": {
-      "one": "${n} vor jahr",
-      "other": "${n} vor jahren"
+      "one": "vor ${n} Jahr",
+      "other": "vor ${n} Jahren"
     },
     "months": {
-      "one": "${n} vor monat",
-      "other": "${n} vor monaten"
+      "one": "vor ${n} Monat",
+      "other": "vor ${n} Monaten"
     },
     "days": {
-      "one": "${n} vor tag",
-      "other": "${n} vor tagen"
+      "one": "vor ${n} Tag",
+      "other": "vor ${n} Tagen"
     },
     "hours": {
-      "one": "${n} vor stunde",
-      "other": "${n} vor stunden"
+      "one": "vor ${n} Stunde",
+      "other": "vor ${n} Stunden"
     },
     "minutes": {
-      "one": "${n} vor Minute",
-      "other": "${n}  vor Minuten"
+      "one": "vor ${n} Minute",
+      "other": "vor ${n} Minuten"
     },
     "seconds": {
-      "one": "${n} vor sekunde",
-      "other": "${n} vor sekunden"
+      "one": "vor ${n} Sekunde",
+      "other": "vor ${n} Sekunden"
     },
     "just_now": "Gerade eben"
   },
