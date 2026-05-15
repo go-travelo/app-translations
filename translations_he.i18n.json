@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "דברים שאת/ה יכול/ה לשאול אותי!",
       "description": "אני כאן כדי לעזור לך לתכנן את ההרפתקה הבאה שלך. שאל/י אותי כל מה שתרצה/תרצי על היעד ואני אענה. הנה כמה דברים שכבר שאלו אותי...",
-      "possible_prompts": "שאלות נפוצות",
+      "possible_prompts": "שאלות נפוצות:",
       "ask_layla": "שאל/י את Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "יום"
+        },
+        "botPrompts": {
+          "selectDestinations": "בחר ${destinations}",
+          "generateTripFor": "צור טיול ל-${destinations}"
         }
       },
       "messageHint": "שאל/י אותי כל דבר",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה.",
         "continueWithHuman": "המשך הזמנה עם נציג אנושי"
       },
-      "possibleNextSteps": "צעדים אפשריים הבאים"
+      "possibleNextSteps": "צעדים אפשריים הבאים",
+      "continueWithSelected": "המשך עם ${n} שנבחרו"
     },
     "trip_empty": {
       "title": "צ'אט ויצירת טיול",
@@ -1127,7 +1132,9 @@
       "stops": "${count} עצירות",
       "bookThisFlight": "הזמן טיסה זו",
       "totalDuration": "סך הכל ${duration}",
-      "layoverAt": "עצירה ב-${airport}: ${duration}"
+      "layoverAt": "עצירה ב-${airport}: ${duration}",
+      "connectIn": "החלפה ב-${airport}",
+      "connectionShort": "החלפה"
     },
     "hotel": {
       "title": "מלון",
@@ -1460,7 +1467,8 @@
       "bus": "אוטובוס",
       "car": "רכב",
       "ferry": "מעבורת",
-      "transportation": "תחבורה"
+      "transportation": "תחבורה",
+      "all": "הכל"
     },
     "cabinClass": {
       "economy": "מחלקת תיירים",
@@ -1539,7 +1547,9 @@
           "many": "${n} ימים",
           "other": "${n} ימים"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "לא נמצאו פעילויות",
@@ -1552,7 +1562,18 @@
       "transportTrain": "רכבת",
       "transportRental": "השכרה"
     },
-    "timeline": "ציר זמן"
+    "timeline": "ציר זמן",
+    "flightsSortBar": {
+      "sort": "מיון",
+      "airlines": "חברות תעופה",
+      "stops": "עצירות",
+      "time": "זמן",
+      "price": "מחיר"
+    },
+    "distance": {
+      "km": "${n} ק\"מ",
+      "meters": "${n} מ'"
+    }
   },
   "tripWord": "טיול",
   "unknown_error": "שגיאה לא ידועה",

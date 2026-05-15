@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Dinge, die du mich fragen kannst!",
       "description": "Ich bin hier, um dir bei der Planung deines nächsten Abenteuers zu helfen. Frag mich alles über dein Reiseziel, ich habe die Antwort. Hier sind ein paar Dinge, die mich bereits gefragt wurden...",
-      "possible_prompts": "Häufige Fragen",
+      "possible_prompts": "Häufige Fragen:",
       "ask_layla": "Frag Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Tag"
+        },
+        "botPrompts": {
+          "selectDestinations": "${destinations} auswählen",
+          "generateTripFor": "Reise planen für: ${destinations}"
         }
       },
       "messageHint": "Frag mich irgendetwas",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt.",
         "continueWithHuman": "Buchung mit einem Menschen fortsetzen"
       },
-      "possibleNextSteps": "Mögliche nächste Schritte"
+      "possibleNextSteps": "Mögliche nächste Schritte",
+      "continueWithSelected": "Weiter mit ${n} ausgewählt"
     },
     "trip_empty": {
       "title": "Chat & Reise erstellen",
@@ -1073,7 +1078,9 @@
       "stops": "${count} Zwischenstopps",
       "bookThisFlight": "Diesen Flug buchen",
       "totalDuration": "Gesamt ${duration}",
-      "layoverAt": "Zwischenstopp ${airport}: ${duration}"
+      "layoverAt": "Zwischenstopp ${airport}: ${duration}",
+      "connectIn": "Umsteigen in ${airport}",
+      "connectionShort": "Umsteigen"
     },
     "hotel": {
       "title": "Hotel",
@@ -1406,7 +1413,8 @@
       "bus": "Bus",
       "car": "Auto",
       "ferry": "Fähre",
-      "transportation": "Transport"
+      "transportation": "Transport",
+      "all": "Alle"
     },
     "cabinClass": {
       "economy": "Economy-Klasse",
@@ -1479,7 +1487,9 @@
           "one": "${n} Tag",
           "other": "${n} Tage"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Keine Aktivitäten gefunden",
@@ -1492,7 +1502,18 @@
       "transportTrain": "Zug",
       "transportRental": "Mietwagen"
     },
-    "timeline": "Zeitplan"
+    "timeline": "Zeitplan",
+    "flightsSortBar": {
+      "sort": "Sortieren",
+      "airlines": "Fluggesellschaften",
+      "stops": "Zwischenstopps",
+      "time": "Zeit",
+      "price": "Preis"
+    },
+    "distance": {
+      "km": "${n} km",
+      "meters": "${n} m"
+    }
   },
   "tripWord": "Reise",
   "unknown_error": "Unbekannter Fehler",

@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Cose che puoi chiedermi!",
       "description": "Sono qui per aiutarti a pianificare la tua prossima avventura. Chiedimi qualsiasi cosa sulla destinazione che hai in mente, avrò la risposta. Ecco alcune delle cose che la gente mi ha già chiesto...",
-      "possible_prompts": "Domande frequenti",
+      "possible_prompts": "Domande frequenti:",
       "ask_layla": "Chiedi a Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Giorno"
+        },
+        "botPrompts": {
+          "selectDestinations": "Seleziona ${destinations}",
+          "generateTripFor": "Crea un viaggio per: ${destinations}"
         }
       },
       "messageHint": "Chiedimi qualsiasi cosa",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Questa è una versione precedente. Il tuo ultimo viaggio è mostrato sopra.",
         "continueWithHuman": "Continua la prenotazione con un agente"
       },
-      "possibleNextSteps": "Possibili prossimi passi"
+      "possibleNextSteps": "Possibili prossimi passi",
+      "continueWithSelected": "Continua con ${n} selezionati"
     },
     "trip_empty": {
       "title": "Chatta e crea un viaggio",
@@ -1073,7 +1078,9 @@
       "stops": "${count} scali",
       "bookThisFlight": "Prenota questo volo",
       "totalDuration": "Totale ${duration}",
-      "layoverAt": "Scalo ${airport}: ${duration}"
+      "layoverAt": "Scalo ${airport}: ${duration}",
+      "connectIn": "Scalo a ${airport}",
+      "connectionShort": "Scalo"
     },
     "hotel": {
       "title": "Hotel",
@@ -1406,7 +1413,8 @@
       "bus": "Autobus",
       "car": "Auto",
       "ferry": "Traghetto",
-      "transportation": "Trasporto"
+      "transportation": "Trasporto",
+      "all": "Tutti"
     },
     "cabinClass": {
       "economy": "Classe Economica",
@@ -1479,7 +1487,9 @@
           "one": "${n} giorno",
           "other": "${n} giorni"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Nessuna attività trovata",
@@ -1492,7 +1502,18 @@
       "transportTrain": "Treno",
       "transportRental": "Noleggio"
     },
-    "timeline": "Cronologia"
+    "timeline": "Cronologia",
+    "flightsSortBar": {
+      "sort": "Ordina",
+      "airlines": "Compagnie aeree",
+      "stops": "Scali",
+      "time": "Orario",
+      "price": "Prezzo"
+    },
+    "distance": {
+      "km": "${n} km",
+      "meters": "${n} m"
+    }
   },
   "tripWord": "Viaggio",
   "unknown_error": "Errore sconosciuto",

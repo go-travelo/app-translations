@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Неща, за които можеш да ме попиташ!",
       "description": "Тук съм, за да ти помогна да планираш следващото си приключение. Попитай ме всичко за дестинацията, имам отговор. Ето няколко неща за които хората вече ме попитаха...",
-      "possible_prompts": "Често Задавани Въпроси",
+      "possible_prompts": "Често задавани въпроси:",
       "ask_layla": "Попитай Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Ден"
+        },
+        "botPrompts": {
+          "selectDestinations": "Избери ${destinations}",
+          "generateTripFor": "Създай пътуване до: ${destinations}"
         }
       },
       "messageHint": "Попитайте ме за всичко",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе.",
         "continueWithHuman": "Продължете резервацията с агент"
       },
-      "possibleNextSteps": "Възможни следващи стъпки"
+      "possibleNextSteps": "Възможни следващи стъпки",
+      "continueWithSelected": "Продължи с ${n} избрани"
     },
     "trip_empty": {
       "title": "Чат и създаване на пътуване",
@@ -1073,7 +1078,9 @@
       "stops": "${count} спирки",
       "bookThisFlight": "Резервирайте този полет",
       "totalDuration": "Общо ${duration}",
-      "layoverAt": "Престой в ${airport}: ${duration}"
+      "layoverAt": "Престой в ${airport}: ${duration}",
+      "connectIn": "Връзка в ${airport}",
+      "connectionShort": "Връзка"
     },
     "hotel": {
       "title": "Хотел",
@@ -1406,7 +1413,8 @@
       "bus": "Автобус",
       "car": "Кола",
       "ferry": "Ферибот",
-      "transportation": "Транспортиране"
+      "transportation": "Транспортиране",
+      "all": "Всички"
     },
     "cabinClass": {
       "economy": "Икономична Класа",
@@ -1479,7 +1487,9 @@
           "one": "${n} ден",
           "other": "${n} дни"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Няма намерени дейности",
@@ -1492,7 +1502,18 @@
       "transportTrain": "Влак",
       "transportRental": "Наем"
     },
-    "timeline": "Хронология"
+    "timeline": "Хронология",
+    "flightsSortBar": {
+      "sort": "Сортиране",
+      "airlines": "Авиокомпании",
+      "stops": "Спирки",
+      "time": "Време",
+      "price": "Цена"
+    },
+    "distance": {
+      "km": "${n} км",
+      "meters": "${n} м"
+    }
   },
   "tripWord": "Пътуване",
   "unknown_error": "Неизвестна грешка",

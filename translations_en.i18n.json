@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Things you can ask me!",
       "description": "I'm here to help you plan your next adventure. Ask me anything about the destination, I'll have the answer. Here are a few things that people already asked me...",
-      "possible_prompts": "Common Questions",
+      "possible_prompts": "Common Questions:",
       "ask_layla": "Ask Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Day"
+        },
+        "botPrompts": {
+          "selectDestinations": "Select ${destinations}",
+          "generateTripFor": "Generate trip for: ${destinations}"
         }
       },
       "messageHint": "Ask me anything",
@@ -118,7 +122,8 @@
         "previousTrip": "Previous trip",
         "expiredTripTooltip": "This is a previous version. Your latest trip is shown above.",
         "continueWithHuman": "Continue booking with a Human"
-      }
+      },
+      "continueWithSelected": "Continue with ${n} selected"
     },
     "trip_empty": {
       "title": "Chat & create trip",
@@ -1102,7 +1107,9 @@
       "stops": "${count} stops",
       "bookThisFlight": "Book this Flight",
       "totalDuration": "Total ${duration}",
-      "layoverAt": "Layover ${airport}: ${duration}"
+      "layoverAt": "Layover ${airport}: ${duration}",
+      "connectIn": "Connect in ${airport}",
+      "connectionShort": "Connection"
     },
     "hotel": {
       "title": "Hotel",
@@ -1436,7 +1443,8 @@
       "bus": "Bus",
       "car": "Car",
       "ferry": "Ferry",
-      "transportation": "Transportation"
+      "transportation": "Transportation",
+      "all": "All"
     },
     "cabinClass": {
       "economy": "Economy Class",
@@ -1471,6 +1479,8 @@
     "overview": {
       "madeBy": "Made by ${creator}",
       "highlightsTitle": "Trip highlights at a glance",
+      "maxTemperature": "${n}°F",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "Show All",
       "showAllFlights": "Show all flights",
       "showAllTransport": "Show all transport",
@@ -1521,6 +1531,17 @@
       "transportFlight": "Flight",
       "transportTrain": "Train",
       "transportRental": "Rental"
+    },
+    "flightsSortBar": {
+      "sort": "Sort",
+      "airlines": "Airlines",
+      "stops": "Stops",
+      "time": "Time",
+      "price": "Price"
+    },
+    "distance": {
+      "km": "${n} km",
+      "meters": "${n} m"
     }
   },
   "tripWord": "Trip",

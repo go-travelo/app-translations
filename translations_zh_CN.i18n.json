@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "你可以问我这些问题！",
       "description": "我在这里帮助你计划你的下一个冒险。无论是对目的地的任何问题，我都能回答。下面是一些人们已经问过我的问题...",
-      "possible_prompts": "常见问题",
+      "possible_prompts": "常见问题：",
       "ask_layla": "问Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "天"
+        },
+        "botPrompts": {
+          "selectDestinations": "选择${destinations}",
+          "generateTripFor": "为以下目的地生成行程：${destinations}"
         }
       },
       "messageHint": "随便问我",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。",
         "continueWithHuman": "与人工客服继续预订"
       },
-      "possibleNextSteps": "可能的下一步"
+      "possibleNextSteps": "可能的下一步",
+      "continueWithSelected": "继续，已选择 ${n} 项"
     },
     "trip_empty": {
       "title": "聊天并创建行程",
@@ -1048,7 +1053,9 @@
       "stops": "${count}次中转",
       "bookThisFlight": "预订此航班",
       "totalDuration": "总时长 ${duration}",
-      "layoverAt": "中转 ${airport}: ${duration}"
+      "layoverAt": "中转 ${airport}: ${duration}",
+      "connectIn": "在 ${airport} 中转",
+      "connectionShort": "中转"
     },
     "hotel": {
       "title": "酒店",
@@ -1381,7 +1388,8 @@
       "bus": "巴士",
       "car": "汽车",
       "ferry": "渡轮",
-      "transportation": "交通"
+      "transportation": "交通",
+      "all": "全部"
     },
     "cabinClass": {
       "economy": "经济舱",
@@ -1454,7 +1462,9 @@
           "one": "${n} 天",
           "other": "${n} 天"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "未找到活动",
@@ -1467,7 +1477,18 @@
       "transportTrain": "火车",
       "transportRental": "租车"
     },
-    "timeline": "时间线"
+    "timeline": "时间线",
+    "flightsSortBar": {
+      "sort": "排序",
+      "airlines": "航空公司",
+      "stops": "经停",
+      "time": "时间",
+      "price": "价格"
+    },
+    "distance": {
+      "km": "${n} 公里",
+      "meters": "${n} 米"
+    }
   },
   "tripWord": "旅行",
   "unknown_error": "未知错误",

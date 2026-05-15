@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Les choses que tu peux me demander !",
       "description": "Je suis là pour t'aider à planifier ta prochaine aventure. Demande-moi tout sur la destination, j'aurai la réponse. Voici quelques choses que les gens m'ont déjà demandées...",
-      "possible_prompts": "Questions fréquentes",
+      "possible_prompts": "Questions fréquentes :",
       "ask_layla": "Demande à Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Jour"
+        },
+        "botPrompts": {
+          "selectDestinations": "Sélectionner ${destinations}",
+          "generateTripFor": "Créer un voyage pour : ${destinations}"
         }
       },
       "messageHint": "Demandez-moi n'importe quoi",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Ceci est une version précédente. Votre dernier voyage est affiché ci-dessus.",
         "continueWithHuman": "Continuer la réservation avec un conseiller"
       },
-      "possibleNextSteps": "Prochaines étapes possibles"
+      "possibleNextSteps": "Prochaines étapes possibles",
+      "continueWithSelected": "Continuer avec ${n} sélectionné(s)"
     },
     "trip_empty": {
       "title": "Discuter et créer un voyage",
@@ -1073,7 +1078,9 @@
       "stops": "${count} escales",
       "bookThisFlight": "Réserver ce vol",
       "totalDuration": "Total ${duration}",
-      "layoverAt": "Escale à ${airport}: ${duration}"
+      "layoverAt": "Escale à ${airport}: ${duration}",
+      "connectIn": "Correspondance à ${airport}",
+      "connectionShort": "Correspondance"
     },
     "hotel": {
       "title": "Hôtel",
@@ -1406,7 +1413,8 @@
       "bus": "Bus",
       "car": "Voiture",
       "ferry": "Ferry",
-      "transportation": "Transport"
+      "transportation": "Transport",
+      "all": "Tous"
     },
     "cabinClass": {
       "economy": "Classe Économique",
@@ -1479,7 +1487,9 @@
           "one": "${n} jour",
           "other": "${n} jours"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Aucune activité trouvée",
@@ -1492,7 +1502,18 @@
       "transportTrain": "Train",
       "transportRental": "Location"
     },
-    "timeline": "Chronologie"
+    "timeline": "Chronologie",
+    "flightsSortBar": {
+      "sort": "Trier",
+      "airlines": "Compagnies aériennes",
+      "stops": "Escales",
+      "time": "Heure",
+      "price": "Prix"
+    },
+    "distance": {
+      "km": "${n} km",
+      "meters": "${n} m"
+    }
   },
   "tripWord": "Voyage",
   "unknown_error": "Erreur inconnue",

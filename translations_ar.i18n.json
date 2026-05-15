@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "بعض الأسئلة التي يمكنك طرحها",
       "description": "أنا هنا لمساعدتك في تخطيط مغامرتك القادمة. اسألني أي شيء عن الوجهة وسأكون لدي الإجابة. إليك بعض الأمور التي سألني عنها الآخرون بالفعل...",
-      "possible_prompts": "أسئلة شائعة",
+      "possible_prompts": "أسئلة شائعة:",
       "ask_layla": "اسأل Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "اليوم"
+        },
+        "botPrompts": {
+          "selectDestinations": "اختر ${destinations}",
+          "generateTripFor": "خطّط رحلة إلى: ${destinations}"
         }
       },
       "messageHint": "اسألني أي شيء",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه.",
         "continueWithHuman": "متابعة الحجز مع مستشار"
       },
-      "possibleNextSteps": "الخطوات المحتملة التالية"
+      "possibleNextSteps": "الخطوات المحتملة التالية",
+      "continueWithSelected": "متابعة مع ${n} محدد"
     },
     "trip_empty": {
       "title": "الدردشة وإنشاء رحلة",
@@ -1180,7 +1185,9 @@
       "stops": "${count} توقفات",
       "bookThisFlight": "احجز هذه الرحلة",
       "totalDuration": "الإجمالي ${duration}",
-      "layoverAt": "توقف في ${airport}: ${duration}"
+      "layoverAt": "توقف في ${airport}: ${duration}",
+      "connectIn": "توقف في ${airport}",
+      "connectionShort": "توقف"
     },
     "hotel": {
       "title": "فندق",
@@ -1513,7 +1520,8 @@
       "bus": "حافلة",
       "car": "سيارة",
       "ferry": "عبارة",
-      "transportation": "النقل"
+      "transportation": "النقل",
+      "all": "الكل"
     },
     "cabinClass": {
       "economy": "الدرجة الاقتصادية",
@@ -1598,7 +1606,9 @@
           "many": "${n} أيام",
           "other": "${n} أيام"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "لم يتم العثور على أنشطة",
@@ -1611,7 +1621,18 @@
       "transportTrain": "قطار",
       "transportRental": "إيجار"
     },
-    "timeline": "الجدول الزمني"
+    "timeline": "الجدول الزمني",
+    "flightsSortBar": {
+      "sort": "ترتيب",
+      "airlines": "شركات الطيران",
+      "stops": "التوقفات",
+      "time": "الوقت",
+      "price": "السعر"
+    },
+    "distance": {
+      "km": "${n} كم",
+      "meters": "${n} م"
+    }
   },
   "tripWord": "رحلة",
   "unknown_error": "خطأ غير معروف",

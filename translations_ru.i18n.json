@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Вопросы, которые вы можете задать мне!",
       "description": "Я здесь, чтобы помочь вам спланировать ваше следующее приключение. Спросите у меня что угодно о месте назначения, у меня будет ответ. Вот несколько вещей, о которых меня уже спрашивали...",
-      "possible_prompts": "Часто задаваемые вопросы",
+      "possible_prompts": "Частые вопросы:",
       "ask_layla": "Спросить Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "День"
+        },
+        "botPrompts": {
+          "selectDestinations": "Выбрать ${destinations}",
+          "generateTripFor": "Составить поездку: ${destinations}"
         }
       },
       "messageHint": "Задайте мне любой вопрос",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше.",
         "continueWithHuman": "Продолжить бронирование с агентом"
       },
-      "possibleNextSteps": "Возможные следующие шаги"
+      "possibleNextSteps": "Возможные следующие шаги",
+      "continueWithSelected": "Продолжить с ${n} выбранными"
     },
     "trip_empty": {
       "title": "Чат и создание поездки",
@@ -1127,7 +1132,9 @@
       "stops": "${count} остановок",
       "bookThisFlight": "Забронировать этот рейс",
       "totalDuration": "Итого ${duration}",
-      "layoverAt": "Пересадка в ${airport}: ${duration}"
+      "layoverAt": "Пересадка в ${airport}: ${duration}",
+      "connectIn": "Пересадка в ${airport}",
+      "connectionShort": "Пересадка"
     },
     "hotel": {
       "title": "Отель",
@@ -1460,7 +1467,8 @@
       "bus": "Автобус",
       "car": "Автомобиль",
       "ferry": "Паром",
-      "transportation": "Транспорт"
+      "transportation": "Транспорт",
+      "all": "Все"
     },
     "cabinClass": {
       "economy": "Эконом-класс",
@@ -1539,7 +1547,9 @@
           "many": "${n} дней",
           "other": "${n} дня"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Активности не найдены",
@@ -1552,7 +1562,18 @@
       "transportTrain": "Поезд",
       "transportRental": "Аренда"
     },
-    "timeline": "Хронология"
+    "timeline": "Хронология",
+    "flightsSortBar": {
+      "sort": "Сортировка",
+      "airlines": "Авиакомпании",
+      "stops": "Пересадки",
+      "time": "Время",
+      "price": "Цена"
+    },
+    "distance": {
+      "km": "${n} км",
+      "meters": "${n} м"
+    }
   },
   "tripWord": "Поездка",
   "unknown_error": "Неизвестная ошибка",

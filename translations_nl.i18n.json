@@ -56,7 +56,7 @@
     "things_ask": {
       "title": "Dingen die je me kunt vragen!",
       "description": "Ik ben hier om je te helpen je volgende avontuur te plannen. Vraag me alles over de bestemming, ik heb het antwoord. Hier zijn een paar dingen die mensen me al hebben gevraagd...",
-      "possible_prompts": "Veelgestelde vragen",
+      "possible_prompts": "Veelgestelde vragen:",
       "ask_layla": "Vraag het Layla"
     },
     "chat_settings": {
@@ -97,6 +97,10 @@
         },
         "itinerary": {
           "day": "Dag"
+        },
+        "botPrompts": {
+          "selectDestinations": "${destinations} selecteren",
+          "generateTripFor": "Reis maken naar: ${destinations}"
         }
       },
       "messageHint": "Vraag me iets",
@@ -118,7 +122,8 @@
         "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven.",
         "continueWithHuman": "Doorgaan met boeken via een medewerker"
       },
-      "possibleNextSteps": "Mogelijke volgende stappen"
+      "possibleNextSteps": "Mogelijke volgende stappen",
+      "continueWithSelected": "Doorgaan met ${n} geselecteerd"
     },
     "trip_empty": {
       "title": "Chat & maak een reis",
@@ -1073,7 +1078,9 @@
       "stops": "${count} stops",
       "bookThisFlight": "Boek deze vlucht",
       "totalDuration": "Totaal ${duration}",
-      "layoverAt": "Tussenstop ${airport}: ${duration}"
+      "layoverAt": "Tussenstop ${airport}: ${duration}",
+      "connectIn": "Overstap in ${airport}",
+      "connectionShort": "Overstap"
     },
     "hotel": {
       "title": "Hotel",
@@ -1406,7 +1413,8 @@
       "bus": "Bus",
       "car": "Auto",
       "ferry": "Veerboot",
-      "transportation": "Vervoer"
+      "transportation": "Vervoer",
+      "all": "Alle"
     },
     "cabinClass": {
       "economy": "Economy Class",
@@ -1479,7 +1487,9 @@
           "one": "${n} dag",
           "other": "${n} dagen"
         }
-      }
+      },
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5"
     },
     "lists": {
       "noActivitiesFound": "Geen activiteiten gevonden",
@@ -1492,7 +1502,18 @@
       "transportTrain": "Trein",
       "transportRental": "Huurwagen"
     },
-    "timeline": "Tijdlijn"
+    "timeline": "Tijdlijn",
+    "flightsSortBar": {
+      "sort": "Sorteren",
+      "airlines": "Luchtvaartmaatschappijen",
+      "stops": "Tussenstops",
+      "time": "Tijd",
+      "price": "Prijs"
+    },
+    "distance": {
+      "km": "${n} km",
+      "meters": "${n} m"
+    }
   },
   "tripWord": "Reis",
   "unknown_error": "Onbekende fout",
