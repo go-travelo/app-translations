@@ -277,6 +277,8 @@
     "show_videos_of": "Show me videos of ${destination}",
     "trip_card": {
       "plan_trip": "Plan Trip",
+      "feed_cta": "See the full trip",
+      "detail_cta": "Customize this trip",
       "help_me_plan": "Help me plan a trip like this",
       "planning_failed": "Failed to start planning. Please try again.",
       "highlight_activities": "Highlight Activities",

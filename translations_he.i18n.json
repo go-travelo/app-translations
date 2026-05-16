@@ -281,6 +281,8 @@
     "show_videos_of": "הראה לי סרטונים של ${destination}",
     "trip_card": {
       "plan_trip": "תכנן טיול",
+      "feed_cta": "צפייה בטיול המלא",
+      "detail_cta": "התאמת הטיול",
       "help_me_plan": "עזור לי לתכנן טיול כזה",
       "planning_failed": "תכנון הטיול נכשל. אנא נסה שנית.",
       "highlight_activities": "פעילויות מומלצות",

@@ -277,6 +277,8 @@
     "show_videos_of": "Mostrami video di ${destination}",
     "trip_card": {
       "plan_trip": "Pianifica il viaggio",
+      "feed_cta": "Vedi il viaggio completo",
+      "detail_cta": "Personalizza il viaggio",
       "help_me_plan": "Aiutami a pianificare un viaggio come questo",
       "planning_failed": "Impossibile avviare la pianificazione. Riprova.",
       "highlight_activities": "Attività in evidenza",

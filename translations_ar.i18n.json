@@ -285,6 +285,8 @@
     "show_videos_of": "أظهر لي فيديوهات من ${destination}",
     "trip_card": {
       "plan_trip": "خطط رحلة",
+      "feed_cta": "شاهد الرحلة كاملة",
+      "detail_cta": "تخصيص الرحلة",
       "help_me_plan": "ساعدني في التخطيط لرحلة مثل هذه",
       "planning_failed": "فشل بدء التخطيط. يرجى المحاولة مرة أخرى.",
       "highlight_activities": "الأنشطة المميزة",

@@ -275,6 +275,8 @@
     "show_videos_of": "向我展示${destination}的视频",
     "trip_card": {
       "plan_trip": "规划行程",
+      "feed_cta": "查看完整行程",
+      "detail_cta": "定制此行程",
       "help_me_plan": "帮我规划一次这样的旅行",
       "planning_failed": "无法开始规划。请重试。",
       "highlight_activities": "精选活动",
