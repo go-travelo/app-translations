@@ -1520,7 +1520,10 @@
         "durationDay": {
           "one": "${n} day",
           "other": "${n} days"
-        }
+        },
+        "durationMinShort": "${n}min",
+        "durationHrShort": "${n}hr",
+        "durationHrMin": "${h}hr ${m}min"
       }
     },
     "lists": {
