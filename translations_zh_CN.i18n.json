@@ -847,6 +847,7 @@
     "other": "${n}位成年人"
   },
   "dayN": "天 ${n}",
+  "dayNContd": "第${n}天 (续)",
   "days": {
     "other": "${n}天"
   },
@@ -1463,7 +1464,10 @@
         "durationDay": {
           "one": "${n} 天",
           "other": "${n} 天"
-        }
+        },
+        "durationMinShort": "${n}分钟",
+        "durationHrShort": "${n}小时",
+        "durationHrMin": "${h}小时${m}分钟"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

@@ -857,6 +857,7 @@
     "other": "${n} Erwachsene"
   },
   "dayN": "Tag ${n}",
+  "dayNContd": "Tag ${n} Forts.",
   "days": {
     "one": "${n} Tag",
     "other": "${n} Tage"
@@ -1488,7 +1489,10 @@
         "durationDay": {
           "one": "${n} Tag",
           "other": "${n} Tage"
-        }
+        },
+        "durationMinShort": "${n} Min.",
+        "durationHrShort": "${n} Std.",
+        "durationHrMin": "${h} Std. ${m} Min."
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

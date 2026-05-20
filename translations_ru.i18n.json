@@ -881,6 +881,7 @@
     "other": "${n} взрослых"
   },
   "dayN": "День ${n}",
+  "dayNContd": "День ${n} (прод.)",
   "days": {
     "one": "${n} день",
     "few": "${n} дня",
@@ -1548,7 +1549,10 @@
           "few": "${n} дня",
           "many": "${n} дней",
           "other": "${n} дня"
-        }
+        },
+        "durationMinShort": "${n} мин",
+        "durationHrShort": "${n} ч",
+        "durationHrMin": "${h} ч ${m} мин"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

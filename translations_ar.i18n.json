@@ -904,6 +904,7 @@
     "other": "${n} بالغين"
   },
   "dayN": "اليوم ${n}",
+  "dayNContd": "اليوم ${n} (تابع)",
   "days": {
     "zero": "${n} يوم",
     "one": "${n} يوم",
@@ -1607,7 +1608,10 @@
           "few": "${n} أيام",
           "many": "${n} أيام",
           "other": "${n} أيام"
-        }
+        },
+        "durationMinShort": "${n} د",
+        "durationHrShort": "${n} س",
+        "durationHrMin": "${h} س ${m} د"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

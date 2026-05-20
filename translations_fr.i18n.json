@@ -857,6 +857,7 @@
     "other": "${n} adultes"
   },
   "dayN": "Jour ${n}",
+  "dayNContd": "Jour ${n} (suite)",
   "days": {
     "one": "${n} jour",
     "other": "${n} jours"
@@ -1488,7 +1489,10 @@
         "durationDay": {
           "one": "${n} jour",
           "other": "${n} jours"
-        }
+        },
+        "durationMinShort": "${n} min",
+        "durationHrShort": "${n} h",
+        "durationHrMin": "${h} h ${m} min"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

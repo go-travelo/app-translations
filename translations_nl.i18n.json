@@ -857,6 +857,7 @@
     "other": "${n} volwassenen"
   },
   "dayN": "Dag ${n}",
+  "dayNContd": "Dag ${n} (vervolg)",
   "days": {
     "one": "${n} dag",
     "other": "${n} dagen"
@@ -1488,7 +1489,10 @@
         "durationDay": {
           "one": "${n} dag",
           "other": "${n} dagen"
-        }
+        },
+        "durationMinShort": "${n} min",
+        "durationHrShort": "${n} u",
+        "durationHrMin": "${h} u ${m} min"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

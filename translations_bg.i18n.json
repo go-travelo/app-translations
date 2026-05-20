@@ -857,6 +857,7 @@
     "other": "${n} възрастни"
   },
   "dayN": "Ден ${n}",
+  "dayNContd": "Ден ${n} (прод.)",
   "days": {
     "one": "${n} ден",
     "other": "${n} дни"
@@ -1488,7 +1489,10 @@
         "durationDay": {
           "one": "${n} ден",
           "other": "${n} дни"
-        }
+        },
+        "durationMinShort": "${n} мин",
+        "durationHrShort": "${n} ч",
+        "durationHrMin": "${h} ч ${m} мин"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

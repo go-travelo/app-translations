@@ -881,6 +881,7 @@
     "other": "${n} מבוגרים"
   },
   "dayN": "יום מס' ${n}",
+  "dayNContd": "יום ${n} (המשך)",
   "days": {
     "one": "${n} יום",
     "two": "${n} ימים",
@@ -1548,7 +1549,10 @@
           "two": "${n} ימים",
           "many": "${n} ימים",
           "other": "${n} ימים"
-        }
+        },
+        "durationMinShort": "${n} ד'",
+        "durationHrShort": "${n} ש'",
+        "durationHrMin": "${h} ש' ${m} ד'"
       },
       "maxTemperature": "${n}°C",
       "ratingOutOfFive": "${rating}/5"

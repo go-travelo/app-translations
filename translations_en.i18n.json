@@ -857,6 +857,7 @@
     "other": "${n} adults"
   },
   "dayN": "Day ${n}",
+  "dayNContd": "Day ${n} contd.",
   "days": {
     "one": "${n} day",
     "other": "${n} days"
