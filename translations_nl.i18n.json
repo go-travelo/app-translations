@@ -1481,7 +1481,10 @@
         "stars": {
           "one": "${n} ster",
           "other": "${n} sterren"
-        }
+        },
+        "addStay": "Verblijf toevoegen",
+        "addStayInCity": "Verblijf toevoegen in ${city}",
+        "noStayAdded": "Geen verblijf toegevoegd"
       },
       "activity": {
         "durationMin": "${n} min",

@@ -1513,7 +1513,10 @@
         "stars": {
           "one": "${n} star",
           "other": "${n} stars"
-        }
+        },
+        "addStay": "Add a stay",
+        "addStayInCity": "Add a stay in ${city}",
+        "noStayAdded": "No stay added"
       },
       "activity": {
         "durationMin": "${n} min",

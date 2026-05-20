@@ -1456,7 +1456,10 @@
         "stars": {
           "one": "${n} 星",
           "other": "${n} 星"
-        }
+        },
+        "addStay": "添加住宿",
+        "addStayInCity": "在${city}添加住宿",
+        "noStayAdded": "未添加住宿"
       },
       "activity": {
         "durationMin": "${n} 分钟",

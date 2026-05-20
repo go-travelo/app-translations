@@ -1481,7 +1481,10 @@
         "stars": {
           "one": "${n} estrela",
           "other": "${n} estrelas"
-        }
+        },
+        "addStay": "Adicionar estadia",
+        "addStayInCity": "Adicionar estadia em ${city}",
+        "noStayAdded": "Nenhuma estadia adicionada"
       },
       "activity": {
         "durationMin": "${n} min",

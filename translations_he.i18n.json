@@ -1539,7 +1539,10 @@
           "two": "${n} כוכבים",
           "many": "${n} כוכבים",
           "other": "${n} כוכבים"
-        }
+        },
+        "addStay": "הוסף לינה",
+        "addStayInCity": "הוסף לינה ב-${city}",
+        "noStayAdded": "לא נוספה לינה"
       },
       "activity": {
         "durationMin": "${n} דק'",

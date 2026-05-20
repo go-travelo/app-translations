@@ -1481,7 +1481,10 @@
         "stars": {
           "one": "${n} звезда",
           "other": "${n} звезди"
-        }
+        },
+        "addStay": "Добави нощувка",
+        "addStayInCity": "Добави нощувка в ${city}",
+        "noStayAdded": "Няма добавена нощувка"
       },
       "activity": {
         "durationMin": "${n} мин",

@@ -1596,7 +1596,10 @@
           "few": "${n} نجوم",
           "many": "${n} نجوم",
           "other": "${n} نجوم"
-        }
+        },
+        "addStay": "إضافة إقامة",
+        "addStayInCity": "إضافة إقامة في ${city}",
+        "noStayAdded": "لم تتم إضافة إقامة"
       },
       "activity": {
         "durationMin": "${n} دقيقة",
