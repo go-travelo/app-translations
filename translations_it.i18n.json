@@ -131,6 +131,10 @@
           "other": "${n} hotel"
         }
       },
+      "attach": {
+        "photoLibrary": "Libreria foto",
+        "files": "File"
+      },
       "possibleNextSteps": "Possibili prossimi passi",
       "continueWithSelected": "Continua con ${n} selezionati"
     },

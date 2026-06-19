@@ -132,6 +132,10 @@
           "other": "${n} hotels"
         }
       },
+      "attach": {
+        "photoLibrary": "Photo Library",
+        "files": "Files"
+      },
       "continueWithSelected": "Continue with ${n} selected"
     },
     "trip_empty": {

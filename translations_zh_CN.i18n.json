@@ -131,6 +131,10 @@
           "other": "${n} 家酒店"
         }
       },
+      "attach": {
+        "photoLibrary": "照片图库",
+        "files": "文件"
+      },
       "possibleNextSteps": "可能的下一步",
       "continueWithSelected": "继续，已选择 ${n} 项"
     },

@@ -131,6 +131,10 @@
           "other": "${n} فنادق"
         }
       },
+      "attach": {
+        "photoLibrary": "مكتبة الصور",
+        "files": "الملفات"
+      },
       "possibleNextSteps": "الخطوات المحتملة التالية",
       "continueWithSelected": "متابعة مع ${n} محدد"
     },

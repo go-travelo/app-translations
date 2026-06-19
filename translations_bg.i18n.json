@@ -131,6 +131,10 @@
           "other": "${n} хотела"
         }
       },
+      "attach": {
+        "photoLibrary": "Фотогалерия",
+        "files": "Файлове"
+      },
       "possibleNextSteps": "Възможни следващи стъпки",
       "continueWithSelected": "Продължи с ${n} избрани"
     },

@@ -131,6 +131,10 @@
           "other": "${n} מלונות"
         }
       },
+      "attach": {
+        "photoLibrary": "ספריית התמונות",
+        "files": "קבצים"
+      },
       "possibleNextSteps": "צעדים אפשריים הבאים",
       "continueWithSelected": "המשך עם ${n} שנבחרו"
     },

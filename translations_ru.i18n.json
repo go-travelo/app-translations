@@ -131,6 +131,10 @@
           "other": "${n} отеля"
         }
       },
+      "attach": {
+        "photoLibrary": "Фотогалерея",
+        "files": "Файлы"
+      },
       "possibleNextSteps": "Возможные следующие шаги",
       "continueWithSelected": "Продолжить с ${n} выбранными"
     },

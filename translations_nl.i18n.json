@@ -131,6 +131,10 @@
           "other": "${n} hotels"
         }
       },
+      "attach": {
+        "photoLibrary": "Fotobibliotheek",
+        "files": "Bestanden"
+      },
       "possibleNextSteps": "Mogelijke volgende stappen",
       "continueWithSelected": "Doorgaan met ${n} geselecteerd"
     },
