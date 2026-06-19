@@ -122,6 +122,15 @@
         "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。",
         "continueWithHuman": "与人工客服继续预订"
       },
+      "hotelsCard": {
+        "type": "酒店",
+        "seeAll": "查看所有酒店",
+        "inLocation": "${location}的酒店",
+        "countTitle": {
+          "one": "${n} 家酒店",
+          "other": "${n} 家酒店"
+        }
+      },
       "possibleNextSteps": "可能的下一步",
       "continueWithSelected": "继续，已选择 ${n} 项"
     },
@@ -1731,5 +1740,59 @@
   },
   "hours": {
     "other": "${n}小时"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "method": {
+      "title": "How would you like to book?",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "selfCheckout": "Book it myself",
+      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
+      "expert": "Book with an expert",
+      "expertDesc": "Talk to a human who'll sort out the details."
+    },
+    "details": {
+      "title": "What are we booking?",
+      "subtitle": "Pick the items you'd like to pay for now.",
+      "travelerDetails": "Traveler details",
+      "phone": "Phone number",
+      "travelDocument": "Travel document / ID",
+      "perPerson": "per person",
+      "addTravelDoc": "Add travel document",
+      "continueToPay": "Continue"
+    },
+    "confirm": {
+      "title": "Review & pay",
+      "subtitle": "Check the details before paying.",
+      "pay": "Pay ${amount}",
+      "payNow": "Pay now"
+    },
+    "totals": {
+      "total": "Total",
+      "alreadyPaid": "Already paid",
+      "toPayNow": "To pay now",
+      "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "categories": {
+      "accommodation": "Stays",
+      "flight": "Flights",
+      "transfer": "Transfers",
+      "activity": "Activities",
+      "carRental": "Car rental"
+    },
+    "success": {
+      "title": "Payment confirmed",
+      "subtitle": "We've got it from here — your bookings are being arranged.",
+      "amountPaid": "Amount paid",
+      "tripTotal": "Trip total",
+      "remaining": "Remaining",
+      "done": "Done"
+    },
+    "errors": {
+      "paymentFailed": "Payment failed. Please try again.",
+      "nothingToPay": "Everything's already paid for.",
+      "notAvailable": "Checkout isn't available right now.",
+      "quoteExpired": "Some prices have expired. Refreshing…"
+    }
   }
 }

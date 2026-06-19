@@ -122,6 +122,15 @@
         "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше.",
         "continueWithHuman": "Продолжить бронирование с агентом"
       },
+      "hotelsCard": {
+        "type": "Отели",
+        "seeAll": "Показать все отели",
+        "inLocation": "Отели в ${location}",
+        "countTitle": {
+          "one": "${n} отель",
+          "other": "${n} отеля"
+        }
+      },
       "possibleNextSteps": "Возможные следующие шаги",
       "continueWithSelected": "Продолжить с ${n} выбранными"
     },
@@ -1843,5 +1852,59 @@
     "few": "${n} часа",
     "many": "${n} часов",
     "other": "${n} часа"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "method": {
+      "title": "How would you like to book?",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "selfCheckout": "Book it myself",
+      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
+      "expert": "Book with an expert",
+      "expertDesc": "Talk to a human who'll sort out the details."
+    },
+    "details": {
+      "title": "What are we booking?",
+      "subtitle": "Pick the items you'd like to pay for now.",
+      "travelerDetails": "Traveler details",
+      "phone": "Phone number",
+      "travelDocument": "Travel document / ID",
+      "perPerson": "per person",
+      "addTravelDoc": "Add travel document",
+      "continueToPay": "Continue"
+    },
+    "confirm": {
+      "title": "Review & pay",
+      "subtitle": "Check the details before paying.",
+      "pay": "Pay ${amount}",
+      "payNow": "Pay now"
+    },
+    "totals": {
+      "total": "Total",
+      "alreadyPaid": "Already paid",
+      "toPayNow": "To pay now",
+      "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "categories": {
+      "accommodation": "Stays",
+      "flight": "Flights",
+      "transfer": "Transfers",
+      "activity": "Activities",
+      "carRental": "Car rental"
+    },
+    "success": {
+      "title": "Payment confirmed",
+      "subtitle": "We've got it from here — your bookings are being arranged.",
+      "amountPaid": "Amount paid",
+      "tripTotal": "Trip total",
+      "remaining": "Remaining",
+      "done": "Done"
+    },
+    "errors": {
+      "paymentFailed": "Payment failed. Please try again.",
+      "nothingToPay": "Everything's already paid for.",
+      "notAvailable": "Checkout isn't available right now.",
+      "quoteExpired": "Some prices have expired. Refreshing…"
+    }
   }
 }

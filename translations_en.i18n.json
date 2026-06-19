@@ -123,6 +123,15 @@
         "expiredTripTooltip": "This is a previous version. Your latest trip is shown above.",
         "continueWithHuman": "Continue booking with a Human"
       },
+      "hotelsCard": {
+        "type": "Hotels",
+        "seeAll": "See all hotels",
+        "inLocation": "Hotels in ${location}",
+        "countTitle": {
+          "one": "${n} hotel",
+          "other": "${n} hotels"
+        }
+      },
       "continueWithSelected": "Continue with ${n} selected"
     },
     "trip_empty": {
@@ -1767,5 +1776,59 @@
     "confirm_maybe_video": "Are you sure you want to mark this video as maybe?",
     "confirm_remove_category": "Are you sure you want to remove category \"${category}\" for this video?",
     "video_copied": "Video id: ${videoId} is Copied successfully"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "method": {
+      "title": "How would you like to book?",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "selfCheckout": "Book it myself",
+      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
+      "expert": "Book with an expert",
+      "expertDesc": "Talk to a human who'll sort out the details."
+    },
+    "details": {
+      "title": "What are we booking?",
+      "subtitle": "Pick the items you'd like to pay for now.",
+      "travelerDetails": "Traveler details",
+      "phone": "Phone number",
+      "travelDocument": "Travel document / ID",
+      "perPerson": "per person",
+      "addTravelDoc": "Add travel document",
+      "continueToPay": "Continue"
+    },
+    "confirm": {
+      "title": "Review & pay",
+      "subtitle": "Check the details before paying.",
+      "pay": "Pay ${amount}",
+      "payNow": "Pay now"
+    },
+    "totals": {
+      "total": "Total",
+      "alreadyPaid": "Already paid",
+      "toPayNow": "To pay now",
+      "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "categories": {
+      "accommodation": "Stays",
+      "flight": "Flights",
+      "transfer": "Transfers",
+      "activity": "Activities",
+      "carRental": "Car rental"
+    },
+    "success": {
+      "title": "Payment confirmed",
+      "subtitle": "We've got it from here — your bookings are being arranged.",
+      "amountPaid": "Amount paid",
+      "tripTotal": "Trip total",
+      "remaining": "Remaining",
+      "done": "Done"
+    },
+    "errors": {
+      "paymentFailed": "Payment failed. Please try again.",
+      "nothingToPay": "Everything's already paid for.",
+      "notAvailable": "Checkout isn't available right now.",
+      "quoteExpired": "Some prices have expired. Refreshing…"
+    }
   }
 }
