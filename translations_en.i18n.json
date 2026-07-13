@@ -1640,6 +1640,7 @@
     "permissions_required": "Permissions required",
     "message_photos": "Layla needs access to photos in order to update your photo.",
     "message_camera": "Layla needs access to camera in order to update your photo.",
+    "message_microphone": "Layla needs access to the microphone in order to turn your voice into trips.",
     "deny": "Deny"
   },
   "open": "Open",

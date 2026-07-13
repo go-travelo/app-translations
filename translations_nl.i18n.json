@@ -1611,6 +1611,7 @@
     "permissions_required": "Machtigingen vereist",
     "message_photos": "Layla heeft toegang tot foto's nodig om je foto bij te werken.",
     "message_camera": "Layla heeft toegang tot de camera nodig om je foto bij te werken.",
+    "message_microphone": "Layla heeft toegang tot de microfoon nodig om je stem in reizen om te zetten.",
     "deny": "Ontkennen"
   },
   "open": "Open",

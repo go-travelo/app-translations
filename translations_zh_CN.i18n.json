@@ -1579,6 +1579,7 @@
     "permissions_required": "所需权限",
     "message_photos": "为了更新你的照片，Layla需要访问照片。",
     "message_camera": "Layla需要访问相机才能更新你的照片。",
+    "message_microphone": "Layla 需要使用麦克风，才能把你的语音变成旅行计划。",
     "deny": "拒绝"
   },
   "open": "打开",

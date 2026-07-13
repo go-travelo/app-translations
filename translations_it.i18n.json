@@ -1611,6 +1611,7 @@
     "permissions_required": "Autorizzazione richiesta",
     "message_photos": "Layla ha bisogno di accedere alle foto per poter aggiornare la tua foto.",
     "message_camera": "Layla ha bisogno dell'accesso alla fotocamera per aggiornare la tua foto.",
+    "message_microphone": "Layla ha bisogno dell'accesso al microfono per trasformare la tua voce in viaggi.",
     "deny": "Negare"
   },
   "open": "Apri",

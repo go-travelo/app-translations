@@ -1685,6 +1685,7 @@
     "permissions_required": "נדרש אישור",
     "message_photos": "Layla זקוקה לגישה לתמונות כדי לעדכן את התמונה שלך.",
     "message_camera": "Layla זקוקה לגישה למצלמה שלך כדי לעדכן את התמונה שלך.",
+    "message_microphone": "Layla זקוקה לגישה למיקרופון כדי להפוך את הקול שלך למסעות.",
     "deny": "סרב/י"
   },
   "open": "פתוח",
