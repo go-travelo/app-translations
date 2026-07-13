@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "تعذّر تحميل قسم الاكتشاف. يُرجى المحاولة مرة أخرى.",
     "untitled_trip": "رحلة جديدة",
-    "created_on": "أُنشئت في ${date}"
+    "created_on": "أُنشئت في ${date}",
+    "started_today": "بدأت اليوم",
+    "started_yesterday": "بدأت أمس",
+    "footer": {
+      "title": "لم يلفت انتباهك شيء؟",
+      "subtitle": "أخبر Layla بما تحلم به — وستحوّله إلى رحلة.",
+      "cta": "خطّط رحلتي"
+    }
   },
   "itineraries": {
     "itineraries": "مسارات",

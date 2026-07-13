@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Couldn't load the Discover feed. Please try again.",
     "untitled_trip": "New Trip",
-    "created_on": "Created on ${date}"
+    "created_on": "Created on ${date}",
+    "started_today": "Started today",
+    "started_yesterday": "Started yesterday",
+    "footer": {
+      "title": "Nothing calling to you?",
+      "subtitle": "Tell Layla what you're dreaming of — she'll shape it into a trip.",
+      "cta": "Plan my trip"
+    }
   },
   "itineraries": {
     "itineraries": "Itineraries",

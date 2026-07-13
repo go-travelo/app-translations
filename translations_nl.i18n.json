@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Ontdek kon niet worden geladen. Probeer het opnieuw.",
     "untitled_trip": "Nieuwe reis",
-    "created_on": "Gemaakt op ${date}"
+    "created_on": "Gemaakt op ${date}",
+    "started_today": "Vandaag begonnen",
+    "started_yesterday": "Gisteren begonnen",
+    "footer": {
+      "title": "Niets wat je aanspreekt?",
+      "subtitle": "Vertel Layla waar je van droomt — zij maakt er een reis van.",
+      "cta": "Plan mijn reis"
+    }
   },
   "itineraries": {
     "itineraries": "Routes",

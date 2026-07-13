@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Impossibile caricare Scopri. Riprova.",
     "untitled_trip": "Nuovo viaggio",
-    "created_on": "Creato il ${date}"
+    "created_on": "Creato il ${date}",
+    "started_today": "Iniziato oggi",
+    "started_yesterday": "Iniziato ieri",
+    "footer": {
+      "title": "Niente che ti ispiri?",
+      "subtitle": "Racconta a Layla cosa sogni: lo trasformerà in un viaggio.",
+      "cta": "Pianifica il mio viaggio"
+    }
   },
   "itineraries": {
     "itineraries": "Itinerari",

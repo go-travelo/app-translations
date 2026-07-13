@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "No se pudo cargar Descubrir. Inténtalo de nuevo.",
     "untitled_trip": "Nuevo viaje",
-    "created_on": "Creado el ${date}"
+    "created_on": "Creado el ${date}",
+    "started_today": "Iniciado hoy",
+    "started_yesterday": "Iniciado ayer",
+    "footer": {
+      "title": "¿Nada te inspira?",
+      "subtitle": "Cuéntale a Layla con qué sueñas y lo convertirá en un viaje.",
+      "cta": "Planificar mi viaje"
+    }
   },
   "itineraries": {
     "itineraries": "Itinerarios",

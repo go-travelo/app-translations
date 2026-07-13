@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Entdecken konnte nicht geladen werden. Bitte versuche es erneut.",
     "untitled_trip": "Neue Reise",
-    "created_on": "Erstellt am ${date}"
+    "created_on": "Erstellt am ${date}",
+    "started_today": "Heute gestartet",
+    "started_yesterday": "Gestern gestartet",
+    "footer": {
+      "title": "Nichts dabei für dich?",
+      "subtitle": "Erzähl Layla, wovon du träumst – sie macht eine Reise daraus.",
+      "cta": "Meine Reise planen"
+    }
   },
   "itineraries": {
     "itineraries": "Reisepläne",

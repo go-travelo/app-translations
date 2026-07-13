@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "无法加载发现内容，请重试。",
     "untitled_trip": "新行程",
-    "created_on": "创建于 ${date}"
+    "created_on": "创建于 ${date}",
+    "started_today": "今天开始",
+    "started_yesterday": "昨天开始",
+    "footer": {
+      "title": "没有心动的行程？",
+      "subtitle": "告诉 Layla 你梦想中的旅行，她会帮你变成行程。",
+      "cta": "规划我的旅行"
+    }
   },
   "itineraries": {
     "itineraries": "行程",

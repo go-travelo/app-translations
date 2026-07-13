@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Impossible de charger Découvrir. Veuillez réessayer.",
     "untitled_trip": "Nouveau voyage",
-    "created_on": "Créé le ${date}"
+    "created_on": "Créé le ${date}",
+    "started_today": "Commencé aujourd'hui",
+    "started_yesterday": "Commencé hier",
+    "footer": {
+      "title": "Rien ne vous tente ?",
+      "subtitle": "Dites à Layla ce dont vous rêvez — elle en fera un voyage.",
+      "cta": "Planifier mon voyage"
+    }
   },
   "itineraries": {
     "itineraries": "Itinéraires",

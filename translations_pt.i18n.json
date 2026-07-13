@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "Não foi possível carregar Descobrir. Tenta novamente.",
     "untitled_trip": "Nova viagem",
-    "created_on": "Criada a ${date}"
+    "created_on": "Criada a ${date}",
+    "started_today": "Iniciado hoje",
+    "started_yesterday": "Iniciado ontem",
+    "footer": {
+      "title": "Nada te chama a atenção?",
+      "subtitle": "Conta à Layla com o que sonhas — ela transforma isso numa viagem.",
+      "cta": "Planear a minha viagem"
+    }
   },
   "itineraries": {
     "itineraries": "Itinerários",

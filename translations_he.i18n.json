@@ -151,7 +151,14 @@
     },
     "feed_unavailable": "טעינת לשונית הגילוי נכשלה. נסו שוב.",
     "untitled_trip": "טיול חדש",
-    "created_on": "נוצר ב-${date}"
+    "created_on": "נוצר ב-${date}",
+    "started_today": "התחיל היום",
+    "started_yesterday": "התחיל אתמול",
+    "footer": {
+      "title": "שום דבר לא קורא לך?",
+      "subtitle": "ספר ל-Layla על מה אתה חולם — היא תהפוך את זה לטיול.",
+      "cta": "לתכנן את הטיול שלי"
+    }
   },
   "itineraries": {
     "itineraries": "תכנונים יומיים",
