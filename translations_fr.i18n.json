@@ -1370,6 +1370,8 @@
       "locationNotAvailable": "Emplacement non disponible",
       "reviews": "avis",
       "viewOnGoogleMaps": "Voir sur Google Maps",
+      "walkFromStay": "$duration à pied depuis votre hébergement",
+      "driveFromStay": "$duration en voiture depuis votre hébergement",
       "viewDetails": "Voir les Détails",
       "perNight": "/nuit",
       "unknown": "Inconnu",

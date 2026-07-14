@@ -1345,6 +1345,8 @@
       "locationNotAvailable": "位置不可用",
       "reviews": "评论",
       "viewOnGoogleMaps": "在谷歌地图上查看",
+      "walkFromStay": "从住处步行 $duration",
+      "driveFromStay": "从住处驾车 $duration",
       "viewDetails": "查看详情",
       "perNight": "/晚",
       "unknown": "未知",

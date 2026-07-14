@@ -1424,6 +1424,8 @@
       "locationNotAvailable": "מיקום לא זמין",
       "reviews": "ביקורות",
       "viewOnGoogleMaps": "צפה ב-Google Maps",
+      "walkFromStay": "$duration הליכה ממקום הלינה",
+      "driveFromStay": "$duration נסיעה ממקום הלינה",
       "viewDetails": "צפה בפרטים",
       "perNight": "/לילה",
       "unknown": "לא ידוע",

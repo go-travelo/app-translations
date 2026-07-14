@@ -1477,6 +1477,8 @@
       "locationNotAvailable": "الموقع غير متاح",
       "reviews": "مراجعات",
       "viewOnGoogleMaps": "عرض على خرائط جوجل",
+      "walkFromStay": "$duration سيرًا من مكان إقامتك",
+      "driveFromStay": "$duration بالسيارة من مكان إقامتك",
       "viewDetails": "عرض التفاصيل",
       "perNight": "/ليلة",
       "unknown": "غير معروف",

@@ -1424,6 +1424,8 @@
       "locationNotAvailable": "Местоположение недоступно",
       "reviews": "отзывов",
       "viewOnGoogleMaps": "Посмотреть на Google Maps",
+      "walkFromStay": "$duration пешком от вашего жилья",
+      "driveFromStay": "$duration на машине от вашего жилья",
       "viewDetails": "Посмотреть детали",
       "perNight": "/ночь",
       "unknown": "Неизвестно",

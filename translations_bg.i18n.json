@@ -1370,6 +1370,8 @@
       "locationNotAvailable": "Местоположението не е налично",
       "reviews": "отзиви",
       "viewOnGoogleMaps": "Виж в Google Maps",
+      "walkFromStay": "$duration пеша от мястото за настаняване",
+      "driveFromStay": "$duration с кола от мястото за настаняване",
       "viewDetails": "Виж Детайли",
       "perNight": "/нощ",
       "unknown": "Неизвестно",

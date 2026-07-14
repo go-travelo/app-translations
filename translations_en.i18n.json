@@ -1400,6 +1400,8 @@
       "locationNotAvailable": "Location not available",
       "reviews": "reviews",
       "viewOnGoogleMaps": "View on Google Maps",
+      "walkFromStay": "$duration walk from your stay",
+      "driveFromStay": "$duration drive from your stay",
       "viewDetails": "View Details",
       "perNight": "/night",
       "unknown": "Unknown",

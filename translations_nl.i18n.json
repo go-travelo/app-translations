@@ -1370,6 +1370,8 @@
       "locationNotAvailable": "Locatie niet beschikbaar",
       "reviews": "beoordelingen",
       "viewOnGoogleMaps": "Bekijk op Google Maps",
+      "walkFromStay": "$duration lopen vanaf je verblijf",
+      "driveFromStay": "$duration rijden vanaf je verblijf",
       "viewDetails": "Bekijk Details",
       "perNight": "/nacht",
       "unknown": "Onbekend",
