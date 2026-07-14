@@ -749,7 +749,8 @@
     "user_id_copied": "ID utente copiato",
     "subscription_id_copied": "ID abbonamento copiato",
     "user_id_label": "ID utente:\n${userId}",
-    "subscription_id_label": "ID abbonamento:\n${subscriptionId}"
+    "subscription_id_label": "ID abbonamento:\n${subscriptionId}",
+    "add_your_name": "Aggiungi il tuo nome"
   },
   "auth": {
     "email": "Email",

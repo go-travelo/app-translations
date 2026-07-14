@@ -771,7 +771,8 @@
     "user_id_copied": "מזהה המשתמש הועתק",
     "subscription_id_copied": "מזהה המנוי הועתק",
     "user_id_label": "מזהה משתמש:\n${userId}",
-    "subscription_id_label": "מזהה מנוי:\n${subscriptionId}"
+    "subscription_id_label": "מזהה מנוי:\n${subscriptionId}",
+    "add_your_name": "הוספת השם שלך"
   },
   "auth": {
     "email": "אימייל",

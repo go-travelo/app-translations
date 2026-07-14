@@ -771,7 +771,8 @@
     "user_id_copied": "ID пользователя скопирован",
     "subscription_id_copied": "ID подписки скопирован",
     "user_id_label": "ID пользователя:\n${userId}",
-    "subscription_id_label": "ID подписки:\n${subscriptionId}"
+    "subscription_id_label": "ID подписки:\n${subscriptionId}",
+    "add_your_name": "Добавьте своё имя"
   },
   "auth": {
     "email": "Электронная почта",

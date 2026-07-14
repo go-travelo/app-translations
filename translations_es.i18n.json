@@ -749,7 +749,8 @@
     "user_id_copied": "ID de usuario copiado al portapapeles",
     "subscription_id_copied": "ID de suscripción copiado al portapapeles",
     "user_id_label": "ID de usuario:\n${userId}",
-    "subscription_id_label": "ID de suscripción:\n${subscriptionId}"
+    "subscription_id_label": "ID de suscripción:\n${subscriptionId}",
+    "add_your_name": "Añade tu nombre"
   },
   "auth": {
     "email": "Correo electrónico",

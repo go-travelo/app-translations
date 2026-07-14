@@ -749,7 +749,8 @@
     "user_id_copied": "Потребителският ID е копиран",
     "subscription_id_copied": "Идентификаторът на абонамента е копиран",
     "user_id_label": "Потребителски ID:\n${userId}",
-    "subscription_id_label": "Идентификатор на абонамент:\n${subscriptionId}"
+    "subscription_id_label": "Идентификатор на абонамент:\n${subscriptionId}",
+    "add_your_name": "Добави името си"
   },
   "auth": {
     "email": "Имейл",

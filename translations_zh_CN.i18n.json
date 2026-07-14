@@ -740,7 +740,8 @@
     "user_id_copied": "用户ID已复制",
     "subscription_id_copied": "订阅ID已复制",
     "user_id_label": "用户ID:\n${userId}",
-    "subscription_id_label": "订阅ID:\n${subscriptionId}"
+    "subscription_id_label": "订阅ID:\n${subscriptionId}",
+    "add_your_name": "添加你的名字"
   },
   "auth": {
     "email": "电子邮件",

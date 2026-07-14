@@ -792,7 +792,8 @@
     "user_id_copied": "تم نسخ معرف المستخدم إلى الحافظة",
     "subscription_id_copied": "تم نسخ معرف الاشتراك إلى الحافظة",
     "user_id_label": "معرف المستخدم:\n${userId}",
-    "subscription_id_label": "معرف الاشتراك:\n${subscriptionId}"
+    "subscription_id_label": "معرف الاشتراك:\n${subscriptionId}",
+    "add_your_name": "أضف اسمك"
   },
   "auth": {
     "email": "البريد الإلكتروني",
