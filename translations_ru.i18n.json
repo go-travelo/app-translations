@@ -1190,6 +1190,8 @@
       "total": "всего"
     },
     "transport": {
+      "optionsTitle": "Варианты транспорта",
+      "noOptionsAvailable": "Нет доступных вариантов транспорта",
       "title": "Транспорт",
       "pickUp": "Посадка",
       "dropOff": "Высадка",
@@ -1305,6 +1307,10 @@
         "noFlightsFound": "Рейсы не найдены",
         "tryAdjustingQuery": "Попробуйте изменить поисковый запрос",
         "totalCost": "Общая стоимость",
+        "laylasPicks": "Выбор Layla",
+        "liveSearch": "Живой поиск",
+        "partialResults": "Показаны частичные результаты — поиск не завершился вовремя.",
+        "showFlights": "Показать рейсы ($n)",
         "selected": "Выбрано",
         "adult": "взрослый",
         "adults": "взрослых",

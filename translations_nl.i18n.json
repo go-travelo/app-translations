@@ -1136,6 +1136,8 @@
       "total": "totaal"
     },
     "transport": {
+      "optionsTitle": "Vervoersopties",
+      "noOptionsAvailable": "Geen vervoersopties beschikbaar",
       "title": "Vervoer",
       "pickUp": "Ophalen",
       "dropOff": "Afleveren",
@@ -1251,6 +1253,10 @@
         "noFlightsFound": "Geen vluchten gevonden",
         "tryAdjustingQuery": "Probeer uw zoekopdracht aan te passen",
         "totalCost": "Totale Kosten",
+        "laylasPicks": "Layla's keuzes",
+        "liveSearch": "Live zoeken",
+        "partialResults": "Gedeeltelijke resultaten — de zoekopdracht was niet op tijd klaar.",
+        "showFlights": "Toon vluchten ($n)",
         "selected": "Geselecteerd",
         "adult": "volwassene",
         "adults": "volwassenen",

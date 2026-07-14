@@ -1136,6 +1136,8 @@
       "total": "totale"
     },
     "transport": {
+      "optionsTitle": "Opzioni di trasporto",
+      "noOptionsAvailable": "Nessuna opzione di trasporto disponibile",
       "title": "Trasporto",
       "pickUp": "Ritiro",
       "dropOff": "Riconsegna",
@@ -1251,6 +1253,10 @@
         "noFlightsFound": "Nessun volo trovato",
         "tryAdjustingQuery": "Prova a modificare la tua ricerca",
         "totalCost": "Costo Totale",
+        "laylasPicks": "Le scelte di Layla",
+        "liveSearch": "Ricerca live",
+        "partialResults": "Risultati parziali: la ricerca non è terminata in tempo.",
+        "showFlights": "Mostra voli ($n)",
         "selected": "Selezionato",
         "adult": "adulto",
         "adults": "adulti",

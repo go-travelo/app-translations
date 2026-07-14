@@ -1190,6 +1190,8 @@
       "total": "סה\"כ"
     },
     "transport": {
+      "optionsTitle": "אפשרויות תחבורה",
+      "noOptionsAvailable": "אין אפשרויות תחבורה זמינות",
       "title": "תחבורה",
       "pickUp": "איסוף",
       "dropOff": "החזרה",
@@ -1305,6 +1307,10 @@
         "noFlightsFound": "לא נמצאו טיסות",
         "tryAdjustingQuery": "נסה לשנות את שאילתת החיפוש",
         "totalCost": "עלות כוללת",
+        "laylasPicks": "הבחירות של ליילה",
+        "liveSearch": "חיפוש חי",
+        "partialResults": "מוצגות תוצאות חלקיות — החיפוש לא הסתיים בזמן.",
+        "showFlights": "הצגת טיסות ($n)",
         "selected": "נבחר",
         "adult": "מבוגר",
         "adults": "מבוגרים",

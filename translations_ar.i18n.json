@@ -1243,6 +1243,8 @@
       "total": "المجموع"
     },
     "transport": {
+      "optionsTitle": "خيارات التنقل",
+      "noOptionsAvailable": "لا توجد خيارات تنقل متاحة",
       "title": "النقل",
       "pickUp": "الاستلام",
       "dropOff": "التوصيل",
@@ -1358,6 +1360,10 @@
         "noFlightsFound": "لم يتم العثور على رحلات",
         "tryAdjustingQuery": "حاول تعديل استعلام البحث",
         "totalCost": "التكلفة الإجمالية",
+        "laylasPicks": "اختيارات ليلى",
+        "liveSearch": "بحث مباشر",
+        "partialResults": "عرض نتائج جزئية — لم يكتمل البحث في الوقت المحدد.",
+        "showFlights": "عرض الرحلات ($n)",
         "selected": "محدد",
         "adult": "بالغ",
         "adults": "بالغين",

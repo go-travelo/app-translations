@@ -1111,6 +1111,8 @@
       "total": "总计"
     },
     "transport": {
+      "optionsTitle": "交通方式选项",
+      "noOptionsAvailable": "暂无可选交通方式",
       "title": "交通",
       "pickUp": "上车",
       "dropOff": "下车",
@@ -1226,6 +1228,10 @@
         "noFlightsFound": "未找到航班",
         "tryAdjustingQuery": "尝试调整您的搜索查询",
         "totalCost": "总费用",
+        "laylasPicks": "Layla 精选",
+        "liveSearch": "实时搜索",
+        "partialResults": "显示部分结果——搜索未能及时完成。",
+        "showFlights": "显示航班（$n）",
         "selected": "已选择",
         "adult": "成人",
         "adults": "成人",

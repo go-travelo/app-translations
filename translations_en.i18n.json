@@ -1165,6 +1165,8 @@
       "total": "total"
     },
     "transport": {
+      "optionsTitle": "Transport options",
+      "noOptionsAvailable": "No transport options available",
       "title": "Transport",
       "pickUp": "Pick-up",
       "dropOff": "Drop-off",
@@ -1281,6 +1283,10 @@
         "noFlightsFound": "No flights found",
         "tryAdjustingQuery": "Try adjusting your search query",
         "totalCost": "Total Cost",
+        "laylasPicks": "Layla's picks",
+        "liveSearch": "Live search",
+        "partialResults": "Showing partial results — the search didn't finish in time.",
+        "showFlights": "Show flights ($n)",
         "selected": "Selected",
         "adult": "adult",
         "adults": "adults",
