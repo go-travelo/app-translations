@@ -439,6 +439,17 @@
     "youll_arrive_next_day": "You'll arrive the next day"
   },
   "hotel": {
+    "aboutProperty": "About this property",
+    "availableRooms": "Available rooms",
+    "reviewHighlights": "Highlights from reviews",
+    "freeCancellationBefore": "Free cancellation before $date",
+    "board": {
+      "roomOnly": "No meals included",
+      "bedAndBreakfast": "Breakfast included",
+      "halfBoard": "Half board",
+      "fullBoard": "Full board",
+      "allInclusive": "All inclusive"
+    },
     "sort_filters": {
       "most_popular": "Most popular",
       "best_rated": "Best rated",

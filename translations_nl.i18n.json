@@ -439,6 +439,17 @@
     "estimated": "Geschat"
   },
   "hotel": {
+    "aboutProperty": "Over deze accommodatie",
+    "availableRooms": "Beschikbare kamers",
+    "reviewHighlights": "Hoogtepunten uit reviews",
+    "freeCancellationBefore": "Gratis annuleren vóór $date",
+    "board": {
+      "roomOnly": "Zonder maaltijden",
+      "bedAndBreakfast": "Ontbijt inbegrepen",
+      "halfBoard": "Halfpension",
+      "fullBoard": "Volpension",
+      "allInclusive": "All-inclusive"
+    },
     "sort_filters": {
       "most_popular": "Meest populair",
       "best_rated": "Best beoordeeld",

@@ -439,6 +439,17 @@
     "estimated": "Geschätzt"
   },
   "hotel": {
+    "aboutProperty": "Über diese Unterkunft",
+    "availableRooms": "Verfügbare Zimmer",
+    "reviewHighlights": "Highlights aus Bewertungen",
+    "freeCancellationBefore": "Kostenlose Stornierung vor $date",
+    "board": {
+      "roomOnly": "Ohne Mahlzeiten",
+      "bedAndBreakfast": "Frühstück inklusive",
+      "halfBoard": "Halbpension",
+      "fullBoard": "Vollpension",
+      "allInclusive": "All inclusive"
+    },
     "sort_filters": {
       "most_popular": "Am beliebtesten",
       "best_rated": "Am besten bewertet",

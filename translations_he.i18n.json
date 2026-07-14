@@ -455,6 +455,17 @@
     "estimated": "משוער"
   },
   "hotel": {
+    "aboutProperty": "על המקום",
+    "availableRooms": "חדרים זמינים",
+    "reviewHighlights": "הבולטים מהביקורות",
+    "freeCancellationBefore": "ביטול חינם עד $date",
+    "board": {
+      "roomOnly": "ללא ארוחות",
+      "bedAndBreakfast": "כולל ארוחת בוקר",
+      "halfBoard": "חצי פנסיון",
+      "fullBoard": "פנסיון מלא",
+      "allInclusive": "הכול כלול"
+    },
     "sort_filters": {
       "most_popular": "הכי פופולרי",
       "best_rated": "בעל הדרוג הטוב ביותר",

@@ -439,6 +439,17 @@
     "estimated": "Estimé"
   },
   "hotel": {
+    "aboutProperty": "À propos de cet établissement",
+    "availableRooms": "Chambres disponibles",
+    "reviewHighlights": "Points forts des avis",
+    "freeCancellationBefore": "Annulation gratuite avant le $date",
+    "board": {
+      "roomOnly": "Sans repas",
+      "bedAndBreakfast": "Petit-déjeuner inclus",
+      "halfBoard": "Demi-pension",
+      "fullBoard": "Pension complète",
+      "allInclusive": "Tout compris"
+    },
     "sort_filters": {
       "most_popular": "Le plus populaire",
       "best_rated": "Mieux noté",

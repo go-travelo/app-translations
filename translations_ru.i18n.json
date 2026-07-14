@@ -455,6 +455,17 @@
     "estimated": "Приблизительно"
   },
   "hotel": {
+    "aboutProperty": "Об этом объекте",
+    "availableRooms": "Доступные номера",
+    "reviewHighlights": "Главное из отзывов",
+    "freeCancellationBefore": "Бесплатная отмена до $date",
+    "board": {
+      "roomOnly": "Без питания",
+      "bedAndBreakfast": "Завтрак включён",
+      "halfBoard": "Полупансион",
+      "fullBoard": "Полный пансион",
+      "allInclusive": "Всё включено"
+    },
     "sort_filters": {
       "most_popular": "Самые популярные",
       "best_rated": "С наилучшей оценкой",

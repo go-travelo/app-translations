@@ -439,6 +439,17 @@
     "estimated": "Приблизително"
   },
   "hotel": {
+    "aboutProperty": "За този имот",
+    "availableRooms": "Свободни стаи",
+    "reviewHighlights": "Акценти от отзивите",
+    "freeCancellationBefore": "Безплатно анулиране преди $date",
+    "board": {
+      "roomOnly": "Без храна",
+      "bedAndBreakfast": "Със закуска",
+      "halfBoard": "Полупансион",
+      "fullBoard": "Пълен пансион",
+      "allInclusive": "Ол инклузив"
+    },
     "sort_filters": {
       "most_popular": "Най-популярни",
       "best_rated": "Най-добре оценени",

@@ -433,6 +433,17 @@
     "estimated": "预估"
   },
   "hotel": {
+    "aboutProperty": "关于此住宿",
+    "availableRooms": "可预订房型",
+    "reviewHighlights": "评价精选",
+    "freeCancellationBefore": "$date 前免费取消",
+    "board": {
+      "roomOnly": "不含餐食",
+      "bedAndBreakfast": "含早餐",
+      "halfBoard": "半食宿",
+      "fullBoard": "全食宿",
+      "allInclusive": "一价全包"
+    },
     "sort_filters": {
       "most_popular": "最受欢迎",
       "best_rated": "评价最好",

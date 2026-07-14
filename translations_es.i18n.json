@@ -439,6 +439,17 @@
     "estimated": "Estimado"
   },
   "hotel": {
+    "aboutProperty": "Acerca de este alojamiento",
+    "availableRooms": "Habitaciones disponibles",
+    "reviewHighlights": "Lo más destacado de las reseñas",
+    "freeCancellationBefore": "Cancelación gratuita antes del $date",
+    "board": {
+      "roomOnly": "Sin comidas",
+      "bedAndBreakfast": "Desayuno incluido",
+      "halfBoard": "Media pensión",
+      "fullBoard": "Pensión completa",
+      "allInclusive": "Todo incluido"
+    },
     "sort_filters": {
       "most_popular": "Más popular",
       "best_rated": "Mejor valorado",

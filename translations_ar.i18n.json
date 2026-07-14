@@ -471,6 +471,17 @@
     "estimated": "تقديري"
   },
   "hotel": {
+    "aboutProperty": "عن مكان الإقامة",
+    "availableRooms": "الغرف المتاحة",
+    "reviewHighlights": "أبرز ما في التقييمات",
+    "freeCancellationBefore": "إلغاء مجاني قبل $date",
+    "board": {
+      "roomOnly": "بدون وجبات",
+      "bedAndBreakfast": "شامل الإفطار",
+      "halfBoard": "نصف إقامة",
+      "fullBoard": "إقامة كاملة",
+      "allInclusive": "شامل كليًا"
+    },
     "sort_filters": {
       "most_popular": "الأكثر شعبية",
       "best_rated": "الأعلى تقييما",
