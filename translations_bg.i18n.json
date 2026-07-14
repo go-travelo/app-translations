@@ -1840,5 +1840,22 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "Предстоящи",
+    "planning": "В планиране",
+    "past": "Минали",
+    "happening_now": "В момента",
+    "starts_today": "Започва днес",
+    "starts_tomorrow": "Започва утре",
+    "starts_in": {
+      "one": "Започва след $n ден",
+      "other": "Започва след $n дни"
+    },
+    "start_new": "Започни ново пътуване",
+    "sort_by": "Подреди по",
+    "sort_trip_date": "Дата на пътуването",
+    "sort_last_updated": "Последна промяна",
+    "sort_date_created": "Дата на създаване"
   }
 }

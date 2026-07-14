@@ -1918,5 +1918,24 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "Предстоящие",
+    "planning": "В планах",
+    "past": "Прошедшие",
+    "happening_now": "Идёт сейчас",
+    "starts_today": "Начинается сегодня",
+    "starts_tomorrow": "Начинается завтра",
+    "starts_in": {
+      "one": "Начинается через $n день",
+      "few": "Начинается через $n дня",
+      "many": "Начинается через $n дней",
+      "other": "Начинается через $n дня"
+    },
+    "start_new": "Начать новое путешествие",
+    "sort_by": "Сортировать по",
+    "sort_trip_date": "Дате поездки",
+    "sort_last_updated": "Последнему обновлению",
+    "sort_date_created": "Дате создания"
   }
 }

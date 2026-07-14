@@ -1995,5 +1995,26 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "القادمة",
+    "planning": "قيد التخطيط",
+    "past": "السابقة",
+    "happening_now": "جارية الآن",
+    "starts_today": "تبدأ اليوم",
+    "starts_tomorrow": "تبدأ غدًا",
+    "starts_in": {
+      "zero": "تبدأ خلال $n يوم",
+      "one": "تبدأ خلال يوم واحد",
+      "two": "تبدأ خلال يومين",
+      "few": "تبدأ خلال $n أيام",
+      "many": "تبدأ خلال $n يومًا",
+      "other": "تبدأ خلال $n يوم"
+    },
+    "start_new": "ابدأ رحلة جديدة",
+    "sort_by": "الترتيب حسب",
+    "sort_trip_date": "تاريخ الرحلة",
+    "sort_last_updated": "آخر تحديث",
+    "sort_date_created": "تاريخ الإنشاء"
   }
 }

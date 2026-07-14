@@ -1840,5 +1840,22 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "Próximos",
+    "planning": "En planificación",
+    "past": "Pasados",
+    "happening_now": "En curso",
+    "starts_today": "Empieza hoy",
+    "starts_tomorrow": "Empieza mañana",
+    "starts_in": {
+      "one": "Empieza en $n día",
+      "other": "Empieza en $n días"
+    },
+    "start_new": "Crear un nuevo viaje",
+    "sort_by": "Ordenar por",
+    "sort_trip_date": "Fecha del viaje",
+    "sort_last_updated": "Última actualización",
+    "sort_date_created": "Fecha de creación"
   }
 }

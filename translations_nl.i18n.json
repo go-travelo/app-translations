@@ -1840,5 +1840,22 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "Binnenkort",
+    "planning": "In planning",
+    "past": "Eerder",
+    "happening_now": "Nu bezig",
+    "starts_today": "Begint vandaag",
+    "starts_tomorrow": "Begint morgen",
+    "starts_in": {
+      "one": "Begint over $n dag",
+      "other": "Begint over $n dagen"
+    },
+    "start_new": "Nieuwe reis starten",
+    "sort_by": "Sorteren op",
+    "sort_trip_date": "Reisdatum",
+    "sort_last_updated": "Laatst bijgewerkt",
+    "sort_date_created": "Aanmaakdatum"
   }
 }

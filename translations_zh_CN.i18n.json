@@ -1806,5 +1806,21 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "即将出行",
+    "planning": "规划中",
+    "past": "已结束",
+    "happening_now": "正在进行",
+    "starts_today": "今天出发",
+    "starts_tomorrow": "明天出发",
+    "starts_in": {
+      "other": "$n 天后出发"
+    },
+    "start_new": "开始新旅程",
+    "sort_by": "排序方式",
+    "sort_trip_date": "旅行日期",
+    "sort_last_updated": "最近更新",
+    "sort_date_created": "创建日期"
   }
 }

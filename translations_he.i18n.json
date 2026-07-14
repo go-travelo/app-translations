@@ -1918,5 +1918,24 @@
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
     }
+  },
+  "trips_list": {
+    "upcoming": "קרובים",
+    "planning": "בתכנון",
+    "past": "קודמים",
+    "happening_now": "מתרחש עכשיו",
+    "starts_today": "מתחיל היום",
+    "starts_tomorrow": "מתחיל מחר",
+    "starts_in": {
+      "one": "מתחיל בעוד יום אחד",
+      "two": "מתחיל בעוד יומיים",
+      "many": "מתחיל בעוד $n ימים",
+      "other": "מתחיל בעוד $n ימים"
+    },
+    "start_new": "התחלת טיול חדש",
+    "sort_by": "מיון לפי",
+    "sort_trip_date": "תאריך הטיול",
+    "sort_last_updated": "עדכון אחרון",
+    "sort_date_created": "תאריך יצירה"
   }
 }
