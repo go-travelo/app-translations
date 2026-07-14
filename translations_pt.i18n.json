@@ -1462,6 +1462,9 @@
       "items": "itens",
       "orderSummary": "Resumo do Pedido",
       "priceChangeAlert": {
+        "refresh": "Atualizar preços",
+        "soldOutForDates": "Esgotado para as suas datas — escolha outro hotel",
+        "wasPrice": "antes $price",
         "title": "Os preços podem ter mudado",
         "description": "Os preços de viagem mudam frequentemente. Os preços mostrados são estimativas e podem diferir ao reservar."
       },

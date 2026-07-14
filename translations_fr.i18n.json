@@ -1462,6 +1462,9 @@
       "items": "articles",
       "orderSummary": "Récapitulatif de Commande",
       "priceChangeAlert": {
+        "refresh": "Actualiser les prix",
+        "soldOutForDates": "Complet pour vos dates — choisissez un autre hôtel",
+        "wasPrice": "avant $price",
         "title": "Les prix ont peut-être changé",
         "description": "Les prix de voyage changent fréquemment. Les prix affichés sont des estimations et peuvent différer lors de la réservation."
       },

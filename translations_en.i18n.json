@@ -1492,6 +1492,9 @@
       "items": "items",
       "orderSummary": "Order Summary",
       "priceChangeAlert": {
+        "refresh": "Refresh prices",
+        "soldOutForDates": "Sold out for your dates — choose another hotel",
+        "wasPrice": "was $price",
         "title": "Prices may have changed",
         "description": "Travel prices change frequently. The prices shown are estimates and may differ when you book."
       },

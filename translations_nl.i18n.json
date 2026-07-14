@@ -1462,6 +1462,9 @@
       "items": "items",
       "orderSummary": "Besteloverzicht",
       "priceChangeAlert": {
+        "refresh": "Prijzen vernieuwen",
+        "soldOutForDates": "Uitverkocht voor je data — kies een ander hotel",
+        "wasPrice": "was $price",
         "title": "Prijzen kunnen zijn gewijzigd",
         "description": "Reisprijzen veranderen regelmatig. De getoonde prijzen zijn schattingen en kunnen verschillen bij het boeken."
       },

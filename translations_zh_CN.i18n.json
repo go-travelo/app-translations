@@ -1437,6 +1437,9 @@
       "items": "项目",
       "orderSummary": "订单摘要",
       "priceChangeAlert": {
+        "refresh": "刷新价格",
+        "soldOutForDates": "您的日期已售罄——请选择其他酒店",
+        "wasPrice": "原价 $price",
         "title": "价格可能已更改",
         "description": "旅行价格经常变化。显示的价格为估算价格，预订时可能会有所不同。"
       },
