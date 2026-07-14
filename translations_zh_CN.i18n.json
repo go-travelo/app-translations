@@ -1812,6 +1812,7 @@
     "upcoming": "即将出行",
     "planning": "规划中",
     "past": "已结束",
+    "past_trip": "已结束的旅程",
     "happening_now": "正在进行",
     "starts_today": "今天出发",
     "starts_tomorrow": "明天出发",
