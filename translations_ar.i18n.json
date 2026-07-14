@@ -136,6 +136,10 @@
         "files": "الملفات"
       },
       "possibleNextSteps": "الخطوات المحتملة التالية",
+      "destinations_card": {
+        "title": "وجهات مقترحة لك",
+        "subtitle": "اضغط للمشاهدة والاختيار"
+      },
       "continueWithSelected": "متابعة مع ${n} محدد"
     },
     "trip_empty": {

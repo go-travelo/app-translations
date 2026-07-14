@@ -136,6 +136,10 @@
         "files": "קבצים"
       },
       "possibleNextSteps": "צעדים אפשריים הבאים",
+      "destinations_card": {
+        "title": "יעדים בשבילך",
+        "subtitle": "הקישו לצפייה ולבחירה"
+      },
       "continueWithSelected": "המשך עם ${n} שנבחרו"
     },
     "trip_empty": {

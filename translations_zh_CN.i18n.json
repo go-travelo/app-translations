@@ -136,6 +136,10 @@
         "files": "文件"
       },
       "possibleNextSteps": "可能的下一步",
+      "destinations_card": {
+        "title": "为您推荐的目的地",
+        "subtitle": "点按观看并选择"
+      },
       "continueWithSelected": "继续，已选择 ${n} 项"
     },
     "trip_empty": {

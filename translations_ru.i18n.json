@@ -136,6 +136,10 @@
         "files": "Файлы"
       },
       "possibleNextSteps": "Возможные следующие шаги",
+      "destinations_card": {
+        "title": "Направления для вас",
+        "subtitle": "Нажмите, чтобы посмотреть и выбрать"
+      },
       "continueWithSelected": "Продолжить с ${n} выбранными"
     },
     "trip_empty": {

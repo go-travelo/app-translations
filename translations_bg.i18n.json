@@ -136,6 +136,10 @@
         "files": "Файлове"
       },
       "possibleNextSteps": "Възможни следващи стъпки",
+      "destinations_card": {
+        "title": "Дестинации за теб",
+        "subtitle": "Докосни, за да гледаш и избереш"
+      },
       "continueWithSelected": "Продължи с ${n} избрани"
     },
     "trip_empty": {

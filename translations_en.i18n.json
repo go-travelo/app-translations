@@ -136,6 +136,10 @@
         "photoLibrary": "Photo Library",
         "files": "Files"
       },
+      "destinations_card": {
+        "title": "Destinations for you",
+        "subtitle": "Tap to watch and choose"
+      },
       "continueWithSelected": "Continue with ${n} selected"
     },
     "trip_empty": {

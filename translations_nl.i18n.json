@@ -136,6 +136,10 @@
         "files": "Bestanden"
       },
       "possibleNextSteps": "Mogelijke volgende stappen",
+      "destinations_card": {
+        "title": "Bestemmingen voor jou",
+        "subtitle": "Tik om te kijken en te kiezen"
+      },
       "continueWithSelected": "Doorgaan met ${n} geselecteerd"
     },
     "trip_empty": {

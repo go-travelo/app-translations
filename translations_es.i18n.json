@@ -136,6 +136,10 @@
         "files": "Archivos"
       },
       "possibleNextSteps": "Posibles próximos pasos",
+      "destinations_card": {
+        "title": "Destinos para ti",
+        "subtitle": "Toca para ver y elegir"
+      },
       "continueWithSelected": "Continuar con ${n} seleccionados"
     },
     "trip_empty": {
