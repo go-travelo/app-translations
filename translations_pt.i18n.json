@@ -1885,5 +1885,14 @@
     "sort_trip_date": "Data da viagem",
     "sort_last_updated": "Última atualização",
     "sort_date_created": "Data de criação"
+  },
+  "expedia": {
+    "rooms": {
+      "bedRequestNote": "As preferências de cama são apenas pedidos e podem não ser garantidas pelo alojamento.",
+      "priceBreakdown": {
+        "taxesNote": "Estes impostos correspondem às taxas de recuperação de impostos pagas aos seus fornecedores (por exemplo, hotéis). Para mais informações, consulte os nossos Termos de Utilização. As taxas de serviço são retidas a título de compensação pela gestão da sua reserva e podem incluir impostos cobrados por fornecedores.",
+        "feesAtPropertyNote": "Estas taxas são pagas no alojamento no check-in ou no check-out, são definidas pelo alojamento e não estão incluídas no total acima."
+      }
+    }
   }
 }

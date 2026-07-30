@@ -1887,5 +1887,40 @@
     "sort_trip_date": "Trip date",
     "sort_last_updated": "Last updated",
     "sort_date_created": "Date created"
+  },
+  "expedia": {
+    "attribution": "Powered by Expedia",
+    "rooms": {
+      "title": "Available rooms",
+      "loadingPrices": "Loading live prices…",
+      "noneAvailable": "No rooms available for your selected dates. Try different dates from the trip page.",
+      "loadFailed": "We couldn't load live prices right now. Please try again.",
+      "retry": "Try again",
+      "noAvailabilityTitle": "No rooms left here",
+      "onTripBadge": "On your trip",
+      "roomsLeft": "Only $count left",
+      "perNight": "per night",
+      "inclTaxesShort": "Incl. taxes & fees",
+      "noMeals": "No meals included",
+      "payNow": "Pay now",
+      "nonRefundable": "Non-refundable",
+      "freeCancellationUntil": "Free cancellation until $date",
+      "cancellationTitle": "Cancellation policy",
+      "bedRequestNote": "Bed choices are requests only and may not be guaranteed by the property.",
+      "maxRoomsReached": "You can book up to 8 rooms",
+      "reserve": "Reserve",
+      "priceBreakdown": {
+        "taxesAndFees": "Taxes and fees",
+        "total": "Total",
+        "taxesNote": "The taxes are tax recovery charges paid to vendors (e.g. hotels); for details, please see our Terms of Use. Service fees are retained as compensation in servicing your booking and may include fees charged by vendors.",
+        "feesAtProperty": "Charges due at the property",
+        "feesAtPropertyNote": "These charges are due at the property at check-in or check-out, are set by the property, and are not included in the total above.",
+        "feeKind": {
+          "mandatoryFee": "Mandatory fee",
+          "resortFee": "Resort fee",
+          "mandatoryTax": "Mandatory tax"
+        }
+      }
+    }
   }
 }

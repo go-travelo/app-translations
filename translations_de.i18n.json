@@ -1885,5 +1885,14 @@
     "sort_trip_date": "Reisedatum",
     "sort_last_updated": "Zuletzt aktualisiert",
     "sort_date_created": "Erstellt am"
+  },
+  "expedia": {
+    "rooms": {
+      "bedRequestNote": "Bettenwünsche sind nur Anfragen und können von der Unterkunft nicht garantiert werden.",
+      "priceBreakdown": {
+        "taxesNote": "Bei den Steuern handelt es sich um gesetzliche Abgaben an Anbieter (z. B. Hotels). Mehr Details sind in unseren Nutzungsbedingungen zu finden. Die Servicegebühren werden für die Durchführung der Buchung einbehalten und können Gebühren der Anbieter enthalten.",
+        "feesAtPropertyNote": "Diese Gebühren sind beim Check-in oder Check-out direkt in der Unterkunft zu zahlen, werden von der Unterkunft festgelegt und sind nicht im obigen Gesamtbetrag enthalten."
+      }
+    }
   }
 }

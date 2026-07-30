@@ -1850,5 +1850,14 @@
     "sort_trip_date": "旅行日期",
     "sort_last_updated": "最近更新",
     "sort_date_created": "创建日期"
+  },
+  "expedia": {
+    "rooms": {
+      "bedRequestNote": "床型选择仅为请求，住宿方可能无法保证。",
+      "priceBreakdown": {
+        "taxesNote": "此处的税款是指付给供应商（如酒店）的代缴税款。如需了解详细信息，请参阅我们的使用条款。服务费作为对您的预订提供服务的佣金收取，可能包括供应商收取的费用。",
+        "feesAtPropertyNote": "这些费用需在入住或退房时直接向酒店支付，由酒店制定，不包含在上述总额中。"
+      }
+    }
   }
 }
