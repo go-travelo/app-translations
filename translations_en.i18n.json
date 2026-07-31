@@ -1996,7 +1996,22 @@
       "who": "Who",
       "filters": "Filters",
       "updateResults": "Update results",
-      "searchPromptHint": "Describe your ideal hotel…"
+      "searchPromptHint": "Describe your ideal hotel…",
+      "sortBestMatch": "Best match",
+      "sortCheapest": "Price: low to high",
+      "sortMostExpensive": "Price: high to low",
+      "sortGuestRating": "Guest rating",
+      "budgetPerNight": "Budget per night",
+      "starRating": "Star rating",
+      "guestRating": "Guest rating",
+      "mealPlans": "Meal plans",
+      "popularFilters": "Popular filters",
+      "fromYourSearch": "From your search",
+      "noBudgetLimit": "Any",
+      "childN": "Child $n",
+      "selectAge": "Select age",
+      "ageN": "Age $age",
+      "childAgesRequired": "Add each child's age to continue"
     },
     "reviews": {
       "sortNote": "Reviews are shown in your language first, then most recent",
