@@ -1840,7 +1840,10 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "Secure checkout",
+      "poweredByStripe": "Powered by Stripe · SSL encrypted",
+      "noSelection": "No items selected — go back to pick what you want to book."
     },
     "totals": {
       "total": "Total",
@@ -1861,7 +1864,8 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "Back to my trip"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
