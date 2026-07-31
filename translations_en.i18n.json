@@ -1988,6 +1988,26 @@
       "quality": "Quality",
       "value": "Value",
       "amenities": "Amenities"
+    },
+    "search": {
+      "refine": "Refine",
+      "where": "Where",
+      "when": "When",
+      "who": "Who",
+      "filters": "Filters",
+      "updateResults": "Update results",
+      "searchPromptHint": "Describe your ideal hotel…"
+    },
+    "reviews": {
+      "sortNote": "Reviews are shown in your language first, then most recent",
+      "policyLink": "How our guest reviews work",
+      "seeAll": "See all reviews",
+      "allTitle": "All $count reviews",
+      "allTitleFallback": "All reviews",
+      "otherLanguagesNote": "Showing written reviews in your language. The overall score is based on all $total guest reviews, including ones in other languages.",
+      "reviewedOn": "Reviewed $date",
+      "stayed": "Stayed $date",
+      "viaSource": "via $source"
     }
   }
 }
