@@ -1868,6 +1868,15 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "Checkout Online",
+      "subtitle": "Fastest way to move forward. Pay securely and Layla handles the booking.",
+      "selectAll": "Select all",
+      "expired": "Expired",
+      "soldOut": "No rooms left here",
+      "refreshToContinue": "Refresh expired prices to continue with checkout",
+      "replaceSoldOut": "Replace the sold-out hotel to continue with checkout"
     }
   },
   "trips_list": {
