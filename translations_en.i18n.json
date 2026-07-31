@@ -1920,7 +1920,8 @@
           "resortFee": "Resort fee",
           "mandatoryTax": "Mandatory tax"
         }
-      }
+      },
+      "chooseRooms": "Choose rooms"
     },
     "booking": {
       "title": "Complete your booking",
