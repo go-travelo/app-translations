@@ -1885,5 +1885,14 @@
     "sort_trip_date": "Date du voyage",
     "sort_last_updated": "Dernière mise à jour",
     "sort_date_created": "Date de création"
+  },
+  "expedia": {
+    "rooms": {
+      "bedRequestNote": "Les choix de lit ne sont que des demandes et ne peuvent pas être garantis par l'établissement.",
+      "priceBreakdown": {
+        "taxesNote": "Les taxes correspondent à des frais de recouvrement reversés aux fournisseurs (hôtels, par exemple). Pour plus d’informations, veuillez consulter nos Conditions générales. Des frais de service sont retenus à titre de compensation pour le traitement de votre réservation et peuvent inclure des frais facturés par les fournisseurs.",
+        "feesAtPropertyNote": "Ces frais sont à régler à l'établissement à l'arrivée ou au départ ; ils sont fixés par l'établissement et ne sont pas inclus dans le total ci-dessus."
+      }
+    }
   }
 }
