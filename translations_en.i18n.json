@@ -1302,6 +1302,17 @@
       "trip": "Trip",
       "cart": "Cart"
     },
+    "hide_chat": "Hide chat",
+    "show_chat": "Show chat",
+    "cart_with_total": "Cart · $total",
+    "footer": {
+      "from_total": "From $total",
+      "total_for": {
+        "one": "total for $n person",
+        "other": "total for $n persons"
+      },
+      "plan_with_expert": "Plan with an expert"
+    },
     "messages": {
       "inviteComingSoon": "Invite - Coming soon",
       "deleteTransportComingSoon": "Delete transport - Coming soon",
