@@ -2188,5 +2188,18 @@
       "stayed": "Stayed $date",
       "viaSource": "via $source"
     }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "Time for a quick update",
+      "body": "This version of Layla is no longer supported. Update to keep planning your trips.",
+      "cta": "Update Layla"
+    },
+    "recommended": {
+      "title": "A new Layla is ready",
+      "body": "We've made things smoother. Update whenever you have a moment.",
+      "cta": "Update now",
+      "later": "Maybe later"
+    }
   }
 }
