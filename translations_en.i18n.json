@@ -2044,6 +2044,8 @@
       "other": "Starts in $n days"
     },
     "start_new": "Start a new trip",
+    "new_trip": "New trip",
+    "day_of_total": "Day $day of $total",
     "sort_by": "Sort by",
     "sort_trip_date": "Trip date",
     "sort_last_updated": "Last updated",
