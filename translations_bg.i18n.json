@@ -688,6 +688,10 @@
       "iNeedHelpWith": "Нуждая се от помощ с: ${labels}.",
       "inspireMe": "Вдъхнови ме къде да отида."
     },
+    "welcomeChips": {
+      "noFees": "Без такси",
+      "care": "Грижа 24/7"
+    },
     "alreadyUsed": "Вече използвал Layla?",
     "share": {
       "anyoneWithLink": "Всеки с този линк може да види и редактира това пътуване.",

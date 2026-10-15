@@ -731,6 +731,10 @@
       "iNeedHelpWith": "أحتاج مساعدة في: ${labels}.",
       "inspireMe": "ألهمني إلى أين أذهب."
     },
+    "welcomeChips": {
+      "noFees": "بدون رسوم",
+      "care": "رعاية على مدار الساعة"
+    },
     "alreadyUsed": "استخدمت Layla من قبل؟",
     "share": {
       "anyoneWithLink": "أي شخص لديه الرابط يقدر يشوف الرحلة ويعدل عليها.",

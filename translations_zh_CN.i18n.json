@@ -679,6 +679,10 @@
       "iNeedHelpWith": "我需要帮助：${labels}。",
       "inspireMe": "给我一些目的地的灵感。"
     },
+    "welcomeChips": {
+      "noFees": "零手续费",
+      "care": "全天候服务"
+    },
     "alreadyUsed": "之前用过 Layla？",
     "share": {
       "anyoneWithLink": "任何人有链接都可以查看和编辑这次旅行。",

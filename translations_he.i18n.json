@@ -710,6 +710,10 @@
       "iNeedHelpWith": "אני צריך עזרה עם: ${labels}.",
       "inspireMe": "תן לי השראה לאן ללכת."
     },
+    "welcomeChips": {
+      "noFees": "ללא עמלות",
+      "care": "ליווי 24/7"
+    },
     "alreadyUsed": "כבר השתמשת ב-Layla?",
     "share": {
       "anyoneWithLink": "כל מי שיש לו את הקישור יכול לצפות ולערוך את הטיול הזה.",

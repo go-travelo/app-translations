@@ -688,6 +688,10 @@
       "iNeedHelpWith": "Ich brauche Hilfe bei: ${labels}.",
       "inspireMe": "Inspiriere mich, wohin ich gehen soll."
     },
+    "welcomeChips": {
+      "noFees": "Keine Gebühren",
+      "care": "24/7-Betreuung"
+    },
     "alreadyUsed": "Schon mal Layla benutzt?",
     "share": {
       "anyoneWithLink": "Jeder mit dem Link kann diese Reise ansehen und bearbeiten.",

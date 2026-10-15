@@ -787,6 +787,10 @@
       "iNeedHelpWith": "I need help with: ${labels}.",
       "inspireMe": "Inspire me where to go."
     },
+    "welcomeChips": {
+      "noFees": "No fees",
+      "care": "24/7 care"
+    },
     "alreadyUsed": "Already used Layla?",
     "share": {
       "anyoneWithLink": "Anyone with the link can view and edit this trip.",
