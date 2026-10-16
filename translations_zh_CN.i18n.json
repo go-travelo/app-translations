@@ -637,7 +637,7 @@
     "tripLoading": {
       "seeYourTrip": "查看你的行程",
       "laylaIsPlanning": "Layla 正在规划...",
-      "yourTripIsReady": "你的行程已准备好",
+      "yourTripIsReady": "你的第一版方案已就绪",
       "progressLabel": "规划进度",
       "daysCount": {
         "other": "${n}天"
@@ -645,15 +645,14 @@
       "stages": {
         "you": {
           "title": "你",
-          "subtitle": "一句话的事"
+          "subtitle": "一句话搞定"
         },
-        "flights": {
-          "title": "航班",
-          "subtitle": "最佳路线已锁定"
+        "layla": {
+          "subtitle": "航班和住宿已初选"
         },
-        "stays": {
-          "title": "住宿",
-          "subtitle": "为你精心挑选"
+        "advisor": {
+          "title": "你的旅行顾问",
+          "subtitle": "核对并预订"
         },
         "destination": {
           "fallbackTitle": "行程",

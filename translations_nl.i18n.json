@@ -645,7 +645,7 @@
     "tripLoading": {
       "seeYourTrip": "Bekijk je reis",
       "laylaIsPlanning": "Layla is aan het plannen...",
-      "yourTripIsReady": "Je reis is klaar",
+      "yourTripIsReady": "Je eerste plan staat klaar",
       "progressLabel": "Planning-voortgang",
       "daysCount": {
         "one": "${n} dag",
@@ -654,15 +654,14 @@
       "stages": {
         "you": {
           "title": "Jij",
-          "subtitle": "Zeg het maar"
+          "subtitle": "Je hebt het gezegd"
         },
-        "flights": {
-          "title": "Vluchten",
-          "subtitle": "Beste routes, geboekt"
+        "layla": {
+          "subtitle": "Vluchten en verblijven voorgeselecteerd"
         },
-        "stays": {
-          "title": "Verblijven",
-          "subtitle": "Speciaal voor jou geselecteerd"
+        "advisor": {
+          "title": "Je reisadviseur",
+          "subtitle": "Checkt en boekt"
         },
         "destination": {
           "fallbackTitle": "Reisplan",

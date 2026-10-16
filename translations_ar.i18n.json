@@ -685,7 +685,7 @@
     "tripLoading": {
       "seeYourTrip": "شاهد رحلتك",
       "laylaIsPlanning": "Layla تخطط...",
-      "yourTripIsReady": "رحلتك جاهزة",
+      "yourTripIsReady": "خطتك الأولى جاهزة",
       "progressLabel": "تقدم التخطيط",
       "daysCount": {
         "one": "يوم واحد",
@@ -697,15 +697,14 @@
       "stages": {
         "you": {
           "title": "أنت",
-          "subtitle": "فقط قل الكلمة"
+          "subtitle": "قلت الكلمة"
         },
-        "flights": {
-          "title": "الرحلات",
-          "subtitle": "أفضل المسارات، تم الحجز"
+        "layla": {
+          "subtitle": "رحلات وإقامات مختارة"
         },
-        "stays": {
-          "title": "الإقامات",
-          "subtitle": "مختارة خصيصًا لك"
+        "advisor": {
+          "title": "مستشارك",
+          "subtitle": "يراجع ويحجز"
         },
         "destination": {
           "fallbackTitle": "المسار",

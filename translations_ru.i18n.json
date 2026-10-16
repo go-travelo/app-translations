@@ -665,7 +665,7 @@
     "tripLoading": {
       "seeYourTrip": "Посмотри свою поездку",
       "laylaIsPlanning": "Layla планирует...",
-      "yourTripIsReady": "Твоя поездка готова",
+      "yourTripIsReady": "Твой первый план готов",
       "progressLabel": "Прогресс планирования",
       "daysCount": {
         "one": "${n} день",
@@ -676,15 +676,14 @@
       "stages": {
         "you": {
           "title": "Ты",
-          "subtitle": "Просто скажи"
+          "subtitle": "Слово сказано"
         },
-        "flights": {
-          "title": "Рейсы",
-          "subtitle": "Лучшие маршруты найдены"
+        "layla": {
+          "subtitle": "Рейсы и жильё подобраны"
         },
-        "stays": {
-          "title": "Жильё",
-          "subtitle": "Подобрано вручную"
+        "advisor": {
+          "title": "Твой консультант",
+          "subtitle": "Проверит и забронирует"
         },
         "destination": {
           "fallbackTitle": "Маршрут",

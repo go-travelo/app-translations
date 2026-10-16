@@ -645,7 +645,7 @@
     "tripLoading": {
       "seeYourTrip": "Ver tu viaje",
       "laylaIsPlanning": "Layla está planeando...",
-      "yourTripIsReady": "Tu viaje está listo",
+      "yourTripIsReady": "Tu primer plan está listo",
       "progressLabel": "Progreso de la planificación",
       "daysCount": {
         "one": "${n} día",
@@ -654,15 +654,14 @@
       "stages": {
         "you": {
           "title": "Tú",
-          "subtitle": "Solo dilo"
+          "subtitle": "Ya lo dijiste"
         },
-        "flights": {
-          "title": "Vuelos",
-          "subtitle": "Mejores rutas, listas"
+        "layla": {
+          "subtitle": "Vuelos y estancias preseleccionados"
         },
-        "stays": {
-          "title": "Estancias",
-          "subtitle": "Seleccionadas para ti"
+        "advisor": {
+          "title": "Tu asesor de viajes",
+          "subtitle": "Revisa y reserva"
         },
         "destination": {
           "fallbackTitle": "Itinerario",

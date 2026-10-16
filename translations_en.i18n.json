@@ -744,7 +744,7 @@
     "tripLoading": {
       "seeYourTrip": "See your trip",
       "laylaIsPlanning": "Layla is planning...",
-      "yourTripIsReady": "Your trip is ready",
+      "yourTripIsReady": "Your first plan is ready",
       "progressLabel": "Planning progress",
       "daysCount": {
         "one": "${n} day",
@@ -753,15 +753,14 @@
       "stages": {
         "you": {
           "title": "You",
-          "subtitle": "Just say the word"
+          "subtitle": "Said the word"
         },
-        "flights": {
-          "title": "Flights",
-          "subtitle": "Best routes, locked"
+        "layla": {
+          "subtitle": "Shortlisted flights and stays"
         },
-        "stays": {
-          "title": "Stays",
-          "subtitle": "Hand-picked for you"
+        "advisor": {
+          "title": "Your advisor",
+          "subtitle": "Checks and books"
         },
         "destination": {
           "fallbackTitle": "Itinerary",

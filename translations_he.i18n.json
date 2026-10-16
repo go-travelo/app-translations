@@ -665,7 +665,7 @@
     "tripLoading": {
       "seeYourTrip": "ראה את הטיול שלך",
       "laylaIsPlanning": "Layla מתכננת...",
-      "yourTripIsReady": "הטיול שלך מוכן",
+      "yourTripIsReady": "התוכנית הראשונה שלך מוכנה",
       "progressLabel": "התקדמות התכנון",
       "daysCount": {
         "one": "יום אחד",
@@ -676,15 +676,14 @@
       "stages": {
         "you": {
           "title": "אתה",
-          "subtitle": "רק תגיד את המילה"
+          "subtitle": "אמרת את המילה"
         },
-        "flights": {
-          "title": "טיסות",
-          "subtitle": "המסלולים הטובים ביותר מאובטחים"
+        "layla": {
+          "subtitle": "טיסות ולינות נבחרו"
         },
-        "stays": {
-          "title": "לינות",
-          "subtitle": "נבחרו במיוחד עבורך"
+        "advisor": {
+          "title": "היועץ שלך",
+          "subtitle": "בודק ומזמין"
         },
         "destination": {
           "fallbackTitle": "מסלול טיול",
