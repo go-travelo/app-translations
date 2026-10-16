@@ -239,7 +239,16 @@
         "title": "Destinations for you",
         "subtitle": "Tap to watch and choose"
       },
-      "continueWithSelected": "Continue with ${n} selected"
+      "continueWithSelected": "Continue with ${n} selected",
+      "advisor": {
+        "bannerTitle": "Plan with a travel advisor, free",
+        "bannerSubtitle": "They review, book and support your whole trip",
+        "nudgeTitle": "Need a hand?",
+        "nudgeBody": "Layla advisors can help you save time. Completely free.",
+        "nudgeCta": "Book a call",
+        "nudgeDismiss": "Maybe later",
+        "webviewTitle": "Talk to a travel advisor"
+      }
     },
     "trip_empty": {
       "title": "Chat & create trip",
@@ -866,7 +875,44 @@
     "subscription_id_copied": "Subscription ID copied to clipboard",
     "user_id_label": "User ID:\n${userId}",
     "subscription_id_label": "Subscription ID:\n${subscriptionId}",
-    "add_your_name": "Add your name"
+    "add_your_name": "Add your name",
+    "edit": "Edit",
+    "advisor_title": "Your travel advisor",
+    "advisor_subtitle": "Plans with you, books it and stays on call while you're away.",
+    "book_a_call": "Book a call",
+    "your_trips": "Your trips",
+    "see_all": "See all",
+    "no_trips_yet": "No trips yet",
+    "start_planning": "Start planning",
+    "trip_status_upcoming": "Upcoming",
+    "trip_status_ongoing": "On the road",
+    "trip_status_past": "Past",
+    "trip_status_planning": "Planning",
+    "trip_status_working": "Layla is working on it",
+    "help_and_contact": "Help & contact",
+    "share_layla": "Share Layla",
+    "legal_row": "Terms, privacy, imprint",
+    "account": "Account",
+    "notifications": "Notifications",
+    "notifications_on": "On",
+    "notifications_off": "Off",
+    "log_out_title": "Log out?",
+    "log_out_message": "You can sign back in any time. Your trips stay saved to your account.",
+    "delete_account": "Delete account",
+    "delete_confirm_title": "Delete your account?",
+    "delete_confirm_message": "This removes your profile and trip history from Layla. It cannot be undone.",
+    "delete_confirm_again_title": "Last check",
+    "delete_confirm_again_message": "Delete the account for ${email}? There is no way back.",
+    "sign_in_to_keep_trips": "Sign in to keep your trips",
+    "sign_in_subtitle": "Your plans, bookings and your travel advisor, on every device.",
+    "new_to_layla": "New to Layla?",
+    "switch_language_title": "Switch to ${language}?",
+    "switch_language_message": "Layla will speak ${language} from now on.",
+    "switch_action": "Switch",
+    "popular_currencies": "Popular",
+    "all_currencies": "All currencies",
+    "no_currencies_found": "No currencies match",
+    "remove_photo": "Remove photo"
   },
   "auth": {
     "email": "Email",
@@ -1084,8 +1130,8 @@
   "continue_label": "Continue",
   "create": "Create",
   "create_screen": {
-    "greetingWithName": "Hi ${name},\nwhat do you want to\nexperience?",
-    "greeting": "What do you want to\nexperience?",
+    "greetingWithName": "Hi ${name},\nwhere do you want to *wake up* next?",
+    "greeting": "Where do you want to *wake up* next?",
     "listening": "Listening...",
     "placeholders": [
       "A 2-week tour of Italy: Rome, Florence, and the Amalfi Coast...",
@@ -1098,7 +1144,10 @@
       "Two weeks chasing the Northern Lights in Iceland and Norway...",
       "A 16-day safari and beach trip in Kenya and Zanzibar...",
       "A 21-day backpacking adventure through South America..."
-    ]
+    ],
+    "planIt": "Plan it",
+    "tapAndTell": "Tap and tell Layla",
+    "placeholder": "Ten days in Italy for our anniversary, no rushing…"
   },
   "creator": "Creator",
   "currency": "Currency",
@@ -1313,7 +1362,7 @@
         "one": "total for $n person",
         "other": "total for $n persons"
       },
-      "plan_with_expert": "Plan with an expert"
+      "plan_with_expert": "Plan with a travel advisor"
     },
     "messages": {
       "inviteComingSoon": "Invite - Coming soon",
@@ -1710,6 +1759,23 @@
     "distance": {
       "km": "${n} km",
       "meters": "${n} m"
+    },
+    "quickEdit": {
+      "title": "Dates & travelers",
+      "itinerary": "Itinerary",
+      "childAges": "Child ages",
+      "childAgesHint": "Ages at the time of travel decide the fare and what the room needs.",
+      "childNumber": "Child ${index}",
+      "age": {
+        "one": "${n} year",
+        "other": "${n} years"
+      },
+      "moreAdults": "One more adult",
+      "fewerAdults": "One fewer adult",
+      "moreChildren": "One more child",
+      "fewerChildren": "One fewer child",
+      "dateRequired": "Every departure needs a date",
+      "dateOrder": "Each departure must be on or after the one before it"
     }
   },
   "tripWord": "Trip",
@@ -1842,7 +1908,7 @@
     "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
     "continue_with_human": "Continue with a travel expert",
-    "book_with_human": "Book with a travel expert",
+    "book_with_human": "Book with a travel advisor",
     "continue_with_booking": "Continue with Booking"
   },
   "paywall": {

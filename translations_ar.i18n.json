@@ -140,7 +140,16 @@
         "title": "وجهات مقترحة لك",
         "subtitle": "اضغط للمشاهدة والاختيار"
       },
-      "continueWithSelected": "متابعة مع ${n} محدد"
+      "continueWithSelected": "متابعة مع ${n} محدد",
+      "advisor": {
+        "bannerTitle": "خطّط مع مستشار سفر، مجاناً",
+        "bannerSubtitle": "يراجع ويحجز ويرافقك طوال رحلتك",
+        "nudgeTitle": "تحتاج مساعدة؟",
+        "nudgeBody": "مستشارو Layla يوفّرون عليك الوقت. مجاناً بالكامل.",
+        "nudgeCta": "احجز مكالمة",
+        "nudgeDismiss": "ربما لاحقاً",
+        "webviewTitle": "تحدّث مع مستشار سفر"
+      }
     },
     "trip_empty": {
       "title": "الدردشة وإنشاء رحلة",
@@ -810,7 +819,44 @@
     "subscription_id_copied": "تم نسخ معرف الاشتراك إلى الحافظة",
     "user_id_label": "معرف المستخدم:\n${userId}",
     "subscription_id_label": "معرف الاشتراك:\n${subscriptionId}",
-    "add_your_name": "أضف اسمك"
+    "add_your_name": "أضف اسمك",
+    "edit": "تعديل",
+    "advisor_title": "مستشار سفرك",
+    "advisor_subtitle": "يخطط معك، يحجز كل شيء، ويبقى على تواصل وأنت في رحلتك.",
+    "book_a_call": "احجز مكالمة",
+    "your_trips": "رحلاتك",
+    "see_all": "عرض الكل",
+    "no_trips_yet": "لا رحلات بعد",
+    "start_planning": "ابدأ التخطيط",
+    "trip_status_upcoming": "قادمة",
+    "trip_status_ongoing": "جارية",
+    "trip_status_past": "منتهية",
+    "trip_status_planning": "قيد التحضير",
+    "trip_status_working": "Layla تعمل عليها",
+    "help_and_contact": "المساعدة والتواصل",
+    "share_layla": "شارك Layla",
+    "legal_row": "الشروط، الخصوصية، البيانات القانونية",
+    "account": "الحساب",
+    "notifications": "الإشعارات",
+    "notifications_on": "مفعّلة",
+    "notifications_off": "موقوفة",
+    "log_out_title": "تسجيل الخروج؟",
+    "log_out_message": "تقدر تسجل الدخول متى ما شئت. رحلاتك تبقى محفوظة في حسابك.",
+    "delete_account": "حذف الحساب",
+    "delete_confirm_title": "حذف حسابك؟",
+    "delete_confirm_message": "سيُحذف ملفك وسجل رحلاتك من Layla. لا يمكن التراجع عن هذا.",
+    "delete_confirm_again_title": "تأكيد أخير",
+    "delete_confirm_again_message": "حذف حساب ${email}؟ لا رجعة بعد ذلك.",
+    "sign_in_to_keep_trips": "سجّل الدخول للاحتفاظ برحلاتك",
+    "sign_in_subtitle": "خططك وحجوزاتك ومستشار سفرك، على كل أجهزتك.",
+    "new_to_layla": "جديد على Layla؟",
+    "switch_language_title": "التبديل إلى ${language}؟",
+    "switch_language_message": "ستتحدث Layla معك بـ${language} من الآن فصاعدًا.",
+    "switch_action": "تبديل",
+    "popular_currencies": "الشائعة",
+    "all_currencies": "كل العملات",
+    "no_currencies_found": "لا توجد عملات مطابقة",
+    "remove_photo": "إزالة الصورة"
   },
   "auth": {
     "email": "البريد الإلكتروني",
@@ -1690,6 +1736,30 @@
     "distance": {
       "km": "${n} كم",
       "meters": "${n} م"
+    },
+    "footer": {
+      "plan_with_expert": "خطّط مع مستشار سفر"
+    },
+    "quickEdit": {
+      "title": "التواريخ والمسافرون",
+      "itinerary": "خط الرحلة",
+      "childAges": "أعمار الأطفال",
+      "childAgesHint": "العمر وقت السفر يحدد سعر التذكرة ونوع الغرفة.",
+      "childNumber": "الطفل ${index}",
+      "age": {
+        "zero": "${n} سنة",
+        "one": "سنة واحدة",
+        "two": "سنتان",
+        "few": "${n} سنوات",
+        "many": "${n} سنة",
+        "other": "${n} سنة"
+      },
+      "moreAdults": "إضافة بالغ",
+      "fewerAdults": "إزالة بالغ",
+      "moreChildren": "إضافة طفل",
+      "fewerChildren": "إزالة طفل",
+      "dateRequired": "كل مغادرة تحتاج إلى تاريخ",
+      "dateOrder": "يجب أن تكون كل مغادرة في يوم المغادرة السابقة أو بعدها"
     }
   },
   "tripWord": "رحلة",
@@ -1913,12 +1983,12 @@
     "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
     "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
     "continue_with_human": "تابع مع خبير سفر",
-    "book_with_human": "احجز مع خبير سفر",
+    "book_with_human": "احجز مع مستشار سفر",
     "continue_with_booking": "متابعة الحجز"
   },
   "create_screen": {
-    "greetingWithName": "مرحباً ${name}،\nماذا تريد أن\nتجرّب؟",
-    "greeting": "ماذا تريد أن\nتجرّب؟",
+    "greetingWithName": "مرحباً ${name}،\nأين تريد أن *تستيقظ* في المرة القادمة؟",
+    "greeting": "أين تريد أن *تستيقظ* في المرة القادمة؟",
     "listening": "جارٍ الاستماع...",
     "placeholders": [
       "جولة لمدة أسبوعين في إيطاليا: روما، فلورنسا وساحل أمالفي...",
@@ -1931,7 +2001,10 @@
       "أسبوعان لمطاردة الشفق القطبي في أيسلندا والنرويج...",
       "رحلة سفاري وشاطئ لمدة 16 يومًا في كينيا وزنجبار...",
       "مغامرة بحقيبة الظهر لمدة 21 يومًا عبر أمريكا الجنوبية..."
-    ]
+    ],
+    "planIt": "خطّطها",
+    "tapAndTell": "اضغط وأخبر Layla",
+    "placeholder": "عشرة أيام في إيطاليا بمناسبة ذكرى زواجنا، من دون عجلة…"
   },
   "tripsWord": "الرحلات",
   "searchTrips": "البحث عن رحلات...",

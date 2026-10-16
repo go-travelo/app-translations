@@ -140,7 +140,16 @@
         "title": "יעדים בשבילך",
         "subtitle": "הקישו לצפייה ולבחירה"
       },
-      "continueWithSelected": "המשך עם ${n} שנבחרו"
+      "continueWithSelected": "המשך עם ${n} שנבחרו",
+      "advisor": {
+        "bannerTitle": "לתכנן עם יועץ נסיעות, בחינם",
+        "bannerSubtitle": "הוא בודק, מזמין ומלווה אותך לאורך כל הטיול",
+        "nudgeTitle": "צריך עזרה?",
+        "nudgeBody": "יועצי Layla חוסכים לך זמן. בחינם לגמרי.",
+        "nudgeCta": "לקבוע שיחה",
+        "nudgeDismiss": "אולי אחר כך",
+        "webviewTitle": "לדבר עם יועץ נסיעות"
+      }
     },
     "trip_empty": {
       "title": "צ'אט ויצירת טיול",
@@ -789,7 +798,44 @@
     "subscription_id_copied": "מזהה המנוי הועתק",
     "user_id_label": "מזהה משתמש:\n${userId}",
     "subscription_id_label": "מזהה מנוי:\n${subscriptionId}",
-    "add_your_name": "הוספת השם שלך"
+    "add_your_name": "הוספת השם שלך",
+    "edit": "עריכה",
+    "advisor_title": "יועץ הנסיעות שלך",
+    "advisor_subtitle": "מתכנן איתך, מזמין הכול ונשאר זמין בזמן שאתה בדרכים.",
+    "book_a_call": "קביעת שיחה",
+    "your_trips": "הטיולים שלך",
+    "see_all": "הצג הכול",
+    "no_trips_yet": "עדיין אין טיולים",
+    "start_planning": "להתחיל לתכנן",
+    "trip_status_upcoming": "בקרוב",
+    "trip_status_ongoing": "בדרכים",
+    "trip_status_past": "הסתיים",
+    "trip_status_planning": "בתכנון",
+    "trip_status_working": "Layla עובדת על זה",
+    "help_and_contact": "עזרה ויצירת קשר",
+    "share_layla": "שיתוף Layla",
+    "legal_row": "תנאים, פרטיות, פרטי החברה",
+    "account": "חשבון",
+    "notifications": "התראות",
+    "notifications_on": "פועל",
+    "notifications_off": "כבוי",
+    "log_out_title": "להתנתק?",
+    "log_out_message": "אפשר להתחבר שוב בכל רגע. הטיולים שלך נשארים שמורים בחשבון.",
+    "delete_account": "מחיקת חשבון",
+    "delete_confirm_title": "למחוק את החשבון?",
+    "delete_confirm_message": "הפרופיל והיסטוריית הטיולים שלך יימחקו מ-Layla. אי אפשר לבטל את זה.",
+    "delete_confirm_again_title": "בדיקה אחרונה",
+    "delete_confirm_again_message": "למחוק את החשבון של ${email}? אין דרך חזרה.",
+    "sign_in_to_keep_trips": "התחברות כדי לשמור את הטיולים שלך",
+    "sign_in_subtitle": "התוכניות, ההזמנות ויועץ הנסיעות שלך, בכל מכשיר.",
+    "new_to_layla": "חדש ב-Layla?",
+    "switch_language_title": "לעבור ל${language}?",
+    "switch_language_message": "מעכשיו Layla תדבר איתך ב${language}.",
+    "switch_action": "החלפה",
+    "popular_currencies": "נפוצים",
+    "all_currencies": "כל המטבעות",
+    "no_currencies_found": "לא נמצאו מטבעות מתאימים",
+    "remove_photo": "הסרת התמונה"
   },
   "auth": {
     "email": "אימייל",
@@ -1631,6 +1677,28 @@
     "distance": {
       "km": "${n} ק\"מ",
       "meters": "${n} מ'"
+    },
+    "footer": {
+      "plan_with_expert": "לתכנן עם יועץ נסיעות"
+    },
+    "quickEdit": {
+      "title": "תאריכים ונוסעים",
+      "itinerary": "מסלול",
+      "childAges": "גילאי הילדים",
+      "childAgesHint": "הגיל בזמן הנסיעה קובע את המחיר ואת סוג החדר.",
+      "childNumber": "ילד ${index}",
+      "age": {
+        "one": "שנה אחת",
+        "two": "שנתיים",
+        "many": "${n} שנים",
+        "other": "${n} שנים"
+      },
+      "moreAdults": "עוד מבוגר",
+      "fewerAdults": "מבוגר אחד פחות",
+      "moreChildren": "עוד ילד",
+      "fewerChildren": "ילד אחד פחות",
+      "dateRequired": "לכל יציאה צריך תאריך",
+      "dateOrder": "כל יציאה חייבת להיות ביום היציאה הקודמת או אחריה"
     }
   },
   "tripWord": "טיול",
@@ -1840,12 +1908,12 @@
     "benefit3_title": "${n}+ העברות אורגנו בצורה חלקה",
     "benefit3_description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בשלמות במסלול שלכם.",
     "continue_with_human": "להמשיך עם מומחה נסיעות",
-    "book_with_human": "להזמין עם מומחה נסיעות",
+    "book_with_human": "להזמין עם יועץ נסיעות",
     "continue_with_booking": "המשך להזמנה"
   },
   "create_screen": {
-    "greetingWithName": "היי ${name},\nמה אתה רוצה\nלחוות?",
-    "greeting": "מה אתה רוצה\nלחוות?",
+    "greetingWithName": "היי ${name},\nאיפה אתה רוצה *להתעורר* בפעם הבאה?",
+    "greeting": "איפה אתה רוצה *להתעורר* בפעם הבאה?",
     "listening": "מקשיב...",
     "placeholders": [
       "סיור של שבועיים באיטליה: רומא, פירנצה וחוף אמלפי...",
@@ -1858,7 +1926,10 @@
       "שבועיים בעקבות הזוהר הצפוני באיסלנד ובנורווגיה...",
       "ספארי וחוף של 16 ימים בקניה ובזנזיבר...",
       "הרפתקת תרמילאות של 21 ימים בדרום אמריקה..."
-    ]
+    ],
+    "planIt": "לתכנן",
+    "tapAndTell": "לחץ וספר ל-Layla",
+    "placeholder": "עשרה ימים באיטליה ליום הנישואין שלנו, בלי למהר…"
   },
   "tripsWord": "טיולים",
   "searchTrips": "חיפוש טיולים...",

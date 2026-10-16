@@ -140,7 +140,16 @@
         "title": "为您推荐的目的地",
         "subtitle": "点按观看并选择"
       },
-      "continueWithSelected": "继续，已选择 ${n} 项"
+      "continueWithSelected": "继续，已选择 ${n} 项",
+      "advisor": {
+        "bannerTitle": "和旅行顾问一起规划，免费",
+        "bannerSubtitle": "顾问帮你核对、预订，全程陪伴",
+        "nudgeTitle": "需要帮忙吗？",
+        "nudgeBody": "Layla 的旅行顾问帮你省时间，完全免费。",
+        "nudgeCta": "预约通话",
+        "nudgeDismiss": "稍后再说",
+        "webviewTitle": "联系旅行顾问"
+      }
     },
     "trip_empty": {
       "title": "聊天并创建行程",
@@ -758,7 +767,44 @@
     "subscription_id_copied": "订阅ID已复制",
     "user_id_label": "用户ID:\n${userId}",
     "subscription_id_label": "订阅ID:\n${subscriptionId}",
-    "add_your_name": "添加你的名字"
+    "add_your_name": "添加你的名字",
+    "edit": "编辑",
+    "advisor_title": "你的旅行顾问",
+    "advisor_subtitle": "和你一起规划，帮你预订，旅途中随时在线。",
+    "book_a_call": "预约通话",
+    "your_trips": "你的行程",
+    "see_all": "查看全部",
+    "no_trips_yet": "还没有行程",
+    "start_planning": "开始规划",
+    "trip_status_upcoming": "即将出发",
+    "trip_status_ongoing": "旅途中",
+    "trip_status_past": "已结束",
+    "trip_status_planning": "规划中",
+    "trip_status_working": "Layla 正在处理",
+    "help_and_contact": "帮助与联系",
+    "share_layla": "分享 Layla",
+    "legal_row": "条款、隐私、法律信息",
+    "account": "账户",
+    "notifications": "通知",
+    "notifications_on": "开",
+    "notifications_off": "关",
+    "log_out_title": "退出登录？",
+    "log_out_message": "随时可以再登录。你的行程会保存在账户里。",
+    "delete_account": "删除账户",
+    "delete_confirm_title": "删除你的账户？",
+    "delete_confirm_message": "你的资料和行程记录会从 Layla 中删除，且无法恢复。",
+    "delete_confirm_again_title": "最后确认",
+    "delete_confirm_again_message": "删除 ${email} 的账户？此操作无法撤销。",
+    "sign_in_to_keep_trips": "登录以保存你的行程",
+    "sign_in_subtitle": "你的计划、预订和旅行顾问，在每台设备上都在。",
+    "new_to_layla": "第一次用 Layla？",
+    "switch_language_title": "切换为${language}？",
+    "switch_language_message": "从现在起，Layla 将使用${language}与你交流。",
+    "switch_action": "切换",
+    "popular_currencies": "常用",
+    "all_currencies": "全部货币",
+    "no_currencies_found": "没有匹配的货币",
+    "remove_photo": "移除照片"
   },
   "auth": {
     "email": "电子邮件",
@@ -1546,6 +1592,25 @@
     "distance": {
       "km": "${n} 公里",
       "meters": "${n} 米"
+    },
+    "footer": {
+      "plan_with_expert": "和旅行顾问一起规划"
+    },
+    "quickEdit": {
+      "title": "日期与旅行者",
+      "itinerary": "行程",
+      "childAges": "儿童年龄",
+      "childAgesHint": "出行时的年龄决定票价和房型。",
+      "childNumber": "儿童 ${index}",
+      "age": {
+        "other": "${n} 岁"
+      },
+      "moreAdults": "增加一位成人",
+      "fewerAdults": "减少一位成人",
+      "moreChildren": "增加一名儿童",
+      "fewerChildren": "减少一名儿童",
+      "dateRequired": "每段出发都需要日期",
+      "dateOrder": "每段出发日期不能早于前一段"
     }
   },
   "tripWord": "旅行",
@@ -1734,12 +1799,12 @@
     "benefit3_title": "${n}+次接送无缝安排",
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
     "continue_with_human": "继续由旅行专家协助",
-    "book_with_human": "与旅行专家预订",
+    "book_with_human": "与旅行顾问预订",
     "continue_with_booking": "继续预订"
   },
   "create_screen": {
-    "greetingWithName": "你好 ${name}，\n你想要\n体验什么？",
-    "greeting": "你想要\n体验什么？",
+    "greetingWithName": "你好 ${name}，\n下一次想在哪里*醒来*？",
+    "greeting": "下一次想在哪里*醒来*？",
     "listening": "正在聆听...",
     "placeholders": [
       "2周意大利之旅：罗马、佛罗伦萨与阿马尔菲海岸…",
@@ -1752,7 +1817,10 @@
       "冰岛与挪威两周追极光之旅…",
       "肯尼亚与桑给巴尔16天野生动物与海滩之旅…",
       "南美21天背包冒险之旅…"
-    ]
+    ],
+    "planIt": "开始规划",
+    "tapAndTell": "点一下，告诉 Layla",
+    "placeholder": "结婚纪念日去意大利十天，不赶行程…"
   },
   "tripsWord": "行程",
   "searchTrips": "搜索行程...",

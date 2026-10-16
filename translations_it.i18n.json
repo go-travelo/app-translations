@@ -140,7 +140,16 @@
         "title": "Destinazioni per te",
         "subtitle": "Tocca per guardare e scegliere"
       },
-      "continueWithSelected": "Continua con ${n} selezionati"
+      "continueWithSelected": "Continua con ${n} selezionati",
+      "advisor": {
+        "bannerTitle": "Pianifica con un consulente di viaggio, gratis",
+        "bannerSubtitle": "Controlla, prenota e ti segue per tutto il viaggio",
+        "nudgeTitle": "Ti serve una mano?",
+        "nudgeBody": "I consulenti Layla ti fanno risparmiare tempo. Del tutto gratis.",
+        "nudgeCta": "Prenota una chiamata",
+        "nudgeDismiss": "Magari più tardi",
+        "webviewTitle": "Parla con un consulente di viaggio"
+      }
     },
     "trip_empty": {
       "title": "Chatta e crea un viaggio",
@@ -767,7 +776,44 @@
     "subscription_id_copied": "ID abbonamento copiato",
     "user_id_label": "ID utente:\n${userId}",
     "subscription_id_label": "ID abbonamento:\n${subscriptionId}",
-    "add_your_name": "Aggiungi il tuo nome"
+    "add_your_name": "Aggiungi il tuo nome",
+    "edit": "Modifica",
+    "advisor_title": "Il tuo consulente di viaggio",
+    "advisor_subtitle": "Pianifica con te, prenota tutto e resta reperibile mentre sei in viaggio.",
+    "book_a_call": "Prenota una chiamata",
+    "your_trips": "I tuoi viaggi",
+    "see_all": "Vedi tutti",
+    "no_trips_yet": "Ancora nessun viaggio",
+    "start_planning": "Inizia a pianificare",
+    "trip_status_upcoming": "In arrivo",
+    "trip_status_ongoing": "In corso",
+    "trip_status_past": "Passato",
+    "trip_status_planning": "In preparazione",
+    "trip_status_working": "Layla ci sta lavorando",
+    "help_and_contact": "Aiuto e contatti",
+    "share_layla": "Condividi Layla",
+    "legal_row": "Termini, privacy, note legali",
+    "account": "Account",
+    "notifications": "Notifiche",
+    "notifications_on": "Attive",
+    "notifications_off": "Disattivate",
+    "log_out_title": "Vuoi uscire?",
+    "log_out_message": "Puoi rientrare quando vuoi. I tuoi viaggi restano salvati nel tuo account.",
+    "delete_account": "Elimina account",
+    "delete_confirm_title": "Eliminare il tuo account?",
+    "delete_confirm_message": "Profilo e cronologia viaggi verranno rimossi da Layla. Non si può annullare.",
+    "delete_confirm_again_title": "Ultima conferma",
+    "delete_confirm_again_message": "Eliminare l'account di ${email}? Non si torna indietro.",
+    "sign_in_to_keep_trips": "Accedi per conservare i tuoi viaggi",
+    "sign_in_subtitle": "I tuoi piani, le prenotazioni e il tuo consulente di viaggio, su ogni dispositivo.",
+    "new_to_layla": "Nuovo su Layla?",
+    "switch_language_title": "Passare a ${language}?",
+    "switch_language_message": "D'ora in poi Layla ti parlerà in ${language}.",
+    "switch_action": "Cambia",
+    "popular_currencies": "Più usate",
+    "all_currencies": "Tutte le valute",
+    "no_currencies_found": "Nessuna valuta corrisponde",
+    "remove_photo": "Rimuovi foto"
   },
   "auth": {
     "email": "Email",
@@ -1571,6 +1617,26 @@
     "distance": {
       "km": "${n} km",
       "meters": "${n} m"
+    },
+    "footer": {
+      "plan_with_expert": "Pianifica con un consulente di viaggio"
+    },
+    "quickEdit": {
+      "title": "Date e viaggiatori",
+      "itinerary": "Itinerario",
+      "childAges": "Età dei bambini",
+      "childAgesHint": "L'età al momento del viaggio determina la tariffa e il tipo di camera.",
+      "childNumber": "Bambino ${index}",
+      "age": {
+        "one": "${n} anno",
+        "other": "${n} anni"
+      },
+      "moreAdults": "Un adulto in più",
+      "fewerAdults": "Un adulto in meno",
+      "moreChildren": "Un bambino in più",
+      "fewerChildren": "Un bambino in meno",
+      "dateRequired": "Ogni partenza ha bisogno di una data",
+      "dateOrder": "Ogni partenza deve essere lo stesso giorno della precedente o dopo"
     }
   },
   "tripWord": "Viaggio",
@@ -1766,12 +1832,12 @@
     "benefit3_title": "${n}+ trasferimenti organizzati senza intoppi",
     "benefit3_description": "Da tappa a tappa — garantiamo coincidenze perfettamente sincronizzate sul tuo percorso.",
     "continue_with_human": "Continua con un esperto di viaggi",
-    "book_with_human": "Prenota con un esperto di viaggi",
+    "book_with_human": "Prenota con un consulente di viaggio",
     "continue_with_booking": "Continua con la prenotazione"
   },
   "create_screen": {
-    "greetingWithName": "Ciao ${name},\ncosa vuoi\nvivere?",
-    "greeting": "Cosa vuoi\nvivere?",
+    "greetingWithName": "Ciao ${name},\ndove vuoi *svegliarti* la prossima volta?",
+    "greeting": "Dove vuoi *svegliarti* la prossima volta?",
     "listening": "Ascolto...",
     "placeholders": [
       "Un tour di 2 settimane in Italia: Roma, Firenze e la Costiera Amalfitana...",
@@ -1784,7 +1850,10 @@
       "Due settimane a caccia dell'aurora boreale in Islanda e Norvegia...",
       "Un safari e mare di 16 giorni in Kenya e Zanzibar...",
       "Un'avventura zaino in spalla di 21 giorni in Sud America..."
-    ]
+    ],
+    "planIt": "Pianifica",
+    "tapAndTell": "Tocca e racconta a Layla",
+    "placeholder": "Dieci giorni in Italia per il nostro anniversario, senza fretta…"
   },
   "tripsWord": "Viaggi",
   "searchTrips": "Cerca viaggi...",
