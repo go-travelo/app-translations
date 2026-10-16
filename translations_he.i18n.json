@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "המשך עם ${n} שנבחרו",
       "advisor": {
-        "bannerTitle": "לתכנן עם יועץ נסיעות, בחינם",
-        "bannerSubtitle": "הוא בודק, מזמין ומלווה אותך לאורך כל הטיול",
-        "nudgeTitle": "צריך עזרה?",
-        "nudgeBody": "יועצי Layla חוסכים לך זמן. בחינם לגמרי.",
-        "nudgeCta": "לקבוע שיחה",
-        "nudgeDismiss": "אולי אחר כך",
         "webviewTitle": "לדבר עם יועץ נסיעות"
       }
     },
@@ -1678,9 +1672,7 @@
       "km": "${n} ק\"מ",
       "meters": "${n} מ'"
     },
-    "footer": {
-      "plan_with_expert": "לתכנן עם יועץ נסיעות"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "תאריכים ונוסעים",
       "itinerary": "מסלול",
@@ -1699,6 +1691,9 @@
       "fewerChildren": "ילד אחד פחות",
       "dateRequired": "לכל יציאה צריך תאריך",
       "dateOrder": "כל יציאה חייבת להיות ביום היציאה הקודמת או אחריה"
+    },
+    "advisor": {
+      "book_with": "להזמין עם $name"
     }
   },
   "tripWord": "טיול",
@@ -1908,7 +1903,6 @@
     "benefit3_title": "${n}+ העברות אורגנו בצורה חלקה",
     "benefit3_description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בשלמות במסלול שלכם.",
     "continue_with_human": "להמשיך עם מומחה נסיעות",
-    "book_with_human": "להזמין עם יועץ נסיעות",
     "continue_with_booking": "המשך להזמנה"
   },
   "create_screen": {
@@ -2017,6 +2011,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "שיתוף הטיול",
+      "delete": "מחיקת הטיול",
+      "delete_title": "למחוק את הטיול הזה?",
+      "delete_message": "״${name}״ וכל מה שתכננת בו יימחקו לצמיתות.",
+      "rename": "שינוי שם הטיול",
+      "rename_title": "שינוי שם הטיול",
+      "rename_placeholder": "שם הטיול",
+      "save": "שמירה"
     }
   },
   "trips_list": {

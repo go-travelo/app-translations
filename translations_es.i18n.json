@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Continuar con ${n} seleccionados",
       "advisor": {
-        "bannerTitle": "Planea con un asesor de viajes, gratis",
-        "bannerSubtitle": "Revisa, reserva y te acompaña en todo el viaje",
-        "nudgeTitle": "¿Te echamos una mano?",
-        "nudgeBody": "Los asesores de Layla te ahorran tiempo. Totalmente gratis.",
-        "nudgeCta": "Reservar una llamada",
-        "nudgeDismiss": "Quizás más tarde",
         "webviewTitle": "Hablar con un asesor de viajes"
       }
     },
@@ -1618,9 +1612,7 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {
-      "plan_with_expert": "Planear con un asesor de viajes"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Fechas y viajeros",
       "itinerary": "Itinerario",
@@ -1637,6 +1629,9 @@
       "fewerChildren": "Un niño menos",
       "dateRequired": "Cada salida necesita una fecha",
       "dateOrder": "Cada salida debe ser el mismo día que la anterior o después"
+    },
+    "advisor": {
+      "book_with": "Reservar con $name"
     }
   },
   "tripWord": "Viaje",
@@ -1832,7 +1827,6 @@
     "benefit3_title": "${n}+ traslados organizados sin problemas",
     "benefit3_description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
     "continue_with_human": "Continuar con un experto en viajes",
-    "book_with_human": "Reservar con un asesor de viajes",
     "continue_with_booking": "Continuar con la reserva"
   },
   "create_screen": {
@@ -1937,6 +1931,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Compartir viaje",
+      "delete": "Eliminar viaje",
+      "delete_title": "¿Eliminar este viaje?",
+      "delete_message": "«${name}» y todo lo que tenías planeado desaparecerán para siempre.",
+      "rename": "Cambiar nombre",
+      "rename_title": "Cambiar nombre del viaje",
+      "rename_placeholder": "Nombre del viaje",
+      "save": "Guardar"
     }
   },
   "trips_list": {

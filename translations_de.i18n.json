@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Weiter mit ${n} ausgewählt",
       "advisor": {
-        "bannerTitle": "Mit Reiseberater planen, kostenlos",
-        "bannerSubtitle": "Sie prüfen, buchen und begleiten deine ganze Reise",
-        "nudgeTitle": "Brauchst du Hilfe?",
-        "nudgeBody": "Layla-Reiseberater sparen dir Zeit. Komplett kostenlos.",
-        "nudgeCta": "Anruf buchen",
-        "nudgeDismiss": "Vielleicht später",
         "webviewTitle": "Mit einem Reiseberater sprechen"
       }
     },
@@ -1618,9 +1612,7 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {
-      "plan_with_expert": "Mit Reiseberater planen"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Daten & Reisende",
       "itinerary": "Reiseroute",
@@ -1637,6 +1629,9 @@
       "fewerChildren": "Ein Kind weniger",
       "dateRequired": "Jede Abreise braucht ein Datum",
       "dateOrder": "Jede Abreise muss am Tag der vorherigen oder danach liegen"
+    },
+    "advisor": {
+      "book_with": "Mit $name buchen"
     }
   },
   "tripWord": "Reise",
@@ -1832,7 +1827,6 @@
     "benefit3_title": "${n}+ Transfers nahtlos organisiert",
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
     "continue_with_human": "Mit einem Reiseexperten fortfahren",
-    "book_with_human": "Mit Reiseberater buchen",
     "continue_with_booking": "Weiter zur Buchung"
   },
   "create_screen": {
@@ -1937,6 +1931,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Reise teilen",
+      "delete": "Reise löschen",
+      "delete_title": "Diese Reise löschen?",
+      "delete_message": "„${name}“ und alles, was du darin geplant hast, ist dann endgültig weg.",
+      "rename": "Reise umbenennen",
+      "rename_title": "Reise umbenennen",
+      "rename_placeholder": "Reisename",
+      "save": "Speichern"
     }
   },
   "trips_list": {

@@ -241,12 +241,6 @@
       },
       "continueWithSelected": "Continue with ${n} selected",
       "advisor": {
-        "bannerTitle": "Plan with a travel advisor, free",
-        "bannerSubtitle": "They review, book and support your whole trip",
-        "nudgeTitle": "Need a hand?",
-        "nudgeBody": "Layla advisors can help you save time. Completely free.",
-        "nudgeCta": "Book a call",
-        "nudgeDismiss": "Maybe later",
         "webviewTitle": "Talk to a travel advisor"
       }
     },
@@ -1361,8 +1355,7 @@
       "total_for": {
         "one": "total for $n person",
         "other": "total for $n persons"
-      },
-      "plan_with_expert": "Plan with a travel advisor"
+      }
     },
     "messages": {
       "inviteComingSoon": "Invite - Coming soon",
@@ -1776,6 +1769,9 @@
       "fewerChildren": "One fewer child",
       "dateRequired": "Every departure needs a date",
       "dateOrder": "Each departure must be on or after the one before it"
+    },
+    "advisor": {
+      "book_with": "Book with $name"
     }
   },
   "tripWord": "Trip",
@@ -1908,7 +1904,6 @@
     "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
     "continue_with_human": "Continue with a travel expert",
-    "book_with_human": "Book with a travel advisor",
     "continue_with_booking": "Continue with Booking"
   },
   "paywall": {
@@ -2108,6 +2103,18 @@
         "travelerDetails": "Enter the traveler's details to continue with checkout",
         "saveFailed": "Couldn't save your details. Please try again."
       }
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Share trip",
+      "delete": "Delete trip",
+      "delete_title": "Delete this trip?",
+      "delete_message": "“${name}” and everything planned in it will be gone for good.",
+      "rename": "Rename trip",
+      "rename_title": "Rename trip",
+      "rename_placeholder": "Trip name",
+      "save": "Save"
     }
   },
   "trips_list": {

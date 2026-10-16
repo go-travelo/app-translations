@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Continua con ${n} selezionati",
       "advisor": {
-        "bannerTitle": "Pianifica con un consulente di viaggio, gratis",
-        "bannerSubtitle": "Controlla, prenota e ti segue per tutto il viaggio",
-        "nudgeTitle": "Ti serve una mano?",
-        "nudgeBody": "I consulenti Layla ti fanno risparmiare tempo. Del tutto gratis.",
-        "nudgeCta": "Prenota una chiamata",
-        "nudgeDismiss": "Magari più tardi",
         "webviewTitle": "Parla con un consulente di viaggio"
       }
     },
@@ -1618,9 +1612,7 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {
-      "plan_with_expert": "Pianifica con un consulente di viaggio"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Date e viaggiatori",
       "itinerary": "Itinerario",
@@ -1637,6 +1629,9 @@
       "fewerChildren": "Un bambino in meno",
       "dateRequired": "Ogni partenza ha bisogno di una data",
       "dateOrder": "Ogni partenza deve essere lo stesso giorno della precedente o dopo"
+    },
+    "advisor": {
+      "book_with": "Prenota con $name"
     }
   },
   "tripWord": "Viaggio",
@@ -1832,7 +1827,6 @@
     "benefit3_title": "${n}+ trasferimenti organizzati senza intoppi",
     "benefit3_description": "Da tappa a tappa — garantiamo coincidenze perfettamente sincronizzate sul tuo percorso.",
     "continue_with_human": "Continua con un esperto di viaggi",
-    "book_with_human": "Prenota con un consulente di viaggio",
     "continue_with_booking": "Continua con la prenotazione"
   },
   "create_screen": {
@@ -1937,6 +1931,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Condividi viaggio",
+      "delete": "Elimina viaggio",
+      "delete_title": "Eliminare questo viaggio?",
+      "delete_message": "“${name}” e tutto ciò che avevi pianificato spariranno per sempre.",
+      "rename": "Rinomina viaggio",
+      "rename_title": "Rinomina viaggio",
+      "rename_placeholder": "Nome del viaggio",
+      "save": "Salva"
     }
   },
   "trips_list": {

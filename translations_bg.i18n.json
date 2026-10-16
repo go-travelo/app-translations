@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Продължи с ${n} избрани",
       "advisor": {
-        "bannerTitle": "Планирай с пътен консултант, безплатно",
-        "bannerSubtitle": "Той проверява, резервира и е до теб през цялото пътуване",
-        "nudgeTitle": "Трябва ти помощ?",
-        "nudgeBody": "Консултантите на Layla ти спестяват време. Напълно безплатно.",
-        "nudgeCta": "Запази разговор",
-        "nudgeDismiss": "Може би по-късно",
         "webviewTitle": "Говори с пътен консултант"
       }
     },
@@ -1618,9 +1612,7 @@
       "km": "${n} км",
       "meters": "${n} м"
     },
-    "footer": {
-      "plan_with_expert": "Планирай с пътен консултант"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Дати и пътуващи",
       "itinerary": "Маршрут",
@@ -1637,6 +1629,9 @@
       "fewerChildren": "Едно дете по-малко",
       "dateRequired": "Всяко отпътуване трябва да има дата",
       "dateOrder": "Всяко отпътуване трябва да е в деня на предишното или след него"
+    },
+    "advisor": {
+      "book_with": "Резервирай с $name"
     }
   },
   "tripWord": "Пътуване",
@@ -1832,7 +1827,6 @@
     "benefit3_title": "${n}+ трансфера организирани безпроблемно",
     "benefit3_description": "От спирка до спирка — осигуряваме идеално синхронизирани връзки по вашия маршрут.",
     "continue_with_human": "Продължи с пътен експерт",
-    "book_with_human": "Резервирай с пътен консултант",
     "continue_with_booking": "Продължи с резервацията"
   },
   "create_screen": {
@@ -1937,6 +1931,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Сподели пътуването",
+      "delete": "Изтрий пътуването",
+      "delete_title": "Да изтрием ли това пътуване?",
+      "delete_message": "„${name}“ и всичко планирано в него ще бъдат изтрити завинаги.",
+      "rename": "Преименувай пътуването",
+      "rename_title": "Преименуване на пътуването",
+      "rename_placeholder": "Име на пътуването",
+      "save": "Запази"
     }
   },
   "trips_list": {

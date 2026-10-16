@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "متابعة مع ${n} محدد",
       "advisor": {
-        "bannerTitle": "خطّط مع مستشار سفر، مجاناً",
-        "bannerSubtitle": "يراجع ويحجز ويرافقك طوال رحلتك",
-        "nudgeTitle": "تحتاج مساعدة؟",
-        "nudgeBody": "مستشارو Layla يوفّرون عليك الوقت. مجاناً بالكامل.",
-        "nudgeCta": "احجز مكالمة",
-        "nudgeDismiss": "ربما لاحقاً",
         "webviewTitle": "تحدّث مع مستشار سفر"
       }
     },
@@ -1737,9 +1731,7 @@
       "km": "${n} كم",
       "meters": "${n} م"
     },
-    "footer": {
-      "plan_with_expert": "خطّط مع مستشار سفر"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "التواريخ والمسافرون",
       "itinerary": "خط الرحلة",
@@ -1760,6 +1752,9 @@
       "fewerChildren": "إزالة طفل",
       "dateRequired": "كل مغادرة تحتاج إلى تاريخ",
       "dateOrder": "يجب أن تكون كل مغادرة في يوم المغادرة السابقة أو بعدها"
+    },
+    "advisor": {
+      "book_with": "احجز مع $name"
     }
   },
   "tripWord": "رحلة",
@@ -1983,7 +1978,6 @@
     "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
     "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
     "continue_with_human": "تابع مع خبير سفر",
-    "book_with_human": "احجز مع مستشار سفر",
     "continue_with_booking": "متابعة الحجز"
   },
   "create_screen": {
@@ -2096,6 +2090,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "مشاركة الرحلة",
+      "delete": "حذف الرحلة",
+      "delete_title": "حذف هذه الرحلة؟",
+      "delete_message": "ستُحذف «${name}» وكل ما خططته فيها نهائيًا.",
+      "rename": "إعادة تسمية الرحلة",
+      "rename_title": "إعادة تسمية الرحلة",
+      "rename_placeholder": "اسم الرحلة",
+      "save": "حفظ"
     }
   },
   "trips_list": {

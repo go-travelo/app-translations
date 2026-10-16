@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Продолжить с ${n} выбранными",
       "advisor": {
-        "bannerTitle": "Планируйте с тревел-консультантом, бесплатно",
-        "bannerSubtitle": "Он проверит, забронирует и будет на связи всю поездку",
-        "nudgeTitle": "Нужна помощь?",
-        "nudgeBody": "Консультанты Layla сэкономят вам время. Совершенно бесплатно.",
-        "nudgeCta": "Запланировать звонок",
-        "nudgeDismiss": "Может, позже",
         "webviewTitle": "Поговорить с тревел-консультантом"
       }
     },
@@ -1678,9 +1672,7 @@
       "km": "${n} км",
       "meters": "${n} м"
     },
-    "footer": {
-      "plan_with_expert": "Планировать с тревел-консультантом"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Даты и путешественники",
       "itinerary": "Маршрут",
@@ -1699,6 +1691,9 @@
       "fewerChildren": "На одного ребенка меньше",
       "dateRequired": "У каждого отправления должна быть дата",
       "dateOrder": "Каждое отправление должно быть в день предыдущего или позже"
+    },
+    "advisor": {
+      "book_with": "Забронировать с $name"
     }
   },
   "tripWord": "Поездка",
@@ -1908,7 +1903,6 @@
     "benefit3_title": "${n}+ трансферов организовано без проблем",
     "benefit3_description": "От остановки до остановки — мы обеспечиваем идеально согласованные пересадки на вашем маршруте.",
     "continue_with_human": "Продолжить с тревел-экспертом",
-    "book_with_human": "Забронировать с тревел-консультантом",
     "continue_with_booking": "Продолжить бронирование"
   },
   "create_screen": {
@@ -2017,6 +2011,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Поделиться поездкой",
+      "delete": "Удалить поездку",
+      "delete_title": "Удалить эту поездку?",
+      "delete_message": "«${name}» и всё, что вы в ней запланировали, будут удалены навсегда.",
+      "rename": "Переименовать поездку",
+      "rename_title": "Переименовать поездку",
+      "rename_placeholder": "Название поездки",
+      "save": "Сохранить"
     }
   },
   "trips_list": {

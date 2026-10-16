@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "Doorgaan met ${n} geselecteerd",
       "advisor": {
-        "bannerTitle": "Plan met een reisadviseur, gratis",
-        "bannerSubtitle": "Die checkt, boekt en begeleidt je hele reis",
-        "nudgeTitle": "Hulp nodig?",
-        "nudgeBody": "Reisadviseurs van Layla besparen je tijd. Helemaal gratis.",
-        "nudgeCta": "Gesprek inplannen",
-        "nudgeDismiss": "Misschien later",
         "webviewTitle": "Praat met een reisadviseur"
       }
     },
@@ -1618,9 +1612,7 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {
-      "plan_with_expert": "Plan met een reisadviseur"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "Data & reizigers",
       "itinerary": "Reisroute",
@@ -1637,6 +1629,9 @@
       "fewerChildren": "Een kind eraf",
       "dateRequired": "Elk vertrek heeft een datum nodig",
       "dateOrder": "Elk vertrek moet op of na het vorige vallen"
+    },
+    "advisor": {
+      "book_with": "Boek met $name"
     }
   },
   "tripWord": "Reis",
@@ -1832,7 +1827,6 @@
     "benefit3_title": "${n}+ transfers naadloos georganiseerd",
     "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
     "continue_with_human": "Doorgaan met een reisexpert",
-    "book_with_human": "Boek met een reisadviseur",
     "continue_with_booking": "Doorgaan met boeken"
   },
   "create_screen": {
@@ -1937,6 +1931,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Reis delen",
+      "delete": "Reis verwijderen",
+      "delete_title": "Deze reis verwijderen?",
+      "delete_message": "‘${name}’ en alles wat je erin gepland hebt, zijn dan voorgoed weg.",
+      "rename": "Reis hernoemen",
+      "rename_title": "Reis hernoemen",
+      "rename_placeholder": "Reisnaam",
+      "save": "Opslaan"
     }
   },
   "trips_list": {

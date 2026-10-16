@@ -142,12 +142,6 @@
       },
       "continueWithSelected": "继续，已选择 ${n} 项",
       "advisor": {
-        "bannerTitle": "和旅行顾问一起规划，免费",
-        "bannerSubtitle": "顾问帮你核对、预订，全程陪伴",
-        "nudgeTitle": "需要帮忙吗？",
-        "nudgeBody": "Layla 的旅行顾问帮你省时间，完全免费。",
-        "nudgeCta": "预约通话",
-        "nudgeDismiss": "稍后再说",
         "webviewTitle": "联系旅行顾问"
       }
     },
@@ -1593,9 +1587,7 @@
       "km": "${n} 公里",
       "meters": "${n} 米"
     },
-    "footer": {
-      "plan_with_expert": "和旅行顾问一起规划"
-    },
+    "footer": {},
     "quickEdit": {
       "title": "日期与旅行者",
       "itinerary": "行程",
@@ -1611,6 +1603,9 @@
       "fewerChildren": "减少一名儿童",
       "dateRequired": "每段出发都需要日期",
       "dateOrder": "每段出发日期不能早于前一段"
+    },
+    "advisor": {
+      "book_with": "与$name预订"
     }
   },
   "tripWord": "旅行",
@@ -1799,7 +1794,6 @@
     "benefit3_title": "${n}+次接送无缝安排",
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
     "continue_with_human": "继续由旅行专家协助",
-    "book_with_human": "与旅行顾问预订",
     "continue_with_booking": "继续预订"
   },
   "create_screen": {
@@ -1902,6 +1896,18 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "分享旅程",
+      "delete": "删除旅程",
+      "delete_title": "删除这段旅程？",
+      "delete_message": "“${name}”及其中的所有计划将被永久删除。",
+      "rename": "重命名旅程",
+      "rename_title": "重命名旅程",
+      "rename_placeholder": "旅程名称",
+      "save": "保存"
     }
   },
   "trips_list": {
