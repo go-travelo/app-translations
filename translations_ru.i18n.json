@@ -70,7 +70,7 @@
     "chat": {
       "title": "Layla - ИИ Путеводитель",
       "isTyping": "${name} печатает...",
-      "typing": "Layla печатает...",
+      "thinking": "Layla думает",
       "generatingTrip": "Создаём ваше путешествие...",
       "tripGenerating": {
         "routes": "Лучшие маршруты зафиксированы",

@@ -70,7 +70,7 @@
     "chat": {
       "title": "Layla - مخطِّط السفر الذكي",
       "isTyping": "يكتب ${name}...",
-      "typing": "ليلى تكتب...",
+      "thinking": "ليلى تفكّر",
       "generatingTrip": "جارٍ إنشاء رحلتك...",
       "tripGenerating": {
         "routes": "أفضل المسارات، مؤمَّنة",

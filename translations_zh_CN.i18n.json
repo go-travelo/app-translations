@@ -70,7 +70,7 @@
     "chat": {
       "title": "Layla - AI旅行规划师",
       "isTyping": "${name} 正在输入...",
-      "typing": "Layla 正在输入...",
+      "thinking": "Layla 正在思考",
       "generatingTrip": "正在生成您的行程...",
       "tripGenerating": {
         "routes": "最佳路线已锁定",

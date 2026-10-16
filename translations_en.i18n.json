@@ -169,7 +169,7 @@
     "chat": {
       "title": "Layla - AI Travel Planner",
       "isTyping": "${name} is typing...",
-      "typing": "Layla is typing...",
+      "thinking": "Layla is thinking",
       "generatingTrip": "Generating your trip...",
       "tripGenerating": {
         "routes": "Best routes, locked",

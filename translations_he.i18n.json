@@ -70,7 +70,7 @@
     "chat": {
       "title": "Layla - מתכנן נסיעות מבית AI",
       "isTyping": "${name} כותב/ת...",
-      "typing": "ליילה מקלידה...",
+      "thinking": "ליילה חושבת",
       "generatingTrip": "מייצר את הטיול שלך...",
       "tripGenerating": {
         "routes": "המסלולים הטובים ביותר ננעלו",
