@@ -728,8 +728,6 @@
     },
     "push_notifications": {
       "button": "Allow push notifications",
-      "body": "Let me notify you when I find amazing deals",
-      "notification_body": "Just found you some super cheap flights to Lapland! Let's see the northern lights? 👀",
       "skip": "No thanks, another time!",
       "title": "Don't miss a trip!"
     },
@@ -773,7 +771,8 @@
       "button": "Rate Layla"
     },
     "notification": {
-      "later": "Later"
+      "later": "Later",
+      "now": "now"
     },
     "tripPreview": {
       "viewTrip": "View plan",

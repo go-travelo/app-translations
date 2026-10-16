@@ -629,8 +629,6 @@
     },
     "push_notifications": {
       "button": "Permita notificações push",
-      "body": "Deixa-me notificar-te quando encontrar ofertas incríveis",
-      "notification_body": "Apenas encontrei para você alguns voos super baratos para a Laplândia! Vamos ver a aurora boreal? 👀",
       "skip": "Não, obrigado, outra hora!",
       "title": "Não perca uma viagem!"
     },
@@ -674,7 +672,8 @@
       "button": "Avalie a Layla"
     },
     "notification": {
-      "later": "Mais tarde"
+      "later": "Mais tarde",
+      "now": "agora"
     },
     "tripPreview": {
       "viewTrip": "Ver plano",

@@ -629,8 +629,6 @@
     },
     "push_notifications": {
       "button": "Permite las notificaciones push",
-      "body": "Déjame notificarte cuando encuentre ofertas increíbles",
-      "notification_body": "¡Acabo de encontrarte unos vuelos súper baratos a Laponia! ¿Vamos a ver las luces del norte? 👀",
       "skip": "¡No, gracias, en otra ocasión!",
       "title": "¡No te pierdas un viaje!"
     },
@@ -674,7 +672,8 @@
       "button": "Califica a Layla"
     },
     "notification": {
-      "later": "Más tarde"
+      "later": "Más tarde",
+      "now": "ahora"
     },
     "tripPreview": {
       "viewTrip": "Ver plan",

@@ -629,8 +629,6 @@
     },
     "push_notifications": {
       "button": "Sta pushmeldingen toe",
-      "body": "Laat me je op de hoogte stellen wanneer ik geweldige aanbiedingen vind",
-      "notification_body": "Ik heb net supergoedkope vluchten naar Lapland voor je gevonden! Laten we het noorderlicht gaan bekijken? 👀",
       "skip": "Nee bedankt, een andere keer!",
       "title": "Mis geen reis!"
     },
@@ -674,7 +672,8 @@
       "button": "Beoordeel Layla"
     },
     "notification": {
-      "later": "Later"
+      "later": "Later",
+      "now": "nu"
     },
     "tripPreview": {
       "viewTrip": "Bekijk plan",

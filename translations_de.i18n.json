@@ -629,8 +629,6 @@
     },
     "push_notifications": {
       "button": "Erlaube Push-Benachrichtigungen",
-      "body": "Lass mich dich benachrichtigen, wenn ich tolle Angebote finde",
-      "notification_body": "Habe gerade super günstige Flüge nach Lappland für dich gefunden! Lassen wir uns das Nordlicht ansehen? 👀",
       "skip": "Nein danke, ein anderes Mal!",
       "title": "Verpass keine Reise!"
     },
@@ -674,7 +672,8 @@
       "button": "Layla bewerten"
     },
     "notification": {
-      "later": "Später"
+      "later": "Später",
+      "now": "Jetzt"
     },
     "tripPreview": {
       "viewTrip": "Plan ansehen",

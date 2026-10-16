@@ -629,8 +629,6 @@
     },
     "push_notifications": {
       "button": "Permetti le notifiche push",
-      "body": "Permettimi di avvisarti quando trovo offerte incredibili",
-      "notification_body": "Ho appena trovato per te alcuni voli super economici per la Lapponia! Andiamo a vedere l'aurora boreale? 👀",
       "skip": "No grazie, un'altra volta!",
       "title": "Non perdere un viaggio!"
     },
@@ -674,7 +672,8 @@
       "button": "Valuta Layla"
     },
     "notification": {
-      "later": "Più tardi"
+      "later": "Più tardi",
+      "now": "ora"
     },
     "tripPreview": {
       "viewTrip": "Vedi piano",
