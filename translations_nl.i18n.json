@@ -1631,7 +1631,7 @@
       "dateOrder": "Elk vertrek moet op of na het vorige vallen"
     },
     "advisor": {
-      "book_with": "Boek met $name"
+      "plan_with": "Plan met $name"
     }
   },
   "tripWord": "Reis",

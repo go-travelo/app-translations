@@ -1631,7 +1631,7 @@
       "dateOrder": "Cada partida tem de ser no mesmo dia da anterior ou depois"
     },
     "advisor": {
-      "book_with": "Reservar com $name"
+      "plan_with": "Planejar com $name"
     }
   },
   "tripWord": "Viagem",

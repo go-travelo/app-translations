@@ -1605,7 +1605,7 @@
       "dateOrder": "每段出发日期不能早于前一段"
     },
     "advisor": {
-      "book_with": "与$name预订"
+      "plan_with": "与$name一起规划"
     }
   },
   "tripWord": "旅行",

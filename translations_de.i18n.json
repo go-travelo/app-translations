@@ -1631,7 +1631,7 @@
       "dateOrder": "Jede Abreise muss am Tag der vorherigen oder danach liegen"
     },
     "advisor": {
-      "book_with": "Mit $name buchen"
+      "plan_with": "Mit $name planen"
     }
   },
   "tripWord": "Reise",

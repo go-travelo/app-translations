@@ -1771,7 +1771,7 @@
       "dateOrder": "Each departure must be on or after the one before it"
     },
     "advisor": {
-      "book_with": "Book with $name"
+      "plan_with": "Plan with $name"
     }
   },
   "tripWord": "Trip",

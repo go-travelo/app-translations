@@ -1631,7 +1631,7 @@
       "dateOrder": "Chaque départ doit avoir lieu le jour du précédent ou après"
     },
     "advisor": {
-      "book_with": "Réserver avec $name"
+      "plan_with": "Planifier avec $name"
     }
   },
   "tripWord": "Voyage",

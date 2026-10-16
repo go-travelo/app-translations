@@ -1631,7 +1631,7 @@
       "dateOrder": "Ogni partenza deve essere lo stesso giorno della precedente o dopo"
     },
     "advisor": {
-      "book_with": "Prenota con $name"
+      "plan_with": "Pianifica con $name"
     }
   },
   "tripWord": "Viaggio",
