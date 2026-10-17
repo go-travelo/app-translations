@@ -2181,6 +2181,10 @@
       "profileLine": "你的通话：${date}",
       "view": "查看预约",
       "disc": "已预约与${name}的通话"
+    },
+    "advisorDisc": {
+      "book": "预约与旅行顾问通话",
+      "booked": "你的旅行顾问通话"
     }
   },
   "notifications": {

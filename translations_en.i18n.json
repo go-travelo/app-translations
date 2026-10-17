@@ -2537,6 +2537,10 @@
       "profileLine": "Your call: ${date}",
       "view": "View booking",
       "disc": "Call booked with ${name}"
+    },
+    "advisorDisc": {
+      "book": "Book a call with your advisor",
+      "booked": "Your advisor call"
     }
   },
   "notifications": {

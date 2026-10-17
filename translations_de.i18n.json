@@ -2219,6 +2219,10 @@
       "profileLine": "Dein Gespräch: ${date}",
       "view": "Buchung ansehen",
       "disc": "Gespräch mit ${name} gebucht"
+    },
+    "advisorDisc": {
+      "book": "Anruf mit deinem Reiseberater buchen",
+      "booked": "Dein Anruf mit dem Reiseberater"
     }
   },
   "notifications": {

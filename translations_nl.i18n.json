@@ -2210,6 +2210,10 @@
       "profileLine": "Je gesprek: ${date}",
       "view": "Boeking bekijken",
       "disc": "Gesprek geboekt met ${name}"
+    },
+    "advisorDisc": {
+      "book": "Een gesprek met je reisadviseur inplannen",
+      "booked": "Je gesprek met de reisadviseur"
     }
   },
   "notifications": {

@@ -2219,6 +2219,10 @@
       "profileLine": "Sua chamada: ${date}",
       "view": "Ver agendamento",
       "disc": "Chamada agendada com ${name}"
+    },
+    "advisorDisc": {
+      "book": "Marcar uma chamada com o teu consultor de viagens",
+      "booked": "A tua chamada com o consultor de viagens"
     }
   },
   "notifications": {

@@ -2219,6 +2219,10 @@
       "profileLine": "Tu llamada: ${date}",
       "view": "Ver reserva",
       "disc": "Llamada reservada con ${name}"
+    },
+    "advisorDisc": {
+      "book": "Reservar una llamada con tu asesor de viajes",
+      "booked": "Tu llamada con el asesor de viajes"
     }
   },
   "notifications": {

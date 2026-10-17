@@ -2219,6 +2219,10 @@
       "profileLine": "La tua chiamata: ${date}",
       "view": "Vedi prenotazione",
       "disc": "Chiamata prenotata con ${name}"
+    },
+    "advisorDisc": {
+      "book": "Prenota una chiamata con il tuo consulente di viaggio",
+      "booked": "La tua chiamata con il consulente di viaggio"
     }
   },
   "notifications": {
