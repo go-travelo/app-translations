@@ -71,6 +71,7 @@
       "title": "Layla - Planificateur de voyage IA",
       "isTyping": "${name} est en train d'écrire...",
       "thinking": "Layla réfléchit",
+      "newMessage": "Nouveau message",
       "generatingTrip": "Génération de votre voyage...",
       "tripGenerating": {
         "routes": "Meilleurs itinéraires, verrouillés",
@@ -1592,15 +1593,39 @@
     "lists": {
       "noActivitiesFound": "Aucune activité trouvée",
       "noStaysFound": "Aucun séjour trouvé",
-      "noFlightsFound": "Aucun vol trouvé",
       "noRentalsFound": "Aucune location trouvée",
       "perPerson": "par personne",
       "free": "Gratuit",
       "transportFlight": "Vol",
       "transportTrain": "Train",
-      "transportRental": "Location"
+      "transportRental": "Location",
+      "empty": {
+        "all": {
+          "title": "Pas encore de transport",
+          "body": "Layla ajoute vols, trains et plus à mesure que ton itinéraire prend forme."
+        },
+        "flight": {
+          "title": "Pas encore de vol",
+          "body": "Ajoute un vol et il apparaîtra ici."
+        },
+        "train": {
+          "title": "Pas encore de train",
+          "body": "Ajoute un trajet en train et il apparaîtra ici."
+        },
+        "ferry": {
+          "title": "Pas encore de ferry",
+          "body": "Ajoute une traversée en ferry et elle apparaîtra ici."
+        },
+        "car": {
+          "title": "Pas encore de trajet en voiture",
+          "body": "Ajoute un trajet et il apparaîtra ici."
+        },
+        "rental": {
+          "title": "Pas encore de location",
+          "body": "Ajoute une voiture de location et elle apparaîtra ici."
+        }
+      }
     },
-    "timeline": "Chronologie",
     "flightsSortBar": {
       "sort": "Trier",
       "airlines": "Compagnies aériennes",
@@ -1632,6 +1657,10 @@
     },
     "advisor": {
       "plan_with": "Planifier avec $name"
+    },
+    "timeline_intro": {
+      "more": "Plus",
+      "title": "À propos de cette journée"
     }
   },
   "tripWord": "Voyage",
@@ -1970,6 +1999,65 @@
         "taxesNote": "Les taxes correspondent à des frais de recouvrement reversés aux fournisseurs (hôtels, par exemple). Pour plus d’informations, veuillez consulter nos Conditions générales. Des frais de service sont retenus à titre de compensation pour le traitement de votre réservation et peuvent inclure des frais facturés par les fournisseurs.",
         "feesAtPropertyNote": "Ces frais sont à régler à l'établissement à l'arrivée ou au départ ; ils sont fixés par l'établissement et ne sont pas inclus dans le total ci-dessus."
       }
+    }
+  },
+  "consultation": {
+    "title": "Parler à un conseiller voyage",
+    "advisorRole": "Ton conseiller voyage",
+    "steps": {
+      "details": "Contact",
+      "schedule": "Créneau",
+      "confirmed": "Confirmé"
+    },
+    "details": {
+      "heading": "Comment te joindre ?",
+      "subheading": "Ton conseiller s'en sert pour confirmer l'appel.",
+      "fullName": "Nom complet",
+      "email": "E-mail",
+      "phone": "Numéro de téléphone",
+      "phoneHint": "Avec l'indicatif du pays, ex. +33",
+      "method": "Comment veux-tu échanger ?",
+      "video": "Appel vidéo",
+      "phoneCall": "Appel téléphonique",
+      "privacy": "Tes informations restent entre Layla et ton conseiller.",
+      "nameRequired": "Indique ton nom",
+      "emailInvalid": "Saisis une adresse e-mail valide",
+      "emailRelay": "Il nous faut une adresse e-mail valide pour confirmer ton appel.",
+      "emailRejected": "Cette adresse ne reçoit pas les e-mails. Utilise-en une autre.",
+      "phoneInvalid": "Saisis un numéro valide avec l'indicatif du pays",
+      "phoneRejected": "Ce numéro ne peut pas recevoir d'appels ni de SMS. Utilise-en un autre.",
+      "continueLabel": "Continuer"
+    },
+    "schedule": {
+      "heading": "Choisis un créneau",
+      "subheading": "Appel gratuit de 30 minutes, horaires en heure locale.",
+      "noSlots": "Aucun créneau libre ce jour-là",
+      "loadError": "Impossible de charger les créneaux.",
+      "retry": "Réessayer",
+      "openBookingPage": "Ouvrir la page de réservation",
+      "confirm": "Confirmer la réservation",
+      "booking": "Réservation…",
+      "slotTaken": "Ce créneau vient d'être pris. Choisis-en un autre.",
+      "bookingError": "Impossible de réserver l'appel. Réessaie."
+    },
+    "confirmed": {
+      "heading": "C'est tout bon, ${name} !",
+      "headingNoName": "C'est tout bon !",
+      "subheading": "Une invitation d'agenda avec tous les détails arrive dans ta boîte mail.",
+      "advisor": "Conseiller",
+      "when": "Quand",
+      "call": "Appel",
+      "callValue": "${medium} · ${minutes} min",
+      "reschedule": "Déplacer",
+      "cancelCall": "Annuler l'appel",
+      "done": "Terminé",
+      "otherTrip": "Ton appel du ${date} couvre tous tes projets. Ton conseiller pourra aussi parler de ce voyage."
+    },
+    "booked": {
+      "pill": "Appel réservé · ${date}",
+      "profileLine": "Ton appel : ${date}",
+      "view": "Voir la réservation",
+      "disc": "Appel réservé avec ${name}"
     }
   }
 }

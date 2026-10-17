@@ -71,6 +71,7 @@
       "title": "Layla - מתכנן נסיעות מבית AI",
       "isTyping": "${name} כותב/ת...",
       "thinking": "ליילה חושבת",
+      "newMessage": "הודעה חדשה",
       "generatingTrip": "מייצר את הטיול שלך...",
       "tripGenerating": {
         "routes": "המסלולים הטובים ביותר ננעלו",
@@ -1652,15 +1653,39 @@
     "lists": {
       "noActivitiesFound": "לא נמצאו פעילויות",
       "noStaysFound": "לא נמצאו שהות",
-      "noFlightsFound": "לא נמצאו טיסות",
       "noRentalsFound": "לא נמצאו השכרות",
       "perPerson": "לאדם",
       "free": "חינם",
       "transportFlight": "טיסה",
       "transportTrain": "רכבת",
-      "transportRental": "השכרה"
+      "transportRental": "השכרה",
+      "empty": {
+        "all": {
+          "title": "אין עדיין תחבורה",
+          "body": "Layla מוסיפה טיסות, רכבות ועוד ככל שהמסלול שלך מתגבש."
+        },
+        "flight": {
+          "title": "אין עדיין טיסות",
+          "body": "הוסיפו טיסה והיא תופיע כאן."
+        },
+        "train": {
+          "title": "אין עדיין רכבות",
+          "body": "הוסיפו נסיעה ברכבת והיא תופיע כאן."
+        },
+        "ferry": {
+          "title": "אין עדיין מעבורות",
+          "body": "הוסיפו הפלגה במעבורת והיא תופיע כאן."
+        },
+        "car": {
+          "title": "אין עדיין נסיעות ברכב",
+          "body": "הוסיפו נסיעה והיא תופיע כאן."
+        },
+        "rental": {
+          "title": "אין עדיין רכב שכור",
+          "body": "הוסיפו רכב שכור והוא יופיע כאן."
+        }
+      }
     },
-    "timeline": "ציר זמן",
     "flightsSortBar": {
       "sort": "מיון",
       "airlines": "חברות תעופה",
@@ -1694,6 +1719,10 @@
     },
     "advisor": {
       "plan_with": "לתכנן עם $name"
+    },
+    "timeline_intro": {
+      "more": "עוד",
+      "title": "על היום הזה"
     }
   },
   "tripWord": "טיול",
@@ -2044,5 +2073,64 @@
     "sort_trip_date": "תאריך הטיול",
     "sort_last_updated": "עדכון אחרון",
     "sort_date_created": "תאריך יצירה"
+  },
+  "consultation": {
+    "title": "לדבר עם יועץ נסיעות",
+    "advisorRole": "יועץ הנסיעות שלך",
+    "steps": {
+      "details": "פרטים",
+      "schedule": "מועד",
+      "confirmed": "אושר"
+    },
+    "details": {
+      "heading": "איך ניצור איתך קשר?",
+      "subheading": "היועץ משתמש בפרטים האלה כדי לאשר את השיחה.",
+      "fullName": "שם מלא",
+      "email": "אימייל",
+      "phone": "מספר טלפון",
+      "phoneHint": "עם קידומת מדינה, למשל ‎+972",
+      "method": "איך נוח לך לדבר?",
+      "video": "שיחת וידאו",
+      "phoneCall": "שיחת טלפון",
+      "privacy": "הפרטים שלך נשארים אצל Layla והיועץ שלך.",
+      "nameRequired": "יש להזין שם",
+      "emailInvalid": "יש להזין כתובת אימייל תקינה",
+      "emailRelay": "כדי לאשר את השיחה אנחנו צריכים אימייל פעיל.",
+      "emailRejected": "הכתובת הזו לא מקבלת מיילים. נסו כתובת אחרת.",
+      "phoneInvalid": "יש להזין מספר תקין עם קידומת מדינה",
+      "phoneRejected": "המספר הזה לא מקבל שיחות או הודעות. נסו מספר אחר.",
+      "continueLabel": "המשך"
+    },
+    "schedule": {
+      "heading": "בחירת מועד",
+      "subheading": "שיחה חינם של 30 דקות, השעות לפי השעון המקומי שלך.",
+      "noSlots": "אין מועדים פנויים ביום הזה",
+      "loadError": "לא הצלחנו לטעון את המועדים הפנויים.",
+      "retry": "לנסות שוב",
+      "openBookingPage": "פתיחת דף ההזמנה",
+      "confirm": "אישור ההזמנה",
+      "booking": "מזמינים…",
+      "slotTaken": "המועד הזה נתפס הרגע. בחרו מועד אחר.",
+      "bookingError": "לא הצלחנו להזמין את השיחה. נסו שוב."
+    },
+    "confirmed": {
+      "heading": "הכול מסודר, ${name}!",
+      "headingNoName": "הכול מסודר!",
+      "subheading": "הזמנה ליומן עם כל הפרטים בדרך לאימייל שלך.",
+      "advisor": "יועץ",
+      "when": "מתי",
+      "call": "שיחה",
+      "callValue": "${medium} · ${minutes} דק'",
+      "reschedule": "שינוי מועד",
+      "cancelCall": "ביטול השיחה",
+      "done": "סיום",
+      "otherTrip": "השיחה שלך ב-${date} מכסה את כל התוכניות שלך. היועץ יכול לדבר גם על הטיול הזה."
+    },
+    "booked": {
+      "pill": "שיחה נקבעה · ${date}",
+      "profileLine": "השיחה שלך: ${date}",
+      "view": "לצפייה בהזמנה",
+      "disc": "נקבעה שיחה עם ${name}"
+    }
   }
 }

@@ -71,6 +71,7 @@
       "title": "Layla - AI旅行规划师",
       "isTyping": "${name} 正在输入...",
       "thinking": "Layla 正在思考",
+      "newMessage": "新消息",
       "generatingTrip": "正在生成您的行程...",
       "tripGenerating": {
         "routes": "最佳路线已锁定",
@@ -1567,15 +1568,39 @@
     "lists": {
       "noActivitiesFound": "未找到活动",
       "noStaysFound": "未找到住宿",
-      "noFlightsFound": "未找到航班",
       "noRentalsFound": "未找到租车",
       "perPerson": "每人",
       "free": "免费",
       "transportFlight": "航班",
       "transportTrain": "火车",
-      "transportRental": "租车"
+      "transportRental": "租车",
+      "empty": {
+        "all": {
+          "title": "暂无交通安排",
+          "body": "路线成形后，Layla 会在这里加入航班、火车等。"
+        },
+        "flight": {
+          "title": "暂无航班",
+          "body": "添加航班后会显示在这里。"
+        },
+        "train": {
+          "title": "暂无火车",
+          "body": "添加火车行程后会显示在这里。"
+        },
+        "ferry": {
+          "title": "暂无渡轮",
+          "body": "添加渡轮航程后会显示在这里。"
+        },
+        "car": {
+          "title": "暂无自驾行程",
+          "body": "添加行程后会显示在这里。"
+        },
+        "rental": {
+          "title": "暂无租车",
+          "body": "添加租车后会显示在这里。"
+        }
+      }
     },
-    "timeline": "时间线",
     "flightsSortBar": {
       "sort": "排序",
       "airlines": "航空公司",
@@ -1606,6 +1631,10 @@
     },
     "advisor": {
       "plan_with": "与$name一起规划"
+    },
+    "timeline_intro": {
+      "more": "更多",
+      "title": "关于这一天"
     }
   },
   "tripWord": "旅行",
@@ -1934,6 +1963,65 @@
         "taxesNote": "此处的税款是指付给供应商（如酒店）的代缴税款。如需了解详细信息，请参阅我们的使用条款。服务费作为对您的预订提供服务的佣金收取，可能包括供应商收取的费用。",
         "feesAtPropertyNote": "这些费用需在入住或退房时直接向酒店支付，由酒店制定，不包含在上述总额中。"
       }
+    }
+  },
+  "consultation": {
+    "title": "联系旅行顾问",
+    "advisorRole": "你的旅行顾问",
+    "steps": {
+      "details": "联系方式",
+      "schedule": "时间",
+      "confirmed": "已确认"
+    },
+    "details": {
+      "heading": "怎么联系你？",
+      "subheading": "顾问会用这些信息确认通话。",
+      "fullName": "姓名",
+      "email": "邮箱",
+      "phone": "手机号",
+      "phoneHint": "含国家区号，如 +86",
+      "method": "你想怎么沟通？",
+      "video": "视频通话",
+      "phoneCall": "电话",
+      "privacy": "你的信息只会留在 Layla 和你的顾问这里。",
+      "nameRequired": "请填写姓名",
+      "emailInvalid": "请输入有效的邮箱地址",
+      "emailRelay": "我们需要一个可用的邮箱来确认通话。",
+      "emailRejected": "这个邮箱无法接收邮件，请换一个。",
+      "phoneInvalid": "请输入含国家区号的有效手机号",
+      "phoneRejected": "这个号码无法接听电话或接收短信，请换一个。",
+      "continueLabel": "继续"
+    },
+    "schedule": {
+      "heading": "选择时间",
+      "subheading": "免费 30 分钟通话，时间为你的当地时间。",
+      "noSlots": "这一天没有空闲时间",
+      "loadError": "无法加载空闲时间。",
+      "retry": "重试",
+      "openBookingPage": "打开预约页面",
+      "confirm": "确认预约",
+      "booking": "预约中…",
+      "slotTaken": "这个时间刚被约走了，请换一个。",
+      "bookingError": "无法预约通话，请重试。"
+    },
+    "confirmed": {
+      "heading": "搞定了，${name}！",
+      "headingNoName": "搞定了！",
+      "subheading": "含全部详情的日历邀请正在发往你的邮箱。",
+      "advisor": "顾问",
+      "when": "时间",
+      "call": "通话",
+      "callValue": "${medium} · ${minutes} 分钟",
+      "reschedule": "改期",
+      "cancelCall": "取消通话",
+      "done": "完成",
+      "otherTrip": "你在 ${date} 的通话涵盖你的所有计划，顾问也可以聊聊这次旅行。"
+    },
+    "booked": {
+      "pill": "已预约通话 · ${date}",
+      "profileLine": "你的通话：${date}",
+      "view": "查看预约",
+      "disc": "已预约与${name}的通话"
     }
   }
 }

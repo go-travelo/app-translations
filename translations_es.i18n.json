@@ -71,6 +71,7 @@
       "title": "Layla - Planificador de Viajes IA",
       "isTyping": "${name} está escribiendo...",
       "thinking": "Layla está pensando",
+      "newMessage": "Mensaje nuevo",
       "generatingTrip": "Generando tu viaje...",
       "tripGenerating": {
         "routes": "Mejores rutas, fijadas",
@@ -1592,15 +1593,39 @@
     "lists": {
       "noActivitiesFound": "No se encontraron actividades",
       "noStaysFound": "No se encontraron alojamientos",
-      "noFlightsFound": "No se encontraron vuelos",
       "noRentalsFound": "No se encontraron alquileres",
       "perPerson": "por persona",
       "free": "Gratis",
       "transportFlight": "Vuelo",
       "transportTrain": "Tren",
-      "transportRental": "Alquiler"
+      "transportRental": "Alquiler",
+      "empty": {
+        "all": {
+          "title": "Todavía sin transporte",
+          "body": "Layla añade vuelos, trenes y más a medida que tu ruta toma forma."
+        },
+        "flight": {
+          "title": "Todavía sin vuelos",
+          "body": "Añade un vuelo y aparecerá aquí."
+        },
+        "train": {
+          "title": "Todavía sin trenes",
+          "body": "Añade un viaje en tren y aparecerá aquí."
+        },
+        "ferry": {
+          "title": "Todavía sin ferris",
+          "body": "Añade una travesía en ferry y aparecerá aquí."
+        },
+        "car": {
+          "title": "Todavía sin trayectos en coche",
+          "body": "Añade un trayecto y aparecerá aquí."
+        },
+        "rental": {
+          "title": "Todavía sin alquileres",
+          "body": "Añade un coche de alquiler y aparecerá aquí."
+        }
+      }
     },
-    "timeline": "Cronología",
     "flightsSortBar": {
       "sort": "Ordenar",
       "airlines": "Aerolíneas",
@@ -1632,6 +1657,10 @@
     },
     "advisor": {
       "plan_with": "Planificar con $name"
+    },
+    "timeline_intro": {
+      "more": "Más",
+      "title": "Sobre este día"
     }
   },
   "tripWord": "Viaje",
@@ -1970,6 +1999,65 @@
         "taxesNote": "Los impuestos son tasas de recuperación de impuestos que se pagan a los proveedores (por ejemplo, hoteles). Para obtener más información, consulta nuestras condiciones de uso. Las tasas de servicio se retienen como compensación por la gestión de tu reserva y pueden incluir las tasas cobradas por los proveedores.",
         "feesAtPropertyNote": "Estos cargos se pagan en el alojamiento al hacer el check-in o el check-out, los fija el alojamiento y no están incluidos en el total anterior."
       }
+    }
+  },
+  "consultation": {
+    "title": "Hablar con un asesor de viajes",
+    "advisorRole": "Tu asesor de viajes",
+    "steps": {
+      "details": "Contacto",
+      "schedule": "Hora",
+      "confirmed": "Confirmado"
+    },
+    "details": {
+      "heading": "¿Cómo te contactamos?",
+      "subheading": "Tu asesor los usa para confirmar la llamada.",
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "phoneHint": "Con prefijo del país, p. ej. +34",
+      "method": "¿Cómo prefieres hablar?",
+      "video": "Videollamada",
+      "phoneCall": "Llamada telefónica",
+      "privacy": "Tus datos se quedan entre Layla y tu asesor.",
+      "nameRequired": "Escribe tu nombre",
+      "emailInvalid": "Introduce un correo electrónico válido",
+      "emailRelay": "Necesitamos un correo que funcione para confirmar tu llamada.",
+      "emailRejected": "Este correo no puede recibir mensajes. Usa otro.",
+      "phoneInvalid": "Introduce un número válido con prefijo del país",
+      "phoneRejected": "Este número no puede recibir llamadas ni mensajes. Usa otro.",
+      "continueLabel": "Continuar"
+    },
+    "schedule": {
+      "heading": "Elige una hora",
+      "subheading": "Llamada gratuita de 30 minutos, horas en tu hora local.",
+      "noSlots": "No hay huecos libres ese día",
+      "loadError": "No pudimos cargar las horas libres.",
+      "retry": "Reintentar",
+      "openBookingPage": "Abrir la página de reserva",
+      "confirm": "Confirmar reserva",
+      "booking": "Reservando…",
+      "slotTaken": "Esa hora se acaba de ocupar. Elige otra.",
+      "bookingError": "No pudimos reservar la llamada. Inténtalo de nuevo."
+    },
+    "confirmed": {
+      "heading": "¡Todo listo, ${name}!",
+      "headingNoName": "¡Todo listo!",
+      "subheading": "Te llega al correo una invitación de calendario con todos los detalles.",
+      "advisor": "Asesor",
+      "when": "Cuándo",
+      "call": "Llamada",
+      "callValue": "${medium} · ${minutes} min",
+      "reschedule": "Cambiar la hora",
+      "cancelCall": "Cancelar llamada",
+      "done": "Listo",
+      "otherTrip": "Tu llamada del ${date} cubre todos tus planes. Tu asesor también puede hablar de este viaje."
+    },
+    "booked": {
+      "pill": "Llamada reservada · ${date}",
+      "profileLine": "Tu llamada: ${date}",
+      "view": "Ver reserva",
+      "disc": "Llamada reservada con ${name}"
     }
   }
 }

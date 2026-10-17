@@ -170,6 +170,7 @@
       "title": "Layla - AI Travel Planner",
       "isTyping": "${name} is typing...",
       "thinking": "Layla is thinking",
+      "newMessage": "New message",
       "generatingTrip": "Generating your trip...",
       "tripGenerating": {
         "routes": "Best routes, locked",
@@ -1257,7 +1258,6 @@
       "attraction": "Attraction",
       "note": "Note"
     },
-    "timeline": "Timeline",
     "header": {
       "daysLabel": "${count} Days",
       "chooseDate": "Choose Date",
@@ -1734,13 +1734,38 @@
     "lists": {
       "noActivitiesFound": "No activities found",
       "noStaysFound": "No stays found",
-      "noFlightsFound": "'No flights found",
       "noRentalsFound": "No rentals found",
       "perPerson": "per person",
       "free": "Free",
       "transportFlight": "Flight",
       "transportTrain": "Train",
-      "transportRental": "Rental"
+      "transportRental": "Rental",
+      "empty": {
+        "all": {
+          "title": "No transport yet",
+          "body": "Layla adds flights, trains and more as your route takes shape."
+        },
+        "flight": {
+          "title": "No flights yet",
+          "body": "Add a flight and it will show up here."
+        },
+        "train": {
+          "title": "No trains yet",
+          "body": "Add a train ride and it will show up here."
+        },
+        "ferry": {
+          "title": "No ferries yet",
+          "body": "Add a ferry crossing and it will show up here."
+        },
+        "car": {
+          "title": "No car journeys yet",
+          "body": "Add a drive and it will show up here."
+        },
+        "rental": {
+          "title": "No rentals yet",
+          "body": "Add a rental car and it will show up here."
+        }
+      }
     },
     "flightsSortBar": {
       "sort": "Sort",
@@ -1772,6 +1797,10 @@
     },
     "advisor": {
       "plan_with": "Plan with $name"
+    },
+    "timeline_intro": {
+      "more": "More",
+      "title": "About this day"
     }
   },
   "tripWord": "Trip",
@@ -2288,6 +2317,65 @@
       "body": "We've made things smoother. Update whenever you have a moment.",
       "cta": "Update now",
       "later": "Maybe later"
+    }
+  },
+  "consultation": {
+    "title": "Talk to a travel advisor",
+    "advisorRole": "Your travel advisor",
+    "steps": {
+      "details": "Details",
+      "schedule": "Time",
+      "confirmed": "Confirmed"
+    },
+    "details": {
+      "heading": "How can we reach you?",
+      "subheading": "Your advisor uses these to confirm the call.",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "phoneHint": "With country code, e.g. +49",
+      "method": "How would you like to talk?",
+      "video": "Video call",
+      "phoneCall": "Phone call",
+      "privacy": "Your details stay with Layla and your advisor.",
+      "nameRequired": "Please add your name",
+      "emailInvalid": "Please enter a valid email address",
+      "emailRelay": "We need a working email to confirm your call.",
+      "emailRejected": "This email address cannot receive mail. Please use another one.",
+      "phoneInvalid": "Please enter a valid phone number with country code",
+      "phoneRejected": "This number cannot take calls or texts. Please use another one.",
+      "continueLabel": "Continue"
+    },
+    "schedule": {
+      "heading": "Pick a time",
+      "subheading": "Free 30-minute call, times in your local time.",
+      "noSlots": "No free times on this day",
+      "loadError": "We could not load free times.",
+      "retry": "Try again",
+      "openBookingPage": "Open booking page",
+      "confirm": "Confirm booking",
+      "booking": "Booking…",
+      "slotTaken": "That time just went. Pick another one.",
+      "bookingError": "We could not book the call. Please try again."
+    },
+    "confirmed": {
+      "heading": "You're all set, ${name}!",
+      "headingNoName": "You're all set!",
+      "subheading": "A calendar invite with the details is on its way to your email.",
+      "advisor": "Advisor",
+      "when": "When",
+      "call": "Call",
+      "callValue": "${medium} · ${minutes} min",
+      "reschedule": "Reschedule",
+      "cancelCall": "Cancel call",
+      "done": "Done",
+      "otherTrip": "Your call on ${date} covers all your plans. Your advisor can talk about this trip too."
+    },
+    "booked": {
+      "pill": "Call booked · ${date}",
+      "profileLine": "Your call: ${date}",
+      "view": "View booking",
+      "disc": "Call booked with ${name}"
     }
   }
 }

@@ -71,6 +71,7 @@
       "title": "Layla - AI Reisplanner",
       "isTyping": "${name} is aan het typen...",
       "thinking": "Layla denkt na",
+      "newMessage": "Nieuw bericht",
       "generatingTrip": "Je reis wordt aangemaakt...",
       "tripGenerating": {
         "routes": "Beste routes vastgelegd",
@@ -1592,15 +1593,39 @@
     "lists": {
       "noActivitiesFound": "Geen activiteiten gevonden",
       "noStaysFound": "Geen verblijven gevonden",
-      "noFlightsFound": "Geen vluchten gevonden",
       "noRentalsFound": "Geen huurwagens gevonden",
       "perPerson": "per persoon",
       "free": "Gratis",
       "transportFlight": "Vlucht",
       "transportTrain": "Trein",
-      "transportRental": "Huurwagen"
+      "transportRental": "Huurwagen",
+      "empty": {
+        "all": {
+          "title": "Nog geen vervoer",
+          "body": "Layla voegt vluchten, treinen en meer toe zodra je route vorm krijgt."
+        },
+        "flight": {
+          "title": "Nog geen vluchten",
+          "body": "Voeg een vlucht toe en die verschijnt hier."
+        },
+        "train": {
+          "title": "Nog geen treinen",
+          "body": "Voeg een treinrit toe en die verschijnt hier."
+        },
+        "ferry": {
+          "title": "Nog geen veerboten",
+          "body": "Voeg een overtocht toe en die verschijnt hier."
+        },
+        "car": {
+          "title": "Nog geen autoritten",
+          "body": "Voeg een rit toe en die verschijnt hier."
+        },
+        "rental": {
+          "title": "Nog geen huurauto's",
+          "body": "Voeg een huurauto toe en die verschijnt hier."
+        }
+      }
     },
-    "timeline": "Tijdlijn",
     "flightsSortBar": {
       "sort": "Sorteren",
       "airlines": "Luchtvaartmaatschappijen",
@@ -1632,6 +1657,10 @@
     },
     "advisor": {
       "plan_with": "Plan met $name"
+    },
+    "timeline_intro": {
+      "more": "Meer",
+      "title": "Over deze dag"
     }
   },
   "tripWord": "Reis",
@@ -1962,5 +1991,64 @@
     "sort_trip_date": "Reisdatum",
     "sort_last_updated": "Laatst bijgewerkt",
     "sort_date_created": "Aanmaakdatum"
+  },
+  "consultation": {
+    "title": "Praat met een reisadviseur",
+    "advisorRole": "Je reisadviseur",
+    "steps": {
+      "details": "Gegevens",
+      "schedule": "Tijd",
+      "confirmed": "Bevestigd"
+    },
+    "details": {
+      "heading": "Hoe bereiken we je?",
+      "subheading": "Je adviseur gebruikt dit om het gesprek te bevestigen.",
+      "fullName": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoonnummer",
+      "phoneHint": "Met landcode, bijv. +31",
+      "method": "Hoe wil je praten?",
+      "video": "Videogesprek",
+      "phoneCall": "Telefoongesprek",
+      "privacy": "Je gegevens blijven bij Layla en je adviseur.",
+      "nameRequired": "Vul je naam in",
+      "emailInvalid": "Vul een geldig e-mailadres in",
+      "emailRelay": "We hebben een werkend e-mailadres nodig om je gesprek te bevestigen.",
+      "emailRejected": "Dit e-mailadres kan geen mail ontvangen. Gebruik een ander adres.",
+      "phoneInvalid": "Vul een geldig telefoonnummer met landcode in",
+      "phoneRejected": "Dit nummer kan geen oproepen of berichten ontvangen. Gebruik een ander nummer.",
+      "continueLabel": "Verder"
+    },
+    "schedule": {
+      "heading": "Kies een tijd",
+      "subheading": "Gratis gesprek van 30 minuten, tijden in je lokale tijd.",
+      "noSlots": "Geen vrije tijden op deze dag",
+      "loadError": "We konden de vrije tijden niet laden.",
+      "retry": "Opnieuw proberen",
+      "openBookingPage": "Boekingspagina openen",
+      "confirm": "Boeking bevestigen",
+      "booking": "Boeken…",
+      "slotTaken": "Die tijd is net weg. Kies een andere.",
+      "bookingError": "We konden het gesprek niet boeken. Probeer het opnieuw."
+    },
+    "confirmed": {
+      "heading": "Helemaal geregeld, ${name}!",
+      "headingNoName": "Helemaal geregeld!",
+      "subheading": "Een agenda-uitnodiging met alle details is onderweg naar je mail.",
+      "advisor": "Adviseur",
+      "when": "Wanneer",
+      "call": "Gesprek",
+      "callValue": "${medium} · ${minutes} min",
+      "reschedule": "Verzetten",
+      "cancelCall": "Gesprek annuleren",
+      "done": "Klaar",
+      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je adviseur kan het ook over deze reis hebben."
+    },
+    "booked": {
+      "pill": "Gesprek geboekt · ${date}",
+      "profileLine": "Je gesprek: ${date}",
+      "view": "Boeking bekijken",
+      "disc": "Gesprek geboekt met ${name}"
+    }
   }
 }
