@@ -1499,7 +1499,11 @@
       "findAlternative": "Encontrar Alternativa",
       "fromTo": "${from} para ${to}",
       "oneStop": "1 parada",
-      "stops": "${count} paradas"
+      "stops": "${count} paradas",
+      "skip": "Pular este traslado",
+      "keep": "Manter traslado",
+      "skipped": "Pulado",
+      "addBack": "Adicionar de volta"
     },
     "carTransport": {
       "transport": "Transporte",

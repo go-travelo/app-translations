@@ -1472,7 +1472,11 @@
       "findAlternative": "寻找替代方案",
       "fromTo": "${from}到${to}",
       "oneStop": "1次中转",
-      "stops": "${count}次中转"
+      "stops": "${count}次中转",
+      "skip": "跳过此接送",
+      "keep": "保留接送",
+      "skipped": "已跳过",
+      "addBack": "重新添加"
     },
     "carTransport": {
       "transport": "交通",

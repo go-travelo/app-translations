@@ -1556,7 +1556,11 @@
       "findAlternative": "מצא אלטרנטיבה",
       "fromTo": "${from} ל-${to}",
       "oneStop": "עצירה אחת",
-      "stops": "${count} עצירות"
+      "stops": "${count} עצירות",
+      "skip": "דלג על ההסעה הזו",
+      "keep": "השאר את ההסעה",
+      "skipped": "דולג",
+      "addBack": "הוסף בחזרה"
     },
     "carTransport": {
       "transport": "תחבורה",

@@ -1614,7 +1614,11 @@
       "findAlternative": "ابحث عن بديل",
       "fromTo": "${from} إلى ${to}",
       "oneStop": "توقف واحد",
-      "stops": "${count} توقفات"
+      "stops": "${count} توقفات",
+      "skip": "تخطَّ هذا التوصيل",
+      "keep": "أبقِ التوصيل",
+      "skipped": "تم التخطي",
+      "addBack": "أعد إضافته"
     },
     "carTransport": {
       "transport": "النقل",

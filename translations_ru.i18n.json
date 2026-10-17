@@ -1557,7 +1557,11 @@
       "findAlternative": "Найти альтернативу",
       "fromTo": "${from} до ${to}",
       "oneStop": "1 остановка",
-      "stops": "${count} остановок"
+      "stops": "${count} остановок",
+      "skip": "Пропустить этот трансфер",
+      "keep": "Оставить трансфер",
+      "skipped": "Пропущен",
+      "addBack": "Вернуть"
     },
     "carTransport": {
       "transport": "Транспорт",

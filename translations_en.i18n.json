@@ -1640,7 +1640,11 @@
       "findAlternative": "Find Alternative",
       "fromTo": "${from} to ${to}",
       "oneStop": "1 stop",
-      "stops": "${count} stops"
+      "stops": "${count} stops",
+      "skip": "Skip this transfer",
+      "keep": "Keep transfer",
+      "skipped": "Skipped",
+      "addBack": "Add back"
     },
     "carTransport": {
       "transport": "Transport",

@@ -1499,7 +1499,11 @@
       "findAlternative": "Намери Алтернатива",
       "fromTo": "${from} до ${to}",
       "oneStop": "1 спирка",
-      "stops": "${count} спирки"
+      "stops": "${count} спирки",
+      "skip": "Пропусни този трансфер",
+      "keep": "Запази трансфера",
+      "skipped": "Пропуснат",
+      "addBack": "Добави отново"
     },
     "carTransport": {
       "transport": "Транспорт",
