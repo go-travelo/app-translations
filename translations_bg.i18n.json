@@ -121,7 +121,12 @@
         "latestTrip": "Последно пътуване",
         "previousTrip": "Предишно пътуване",
         "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе.",
-        "continueWithHuman": "Продължете резервацията с агент"
+        "continueWithHuman": "Продължете резервацията с агент",
+        "version": "Версия ${number}",
+        "latestVersion": "Най-нова версия",
+        "reopenVersion": "Отвори тази версия отново",
+        "backToLatest": "Обратно към най-новата",
+        "previewingVersion": "Разглеждаш версия ${number}"
       },
       "hotelsCard": {
         "type": "Хотели",
@@ -144,7 +149,12 @@
       "continueWithSelected": "Продължи с ${n} избрани",
       "advisor": {
         "webviewTitle": "Говори с пътен консултант"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "Добави ${name} към пътуването ми"
+      },
+      "connectorsChip": "Импортирай от Gmail или Outlook",
+      "legalLine": "Туристическа услуга с помощта на ИИ"
     },
     "trip_empty": {
       "title": "Чат и създаване на пътуване",
@@ -808,7 +818,60 @@
     "popular_currencies": "Популярни",
     "all_currencies": "Всички валути",
     "no_currencies_found": "Няма съвпадащи валути",
-    "remove_photo": "Премахни снимката"
+    "remove_photo": "Премахни снимката",
+    "signed_in_with": "Влязъл с ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "имейл",
+    "footer_user_id": "ID ${id} · Докосни, за да копираш",
+    "connectors": {
+      "title": "Свързани акаунти",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Свържи",
+      "update_now": "Обнови сега",
+      "reconnect": "Свържи отново",
+      "status_connected": "Свързан · обновява се всяка седмица",
+      "status_connected_last": "Свързан · обновява се всяка седмица · последно ${date}",
+      "status_expired": "Връзката е изтекла · свържи отново, за да продължат обновленията",
+      "status_running": "Четене на потвържденията за резервации…",
+      "status_running_instagram": "Четене на твоите места…",
+      "status_email_idle": "Пътувания и резервации от последните 15 години",
+      "status_instagram_idle": "Места, които си споделял. Засега само за бизнес акаунти.",
+      "status_imported_trips": "Импортирани пътувания: ${count}",
+      "trust": "Layla пази само детайлите на пътуванията и по една снимка на място. Никога твоите имейли, публикации или пароли.",
+      "disconnect": "Прекъсни връзката",
+      "remove_data": "Изтрий импортираните данни",
+      "remove_confirm_title": "Да изтрия импортираните данни?",
+      "remove_confirm_message": "Пътуванията и предпочитанията, които Layla научи от ${source}, ще бъдат изтрити. Можеш да се свържеш отново по всяко време.",
+      "disconnect_confirm_title": "Да прекъсна връзката с ${source}?",
+      "disconnect_confirm_message": "Layla спира да чете нови резервации. Импортираните пътувания остават, докато не ги изтриеш.",
+      "outcome_found": "Намерени пътувания: ${count}",
+      "outcome_none_new": "Нищо ново от последния път",
+      "outcome_updated": "Обновено",
+      "outcome_rate_limited": "Твърде много обновления. Опитай пак след минута.",
+      "outcome_too_slow": "Отне твърде дълго. Опитай пак.",
+      "outcome_expired": "Връзката е изтекла. Свържи отново, за да обновиш.",
+      "outcome_failed": "Обновяването не успя. Опитай пак.",
+      "connect_on_web_title": "Свържи в layla.ai",
+      "connect_on_web_message": "Свързването на ${source} от приложението идва скоро. Свържи го веднъж в layla.ai и приложението ще го поддържа актуално.",
+      "connect_unavailable": "Свързването от приложението изисква обновяване на сървъра. Засега използвай layla.ai.",
+      "connect_failed": "Свързването не успя. Опитай пак.",
+      "open_web": "Отвори layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "Чатовете, пътуванията и данните ти изчезват до 24 часа. Дотогава още можеш да се откажеш.",
+      "confirm_button": "Да, изтрий акаунта ми",
+      "requested_title": "Заявено изтриване",
+      "requested_message": "Изчезва до 24 часа. Докосни, за да откажеш.",
+      "requested_toast": "Изтриването е заявено. Акаунтът ти изчезва до 24 часа.",
+      "cancelled_toast": "Изтриването е отказано. Радваме се, че оставаш.",
+      "cancel_title": "Да запазим акаунта ти?",
+      "cancel_message": "Изтриването се отказва и нищо не се изтрива.",
+      "keep_account": "Запази акаунта ми",
+      "failed": "Не се получи. Опитай пак."
+    }
   },
   "auth": {
     "email": "Имейл",
@@ -1188,7 +1251,27 @@
       "bookThisBus": "Резервирайте този автобус",
       "bookThisTrain": "Резервирайте този влак",
       "bookThisBoat": "Резервирайте тази лодка",
-      "bookThisTransfer": "Резервирайте този трансфер"
+      "bookThisTransfer": "Резервирайте този трансфер",
+      "waysToTravel": "Начини за пътуване",
+      "waysCount": {
+        "one": "${n} начин за пътуване",
+        "other": "${n} начина за пътуване"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Обновява се…",
+      "otherWays": "Други варианти",
+      "recommended": "Препоръчано: ${mode}",
+      "comingSoonBody": "Резервацията на ${mode} скоро идва в Layla.",
+      "noTransportationYet": "Все още няма транспорт",
+      "addTransportation": "Добави транспорт",
+      "fromPrice": "от ${price}",
+      "lockedBooked": "Резервирано. Промените по този участък минават през твоя консултант.",
+      "modes": {
+        "privateCar": "Собствена кола",
+        "rentalCar": "Кола под наем",
+        "mixed": "Комбинирано пътуване",
+        "walking": "Пеша"
+      }
     },
     "restaurant": {
       "title": "Ресторант"
@@ -1960,6 +2043,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "Избор",
+      "details": "Данни",
+      "pay": "Плащане",
+      "done": "Готово"
+    },
+    "contact": {
+      "heading": "Кой резервира?",
+      "subheading": "Тук ще ти изпратим потвърждението и новини за резервацията.",
+      "privacy": "Данните ти остават при Layla и доставчиците, които довършват резервацията."
+    },
+    "pricesChanged": {
+      "title": "Цените се промениха",
+      "description": "Някои цени в пътуването ти бяха обновени, след като отвори плащането. Върни се към пътуването, за да видиш новата обща сума, и резервирай отново.",
+      "cta": "Виж новите цени"
+    },
+    "intentFailed": {
+      "title": "Не успяхме да започнем плащането",
+      "description": "Плащането не беше завършено. Опитай отново."
     }
   },
   "trips": {
@@ -1972,6 +2075,9 @@
       "rename_title": "Преименуване на пътуването",
       "rename_placeholder": "Име на пътуването",
       "save": "Запази"
+    },
+    "call_hero": {
+      "title": "Разговор с $name"
     }
   },
   "trips_list": {
@@ -2042,13 +2148,36 @@
       "reschedule": "Премести",
       "cancelCall": "Отмени разговора",
       "done": "Готово",
-      "otherTrip": "Разговорът ти на ${date} покрива всичките ти планове. Консултантът може да говори и за това пътуване."
+      "otherTrip": "Разговорът ти на ${date} покрива всичките ти планове. Консултантът може да говори и за това пътуване.",
+      "status": {
+        "confirmed": "Потвърден",
+        "rescheduled": "Пренасрочен",
+        "cancelled": "Отменен"
+      },
+      "videoLink": "Линк за видеоразговора",
+      "joinCall": "Включи се",
+      "cancelledNotice": "Този разговор беше отменен. Можеш да резервираш нов по всяко време.",
+      "bookAgain": "Резервирай нов разговор"
     },
     "booked": {
       "pill": "Разговор запазен · ${date}",
       "profileLine": "Твоят разговор: ${date}",
       "view": "Виж резервацията",
       "disc": "Запазен разговор с ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Разговор с ${name} след 3 часа",
+      "oneHour": "Разговор с ${name} след 1 час",
+      "tenMinutes": "Разговор с ${name} след 10 минути",
+      "threeHoursNoName": "Разговорът ти с консултанта е след 3 часа",
+      "oneHourNoName": "Разговорът ти с консултанта е след 1 час",
+      "tenMinutesNoName": "Разговорът ти с консултанта е след 10 минути",
+      "body": "${time} · ${medium}. Докосни за подробности."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

@@ -221,7 +221,12 @@
         "latestTrip": "Latest trip",
         "previousTrip": "Previous trip",
         "expiredTripTooltip": "This is a previous version. Your latest trip is shown above.",
-        "continueWithHuman": "Continue booking with a Human"
+        "continueWithHuman": "Continue booking with a Human",
+        "version": "Version ${number}",
+        "latestVersion": "Latest version",
+        "reopenVersion": "Reopen this version",
+        "backToLatest": "Back to latest",
+        "previewingVersion": "You're viewing version ${number}"
       },
       "hotelsCard": {
         "type": "Hotels",
@@ -243,7 +248,12 @@
       "continueWithSelected": "Continue with ${n} selected",
       "advisor": {
         "webviewTitle": "Talk to a travel advisor"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "Add ${name} to my trip"
+      },
+      "connectorsChip": "Import from Gmail or Outlook",
+      "legalLine": "AI-assisted travel service"
     },
     "trip_empty": {
       "title": "Chat & create trip",
@@ -907,7 +917,60 @@
     "popular_currencies": "Popular",
     "all_currencies": "All currencies",
     "no_currencies_found": "No currencies match",
-    "remove_photo": "Remove photo"
+    "remove_photo": "Remove photo",
+    "signed_in_with": "Signed in with ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "email",
+    "footer_user_id": "ID ${id} · Tap to copy",
+    "connectors": {
+      "title": "Connected accounts",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Connect",
+      "update_now": "Update now",
+      "reconnect": "Reconnect",
+      "status_connected": "Connected · updates weekly",
+      "status_connected_last": "Connected · updates weekly · last ${date}",
+      "status_expired": "Connection expired · reconnect to keep updating",
+      "status_running": "Reading booking confirmations…",
+      "status_running_instagram": "Reading your places…",
+      "status_email_idle": "Trips and bookings from the last 15 years",
+      "status_instagram_idle": "Places you've shared. Professional accounts for now.",
+      "status_imported_trips": "${count} trips imported",
+      "trust": "Layla keeps only trip details and one photo per place. Never your emails, posts or passwords.",
+      "disconnect": "Disconnect",
+      "remove_data": "Remove imported data",
+      "remove_confirm_title": "Remove imported data?",
+      "remove_confirm_message": "The trips and preferences Layla learned from ${source} are deleted. You can connect again any time.",
+      "disconnect_confirm_title": "Disconnect ${source}?",
+      "disconnect_confirm_message": "Layla stops reading new bookings. Imported trips stay until you remove them.",
+      "outcome_found": "Found ${count} trips",
+      "outcome_none_new": "Nothing new since last time",
+      "outcome_updated": "Updated",
+      "outcome_rate_limited": "Too many updates. Try again in a minute.",
+      "outcome_too_slow": "That took too long. Try again.",
+      "outcome_expired": "Connection expired. Reconnect to update.",
+      "outcome_failed": "Update failed. Try again.",
+      "connect_on_web_title": "Connect on layla.ai",
+      "connect_on_web_message": "Connecting ${source} from the app is coming soon. Connect once on layla.ai and the app keeps it updated.",
+      "connect_unavailable": "Connecting from the app needs a server update. Use layla.ai for now.",
+      "connect_failed": "Could not connect. Try again.",
+      "open_web": "Open layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "Your chats, trips and data go within 24 hours. You can still cancel until then.",
+      "confirm_button": "Yes, delete my account",
+      "requested_title": "Deletion requested",
+      "requested_message": "Goes within 24 hours. Tap to cancel.",
+      "requested_toast": "Deletion requested. Your account goes within 24 hours.",
+      "cancelled_toast": "Deletion cancelled. Welcome back.",
+      "cancel_title": "Keep your account?",
+      "cancel_message": "The deletion is cancelled and nothing is removed.",
+      "keep_account": "Keep my account",
+      "failed": "That did not work. Try again."
+    }
   },
   "auth": {
     "email": "Email",
@@ -1318,7 +1381,27 @@
       "bookThisBus": "Book this bus",
       "bookThisTrain": "Book this train",
       "bookThisBoat": "Book this boat",
-      "bookThisTransfer": "Book this transfer"
+      "bookThisTransfer": "Book this transfer",
+      "waysToTravel": "Ways to travel",
+      "waysCount": {
+        "one": "${n} way to travel",
+        "other": "${n} ways to travel"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Updating…",
+      "otherWays": "Other ways",
+      "recommended": "Recommended ${mode}",
+      "comingSoonBody": "${mode} booking is coming to Layla soon.",
+      "noTransportationYet": "No transportation yet",
+      "addTransportation": "Add transportation",
+      "fromPrice": "from ${price}",
+      "lockedBooked": "Booked. Changes to this route go through your advisor.",
+      "modes": {
+        "privateCar": "Private car",
+        "rentalCar": "Rental car",
+        "mixed": "Mixed travel",
+        "walking": "Walking"
+      }
     },
     "restaurant": {
       "title": "Restaurant"
@@ -2132,6 +2215,26 @@
         "travelerDetails": "Enter the traveler's details to continue with checkout",
         "saveFailed": "Couldn't save your details. Please try again."
       }
+    },
+    "steps": {
+      "items": "Items",
+      "details": "Details",
+      "pay": "Pay",
+      "done": "Done"
+    },
+    "contact": {
+      "heading": "Who's booking?",
+      "subheading": "We'll send your confirmation and booking updates here.",
+      "privacy": "Your details stay with Layla and the providers who complete your booking."
+    },
+    "pricesChanged": {
+      "title": "Prices have changed",
+      "description": "Some prices in your trip were updated after you opened checkout. Go back to your trip to see the new total, then book again.",
+      "cta": "Review updated prices"
+    },
+    "intentFailed": {
+      "title": "We couldn't start the payment",
+      "description": "Payment could not be completed. Please try again."
     }
   },
   "trips": {
@@ -2144,6 +2247,9 @@
       "rename_title": "Rename trip",
       "rename_placeholder": "Trip name",
       "save": "Save"
+    },
+    "call_hero": {
+      "title": "Call with $name"
     }
   },
   "trips_list": {
@@ -2369,13 +2475,36 @@
       "reschedule": "Reschedule",
       "cancelCall": "Cancel call",
       "done": "Done",
-      "otherTrip": "Your call on ${date} covers all your plans. Your advisor can talk about this trip too."
+      "otherTrip": "Your call on ${date} covers all your plans. Your advisor can talk about this trip too.",
+      "status": {
+        "confirmed": "Confirmed",
+        "rescheduled": "Rescheduled",
+        "cancelled": "Cancelled"
+      },
+      "videoLink": "Video link",
+      "joinCall": "Join",
+      "cancelledNotice": "This call was cancelled. You can book a new one whenever you like.",
+      "bookAgain": "Book a new call"
     },
     "booked": {
       "pill": "Call booked · ${date}",
       "profileLine": "Your call: ${date}",
       "view": "View booking",
       "disc": "Call booked with ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Call with ${name} in 3 hours",
+      "oneHour": "Call with ${name} in 1 hour",
+      "tenMinutes": "Call with ${name} in 10 minutes",
+      "threeHoursNoName": "Your advisor call is in 3 hours",
+      "oneHourNoName": "Your advisor call is in 1 hour",
+      "tenMinutesNoName": "Your advisor call is in 10 minutes",
+      "body": "${time} · ${medium}. Tap for the details."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

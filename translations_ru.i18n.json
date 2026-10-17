@@ -121,7 +121,12 @@
         "latestTrip": "Последняя поездка",
         "previousTrip": "Предыдущая поездка",
         "expiredTripTooltip": "Это предыдущая версия. Ваша последняя поездка отображается выше.",
-        "continueWithHuman": "Продолжить бронирование с агентом"
+        "continueWithHuman": "Продолжить бронирование с агентом",
+        "version": "Версия ${number}",
+        "latestVersion": "Последняя версия",
+        "reopenVersion": "Открыть эту версию снова",
+        "backToLatest": "Назад к последней",
+        "previewingVersion": "Вы смотрите версию ${number}"
       },
       "hotelsCard": {
         "type": "Отели",
@@ -144,7 +149,12 @@
       "continueWithSelected": "Продолжить с ${n} выбранными",
       "advisor": {
         "webviewTitle": "Поговорить с тревел-консультантом"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "Добавьте ${name} в мою поездку"
+      },
+      "connectorsChip": "Импорт из Gmail или Outlook",
+      "legalLine": "Туристический сервис на основе ИИ"
     },
     "trip_empty": {
       "title": "Чат и создание поездки",
@@ -830,7 +840,60 @@
     "popular_currencies": "Популярные",
     "all_currencies": "Все валюты",
     "no_currencies_found": "Подходящих валют нет",
-    "remove_photo": "Удалить фото"
+    "remove_photo": "Удалить фото",
+    "signed_in_with": "Вход через ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "почту",
+    "footer_user_id": "ID ${id} · Нажми, чтобы скопировать",
+    "connectors": {
+      "title": "Подключённые аккаунты",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Подключить",
+      "update_now": "Обновить сейчас",
+      "reconnect": "Подключить заново",
+      "status_connected": "Подключено · обновляется раз в неделю",
+      "status_connected_last": "Подключено · обновляется раз в неделю · последнее ${date}",
+      "status_expired": "Подключение истекло · подключи заново, чтобы обновления продолжались",
+      "status_running": "Читаю подтверждения бронирований…",
+      "status_running_instagram": "Читаю твои места…",
+      "status_email_idle": "Поездки и бронирования за последние 15 лет",
+      "status_instagram_idle": "Места, которыми ты делился. Пока только для бизнес-аккаунтов.",
+      "status_imported_trips": "Импортировано поездок: ${count}",
+      "trust": "Layla хранит только детали поездок и одно фото на место. Никогда — твои письма, посты или пароли.",
+      "disconnect": "Отключить",
+      "remove_data": "Удалить импортированные данные",
+      "remove_confirm_title": "Удалить импортированные данные?",
+      "remove_confirm_message": "Поездки и предпочтения, которые Layla узнала из ${source}, будут удалены. Подключиться снова можно в любой момент.",
+      "disconnect_confirm_title": "Отключить ${source}?",
+      "disconnect_confirm_message": "Layla перестанет читать новые бронирования. Импортированные поездки останутся, пока ты их не удалишь.",
+      "outcome_found": "Найдено поездок: ${count}",
+      "outcome_none_new": "Ничего нового с прошлого раза",
+      "outcome_updated": "Обновлено",
+      "outcome_rate_limited": "Слишком много обновлений. Попробуй через минуту.",
+      "outcome_too_slow": "Это заняло слишком много времени. Попробуй ещё раз.",
+      "outcome_expired": "Подключение истекло. Подключи заново, чтобы обновить.",
+      "outcome_failed": "Не удалось обновить. Попробуй ещё раз.",
+      "connect_on_web_title": "Подключить на layla.ai",
+      "connect_on_web_message": "Подключение ${source} из приложения скоро появится. Подключи один раз на layla.ai, и приложение будет держать всё актуальным.",
+      "connect_unavailable": "Для подключения из приложения нужно обновление на сервере. Пока используй layla.ai.",
+      "connect_failed": "Не удалось подключить. Попробуй ещё раз.",
+      "open_web": "Открыть layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "Твои чаты, поездки и данные исчезнут в течение 24 часов. До этого ещё можно отменить.",
+      "confirm_button": "Да, удалить аккаунт",
+      "requested_title": "Запрос на удаление отправлен",
+      "requested_message": "Исчезнет в течение 24 часов. Нажми, чтобы отменить.",
+      "requested_toast": "Запрос на удаление отправлен. Аккаунт исчезнет в течение 24 часов.",
+      "cancelled_toast": "Удаление отменено. С возвращением.",
+      "cancel_title": "Оставить аккаунт?",
+      "cancel_message": "Удаление отменяется, ничего не стирается.",
+      "keep_account": "Оставить аккаунт",
+      "failed": "Не получилось. Попробуй ещё раз."
+    }
   },
   "auth": {
     "email": "Электронная почта",
@@ -1242,7 +1305,29 @@
       "bookThisBus": "Забронировать этот автобус",
       "bookThisTrain": "Забронировать этот поезд",
       "bookThisBoat": "Забронировать эту лодку",
-      "bookThisTransfer": "Забронировать этот трансфер"
+      "bookThisTransfer": "Забронировать этот трансфер",
+      "waysToTravel": "Способы добраться",
+      "waysCount": {
+        "one": "${n} способ добраться",
+        "few": "${n} способа добраться",
+        "many": "${n} способов добраться",
+        "other": "${n} способа добраться"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Обновляем…",
+      "otherWays": "Другие варианты",
+      "recommended": "Рекомендуем: ${mode}",
+      "comingSoonBody": "Бронирование (${mode}) скоро появится в Layla.",
+      "noTransportationYet": "Транспорта пока нет",
+      "addTransportation": "Добавить транспорт",
+      "fromPrice": "от ${price}",
+      "lockedBooked": "Забронировано. Изменения этого участка — через вашего консультанта.",
+      "modes": {
+        "privateCar": "Свой автомобиль",
+        "rentalCar": "Арендованный автомобиль",
+        "mixed": "Комбинированный маршрут",
+        "walking": "Пешком"
+      }
     },
     "restaurant": {
       "title": "Ресторан"
@@ -2040,6 +2125,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "Выбор",
+      "details": "Данные",
+      "pay": "Оплата",
+      "done": "Готово"
+    },
+    "contact": {
+      "heading": "Кто бронирует?",
+      "subheading": "Сюда мы отправим подтверждение и новости о бронировании.",
+      "privacy": "Твои данные остаются у Layla и партнёров, которые оформляют бронирование."
+    },
+    "pricesChanged": {
+      "title": "Цены изменились",
+      "description": "Некоторые цены в твоей поездке обновились после открытия оплаты. Вернись к поездке, чтобы увидеть новую сумму, и забронируй снова.",
+      "cta": "Посмотреть новые цены"
+    },
+    "intentFailed": {
+      "title": "Не удалось начать оплату",
+      "description": "Оплата не прошла. Попробуй ещё раз."
     }
   },
   "trips": {
@@ -2052,6 +2157,9 @@
       "rename_title": "Переименовать поездку",
       "rename_placeholder": "Название поездки",
       "save": "Сохранить"
+    },
+    "call_hero": {
+      "title": "Звонок с $name"
     }
   },
   "trips_list": {
@@ -2133,13 +2241,36 @@
       "reschedule": "Перенести",
       "cancelCall": "Отменить звонок",
       "done": "Готово",
-      "otherTrip": "Ваш звонок ${date} охватывает все ваши планы. Консультант может обсудить и эту поездку."
+      "otherTrip": "Ваш звонок ${date} охватывает все ваши планы. Консультант может обсудить и эту поездку.",
+      "status": {
+        "confirmed": "Подтверждён",
+        "rescheduled": "Перенесён",
+        "cancelled": "Отменён"
+      },
+      "videoLink": "Ссылка на видеозвонок",
+      "joinCall": "Подключиться",
+      "cancelledNotice": "Этот звонок отменён. Вы можете забронировать новый в любое время.",
+      "bookAgain": "Забронировать новый звонок"
     },
     "booked": {
       "pill": "Звонок назначен · ${date}",
       "profileLine": "Ваш звонок: ${date}",
       "view": "Открыть запись",
       "disc": "Звонок назначен с ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Звонок с ${name} через 3 часа",
+      "oneHour": "Звонок с ${name} через 1 час",
+      "tenMinutes": "Звонок с ${name} через 10 минут",
+      "threeHoursNoName": "Звонок с консультантом через 3 часа",
+      "oneHourNoName": "Звонок с консультантом через 1 час",
+      "tenMinutesNoName": "Звонок с консультантом через 10 минут",
+      "body": "${time} · ${medium}. Нажмите, чтобы открыть детали."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

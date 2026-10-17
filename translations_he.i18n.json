@@ -121,7 +121,12 @@
         "latestTrip": "הטיול האחרון",
         "previousTrip": "טיול קודם",
         "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה.",
-        "continueWithHuman": "המשך הזמנה עם נציג אנושי"
+        "continueWithHuman": "המשך הזמנה עם נציג אנושי",
+        "version": "גרסה ${number}",
+        "latestVersion": "הגרסה האחרונה",
+        "reopenVersion": "לפתוח שוב את הגרסה הזו",
+        "backToLatest": "חזרה לגרסה האחרונה",
+        "previewingVersion": "מוצגת גרסה ${number}"
       },
       "hotelsCard": {
         "type": "מלונות",
@@ -144,7 +149,12 @@
       "continueWithSelected": "המשך עם ${n} שנבחרו",
       "advisor": {
         "webviewTitle": "לדבר עם יועץ נסיעות"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "להוסיף את ${name} לטיול שלי"
+      },
+      "connectorsChip": "ייבוא מ-Gmail או Outlook",
+      "legalLine": "שירות נסיעות בסיוע AI"
     },
     "trip_empty": {
       "title": "צ'אט ויצירת טיול",
@@ -830,7 +840,60 @@
     "popular_currencies": "נפוצים",
     "all_currencies": "כל המטבעות",
     "no_currencies_found": "לא נמצאו מטבעות מתאימים",
-    "remove_photo": "הסרת התמונה"
+    "remove_photo": "הסרת התמונה",
+    "signed_in_with": "מחובר באמצעות ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "אימייל",
+    "footer_user_id": "מזהה ${id} · הקש להעתקה",
+    "connectors": {
+      "title": "חשבונות מחוברים",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "חיבור",
+      "update_now": "עדכן עכשיו",
+      "reconnect": "חבר מחדש",
+      "status_connected": "מחובר · מתעדכן כל שבוע",
+      "status_connected_last": "מחובר · מתעדכן כל שבוע · עדכון אחרון ${date}",
+      "status_expired": "החיבור פג · חבר מחדש כדי להמשיך להתעדכן",
+      "status_running": "קורא אישורי הזמנה…",
+      "status_running_instagram": "קורא את המקומות שלך…",
+      "status_email_idle": "טיולים והזמנות מ-15 השנים האחרונות",
+      "status_instagram_idle": "מקומות ששיתפת. בינתיים רק חשבונות עסקיים.",
+      "status_imported_trips": "${count} טיולים יובאו",
+      "trust": "Layla שומרת רק פרטי טיולים ותמונה אחת לכל מקום. אף פעם לא את האימיילים, הפוסטים או הסיסמאות שלך.",
+      "disconnect": "ניתוק",
+      "remove_data": "מחיקת נתונים שיובאו",
+      "remove_confirm_title": "למחוק את הנתונים שיובאו?",
+      "remove_confirm_message": "הטיולים וההעדפות ש-Layla למדה מ-${source} יימחקו. אפשר להתחבר שוב בכל זמן.",
+      "disconnect_confirm_title": "לנתק את ${source}?",
+      "disconnect_confirm_message": "Layla תפסיק לקרוא הזמנות חדשות. טיולים שיובאו נשארים עד שתמחק אותם.",
+      "outcome_found": "נמצאו ${count} טיולים",
+      "outcome_none_new": "שום דבר חדש מאז הפעם הקודמת",
+      "outcome_updated": "עודכן",
+      "outcome_rate_limited": "יותר מדי עדכונים. נסה שוב בעוד דקה.",
+      "outcome_too_slow": "זה לקח יותר מדי זמן. נסה שוב.",
+      "outcome_expired": "החיבור פג. חבר מחדש כדי לעדכן.",
+      "outcome_failed": "העדכון נכשל. נסה שוב.",
+      "connect_on_web_title": "חיבור ב-layla.ai",
+      "connect_on_web_message": "חיבור ${source} מתוך האפליקציה מגיע בקרוב. חבר פעם אחת ב-layla.ai והאפליקציה תשמור על עדכניות.",
+      "connect_unavailable": "חיבור מתוך האפליקציה דורש עדכון שרת. בינתיים השתמש ב-layla.ai.",
+      "connect_failed": "החיבור נכשל. נסה שוב.",
+      "open_web": "פתח את layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "הצ'אטים, הטיולים והנתונים שלך ייעלמו תוך 24 שעות. עד אז עדיין אפשר לבטל.",
+      "confirm_button": "כן, למחוק את החשבון שלי",
+      "requested_title": "בקשת מחיקה נשלחה",
+      "requested_message": "יימחק תוך 24 שעות. הקש לביטול.",
+      "requested_toast": "בקשת מחיקה נשלחה. החשבון שלך ייעלם תוך 24 שעות.",
+      "cancelled_toast": "המחיקה בוטלה. טוב שנשארת.",
+      "cancel_title": "לשמור על החשבון?",
+      "cancel_message": "המחיקה מבוטלת ושום דבר לא נמחק.",
+      "keep_account": "לשמור על החשבון שלי",
+      "failed": "זה לא עבד. נסה שוב."
+    }
   },
   "auth": {
     "email": "אימייל",
@@ -1242,7 +1305,28 @@
       "bookThisBus": "הזמן אוטובוס זה",
       "bookThisTrain": "הזמן רכבת זו",
       "bookThisBoat": "הזמן סירה זו",
-      "bookThisTransfer": "הזמן העברה זו"
+      "bookThisTransfer": "הזמן העברה זו",
+      "waysToTravel": "דרכים להגיע",
+      "waysCount": {
+        "one": "דרך אחת להגיע",
+        "two": "שתי דרכים להגיע",
+        "other": "${n} דרכים להגיע"
+      },
+      "optionsSubtitle": "${from} ← ${to}",
+      "updating": "מעדכנים…",
+      "otherWays": "אפשרויות נוספות",
+      "recommended": "מומלץ: ${mode}",
+      "comingSoonBody": "הזמנת ${mode} תגיע בקרוב ל‑Layla.",
+      "noTransportationYet": "אין עדיין תחבורה",
+      "addTransportation": "הוספת תחבורה",
+      "fromPrice": "החל מ‑${price}",
+      "lockedBooked": "הוזמן. שינויים בקטע הזה נעשים דרך יועץ הנסיעות שלך.",
+      "modes": {
+        "privateCar": "רכב פרטי",
+        "rentalCar": "רכב שכור",
+        "mixed": "נסיעה משולבת",
+        "walking": "ברגל"
+      }
     },
     "restaurant": {
       "title": "מסעדה"
@@ -2040,6 +2124,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "בחירה",
+      "details": "פרטים",
+      "pay": "תשלום",
+      "done": "סיום"
+    },
+    "contact": {
+      "heading": "מי מזמין?",
+      "subheading": "לכאן נשלח לך את האישור ועדכונים על ההזמנה.",
+      "privacy": "הפרטים שלך נשארים אצל Layla ואצל הספקים שמשלימים את ההזמנה."
+    },
+    "pricesChanged": {
+      "title": "המחירים השתנו",
+      "description": "חלק מהמחירים בטיול שלך עודכנו אחרי שפתחת את התשלום. יש לחזור לטיול כדי לראות את הסכום החדש ואז להזמין שוב.",
+      "cta": "לצפייה במחירים המעודכנים"
+    },
+    "intentFailed": {
+      "title": "לא הצלחנו להתחיל את התשלום",
+      "description": "התשלום לא הושלם. אפשר לנסות שוב."
     }
   },
   "trips": {
@@ -2052,6 +2156,9 @@
       "rename_title": "שינוי שם הטיול",
       "rename_placeholder": "שם הטיול",
       "save": "שמירה"
+    },
+    "call_hero": {
+      "title": "שיחה עם $name"
     }
   },
   "trips_list": {
@@ -2124,13 +2231,36 @@
       "reschedule": "שינוי מועד",
       "cancelCall": "ביטול השיחה",
       "done": "סיום",
-      "otherTrip": "השיחה שלך ב-${date} מכסה את כל התוכניות שלך. היועץ יכול לדבר גם על הטיול הזה."
+      "otherTrip": "השיחה שלך ב-${date} מכסה את כל התוכניות שלך. היועץ יכול לדבר גם על הטיול הזה.",
+      "status": {
+        "confirmed": "מאושרת",
+        "rescheduled": "נדחתה למועד אחר",
+        "cancelled": "בוטלה"
+      },
+      "videoLink": "קישור לשיחת וידאו",
+      "joinCall": "הצטרפות",
+      "cancelledNotice": "השיחה הזו בוטלה. אפשר לקבוע שיחה חדשה בכל רגע.",
+      "bookAgain": "קביעת שיחה חדשה"
     },
     "booked": {
       "pill": "שיחה נקבעה · ${date}",
       "profileLine": "השיחה שלך: ${date}",
       "view": "לצפייה בהזמנה",
       "disc": "נקבעה שיחה עם ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "שיחה עם ${name} בעוד 3 שעות",
+      "oneHour": "שיחה עם ${name} בעוד שעה",
+      "tenMinutes": "שיחה עם ${name} בעוד 10 דקות",
+      "threeHoursNoName": "השיחה שלך עם היועץ בעוד 3 שעות",
+      "oneHourNoName": "השיחה שלך עם היועץ בעוד שעה",
+      "tenMinutesNoName": "השיחה שלך עם היועץ בעוד 10 דקות",
+      "body": "${time} · ${medium}. הקישו לפרטים."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

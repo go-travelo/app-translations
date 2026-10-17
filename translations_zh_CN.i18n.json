@@ -121,7 +121,12 @@
         "latestTrip": "最新行程",
         "previousTrip": "历史行程",
         "expiredTripTooltip": "这是旧版本。您的最新行程显示在上方。",
-        "continueWithHuman": "与人工客服继续预订"
+        "continueWithHuman": "与人工客服继续预订",
+        "version": "版本 ${number}",
+        "latestVersion": "最新版本",
+        "reopenVersion": "重新打开此版本",
+        "backToLatest": "返回最新版本",
+        "previewingVersion": "正在查看版本 ${number}"
       },
       "hotelsCard": {
         "type": "酒店",
@@ -144,7 +149,12 @@
       "continueWithSelected": "继续，已选择 ${n} 项",
       "advisor": {
         "webviewTitle": "联系旅行顾问"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "把${name}加到我的行程里"
+      },
+      "connectorsChip": "从 Gmail 或 Outlook 导入",
+      "legalLine": "AI 辅助旅行服务"
     },
     "trip_empty": {
       "title": "聊天并创建行程",
@@ -799,7 +809,60 @@
     "popular_currencies": "常用",
     "all_currencies": "全部货币",
     "no_currencies_found": "没有匹配的货币",
-    "remove_photo": "移除照片"
+    "remove_photo": "移除照片",
+    "signed_in_with": "通过 ${provider} 登录",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "邮箱",
+    "footer_user_id": "ID ${id} · 点按复制",
+    "connectors": {
+      "title": "已连接的账号",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "连接",
+      "update_now": "立即更新",
+      "reconnect": "重新连接",
+      "status_connected": "已连接 · 每周更新",
+      "status_connected_last": "已连接 · 每周更新 · 上次 ${date}",
+      "status_expired": "连接已过期 · 重新连接以继续更新",
+      "status_running": "正在读取预订确认邮件…",
+      "status_running_instagram": "正在读取你去过的地方…",
+      "status_email_idle": "最近 15 年的行程和预订",
+      "status_instagram_idle": "你分享过的地方。目前仅支持专业账号。",
+      "status_imported_trips": "已导入 ${count} 段行程",
+      "trust": "Layla 只保留行程信息和每个地点的一张照片，绝不保存你的邮件、帖子或密码。",
+      "disconnect": "断开连接",
+      "remove_data": "删除已导入的数据",
+      "remove_confirm_title": "删除已导入的数据？",
+      "remove_confirm_message": "Layla 从 ${source} 学到的行程和偏好会被删除。你随时可以重新连接。",
+      "disconnect_confirm_title": "断开 ${source}？",
+      "disconnect_confirm_message": "Layla 不再读取新的预订。已导入的行程会保留，直到你删除。",
+      "outcome_found": "找到 ${count} 段行程",
+      "outcome_none_new": "自上次以来没有新内容",
+      "outcome_updated": "已更新",
+      "outcome_rate_limited": "更新太频繁，请一分钟后再试。",
+      "outcome_too_slow": "耗时太久，请再试一次。",
+      "outcome_expired": "连接已过期，请重新连接后更新。",
+      "outcome_failed": "更新失败，请再试一次。",
+      "connect_on_web_title": "在 layla.ai 上连接",
+      "connect_on_web_message": "在应用内连接 ${source} 即将推出。先在 layla.ai 上连接一次，应用会保持同步。",
+      "connect_unavailable": "在应用内连接需要服务器更新，暂时请使用 layla.ai。",
+      "connect_failed": "连接失败，请再试一次。",
+      "open_web": "打开 layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "你的聊天、行程和数据将在 24 小时内删除，在此之前仍可取消。",
+      "confirm_button": "是的，删除我的账号",
+      "requested_title": "已申请删除",
+      "requested_message": "将在 24 小时内删除。点按可取消。",
+      "requested_toast": "已申请删除，你的账号将在 24 小时内删除。",
+      "cancelled_toast": "已取消删除，欢迎回来。",
+      "cancel_title": "保留你的账号？",
+      "cancel_message": "删除已取消，不会清除任何内容。",
+      "keep_account": "保留我的账号",
+      "failed": "没有成功，请再试一次。"
+    }
   },
   "auth": {
     "email": "电子邮件",
@@ -1163,7 +1226,26 @@
       "bookThisBus": "预订此巴士",
       "bookThisTrain": "预订此火车",
       "bookThisBoat": "预订此船",
-      "bookThisTransfer": "预订此接送"
+      "bookThisTransfer": "预订此接送",
+      "waysToTravel": "出行方式",
+      "waysCount": {
+        "other": "${n} 种出行方式"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "更新中…",
+      "otherWays": "其他方式",
+      "recommended": "推荐：${mode}",
+      "comingSoonBody": "Layla 即将支持${mode}预订。",
+      "noTransportationYet": "暂无交通安排",
+      "addTransportation": "添加交通",
+      "fromPrice": "${price} 起",
+      "lockedBooked": "已预订。此段行程的更改请联系你的旅行顾问。",
+      "modes": {
+        "privateCar": "自驾车",
+        "rentalCar": "租车",
+        "mixed": "多种交通组合",
+        "walking": "步行"
+      }
     },
     "restaurant": {
       "title": "餐厅"
@@ -1925,6 +2007,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "选择",
+      "details": "信息",
+      "pay": "支付",
+      "done": "完成"
+    },
+    "contact": {
+      "heading": "预订人是谁？",
+      "subheading": "我们会把确认信息和预订动态发到这里。",
+      "privacy": "你的信息只会用于 Layla 和为你完成预订的服务商。"
+    },
+    "pricesChanged": {
+      "title": "价格已变动",
+      "description": "你打开结账页面后，行程中的部分价格已更新。请返回行程查看新的总价，然后重新预订。",
+      "cta": "查看更新后的价格"
+    },
+    "intentFailed": {
+      "title": "无法开始付款",
+      "description": "支付未能完成。请再试一次。"
     }
   },
   "trips": {
@@ -1937,6 +2039,9 @@
       "rename_title": "重命名旅程",
       "rename_placeholder": "旅程名称",
       "save": "保存"
+    },
+    "call_hero": {
+      "title": "与 $name 通话"
     }
   },
   "trips_list": {
@@ -2015,13 +2120,36 @@
       "reschedule": "改期",
       "cancelCall": "取消通话",
       "done": "完成",
-      "otherTrip": "你在 ${date} 的通话涵盖你的所有计划，顾问也可以聊聊这次旅行。"
+      "otherTrip": "你在 ${date} 的通话涵盖你的所有计划，顾问也可以聊聊这次旅行。",
+      "status": {
+        "confirmed": "已确认",
+        "rescheduled": "已改期",
+        "cancelled": "已取消"
+      },
+      "videoLink": "视频通话链接",
+      "joinCall": "加入",
+      "cancelledNotice": "这次通话已取消。你可以随时重新预约。",
+      "bookAgain": "预约新的通话"
     },
     "booked": {
       "pill": "已预约通话 · ${date}",
       "profileLine": "你的通话：${date}",
       "view": "查看预约",
       "disc": "已预约与${name}的通话"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "与 ${name} 的通话将在 3 小时后开始",
+      "oneHour": "与 ${name} 的通话将在 1 小时后开始",
+      "tenMinutes": "与 ${name} 的通话将在 10 分钟后开始",
+      "threeHoursNoName": "你的顾问通话将在 3 小时后开始",
+      "oneHourNoName": "你的顾问通话将在 1 小时后开始",
+      "tenMinutesNoName": "你的顾问通话将在 10 分钟后开始",
+      "body": "${time} · ${medium}。点按查看详情。"
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

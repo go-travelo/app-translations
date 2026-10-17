@@ -121,7 +121,12 @@
         "latestTrip": "Último viaje",
         "previousTrip": "Viaje anterior",
         "expiredTripTooltip": "Esta es una versión anterior. Tu último viaje se muestra arriba.",
-        "continueWithHuman": "Continuar reserva con un agente"
+        "continueWithHuman": "Continuar reserva con un agente",
+        "version": "Versión ${number}",
+        "latestVersion": "Última versión",
+        "reopenVersion": "Volver a abrir esta versión",
+        "backToLatest": "Volver a la última",
+        "previewingVersion": "Estás viendo la versión ${number}"
       },
       "hotelsCard": {
         "type": "Hoteles",
@@ -144,7 +149,12 @@
       "continueWithSelected": "Continuar con ${n} seleccionados",
       "advisor": {
         "webviewTitle": "Hablar con un asesor de viajes"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "Añade ${name} a mi viaje"
+      },
+      "connectorsChip": "Importar de Gmail o Outlook",
+      "legalLine": "Servicio de viajes asistido por IA"
     },
     "trip_empty": {
       "title": "Chatea y crea un viaje",
@@ -808,7 +818,60 @@
     "popular_currencies": "Populares",
     "all_currencies": "Todas las monedas",
     "no_currencies_found": "Ninguna moneda coincide",
-    "remove_photo": "Quitar foto"
+    "remove_photo": "Quitar foto",
+    "signed_in_with": "Sesión iniciada con ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "correo",
+    "footer_user_id": "ID ${id} · Toca para copiar",
+    "connectors": {
+      "title": "Cuentas conectadas",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Conectar",
+      "update_now": "Actualizar ahora",
+      "reconnect": "Reconectar",
+      "status_connected": "Conectada · se actualiza cada semana",
+      "status_connected_last": "Conectada · se actualiza cada semana · última: ${date}",
+      "status_expired": "Conexión caducada · reconecta para seguir actualizando",
+      "status_running": "Leyendo confirmaciones de reserva…",
+      "status_running_instagram": "Leyendo tus lugares…",
+      "status_email_idle": "Viajes y reservas de los últimos 15 años",
+      "status_instagram_idle": "Los lugares que has compartido. Por ahora solo cuentas profesionales.",
+      "status_imported_trips": "${count} viajes importados",
+      "trust": "Layla solo guarda los datos del viaje y una foto por lugar. Nunca tus correos, publicaciones ni contraseñas.",
+      "disconnect": "Desconectar",
+      "remove_data": "Borrar datos importados",
+      "remove_confirm_title": "¿Borrar los datos importados?",
+      "remove_confirm_message": "Se borran los viajes y preferencias que Layla aprendió de ${source}. Puedes volver a conectar cuando quieras.",
+      "disconnect_confirm_title": "¿Desconectar ${source}?",
+      "disconnect_confirm_message": "Layla deja de leer reservas nuevas. Los viajes importados se quedan hasta que los borres.",
+      "outcome_found": "${count} viajes encontrados",
+      "outcome_none_new": "Nada nuevo desde la última vez",
+      "outcome_updated": "Actualizado",
+      "outcome_rate_limited": "Demasiadas actualizaciones. Inténtalo en un minuto.",
+      "outcome_too_slow": "Ha tardado demasiado. Inténtalo de nuevo.",
+      "outcome_expired": "Conexión caducada. Reconecta para actualizar.",
+      "outcome_failed": "No se pudo actualizar. Inténtalo de nuevo.",
+      "connect_on_web_title": "Conectar en layla.ai",
+      "connect_on_web_message": "Conectar ${source} desde la app llegará pronto. Conéctalo una vez en layla.ai y la app lo mantiene al día.",
+      "connect_unavailable": "Conectar desde la app necesita una actualización del servidor. Usa layla.ai por ahora.",
+      "connect_failed": "No se pudo conectar. Inténtalo de nuevo.",
+      "open_web": "Abrir layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "Tus chats, viajes y datos desaparecen en 24 horas. Hasta entonces puedes cancelar.",
+      "confirm_button": "Sí, eliminar mi cuenta",
+      "requested_title": "Eliminación solicitada",
+      "requested_message": "Se elimina en 24 horas. Toca para cancelar.",
+      "requested_toast": "Eliminación solicitada. Tu cuenta desaparece en 24 horas.",
+      "cancelled_toast": "Eliminación cancelada. Qué bien que te quedas.",
+      "cancel_title": "¿Conservar tu cuenta?",
+      "cancel_message": "Se cancela la eliminación y no se borra nada.",
+      "keep_account": "Conservar mi cuenta",
+      "failed": "Algo ha fallado. Inténtalo de nuevo."
+    }
   },
   "auth": {
     "email": "Correo electrónico",
@@ -1188,7 +1251,27 @@
       "bookThisBus": "Reservar este autobús",
       "bookThisTrain": "Reservar este tren",
       "bookThisBoat": "Reservar este barco",
-      "bookThisTransfer": "Reservar este traslado"
+      "bookThisTransfer": "Reservar este traslado",
+      "waysToTravel": "Formas de viajar",
+      "waysCount": {
+        "one": "${n} forma de viajar",
+        "other": "${n} formas de viajar"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Actualizando…",
+      "otherWays": "Otras opciones",
+      "recommended": "Recomendado: ${mode}",
+      "comingSoonBody": "La reserva de ${mode} llegará pronto a Layla.",
+      "noTransportationYet": "Todavía sin transporte",
+      "addTransportation": "Añadir transporte",
+      "fromPrice": "desde ${price}",
+      "lockedBooked": "Reservado. Los cambios en este trayecto se hacen con tu asesor.",
+      "modes": {
+        "privateCar": "Coche propio",
+        "rentalCar": "Coche de alquiler",
+        "mixed": "Viaje combinado",
+        "walking": "A pie"
+      }
     },
     "restaurant": {
       "title": "Restaurante"
@@ -1960,6 +2043,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "Selección",
+      "details": "Datos",
+      "pay": "Pago",
+      "done": "Listo"
+    },
+    "contact": {
+      "heading": "¿Quién reserva?",
+      "subheading": "Aquí te enviaremos la confirmación y las novedades de tu reserva.",
+      "privacy": "Tus datos se quedan en Layla y con los proveedores que completan tu reserva."
+    },
+    "pricesChanged": {
+      "title": "Los precios han cambiado",
+      "description": "Algunos precios de tu viaje se actualizaron después de abrir el pago. Vuelve a tu viaje para ver el nuevo total y reserva de nuevo.",
+      "cta": "Ver precios actualizados"
+    },
+    "intentFailed": {
+      "title": "No pudimos iniciar el pago",
+      "description": "No se pudo completar el pago. Inténtalo de nuevo."
     }
   },
   "trips": {
@@ -1972,6 +2075,9 @@
       "rename_title": "Cambiar nombre del viaje",
       "rename_placeholder": "Nombre del viaje",
       "save": "Guardar"
+    },
+    "call_hero": {
+      "title": "Llamada con $name"
     }
   },
   "trips_list": {
@@ -2051,13 +2157,36 @@
       "reschedule": "Cambiar la hora",
       "cancelCall": "Cancelar llamada",
       "done": "Listo",
-      "otherTrip": "Tu llamada del ${date} cubre todos tus planes. Tu asesor también puede hablar de este viaje."
+      "otherTrip": "Tu llamada del ${date} cubre todos tus planes. Tu asesor también puede hablar de este viaje.",
+      "status": {
+        "confirmed": "Confirmada",
+        "rescheduled": "Reprogramada",
+        "cancelled": "Cancelada"
+      },
+      "videoLink": "Enlace de la videollamada",
+      "joinCall": "Unirse",
+      "cancelledNotice": "Esta llamada se canceló. Puedes reservar otra cuando quieras.",
+      "bookAgain": "Reservar otra llamada"
     },
     "booked": {
       "pill": "Llamada reservada · ${date}",
       "profileLine": "Tu llamada: ${date}",
       "view": "Ver reserva",
       "disc": "Llamada reservada con ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Llamada con ${name} en 3 horas",
+      "oneHour": "Llamada con ${name} en 1 hora",
+      "tenMinutes": "Llamada con ${name} en 10 minutos",
+      "threeHoursNoName": "Tu llamada con el asesor es en 3 horas",
+      "oneHourNoName": "Tu llamada con el asesor es en 1 hora",
+      "tenMinutesNoName": "Tu llamada con el asesor es en 10 minutos",
+      "body": "${time} · ${medium}. Toca para ver los detalles."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

@@ -121,7 +121,12 @@
         "latestTrip": "أحدث رحلة",
         "previousTrip": "رحلة سابقة",
         "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه.",
-        "continueWithHuman": "متابعة الحجز مع مستشار"
+        "continueWithHuman": "متابعة الحجز مع مستشار",
+        "version": "الإصدار ${number}",
+        "latestVersion": "أحدث نسخة",
+        "reopenVersion": "افتح هذه النسخة من جديد",
+        "backToLatest": "العودة إلى الأحدث",
+        "previewingVersion": "أنت تشاهد الإصدار ${number}"
       },
       "hotelsCard": {
         "type": "فنادق",
@@ -144,7 +149,12 @@
       "continueWithSelected": "متابعة مع ${n} محدد",
       "advisor": {
         "webviewTitle": "تحدّث مع مستشار سفر"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "أضف ${name} إلى رحلتي"
+      },
+      "connectorsChip": "استيراد من Gmail أو Outlook",
+      "legalLine": "خدمة سفر مدعومة بالذكاء الاصطناعي"
     },
     "trip_empty": {
       "title": "الدردشة وإنشاء رحلة",
@@ -851,7 +861,60 @@
     "popular_currencies": "الشائعة",
     "all_currencies": "كل العملات",
     "no_currencies_found": "لا توجد عملات مطابقة",
-    "remove_photo": "إزالة الصورة"
+    "remove_photo": "إزالة الصورة",
+    "signed_in_with": "تم تسجيل الدخول عبر ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "البريد الإلكتروني",
+    "footer_user_id": "المعرّف ${id} · اضغط للنسخ",
+    "connectors": {
+      "title": "الحسابات المتصلة",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "ربط",
+      "update_now": "تحديث الآن",
+      "reconnect": "إعادة الربط",
+      "status_connected": "متصل · يتحدّث أسبوعيًا",
+      "status_connected_last": "متصل · يتحدّث أسبوعيًا · آخر تحديث ${date}",
+      "status_expired": "انتهت صلاحية الاتصال · أعد الربط لتستمر التحديثات",
+      "status_running": "جارٍ قراءة تأكيدات الحجز…",
+      "status_running_instagram": "جارٍ قراءة أماكنك…",
+      "status_email_idle": "الرحلات والحجوزات من آخر 15 سنة",
+      "status_instagram_idle": "الأماكن التي شاركتها. الحسابات المهنية فقط حاليًا.",
+      "status_imported_trips": "تم استيراد ${count} رحلة",
+      "trust": "تحتفظ Layla بتفاصيل الرحلات وصورة واحدة لكل مكان فقط. لا رسائلك ولا منشوراتك ولا كلمات مرورك أبدًا.",
+      "disconnect": "فصل",
+      "remove_data": "حذف البيانات المستوردة",
+      "remove_confirm_title": "حذف البيانات المستوردة؟",
+      "remove_confirm_message": "ستُحذف الرحلات والتفضيلات التي تعلّمتها Layla من ${source}. يمكنك الربط من جديد في أي وقت.",
+      "disconnect_confirm_title": "فصل ${source}؟",
+      "disconnect_confirm_message": "ستتوقف Layla عن قراءة الحجوزات الجديدة. تبقى الرحلات المستوردة حتى تحذفها.",
+      "outcome_found": "تم العثور على ${count} رحلة",
+      "outcome_none_new": "لا جديد منذ المرة الماضية",
+      "outcome_updated": "تم التحديث",
+      "outcome_rate_limited": "تحديثات كثيرة. جرّب بعد دقيقة.",
+      "outcome_too_slow": "استغرق الأمر وقتًا طويلًا. جرّب مرة أخرى.",
+      "outcome_expired": "انتهت صلاحية الاتصال. أعد الربط للتحديث.",
+      "outcome_failed": "فشل التحديث. جرّب مرة أخرى.",
+      "connect_on_web_title": "الربط عبر layla.ai",
+      "connect_on_web_message": "ربط ${source} من التطبيق قادم قريبًا. اربطه مرة واحدة عبر layla.ai وسيبقيه التطبيق محدّثًا.",
+      "connect_unavailable": "الربط من التطبيق يحتاج تحديثًا على الخادم. استخدم layla.ai حاليًا.",
+      "connect_failed": "تعذّر الربط. جرّب مرة أخرى.",
+      "open_web": "فتح layla.ai"
+    },
+    "deletion": {
+      "confirm_message": "ستختفي محادثاتك ورحلاتك وبياناتك خلال 24 ساعة. يمكنك الإلغاء حتى ذلك الحين.",
+      "confirm_button": "نعم، احذف حسابي",
+      "requested_title": "تم طلب الحذف",
+      "requested_message": "سيُحذف خلال 24 ساعة. اضغط للإلغاء.",
+      "requested_toast": "تم طلب الحذف. سيختفي حسابك خلال 24 ساعة.",
+      "cancelled_toast": "تم إلغاء الحذف. سعداء ببقائك.",
+      "cancel_title": "الاحتفاظ بحسابك؟",
+      "cancel_message": "سيُلغى الحذف ولن يُمسح أي شيء.",
+      "keep_account": "الاحتفاظ بحسابي",
+      "failed": "لم ينجح ذلك. جرّب مرة أخرى."
+    }
   },
   "auth": {
     "email": "البريد الإلكتروني",
@@ -1295,7 +1358,31 @@
       "bookThisBus": "احجز هذا الباص",
       "bookThisTrain": "احجز هذا القطار",
       "bookThisBoat": "احجز هذا القارب",
-      "bookThisTransfer": "احجز هذا النقل"
+      "bookThisTransfer": "احجز هذا النقل",
+      "waysToTravel": "طرق التنقل",
+      "waysCount": {
+        "zero": "لا توجد طرق تنقل",
+        "one": "طريقة تنقل واحدة",
+        "two": "طريقتا تنقل",
+        "few": "${n} طرق تنقل",
+        "many": "${n} طريقة تنقل",
+        "other": "${n} طريقة تنقل"
+      },
+      "optionsSubtitle": "${from} ← ${to}",
+      "updating": "جارٍ التحديث…",
+      "otherWays": "طرق أخرى",
+      "recommended": "مقترح: ${mode}",
+      "comingSoonBody": "حجز ${mode} سيتوفر قريبًا في Layla.",
+      "noTransportationYet": "لا توجد مواصلات بعد",
+      "addTransportation": "إضافة مواصلات",
+      "fromPrice": "ابتداءً من ${price}",
+      "lockedBooked": "تم الحجز. أي تغيير في هذا المسار يتم عبر مستشار السفر.",
+      "modes": {
+        "privateCar": "سيارة خاصة",
+        "rentalCar": "سيارة مستأجرة",
+        "mixed": "رحلة مركّبة",
+        "walking": "سيرًا على الأقدام"
+      }
     },
     "restaurant": {
       "title": "مطعم"
@@ -2119,6 +2206,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "الاختيار",
+      "details": "البيانات",
+      "pay": "الدفع",
+      "done": "تم"
+    },
+    "contact": {
+      "heading": "من يقوم بالحجز؟",
+      "subheading": "سنرسل إليك التأكيد وتحديثات الحجز هنا.",
+      "privacy": "تبقى بياناتك لدى Layla ومزوّدي الخدمة الذين يُتمّون حجزك."
+    },
+    "pricesChanged": {
+      "title": "تغيّرت الأسعار",
+      "description": "تم تحديث بعض الأسعار في رحلتك بعد فتح صفحة الدفع. عُد إلى رحلتك لرؤية الإجمالي الجديد، ثم احجز مرة أخرى.",
+      "cta": "مراجعة الأسعار المحدّثة"
+    },
+    "intentFailed": {
+      "title": "تعذّر بدء عملية الدفع",
+      "description": "لم يكتمل الدفع. حاول مرة أخرى."
     }
   },
   "trips": {
@@ -2131,6 +2238,9 @@
       "rename_title": "إعادة تسمية الرحلة",
       "rename_placeholder": "اسم الرحلة",
       "save": "حفظ"
+    },
+    "call_hero": {
+      "title": "مكالمة مع $name"
     }
   },
   "trips_list": {
@@ -2214,13 +2324,36 @@
       "reschedule": "تغيير الموعد",
       "cancelCall": "إلغاء المكالمة",
       "done": "تم",
-      "otherTrip": "مكالمتك في ${date} تغطي كل خططك. يمكن لمستشارك الحديث عن هذه الرحلة أيضًا."
+      "otherTrip": "مكالمتك في ${date} تغطي كل خططك. يمكن لمستشارك الحديث عن هذه الرحلة أيضًا.",
+      "status": {
+        "confirmed": "مؤكدة",
+        "rescheduled": "أُعيد جدولتها",
+        "cancelled": "ملغاة"
+      },
+      "videoLink": "رابط مكالمة الفيديو",
+      "joinCall": "انضم",
+      "cancelledNotice": "تم إلغاء هذه المكالمة. يمكنك حجز مكالمة جديدة في أي وقت.",
+      "bookAgain": "حجز مكالمة جديدة"
     },
     "booked": {
       "pill": "تم حجز مكالمة · ${date}",
       "profileLine": "مكالمتك: ${date}",
       "view": "عرض الحجز",
       "disc": "تم حجز مكالمة مع ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "مكالمة مع ${name} بعد 3 ساعات",
+      "oneHour": "مكالمة مع ${name} بعد ساعة",
+      "tenMinutes": "مكالمة مع ${name} بعد 10 دقائق",
+      "threeHoursNoName": "مكالمتك مع المستشار بعد 3 ساعات",
+      "oneHourNoName": "مكالمتك مع المستشار بعد ساعة",
+      "tenMinutesNoName": "مكالمتك مع المستشار بعد 10 دقائق",
+      "body": "${time} · ${medium}. اضغط لعرض التفاصيل."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }

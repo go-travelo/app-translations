@@ -121,7 +121,12 @@
         "latestTrip": "Laatste reis",
         "previousTrip": "Vorige reis",
         "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven.",
-        "continueWithHuman": "Doorgaan met boeken via een medewerker"
+        "continueWithHuman": "Doorgaan met boeken via een medewerker",
+        "version": "Versie ${number}",
+        "latestVersion": "Nieuwste versie",
+        "reopenVersion": "Deze versie opnieuw openen",
+        "backToLatest": "Terug naar de nieuwste",
+        "previewingVersion": "Je bekijkt versie ${number}"
       },
       "hotelsCard": {
         "type": "Hotels",
@@ -144,7 +149,12 @@
       "continueWithSelected": "Doorgaan met ${n} geselecteerd",
       "advisor": {
         "webviewTitle": "Praat met een reisadviseur"
-      }
+      },
+      "activitiesCard": {
+        "addMessage": "Voeg ${name} toe aan mijn reis"
+      },
+      "connectorsChip": "Importeren uit Gmail of Outlook",
+      "legalLine": "Reisdienst met AI-ondersteuning"
     },
     "trip_empty": {
       "title": "Chat & maak een reis",
@@ -808,7 +818,60 @@
     "popular_currencies": "Populair",
     "all_currencies": "Alle valuta's",
     "no_currencies_found": "Geen valuta gevonden",
-    "remove_photo": "Foto verwijderen"
+    "remove_photo": "Foto verwijderen",
+    "signed_in_with": "Ingelogd met ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "e-mail",
+    "footer_user_id": "ID ${id} · Tik om te kopiëren",
+    "connectors": {
+      "title": "Gekoppelde accounts",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Koppelen",
+      "update_now": "Nu bijwerken",
+      "reconnect": "Opnieuw koppelen",
+      "status_connected": "Gekoppeld · wekelijks bijgewerkt",
+      "status_connected_last": "Gekoppeld · wekelijks bijgewerkt · laatst ${date}",
+      "status_expired": "Koppeling verlopen · koppel opnieuw om bij te blijven",
+      "status_running": "Boekingsbevestigingen worden gelezen…",
+      "status_running_instagram": "Je plekken worden gelezen…",
+      "status_email_idle": "Reizen en boekingen van de afgelopen 15 jaar",
+      "status_instagram_idle": "Plekken die je hebt gedeeld. Voorlopig alleen zakelijke accounts.",
+      "status_imported_trips": "${count} reizen geïmporteerd",
+      "trust": "Layla bewaart alleen reisgegevens en één foto per plek. Nooit je e-mails, posts of wachtwoorden.",
+      "disconnect": "Ontkoppelen",
+      "remove_data": "Geïmporteerde gegevens verwijderen",
+      "remove_confirm_title": "Geïmporteerde gegevens verwijderen?",
+      "remove_confirm_message": "De reizen en voorkeuren die Layla uit ${source} heeft geleerd worden verwijderd. Je kunt altijd opnieuw koppelen.",
+      "disconnect_confirm_title": "${source} ontkoppelen?",
+      "disconnect_confirm_message": "Layla leest geen nieuwe boekingen meer. Geïmporteerde reizen blijven staan tot je ze verwijdert.",
+      "outcome_found": "${count} reizen gevonden",
+      "outcome_none_new": "Niets nieuws sinds de vorige keer",
+      "outcome_updated": "Bijgewerkt",
+      "outcome_rate_limited": "Te veel updates. Probeer het over een minuut opnieuw.",
+      "outcome_too_slow": "Dat duurde te lang. Probeer het opnieuw.",
+      "outcome_expired": "Koppeling verlopen. Koppel opnieuw om bij te werken.",
+      "outcome_failed": "Bijwerken mislukt. Probeer het opnieuw.",
+      "connect_on_web_title": "Koppelen op layla.ai",
+      "connect_on_web_message": "${source} koppelen vanuit de app komt eraan. Koppel het één keer op layla.ai en de app houdt het bij.",
+      "connect_unavailable": "Koppelen vanuit de app heeft een serverupdate nodig. Gebruik voorlopig layla.ai.",
+      "connect_failed": "Koppelen is niet gelukt. Probeer het opnieuw.",
+      "open_web": "layla.ai openen"
+    },
+    "deletion": {
+      "confirm_message": "Je chats, reizen en gegevens verdwijnen binnen 24 uur. Tot die tijd kun je nog annuleren.",
+      "confirm_button": "Ja, verwijder mijn account",
+      "requested_title": "Verwijdering aangevraagd",
+      "requested_message": "Verdwijnt binnen 24 uur. Tik om te annuleren.",
+      "requested_toast": "Verwijdering aangevraagd. Je account verdwijnt binnen 24 uur.",
+      "cancelled_toast": "Verwijdering geannuleerd. Fijn dat je blijft.",
+      "cancel_title": "Je account houden?",
+      "cancel_message": "De verwijdering wordt geannuleerd en er wordt niets gewist.",
+      "keep_account": "Mijn account houden",
+      "failed": "Dat is niet gelukt. Probeer het opnieuw."
+    }
   },
   "auth": {
     "email": "E-mail",
@@ -1188,7 +1251,27 @@
       "bookThisBus": "Boek deze bus",
       "bookThisTrain": "Boek deze trein",
       "bookThisBoat": "Boek deze boot",
-      "bookThisTransfer": "Boek deze transfer"
+      "bookThisTransfer": "Boek deze transfer",
+      "waysToTravel": "Manieren om te reizen",
+      "waysCount": {
+        "one": "${n} manier om te reizen",
+        "other": "${n} manieren om te reizen"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Bijwerken…",
+      "otherWays": "Andere opties",
+      "recommended": "Aanbevolen: ${mode}",
+      "comingSoonBody": "${mode} boeken komt binnenkort naar Layla.",
+      "noTransportationYet": "Nog geen vervoer",
+      "addTransportation": "Vervoer toevoegen",
+      "fromPrice": "vanaf ${price}",
+      "lockedBooked": "Geboekt. Wijzigingen aan deze route lopen via je reisadviseur.",
+      "modes": {
+        "privateCar": "Eigen auto",
+        "rentalCar": "Huurauto",
+        "mixed": "Gecombineerde reis",
+        "walking": "Te voet"
+      }
     },
     "restaurant": {
       "title": "Restaurant"
@@ -1960,6 +2043,26 @@
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "steps": {
+      "items": "Selectie",
+      "details": "Gegevens",
+      "pay": "Betalen",
+      "done": "Klaar"
+    },
+    "contact": {
+      "heading": "Wie boekt er?",
+      "subheading": "Hier sturen we je bevestiging en updates over je boeking naartoe.",
+      "privacy": "Je gegevens blijven bij Layla en de aanbieders die je boeking afronden."
+    },
+    "pricesChanged": {
+      "title": "De prijzen zijn veranderd",
+      "description": "Sommige prijzen in je reis zijn bijgewerkt nadat je het afrekenen opende. Ga terug naar je reis om het nieuwe totaal te zien en boek daarna opnieuw.",
+      "cta": "Bekijk de nieuwe prijzen"
+    },
+    "intentFailed": {
+      "title": "We konden de betaling niet starten",
+      "description": "De betaling is niet gelukt. Probeer het opnieuw."
     }
   },
   "trips": {
@@ -1972,6 +2075,9 @@
       "rename_title": "Reis hernoemen",
       "rename_placeholder": "Reisnaam",
       "save": "Opslaan"
+    },
+    "call_hero": {
+      "title": "Gesprek met $name"
     }
   },
   "trips_list": {
@@ -2042,13 +2148,36 @@
       "reschedule": "Verzetten",
       "cancelCall": "Gesprek annuleren",
       "done": "Klaar",
-      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je adviseur kan het ook over deze reis hebben."
+      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je adviseur kan het ook over deze reis hebben.",
+      "status": {
+        "confirmed": "Bevestigd",
+        "rescheduled": "Verzet",
+        "cancelled": "Geannuleerd"
+      },
+      "videoLink": "Videolink",
+      "joinCall": "Deelnemen",
+      "cancelledNotice": "Dit gesprek is geannuleerd. Je kunt altijd een nieuw gesprek boeken.",
+      "bookAgain": "Nieuw gesprek boeken"
     },
     "booked": {
       "pill": "Gesprek geboekt · ${date}",
       "profileLine": "Je gesprek: ${date}",
       "view": "Boeking bekijken",
       "disc": "Gesprek geboekt met ${name}"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Gesprek met ${name} over 3 uur",
+      "oneHour": "Gesprek met ${name} over 1 uur",
+      "tenMinutes": "Gesprek met ${name} over 10 minuten",
+      "threeHoursNoName": "Je gesprek met je reisadviseur is over 3 uur",
+      "oneHourNoName": "Je gesprek met je reisadviseur is over 1 uur",
+      "tenMinutesNoName": "Je gesprek met je reisadviseur is over 10 minuten",
+      "body": "${time} · ${medium}. Tik voor de details."
+    },
+    "newMessage": {
+      "title": "Layla"
     }
   }
 }
