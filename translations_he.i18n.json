@@ -144,7 +144,16 @@
       "possibleNextSteps": "צעדים אפשריים הבאים",
       "destinations_card": {
         "title": "יעדים בשבילך",
-        "subtitle": "הקישו לצפייה ולבחירה"
+        "subtitle": "הקישו לצפייה ולבחירה",
+        "feedTitle": "בחרו את היעדים שלכם",
+        "open": "פתיחה",
+        "planWith": {
+          "one": "לתכנן עם ${n} יעד",
+          "two": "לתכנן עם ${n} יעדים",
+          "many": "לתכנן עם ${n} יעדים",
+          "other": "לתכנן עם ${n} יעדים"
+        },
+        "idealFor": "אידיאלי ל-${days}"
       },
       "continueWithSelected": "המשך עם ${n} שנבחרו",
       "advisor": {
@@ -1732,7 +1741,13 @@
         "durationHrMin": "${h} ש' ${m} ד'"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "הוספת פעילות",
+        "activityBody": "בחרו סיור או חוויה לימים שלכם.",
+        "stayBody": "בחרו מלון לשהות שלכם.",
+        "chooseStop": "איזו תחנה?"
+      }
     },
     "lists": {
       "noActivitiesFound": "לא נמצאו פעילויות",
@@ -1807,6 +1822,11 @@
     "timeline_intro": {
       "more": "עוד",
       "title": "על היום הזה"
+    },
+    "edit": {
+      "failed": "לא הצלחנו לעדכן את הטיול שלך. נסו שוב.",
+      "stale": "הטיול שלך השתנה בינתיים. נסו שוב.",
+      "updating": "Layla מעדכנת את הטיול שלך…"
     }
   },
   "tripWord": "טיול",
@@ -2144,6 +2164,14 @@
     "intentFailed": {
       "title": "לא הצלחנו להתחיל את התשלום",
       "description": "התשלום לא הושלם. אפשר לנסות שוב."
+    },
+    "promo": {
+      "label": "קוד קופון",
+      "placeholder": "הזינו קוד",
+      "apply": "החלה",
+      "remove": "הסרה",
+      "invalid": "אי אפשר להחיל את הקוד הזה.",
+      "applied": "הקוד $code הוחל"
     }
   },
   "trips": {

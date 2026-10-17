@@ -144,7 +144,14 @@
       "possibleNextSteps": "Mögliche nächste Schritte",
       "destinations_card": {
         "title": "Reiseziele für dich",
-        "subtitle": "Tippe zum Ansehen und Auswählen"
+        "subtitle": "Tippe zum Ansehen und Auswählen",
+        "feedTitle": "Wähl deine Reiseziele",
+        "open": "Öffnen",
+        "planWith": {
+          "one": "Mit ${n} Reiseziel planen",
+          "other": "Mit ${n} Reisezielen planen"
+        },
+        "idealFor": "Ideal für ${days}"
       },
       "continueWithSelected": "Weiter mit ${n} ausgewählt",
       "advisor": {
@@ -1671,7 +1678,13 @@
         "durationHrMin": "${h} Std. ${m} Min."
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "Aktivität hinzufügen",
+        "activityBody": "Such dir eine Tour oder ein Erlebnis für deine Tage aus.",
+        "stayBody": "Such dir ein Hotel für deinen Aufenthalt aus.",
+        "chooseStop": "Welcher Stopp?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Keine Aktivitäten gefunden",
@@ -1744,6 +1757,11 @@
     "timeline_intro": {
       "more": "Mehr",
       "title": "Über diesen Tag"
+    },
+    "edit": {
+      "failed": "Deine Reise konnte nicht aktualisiert werden. Versuch es noch mal.",
+      "stale": "Deine Reise hat sich inzwischen geändert. Versuch es noch mal.",
+      "updating": "Layla aktualisiert deine Reise…"
     }
   },
   "tripWord": "Reise",
@@ -2063,6 +2081,14 @@
     "intentFailed": {
       "title": "Die Zahlung konnte nicht gestartet werden",
       "description": "Die Zahlung konnte nicht abgeschlossen werden. Bitte versuch's nochmal."
+    },
+    "promo": {
+      "label": "Gutscheincode",
+      "placeholder": "Code eingeben",
+      "apply": "Einlösen",
+      "remove": "Entfernen",
+      "invalid": "Dieser Code lässt sich nicht einlösen.",
+      "applied": "Code $code eingelöst"
     }
   },
   "trips": {

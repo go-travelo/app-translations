@@ -243,7 +243,14 @@
       },
       "destinations_card": {
         "title": "Destinations for you",
-        "subtitle": "Tap to watch and choose"
+        "subtitle": "Tap to watch and choose",
+        "feedTitle": "Pick your destinations",
+        "open": "Open",
+        "planWith": {
+          "one": "Plan with ${n} destination",
+          "other": "Plan with ${n} destinations"
+        },
+        "idealFor": "Ideal for ${days}"
       },
       "continueWithSelected": "Continue with ${n} selected",
       "advisor": {
@@ -1812,6 +1819,12 @@
         "durationMinShort": "${n}min",
         "durationHrShort": "${n}hr",
         "durationHrMin": "${h}hr ${m}min"
+      },
+      "add": {
+        "activityTitle": "Add an activity",
+        "activityBody": "Pick a tour or experience for your days.",
+        "stayBody": "Pick a hotel for your stay.",
+        "chooseStop": "Which stop?"
       }
     },
     "lists": {
@@ -1884,6 +1897,11 @@
     "timeline_intro": {
       "more": "More",
       "title": "About this day"
+    },
+    "edit": {
+      "failed": "Couldn't update your trip. Try again.",
+      "stale": "Your trip changed in the meantime. Try again.",
+      "updating": "Layla is updating your trip…"
     }
   },
   "tripWord": "Trip",
@@ -2235,6 +2253,14 @@
     "intentFailed": {
       "title": "We couldn't start the payment",
       "description": "Payment could not be completed. Please try again."
+    },
+    "promo": {
+      "label": "Promo code",
+      "placeholder": "Enter code",
+      "apply": "Apply",
+      "remove": "Remove",
+      "invalid": "This code can't be applied.",
+      "applied": "Code $code applied"
     }
   },
   "trips": {

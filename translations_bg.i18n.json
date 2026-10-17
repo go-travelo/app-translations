@@ -144,7 +144,14 @@
       "possibleNextSteps": "Възможни следващи стъпки",
       "destinations_card": {
         "title": "Дестинации за теб",
-        "subtitle": "Докосни, за да гледаш и избереш"
+        "subtitle": "Докосни, за да гледаш и избереш",
+        "feedTitle": "Избери дестинациите си",
+        "open": "Отвори",
+        "planWith": {
+          "one": "Планирай с ${n} дестинация",
+          "other": "Планирай с ${n} дестинации"
+        },
+        "idealFor": "Идеално за ${days}"
       },
       "continueWithSelected": "Продължи с ${n} избрани",
       "advisor": {
@@ -1671,7 +1678,13 @@
         "durationHrMin": "${h} ч ${m} мин"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "Добави активност",
+        "activityBody": "Избери тур или преживяване за дните си.",
+        "stayBody": "Избери хотел за престоя си.",
+        "chooseStop": "Коя спирка?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Няма намерени дейности",
@@ -1744,6 +1757,11 @@
     "timeline_intro": {
       "more": "Още",
       "title": "За този ден"
+    },
+    "edit": {
+      "failed": "Пътуването ти не можа да се обнови. Опитай пак.",
+      "stale": "Междувременно пътуването ти се промени. Опитай пак.",
+      "updating": "Layla обновява пътуването ти…"
     }
   },
   "tripWord": "Пътуване",
@@ -2063,6 +2081,14 @@
     "intentFailed": {
       "title": "Не успяхме да започнем плащането",
       "description": "Плащането не беше завършено. Опитай отново."
+    },
+    "promo": {
+      "label": "Промокод",
+      "placeholder": "Въведи кода",
+      "apply": "Приложи",
+      "remove": "Премахни",
+      "invalid": "Този код не може да се приложи.",
+      "applied": "Кодът $code е приложен"
     }
   },
   "trips": {

@@ -144,7 +144,14 @@
       "possibleNextSteps": "Próximos passos possíveis",
       "destinations_card": {
         "title": "Destinos para si",
-        "subtitle": "Toque para ver e escolher"
+        "subtitle": "Toque para ver e escolher",
+        "feedTitle": "Escolha seus destinos",
+        "open": "Abrir",
+        "planWith": {
+          "one": "Planejar com ${n} destino",
+          "other": "Planejar com ${n} destinos"
+        },
+        "idealFor": "Ideal para ${days}"
       },
       "continueWithSelected": "Continuar com ${n} selecionados",
       "advisor": {
@@ -1671,7 +1678,13 @@
         "durationHrMin": "${h}h ${m}min"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "Adicionar uma atividade",
+        "activityBody": "Escolha um passeio ou experiência para os seus dias.",
+        "stayBody": "Escolha um hotel para a sua estadia.",
+        "chooseStop": "Qual parada?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Nenhuma atividade encontrada",
@@ -1744,6 +1757,11 @@
     "timeline_intro": {
       "more": "Mais",
       "title": "Sobre este dia"
+    },
+    "edit": {
+      "failed": "Não foi possível atualizar sua viagem. Tente de novo.",
+      "stale": "Sua viagem mudou nesse meio-tempo. Tente de novo.",
+      "updating": "Layla está atualizando sua viagem…"
     }
   },
   "tripWord": "Viagem",
@@ -2063,6 +2081,14 @@
     "intentFailed": {
       "title": "Não conseguimos iniciar o pagamento",
       "description": "O pagamento não foi concluído. Tente de novo."
+    },
+    "promo": {
+      "label": "Código promocional",
+      "placeholder": "Digite o código",
+      "apply": "Aplicar",
+      "remove": "Remover",
+      "invalid": "Este código não pode ser aplicado.",
+      "applied": "Código $code aplicado"
     }
   },
   "trips": {

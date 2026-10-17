@@ -144,7 +144,14 @@
       "possibleNextSteps": "Mogelijke volgende stappen",
       "destinations_card": {
         "title": "Bestemmingen voor jou",
-        "subtitle": "Tik om te kijken en te kiezen"
+        "subtitle": "Tik om te kijken en te kiezen",
+        "feedTitle": "Kies je bestemmingen",
+        "open": "Openen",
+        "planWith": {
+          "one": "Plan met ${n} bestemming",
+          "other": "Plan met ${n} bestemmingen"
+        },
+        "idealFor": "Ideaal voor ${days}"
       },
       "continueWithSelected": "Doorgaan met ${n} geselecteerd",
       "advisor": {
@@ -1671,7 +1678,13 @@
         "durationHrMin": "${h} u ${m} min"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "Activiteit toevoegen",
+        "activityBody": "Kies een tour of ervaring voor je dagen.",
+        "stayBody": "Kies een hotel voor je verblijf.",
+        "chooseStop": "Welke stop?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Geen activiteiten gevonden",
@@ -1744,6 +1757,11 @@
     "timeline_intro": {
       "more": "Meer",
       "title": "Over deze dag"
+    },
+    "edit": {
+      "failed": "Je reis kon niet worden bijgewerkt. Probeer het opnieuw.",
+      "stale": "Je reis is ondertussen veranderd. Probeer het opnieuw.",
+      "updating": "Layla werkt je reis bij…"
     }
   },
   "tripWord": "Reis",
@@ -2063,6 +2081,14 @@
     "intentFailed": {
       "title": "We konden de betaling niet starten",
       "description": "De betaling is niet gelukt. Probeer het opnieuw."
+    },
+    "promo": {
+      "label": "Kortingscode",
+      "placeholder": "Vul je code in",
+      "apply": "Toepassen",
+      "remove": "Verwijderen",
+      "invalid": "Deze code kan niet worden toegepast.",
+      "applied": "Code $code toegepast"
     }
   },
   "trips": {

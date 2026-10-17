@@ -144,7 +144,18 @@
       "possibleNextSteps": "الخطوات المحتملة التالية",
       "destinations_card": {
         "title": "وجهات مقترحة لك",
-        "subtitle": "اضغط للمشاهدة والاختيار"
+        "subtitle": "اضغط للمشاهدة والاختيار",
+        "feedTitle": "اختر وجهاتك",
+        "open": "فتح",
+        "planWith": {
+          "zero": "خطّط مع ${n} وجهة",
+          "one": "خطّط مع ${n} وجهة",
+          "two": "خطّط مع وجهتين",
+          "few": "خطّط مع ${n} وجهات",
+          "many": "خطّط مع ${n} وجهة",
+          "other": "خطّط مع ${n} وجهة"
+        },
+        "idealFor": "مثالي لمدة ${days}"
       },
       "continueWithSelected": "متابعة مع ${n} محدد",
       "advisor": {
@@ -1794,7 +1805,13 @@
         "durationHrMin": "${h} س ${m} د"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "أضف نشاطًا",
+        "activityBody": "اختر جولة أو تجربة لأيامك.",
+        "stayBody": "اختر فندقًا لإقامتك.",
+        "chooseStop": "أي محطة؟"
+      }
     },
     "lists": {
       "noActivitiesFound": "لم يتم العثور على أنشطة",
@@ -1871,6 +1888,11 @@
     "timeline_intro": {
       "more": "المزيد",
       "title": "عن هذا اليوم"
+    },
+    "edit": {
+      "failed": "تعذّر تحديث رحلتك. حاول مرة أخرى.",
+      "stale": "تغيّرت رحلتك في هذه الأثناء. حاول مرة أخرى.",
+      "updating": "Layla تحدّث رحلتك…"
     }
   },
   "tripWord": "رحلة",
@@ -2226,6 +2248,14 @@
     "intentFailed": {
       "title": "تعذّر بدء عملية الدفع",
       "description": "لم يكتمل الدفع. حاول مرة أخرى."
+    },
+    "promo": {
+      "label": "رمز الخصم",
+      "placeholder": "أدخل الرمز",
+      "apply": "تطبيق",
+      "remove": "إزالة",
+      "invalid": "لا يمكن تطبيق هذا الرمز.",
+      "applied": "تم تطبيق الرمز $code"
     }
   },
   "trips": {

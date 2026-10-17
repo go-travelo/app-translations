@@ -144,7 +144,13 @@
       "possibleNextSteps": "可能的下一步",
       "destinations_card": {
         "title": "为您推荐的目的地",
-        "subtitle": "点按观看并选择"
+        "subtitle": "点按观看并选择",
+        "feedTitle": "选择你的目的地",
+        "open": "打开",
+        "planWith": {
+          "other": "用 ${n} 个目的地规划"
+        },
+        "idealFor": "适合${days}"
       },
       "continueWithSelected": "继续，已选择 ${n} 项",
       "advisor": {
@@ -1645,7 +1651,13 @@
         "durationHrMin": "${h}小时${m}分钟"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "添加活动",
+        "activityBody": "为你的行程挑选一个游览或体验。",
+        "stayBody": "为你的住宿挑选一家酒店。",
+        "chooseStop": "选择哪一站？"
+      }
     },
     "lists": {
       "noActivitiesFound": "未找到活动",
@@ -1717,6 +1729,11 @@
     "timeline_intro": {
       "more": "更多",
       "title": "关于这一天"
+    },
+    "edit": {
+      "failed": "无法更新你的行程，请重试。",
+      "stale": "你的行程刚刚有变动，请重试。",
+      "updating": "Layla 正在更新你的行程…"
     }
   },
   "tripWord": "旅行",
@@ -2027,6 +2044,14 @@
     "intentFailed": {
       "title": "无法开始付款",
       "description": "支付未能完成。请再试一次。"
+    },
+    "promo": {
+      "label": "优惠码",
+      "placeholder": "输入优惠码",
+      "apply": "使用",
+      "remove": "移除",
+      "invalid": "此优惠码无法使用。",
+      "applied": "已使用优惠码 $code"
     }
   },
   "trips": {

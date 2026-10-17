@@ -144,7 +144,14 @@
       "possibleNextSteps": "Prochaines étapes possibles",
       "destinations_card": {
         "title": "Des destinations pour vous",
-        "subtitle": "Touchez pour regarder et choisir"
+        "subtitle": "Touchez pour regarder et choisir",
+        "feedTitle": "Choisis tes destinations",
+        "open": "Ouvrir",
+        "planWith": {
+          "one": "Planifier avec ${n} destination",
+          "other": "Planifier avec ${n} destinations"
+        },
+        "idealFor": "Idéal pour ${days}"
       },
       "continueWithSelected": "Continuer avec ${n} sélectionné(s)",
       "advisor": {
@@ -1671,7 +1678,13 @@
         "durationHrMin": "${h} h ${m} min"
       },
       "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "ratingOutOfFive": "${rating}/5",
+      "add": {
+        "activityTitle": "Ajouter une activité",
+        "activityBody": "Choisis une visite ou une expérience pour tes journées.",
+        "stayBody": "Choisis un hôtel pour ton séjour.",
+        "chooseStop": "Quelle étape ?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Aucune activité trouvée",
@@ -1744,6 +1757,11 @@
     "timeline_intro": {
       "more": "Plus",
       "title": "À propos de cette journée"
+    },
+    "edit": {
+      "failed": "Impossible de mettre à jour ton voyage. Réessaie.",
+      "stale": "Ton voyage a changé entre-temps. Réessaie.",
+      "updating": "Layla met à jour ton voyage…"
     }
   },
   "tripWord": "Voyage",
@@ -2063,6 +2081,14 @@
     "intentFailed": {
       "title": "Impossible de lancer le paiement",
       "description": "Le paiement n'a pas pu être effectué. Essaie encore."
+    },
+    "promo": {
+      "label": "Code promo",
+      "placeholder": "Saisis ton code",
+      "apply": "Appliquer",
+      "remove": "Retirer",
+      "invalid": "Ce code ne peut pas être appliqué.",
+      "applied": "Code $code appliqué"
     }
   },
   "trips": {
