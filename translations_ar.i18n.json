@@ -925,6 +925,22 @@
       "cancel_message": "سيُلغى الحذف ولن يُمسح أي شيء.",
       "keep_account": "الاحتفاظ بحسابي",
       "failed": "لم ينجح ذلك. جرّب مرة أخرى."
+    },
+    "download_data": {
+      "title": "تنزيل بياناتي",
+      "error": "تعذّر تجهيز بياناتك. حاول مرة أخرى."
+    },
+    "bookings": {
+      "title": "حجوزاتك",
+      "count": {
+        "one": "حجز واحد",
+        "other": "${n} حجوزات"
+      },
+      "status_paid": "مدفوع",
+      "status_processing": "قيد المعالجة",
+      "status_cancelled": "ملغي",
+      "status_booked": "تم الحجز",
+      "status_in_progress": "جارٍ التنفيذ"
     }
   },
   "auth": {

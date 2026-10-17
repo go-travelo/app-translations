@@ -868,6 +868,22 @@
       "cancel_message": "删除已取消，不会清除任何内容。",
       "keep_account": "保留我的账号",
       "failed": "没有成功，请再试一次。"
+    },
+    "download_data": {
+      "title": "下载我的数据",
+      "error": "暂时无法准备你的数据，请稍后再试。"
+    },
+    "bookings": {
+      "title": "你的预订",
+      "count": {
+        "one": "${n} 个预订",
+        "other": "${n} 个预订"
+      },
+      "status_paid": "已付款",
+      "status_processing": "处理中",
+      "status_cancelled": "已取消",
+      "status_booked": "已预订",
+      "status_in_progress": "进行中"
     }
   },
   "auth": {

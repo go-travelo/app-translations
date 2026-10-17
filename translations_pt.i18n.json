@@ -878,6 +878,22 @@
       "cancel_message": "A exclusão é cancelada e nada é apagado.",
       "keep_account": "Manter minha conta",
       "failed": "Não funcionou. Tente de novo."
+    },
+    "download_data": {
+      "title": "Baixar meus dados",
+      "error": "Não conseguimos preparar seus dados. Tente de novo."
+    },
+    "bookings": {
+      "title": "Suas reservas",
+      "count": {
+        "one": "${n} reserva",
+        "other": "${n} reservas"
+      },
+      "status_paid": "Paga",
+      "status_processing": "Em processamento",
+      "status_cancelled": "Cancelada",
+      "status_booked": "Confirmada",
+      "status_in_progress": "Em andamento"
     }
   },
   "auth": {

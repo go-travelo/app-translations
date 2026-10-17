@@ -878,6 +878,22 @@
       "cancel_message": "Die Löschung wird abgebrochen und nichts entfernt.",
       "keep_account": "Konto behalten",
       "failed": "Das hat nicht geklappt. Versuch es noch mal."
+    },
+    "download_data": {
+      "title": "Meine Daten herunterladen",
+      "error": "Deine Daten konnten nicht vorbereitet werden. Bitte versuch es noch mal."
+    },
+    "bookings": {
+      "title": "Deine Buchungen",
+      "count": {
+        "one": "${n} Buchung",
+        "other": "${n} Buchungen"
+      },
+      "status_paid": "Bezahlt",
+      "status_processing": "In Bearbeitung",
+      "status_cancelled": "Storniert",
+      "status_booked": "Gebucht",
+      "status_in_progress": "Läuft"
     }
   },
   "auth": {

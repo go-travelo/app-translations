@@ -878,6 +878,22 @@
       "cancel_message": "De verwijdering wordt geannuleerd en er wordt niets gewist.",
       "keep_account": "Mijn account houden",
       "failed": "Dat is niet gelukt. Probeer het opnieuw."
+    },
+    "download_data": {
+      "title": "Mijn gegevens downloaden",
+      "error": "We konden je gegevens niet klaarzetten. Probeer het opnieuw."
+    },
+    "bookings": {
+      "title": "Je boekingen",
+      "count": {
+        "one": "${n} boeking",
+        "other": "${n} boekingen"
+      },
+      "status_paid": "Betaald",
+      "status_processing": "In behandeling",
+      "status_cancelled": "Geannuleerd",
+      "status_booked": "Geboekt",
+      "status_in_progress": "Bezig"
     }
   },
   "auth": {

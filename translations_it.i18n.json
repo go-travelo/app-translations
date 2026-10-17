@@ -878,6 +878,22 @@
       "cancel_message": "L'eliminazione viene annullata e non si cancella nulla.",
       "keep_account": "Tieni il mio account",
       "failed": "Non ha funzionato. Riprova."
+    },
+    "download_data": {
+      "title": "Scarica i miei dati",
+      "error": "Non siamo riusciti a preparare i tuoi dati. Riprova."
+    },
+    "bookings": {
+      "title": "Le tue prenotazioni",
+      "count": {
+        "one": "${n} prenotazione",
+        "other": "${n} prenotazioni"
+      },
+      "status_paid": "Pagata",
+      "status_processing": "In elaborazione",
+      "status_cancelled": "Annullata",
+      "status_booked": "Confermata",
+      "status_in_progress": "In corso"
     }
   },
   "auth": {

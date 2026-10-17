@@ -902,6 +902,22 @@
       "cancel_message": "המחיקה מבוטלת ושום דבר לא נמחק.",
       "keep_account": "לשמור על החשבון שלי",
       "failed": "זה לא עבד. נסה שוב."
+    },
+    "download_data": {
+      "title": "הורדת הנתונים שלי",
+      "error": "לא הצלחנו להכין את הנתונים שלך. כדאי לנסות שוב."
+    },
+    "bookings": {
+      "title": "ההזמנות שלך",
+      "count": {
+        "one": "הזמנה אחת",
+        "other": "${n} הזמנות"
+      },
+      "status_paid": "שולם",
+      "status_processing": "בטיפול",
+      "status_cancelled": "בוטל",
+      "status_booked": "הוזמן",
+      "status_in_progress": "בתהליך"
     }
   },
   "auth": {

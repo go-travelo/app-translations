@@ -977,6 +977,22 @@
       "cancel_message": "The deletion is cancelled and nothing is removed.",
       "keep_account": "Keep my account",
       "failed": "That did not work. Try again."
+    },
+    "download_data": {
+      "title": "Download my data",
+      "error": "We couldn't prepare your data. Please try again."
+    },
+    "bookings": {
+      "title": "Your bookings",
+      "count": {
+        "one": "${n} booking",
+        "other": "${n} bookings"
+      },
+      "status_paid": "Paid",
+      "status_processing": "Processing",
+      "status_cancelled": "Cancelled",
+      "status_booked": "Booked",
+      "status_in_progress": "In progress"
     }
   },
   "auth": {
