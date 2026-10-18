@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "ספריית התמונות",
-        "files": "קבצים"
+        "files": "קבצים",
+        "camera": "מצלמה",
+        "title": "הוספה לצ'אט"
       },
       "possibleNextSteps": "צעדים אפשריים הבאים",
       "destinations_card": {
@@ -147,6 +149,14 @@
         "subtitle": "הקישו לצפייה ולבחירה",
         "feedTitle": "בחרו את היעדים שלכם",
         "open": "פתיחה",
+        "add": "הוספה",
+        "added": "נוסף",
+        "selectedCount": {
+          "one": "נבחר ${n}",
+          "two": "נבחרו ${n}",
+          "many": "נבחרו ${n}",
+          "other": "נבחרו ${n}"
+        },
         "planWith": {
           "one": "לתכנן עם ${n} יעד",
           "two": "לתכנן עם ${n} יעדים",
@@ -918,6 +928,217 @@
       "status_cancelled": "בוטל",
       "status_booked": "הוזמן",
       "status_in_progress": "בתהליך"
+    },
+    "travel": {
+      "title": "פרופיל הטיולים שלך",
+      "completeness": "${percent}% הושלם",
+      "complete": "הפרופיל מלא",
+      "hint_dials": "כוונו את סגנון הטיול שלכם בחמש החלקות מהירות.",
+      "hint_interests": "בחרו לפחות חמישה תחומי עניין.",
+      "hint_about": "ענו על עוד כמה כרטיסים.",
+      "style_title": "סגנון הטיול שלך",
+      "style_hint": "הזיזו כל מחוון למקום שבו אתם באמת. Layla מכוונת לפי זה כל תוכנית.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "בקרים רגועים",
+          "right": "קמים עם השחר"
+        },
+        "socialBattery": {
+          "left": "בקוקון שלי",
+          "right": "נשמת המסיבה"
+        },
+        "planningStyle": {
+          "left": "זורמים",
+          "right": "הכול מתוכנן"
+        },
+        "diningStyle": {
+          "left": "אוכל רחוב",
+          "right": "מפה לבנה"
+        },
+        "settingVibe": {
+          "left": "פראי ומרוחק",
+          "right": "אורות העיר"
+        }
+      },
+      "interests": {
+        "title": "מה מעניין אתכם",
+        "hint": "בחרו מה שאתם אוהבים. Layla מעצבת לפי זה כל תוכנית.",
+        "add": "הוספת תחומי עניין",
+        "search": "חיפוש תחומי עניין",
+        "add_custom": "הוספת ״${text}״",
+        "selected": {
+          "one": "נבחר ${n}",
+          "two": "נבחרו ${n}",
+          "many": "נבחרו ${n}",
+          "other": "נבחרו ${n}"
+        },
+        "item(map)": {
+          "architecture": "אדריכלות",
+          "art": "אמנות",
+          "camping": "קמפינג",
+          "cocktails": "קוקטיילים",
+          "coffee": "קפה",
+          "cooking": "בישול",
+          "culturalHeritage": "מורשת תרבותית",
+          "cycling": "רכיבה על אופניים",
+          "design": "עיצוב",
+          "diving": "צלילה",
+          "fashion": "אופנה",
+          "fitness": "כושר",
+          "foodScenes": "סצנת אוכל",
+          "hiking": "טרקים",
+          "history": "היסטוריה",
+          "liveMusic": "מוזיקה חיה",
+          "localCulture": "תרבות מקומית",
+          "museums": "מוזיאונים",
+          "nightlife": "חיי לילה",
+          "outdoors": "שטח",
+          "photography": "צילום",
+          "sailing": "שיט",
+          "shopping": "קניות",
+          "skiing": "סקי",
+          "snorkeling": "שנורקל",
+          "spa": "ספא",
+          "surfing": "גלישה",
+          "sustainability": "קיימות",
+          "wine": "יין",
+          "yoga": "יוגה"
+        }
+      },
+      "about": {
+        "title": "ספרו לנו עליכם",
+        "hint": "מספיקות כמה מילים. דלגו על מה שתרצו; כל תשובה מחדדת את התוכניות.",
+        "answer": "לענות",
+        "write_own": "או כתבו משלכם…",
+        "languages_hint": "הפרידו בין שפות בפסיקים.",
+        "card(map)": {
+          "cantSleepWithout": "לא נרדמים בלי",
+          "neverCompromise": "לא מתפשרים לעולם על",
+          "travelWith": "בדרך כלל מטיילים עם",
+          "bornDecade": "העשור שבו נולדתי",
+          "specialNeeds": "צרכים מיוחדים",
+          "idealHotel": "המלון האידיאלי שלי ב-3 מילים",
+          "workTrips": "בנסיעות עבודה אני צריך/ה",
+          "dreamDestination": "לאן תמיד רציתי להגיע",
+          "pets": "חיות מחמד",
+          "languages": "שפות שאני מדבר/ת",
+          "dietaryNeeds": "צרכים תזונתיים"
+        },
+        "option(map)": {
+          "location": "מיקום",
+          "price": "מחיר",
+          "comfort": "נוחות",
+          "quiet": "שקט",
+          "space": "מרחב",
+          "other": "אחר",
+          "solo": "לבד",
+          "partner": "בן/בת הזוג",
+          "familyKids": "משפחה עם ילדים",
+          "friends": "חברים"
+        }
+      },
+      "hero": {
+        "headline_hint": "הוסיפו שורה על איך אתם מטיילים",
+        "location_hint": "איפה אתם גרים?",
+        "edit_intro": "עריכת הפתיח",
+        "headline": "כותרת",
+        "location": "עיר מגורים",
+        "stat_trips": "טיולים",
+        "stat_countries": "מדינות"
+      },
+      "places": {
+        "title": "איפה כבר הייתם",
+        "countries": {
+          "one": "מדינה אחת",
+          "two": "${n} מדינות",
+          "many": "${n} מדינות",
+          "other": "${n} מדינות"
+        },
+        "empty": "טיולים מתיבת המייל שלכם וטיולים שתוסיפו בעצמכם יופיעו כאן.",
+        "timeline": "ציר זמן",
+        "add": "הוספת טיול",
+        "add_title": "הוספת שהייה",
+        "city": "עיר",
+        "country": "מדינה (לא חובה)",
+        "hotel": "מלון (לא חובה)",
+        "start": "תאריך התחלה",
+        "end": "תאריך סיום (לא חובה)",
+        "pick": "בחירת תאריך",
+        "save": "שמירת הטיול",
+        "error": "לא הצלחנו לשמור את הטיול. נסו שוב.",
+        "unknown": "איפשהו",
+        "booking_type(map)": {
+          "flight": "טיסה",
+          "hotel": "מלון",
+          "train": "רכבת",
+          "car": "רכב",
+          "activity": "פעילות",
+          "cruise": "שייט",
+          "other": "הזמנה"
+        }
+      },
+      "details": {
+        "title": "פרטי הנוסע",
+        "hint": "ממלא מראש את ההזמנות ואת השיחות עם היועץ.",
+        "name": "שם",
+        "email": "אימייל",
+        "phone": "טלפון",
+        "phone_hint": "הוספת מספר טלפון"
+      },
+      "temperature": {
+        "title": "טמפרטורה",
+        "celsius": "צלזיוס (°C)",
+        "fahrenheit": "פרנהייט (°F)"
+      },
+      "up_next": "הבא בתור",
+      "style": {
+        "prompt": "כוונו את סגנון הטיול · ${n} מתוך ${total}",
+        "balanced": "מטייל מאוזן",
+        "pole(map)": {
+          "morningPace": {
+            "low": "בקרים רגועים",
+            "high": "יציאה מוקדמת"
+          },
+          "socialBattery": {
+            "low": "זמן שקט",
+            "high": "ימים חברתיים"
+          },
+          "planningStyle": {
+            "low": "ספונטניות",
+            "high": "הכול מתוכנן"
+          },
+          "diningStyle": {
+            "low": "אוכל רחוב",
+            "high": "מסעדות יוקרה"
+          },
+          "settingVibe": {
+            "low": "הרחק מההמון",
+            "high": "אורות העיר"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "מטייל רגוע",
+            "high": "משכים קום"
+          },
+          "socialBattery": {
+            "low": "מטייל שקט",
+            "high": "מטייל חברותי"
+          },
+          "planningStyle": {
+            "low": "רוח חופשית",
+            "high": "מתכנן"
+          },
+          "diningStyle": {
+            "low": "חובב אוכל רחוב",
+            "high": "גורמה"
+          },
+          "settingVibe": {
+            "low": "מגלה",
+            "high": "אוהב ערים"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2192,6 +2413,9 @@
       "remove": "הסרה",
       "invalid": "אי אפשר להחיל את הקוד הזה.",
       "applied": "הקוד $code הוחל"
+    },
+    "cta": {
+      "refreshing": "מעדכנים מחירים…"
     }
   },
   "trips": {

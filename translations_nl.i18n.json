@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "Fotobibliotheek",
-        "files": "Bestanden"
+        "files": "Bestanden",
+        "camera": "Camera",
+        "title": "Toevoegen aan chat"
       },
       "possibleNextSteps": "Mogelijke volgende stappen",
       "destinations_card": {
@@ -147,6 +149,12 @@
         "subtitle": "Tik om te kijken en te kiezen",
         "feedTitle": "Kies je bestemmingen",
         "open": "Openen",
+        "add": "Toevoegen",
+        "added": "Toegevoegd",
+        "selectedCount": {
+          "one": "${n} geselecteerd",
+          "other": "${n} geselecteerd"
+        },
         "planWith": {
           "one": "Plan met ${n} bestemming",
           "other": "Plan met ${n} bestemmingen"
@@ -894,6 +902,213 @@
       "status_cancelled": "Geannuleerd",
       "status_booked": "Geboekt",
       "status_in_progress": "Bezig"
+    },
+    "travel": {
+      "title": "Jouw reisprofiel",
+      "completeness": "${percent}% compleet",
+      "complete": "Profiel compleet",
+      "hint_dials": "Stel je reisstijl in met vijf snelle schuifjes.",
+      "hint_interests": "Kies minstens vijf interesses.",
+      "hint_about": "Beantwoord nog een paar kaartjes.",
+      "style_title": "Jouw reisstijl",
+      "style_hint": "Schuif elke knop naar waar je echt zit. Layla stemt elk plan erop af.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "Rustige ochtenden",
+          "right": "Vroege vogel"
+        },
+        "socialBattery": {
+          "left": "Lekker op mezelf",
+          "right": "Feestbeest"
+        },
+        "planningStyle": {
+          "left": "Zien we wel",
+          "right": "Alles gepland"
+        },
+        "diningStyle": {
+          "left": "Streetfood",
+          "right": "Wit tafellaken"
+        },
+        "settingVibe": {
+          "left": "Wild & afgelegen",
+          "right": "Stadslichten"
+        }
+      },
+      "interests": {
+        "title": "Waar je van houdt",
+        "hint": "Kies wat je leuk vindt. Layla vormt er elk plan mee.",
+        "add": "Interesses toevoegen",
+        "search": "Interesses zoeken",
+        "add_custom": "‘${text}’ toevoegen",
+        "selected": {
+          "one": "${n} gekozen",
+          "other": "${n} gekozen"
+        },
+        "item(map)": {
+          "architecture": "Architectuur",
+          "art": "Kunst",
+          "camping": "Kamperen",
+          "cocktails": "Cocktails",
+          "coffee": "Koffie",
+          "cooking": "Koken",
+          "culturalHeritage": "Cultureel erfgoed",
+          "cycling": "Fietsen",
+          "design": "Design",
+          "diving": "Duiken",
+          "fashion": "Mode",
+          "fitness": "Fitness",
+          "foodScenes": "Foodscene",
+          "hiking": "Wandelen",
+          "history": "Geschiedenis",
+          "liveMusic": "Livemuziek",
+          "localCulture": "Lokale cultuur",
+          "museums": "Musea",
+          "nightlife": "Nachtleven",
+          "outdoors": "Buitenleven",
+          "photography": "Fotografie",
+          "sailing": "Zeilen",
+          "shopping": "Shoppen",
+          "skiing": "Skiën",
+          "snorkeling": "Snorkelen",
+          "spa": "Spa",
+          "surfing": "Surfen",
+          "sustainability": "Duurzaamheid",
+          "wine": "Wijn",
+          "yoga": "Yoga"
+        }
+      },
+      "about": {
+        "title": "Vertel iets over jezelf",
+        "hint": "Een paar woorden is genoeg. Sla over wat je wilt; elk antwoord scherpt je plannen aan.",
+        "answer": "Beantwoorden",
+        "write_own": "Of schrijf je eigen antwoord…",
+        "languages_hint": "Scheid talen met een komma.",
+        "card(map)": {
+          "cantSleepWithout": "Ik kan niet slapen zonder",
+          "neverCompromise": "Hier doe ik nooit concessies aan",
+          "travelWith": "Ik reis meestal met",
+          "bornDecade": "Decennium waarin ik geboren ben",
+          "specialNeeds": "Speciale behoeften",
+          "idealHotel": "Mijn ideale hotel in 3 woorden",
+          "workTrips": "Op zakenreis heb ik nodig",
+          "dreamDestination": "Waar ik altijd al heen wilde",
+          "pets": "Huisdieren",
+          "languages": "Talen die ik spreek",
+          "dietaryNeeds": "Dieetwensen"
+        },
+        "option(map)": {
+          "location": "Locatie",
+          "price": "Prijs",
+          "comfort": "Comfort",
+          "quiet": "Rust",
+          "space": "Ruimte",
+          "other": "Anders",
+          "solo": "Alleen",
+          "partner": "Mijn partner",
+          "familyKids": "Gezin met kinderen",
+          "friends": "Vrienden"
+        }
+      },
+      "hero": {
+        "headline_hint": "Voeg een regel toe over hoe je reist",
+        "location_hint": "Waar woon je?",
+        "edit_intro": "Intro bewerken",
+        "headline": "Kopregel",
+        "location": "Woonplaats",
+        "stat_trips": "reizen",
+        "stat_countries": "landen"
+      },
+      "places": {
+        "title": "Waar je bent geweest",
+        "countries": {
+          "one": "${n} land",
+          "other": "${n} landen"
+        },
+        "empty": "Reizen uit je mailbox en de reizen die je zelf toevoegt komen hier terecht.",
+        "timeline": "Tijdlijn",
+        "add": "Reis toevoegen",
+        "add_title": "Verblijf toevoegen",
+        "city": "Stad",
+        "country": "Land (optioneel)",
+        "hotel": "Hotel (optioneel)",
+        "start": "Begindatum",
+        "end": "Einddatum (optioneel)",
+        "pick": "Kies een datum",
+        "save": "Reis opslaan",
+        "error": "De reis kon niet worden opgeslagen. Probeer het opnieuw.",
+        "unknown": "Ergens",
+        "booking_type(map)": {
+          "flight": "Vlucht",
+          "hotel": "Hotel",
+          "train": "Trein",
+          "car": "Auto",
+          "activity": "Activiteit",
+          "cruise": "Cruise",
+          "other": "Boeking"
+        }
+      },
+      "details": {
+        "title": "Reizigersgegevens",
+        "hint": "Vult je boekingen en adviesgesprekken vooraf in.",
+        "name": "Naam",
+        "email": "E-mail",
+        "phone": "Telefoon",
+        "phone_hint": "Telefoonnummer toevoegen"
+      },
+      "temperature": {
+        "title": "Temperatuur",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "up_next": "Hierna",
+      "style": {
+        "prompt": "Stel je reisstijl in · ${n} van ${total}",
+        "balanced": "Evenwichtige ontdekker",
+        "pole(map)": {
+          "morningPace": {
+            "low": "rustige ochtenden",
+            "high": "vroeg op pad"
+          },
+          "socialBattery": {
+            "low": "rustmomenten",
+            "high": "sociale dagen"
+          },
+          "planningStyle": {
+            "low": "spontaan",
+            "high": "alles gepland"
+          },
+          "diningStyle": {
+            "low": "streetfood",
+            "high": "fine dining"
+          },
+          "settingVibe": {
+            "low": "buiten de gebaande paden",
+            "high": "stadslichten"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "Rustige reiziger",
+            "high": "Vroege vogel"
+          },
+          "socialBattery": {
+            "low": "Stille reiziger",
+            "high": "Sociale reiziger"
+          },
+          "planningStyle": {
+            "low": "Vrije geest",
+            "high": "Planner"
+          },
+          "diningStyle": {
+            "low": "Streetfoodfan",
+            "high": "Fijnproever"
+          },
+          "settingVibe": {
+            "low": "Ontdekker",
+            "high": "Stadsmens"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2109,6 +2324,9 @@
       "remove": "Verwijderen",
       "invalid": "Deze code kan niet worden toegepast.",
       "applied": "Code $code toegepast"
+    },
+    "cta": {
+      "refreshing": "Prijzen bijwerken…"
     }
   },
   "trips": {

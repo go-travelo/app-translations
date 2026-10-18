@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "Photothèque",
-        "files": "Fichiers"
+        "files": "Fichiers",
+        "camera": "Appareil photo",
+        "title": "Ajouter au chat"
       },
       "possibleNextSteps": "Prochaines étapes possibles",
       "destinations_card": {
@@ -147,6 +149,12 @@
         "subtitle": "Touchez pour regarder et choisir",
         "feedTitle": "Choisis tes destinations",
         "open": "Ouvrir",
+        "add": "Ajouter",
+        "added": "Ajoutée",
+        "selectedCount": {
+          "one": "${n} sélectionnée",
+          "other": "${n} sélectionnées"
+        },
         "planWith": {
           "one": "Planifier avec ${n} destination",
           "other": "Planifier avec ${n} destinations"
@@ -894,6 +902,213 @@
       "status_cancelled": "Annulée",
       "status_booked": "Confirmée",
       "status_in_progress": "En cours"
+    },
+    "travel": {
+      "title": "Ton profil voyageur",
+      "completeness": "${percent} % complété",
+      "complete": "Profil complet",
+      "hint_dials": "Règle ton style de voyage en cinq glissements.",
+      "hint_interests": "Choisis au moins cinq centres d'intérêt.",
+      "hint_about": "Réponds à quelques cartes de plus.",
+      "style_title": "Ton style de voyage",
+      "style_hint": "Place chaque curseur là où tu te situes vraiment. Layla adapte chaque plan en conséquence.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "Grasse matinée",
+          "right": "Debout à l'aube"
+        },
+        "socialBattery": {
+          "left": "Cocon",
+          "right": "Papillon social"
+        },
+        "planningStyle": {
+          "left": "À l'improviste",
+          "right": "Tout planifié"
+        },
+        "diningStyle": {
+          "left": "Street food",
+          "right": "Nappe blanche"
+        },
+        "settingVibe": {
+          "left": "Sauvage & isolé",
+          "right": "Lumières de la ville"
+        }
+      },
+      "interests": {
+        "title": "Ce que tu aimes",
+        "hint": "Choisis ce qui te plaît. Layla façonne chaque plan avec.",
+        "add": "Ajouter des centres d'intérêt",
+        "search": "Chercher un centre d'intérêt",
+        "add_custom": "Ajouter « ${text} »",
+        "selected": {
+          "one": "${n} sélectionné",
+          "other": "${n} sélectionnés"
+        },
+        "item(map)": {
+          "architecture": "Architecture",
+          "art": "Art",
+          "camping": "Camping",
+          "cocktails": "Cocktails",
+          "coffee": "Café",
+          "cooking": "Cuisine",
+          "culturalHeritage": "Patrimoine culturel",
+          "cycling": "Vélo",
+          "design": "Design",
+          "diving": "Plongée",
+          "fashion": "Mode",
+          "fitness": "Fitness",
+          "foodScenes": "Scènes food",
+          "hiking": "Randonnée",
+          "history": "Histoire",
+          "liveMusic": "Concerts",
+          "localCulture": "Culture locale",
+          "museums": "Musées",
+          "nightlife": "Vie nocturne",
+          "outdoors": "Plein air",
+          "photography": "Photographie",
+          "sailing": "Voile",
+          "shopping": "Shopping",
+          "skiing": "Ski",
+          "snorkeling": "Snorkeling",
+          "spa": "Spa",
+          "surfing": "Surf",
+          "sustainability": "Écoresponsabilité",
+          "wine": "Vin",
+          "yoga": "Yoga"
+        }
+      },
+      "about": {
+        "title": "Parle-nous de toi",
+        "hint": "Quelques mots suffisent. Passe ce que tu veux ; chaque réponse affine tes plans.",
+        "answer": "Répondre",
+        "write_own": "Ou écris ta propre réponse…",
+        "languages_hint": "Sépare les langues par des virgules.",
+        "card(map)": {
+          "cantSleepWithout": "Je ne peux pas dormir sans",
+          "neverCompromise": "Je ne transige jamais sur",
+          "travelWith": "Je voyage le plus souvent avec",
+          "bornDecade": "Ma décennie de naissance",
+          "specialNeeds": "Besoins particuliers",
+          "idealHotel": "Mon hôtel idéal en 3 mots",
+          "workTrips": "En déplacement pro, il me faut",
+          "dreamDestination": "Là où j'ai toujours voulu aller",
+          "pets": "Animaux",
+          "languages": "Langues que je parle",
+          "dietaryNeeds": "Régime alimentaire"
+        },
+        "option(map)": {
+          "location": "L'emplacement",
+          "price": "Le prix",
+          "comfort": "Le confort",
+          "quiet": "Le calme",
+          "space": "L'espace",
+          "other": "Autre",
+          "solo": "Seul·e",
+          "partner": "Mon ou ma partenaire",
+          "familyKids": "En famille avec enfants",
+          "friends": "Des amis"
+        }
+      },
+      "hero": {
+        "headline_hint": "Ajoute une ligne sur ta façon de voyager",
+        "location_hint": "Où habites-tu ?",
+        "edit_intro": "Modifier l'intro",
+        "headline": "Accroche",
+        "location": "Ville",
+        "stat_trips": "voyages",
+        "stat_countries": "pays"
+      },
+      "places": {
+        "title": "Où tu es déjà allé·e",
+        "countries": {
+          "one": "${n} pays",
+          "other": "${n} pays"
+        },
+        "empty": "Les voyages de ta boîte mail et ceux que tu ajoutes apparaissent ici.",
+        "timeline": "Chronologie",
+        "add": "Ajouter un voyage",
+        "add_title": "Ajouter un séjour",
+        "city": "Ville",
+        "country": "Pays (facultatif)",
+        "hotel": "Hôtel (facultatif)",
+        "start": "Date de début",
+        "end": "Date de fin (facultatif)",
+        "pick": "Choisir une date",
+        "save": "Enregistrer le voyage",
+        "error": "Impossible d'enregistrer le voyage. Réessaie.",
+        "unknown": "Quelque part",
+        "booking_type(map)": {
+          "flight": "Vol",
+          "hotel": "Hôtel",
+          "train": "Train",
+          "car": "Voiture",
+          "activity": "Activité",
+          "cruise": "Croisière",
+          "other": "Réservation"
+        }
+      },
+      "details": {
+        "title": "Infos voyageur",
+        "hint": "Préremplit tes réservations et tes appels avec un conseiller.",
+        "name": "Nom",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "phone_hint": "Ajouter un numéro"
+      },
+      "temperature": {
+        "title": "Température",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "up_next": "Prochain départ",
+      "style": {
+        "prompt": "Règle ton style de voyage · ${n} sur ${total}",
+        "balanced": "Explorateur équilibré",
+        "pole(map)": {
+          "morningPace": {
+            "low": "grasses matinées",
+            "high": "départs à l'aube"
+          },
+          "socialBattery": {
+            "low": "au calme",
+            "high": "journées sociales"
+          },
+          "planningStyle": {
+            "low": "à l'improviste",
+            "high": "tout planifié"
+          },
+          "diningStyle": {
+            "low": "street food",
+            "high": "gastronomie"
+          },
+          "settingVibe": {
+            "low": "hors des sentiers battus",
+            "high": "lumières de la ville"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "Voyageur tranquille",
+            "high": "Lève-tôt"
+          },
+          "socialBattery": {
+            "low": "Voyageur discret",
+            "high": "Voyageur sociable"
+          },
+          "planningStyle": {
+            "low": "Esprit libre",
+            "high": "Planificateur"
+          },
+          "diningStyle": {
+            "low": "Fan de street food",
+            "high": "Gourmet"
+          },
+          "settingVibe": {
+            "low": "Explorateur",
+            "high": "Citadin"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2109,6 +2324,9 @@
       "remove": "Retirer",
       "invalid": "Ce code ne peut pas être appliqué.",
       "applied": "Code $code appliqué"
+    },
+    "cta": {
+      "refreshing": "Mise à jour des prix…"
     }
   },
   "trips": {

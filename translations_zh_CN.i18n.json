@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "照片图库",
-        "files": "文件"
+        "files": "文件",
+        "camera": "相机",
+        "title": "添加到聊天"
       },
       "possibleNextSteps": "可能的下一步",
       "destinations_card": {
@@ -147,6 +149,11 @@
         "subtitle": "点按观看并选择",
         "feedTitle": "选择你的目的地",
         "open": "打开",
+        "add": "添加",
+        "added": "已添加",
+        "selectedCount": {
+          "other": "已选 ${n} 个"
+        },
         "planWith": {
           "other": "用 ${n} 个目的地规划"
         },
@@ -884,6 +891,211 @@
       "status_cancelled": "已取消",
       "status_booked": "已预订",
       "status_in_progress": "进行中"
+    },
+    "travel": {
+      "title": "你的旅行档案",
+      "completeness": "已完成 ${percent}%",
+      "complete": "档案已完整",
+      "hint_dials": "滑动五个旋钮，定下你的旅行风格。",
+      "hint_interests": "至少选五个兴趣。",
+      "hint_about": "再回答几张卡片。",
+      "style_title": "你的旅行风格",
+      "style_hint": "把每个旋钮拖到真正符合你的位置，Layla 会据此调整每份计划。",
+      "dial(map)": {
+        "morningPace": {
+          "left": "慢悠悠的早晨",
+          "right": "破晓即起"
+        },
+        "socialBattery": {
+          "left": "独处充电",
+          "right": "社交达人"
+        },
+        "planningStyle": {
+          "left": "随性而行",
+          "right": "精心规划"
+        },
+        "diningStyle": {
+          "left": "街头小吃",
+          "right": "白桌布餐厅"
+        },
+        "settingVibe": {
+          "left": "荒野远方",
+          "right": "都市霓虹"
+        }
+      },
+      "interests": {
+        "title": "你的兴趣",
+        "hint": "选出你热爱的，Layla 用它来塑造每份计划。",
+        "add": "添加兴趣",
+        "search": "搜索兴趣",
+        "add_custom": "添加“${text}”",
+        "selected": {
+          "other": "已选 ${n} 项"
+        },
+        "item(map)": {
+          "architecture": "建筑",
+          "art": "艺术",
+          "camping": "露营",
+          "cocktails": "鸡尾酒",
+          "coffee": "咖啡",
+          "cooking": "烹饪",
+          "culturalHeritage": "文化遗产",
+          "cycling": "骑行",
+          "design": "设计",
+          "diving": "潜水",
+          "fashion": "时尚",
+          "fitness": "健身",
+          "foodScenes": "美食",
+          "hiking": "徒步",
+          "history": "历史",
+          "liveMusic": "现场音乐",
+          "localCulture": "本地文化",
+          "museums": "博物馆",
+          "nightlife": "夜生活",
+          "outdoors": "户外",
+          "photography": "摄影",
+          "sailing": "帆船",
+          "shopping": "购物",
+          "skiing": "滑雪",
+          "snorkeling": "浮潜",
+          "spa": "水疗",
+          "surfing": "冲浪",
+          "sustainability": "可持续",
+          "wine": "葡萄酒",
+          "yoga": "瑜伽"
+        }
+      },
+      "about": {
+        "title": "聊聊你自己",
+        "hint": "几个字就够。想跳过就跳过，每个回答都会让计划更贴合你。",
+        "answer": "回答",
+        "write_own": "或者自己写……",
+        "languages_hint": "多种语言请用逗号分隔。",
+        "card(map)": {
+          "cantSleepWithout": "没有它我睡不着",
+          "neverCompromise": "我绝不将就的是",
+          "travelWith": "我通常和谁同行",
+          "bornDecade": "我出生的年代",
+          "specialNeeds": "特殊需求",
+          "idealHotel": "三个词形容我的理想酒店",
+          "workTrips": "出差时我需要",
+          "dreamDestination": "我一直想去的地方",
+          "pets": "宠物",
+          "languages": "我会的语言",
+          "dietaryNeeds": "饮食需求"
+        },
+        "option(map)": {
+          "location": "位置",
+          "price": "价格",
+          "comfort": "舒适",
+          "quiet": "安静",
+          "space": "空间",
+          "other": "其他",
+          "solo": "独自",
+          "partner": "伴侣",
+          "familyKids": "带孩子的家庭",
+          "friends": "朋友"
+        }
+      },
+      "hero": {
+        "headline_hint": "写一句话，说说你怎么旅行",
+        "location_hint": "你住在哪里？",
+        "edit_intro": "编辑简介",
+        "headline": "一句话简介",
+        "location": "所在城市",
+        "stat_trips": "次旅行",
+        "stat_countries": "个国家"
+      },
+      "places": {
+        "title": "你去过的地方",
+        "countries": {
+          "other": "${n} 个国家"
+        },
+        "empty": "来自邮箱的旅行和你手动添加的旅行都会显示在这里。",
+        "timeline": "时间线",
+        "add": "添加旅行",
+        "add_title": "添加住宿",
+        "city": "城市",
+        "country": "国家（可选）",
+        "hotel": "酒店（可选）",
+        "start": "开始日期",
+        "end": "结束日期（可选）",
+        "pick": "选择日期",
+        "save": "保存旅行",
+        "error": "无法保存旅行，请重试。",
+        "unknown": "某地",
+        "booking_type(map)": {
+          "flight": "航班",
+          "hotel": "酒店",
+          "train": "火车",
+          "car": "汽车",
+          "activity": "活动",
+          "cruise": "邮轮",
+          "other": "预订"
+        }
+      },
+      "details": {
+        "title": "旅客信息",
+        "hint": "自动填入你的预订和顾问通话。",
+        "name": "姓名",
+        "email": "邮箱",
+        "phone": "电话",
+        "phone_hint": "添加电话号码"
+      },
+      "temperature": {
+        "title": "温度",
+        "celsius": "摄氏 (°C)",
+        "fahrenheit": "华氏 (°F)"
+      },
+      "up_next": "即将出发",
+      "style": {
+        "prompt": "设定你的旅行风格 · ${n}/${total}",
+        "balanced": "均衡型探索者",
+        "pole(map)": {
+          "morningPace": {
+            "low": "慢悠悠的早晨",
+            "high": "早早出发"
+          },
+          "socialBattery": {
+            "low": "独处时光",
+            "high": "社交日程"
+          },
+          "planningStyle": {
+            "low": "随性而行",
+            "high": "精心规划"
+          },
+          "diningStyle": {
+            "low": "街头小吃",
+            "high": "精致餐厅"
+          },
+          "settingVibe": {
+            "low": "小众路线",
+            "high": "都市霓虹"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "慢旅行者",
+            "high": "早起派"
+          },
+          "socialBattery": {
+            "low": "安静旅行者",
+            "high": "社交旅行者"
+          },
+          "planningStyle": {
+            "low": "自由派",
+            "high": "规划派"
+          },
+          "diningStyle": {
+            "low": "街头美食家",
+            "high": "美食家"
+          },
+          "settingVibe": {
+            "low": "探索者",
+            "high": "都市爱好者"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2072,6 +2284,9 @@
       "remove": "移除",
       "invalid": "此优惠码无法使用。",
       "applied": "已使用优惠码 $code"
+    },
+    "cta": {
+      "refreshing": "正在更新价格…"
     }
   },
   "trips": {

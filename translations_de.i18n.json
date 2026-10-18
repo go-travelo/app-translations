@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "Fotomediathek",
-        "files": "Dateien"
+        "files": "Dateien",
+        "camera": "Kamera",
+        "title": "Zum Chat hinzufügen"
       },
       "possibleNextSteps": "Mögliche nächste Schritte",
       "destinations_card": {
@@ -147,6 +149,12 @@
         "subtitle": "Tippe zum Ansehen und Auswählen",
         "feedTitle": "Wähl deine Reiseziele",
         "open": "Öffnen",
+        "add": "Hinzufügen",
+        "added": "Hinzugefügt",
+        "selectedCount": {
+          "one": "${n} ausgewählt",
+          "other": "${n} ausgewählt"
+        },
         "planWith": {
           "one": "Mit ${n} Reiseziel planen",
           "other": "Mit ${n} Reisezielen planen"
@@ -894,6 +902,213 @@
       "status_cancelled": "Storniert",
       "status_booked": "Gebucht",
       "status_in_progress": "Läuft"
+    },
+    "travel": {
+      "title": "Dein Reiseprofil",
+      "completeness": "${percent} % vollständig",
+      "complete": "Profil vollständig",
+      "hint_dials": "Stell deinen Reisestil mit fünf schnellen Reglern ein.",
+      "hint_interests": "Wähl mindestens fünf Interessen.",
+      "hint_about": "Beantworte noch ein paar Karten.",
+      "style_title": "Dein Reisestil",
+      "style_hint": "Schieb jeden Regler dorthin, wo du wirklich stehst. Layla stimmt jeden Plan darauf ab.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "Langsame Morgen",
+          "right": "Früh auf den Beinen"
+        },
+        "socialBattery": {
+          "left": "Rückzug",
+          "right": "Partylöwe"
+        },
+        "planningStyle": {
+          "left": "Einfach losziehen",
+          "right": "Alles durchgeplant"
+        },
+        "diningStyle": {
+          "left": "Streetfood",
+          "right": "Weißes Tischtuch"
+        },
+        "settingVibe": {
+          "left": "Wild & abgelegen",
+          "right": "Großstadtlichter"
+        }
+      },
+      "interests": {
+        "title": "Was dich begeistert",
+        "hint": "Wähl, was du liebst. Layla formt jeden Plan danach.",
+        "add": "Interessen hinzufügen",
+        "search": "Interessen suchen",
+        "add_custom": "„${text}“ hinzufügen",
+        "selected": {
+          "one": "${n} ausgewählt",
+          "other": "${n} ausgewählt"
+        },
+        "item(map)": {
+          "architecture": "Architektur",
+          "art": "Kunst",
+          "camping": "Camping",
+          "cocktails": "Cocktails",
+          "coffee": "Kaffee",
+          "cooking": "Kochen",
+          "culturalHeritage": "Kulturerbe",
+          "cycling": "Radfahren",
+          "design": "Design",
+          "diving": "Tauchen",
+          "fashion": "Mode",
+          "fitness": "Fitness",
+          "foodScenes": "Food-Szene",
+          "hiking": "Wandern",
+          "history": "Geschichte",
+          "liveMusic": "Livemusik",
+          "localCulture": "Lokale Kultur",
+          "museums": "Museen",
+          "nightlife": "Nachtleben",
+          "outdoors": "Draußen sein",
+          "photography": "Fotografie",
+          "sailing": "Segeln",
+          "shopping": "Shopping",
+          "skiing": "Skifahren",
+          "snorkeling": "Schnorcheln",
+          "spa": "Spa",
+          "surfing": "Surfen",
+          "sustainability": "Nachhaltigkeit",
+          "wine": "Wein",
+          "yoga": "Yoga"
+        }
+      },
+      "about": {
+        "title": "Erzähl uns von dir",
+        "hint": "Ein paar Worte reichen. Lass aus, was du willst; jede Antwort schärft deine Pläne.",
+        "answer": "Antworten",
+        "write_own": "Oder schreib dein eigenes …",
+        "languages_hint": "Sprachen mit Komma trennen.",
+        "card(map)": {
+          "cantSleepWithout": "Ohne das kann ich nicht schlafen",
+          "neverCompromise": "Hier mache ich keine Abstriche",
+          "travelWith": "Ich reise meistens mit",
+          "bornDecade": "Mein Geburtsjahrzehnt",
+          "specialNeeds": "Besondere Bedürfnisse",
+          "idealHotel": "Mein ideales Hotel in 3 Worten",
+          "workTrips": "Auf Dienstreisen brauche ich",
+          "dreamDestination": "Da wollte ich schon immer hin",
+          "pets": "Haustiere",
+          "languages": "Sprachen, die ich spreche",
+          "dietaryNeeds": "Ernährung"
+        },
+        "option(map)": {
+          "location": "Lage",
+          "price": "Preis",
+          "comfort": "Komfort",
+          "quiet": "Ruhe",
+          "space": "Platz",
+          "other": "Anderes",
+          "solo": "Allein",
+          "partner": "Partner:in",
+          "familyKids": "Familie mit Kindern",
+          "friends": "Freunden"
+        }
+      },
+      "hero": {
+        "headline_hint": "Schreib eine Zeile darüber, wie du reist",
+        "location_hint": "Wo wohnst du?",
+        "edit_intro": "Intro bearbeiten",
+        "headline": "Überschrift",
+        "location": "Wohnort",
+        "stat_trips": "Reisen",
+        "stat_countries": "Länder"
+      },
+      "places": {
+        "title": "Wo du schon warst",
+        "countries": {
+          "one": "${n} Land",
+          "other": "${n} Länder"
+        },
+        "empty": "Reisen aus deinem Postfach und die, die du selbst einträgst, landen hier.",
+        "timeline": "Zeitstrahl",
+        "add": "Reise hinzufügen",
+        "add_title": "Aufenthalt hinzufügen",
+        "city": "Stadt",
+        "country": "Land (optional)",
+        "hotel": "Hotel (optional)",
+        "start": "Startdatum",
+        "end": "Enddatum (optional)",
+        "pick": "Datum wählen",
+        "save": "Reise speichern",
+        "error": "Die Reise konnte nicht gespeichert werden. Bitte versuch es noch einmal.",
+        "unknown": "Irgendwo",
+        "booking_type(map)": {
+          "flight": "Flug",
+          "hotel": "Hotel",
+          "train": "Zug",
+          "car": "Auto",
+          "activity": "Aktivität",
+          "cruise": "Kreuzfahrt",
+          "other": "Buchung"
+        }
+      },
+      "details": {
+        "title": "Reisedaten",
+        "hint": "Füllt deine Buchungen und Beratungsgespräche vor.",
+        "name": "Name",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "phone_hint": "Telefonnummer hinzufügen"
+      },
+      "temperature": {
+        "title": "Temperatur",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "up_next": "Als Nächstes",
+      "style": {
+        "prompt": "Stell deinen Reisestil ein · ${n} von ${total}",
+        "balanced": "Ausgewogener Entdecker",
+        "pole(map)": {
+          "morningPace": {
+            "low": "langsame Morgen",
+            "high": "früh unterwegs"
+          },
+          "socialBattery": {
+            "low": "ruhige Zeit",
+            "high": "gesellige Tage"
+          },
+          "planningStyle": {
+            "low": "spontan",
+            "high": "durchgeplant"
+          },
+          "diningStyle": {
+            "low": "Streetfood",
+            "high": "feine Küche"
+          },
+          "settingVibe": {
+            "low": "abseits der Pfade",
+            "high": "Großstadtlichter"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "Entspannt unterwegs",
+            "high": "Frühaufsteher"
+          },
+          "socialBattery": {
+            "low": "Ruhesuchend",
+            "high": "Gesellig"
+          },
+          "planningStyle": {
+            "low": "Freigeist",
+            "high": "Planer"
+          },
+          "diningStyle": {
+            "low": "Streetfood-Fan",
+            "high": "Genießer"
+          },
+          "settingVibe": {
+            "low": "Entdecker",
+            "high": "Stadtmensch"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2109,6 +2324,9 @@
       "remove": "Entfernen",
       "invalid": "Dieser Code lässt sich nicht einlösen.",
       "applied": "Code $code eingelöst"
+    },
+    "cta": {
+      "refreshing": "Preise werden aktualisiert …"
     }
   },
   "trips": {

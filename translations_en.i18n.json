@@ -239,13 +239,21 @@
       },
       "attach": {
         "photoLibrary": "Photo Library",
-        "files": "Files"
+        "files": "Files",
+        "camera": "Camera",
+        "title": "Add to chat"
       },
       "destinations_card": {
         "title": "Destinations for you",
         "subtitle": "Tap to watch and choose",
         "feedTitle": "Pick your destinations",
         "open": "Open",
+        "add": "Add",
+        "added": "Added",
+        "selectedCount": {
+          "one": "${n} selected",
+          "other": "${n} selected"
+        },
         "planWith": {
           "one": "Plan with ${n} destination",
           "other": "Plan with ${n} destinations"
@@ -993,6 +1001,213 @@
       "status_cancelled": "Cancelled",
       "status_booked": "Booked",
       "status_in_progress": "In progress"
+    },
+    "travel": {
+      "title": "Your travel profile",
+      "completeness": "${percent}% complete",
+      "complete": "Profile complete",
+      "hint_dials": "Set your travel style with five quick drags.",
+      "hint_interests": "Pick at least five interests.",
+      "hint_about": "Answer a few more cards.",
+      "style_title": "Your travel style",
+      "style_hint": "Drag a dial to where you actually sit. Layla tunes every plan to it.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "Slow mornings",
+          "right": "Dawn patrol"
+        },
+        "socialBattery": {
+          "left": "Cocoon",
+          "right": "Social butterfly"
+        },
+        "planningStyle": {
+          "left": "Wing it",
+          "right": "Master plan"
+        },
+        "diningStyle": {
+          "left": "Street-level",
+          "right": "White tablecloth"
+        },
+        "settingVibe": {
+          "left": "Wild & remote",
+          "right": "City lights"
+        }
+      },
+      "interests": {
+        "title": "What you're into",
+        "hint": "Pick what you love. Layla uses it to shape every plan.",
+        "add": "Add interests",
+        "search": "Search interests",
+        "add_custom": "Add “${text}”",
+        "selected": {
+          "one": "${n} selected",
+          "other": "${n} selected"
+        },
+        "item(map)": {
+          "architecture": "Architecture",
+          "art": "Art",
+          "camping": "Camping",
+          "cocktails": "Cocktails",
+          "coffee": "Coffee",
+          "cooking": "Cooking",
+          "culturalHeritage": "Cultural heritage",
+          "cycling": "Cycling",
+          "design": "Design",
+          "diving": "Diving",
+          "fashion": "Fashion",
+          "fitness": "Fitness",
+          "foodScenes": "Food scenes",
+          "hiking": "Hiking",
+          "history": "History",
+          "liveMusic": "Live music",
+          "localCulture": "Local culture",
+          "museums": "Museums",
+          "nightlife": "Nightlife",
+          "outdoors": "Outdoors",
+          "photography": "Photography",
+          "sailing": "Sailing",
+          "shopping": "Shopping",
+          "skiing": "Skiing",
+          "snorkeling": "Snorkeling",
+          "spa": "Spa",
+          "surfing": "Surfing",
+          "sustainability": "Sustainability",
+          "wine": "Wine",
+          "yoga": "Yoga"
+        }
+      },
+      "about": {
+        "title": "Tell us about you",
+        "hint": "A few words each. Skip anything; every answer sharpens your plans.",
+        "answer": "Answer",
+        "write_own": "Or write your own…",
+        "languages_hint": "Separate languages with commas.",
+        "card(map)": {
+          "cantSleepWithout": "I can't sleep without",
+          "neverCompromise": "I never compromise on",
+          "travelWith": "I usually travel with",
+          "bornDecade": "Decade I was born",
+          "specialNeeds": "Special needs",
+          "idealHotel": "My ideal hotel in 3 words",
+          "workTrips": "On work trips I need",
+          "dreamDestination": "Where I've always wanted to go",
+          "pets": "Pets",
+          "languages": "Languages I speak",
+          "dietaryNeeds": "Dietary needs"
+        },
+        "option(map)": {
+          "location": "Location",
+          "price": "Price",
+          "comfort": "Comfort",
+          "quiet": "Quiet",
+          "space": "Space",
+          "other": "Other",
+          "solo": "Solo",
+          "partner": "My partner",
+          "familyKids": "Family with kids",
+          "friends": "Friends"
+        }
+      },
+      "hero": {
+        "headline_hint": "Add a line about how you travel",
+        "location_hint": "Where do you live?",
+        "edit_intro": "Edit intro",
+        "headline": "Headline",
+        "location": "Location",
+        "stat_trips": "trips",
+        "stat_countries": "countries"
+      },
+      "places": {
+        "title": "Where you've been",
+        "countries": {
+          "one": "${n} country",
+          "other": "${n} countries"
+        },
+        "empty": "Trips from your inbox and the ones you add land here.",
+        "timeline": "Timeline",
+        "add": "Add a trip",
+        "add_title": "Add a stay",
+        "city": "City",
+        "country": "Country (optional)",
+        "hotel": "Hotel (optional)",
+        "start": "Start date",
+        "end": "End date (optional)",
+        "pick": "Pick a date",
+        "save": "Save trip",
+        "error": "Could not save the trip. Please try again.",
+        "unknown": "Somewhere",
+        "booking_type(map)": {
+          "flight": "Flight",
+          "hotel": "Hotel",
+          "train": "Train",
+          "car": "Car",
+          "activity": "Activity",
+          "cruise": "Cruise",
+          "other": "Booking"
+        }
+      },
+      "details": {
+        "title": "Traveller details",
+        "hint": "Prefills your bookings and advisor calls.",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "phone_hint": "Add a phone number"
+      },
+      "temperature": {
+        "title": "Temperature",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "up_next": "Up next",
+      "style": {
+        "prompt": "Set your travel style · ${n} of ${total}",
+        "balanced": "Balanced explorer",
+        "pole(map)": {
+          "morningPace": {
+            "low": "slow mornings",
+            "high": "early starts"
+          },
+          "socialBattery": {
+            "low": "quiet time",
+            "high": "social days"
+          },
+          "planningStyle": {
+            "low": "spontaneous",
+            "high": "fully planned"
+          },
+          "diningStyle": {
+            "low": "street food",
+            "high": "fine dining"
+          },
+          "settingVibe": {
+            "low": "off the beaten path",
+            "high": "city lights"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "Slow traveller",
+            "high": "Early bird"
+          },
+          "socialBattery": {
+            "low": "Quiet traveller",
+            "high": "Social traveller"
+          },
+          "planningStyle": {
+            "low": "Free spirit",
+            "high": "Planner"
+          },
+          "diningStyle": {
+            "low": "Street foodie",
+            "high": "Gourmet"
+          },
+          "settingVibe": {
+            "low": "Explorer",
+            "high": "City lover"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2281,6 +2496,9 @@
       "remove": "Remove",
       "invalid": "This code can't be applied.",
       "applied": "Code $code applied"
+    },
+    "cta": {
+      "refreshing": "Refreshing prices…"
     }
   },
   "trips": {

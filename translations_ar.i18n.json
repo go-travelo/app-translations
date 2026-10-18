@@ -139,7 +139,9 @@
       },
       "attach": {
         "photoLibrary": "مكتبة الصور",
-        "files": "الملفات"
+        "files": "الملفات",
+        "camera": "الكاميرا",
+        "title": "إضافة إلى المحادثة"
       },
       "possibleNextSteps": "الخطوات المحتملة التالية",
       "destinations_card": {
@@ -147,6 +149,16 @@
         "subtitle": "اضغط للمشاهدة والاختيار",
         "feedTitle": "اختر وجهاتك",
         "open": "فتح",
+        "add": "أضِف",
+        "added": "تمت الإضافة",
+        "selectedCount": {
+          "zero": "لم يتم اختيار شيء",
+          "one": "تم اختيار وجهة واحدة",
+          "two": "تم اختيار وجهتين",
+          "few": "تم اختيار ${n} وجهات",
+          "many": "تم اختيار ${n} وجهة",
+          "other": "تم اختيار ${n} وجهة"
+        },
         "planWith": {
           "zero": "خطّط مع ${n} وجهة",
           "one": "خطّط مع ${n} وجهة",
@@ -941,6 +953,221 @@
       "status_cancelled": "ملغي",
       "status_booked": "تم الحجز",
       "status_in_progress": "جارٍ التنفيذ"
+    },
+    "travel": {
+      "title": "ملفك كمسافر",
+      "completeness": "مكتمل بنسبة ${percent}%",
+      "complete": "الملف مكتمل",
+      "hint_dials": "اضبط أسلوب سفرك بخمس حركات سريعة.",
+      "hint_interests": "اختر خمسة اهتمامات على الأقل.",
+      "hint_about": "أجب عن بضع بطاقات إضافية.",
+      "style_title": "أسلوب سفرك",
+      "style_hint": "حرّك كل مؤشر إلى حيث أنت فعلًا. تضبط Layla كل خطة على ذلك.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "صباحات هادئة",
+          "right": "مستيقظ مع الفجر"
+        },
+        "socialBattery": {
+          "left": "في عالمي الخاص",
+          "right": "روح الحفلة"
+        },
+        "planningStyle": {
+          "left": "نرتجل",
+          "right": "كل شيء مخطط"
+        },
+        "diningStyle": {
+          "left": "أكل الشارع",
+          "right": "مفرش أبيض"
+        },
+        "settingVibe": {
+          "left": "بريّ ونائي",
+          "right": "أضواء المدينة"
+        }
+      },
+      "interests": {
+        "title": "ما يستهويك",
+        "hint": "اختر ما تحبه. تشكّل Layla كل خطة بناءً عليه.",
+        "add": "إضافة اهتمامات",
+        "search": "ابحث عن اهتمامات",
+        "add_custom": "إضافة «${text}»",
+        "selected": {
+          "zero": "لم يُختر شيء",
+          "one": "اختير ${n}",
+          "two": "اختير ${n}",
+          "few": "اختير ${n}",
+          "many": "اختير ${n}",
+          "other": "اختير ${n}"
+        },
+        "item(map)": {
+          "architecture": "العمارة",
+          "art": "الفن",
+          "camping": "التخييم",
+          "cocktails": "الكوكتيلات",
+          "coffee": "القهوة",
+          "cooking": "الطبخ",
+          "culturalHeritage": "التراث الثقافي",
+          "cycling": "ركوب الدراجات",
+          "design": "التصميم",
+          "diving": "الغوص",
+          "fashion": "الموضة",
+          "fitness": "اللياقة",
+          "foodScenes": "المشهد الغذائي",
+          "hiking": "المشي الجبلي",
+          "history": "التاريخ",
+          "liveMusic": "الموسيقى الحية",
+          "localCulture": "الثقافة المحلية",
+          "museums": "المتاحف",
+          "nightlife": "الحياة الليلية",
+          "outdoors": "الهواء الطلق",
+          "photography": "التصوير",
+          "sailing": "الإبحار",
+          "shopping": "التسوق",
+          "skiing": "التزلج",
+          "snorkeling": "الغطس السطحي",
+          "spa": "السبا",
+          "surfing": "ركوب الأمواج",
+          "sustainability": "الاستدامة",
+          "wine": "النبيذ",
+          "yoga": "اليوغا"
+        }
+      },
+      "about": {
+        "title": "حدّثنا عن نفسك",
+        "hint": "بضع كلمات تكفي. تجاوز ما تشاء؛ كل إجابة تجعل خططك أدق.",
+        "answer": "أجب",
+        "write_own": "أو اكتب إجابتك…",
+        "languages_hint": "افصل بين اللغات بفواصل.",
+        "card(map)": {
+          "cantSleepWithout": "لا أستطيع النوم دون",
+          "neverCompromise": "لا أتنازل أبدًا عن",
+          "travelWith": "أسافر عادةً مع",
+          "bornDecade": "عقد ميلادي",
+          "specialNeeds": "احتياجات خاصة",
+          "idealHotel": "فندقي المثالي في 3 كلمات",
+          "workTrips": "في رحلات العمل أحتاج",
+          "dreamDestination": "المكان الذي طالما أردت زيارته",
+          "pets": "الحيوانات الأليفة",
+          "languages": "اللغات التي أتحدثها",
+          "dietaryNeeds": "احتياجات غذائية"
+        },
+        "option(map)": {
+          "location": "الموقع",
+          "price": "السعر",
+          "comfort": "الراحة",
+          "quiet": "الهدوء",
+          "space": "المساحة",
+          "other": "غير ذلك",
+          "solo": "بمفردي",
+          "partner": "شريكي",
+          "familyKids": "العائلة مع الأطفال",
+          "friends": "الأصدقاء"
+        }
+      },
+      "hero": {
+        "headline_hint": "أضف سطرًا عن طريقتك في السفر",
+        "location_hint": "أين تسكن؟",
+        "edit_intro": "تعديل المقدمة",
+        "headline": "العنوان",
+        "location": "المدينة",
+        "stat_trips": "رحلات",
+        "stat_countries": "دول"
+      },
+      "places": {
+        "title": "أين كنت",
+        "countries": {
+          "zero": "لا دول",
+          "one": "دولة واحدة",
+          "two": "دولتان",
+          "few": "${n} دول",
+          "many": "${n} دولة",
+          "other": "${n} دولة"
+        },
+        "empty": "تظهر هنا الرحلات من بريدك والرحلات التي تضيفها بنفسك.",
+        "timeline": "الخط الزمني",
+        "add": "إضافة رحلة",
+        "add_title": "إضافة إقامة",
+        "city": "المدينة",
+        "country": "الدولة (اختياري)",
+        "hotel": "الفندق (اختياري)",
+        "start": "تاريخ البداية",
+        "end": "تاريخ النهاية (اختياري)",
+        "pick": "اختر تاريخًا",
+        "save": "حفظ الرحلة",
+        "error": "تعذّر حفظ الرحلة. حاول مرة أخرى.",
+        "unknown": "مكان ما",
+        "booking_type(map)": {
+          "flight": "رحلة طيران",
+          "hotel": "فندق",
+          "train": "قطار",
+          "car": "سيارة",
+          "activity": "نشاط",
+          "cruise": "رحلة بحرية",
+          "other": "حجز"
+        }
+      },
+      "details": {
+        "title": "بيانات المسافر",
+        "hint": "تُملأ مسبقًا في حجوزاتك ومكالماتك مع المستشار.",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "phone_hint": "أضف رقم هاتف"
+      },
+      "temperature": {
+        "title": "درجة الحرارة",
+        "celsius": "مئوية (°C)",
+        "fahrenheit": "فهرنهايت (°F)"
+      },
+      "up_next": "التالية",
+      "style": {
+        "prompt": "اضبط أسلوب سفرك · ${n} من ${total}",
+        "balanced": "مستكشف متوازن",
+        "pole(map)": {
+          "morningPace": {
+            "low": "صباحات هادئة",
+            "high": "انطلاق مبكر"
+          },
+          "socialBattery": {
+            "low": "وقت هادئ",
+            "high": "أيام اجتماعية"
+          },
+          "planningStyle": {
+            "low": "عفوية",
+            "high": "مخطط بالكامل"
+          },
+          "diningStyle": {
+            "low": "أكل الشارع",
+            "high": "مطاعم راقية"
+          },
+          "settingVibe": {
+            "low": "بعيدًا عن الزحام",
+            "high": "أضواء المدينة"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "مسافر متمهّل",
+            "high": "مبكر النهوض"
+          },
+          "socialBattery": {
+            "low": "مسافر هادئ",
+            "high": "مسافر اجتماعي"
+          },
+          "planningStyle": {
+            "low": "روح حرة",
+            "high": "مخطِّط"
+          },
+          "diningStyle": {
+            "low": "عاشق أكل الشارع",
+            "high": "ذوّاق"
+          },
+          "settingVibe": {
+            "low": "مستكشف",
+            "high": "عاشق المدن"
+          }
+        }
+      }
     }
   },
   "auth": {
@@ -2276,6 +2503,9 @@
       "remove": "إزالة",
       "invalid": "لا يمكن تطبيق هذا الرمز.",
       "applied": "تم تطبيق الرمز $code"
+    },
+    "cta": {
+      "refreshing": "جارٍ تحديث الأسعار…"
     }
   },
   "trips": {
