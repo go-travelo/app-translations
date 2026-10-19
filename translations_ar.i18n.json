@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "اسألني أي شيء",
+      "discardRecording": "تجاهل التسجيل",
+      "useRecording": "استخدم التسجيل",
       "contextMenu": {
         "copy": "نسخ",
         "good_response": "رد جيد",

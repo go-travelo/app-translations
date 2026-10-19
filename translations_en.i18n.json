@@ -204,6 +204,8 @@
         }
       },
       "messageHint": "Ask me anything",
+      "discardRecording": "Discard recording",
+      "useRecording": "Use recording",
       "possibleNextSteps": "Possible next steps",
       "contextMenu": {
         "copy": "Copy",

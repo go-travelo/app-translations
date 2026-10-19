@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "Попитайте ме за всичко",
+      "discardRecording": "Изтрий записа",
+      "useRecording": "Използвай записа",
       "contextMenu": {
         "copy": "Копирай",
         "good_response": "Добър отговор",

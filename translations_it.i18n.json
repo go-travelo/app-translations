@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "Chiedimi qualsiasi cosa",
+      "discardRecording": "Elimina registrazione",
+      "useRecording": "Usa registrazione",
       "contextMenu": {
         "copy": "Copia",
         "good_response": "Buona risposta",

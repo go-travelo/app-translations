@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "Me pergunte qualquer coisa",
+      "discardRecording": "Descartar gravação",
+      "useRecording": "Usar gravação",
       "contextMenu": {
         "copy": "Copiar",
         "good_response": "Boa Resposta",

@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "שאל/י אותי כל דבר",
+      "discardRecording": "מחיקת ההקלטה",
+      "useRecording": "שימוש בהקלטה",
       "contextMenu": {
         "copy": "להעתקה",
         "good_response": "תשובה טובה",

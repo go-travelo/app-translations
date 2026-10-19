@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "Vraag me iets",
+      "discardRecording": "Opname verwijderen",
+      "useRecording": "Opname gebruiken",
       "contextMenu": {
         "copy": "Kopiëren",
         "good_response": "Goed antwoord",

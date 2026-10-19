@@ -105,6 +105,8 @@
         }
       },
       "messageHint": "Frag mich irgendetwas",
+      "discardRecording": "Aufnahme verwerfen",
+      "useRecording": "Aufnahme übernehmen",
       "contextMenu": {
         "copy": "Kopieren",
         "good_response": "Gute Antwort",
