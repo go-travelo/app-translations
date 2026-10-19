@@ -2267,8 +2267,8 @@
     "continue_with_booking": "Continuer la réservation"
   },
   "create_screen": {
-    "greetingWithName": "Bonjour ${name},\noù voulez-vous vous *réveiller* la prochaine fois ?",
-    "greeting": "Où voulez-vous vous *réveiller* la prochaine fois ?",
+    "greetingWithName": "Salut ${name},\noù veux-tu te *réveiller* la prochaine fois ?",
+    "greeting": "Où veux-tu te *réveiller* la prochaine fois ?",
     "listening": "J'écoute...",
     "placeholders": [
       "Un circuit de 2 semaines en Italie : Rome, Florence et la Côte Amalfitaine...",
