@@ -29,7 +29,7 @@
       },
       "chatbot": {
         "inputHint": "Frag mich irgendetwas",
-        "msg1": "Hallo ${user} 👋\n\nIch bin Layla, dein Reiseberater.\n\nBevor wir beginnen, würde ich gerne erfahren, welcher Reisetyp du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
+        "msg1": "Hallo ${user} 👋\n\nIch bin Layla, dein Reiseexperte.\n\nBevor wir beginnen, würde ich gerne erfahren, welcher Reisetyp du bist. 🌍\n\nSag mir, welche Art von Reise du suchst, indem du schreibst oder sprichst.",
         "msg2": "Wunderbar! Ich glaube, ich verstehe, wonach du suchst.\n\nHast du noch weitere Anforderungen?",
         "msg3": "Was interessiert dich?",
         "msg4": "Von wo wirst du abreisen?",
@@ -165,7 +165,7 @@
       },
       "continueWithSelected": "Weiter mit ${n} ausgewählt",
       "advisor": {
-        "webviewTitle": "Mit einem Reiseberater sprechen"
+        "webviewTitle": "Mit einem Reiseexperten sprechen"
       },
       "activitiesCard": {
         "addMessage": "Füge ${name} zu meiner Reise hinzu"
@@ -689,7 +689,7 @@
           "subtitle": "Flüge und Unterkünfte vorausgewählt"
         },
         "advisor": {
-          "title": "Dein Reiseberater",
+          "title": "Dein Reiseexperte",
           "subtitle": "Prüft und bucht"
         },
         "destination": {
@@ -800,7 +800,7 @@
     "subscription_id_label": "Abonnement-ID:\n${subscriptionId}",
     "add_your_name": "Namen hinzufügen",
     "edit": "Bearbeiten",
-    "advisor_title": "Dein Reiseberater",
+    "advisor_title": "Dein Reiseexperte",
     "advisor_subtitle": "Plant mit dir, bucht alles und ist erreichbar, während du unterwegs bist.",
     "book_a_call": "Gespräch buchen",
     "your_trips": "Deine Reisen",
@@ -827,7 +827,7 @@
     "delete_confirm_again_title": "Letzte Frage",
     "delete_confirm_again_message": "Konto für ${email} löschen? Danach gibt es kein Zurück.",
     "sign_in_to_keep_trips": "Melde dich an, damit deine Reisen erhalten bleiben",
-    "sign_in_subtitle": "Deine Pläne, Buchungen und dein Reiseberater, auf jedem Gerät.",
+    "sign_in_subtitle": "Deine Pläne, Buchungen und dein Reiseexperte, auf jedem Gerät.",
     "new_to_layla": "Neu bei Layla?",
     "switch_language_title": "Zu ${language} wechseln?",
     "switch_language_message": "Layla spricht ab jetzt ${language}.",
@@ -1577,7 +1577,7 @@
       "noTransportationYet": "Noch kein Transport",
       "addTransportation": "Transport hinzufügen",
       "fromPrice": "ab ${price}",
-      "lockedBooked": "Gebucht. Änderungen an dieser Strecke laufen über deinen Reiseberater.",
+      "lockedBooked": "Gebucht. Änderungen an dieser Strecke laufen über deinen Reiseexperte.",
       "modes": {
         "privateCar": "Eigenes Auto",
         "rentalCar": "Mietwagen",
@@ -2061,7 +2061,7 @@
       "dateOrder": "Jede Abreise muss am Tag der vorherigen oder danach liegen"
     },
     "advisor": {
-      "plan_with": "Mit $name planen"
+      "plan_with": "Mit einem Experten planen"
     },
     "timeline_intro": {
       "more": "Mehr",
@@ -2415,7 +2415,7 @@
       "save": "Speichern"
     },
     "call_hero": {
-      "title": "Anruf mit $name"
+      "title": "Anruf mit einem Reiseexperten"
     }
   },
   "trips_list": {
@@ -2446,8 +2446,8 @@
     }
   },
   "consultation": {
-    "title": "Mit einem Reiseberater sprechen",
-    "advisorRole": "Dein Reiseberater",
+    "title": "Mit einem Reiseexperten sprechen",
+    "advisorRole": "Dein Reiseexperte",
     "steps": {
       "details": "Kontakt",
       "schedule": "Termin",
@@ -2455,7 +2455,7 @@
     },
     "details": {
       "heading": "Wie erreichen wir dich?",
-      "subheading": "Damit bestätigt dein Berater den Anruf.",
+      "subheading": "Damit bestätigt dein Experte den Anruf.",
       "fullName": "Vollständiger Name",
       "email": "E-Mail",
       "phone": "Telefonnummer",
@@ -2463,7 +2463,7 @@
       "method": "Wie möchtest du sprechen?",
       "video": "Videoanruf",
       "phoneCall": "Telefonanruf",
-      "privacy": "Deine Daten bleiben bei Layla und deinem Berater.",
+      "privacy": "Deine Daten bleiben bei Layla und deinem Experten.",
       "nameRequired": "Bitte gib deinen Namen ein",
       "emailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein",
       "emailRelay": "Wir brauchen eine funktionierende E-Mail, um deinen Anruf zu bestätigen.",
@@ -2488,14 +2488,14 @@
       "heading": "Alles klar, ${name}!",
       "headingNoName": "Alles klar!",
       "subheading": "Eine Kalendereinladung mit allen Details ist auf dem Weg in dein Postfach.",
-      "advisor": "Berater",
+      "advisor": "Experte",
       "when": "Wann",
       "call": "Gespräch",
       "callValue": "${medium} · ${minutes} Min.",
       "reschedule": "Verschieben",
       "cancelCall": "Anruf absagen",
       "done": "Fertig",
-      "otherTrip": "Dein Gespräch am ${date} deckt alle deine Pläne ab. Dein Berater kann auch über diese Reise sprechen.",
+      "otherTrip": "Dein Gespräch am ${date} deckt alle deine Pläne ab. Dein Experte kann auch über diese Reise sprechen.",
       "status": {
         "confirmed": "Bestätigt",
         "rescheduled": "Verschoben",
@@ -2510,18 +2510,18 @@
       "pill": "Gespräch gebucht · ${date}",
       "profileLine": "Dein Gespräch: ${date}",
       "view": "Buchung ansehen",
-      "disc": "Gespräch mit ${name} gebucht"
+      "disc": "Gespräch gebucht"
     },
     "advisorDisc": {
-      "book": "Anruf mit deinem Reiseberater buchen",
-      "booked": "Dein Anruf mit dem Reiseberater"
+      "book": "Anruf mit deinem Reiseexperten buchen",
+      "booked": "Dein Anruf mit dem Reiseexperten"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Gespräch mit ${name} in 3 Stunden",
-      "oneHour": "Gespräch mit ${name} in 1 Stunde",
-      "tenMinutes": "Gespräch mit ${name} in 10 Minuten",
+      "threeHours": "Dein Gespräch mit dem Reiseexperten ist in 3 Stunden",
+      "oneHour": "Dein Gespräch mit dem Reiseexperten ist in 1 Stunde",
+      "tenMinutes": "Dein Gespräch mit dem Reiseexperten ist in 10 Minuten",
       "threeHoursNoName": "Dein Beratungsgespräch ist in 3 Stunden",
       "oneHourNoName": "Dein Beratungsgespräch ist in 1 Stunde",
       "tenMinutesNoName": "Dein Beratungsgespräch ist in 10 Minuten",

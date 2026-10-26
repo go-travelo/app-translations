@@ -29,7 +29,7 @@
       },
       "chatbot": {
         "inputHint": "Demande-moi n'importe quoi",
-        "msg1": "Salut ${user} 👋\n\nJe suis Layla, ta conseillère de voyage.\n\nAvant de commencer, j'aimerais savoir quel genre de voyageur tu es. 🌍\n\nDis-moi quel type de voyage tu cherches, à l'écrit ou à l'oral.",
+        "msg1": "Salut ${user} 👋\n\nJe suis Layla, ta experte voyage.\n\nAvant de commencer, j'aimerais savoir quel genre de voyageur tu es. 🌍\n\nDis-moi quel type de voyage tu cherches, à l'écrit ou à l'oral.",
         "msg2": "Incroyable ! Je crois comprendre ce que tu cherches.\n\nTu as d'autres exigences ?",
         "msg3": "Qu'est-ce qui t'intéresse ?",
         "msg4": "Tu pars d'où ?",
@@ -123,7 +123,7 @@
         "latestTrip": "Dernier voyage",
         "previousTrip": "Voyage précédent",
         "expiredTripTooltip": "Ceci est une version précédente. Ton dernier voyage est affiché ci-dessus.",
-        "continueWithHuman": "Continuer la réservation avec un conseiller",
+        "continueWithHuman": "Continuer la réservation avec un expert",
         "version": "Version ${number}",
         "latestVersion": "Dernière version",
         "reopenVersion": "Rouvrir cette version",
@@ -165,7 +165,7 @@
       },
       "continueWithSelected": "Continuer avec ${n} sélectionné(s)",
       "advisor": {
-        "webviewTitle": "Parler à un conseiller voyage"
+        "webviewTitle": "Parler à un expert voyage"
       },
       "activitiesCard": {
         "addMessage": "Ajoute ${name} à mon voyage"
@@ -689,7 +689,7 @@
           "subtitle": "Vols et séjours présélectionnés"
         },
         "advisor": {
-          "title": "Ton conseiller voyage",
+          "title": "Ton expert voyage",
           "subtitle": "Vérifie et réserve"
         },
         "destination": {
@@ -800,7 +800,7 @@
     "subscription_id_label": "Identifiant d'abonnement:\n${subscriptionId}",
     "add_your_name": "Ajoute ton nom",
     "edit": "Modifier",
-    "advisor_title": "Ton conseiller voyage",
+    "advisor_title": "Ton expert voyage",
     "advisor_subtitle": "Planifie avec toi, réserve tout et reste joignable pendant ton voyage.",
     "book_a_call": "Réserver un appel",
     "your_trips": "Tes voyages",
@@ -827,7 +827,7 @@
     "delete_confirm_again_title": "Dernière vérification",
     "delete_confirm_again_message": "Supprimer le compte ${email} ? Il n'y aura pas de retour en arrière.",
     "sign_in_to_keep_trips": "Connecte-toi pour garder tes voyages",
-    "sign_in_subtitle": "Tes plans, tes réservations et ton conseiller voyage, sur tous tes appareils.",
+    "sign_in_subtitle": "Tes plans, tes réservations et ton expert voyage, sur tous tes appareils.",
     "new_to_layla": "Nouveau sur Layla ?",
     "switch_language_title": "Passer à ${language} ?",
     "switch_language_message": "Layla te parlera désormais en ${language}.",
@@ -1123,7 +1123,7 @@
       },
       "details": {
         "title": "Infos voyageur",
-        "hint": "Préremplit tes réservations et tes appels avec un conseiller.",
+        "hint": "Préremplit tes réservations et tes appels avec un expert.",
         "name": "Nom",
         "email": "E-mail",
         "phone": "Téléphone",
@@ -1577,7 +1577,7 @@
       "noTransportationYet": "Pas encore de transport",
       "addTransportation": "Ajouter un transport",
       "fromPrice": "dès ${price}",
-      "lockedBooked": "Réservé. Les changements sur ce trajet passent par ton conseiller.",
+      "lockedBooked": "Réservé. Les changements sur ce trajet passent par ton expert.",
       "modes": {
         "privateCar": "Voiture personnelle",
         "rentalCar": "Voiture de location",
@@ -2061,7 +2061,7 @@
       "dateOrder": "Chaque départ doit avoir lieu le jour du précédent ou après"
     },
     "advisor": {
-      "plan_with": "Planifier avec $name"
+      "plan_with": "Planifier avec un expert"
     },
     "timeline_intro": {
       "more": "Plus",
@@ -2415,7 +2415,7 @@
       "save": "Enregistrer"
     },
     "call_hero": {
-      "title": "Appel avec $name"
+      "title": "Appel avec un expert voyage"
     }
   },
   "trips_list": {
@@ -2446,8 +2446,8 @@
     }
   },
   "consultation": {
-    "title": "Parler à un conseiller voyage",
-    "advisorRole": "Ton conseiller voyage",
+    "title": "Parler à un expert voyage",
+    "advisorRole": "Ton expert voyage",
     "steps": {
       "details": "Contact",
       "schedule": "Créneau",
@@ -2455,7 +2455,7 @@
     },
     "details": {
       "heading": "Comment te joindre ?",
-      "subheading": "Ton conseiller s'en sert pour confirmer l'appel.",
+      "subheading": "Ton expert s'en sert pour confirmer l'appel.",
       "fullName": "Nom complet",
       "email": "E-mail",
       "phone": "Numéro de téléphone",
@@ -2463,7 +2463,7 @@
       "method": "Comment veux-tu échanger ?",
       "video": "Appel vidéo",
       "phoneCall": "Appel téléphonique",
-      "privacy": "Tes informations restent entre Layla et ton conseiller.",
+      "privacy": "Tes informations restent entre Layla et ton expert.",
       "nameRequired": "Indique ton nom",
       "emailInvalid": "Saisis une adresse e-mail valide",
       "emailRelay": "Il nous faut une adresse e-mail valide pour confirmer ton appel.",
@@ -2488,14 +2488,14 @@
       "heading": "C'est tout bon, ${name} !",
       "headingNoName": "C'est tout bon !",
       "subheading": "Une invitation d'agenda avec tous les détails arrive dans ta boîte mail.",
-      "advisor": "Conseiller",
+      "advisor": "Expert",
       "when": "Quand",
       "call": "Appel",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Déplacer",
       "cancelCall": "Annuler l'appel",
       "done": "Terminé",
-      "otherTrip": "Ton appel du ${date} couvre tous tes projets. Ton conseiller pourra aussi parler de ce voyage.",
+      "otherTrip": "Ton appel du ${date} couvre tous tes projets. Ton expert pourra aussi parler de ce voyage.",
       "status": {
         "confirmed": "Confirmé",
         "rescheduled": "Reprogrammé",
@@ -2510,21 +2510,21 @@
       "pill": "Appel réservé · ${date}",
       "profileLine": "Ton appel : ${date}",
       "view": "Voir la réservation",
-      "disc": "Appel réservé avec ${name}"
+      "disc": "Appel réservé"
     },
     "advisorDisc": {
-      "book": "Réserver un appel avec ton conseiller voyage",
-      "booked": "Ton appel avec le conseiller voyage"
+      "book": "Réserver un appel avec ton expert voyage",
+      "booked": "Ton appel avec le expert voyage"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Appel avec ${name} dans 3 heures",
-      "oneHour": "Appel avec ${name} dans 1 heure",
-      "tenMinutes": "Appel avec ${name} dans 10 minutes",
-      "threeHoursNoName": "Ton appel avec ton conseiller est dans 3 heures",
-      "oneHourNoName": "Ton appel avec ton conseiller est dans 1 heure",
-      "tenMinutesNoName": "Ton appel avec ton conseiller est dans 10 minutes",
+      "threeHours": "Ton appel avec ton expert voyage est dans 3 heures",
+      "oneHour": "Ton appel avec ton expert voyage est dans 1 heure",
+      "tenMinutes": "Ton appel avec ton expert voyage est dans 10 minutes",
+      "threeHoursNoName": "Ton appel avec ton expert est dans 3 heures",
+      "oneHourNoName": "Ton appel avec ton expert est dans 1 heure",
+      "tenMinutesNoName": "Ton appel avec ton expert est dans 10 minutes",
       "body": "${time} · ${medium}. Appuie pour voir les détails."
     },
     "newMessage": {

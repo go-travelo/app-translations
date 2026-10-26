@@ -29,7 +29,7 @@
       },
       "chatbot": {
         "inputHint": "随便问我",
-        "msg1": "嘿，${user} 👋\n\n我是你的旅行顾问Layla。\n\n在我们开始之前，我很想了解你是什么样的旅行者。🌍\n\n告诉我你在寻找什么样的旅行，可以通过写或说出来。",
+        "msg1": "嘿，${user} 👋\n\n我是你的旅行专家Layla。\n\n在我们开始之前，我很想了解你是什么样的旅行者。🌍\n\n告诉我你在寻找什么样的旅行，可以通过写或说出来。",
         "msg2": "太棒了！我想我理解你在寻找什么。\n\n您还有其他需求吗？",
         "msg3": "你对什么感兴趣？",
         "msg4": "你将从哪里出发？",
@@ -163,7 +163,7 @@
       },
       "continueWithSelected": "继续，已选择 ${n} 项",
       "advisor": {
-        "webviewTitle": "联系旅行顾问"
+        "webviewTitle": "联系旅行专家"
       },
       "activitiesCard": {
         "addMessage": "把${name}加到我的行程里"
@@ -678,7 +678,7 @@
           "subtitle": "航班和住宿已初选"
         },
         "advisor": {
-          "title": "你的旅行顾问",
+          "title": "你的旅行专家",
           "subtitle": "核对并预订"
         },
         "destination": {
@@ -789,7 +789,7 @@
     "subscription_id_label": "订阅ID:\n${subscriptionId}",
     "add_your_name": "添加你的名字",
     "edit": "编辑",
-    "advisor_title": "你的旅行顾问",
+    "advisor_title": "你的旅行专家",
     "advisor_subtitle": "和你一起规划，帮你预订，旅途中随时在线。",
     "book_a_call": "预约通话",
     "your_trips": "你的行程",
@@ -816,7 +816,7 @@
     "delete_confirm_again_title": "最后确认",
     "delete_confirm_again_message": "删除 ${email} 的账户？此操作无法撤销。",
     "sign_in_to_keep_trips": "登录以保存你的行程",
-    "sign_in_subtitle": "你的计划、预订和旅行顾问，在每台设备上都在。",
+    "sign_in_subtitle": "你的计划、预订和旅行专家，在每台设备上都在。",
     "new_to_layla": "第一次用 Layla？",
     "switch_language_title": "切换为${language}？",
     "switch_language_message": "从现在起，Layla 将使用${language}与你交流。",
@@ -1110,7 +1110,7 @@
       },
       "details": {
         "title": "旅客信息",
-        "hint": "自动填入你的预订和顾问通话。",
+        "hint": "自动填入你的预订和专家通话。",
         "name": "姓名",
         "email": "邮箱",
         "phone": "电话",
@@ -1547,7 +1547,7 @@
       "noTransportationYet": "暂无交通安排",
       "addTransportation": "添加交通",
       "fromPrice": "${price} 起",
-      "lockedBooked": "已预订。此段行程的更改请联系你的旅行顾问。",
+      "lockedBooked": "已预订。此段行程的更改请联系你的旅行专家。",
       "modes": {
         "privateCar": "自驾车",
         "rentalCar": "租车",
@@ -2030,7 +2030,7 @@
       "dateOrder": "每段出发日期不能早于前一段"
     },
     "advisor": {
-      "plan_with": "与$name一起规划"
+      "plan_with": "与专家一起规划"
     },
     "timeline_intro": {
       "more": "更多",
@@ -2375,7 +2375,7 @@
       "save": "保存"
     },
     "call_hero": {
-      "title": "与 $name 通话"
+      "title": "与旅行专家通话"
     }
   },
   "trips_list": {
@@ -2405,8 +2405,8 @@
     }
   },
   "consultation": {
-    "title": "联系旅行顾问",
-    "advisorRole": "你的旅行顾问",
+    "title": "联系旅行专家",
+    "advisorRole": "你的旅行专家",
     "steps": {
       "details": "联系方式",
       "schedule": "时间",
@@ -2414,7 +2414,7 @@
     },
     "details": {
       "heading": "怎么联系你？",
-      "subheading": "顾问会用这些信息确认通话。",
+      "subheading": "专家会用这些信息确认通话。",
       "fullName": "姓名",
       "email": "邮箱",
       "phone": "手机号",
@@ -2422,7 +2422,7 @@
       "method": "你想怎么沟通？",
       "video": "视频通话",
       "phoneCall": "电话",
-      "privacy": "你的信息只会留在 Layla 和你的顾问这里。",
+      "privacy": "你的信息只会留在 Layla 和你的专家这里。",
       "nameRequired": "请填写姓名",
       "emailInvalid": "请输入有效的邮箱地址",
       "emailRelay": "我们需要一个可用的邮箱来确认通话。",
@@ -2447,14 +2447,14 @@
       "heading": "搞定了，${name}！",
       "headingNoName": "搞定了！",
       "subheading": "含全部详情的日历邀请正在发往你的邮箱。",
-      "advisor": "顾问",
+      "advisor": "专家",
       "when": "时间",
       "call": "通话",
       "callValue": "${medium} · ${minutes} 分钟",
       "reschedule": "改期",
       "cancelCall": "取消通话",
       "done": "完成",
-      "otherTrip": "你在 ${date} 的通话涵盖你的所有计划，顾问也可以聊聊这次旅行。",
+      "otherTrip": "你在 ${date} 的通话涵盖你的所有计划，专家也可以聊聊这次旅行。",
       "status": {
         "confirmed": "已确认",
         "rescheduled": "已改期",
@@ -2469,21 +2469,21 @@
       "pill": "已预约通话 · ${date}",
       "profileLine": "你的通话：${date}",
       "view": "查看预约",
-      "disc": "已预约与${name}的通话"
+      "disc": "通话已预约"
     },
     "advisorDisc": {
-      "book": "预约与旅行顾问通话",
-      "booked": "你的旅行顾问通话"
+      "book": "预约与旅行专家通话",
+      "booked": "你的旅行专家通话"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "与 ${name} 的通话将在 3 小时后开始",
-      "oneHour": "与 ${name} 的通话将在 1 小时后开始",
-      "tenMinutes": "与 ${name} 的通话将在 10 分钟后开始",
-      "threeHoursNoName": "你的顾问通话将在 3 小时后开始",
-      "oneHourNoName": "你的顾问通话将在 1 小时后开始",
-      "tenMinutesNoName": "你的顾问通话将在 10 分钟后开始",
+      "threeHours": "你与旅行专家的通话将在 3 小时后开始",
+      "oneHour": "你与旅行专家的通话将在 1 小时后开始",
+      "tenMinutes": "你与旅行专家的通话将在 10 分钟后开始",
+      "threeHoursNoName": "你的专家通话将在 3 小时后开始",
+      "oneHourNoName": "你的专家通话将在 1 小时后开始",
+      "tenMinutesNoName": "你的专家通话将在 10 分钟后开始",
       "body": "${time} · ${medium}。点按查看详情。"
     },
     "newMessage": {

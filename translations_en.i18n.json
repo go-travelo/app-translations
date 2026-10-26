@@ -128,7 +128,7 @@
       },
       "chatbot": {
         "inputHint": "Ask me anything",
-        "msg1": "Hey ${user} 👋\n\nI'm Layla, your Travel Advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
+        "msg1": "Hey ${user} 👋\n\nI'm Layla, your travel expert.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
         "msg2": "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
         "msg3": "What are you interested in?",
         "msg4": "Where will you depart from?",
@@ -264,7 +264,7 @@
       },
       "continueWithSelected": "Continue with ${n} selected",
       "advisor": {
-        "webviewTitle": "Talk to a travel advisor"
+        "webviewTitle": "Talk to a travel expert"
       },
       "activitiesCard": {
         "addMessage": "Add ${name} to my trip"
@@ -788,7 +788,7 @@
           "subtitle": "Shortlisted flights and stays"
         },
         "advisor": {
-          "title": "Your advisor",
+          "title": "Your expert",
           "subtitle": "Checks and books"
         },
         "destination": {
@@ -899,7 +899,7 @@
     "subscription_id_label": "Subscription ID:\n${subscriptionId}",
     "add_your_name": "Add your name",
     "edit": "Edit",
-    "advisor_title": "Your travel advisor",
+    "advisor_title": "Your travel expert",
     "advisor_subtitle": "Plans with you, books it and stays on call while you're away.",
     "book_a_call": "Book a call",
     "your_trips": "Your trips",
@@ -926,7 +926,7 @@
     "delete_confirm_again_title": "Last check",
     "delete_confirm_again_message": "Delete the account for ${email}? There is no way back.",
     "sign_in_to_keep_trips": "Sign in to keep your trips",
-    "sign_in_subtitle": "Your plans, bookings and your travel advisor, on every device.",
+    "sign_in_subtitle": "Your plans, bookings and your travel expert, on every device.",
     "new_to_layla": "New to Layla?",
     "switch_language_title": "Switch to ${language}?",
     "switch_language_message": "Layla will speak ${language} from now on.",
@@ -1222,7 +1222,7 @@
       },
       "details": {
         "title": "Traveller details",
-        "hint": "Prefills your bookings and advisor calls.",
+        "hint": "Prefills your bookings and expert calls.",
         "name": "Name",
         "email": "Email",
         "phone": "Phone",
@@ -1707,7 +1707,7 @@
       "noTransportationYet": "No transportation yet",
       "addTransportation": "Add transportation",
       "fromPrice": "from ${price}",
-      "lockedBooked": "Booked. Changes to this route go through your advisor.",
+      "lockedBooked": "Booked. Changes to this route go through your expert.",
       "modes": {
         "privateCar": "Private car",
         "rentalCar": "Rental car",
@@ -2201,7 +2201,7 @@
       "dateOrder": "Each departure must be on or after the one before it"
     },
     "advisor": {
-      "plan_with": "Plan with $name"
+      "plan_with": "Plan with an expert"
     },
     "timeline_intro": {
       "more": "More",
@@ -2587,7 +2587,7 @@
       "save": "Save"
     },
     "call_hero": {
-      "title": "Call with $name"
+      "title": "Call with a travel expert"
     }
   },
   "trips_list": {
@@ -2764,8 +2764,8 @@
     }
   },
   "consultation": {
-    "title": "Talk to a travel advisor",
-    "advisorRole": "Your travel advisor",
+    "title": "Talk to a travel expert",
+    "advisorRole": "Your travel expert",
     "steps": {
       "details": "Details",
       "schedule": "Time",
@@ -2773,7 +2773,7 @@
     },
     "details": {
       "heading": "How can we reach you?",
-      "subheading": "Your advisor uses these to confirm the call.",
+      "subheading": "Your expert uses these to confirm the call.",
       "fullName": "Full name",
       "email": "Email",
       "phone": "Phone number",
@@ -2781,7 +2781,7 @@
       "method": "How would you like to talk?",
       "video": "Video call",
       "phoneCall": "Phone call",
-      "privacy": "Your details stay with Layla and your advisor.",
+      "privacy": "Your details stay with Layla and your expert.",
       "nameRequired": "Please add your name",
       "emailInvalid": "Please enter a valid email address",
       "emailRelay": "We need a working email to confirm your call.",
@@ -2806,14 +2806,14 @@
       "heading": "You're all set, ${name}!",
       "headingNoName": "You're all set!",
       "subheading": "A calendar invite with the details is on its way to your email.",
-      "advisor": "Advisor",
+      "advisor": "Expert",
       "when": "When",
       "call": "Call",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Reschedule",
       "cancelCall": "Cancel call",
       "done": "Done",
-      "otherTrip": "Your call on ${date} covers all your plans. Your advisor can talk about this trip too.",
+      "otherTrip": "Your call on ${date} covers all your plans. Your expert can talk about this trip too.",
       "status": {
         "confirmed": "Confirmed",
         "rescheduled": "Rescheduled",
@@ -2828,21 +2828,21 @@
       "pill": "Call booked · ${date}",
       "profileLine": "Your call: ${date}",
       "view": "View booking",
-      "disc": "Call booked with ${name}"
+      "disc": "Call booked"
     },
     "advisorDisc": {
-      "book": "Book a call with your advisor",
-      "booked": "Your advisor call"
+      "book": "Book a call with your expert",
+      "booked": "Your expert call"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Call with ${name} in 3 hours",
-      "oneHour": "Call with ${name} in 1 hour",
-      "tenMinutes": "Call with ${name} in 10 minutes",
-      "threeHoursNoName": "Your advisor call is in 3 hours",
-      "oneHourNoName": "Your advisor call is in 1 hour",
-      "tenMinutesNoName": "Your advisor call is in 10 minutes",
+      "threeHours": "Your call with a travel expert is in 3 hours",
+      "oneHour": "Your call with a travel expert is in 1 hour",
+      "tenMinutes": "Your call with a travel expert is in 10 minutes",
+      "threeHoursNoName": "Your expert call is in 3 hours",
+      "oneHourNoName": "Your expert call is in 1 hour",
+      "tenMinutesNoName": "Your expert call is in 10 minutes",
       "body": "${time} · ${medium}. Tap for the details."
     },
     "newMessage": {

@@ -29,7 +29,7 @@
       },
       "chatbot": {
         "inputHint": "Vraag me iets",
-        "msg1": "Hoi ${user} 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+        "msg1": "Hoi ${user} 👋\n\nIk ben Layla, je reisexpert.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
         "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
@@ -165,7 +165,7 @@
       },
       "continueWithSelected": "Doorgaan met ${n} geselecteerd",
       "advisor": {
-        "webviewTitle": "Praat met een reisadviseur"
+        "webviewTitle": "Praat met een reisexpert"
       },
       "activitiesCard": {
         "addMessage": "Voeg ${name} toe aan mijn reis"
@@ -689,7 +689,7 @@
           "subtitle": "Vluchten en verblijven voorgeselecteerd"
         },
         "advisor": {
-          "title": "Je reisadviseur",
+          "title": "Je reisexpert",
           "subtitle": "Checkt en boekt"
         },
         "destination": {
@@ -800,7 +800,7 @@
     "subscription_id_label": "Abonnements-ID:\n${subscriptionId}",
     "add_your_name": "Voeg je naam toe",
     "edit": "Bewerken",
-    "advisor_title": "Je reisadviseur",
+    "advisor_title": "Je reisexpert",
     "advisor_subtitle": "Plant met je mee, boekt alles en blijft bereikbaar terwijl je weg bent.",
     "book_a_call": "Gesprek inplannen",
     "your_trips": "Je reizen",
@@ -827,7 +827,7 @@
     "delete_confirm_again_title": "Laatste check",
     "delete_confirm_again_message": "Account van ${email} verwijderen? Er is geen weg terug.",
     "sign_in_to_keep_trips": "Log in om je reizen te bewaren",
-    "sign_in_subtitle": "Je plannen, boekingen en je reisadviseur, op elk apparaat.",
+    "sign_in_subtitle": "Je plannen, boekingen en je reisexpert, op elk apparaat.",
     "new_to_layla": "Nieuw bij Layla?",
     "switch_language_title": "Overschakelen naar ${language}?",
     "switch_language_message": "Layla spreekt vanaf nu ${language}.",
@@ -1577,7 +1577,7 @@
       "noTransportationYet": "Nog geen vervoer",
       "addTransportation": "Vervoer toevoegen",
       "fromPrice": "vanaf ${price}",
-      "lockedBooked": "Geboekt. Wijzigingen aan deze route lopen via je reisadviseur.",
+      "lockedBooked": "Geboekt. Wijzigingen aan deze route lopen via je reisexpert.",
       "modes": {
         "privateCar": "Eigen auto",
         "rentalCar": "Huurauto",
@@ -2061,7 +2061,7 @@
       "dateOrder": "Elk vertrek moet op of na het vorige vallen"
     },
     "advisor": {
-      "plan_with": "Plan met $name"
+      "plan_with": "Plan met een expert"
     },
     "timeline_intro": {
       "more": "Meer",
@@ -2415,7 +2415,7 @@
       "save": "Opslaan"
     },
     "call_hero": {
-      "title": "Gesprek met $name"
+      "title": "Gesprek met een reisexpert"
     }
   },
   "trips_list": {
@@ -2437,8 +2437,8 @@
     "sort_date_created": "Aanmaakdatum"
   },
   "consultation": {
-    "title": "Praat met een reisadviseur",
-    "advisorRole": "Je reisadviseur",
+    "title": "Praat met een reisexpert",
+    "advisorRole": "Je reisexpert",
     "steps": {
       "details": "Gegevens",
       "schedule": "Tijd",
@@ -2446,7 +2446,7 @@
     },
     "details": {
       "heading": "Hoe bereiken we je?",
-      "subheading": "Je adviseur gebruikt dit om het gesprek te bevestigen.",
+      "subheading": "Je expert gebruikt dit om het gesprek te bevestigen.",
       "fullName": "Volledige naam",
       "email": "E-mail",
       "phone": "Telefoonnummer",
@@ -2454,7 +2454,7 @@
       "method": "Hoe wil je praten?",
       "video": "Videogesprek",
       "phoneCall": "Telefoongesprek",
-      "privacy": "Je gegevens blijven bij Layla en je adviseur.",
+      "privacy": "Je gegevens blijven bij Layla en je expert.",
       "nameRequired": "Vul je naam in",
       "emailInvalid": "Vul een geldig e-mailadres in",
       "emailRelay": "We hebben een werkend e-mailadres nodig om je gesprek te bevestigen.",
@@ -2479,14 +2479,14 @@
       "heading": "Helemaal geregeld, ${name}!",
       "headingNoName": "Helemaal geregeld!",
       "subheading": "Een agenda-uitnodiging met alle details is onderweg naar je mail.",
-      "advisor": "Adviseur",
+      "advisor": "Expert",
       "when": "Wanneer",
       "call": "Gesprek",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Verzetten",
       "cancelCall": "Gesprek annuleren",
       "done": "Klaar",
-      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je adviseur kan het ook over deze reis hebben.",
+      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je expert kan het ook over deze reis hebben.",
       "status": {
         "confirmed": "Bevestigd",
         "rescheduled": "Verzet",
@@ -2501,21 +2501,21 @@
       "pill": "Gesprek geboekt · ${date}",
       "profileLine": "Je gesprek: ${date}",
       "view": "Boeking bekijken",
-      "disc": "Gesprek geboekt met ${name}"
+      "disc": "Gesprek geboekt"
     },
     "advisorDisc": {
-      "book": "Een gesprek met je reisadviseur inplannen",
-      "booked": "Je gesprek met de reisadviseur"
+      "book": "Een gesprek met je reisexpert inplannen",
+      "booked": "Je gesprek met de reisexpert"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Gesprek met ${name} over 3 uur",
-      "oneHour": "Gesprek met ${name} over 1 uur",
-      "tenMinutes": "Gesprek met ${name} over 10 minuten",
-      "threeHoursNoName": "Je gesprek met je reisadviseur is over 3 uur",
-      "oneHourNoName": "Je gesprek met je reisadviseur is over 1 uur",
-      "tenMinutesNoName": "Je gesprek met je reisadviseur is over 10 minuten",
+      "threeHours": "Je gesprek met je reisexpert is over 3 uur",
+      "oneHour": "Je gesprek met je reisexpert is over 1 uur",
+      "tenMinutes": "Je gesprek met je reisexpert is over 10 minuten",
+      "threeHoursNoName": "Je gesprek met je reisexpert is over 3 uur",
+      "oneHourNoName": "Je gesprek met je reisexpert is over 1 uur",
+      "tenMinutesNoName": "Je gesprek met je reisexpert is over 10 minuten",
       "body": "${time} · ${medium}. Tik voor de details."
     },
     "newMessage": {
