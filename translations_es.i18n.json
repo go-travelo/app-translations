@@ -1,4 +1,103 @@
 {
+  "activityDetail": {
+    "topRated": "Muy valorado",
+    "bestseller": "Superventas",
+    "freeAdmission": "Entrada gratuita",
+    "reviewsTitle": "Opiniones",
+    "reviewsCount": "${n} opiniones",
+    "seeAll": "Ver todo",
+    "topicService": "Servicio",
+    "topicTransportation": "Transporte",
+    "topicValue": "Relación calidad-precio",
+    "topicSafety": "Seguridad",
+    "lovedTitle": "Lo que más gustó a los viajeros",
+    "goodToKnowTitle": "Conviene saber",
+    "durationLabel": "Duración",
+    "durationMinutes": "${n} min",
+    "durationHours": "${n} h",
+    "durationDays": "${n} días",
+    "groupSizeLabel": "Tamaño del grupo",
+    "groupSizeUpTo": "Hasta ${n} personas",
+    "groupSizeRange": "${min}–${max} personas",
+    "validityLabel": "Validez",
+    "languagesLabel": "Idiomas",
+    "liveGuide": "Guía en persona",
+    "featureSkipTheLine": "Sin colas",
+    "featureWheelchairAccessible": "Accesible en silla de ruedas",
+    "featurePickupIncluded": "Recogida incluida",
+    "featureMobileVoucher": "Bono en el móvil",
+    "featureInstantConfirmation": "Confirmación inmediata",
+    "highlightsTitle": "Lo más destacado",
+    "descriptionTitle": "Sobre esta experiencia",
+    "insiderTipsTitle": "Consejos de expertos",
+    "optionsTitle": "Opciones",
+    "includesTitle": "Qué incluye",
+    "addonsTitle": "Extras",
+    "itineraryTitle": "Itinerario",
+    "itineraryStart": "Inicio",
+    "itineraryFinish": "Fin",
+    "admissionIncluded": "Entrada incluida",
+    "admissionNotIncluded": "Entrada no incluida",
+    "passBy": "Pasa de largo sin parar",
+    "meetingPointTitle": "Punto de encuentro",
+    "notSuitableTitle": "No apto para",
+    "whatToBringTitle": "Qué llevar",
+    "notAllowedTitle": "No permitido",
+    "importantInfoTitle": "Información importante",
+    "freeCancellation": "Cancelación gratuita",
+    "freeCancellationBefore": "Cancelación gratuita hasta ${hours} h antes del inicio",
+    "supplierTitle": "Organizado por",
+    "machineTranslatedNote": "Parte de este contenido se ha traducido automáticamente.",
+    "openingHoursTitle": "Horario",
+    "faqTitle": "Preguntas frecuentes",
+    "experiencesTitle": "Formas de vivirlo",
+    "recommendationsTitle": "También te puede gustar",
+    "fromPrice": "Desde"
+  },
+  "placeDetail": {
+    "aboutTitle": "Acerca de",
+    "goodToKnowTitle": "Conviene saber",
+    "openingHoursTitle": "Horario",
+    "contactTitle": "Contacto",
+    "permanentlyClosed": "Cerrado permanentemente",
+    "temporarilyClosed": "Cerrado temporalmente",
+    "unavailable": "Los detalles no están disponibles ahora mismo.",
+    "viewOnGoogleMaps": "Ver en Google Maps",
+    "perPerson": "por persona",
+    "offerings": {
+      "dineIn": "Para comer allí",
+      "takeout": "Para llevar",
+      "delivery": "A domicilio",
+      "curbsidePickup": "Recogida en la puerta",
+      "reservable": "Reservas",
+      "breakfast": "Desayuno",
+      "brunch": "Brunch",
+      "lunch": "Comida",
+      "dinner": "Cena",
+      "beer": "Cerveza",
+      "wine": "Vino",
+      "vegetarian": "Opciones vegetarianas",
+      "cocktails": "Cócteles",
+      "coffee": "Café",
+      "dessert": "Postres",
+      "outdoorSeating": "Terraza",
+      "liveMusic": "Música en directo",
+      "menuForChildren": "Menú infantil",
+      "goodForChildren": "Ideal para niños",
+      "goodForGroups": "Ideal para grupos",
+      "goodForWatchingSports": "Deporte en la tele",
+      "allowsDogs": "Admite perros",
+      "restroom": "Aseos",
+      "creditCards": "Tarjetas de crédito",
+      "contactless": "Pago sin contacto",
+      "freeParking": "Aparcamiento gratuito",
+      "paidParking": "Aparcamiento de pago",
+      "valetParking": "Aparcacoches",
+      "wheelchair": "Accesible en silla de ruedas",
+      "wheelchairParking": "Aparcamiento accesible",
+      "wheelchairRestroom": "Aseo accesible"
+    }
+  },
   "blog": {
     "postNotFound": "Por favor, verifica la dirección URL, no tenemos esa publicación.",
     "askLaylaAbout": "Pregunta a Layla sobre ${name}",
@@ -107,6 +206,7 @@
       "messageHint": "Pregúntame lo que sea",
       "discardRecording": "Descartar grabación",
       "useRecording": "Usar grabación",
+      "possibleNextSteps": "Posibles próximos pasos",
       "contextMenu": {
         "copy": "Copiar",
         "good_response": "Buena respuesta",
@@ -139,13 +239,32 @@
           "other": "${n} hoteles"
         }
       },
+      "flightsCard": {
+        "type": "Vuelos",
+        "inLocation": "Vuelos a ${location}",
+        "seeAll": "Ver todos los vuelos",
+        "moreFlights": {
+          "one": "+${n} vuelo más",
+          "other": "+${n} vuelos más"
+        },
+        "checkedBag": "Maleta facturada incluida",
+        "cabinBag": "Equipaje de mano incluido"
+      },
+      "carRentalsCard": {
+        "type": "Coches de alquiler",
+        "inLocation": "Coches en ${location}",
+        "seeAll": "Ver todos los coches",
+        "priceTotal": "total"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} de ${total}"
+      },
       "attach": {
         "photoLibrary": "Fototeca",
         "files": "Archivos",
         "camera": "Cámara",
         "title": "Añadir al chat"
       },
-      "possibleNextSteps": "Posibles próximos pasos",
       "destinations_card": {
         "title": "Destinos para ti",
         "subtitle": "Toca para ver y elegir",
@@ -168,6 +287,9 @@
         "webviewTitle": "Hablar con un experto en viajes"
       },
       "activitiesCard": {
+        "type": "Actividades",
+        "inLocation": "Actividades en ${location}",
+        "seeAll": "Ver todas las actividades",
         "addMessage": "Añade ${name} a mi viaje"
       },
       "connectorsChip": "Importar de Gmail o Outlook",
@@ -388,6 +510,7 @@
     "flight_price_range": "Rango de precio del vuelo",
     "average_price": "Precio promedio ${price}",
     "or_less": "o menos",
+    "or": "o",
     "flight_time": "Duración del vuelo",
     "average_duration": "Duración promedio ${hours} h",
     "round_hrs": "${val} hrs",
@@ -404,8 +527,7 @@
     "km_from": "${distance}km desde ${city}",
     "consider_broadening": "¡Ups! No pudimos encontrar coincidencias según tus preferencias actuales. Considera ampliar la búsqueda ajustando tus preferencias para obtener una gama más amplia de opciones.",
     "return_with_bullet": " ${code} regreso",
-    "approx_for_your_dates": "Aprox. para tus fechas",
-    "or": "o"
+    "approx_for_your_dates": "Aprox. para tus fechas"
   },
   "flights_feat": {
     "flights_to": "Vuelos a ${to}",
@@ -414,6 +536,7 @@
     "all_filters": "Todos los filtros",
     "no_flights": "No hay vuelos",
     "estimated_price": "Precio Estimado",
+    "estimated": "Estimado",
     "livePrices": "Precio En Vivo",
     "travelers_info_updated_successfully": "Información de viajeros actualizada con éxito",
     "flight_details": "Detalles del vuelo",
@@ -466,8 +589,7 @@
       "other": "${n} pasajeros"
     },
     "one_way": "Solo ida",
-    "youll_arrive_next_day": "Llegarás al día siguiente",
-    "estimated": "Estimado"
+    "youll_arrive_next_day": "Llegarás al día siguiente"
   },
   "hotel": {
     "aboutProperty": "Acerca de este alojamiento",
@@ -624,7 +746,8 @@
     "price_for_night": {
       "one": "Precio por ${n} noche",
       "other": "Precio ${n} noches"
-    }
+    },
+    "laylasTip": "El consejo de Layla"
   },
   "language": {
     "select_language": "Seleccionar idioma"
@@ -1208,7 +1331,9 @@
     "error_wrong_password": "Contraseña incorrecta. Inténtelo de nuevo.",
     "error_invalid_credential": "Correo o contraseña incorrectos.",
     "error_too_many_requests": "Demasiados intentos. Inténtelo más tarde.",
-    "error_network": "Error de red. Comprueba tu conexión."
+    "error_network": "Error de red. Comprueba tu conexión.",
+    "reset_link_sent": "Revisa tu bandeja de entrada. Si hay una cuenta con este correo, el enlace para restablecer la contraseña está en camino.",
+    "reset_link_failed": "No hemos podido enviar el enlace. Inténtalo de nuevo."
   },
   "splash": {
     "discover_where_to": "Descubre cuál será\ntu próximo destino.",
@@ -1316,6 +1441,14 @@
     "one": "${n} día",
     "other": "${n} días"
   },
+  "hours": {
+    "one": "${n} hora",
+    "other": "${n} horas"
+  },
+  "minutes": {
+    "one": "${n} minuto",
+    "other": "${n} minutos"
+  },
   "children": {
     "one": "${n} niño",
     "other": "${n} niños"
@@ -1392,6 +1525,26 @@
   "contact_us": "Contáctenos",
   "continue_label": "Continuar",
   "create": "Crear",
+  "create_screen": {
+    "greetingWithName": "Hola ${name},\n¿dónde quieres *despertar* la próxima vez?",
+    "greeting": "¿Dónde quieres *despertar* la próxima vez?",
+    "listening": "Escuchando...",
+    "placeholders": [
+      "Un recorrido de 2 semanas por Italia: Roma, Florencia y la Costa Amalfitana...",
+      "Un mes explorando Tailandia, Vietnam y Bali...",
+      "Tres semanas en Japón, de Tokio a Kioto y Hokkaido...",
+      "Una ruta de 10 días por el suroeste de Estados Unidos...",
+      "Un viaje en tren de 3 semanas por Europa...",
+      "Una luna de miel de 2 semanas en las Maldivas y las Seychelles...",
+      "Un viaje familiar de 12 días: París, Barcelona, Lisboa...",
+      "Dos semanas tras la aurora boreal en Islandia y Noruega...",
+      "Un safari y playa de 16 días en Kenia y Zanzíbar...",
+      "Una aventura mochilera de 21 días por Sudamérica..."
+    ],
+    "planIt": "Planéalo",
+    "tapAndTell": "Toca y cuéntaselo a Layla",
+    "placeholder": "Diez días en Italia por nuestro aniversario, sin prisas…"
+  },
   "creator": "Creador",
   "currency": "Moneda",
   "daysWord": "Días",
@@ -1455,14 +1608,17 @@
   "preferences": "Preferencias",
   "exploreWord": "Explorar",
   "profileWord": "Perfil",
+  "tripsWord": "Viajes",
   "powered_by": "Desarrollado por",
   "read_more": "Leer más",
+  "read_less": "Leer menos",
   "remove": "Eliminar",
   "rename": "Renombrar",
   "reset": "Restablecer",
   "returnWord": "Regreso",
   "roomsWord": "Habitaciones",
   "search": "Buscar",
+  "searchTrips": "Buscar viajes...",
   "save": "Guardar",
   "saved_to": "Guardado en",
   "see_all": "Ver todo",
@@ -1612,6 +1768,16 @@
       "trip": "Viaje",
       "cart": "Carrito"
     },
+    "hide_chat": "Ocultar chat",
+    "show_chat": "Mostrar chat",
+    "cart_with_total": "Carrito · $total",
+    "footer": {
+      "from_total": "Desde $total",
+      "total_for": {
+        "one": "en total para $n persona",
+        "other": "en total para $n personas"
+      }
+    },
     "messages": {
       "inviteComingSoon": "Invitar - Próximamente",
       "deleteTransportComingSoon": "Eliminar transporte - Próximamente",
@@ -1628,6 +1794,7 @@
       "hotelRemovedSuccessfully": "Hotel eliminado correctamente",
       "failedRemoveHotel": "No se pudo eliminar el hotel. Por favor, inténtalo de nuevo.",
       "failedRemoveFlight": "No se pudo eliminar el vuelo. Por favor, inténtalo de nuevo.",
+      "failedRemoveExperience": "No se pudo quitar la experiencia. Inténtalo de nuevo.",
       "updatingCarOption": "Actualizando opción de auto...",
       "transportOptionUpdated": "Opción de transporte actualizada correctamente",
       "failedUpdateTransport": "No se pudo actualizar la opción de transporte",
@@ -1693,6 +1860,8 @@
         "totalCost": "Costo Total",
         "laylasPicks": "Selección de Layla",
         "liveSearch": "Búsqueda en vivo",
+        "multiCity": "Multidestino",
+        "addAnotherFlight": "Añadir otro vuelo",
         "partialResults": "Mostrando resultados parciales: la búsqueda no terminó a tiempo.",
         "showFlights": "Mostrar vuelos ($n)",
         "selected": "Seleccionado",
@@ -1756,7 +1925,34 @@
         "searchCarRentals": "Buscar Alquiler de Autos",
         "noCarRentalsFound": "No se encontraron alquileres de autos",
         "tryAdjustingCriteria": "Intenta ajustar tus criterios de búsqueda",
-        "failedSearch": "No se pudo buscar alquileres de autos. Por favor, inténtalo de nuevo."
+        "failedSearch": "No se pudo buscar alquileres de autos. Por favor, inténtalo de nuevo.",
+        "selectCar": "Elegir coche",
+        "refine": {
+          "transmission": "Transmisión",
+          "automatic": "Automático",
+          "manual": "Manual",
+          "carType": "Tipo de coche",
+          "mini": "Mini",
+          "economy": "Económico",
+          "compact": "Compacto",
+          "intermediate": "Intermedio",
+          "standard": "Estándar",
+          "fullsize": "Grande",
+          "premium": "Premium",
+          "luxury": "Lujo",
+          "suv": "SUV",
+          "van": "Monovolumen",
+          "estate": "Familiar",
+          "convertible": "Descapotable",
+          "pickup": "Pick-up",
+          "fuel": "Combustible",
+          "electric": "Eléctrico",
+          "hybrid": "Híbrido",
+          "diesel": "Diésel",
+          "petrol": "Gasolina",
+          "airportOnly": "En el aeropuerto",
+          "budgetTotal": "Presupuesto (total)"
+        }
       },
       "activities": {
         "activities": "Actividades",
@@ -1870,7 +2066,13 @@
         "addToTrip": "Agregar al viaje",
         "perTotal": "/total",
         "freeCancellation": "Cancelación gratuita",
-        "at": "en"
+        "at": "en",
+        "cheapest": "El más barato",
+        "book": "Reservar",
+        "orSimilar": "o similar",
+        "addedToTrip": "Agregado al viaje",
+        "addToTripMessage": "Añade el ${car} de ${supplier} a mi viaje",
+        "total": "total"
       },
       "flightCard": {
         "selected": "Seleccionado",
@@ -1878,7 +2080,8 @@
         "perPerson": "/persona",
         "nonStop": "Sin escalas",
         "oneStop": "1 escala",
-        "stops": "escalas"
+        "stops": "escalas",
+        "addToTripMessage": "Añade el vuelo ${route} del ${date} a mi viaje"
       },
       "hotelCard": {
         "reviews": "Reseñas",
@@ -1941,6 +2144,8 @@
     "overview": {
       "madeBy": "Creado por ${creator}",
       "highlightsTitle": "Aspectos destacados del viaje de un vistazo",
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "Mostrar todo",
       "showAllFlights": "Ver todos los vuelos",
       "showAllTransport": "Ver todos los transportes",
@@ -1986,8 +2191,6 @@
         "durationHrShort": "${n} h",
         "durationHrMin": "${h} h ${m} min"
       },
-      "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5",
       "add": {
         "activityTitle": "Añadir una actividad",
         "activityBody": "Elige un tour o una experiencia para tus días.",
@@ -2042,7 +2245,6 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {},
     "quickEdit": {
       "title": "Fechas y viajeros",
       "itinerary": "Itinerario",
@@ -2071,6 +2273,9 @@
       "failed": "No pudimos actualizar tu viaje. Inténtalo de nuevo.",
       "stale": "Tu viaje cambió mientras tanto. Inténtalo de nuevo.",
       "updating": "Layla está actualizando tu viaje…"
+    },
+    "legPicker": {
+      "overview": "Resumen"
     }
   },
   "tripWord": "Viaje",
@@ -2184,6 +2389,27 @@
     "day": "Día",
     "category": "Categoría"
   },
+  "trip_book": {
+    "accommodations": "Alojamientos",
+    "flights": "Vuelos",
+    "private_transport": "Transporte privado",
+    "experiences": "Experiencias",
+    "save_on_booking": "Ahorra ${amount} en comparación con reservar por separado",
+    "layla_brings_deals": "Layla te trae las mejores ofertas.",
+    "title": "Reservar viaje",
+    "book": "Reservar",
+    "delete": "Eliminar",
+    "alternative": "Alternativa",
+    "experts_title": "Reserva este viaje con nuestros expertos",
+    "benefit1_title": "Más de 32 horas de planificación ahorradas",
+    "benefit1_description": "Relájate — nuestros expertos se encargan de cada detalle.",
+    "benefit2_title": "${n}+ reservas individuales gestionadas",
+    "benefit2_description": "Hoteles, vuelos, actividades — coordinamos todo para tu viaje soñado.",
+    "benefit3_title": "${n}+ traslados organizados sin problemas",
+    "benefit3_description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
+    "continue_with_human": "Continuar con un experto en viajes",
+    "continue_with_booking": "Continuar con la reserva"
+  },
   "paywall": {
     "title": "Desbloquea Tu Viaje Completo",
     "subtitle": "Continúa con Premium para planificación ilimitada y ahorros exclusivos.",
@@ -2247,49 +2473,6 @@
       "subtitle": "Activa el procesamiento de IA en Configuración para chatear y generar un plan de viaje."
     }
   },
-  "trip_book": {
-    "accommodations": "Alojamientos",
-    "flights": "Vuelos",
-    "private_transport": "Transporte privado",
-    "experiences": "Experiencias",
-    "save_on_booking": "Ahorra ${amount} en comparación con reservar por separado",
-    "layla_brings_deals": "Layla te trae las mejores ofertas.",
-    "title": "Reservar viaje",
-    "book": "Reservar",
-    "delete": "Eliminar",
-    "alternative": "Alternativa",
-    "experts_title": "Reserva este viaje con nuestros expertos",
-    "benefit1_title": "Más de 32 horas de planificación ahorradas",
-    "benefit1_description": "Relájate — nuestros expertos se encargan de cada detalle.",
-    "benefit2_title": "${n}+ reservas individuales gestionadas",
-    "benefit2_description": "Hoteles, vuelos, actividades — coordinamos todo para tu viaje soñado.",
-    "benefit3_title": "${n}+ traslados organizados sin problemas",
-    "benefit3_description": "De parada en parada — garantizamos conexiones perfectamente sincronizadas en tu ruta.",
-    "continue_with_human": "Continuar con un experto en viajes",
-    "continue_with_booking": "Continuar con la reserva"
-  },
-  "create_screen": {
-    "greetingWithName": "Hola ${name},\n¿dónde quieres *despertar* la próxima vez?",
-    "greeting": "¿Dónde quieres *despertar* la próxima vez?",
-    "listening": "Escuchando...",
-    "placeholders": [
-      "Un recorrido de 2 semanas por Italia: Roma, Florencia y la Costa Amalfitana...",
-      "Un mes explorando Tailandia, Vietnam y Bali...",
-      "Tres semanas en Japón, de Tokio a Kioto y Hokkaido...",
-      "Una ruta de 10 días por el suroeste de Estados Unidos...",
-      "Un viaje en tren de 3 semanas por Europa...",
-      "Una luna de miel de 2 semanas en las Maldivas y las Seychelles...",
-      "Un viaje familiar de 12 días: París, Barcelona, Lisboa...",
-      "Dos semanas tras la aurora boreal en Islandia y Noruega...",
-      "Un safari y playa de 16 días en Kenia y Zanzíbar...",
-      "Una aventura mochilera de 21 días por Sudamérica..."
-    ],
-    "planIt": "Planéalo",
-    "tapAndTell": "Toca y cuéntaselo a Layla",
-    "placeholder": "Diez días en Italia por nuestro aniversario, sin prisas…"
-  },
-  "tripsWord": "Viajes",
-  "searchTrips": "Buscar viajes...",
   "main": {
     "tripsEmpty": {
       "title": "Tus viajes están aquí",
@@ -2309,14 +2492,6 @@
     "confirm_maybe_video": "¿Estás seguro de que quieres marcar este vídeo como quizás?",
     "confirm_remove_category": "¿Estás seguro de que quieres eliminar la categoría \"${category}\" de este vídeo?",
     "video_copied": "ID del vídeo: ${videoId} copiado correctamente"
-  },
-  "minutes": {
-    "one": "${n} minuto",
-    "other": "${n} minutos"
-  },
-  "hours": {
-    "one": "${n} hora",
-    "other": "${n} horas"
   },
   "checkout": {
     "title": "Checkout",
@@ -2342,13 +2517,24 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "Pago seguro",
+      "poweredByStripe": "Con la tecnología de Stripe · Cifrado SSL",
+      "noSelection": "No hay nada seleccionado: vuelve atrás y elige lo que quieres reservar."
     },
     "totals": {
       "total": "Total",
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "Reservado",
+      "pending": "Pendiente de reserva",
+      "inProgress": "Reserva en curso",
+      "partial": "Reservado parcialmente",
+      "cancelled": "Cancelado",
+      "alreadyBookedNotice": "Algunos elementos de tu cesta ya están reservados. Los hemos quitado de tu total."
     },
     "categories": {
       "accommodation": "Stays",
@@ -2363,13 +2549,72 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "Volver a mi viaje"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "Pago online",
+      "subtitle": "La forma más rápida de avanzar. Paga de forma segura y Layla se encarga de la reserva.",
+      "selectAll": "Seleccionar todo",
+      "expired": "Caducado",
+      "soldOut": "Ya no quedan habitaciones aquí",
+      "refreshToContinue": "Actualiza los precios caducados para continuar con el pago",
+      "replaceSoldOut": "Sustituye el hotel agotado para continuar con el pago"
+    },
+    "travelers": {
+      "title": "Datos de los viajeros",
+      "subtitle": "Añade un documento válido de cada persona que viaja con esta reserva.",
+      "travelerSection": "Viajero $number",
+      "primaryTraveler": "Viajero principal",
+      "removeTraveler": "Quitar",
+      "addTraveler": "Añadir viajero",
+      "whichDocument": "¿Qué documento vas a usar?",
+      "typePassport": "Pasaporte",
+      "typeNationalId": "DNI",
+      "firstName": "Nombre",
+      "middleName": "Segundo nombre (opcional)",
+      "lastName": "Apellidos",
+      "dateOfBirth": "Fecha de nacimiento",
+      "dateOfBirthHint": "DD.MM.AAAA",
+      "nationality": "Nacionalidad",
+      "issuingCountry": "País de expedición",
+      "passportNumber": "Número de pasaporte",
+      "idNumber": "Número de documento",
+      "gender": "Género",
+      "genderM": "Hombre",
+      "genderF": "Mujer",
+      "genderU": "Prefiero no decirlo",
+      "genderX": "Sin especificar",
+      "expiry": "Fecha de caducidad",
+      "expiryHint": "MM/AAAA",
+      "countrySearch": "Buscar país",
+      "countrySearchEmpty": "No se han encontrado países",
+      "storedSecurelyNote": "Se guardan de forma segura y solo se comparten con aerolíneas y hoteles para completar tu reserva.",
+      "phoneTitle": "Teléfono de contacto",
+      "phoneSubtitle": "Solo te llamaremos si hay algo que atender. Sin llamadas de expertos ni comerciales.",
+      "phoneLabel": "Número de teléfono",
+      "continueCta": "Continuar al pago",
+      "skipLink": "Añadiré mis datos más tarde",
+      "docsDialogTitle": "Pon tu reserva en marcha antes",
+      "docsDialogBody": "Necesitamos tus documentos de viaje para hacer las reservas. Añádelos ahora y empezamos enseguida.",
+      "docsDialogAddNow": "Añadir documentos de viaje",
+      "docsDialogLater": "Los añadiré más tarde",
+      "errors": {
+        "required": "Obligatorio",
+        "dateOfBirthFormat": "Usa el formato DD.MM.AAAA",
+        "expiryFormat": "Usa el formato MM/AAAA",
+        "expired": "El documento está caducado",
+        "passportFormat": "Introduce un número de pasaporte válido para el país seleccionado",
+        "phoneRequired": "Añade tu número de teléfono",
+        "travelerDetails": "Introduce los datos del viajero para continuar con el pago",
+        "saveFailed": "No se pudieron guardar tus datos. Inténtalo de nuevo."
+      }
     },
     "steps": {
       "items": "Selección",
@@ -2431,18 +2676,175 @@
       "other": "Empieza en $n días"
     },
     "start_new": "Crear un nuevo viaje",
+    "new_trip": "Nuevo viaje",
+    "day_of_total": "Día $day de $total",
     "sort_by": "Ordenar por",
     "sort_trip_date": "Fecha del viaje",
     "sort_last_updated": "Última actualización",
     "sort_date_created": "Fecha de creación"
   },
   "expedia": {
+    "attribution": "Con la tecnología de Expedia",
     "rooms": {
+      "title": "Habitaciones disponibles",
+      "loadingPrices": "Cargando precios en tiempo real…",
+      "noneAvailable": "No hay habitaciones disponibles para las fechas seleccionadas. Prueba otras fechas desde la página del viaje.",
+      "loadFailed": "No hemos podido cargar los precios ahora mismo. Inténtalo de nuevo.",
+      "retry": "Reintentar",
+      "noAvailabilityTitle": "Ya no quedan habitaciones aquí",
+      "onTripBadge": "En tu viaje",
+      "roomsLeft": "Solo quedan $count",
+      "perNight": "por noche",
+      "inclTaxesShort": "Impuestos y tasas incl.",
+      "noMeals": "Sin comidas incluidas",
+      "payNow": "Pagar ahora",
+      "nonRefundable": "No reembolsable",
+      "freeCancellationUntil": "Cancelación gratuita hasta el $date",
+      "cancellationTitle": "Política de cancelación",
       "bedRequestNote": "Las preferencias de cama son solo solicitudes y el alojamiento no puede garantizarlas.",
+      "maxRoomsReached": "Puedes reservar hasta 8 habitaciones",
+      "reserve": "Reservar",
       "priceBreakdown": {
+        "taxesAndFees": "Impuestos y tasas",
+        "total": "Total",
         "taxesNote": "Los impuestos son tasas de recuperación de impuestos que se pagan a los proveedores (por ejemplo, hoteles). Para obtener más información, consulta nuestras condiciones de uso. Las tasas de servicio se retienen como compensación por la gestión de tu reserva y pueden incluir las tasas cobradas por los proveedores.",
-        "feesAtPropertyNote": "Estos cargos se pagan en el alojamiento al hacer el check-in o el check-out, los fija el alojamiento y no están incluidos en el total anterior."
+        "feesAtProperty": "Cargos a pagar en el alojamiento",
+        "feesAtPropertyNote": "Estos cargos se pagan en el alojamiento al hacer el check-in o el check-out, los fija el alojamiento y no están incluidos en el total anterior.",
+        "feeKind": {
+          "mandatoryFee": "Tasa obligatoria",
+          "resortFee": "Tasa de resort",
+          "mandatoryTax": "Impuesto obligatorio"
+        }
+      },
+      "chooseRooms": "Elegir habitaciones"
+    },
+    "booking": {
+      "title": "Completa tu reserva",
+      "leadGuest": "Huésped principal",
+      "roomGuest": "Huésped de la habitación $n",
+      "roomGuestHint": "Cada habitación se reserva a nombre de su huésped principal. La habitación 1 va a nombre del huésped principal, salvo que lo cambies.",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "invalidEmail": "Introduce un correo electrónico válido",
+      "invalidPhone": "Introduce un número de teléfono válido",
+      "requiredField": "Obligatorio",
+      "payAndBook": "Pagar $amount y reservar",
+      "processing": "Procesando tu reserva…",
+      "chargedWhen": "El cargo a tu tarjeta se hace ahora; la reserva se confirma al instante.",
+      "paymentsUnavailable": "Los pagos no están disponibles ahora mismo. Inténtalo más tarde.",
+      "priceChangedTitle": "El precio ha cambiado",
+      "priceChangedBody": "El precio actual es $amount. Revísalo y confirma para continuar.",
+      "confirmNewPrice": "Confirmar nuevo precio",
+      "soldOutTitle": "Agotado",
+      "soldOutBody": "Estas habitaciones se acaban de agotar para tus fechas. No se te ha cobrado nada.",
+      "bookedTitle": "¡Reserva confirmada!",
+      "bookedBody": "Tus habitaciones están reservadas. Te llegará un correo de confirmación.",
+      "confirmationNumber": "Número de confirmación",
+      "notCharged": "No se te ha cobrado nada: la retención en tu tarjeta se ha liberado.",
+      "bookFailedTitle": "La reserva no se ha completado",
+      "paymentFailedBody": "No se pudo completar el pago y no se te ha cobrado nada. Inténtalo de nuevo.",
+      "fulfillDelayedTitle": "Pago autorizado, reserva aún sin confirmar",
+      "fulfillDelayedBody": "No pudimos conectar con el servicio de reservas después de autorizar tu pago. Pulsa Reintentar para terminar la reserva: nunca se te cobrará dos veces.",
+      "challengeTitle": "Hace falta una verificación adicional",
+      "challengeBody": "Tu banco requiere una verificación adicional que no pudimos completar. No se te ha cobrado nada. Contacta con soporte en help@layla.ai.",
+      "tryAgain": "Reintentar",
+      "resumeFound": "Terminando tu reserva pendiente en $hotel…",
+      "bookings": "Tus reservas",
+      "cancelBooking": "Cancelar reserva",
+      "cancelConfirmTitle": "¿Cancelar esta reserva?",
+      "cancelConfirmBody": "Los reembolsos siguen la política de cancelación de la tarifa.",
+      "cancelled": "Reserva cancelada"
+    },
+    "details": {
+      "propertyInfo": "Conviene saber",
+      "languagesSpoken": "Idiomas que se hablan",
+      "fees": "Tasas",
+      "mandatoryFees": "Tasas obligatorias",
+      "optionalExtras": "Extras opcionales",
+      "finePrint": "Letra pequeña",
+      "contact": "Contacto",
+      "nearestAirport": "Aeropuerto más cercano",
+      "guestRatings": "Valoraciones de huéspedes",
+      "minCheckinAge": "Edad mínima para el check-in: $age",
+      "viewRoomDetails": "Ver detalles de la habitación",
+      "roomDetails": "Detalles de la habitación",
+      "sleeps": "Capacidad: $count",
+      "roomSize": "$size m²",
+      "aboutRoom": "Sobre esta habitación",
+      "roomAmenities": "Servicios de la habitación",
+      "fax": "Fax"
+    },
+    "scores": {
+      "cleanliness": "Limpieza",
+      "service": "Servicio",
+      "comfort": "Comodidad",
+      "condition": "Estado",
+      "location": "Ubicación",
+      "neighborhood": "Zona",
+      "quality": "Calidad",
+      "value": "Relación calidad-precio",
+      "amenities": "Servicios"
+    },
+    "search": {
+      "refine": "Afinar",
+      "where": "Dónde",
+      "when": "Cuándo",
+      "who": "Quién",
+      "filters": "Filtros",
+      "updateResults": "Actualizar resultados",
+      "searchPromptHint": "Describe tu hotel ideal…",
+      "sortBestMatch": "Mejor coincidencia",
+      "sortCheapest": "Precio: de menor a mayor",
+      "sortMostExpensive": "Precio: de mayor a menor",
+      "sortGuestRating": "Valoración de huéspedes",
+      "budgetPerNight": "Presupuesto por noche",
+      "starRating": "Estrellas",
+      "guestRating": "Valoración de huéspedes",
+      "mealPlans": "Régimen de comidas",
+      "popularFilters": "Filtros populares",
+      "fromYourSearch": "De tu búsqueda",
+      "noBudgetLimit": "Sin límite",
+      "childN": "Niño $n",
+      "selectAge": "Elegir edad",
+      "ageN": "$age años",
+      "childAgesRequired": "Indica la edad de cada niño para continuar",
+      "mealBreakfastIncluded": "Desayuno incluido",
+      "mealAllInclusive": "Todo incluido",
+      "popular": {
+        "freeBreakfast": "Desayuno gratis",
+        "swimmingPool": "Piscina",
+        "freeWifi": "Wifi gratis",
+        "parking": "Aparcamiento",
+        "petsAllowed": "Se admiten mascotas",
+        "allInclusive": "Todo incluido",
+        "hotTub": "Jacuzzi"
       }
+    },
+    "reviews": {
+      "sortNote": "Primero las opiniones en tu idioma y luego las más recientes",
+      "policyLink": "Cómo funcionan nuestras opiniones de huéspedes",
+      "seeAll": "Ver todas las opiniones",
+      "allTitle": "Las $count opiniones",
+      "allTitleFallback": "Todas las opiniones",
+      "otherLanguagesNote": "Se muestran las opiniones escritas en tu idioma. La puntuación global se basa en las $total opiniones de huéspedes, incluidas las de otros idiomas.",
+      "reviewedOn": "Opinión del $date",
+      "stayed": "Estancia en $date",
+      "viaSource": "vía $source"
+    }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "Toca una actualización rápida",
+      "body": "Esta versión de Layla ya no es compatible. Actualiza para seguir planificando tus viajes.",
+      "cta": "Actualizar Layla"
+    },
+    "recommended": {
+      "title": "Hay una nueva Layla lista",
+      "body": "Hemos mejorado algunas cosas. Actualiza cuando tengas un momento.",
+      "cta": "Actualizar ahora",
+      "later": "Quizá más tarde"
     }
   },
   "consultation": {

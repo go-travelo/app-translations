@@ -1,4 +1,103 @@
 {
+  "activityDetail": {
+    "topRated": "Hoog beoordeeld",
+    "bestseller": "Bestseller",
+    "freeAdmission": "Gratis toegang",
+    "reviewsTitle": "Beoordelingen",
+    "reviewsCount": "${n} beoordelingen",
+    "seeAll": "Alles bekijken",
+    "topicService": "Service",
+    "topicTransportation": "Vervoer",
+    "topicValue": "Prijs-kwaliteit",
+    "topicSafety": "Veiligheid",
+    "lovedTitle": "Wat reizigers geweldig vonden",
+    "goodToKnowTitle": "Goed om te weten",
+    "durationLabel": "Duur",
+    "durationMinutes": "${n} min",
+    "durationHours": "${n} u",
+    "durationDays": "${n} dagen",
+    "groupSizeLabel": "Groepsgrootte",
+    "groupSizeUpTo": "Tot ${n} personen",
+    "groupSizeRange": "${min}–${max} personen",
+    "validityLabel": "Geldigheid",
+    "languagesLabel": "Talen",
+    "liveGuide": "Gids ter plaatse",
+    "featureSkipTheLine": "Zonder wachtrij",
+    "featureWheelchairAccessible": "Rolstoeltoegankelijk",
+    "featurePickupIncluded": "Ophalen inbegrepen",
+    "featureMobileVoucher": "Mobiele voucher",
+    "featureInstantConfirmation": "Directe bevestiging",
+    "highlightsTitle": "Hoogtepunten",
+    "descriptionTitle": "Over deze ervaring",
+    "insiderTipsTitle": "Insidertips",
+    "optionsTitle": "Opties",
+    "includesTitle": "Wat is inbegrepen",
+    "addonsTitle": "Extra's",
+    "itineraryTitle": "Route",
+    "itineraryStart": "Start",
+    "itineraryFinish": "Einde",
+    "admissionIncluded": "Toegang inbegrepen",
+    "admissionNotIncluded": "Toegang niet inbegrepen",
+    "passBy": "Rijdt langs zonder te stoppen",
+    "meetingPointTitle": "Verzamelpunt",
+    "notSuitableTitle": "Niet geschikt voor",
+    "whatToBringTitle": "Wat neem je mee",
+    "notAllowedTitle": "Niet toegestaan",
+    "importantInfoTitle": "Belangrijke informatie",
+    "freeCancellation": "Gratis annuleren",
+    "freeCancellationBefore": "Gratis annuleren tot ${hours} u voor aanvang",
+    "supplierTitle": "Aangeboden door",
+    "machineTranslatedNote": "Een deel van deze inhoud is automatisch vertaald.",
+    "openingHoursTitle": "Openingstijden",
+    "faqTitle": "Veelgestelde vragen",
+    "experiencesTitle": "Manieren om het te beleven",
+    "recommendationsTitle": "Misschien vind je dit ook leuk",
+    "fromPrice": "Vanaf"
+  },
+  "placeDetail": {
+    "aboutTitle": "Over",
+    "goodToKnowTitle": "Goed om te weten",
+    "openingHoursTitle": "Openingstijden",
+    "contactTitle": "Contact",
+    "permanentlyClosed": "Permanent gesloten",
+    "temporarilyClosed": "Tijdelijk gesloten",
+    "unavailable": "De details zijn op dit moment niet beschikbaar.",
+    "viewOnGoogleMaps": "Bekijken op Google Maps",
+    "perPerson": "per persoon",
+    "offerings": {
+      "dineIn": "Ter plaatse eten",
+      "takeout": "Afhalen",
+      "delivery": "Bezorging",
+      "curbsidePickup": "Afhalen aan de deur",
+      "reservable": "Reserveren",
+      "breakfast": "Ontbijt",
+      "brunch": "Brunch",
+      "lunch": "Lunch",
+      "dinner": "Diner",
+      "beer": "Bier",
+      "wine": "Wijn",
+      "vegetarian": "Vegetarische opties",
+      "cocktails": "Cocktails",
+      "coffee": "Koffie",
+      "dessert": "Dessert",
+      "outdoorSeating": "Terras",
+      "liveMusic": "Livemuziek",
+      "menuForChildren": "Kindermenu",
+      "goodForChildren": "Geschikt voor kinderen",
+      "goodForGroups": "Geschikt voor groepen",
+      "goodForWatchingSports": "Sport op tv",
+      "allowsDogs": "Honden welkom",
+      "restroom": "Toilet",
+      "creditCards": "Creditcards",
+      "contactless": "Contactloos betalen",
+      "freeParking": "Gratis parkeren",
+      "paidParking": "Betaald parkeren",
+      "valetParking": "Valetparking",
+      "wheelchair": "Rolstoeltoegankelijk",
+      "wheelchairParking": "Invalidenparkeerplaats",
+      "wheelchairRestroom": "Toegankelijk toilet"
+    }
+  },
   "blog": {
     "postNotFound": "Controleer de URL, we hebben geen dergelijke blogpost.",
     "askLaylaAbout": "Vraag Layla over ${name}",
@@ -107,6 +206,7 @@
       "messageHint": "Vraag me iets",
       "discardRecording": "Opname verwijderen",
       "useRecording": "Opname gebruiken",
+      "possibleNextSteps": "Mogelijke volgende stappen",
       "contextMenu": {
         "copy": "Kopiëren",
         "good_response": "Goed antwoord",
@@ -139,13 +239,32 @@
           "other": "${n} hotels"
         }
       },
+      "flightsCard": {
+        "type": "Vluchten",
+        "inLocation": "Vluchten naar ${location}",
+        "seeAll": "Alle vluchten bekijken",
+        "moreFlights": {
+          "one": "+${n} extra vlucht",
+          "other": "+${n} extra vluchten"
+        },
+        "checkedBag": "Ruimbagage inbegrepen",
+        "cabinBag": "Handbagage inbegrepen"
+      },
+      "carRentalsCard": {
+        "type": "Huurauto's",
+        "inLocation": "Auto's in ${location}",
+        "seeAll": "Alle auto's bekijken",
+        "priceTotal": "totaal"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} van ${total}"
+      },
       "attach": {
         "photoLibrary": "Fotobibliotheek",
         "files": "Bestanden",
         "camera": "Camera",
         "title": "Toevoegen aan chat"
       },
-      "possibleNextSteps": "Mogelijke volgende stappen",
       "destinations_card": {
         "title": "Bestemmingen voor jou",
         "subtitle": "Tik om te kijken en te kiezen",
@@ -168,6 +287,9 @@
         "webviewTitle": "Praat met een reisexpert"
       },
       "activitiesCard": {
+        "type": "Activiteiten",
+        "inLocation": "Activiteiten in ${location}",
+        "seeAll": "Alle activiteiten bekijken",
         "addMessage": "Voeg ${name} toe aan mijn reis"
       },
       "connectorsChip": "Importeren uit Gmail of Outlook",
@@ -388,6 +510,7 @@
     "flight_price_range": "Vliegticket prijsklasse",
     "average_price": "Gemiddelde prijs ${price}",
     "or_less": "of minder",
+    "or": "of",
     "flight_time": "Vliegtijd",
     "average_duration": "Gemiddelde duur ${hours} u",
     "round_hrs": "${val} u",
@@ -404,8 +527,7 @@
     "km_from": "${distance}km van ${city}",
     "consider_broadening": "Oeps! We konden geen overeenkomsten vinden op basis van je huidige voorkeuren. Overweeg je zoekopdracht te verbreden door je voorkeuren aan te passen voor een breder scala aan opties.",
     "return_with_bullet": " ${code} retour",
-    "approx_for_your_dates": "Geschat voor uw data",
-    "or": "of"
+    "approx_for_your_dates": "Geschat voor uw data"
   },
   "flights_feat": {
     "flights_to": "Vluchten naar ${to}",
@@ -414,6 +536,7 @@
     "all_filters": "Alle filters",
     "no_flights": "Geen vluchten",
     "estimated_price": "Geschatte prijs",
+    "estimated": "Geschat",
     "livePrices": "Live prijzen",
     "travelers_info_updated_successfully": "Reizigersinformatie succesvol bijgewerkt",
     "flight_details": "Vluchtgegevens",
@@ -466,8 +589,7 @@
       "other": "${n} passagiers"
     },
     "one_way": "Enkele reis",
-    "youll_arrive_next_day": "Je komt de volgende dag aan",
-    "estimated": "Geschat"
+    "youll_arrive_next_day": "Je komt de volgende dag aan"
   },
   "hotel": {
     "aboutProperty": "Over deze accommodatie",
@@ -624,7 +746,8 @@
     "price_for_night": {
       "one": "Prijs voor ${n} nacht",
       "other": "Prijs ${n} nachten"
-    }
+    },
+    "laylasTip": "Layla's tip"
   },
   "language": {
     "select_language": "Selecteer taal"
@@ -1208,7 +1331,9 @@
     "error_wrong_password": "Onjuist wachtwoord. Probeer het opnieuw.",
     "error_invalid_credential": "Onjuist e-mailadres of wachtwoord.",
     "error_too_many_requests": "Te veel pogingen. Probeer het later opnieuw.",
-    "error_network": "Netwerkfout. Controleer uw verbinding."
+    "error_network": "Netwerkfout. Controleer uw verbinding.",
+    "reset_link_sent": "Controleer uw inbox. Als er een account bestaat voor dit e-mailadres, is de herstellink onderweg.",
+    "reset_link_failed": "De herstellink kon niet worden verzonden. Probeer het opnieuw."
   },
   "splash": {
     "discover_where_to": "Ontdek waar je naartoe\nkan vliegen.",
@@ -1316,6 +1441,14 @@
     "one": "${n} dag",
     "other": "${n} dagen"
   },
+  "hours": {
+    "one": "${n} uur",
+    "other": "${n} uur"
+  },
+  "minutes": {
+    "one": "${n} minuut",
+    "other": "${n} minuten"
+  },
   "children": {
     "one": "${n} kind",
     "other": "${n} kinderen"
@@ -1392,6 +1525,26 @@
   "contact_us": "Contacteer ons",
   "continue_label": "Doorgaan",
   "create": "Creëren",
+  "create_screen": {
+    "greetingWithName": "Hallo ${name},\nwaar wil je de volgende keer *wakker worden*?",
+    "greeting": "Waar wil je de volgende keer *wakker worden*?",
+    "listening": "Aan het luisteren...",
+    "placeholders": [
+      "Een 2-weekse reis door Italië: Rome, Florence en de Amalfikust...",
+      "Een maand door Thailand, Vietnam en Bali...",
+      "Drie weken Japan, van Tokio via Kyoto naar Hokkaido...",
+      "Een 10-daagse roadtrip door het Amerikaanse zuidwesten...",
+      "Een 3-weekse treinreis door Europa...",
+      "Een 2-weekse huwelijksreis op de Malediven en Seychellen...",
+      "Een 12-daagse familiereis: Parijs, Barcelona, Lissabon...",
+      "Twee weken op jacht naar het noorderlicht in IJsland en Noorwegen...",
+      "Een 16-daagse safari en strand in Kenia en Zanzibar...",
+      "Een 21-daags backpackavontuur door Zuid-Amerika..."
+    ],
+    "planIt": "Plan het",
+    "tapAndTell": "Tik en vertel het Layla",
+    "placeholder": "Tien dagen Italië voor onze trouwdag, zonder haast…"
+  },
   "creator": "Maker",
   "currency": "Valuta",
   "daysWord": "Dagen",
@@ -1455,14 +1608,17 @@
   "preferences": "Voorkeuren",
   "exploreWord": "Verkennen",
   "profileWord": "Profiel",
+  "tripsWord": "Reizen",
   "powered_by": "Aangedreven door",
   "read_more": "Lees meer",
+  "read_less": "Minder lezen",
   "remove": "Verwijderen",
   "rename": "Hernoemen",
   "reset": "Reset",
   "returnWord": "Terug",
   "roomsWord": "Kamers",
   "search": "Zoeken",
+  "searchTrips": "Reizen zoeken...",
   "save": "Opslaan",
   "saved_to": "Opgeslagen in",
   "see_all": "Zie alles",
@@ -1505,9 +1661,9 @@
     },
     "header": {
       "daysLabel": "${count} Dagen",
-      "adultsLabel": "${count} Volwassenen",
       "chooseDate": "Kies Datum",
-      "inviteSomeone": "Nodig iemand uit voor je Reis"
+      "inviteSomeone": "Nodig iemand uit voor je Reis",
+      "adultsLabel": "${count} Volwassenen"
     },
     "sections": {
       "yourFlights": "Uw Vluchten",
@@ -1612,6 +1768,16 @@
       "trip": "Reis",
       "cart": "Winkelwagen"
     },
+    "hide_chat": "Chat verbergen",
+    "show_chat": "Chat tonen",
+    "cart_with_total": "Winkelmandje · $total",
+    "footer": {
+      "from_total": "Vanaf $total",
+      "total_for": {
+        "one": "totaal voor $n persoon",
+        "other": "totaal voor $n personen"
+      }
+    },
     "messages": {
       "inviteComingSoon": "Uitnodigen - Binnenkort beschikbaar",
       "deleteTransportComingSoon": "Vervoer verwijderen - Binnenkort beschikbaar",
@@ -1628,6 +1794,7 @@
       "hotelRemovedSuccessfully": "Hotel succesvol verwijderd",
       "failedRemoveHotel": "Kan hotel niet verwijderen. Probeer het opnieuw.",
       "failedRemoveFlight": "Kan vlucht niet verwijderen. Probeer het opnieuw.",
+      "failedRemoveExperience": "De ervaring kon niet worden verwijderd. Probeer het opnieuw.",
       "updatingCarOption": "Auto-optie bijwerken...",
       "transportOptionUpdated": "Vervoersoptie succesvol bijgewerkt",
       "failedUpdateTransport": "Kan vervoersoptie niet bijwerken",
@@ -1693,6 +1860,8 @@
         "totalCost": "Totale Kosten",
         "laylasPicks": "Layla's keuzes",
         "liveSearch": "Live zoeken",
+        "multiCity": "Meerdere bestemmingen",
+        "addAnotherFlight": "Nog een vlucht toevoegen",
         "partialResults": "Gedeeltelijke resultaten — de zoekopdracht was niet op tijd klaar.",
         "showFlights": "Toon vluchten ($n)",
         "selected": "Geselecteerd",
@@ -1756,7 +1925,34 @@
         "searchCarRentals": "Zoek Autoverhuur",
         "noCarRentalsFound": "Geen autoverhuur gevonden",
         "tryAdjustingCriteria": "Probeer uw zoekcriteria aan te passen",
-        "failedSearch": "Kan autoverhuur niet zoeken. Probeer het opnieuw."
+        "failedSearch": "Kan autoverhuur niet zoeken. Probeer het opnieuw.",
+        "selectCar": "Auto kiezen",
+        "refine": {
+          "transmission": "Transmissie",
+          "automatic": "Automaat",
+          "manual": "Handgeschakeld",
+          "carType": "Autotype",
+          "mini": "Mini",
+          "economy": "Economy",
+          "compact": "Compact",
+          "intermediate": "Middenklasse",
+          "standard": "Standaard",
+          "fullsize": "Groot",
+          "premium": "Premium",
+          "luxury": "Luxe",
+          "suv": "SUV",
+          "van": "Busje",
+          "estate": "Stationwagen",
+          "convertible": "Cabrio",
+          "pickup": "Pick-up",
+          "fuel": "Brandstof",
+          "electric": "Elektrisch",
+          "hybrid": "Hybride",
+          "diesel": "Diesel",
+          "petrol": "Benzine",
+          "airportOnly": "Op de luchthaven",
+          "budgetTotal": "Budget (totaal)"
+        }
       },
       "activities": {
         "activities": "Activiteiten",
@@ -1870,7 +2066,13 @@
         "addToTrip": "Toevoegen aan reis",
         "perTotal": "/totaal",
         "freeCancellation": "Gratis annulering",
-        "at": "om"
+        "at": "om",
+        "cheapest": "Goedkoopste",
+        "book": "Boeken",
+        "orSimilar": "of vergelijkbaar",
+        "addedToTrip": "Toegevoegd aan reis",
+        "addToTripMessage": "Voeg de ${car} van ${supplier} toe aan mijn reis",
+        "total": "totaal"
       },
       "flightCard": {
         "selected": "Geselecteerd",
@@ -1878,7 +2080,8 @@
         "perPerson": "/persoon",
         "nonStop": "Non-stop",
         "oneStop": "1 stop",
-        "stops": "stops"
+        "stops": "stops",
+        "addToTripMessage": "Voeg de vlucht ${route} op ${date} toe aan mijn reis"
       },
       "hotelCard": {
         "reviews": "Beoordelingen",
@@ -1890,11 +2093,11 @@
     "widgets": {
       "addExperienceButton": "Ervaring Toevoegen",
       "dayLabel": "Dag ${n}",
+      "failedToLoadTrip": "Kan reis niet laden",
+      "retry": "Opnieuw Proberen",
       "yourStay": "Uw Verblijf",
       "transport": "Vervoer",
-      "yourDayByDay": "Uw Dag tot Dag",
-      "failedToLoadTrip": "Kan reis niet laden",
-      "retry": "Opnieuw Proberen"
+      "yourDayByDay": "Uw Dag tot Dag"
     },
     "transportType": {
       "flight": "Vlucht",
@@ -1941,6 +2144,8 @@
     "overview": {
       "madeBy": "Gemaakt door ${creator}",
       "highlightsTitle": "Reishoogtepunten in één oogopslag",
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "Alles tonen",
       "showAllFlights": "Alle vluchten tonen",
       "showAllTransport": "Alle transport tonen",
@@ -1986,8 +2191,6 @@
         "durationHrShort": "${n} u",
         "durationHrMin": "${h} u ${m} min"
       },
-      "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5",
       "add": {
         "activityTitle": "Activiteit toevoegen",
         "activityBody": "Kies een tour of ervaring voor je dagen.",
@@ -2042,7 +2245,6 @@
       "km": "${n} km",
       "meters": "${n} m"
     },
-    "footer": {},
     "quickEdit": {
       "title": "Data & reizigers",
       "itinerary": "Reisroute",
@@ -2071,6 +2273,9 @@
       "failed": "Je reis kon niet worden bijgewerkt. Probeer het opnieuw.",
       "stale": "Je reis is ondertussen veranderd. Probeer het opnieuw.",
       "updating": "Layla werkt je reis bij…"
+    },
+    "legPicker": {
+      "overview": "Overzicht"
     }
   },
   "tripWord": "Reis",
@@ -2184,6 +2389,27 @@
     "day": "Dag",
     "category": "Categorie"
   },
+  "trip_book": {
+    "accommodations": "Accommodaties",
+    "flights": "Vluchten",
+    "private_transport": "Privévervoer",
+    "experiences": "Ervaringen",
+    "save_on_booking": "Bespaar ${amount} ten opzichte van afzonderlijk boeken",
+    "layla_brings_deals": "Layla brengt u de beste deals.",
+    "title": "Reis boeken",
+    "book": "Boeken",
+    "delete": "Verwijderen",
+    "alternative": "Alternatief",
+    "experts_title": "Boek deze reis met onze experts",
+    "benefit1_title": "32+ uur planningswerk bespaard",
+    "benefit1_description": "Achterover leunen — onze experts zorgen voor elk detail.",
+    "benefit2_title": "${n}+ individuele boekingen afgehandeld",
+    "benefit2_description": "Hotels, vluchten, activiteiten — wij coördineren alles voor uw droomreis.",
+    "benefit3_title": "${n}+ transfers naadloos georganiseerd",
+    "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
+    "continue_with_human": "Doorgaan met een reisexpert",
+    "continue_with_booking": "Doorgaan met boeken"
+  },
   "paywall": {
     "title": "Ontgrendel Uw Volledige Reis",
     "subtitle": "Ga verder met Premium voor onbeperkte planning en exclusieve besparingen.",
@@ -2247,49 +2473,6 @@
       "subtitle": "Schakel AI-verwerking in via Instellingen om te chatten en een reisplan te genereren."
     }
   },
-  "trip_book": {
-    "accommodations": "Accommodaties",
-    "flights": "Vluchten",
-    "private_transport": "Privévervoer",
-    "experiences": "Ervaringen",
-    "save_on_booking": "Bespaar ${amount} ten opzichte van afzonderlijk boeken",
-    "layla_brings_deals": "Layla brengt u de beste deals.",
-    "title": "Reis boeken",
-    "book": "Boeken",
-    "delete": "Verwijderen",
-    "alternative": "Alternatief",
-    "experts_title": "Boek deze reis met onze experts",
-    "benefit1_title": "32+ uur planningswerk bespaard",
-    "benefit1_description": "Achterover leunen — onze experts zorgen voor elk detail.",
-    "benefit2_title": "${n}+ individuele boekingen afgehandeld",
-    "benefit2_description": "Hotels, vluchten, activiteiten — wij coördineren alles voor uw droomreis.",
-    "benefit3_title": "${n}+ transfers naadloos georganiseerd",
-    "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
-    "continue_with_human": "Doorgaan met een reisexpert",
-    "continue_with_booking": "Doorgaan met boeken"
-  },
-  "create_screen": {
-    "greetingWithName": "Hallo ${name},\nwaar wil je de volgende keer *wakker worden*?",
-    "greeting": "Waar wil je de volgende keer *wakker worden*?",
-    "listening": "Aan het luisteren...",
-    "placeholders": [
-      "Een 2-weekse reis door Italië: Rome, Florence en de Amalfikust...",
-      "Een maand door Thailand, Vietnam en Bali...",
-      "Drie weken Japan, van Tokio via Kyoto naar Hokkaido...",
-      "Een 10-daagse roadtrip door het Amerikaanse zuidwesten...",
-      "Een 3-weekse treinreis door Europa...",
-      "Een 2-weekse huwelijksreis op de Malediven en Seychellen...",
-      "Een 12-daagse familiereis: Parijs, Barcelona, Lissabon...",
-      "Twee weken op jacht naar het noorderlicht in IJsland en Noorwegen...",
-      "Een 16-daagse safari en strand in Kenia en Zanzibar...",
-      "Een 21-daags backpackavontuur door Zuid-Amerika..."
-    ],
-    "planIt": "Plan het",
-    "tapAndTell": "Tik en vertel het Layla",
-    "placeholder": "Tien dagen Italië voor onze trouwdag, zonder haast…"
-  },
-  "tripsWord": "Reizen",
-  "searchTrips": "Reizen zoeken...",
   "main": {
     "tripsEmpty": {
       "title": "Je reizen staan hier",
@@ -2309,14 +2492,6 @@
     "confirm_maybe_video": "Weet je zeker dat je deze video als misschien wilt markeren?",
     "confirm_remove_category": "Weet je zeker dat je de categorie \"${category}\" van deze video wilt verwijderen?",
     "video_copied": "Video-ID: ${videoId} succesvol gekopieerd"
-  },
-  "minutes": {
-    "one": "${n} minuut",
-    "other": "${n} minuten"
-  },
-  "hours": {
-    "one": "${n} uur",
-    "other": "${n} uur"
   },
   "checkout": {
     "title": "Checkout",
@@ -2342,13 +2517,24 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "Veilig afrekenen",
+      "poweredByStripe": "Mogelijk gemaakt door Stripe · SSL-versleuteld",
+      "noSelection": "Niets geselecteerd: ga terug en kies wat je wilt boeken."
     },
     "totals": {
       "total": "Total",
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "Geboekt",
+      "pending": "Wacht op boeking",
+      "inProgress": "Boeking bezig",
+      "partial": "Deels geboekt",
+      "cancelled": "Geannuleerd",
+      "alreadyBookedNotice": "Sommige items in uw winkelmand zijn al geboekt. Ze zijn uit uw totaal gehaald."
     },
     "categories": {
       "accommodation": "Stays",
@@ -2363,13 +2549,72 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "Terug naar mijn reis"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "Online afrekenen",
+      "subtitle": "De snelste manier. Betaal veilig en Layla regelt de boeking.",
+      "selectAll": "Alles selecteren",
+      "expired": "Verlopen",
+      "soldOut": "Hier zijn geen kamers meer",
+      "refreshToContinue": "Vernieuw de verlopen prijzen om verder te gaan met afrekenen",
+      "replaceSoldOut": "Vervang het uitverkochte hotel om verder te gaan met afrekenen"
+    },
+    "travelers": {
+      "title": "Reizigersgegevens",
+      "subtitle": "Voeg een geldig document toe voor iedereen die met deze boeking reist.",
+      "travelerSection": "Reiziger $number",
+      "primaryTraveler": "Hoofdreiziger",
+      "removeTraveler": "Verwijderen",
+      "addTraveler": "Reiziger toevoegen",
+      "whichDocument": "Welk document gebruik je?",
+      "typePassport": "Paspoort",
+      "typeNationalId": "Identiteitskaart",
+      "firstName": "Voornaam",
+      "middleName": "Tweede voornaam (optioneel)",
+      "lastName": "Achternaam",
+      "dateOfBirth": "Geboortedatum",
+      "dateOfBirthHint": "DD.MM.JJJJ",
+      "nationality": "Nationaliteit",
+      "issuingCountry": "Land van afgifte",
+      "passportNumber": "Paspoortnummer",
+      "idNumber": "Documentnummer",
+      "gender": "Geslacht",
+      "genderM": "Man",
+      "genderF": "Vrouw",
+      "genderU": "Zeg ik liever niet",
+      "genderX": "Niet gespecificeerd",
+      "expiry": "Vervaldatum",
+      "expiryHint": "MM/JJJJ",
+      "countrySearch": "Land zoeken",
+      "countrySearchEmpty": "Geen landen gevonden",
+      "storedSecurelyNote": "Veilig opgeslagen en alleen gedeeld met luchtvaartmaatschappijen en hotels om je boeking af te ronden.",
+      "phoneTitle": "Telefoonnummer",
+      "phoneSubtitle": "We bellen alleen als er iets aandacht nodig heeft. Geen telefoontjes van experts of verkopers.",
+      "phoneLabel": "Telefoonnummer",
+      "continueCta": "Doorgaan naar afrekenen",
+      "skipLink": "Ik vul mijn gegevens later in",
+      "docsDialogTitle": "Zet je boeking sneller in gang",
+      "docsDialogBody": "We hebben je reisdocumenten nodig om je reserveringen te maken. Voeg ze nu toe, dan kunnen we meteen aan de slag.",
+      "docsDialogAddNow": "Reisdocumenten toevoegen",
+      "docsDialogLater": "Ik voeg ze later toe",
+      "errors": {
+        "required": "Verplicht",
+        "dateOfBirthFormat": "Gebruik DD.MM.JJJJ",
+        "expiryFormat": "Gebruik MM/JJJJ",
+        "expired": "Het document is verlopen",
+        "passportFormat": "Voer een geldig paspoortnummer in voor het gekozen land",
+        "phoneRequired": "Vul je telefoonnummer in",
+        "travelerDetails": "Vul de gegevens van de reiziger in om verder te gaan met afrekenen",
+        "saveFailed": "Je gegevens konden niet worden opgeslagen. Probeer het opnieuw."
+      }
     },
     "steps": {
       "items": "Selectie",
@@ -2431,10 +2676,176 @@
       "other": "Begint over $n dagen"
     },
     "start_new": "Nieuwe reis starten",
+    "new_trip": "Nieuwe reis",
+    "day_of_total": "Dag $day van $total",
     "sort_by": "Sorteren op",
     "sort_trip_date": "Reisdatum",
     "sort_last_updated": "Laatst bijgewerkt",
     "sort_date_created": "Aanmaakdatum"
+  },
+  "expedia": {
+    "attribution": "Mogelijk gemaakt door Expedia",
+    "rooms": {
+      "title": "Beschikbare kamers",
+      "loadingPrices": "Actuele prijzen laden…",
+      "noneAvailable": "Geen kamers beschikbaar voor de gekozen data. Probeer andere data via de reispagina.",
+      "loadFailed": "We konden de actuele prijzen niet laden. Probeer het opnieuw.",
+      "retry": "Opnieuw proberen",
+      "noAvailabilityTitle": "Hier zijn geen kamers meer",
+      "onTripBadge": "In je reis",
+      "roomsLeft": "Nog maar $count",
+      "perNight": "per nacht",
+      "inclTaxesShort": "Incl. belastingen en kosten",
+      "noMeals": "Geen maaltijden inbegrepen",
+      "payNow": "Nu betalen",
+      "nonRefundable": "Niet-restitueerbaar",
+      "freeCancellationUntil": "Gratis annuleren tot $date",
+      "cancellationTitle": "Annuleringsvoorwaarden",
+      "bedRequestNote": "Bedvoorkeuren zijn alleen verzoeken en worden niet door de accommodatie gegarandeerd.",
+      "maxRoomsReached": "Je kunt maximaal 8 kamers boeken",
+      "reserve": "Reserveren",
+      "priceBreakdown": {
+        "taxesAndFees": "Belastingen en kosten",
+        "total": "Totaal",
+        "taxesNote": "De belastingen zijn belastingverhaalkosten die aan leveranciers (bijv. hotels) worden betaald; zie onze Gebruiksvoorwaarden voor details. Servicekosten houden we in als vergoeding voor het verwerken van je boeking en kunnen kosten van leveranciers bevatten.",
+        "feesAtProperty": "Kosten te betalen bij de accommodatie",
+        "feesAtPropertyNote": "Deze kosten betaal je bij de accommodatie bij het in- of uitchecken, worden door de accommodatie bepaald en zijn niet inbegrepen in het totaal hierboven.",
+        "feeKind": {
+          "mandatoryFee": "Verplichte kosten",
+          "resortFee": "Resortkosten",
+          "mandatoryTax": "Verplichte belasting"
+        }
+      },
+      "chooseRooms": "Kamers kiezen"
+    },
+    "booking": {
+      "title": "Rond je boeking af",
+      "leadGuest": "Hoofdgast",
+      "roomGuest": "Gast van kamer $n",
+      "roomGuestHint": "Elke kamer wordt geboekt op naam van de hoofdgast van die kamer. Kamer 1 staat op naam van de hoofdgast, tenzij je dat wijzigt.",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "invalidEmail": "Voer een geldig e-mailadres in",
+      "invalidPhone": "Voer een geldig telefoonnummer in",
+      "requiredField": "Verplicht",
+      "payAndBook": "$amount betalen en boeken",
+      "processing": "Je boeking wordt verwerkt…",
+      "chargedWhen": "Je kaart wordt nu belast; de boeking wordt direct bevestigd.",
+      "paymentsUnavailable": "Betalen is op dit moment niet mogelijk. Probeer het later opnieuw.",
+      "priceChangedTitle": "De prijs is veranderd",
+      "priceChangedBody": "De actuele prijs is nu $amount. Controleer en bevestig om verder te gaan.",
+      "confirmNewPrice": "Nieuwe prijs bevestigen",
+      "soldOutTitle": "Uitverkocht",
+      "soldOutBody": "Deze kamers zijn zojuist uitverkocht voor jouw data. Er is niets afgeschreven.",
+      "bookedTitle": "Boeking bevestigd!",
+      "bookedBody": "Je kamers zijn geboekt. Er is een bevestigingsmail onderweg.",
+      "confirmationNumber": "Bevestigingsnummer",
+      "notCharged": "Er is niets afgeschreven: de reservering op je kaart is vrijgegeven.",
+      "bookFailedTitle": "De boeking is niet gelukt",
+      "paymentFailedBody": "De betaling kon niet worden afgerond en er is niets afgeschreven. Probeer het opnieuw.",
+      "fulfillDelayedTitle": "Betaling geautoriseerd, boeking nog niet bevestigd",
+      "fulfillDelayedBody": "Na het autoriseren van je betaling konden we de boekingsservice niet bereiken. Tik op Opnieuw proberen om je boeking af te ronden; je wordt nooit twee keer belast.",
+      "challengeTitle": "Extra verificatie nodig",
+      "challengeBody": "Je bank vraagt om een extra verificatie die we niet konden afronden. Er is niets afgeschreven. Neem contact op met support via help@layla.ai.",
+      "tryAgain": "Opnieuw proberen",
+      "resumeFound": "Je openstaande boeking voor $hotel wordt afgerond…",
+      "bookings": "Je boekingen",
+      "cancelBooking": "Boeking annuleren",
+      "cancelConfirmTitle": "Deze boeking annuleren?",
+      "cancelConfirmBody": "Terugbetalingen volgen de annuleringsvoorwaarden van het tarief.",
+      "cancelled": "Boeking geannuleerd"
+    },
+    "details": {
+      "propertyInfo": "Goed om te weten",
+      "languagesSpoken": "Gesproken talen",
+      "fees": "Kosten",
+      "mandatoryFees": "Verplichte kosten",
+      "optionalExtras": "Optionele extra's",
+      "finePrint": "Kleine lettertjes",
+      "contact": "Contact",
+      "nearestAirport": "Dichtstbijzijnde luchthaven",
+      "guestRatings": "Gastbeoordelingen",
+      "minCheckinAge": "Minimumleeftijd bij inchecken: $age",
+      "viewRoomDetails": "Kamerdetails bekijken",
+      "roomDetails": "Kamerdetails",
+      "sleeps": "Geschikt voor $count",
+      "roomSize": "$size m²",
+      "aboutRoom": "Over deze kamer",
+      "roomAmenities": "Kamervoorzieningen",
+      "fax": "Fax"
+    },
+    "scores": {
+      "cleanliness": "Netheid",
+      "service": "Service",
+      "comfort": "Comfort",
+      "condition": "Staat van onderhoud",
+      "location": "Locatie",
+      "neighborhood": "Buurt",
+      "quality": "Kwaliteit",
+      "value": "Prijs-kwaliteit",
+      "amenities": "Voorzieningen"
+    },
+    "search": {
+      "refine": "Verfijnen",
+      "where": "Waar",
+      "when": "Wanneer",
+      "who": "Wie",
+      "filters": "Filters",
+      "updateResults": "Resultaten bijwerken",
+      "searchPromptHint": "Beschrijf je ideale hotel…",
+      "sortBestMatch": "Beste match",
+      "sortCheapest": "Prijs: laag naar hoog",
+      "sortMostExpensive": "Prijs: hoog naar laag",
+      "sortGuestRating": "Gastbeoordeling",
+      "budgetPerNight": "Budget per nacht",
+      "starRating": "Sterren",
+      "guestRating": "Gastbeoordeling",
+      "mealPlans": "Maaltijden",
+      "popularFilters": "Populaire filters",
+      "fromYourSearch": "Uit je zoekopdracht",
+      "noBudgetLimit": "Geen limiet",
+      "childN": "Kind $n",
+      "selectAge": "Leeftijd kiezen",
+      "ageN": "$age jaar",
+      "childAgesRequired": "Vul de leeftijd van elk kind in om verder te gaan",
+      "mealBreakfastIncluded": "Ontbijt inbegrepen",
+      "mealAllInclusive": "All-inclusive",
+      "popular": {
+        "freeBreakfast": "Gratis ontbijt",
+        "swimmingPool": "Zwembad",
+        "freeWifi": "Gratis wifi",
+        "parking": "Parkeren",
+        "petsAllowed": "Huisdieren toegestaan",
+        "allInclusive": "All-inclusive",
+        "hotTub": "Bubbelbad"
+      }
+    },
+    "reviews": {
+      "sortNote": "Eerst beoordelingen in jouw taal, daarna de nieuwste",
+      "policyLink": "Zo werken onze gastbeoordelingen",
+      "seeAll": "Alle beoordelingen bekijken",
+      "allTitle": "Alle $count beoordelingen",
+      "allTitleFallback": "Alle beoordelingen",
+      "otherLanguagesNote": "Je ziet geschreven beoordelingen in jouw taal. De totaalscore is gebaseerd op alle $total gastbeoordelingen, ook die in andere talen.",
+      "reviewedOn": "Beoordeeld op $date",
+      "stayed": "Verbleven in $date",
+      "viaSource": "via $source"
+    }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "Tijd voor een snelle update",
+      "body": "Deze versie van Layla wordt niet meer ondersteund. Update om je reizen te blijven plannen.",
+      "cta": "Layla updaten"
+    },
+    "recommended": {
+      "title": "Er staat een nieuwe Layla klaar",
+      "body": "We hebben dingen soepeler gemaakt. Update wanneer je even tijd hebt.",
+      "cta": "Nu updaten",
+      "later": "Misschien later"
+    }
   },
   "consultation": {
     "title": "Praat met een reisexpert",

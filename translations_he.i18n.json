@@ -1,4 +1,103 @@
 {
+  "activityDetail": {
+    "topRated": "מדורג גבוה",
+    "bestseller": "רב־מכר",
+    "freeAdmission": "כניסה חופשית",
+    "reviewsTitle": "ביקורות",
+    "reviewsCount": "${n} ביקורות",
+    "seeAll": "הצגת הכול",
+    "topicService": "שירות",
+    "topicTransportation": "תחבורה",
+    "topicValue": "תמורה למחיר",
+    "topicSafety": "בטיחות",
+    "lovedTitle": "מה המטיילים אהבו",
+    "goodToKnowTitle": "טוב לדעת",
+    "durationLabel": "משך",
+    "durationMinutes": "${n} דק׳",
+    "durationHours": "${n} שע׳",
+    "durationDays": "${n} ימים",
+    "groupSizeLabel": "גודל הקבוצה",
+    "groupSizeUpTo": "עד ${n} אנשים",
+    "groupSizeRange": "${min}–${max} אנשים",
+    "validityLabel": "תוקף",
+    "languagesLabel": "שפות",
+    "liveGuide": "מדריך חי",
+    "featureSkipTheLine": "בלי תור",
+    "featureWheelchairAccessible": "נגיש לכיסאות גלגלים",
+    "featurePickupIncluded": "כולל איסוף",
+    "featureMobileVoucher": "שובר בנייד",
+    "featureInstantConfirmation": "אישור מיידי",
+    "highlightsTitle": "עיקרי החוויה",
+    "descriptionTitle": "על החוויה",
+    "insiderTipsTitle": "טיפים ממי שמכיר",
+    "optionsTitle": "אפשרויות",
+    "includesTitle": "מה כלול",
+    "addonsTitle": "תוספות",
+    "itineraryTitle": "מסלול",
+    "itineraryStart": "התחלה",
+    "itineraryFinish": "סיום",
+    "admissionIncluded": "הכניסה כלולה",
+    "admissionNotIncluded": "הכניסה לא כלולה",
+    "passBy": "מעבר ללא עצירה",
+    "meetingPointTitle": "נקודת מפגש",
+    "notSuitableTitle": "לא מתאים ל",
+    "whatToBringTitle": "מה להביא",
+    "notAllowedTitle": "אסור",
+    "importantInfoTitle": "מידע חשוב",
+    "freeCancellation": "ביטול חינם",
+    "freeCancellationBefore": "ביטול חינם עד ${hours} שעות לפני ההתחלה",
+    "supplierTitle": "מופעל על ידי",
+    "machineTranslatedNote": "חלק מהתוכן תורגם באופן אוטומטי.",
+    "openingHoursTitle": "שעות פתיחה",
+    "faqTitle": "שאלות נפוצות",
+    "experiencesTitle": "דרכים לחוות את זה",
+    "recommendationsTitle": "אולי יעניין אותך גם",
+    "fromPrice": "החל מ"
+  },
+  "placeDetail": {
+    "aboutTitle": "אודות",
+    "goodToKnowTitle": "טוב לדעת",
+    "openingHoursTitle": "שעות פתיחה",
+    "contactTitle": "יצירת קשר",
+    "permanentlyClosed": "סגור לצמיתות",
+    "temporarilyClosed": "סגור זמנית",
+    "unavailable": "הפרטים לא זמינים כרגע.",
+    "viewOnGoogleMaps": "הצגה ב‑Google Maps",
+    "perPerson": "לאדם",
+    "offerings": {
+      "dineIn": "אכילה במקום",
+      "takeout": "טייק אוויי",
+      "delivery": "משלוחים",
+      "curbsidePickup": "איסוף מחוץ למקום",
+      "reservable": "הזמנת מקום",
+      "breakfast": "ארוחת בוקר",
+      "brunch": "בראנץ׳",
+      "lunch": "ארוחת צהריים",
+      "dinner": "ארוחת ערב",
+      "beer": "מגישים בירה",
+      "wine": "מגישים יין",
+      "vegetarian": "אפשרויות צמחוניות",
+      "cocktails": "קוקטיילים",
+      "coffee": "קפה",
+      "dessert": "קינוחים",
+      "outdoorSeating": "ישיבה בחוץ",
+      "liveMusic": "מוזיקה חיה",
+      "menuForChildren": "תפריט ילדים",
+      "goodForChildren": "מתאים לילדים",
+      "goodForGroups": "מתאים לקבוצות",
+      "goodForWatchingSports": "שידורי ספורט",
+      "allowsDogs": "ידידותי לכלבים",
+      "restroom": "שירותים",
+      "creditCards": "כרטיסי אשראי",
+      "contactless": "תשלום ללא מגע",
+      "freeParking": "חניה חינם",
+      "paidParking": "חניה בתשלום",
+      "valetParking": "שירות חניה",
+      "wheelchair": "נגיש לכיסאות גלגלים",
+      "wheelchairParking": "חניית נכים",
+      "wheelchairRestroom": "שירותים נגישים"
+    }
+  },
   "blog": {
     "postNotFound": "אנא בדוק את כתובת ה-URL, אין לנו פוסט כזה.",
     "askLaylaAbout": "שאל/י את Layla על ${name}",
@@ -107,6 +206,7 @@
       "messageHint": "שאל/י אותי כל דבר",
       "discardRecording": "מחיקת ההקלטה",
       "useRecording": "שימוש בהקלטה",
+      "possibleNextSteps": "צעדים אפשריים הבאים",
       "contextMenu": {
         "copy": "להעתקה",
         "good_response": "תשובה טובה",
@@ -139,13 +239,32 @@
           "other": "${n} מלונות"
         }
       },
+      "flightsCard": {
+        "type": "טיסות",
+        "inLocation": "טיסות ל${location}",
+        "seeAll": "הצגת כל הטיסות",
+        "moreFlights": {
+          "one": "+${n} טיסה נוספת",
+          "other": "+${n} טיסות נוספות"
+        },
+        "checkedBag": "כולל מזוודה לבטן המטוס",
+        "cabinBag": "כולל תיק עלייה למטוס"
+      },
+      "carRentalsCard": {
+        "type": "השכרת רכב",
+        "inLocation": "רכבים ב${location}",
+        "seeAll": "הצגת כל הרכבים",
+        "priceTotal": "סה״כ"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} מתוך ${total}"
+      },
       "attach": {
         "photoLibrary": "ספריית התמונות",
         "files": "קבצים",
         "camera": "מצלמה",
         "title": "הוספה לצ'אט"
       },
-      "possibleNextSteps": "צעדים אפשריים הבאים",
       "destinations_card": {
         "title": "יעדים בשבילך",
         "subtitle": "הקישו לצפייה ולבחירה",
@@ -155,15 +274,15 @@
         "added": "נוסף",
         "selectedCount": {
           "one": "נבחר ${n}",
+          "other": "נבחרו ${n}",
           "two": "נבחרו ${n}",
-          "many": "נבחרו ${n}",
-          "other": "נבחרו ${n}"
+          "many": "נבחרו ${n}"
         },
         "planWith": {
           "one": "לתכנן עם ${n} יעד",
+          "other": "לתכנן עם ${n} יעדים",
           "two": "לתכנן עם ${n} יעדים",
-          "many": "לתכנן עם ${n} יעדים",
-          "other": "לתכנן עם ${n} יעדים"
+          "many": "לתכנן עם ${n} יעדים"
         },
         "idealFor": "אידיאלי ל-${days}"
       },
@@ -172,6 +291,9 @@
         "webviewTitle": "לדבר עם מומחה נסיעות"
       },
       "activitiesCard": {
+        "type": "פעילויות",
+        "inLocation": "פעילויות ב${location}",
+        "seeAll": "לכל הפעילויות",
         "addMessage": "להוסיף את ${name} לטיול שלי"
       },
       "connectorsChip": "ייבוא מ-Gmail או Outlook",
@@ -258,15 +380,15 @@
     "copy": "העתק/העתיקי לעריכה",
     "destinations": {
       "one": "יעד ${n}",
+      "other": "${n} יעדים",
       "two": "${n} יעדים",
-      "many": "${n} יעדים",
-      "other": "${n} יעדים"
+      "many": "${n} יעדים"
     },
     "people_collaborating_with_you": {
       "one": "אדם אחד מתכנן איתך",
+      "other": "${n} אנשים מתכננים איתך.",
       "two": "${n} אנשים מתכננים איתך.",
-      "many": "${n} אנשים מתכננים איתך.",
-      "other": "${n} אנשים מתכננים איתך."
+      "many": "${n} אנשים מתכננים איתך."
     },
     "login_widget": {
       "title": "התחבר/י או הרשם/הרשמי",
@@ -356,15 +478,15 @@
       "winter": "חורף",
       "nights": {
         "one": "לילה ${n}",
+        "other": "${n} לילות",
         "two": "${n} לילות",
-        "many": "${n} לילות",
-        "other": "${n} לילות"
+        "many": "${n} לילות"
       },
       "stars": {
         "one": "כוכב ${n}",
+        "other": "${n} כוכבים",
         "two": "${n} כוכבים",
-        "many": "${n} כוכבים",
-        "other": "${n} כוכבים"
+        "many": "${n} כוכבים"
       },
       "use_this_template": "השתמש בתבנית זו",
       "by": "מאת"
@@ -400,6 +522,7 @@
     "flight_price_range": "טווח מחירי טיסות",
     "average_price": "מחיר ממוצע ${price}",
     "or_less": "או פחות",
+    "or": "או",
     "flight_time": "משך זמן הטיסה",
     "average_duration": "משך ממוצע ${hours} שעות",
     "round_hrs": "${val} שעות",
@@ -416,8 +539,7 @@
     "km_from": "${distance}km מ ${city}",
     "consider_broadening": "אופסי! לא מצאתי התאמות בהתאם להעדפות הנוכחיות שלך. שקול/שקלי להרחיב את החיפוש שלך על ידי שינוי ההעדפות שלך למגוון רחב יותר של אפשרויות.",
     "return_with_bullet": " ${code} חוזר",
-    "approx_for_your_dates": "משוערך לתאריכים שבחרת",
-    "or": "או"
+    "approx_for_your_dates": "משוערך לתאריכים שבחרת"
   },
   "flights_feat": {
     "flights_to": "טיסות ל-${to}",
@@ -426,6 +548,7 @@
     "all_filters": "כל הפילטרים",
     "no_flights": "אין טיסות",
     "estimated_price": "מחיר מוערך",
+    "estimated": "משוער",
     "livePrices": "מחיר עדכני",
     "travelers_info_updated_successfully": "פרטי הנוסעים עודכנו בהצלחה",
     "flight_details": "פרטי הטיסה",
@@ -444,9 +567,9 @@
     "connection_in": "חיבור בשדה תעופה",
     "total_for": {
       "one": "סה\"כ עבור ${n} נוסע",
+      "other": "סה\"כ עבור ${n} נוסעים",
       "two": "סה\"כ עבור $n נוסעים",
-      "many": "סה\"כ עבור $n נוסעים",
-      "other": "סה\"כ עבור ${n} נוסעים"
+      "many": "סה\"כ עבור $n נוסעים"
     },
     "search_flights": "חפש/י טיסות",
     "read_before_booking": "קרא/י לפני שתזמין/תזמיני",
@@ -469,25 +592,24 @@
     "we_collected_cheapest_providers": "הנה שותפי הנסיעות המהימנים של Skyscanner להזמין דרכם את הטיסה שלכם - בחרו אתר שממנו תרצו לקנות את הכרטיס!",
     "travellers": {
       "one": "${n} נוסע",
+      "other": "${n} נוסעים",
       "two": "$n נוסעים",
-      "many": "$n נוסעים",
-      "other": "${n} נוסעים"
+      "many": "$n נוסעים"
     },
     "provider_found": {
       "one": "נמצא ספק אחד",
+      "other": "נמצאו ${n} ספקים",
       "two": "נמצאו ${n} ספקים",
-      "many": "נמצאו ${n} ספקים",
-      "other": "נמצאו ${n} ספקים"
+      "many": "נמצאו ${n} ספקים"
     },
     "passengers": {
       "one": "${n} נוסע",
+      "other": "${n} נוסעים",
       "two": "$n נוסעים",
-      "many": "$n נוסעים",
-      "other": "${n} נוסעים"
+      "many": "$n נוסעים"
     },
     "one_way": "כיוון אחד",
-    "youll_arrive_next_day": "את/ה תגיע/י ביום המחרת",
-    "estimated": "משוער"
+    "youll_arrive_next_day": "את/ה תגיע/י ביום המחרת"
   },
   "hotel": {
     "aboutProperty": "על המקום",
@@ -624,9 +746,9 @@
     "select_dates": "בחירת תאריכים",
     "detailed_reviews": {
       "one": "חוות דעת מפורטת ${n}",
+      "other": "חוות דעת מפורטות ${n}",
       "two": "חוות דעת מפורטות ${n}",
-      "many": "חוות דעת מפורטות ${n}",
-      "other": "חוות דעת מפורטות ${n}"
+      "many": "חוות דעת מפורטות ${n}"
     },
     "rooms_and_guests": "חדרים ואורחים",
     "stays_close_by": "לינות בסביבה",
@@ -645,10 +767,11 @@
     "share_text": "איך את/ה עם המלון הזה ${name}",
     "price_for_night": {
       "one": "מחיר עבור ${n} לילה",
+      "other": "מחיר ${n} לילות",
       "two": "מחיר עבור ${n} לילות",
-      "many": "מחיר עבור ${n} לילות",
-      "other": "מחיר ${n} לילות"
-    }
+      "many": "מחיר עבור ${n} לילות"
+    },
+    "laylasTip": "הטיפ של Layla"
   },
   "language": {
     "select_language": "בחר/י שפה"
@@ -702,9 +825,9 @@
       "progressLabel": "התקדמות התכנון",
       "daysCount": {
         "one": "יום אחד",
+        "other": "${n} ימים",
         "two": "יומיים",
-        "many": "${n} ימים",
-        "other": "${n} ימים"
+        "many": "${n} ימים"
       },
       "stages": {
         "you": {
@@ -970,9 +1093,9 @@
         "add_custom": "הוספת ״${text}״",
         "selected": {
           "one": "נבחר ${n}",
+          "other": "נבחרו ${n}",
           "two": "נבחרו ${n}",
-          "many": "נבחרו ${n}",
-          "other": "נבחרו ${n}"
+          "many": "נבחרו ${n}"
         },
         "item(map)": {
           "architecture": "אדריכלות",
@@ -1124,9 +1247,9 @@
         "title": "איפה כבר הייתם",
         "countries": {
           "one": "מדינה אחת",
+          "other": "${n} מדינות",
           "two": "${n} מדינות",
-          "many": "${n} מדינות",
-          "other": "${n} מדינות"
+          "many": "${n} מדינות"
         },
         "empty": "טיולים מתיבת המייל שלכם וטיולים שתוסיפו בעצמכם יופיעו כאן.",
         "timeline": "ציר זמן",
@@ -1238,7 +1361,9 @@
     "error_wrong_password": "סיסמה שגויה. אנא נסה שוב.",
     "error_invalid_credential": "כתובת אימייל או סיסמה שגויים.",
     "error_too_many_requests": "יותר מדי ניסיונות. אנא נסה שוב מאוחר יותר.",
-    "error_network": "שגיאת רשת. אנא בדוק את החיבור שלך."
+    "error_network": "שגיאת רשת. אנא בדוק את החיבור שלך.",
+    "reset_link_sent": "בדוק את תיבת הדואר שלך. אם קיים חשבון עם כתובת זו, קישור לאיפוס הסיסמה בדרך אליך.",
+    "reset_link_failed": "לא הצלחנו לשלוח את קישור האיפוס. נסה שוב."
   },
   "splash": {
     "discover_where_to": "גלה/גלי את \nיעד הטיסה הבא שלך.",
@@ -1338,77 +1463,89 @@
   ],
   "adults": {
     "one": "${n} מבוגר",
+    "other": "${n} מבוגרים",
     "two": "${n} מבוגרים",
-    "many": "${n} מבוגרים",
-    "other": "${n} מבוגרים"
+    "many": "${n} מבוגרים"
   },
   "dayN": "יום מס' ${n}",
   "dayNContd": "יום ${n} (המשך)",
   "days": {
     "one": "${n} יום",
+    "other": "${n} ימים",
     "two": "${n} ימים",
-    "many": "${n} ימים",
-    "other": "${n} ימים"
+    "many": "${n} ימים"
+  },
+  "hours": {
+    "one": "${n} שעה",
+    "other": "${n} שעות",
+    "two": "${n} שעות",
+    "many": "${n} שעות"
+  },
+  "minutes": {
+    "one": "${n} דקה",
+    "other": "${n} דקות",
+    "two": "${n} דקות",
+    "many": "${n} דקות"
   },
   "children": {
     "one": "${n} ילד",
+    "other": "${n} ילדים",
     "two": "${n} ילדים",
-    "many": "${n} ילדים",
-    "other": "${n} ילדים"
+    "many": "${n} ילדים"
   },
   "guest": {
     "one": "${n} אורח/ת",
+    "other": "${n} אורחים/ות",
     "two": "${n} אורחים/ות",
-    "many": "${n} אורחים/ות",
-    "other": "${n} אורחים/ות"
+    "many": "${n} אורחים/ות"
   },
   "room": {
     "one": "${n} חדר",
+    "other": "${n} חדרים",
     "two": "${n} חדרים",
-    "many": "${n} חדרים",
-    "other": "${n} חדרים"
+    "many": "${n} חדרים"
   },
   "person": {
     "one": "${n} אדם",
+    "other": "${n} אנשים",
     "two": "${n} אנשים",
-    "many": "${n} אנשים",
-    "other": "${n} אנשים"
+    "many": "${n} אנשים"
   },
   "review": {
     "one": "${n} ביקורת",
+    "other": "${n} ביקורות",
     "two": "${n} ביקורות",
-    "many": "${n} ביקורות",
-    "other": "${n} ביקורות"
+    "many": "${n} ביקורות"
   },
   "rooms": {
     "one": "${n} חדר",
+    "other": "${n} חדרים",
     "two": "${n} חדרים",
-    "many": "${n} חדרים",
-    "other": "${n} חדרים"
+    "many": "${n} חדרים"
   },
   "stop": {
     "one": "תחנה",
+    "other": "${n} תחנות",
     "two": "${n} תחנות",
-    "many": "${n} תחנות",
-    "other": "${n} תחנות"
+    "many": "${n} תחנות"
   },
   "stop_plus": {
     "one": "תחנה",
+    "other": "+${n} תחנות",
     "two": "+${n} תחנות",
-    "many": "+${n} תחנות",
-    "other": "+${n} תחנות"
+    "many": "+${n} תחנות"
   },
   "traveller": {
     "one": "מטייל/ת",
+    "other": "${n} מטיילים",
     "two": "${n} מטיילים",
-    "many": "${n} מטיילים",
-    "other": "${n} מטיילים"
+    "many": "${n} מטיילים"
   },
   "age": {
     "one": "שנה",
+    "other": "${n} שנים",
     "two": "שנתיים",
-    "many": "${n} שנים",
-    "other": "${n} שנים"
+    "many": "${n} שנים"
   },
   "about": "אודות",
   "activity": "פעילות",
@@ -1431,9 +1568,9 @@
   "change": "שינוי",
   "charactersWord": {
     "one": "תו אחד",
+    "other": "${n} תווים",
     "two": "${n} תווים",
-    "many": "${n} תווים",
-    "other": "${n} תווים"
+    "many": "${n} תווים"
   },
   "checkIn": "צ'ק אין",
   "cheapest": "הזול ביותר",
@@ -1448,6 +1585,26 @@
   "contact_us": "צור/צרי קשר",
   "continue_label": "המשך/המשיכי",
   "create": "צור/צרי",
+  "create_screen": {
+    "greetingWithName": "היי ${name},\nאיפה אתה רוצה *להתעורר* בפעם הבאה?",
+    "greeting": "איפה אתה רוצה *להתעורר* בפעם הבאה?",
+    "listening": "מקשיב...",
+    "placeholders": [
+      "סיור של שבועיים באיטליה: רומא, פירנצה וחוף אמלפי...",
+      "חודש בתאילנד, וייטנאם ובאלי...",
+      "שלושה שבועות ביפן, מטוקיו לקיוטו ולהוקאידו...",
+      "טיול של 10 ימים בדרום-מערב ארצות הברית...",
+      "מסע רכבת של 3 שבועות ברחבי אירופה...",
+      "ירח דבש של שבועיים במלדיביים וסיישל...",
+      "טיול משפחתי של 12 ימים: פריז, ברצלונה, ליסבון...",
+      "שבועיים בעקבות הזוהר הצפוני באיסלנד ובנורווגיה...",
+      "ספארי וחוף של 16 ימים בקניה ובזנזיבר...",
+      "הרפתקת תרמילאות של 21 ימים בדרום אמריקה..."
+    ],
+    "planIt": "לתכנן",
+    "tapAndTell": "לחץ וספר ל-Layla",
+    "placeholder": "עשרה ימים באיטליה ליום הנישואין שלנו, בלי למהר…"
+  },
   "creator": "יוצר",
   "currency": "מטבע",
   "daysWord": "ימים",
@@ -1497,15 +1654,15 @@
   "nightWord": "לילה",
   "nights": {
     "one": "לילה אחד",
+    "other": "${n} לילות",
     "two": "${n} לילות",
-    "many": "${n} לילות",
-    "other": "${n} לילות"
+    "many": "${n} לילות"
   },
   "nightsWithNum": {
     "one": "לילה אחד",
+    "other": "${n} לילות",
     "two": "${n} לילות",
-    "many": "${n} לילות",
-    "other": "${n} לילות"
+    "many": "${n} לילות"
   },
   "opps": "אופס!",
   "one_way": "כיוון אחד",
@@ -1515,14 +1672,17 @@
   "preferences": "העדפות",
   "exploreWord": "גלה",
   "profileWord": "פרופיל",
+  "tripsWord": "טיולים",
   "powered_by": "מופעל על ידי",
   "read_more": "קרא/י עוד",
+  "read_less": "הצגת פחות",
   "remove": "להסרה",
   "rename": "לשינוי שם",
   "reset": "לאיפוס",
   "returnWord": "חזרה לאחור",
   "roomsWord": "חדרים",
   "search": "חיפוש",
+  "searchTrips": "חיפוש טיולים...",
   "save": "שמירה",
   "saved_to": "נשמר ב",
   "see_all": "ראה/ראי הכל",
@@ -1543,9 +1703,9 @@
   "sort_by": "מיון לפי",
   "stars": {
     "one": "כוכב אחד",
+    "other": "${n} כוכבים",
     "two": "${n} כוכבים",
-    "many": "${n} כוכבים",
-    "other": "${n} כוכבים"
+    "many": "${n} כוכבים"
   },
   "start": "התחילי",
   "star_new_chat": "לפתיחת צ'אט חדש",
@@ -1567,9 +1727,9 @@
     },
     "header": {
       "daysLabel": "${count} ימים",
-      "adultsLabel": "${count} מבוגרים",
       "chooseDate": "בחר תאריך",
-      "inviteSomeone": "הזמן מישהו לטיול שלך"
+      "inviteSomeone": "הזמן מישהו לטיול שלך",
+      "adultsLabel": "${count} מבוגרים"
     },
     "sections": {
       "yourFlights": "הטיסות שלך",
@@ -1629,8 +1789,8 @@
       "waysToTravel": "דרכים להגיע",
       "waysCount": {
         "one": "דרך אחת להגיע",
-        "two": "שתי דרכים להגיע",
-        "other": "${n} דרכים להגיע"
+        "other": "${n} דרכים להגיע",
+        "two": "שתי דרכים להגיע"
       },
       "optionsSubtitle": "${from} ← ${to}",
       "updating": "מעדכנים…",
@@ -1675,6 +1835,16 @@
       "trip": "טיול",
       "cart": "עגלה"
     },
+    "hide_chat": "הסתרת הצ׳אט",
+    "show_chat": "הצגת הצ׳אט",
+    "cart_with_total": "עגלה · $total",
+    "footer": {
+      "from_total": "החל מ‑$total",
+      "total_for": {
+        "one": "סה״כ לאדם $n",
+        "other": "סה״כ ל‑$n אנשים"
+      }
+    },
     "messages": {
       "inviteComingSoon": "הזמנה - בקרוב",
       "deleteTransportComingSoon": "מחיקת תחבורה - בקרוב",
@@ -1691,6 +1861,7 @@
       "hotelRemovedSuccessfully": "המלון הוסר בהצלחה",
       "failedRemoveHotel": "נכשל בהסרת המלון. אנא נסה שוב.",
       "failedRemoveFlight": "נכשל בהסרת הטיסה. אנא נסה שוב.",
+      "failedRemoveExperience": "לא הצלחנו להסיר את החוויה. נסו שוב.",
       "updatingCarOption": "מעדכן אפשרות רכב...",
       "transportOptionUpdated": "אפשרות התחבורה עודכנה בהצלחה",
       "failedUpdateTransport": "נכשל בעדכון אפשרות התחבורה",
@@ -1756,6 +1927,8 @@
         "totalCost": "עלות כוללת",
         "laylasPicks": "הבחירות של ליילה",
         "liveSearch": "חיפוש חי",
+        "multiCity": "מספר יעדים",
+        "addAnotherFlight": "הוספת טיסה נוספת",
         "partialResults": "מוצגות תוצאות חלקיות — החיפוש לא הסתיים בזמן.",
         "showFlights": "הצגת טיסות ($n)",
         "selected": "נבחר",
@@ -1819,7 +1992,34 @@
         "searchCarRentals": "חפש השכרת רכב",
         "noCarRentalsFound": "לא נמצאו רכבים להשכרה",
         "tryAdjustingCriteria": "נסה לשנות את קריטריוני החיפוש",
-        "failedSearch": "נכשל בחיפוש רכבים להשכרה. אנא נסה שוב."
+        "failedSearch": "נכשל בחיפוש רכבים להשכרה. אנא נסה שוב.",
+        "selectCar": "בחירת רכב",
+        "refine": {
+          "transmission": "תיבת הילוכים",
+          "automatic": "אוטומטי",
+          "manual": "ידני",
+          "carType": "סוג רכב",
+          "mini": "מיני",
+          "economy": "חסכוני",
+          "compact": "קומפקטי",
+          "intermediate": "בינוני",
+          "standard": "סטנדרטי",
+          "fullsize": "גדול",
+          "premium": "פרימיום",
+          "luxury": "יוקרה",
+          "suv": "SUV",
+          "van": "ואן",
+          "estate": "סטיישן",
+          "convertible": "קבריולה",
+          "pickup": "טנדר",
+          "fuel": "דלק",
+          "electric": "חשמלי",
+          "hybrid": "היברידי",
+          "diesel": "דיזל",
+          "petrol": "בנזין",
+          "airportOnly": "בשדה התעופה",
+          "budgetTotal": "תקציב (סה\"כ)"
+        }
       },
       "activities": {
         "activities": "פעילויות",
@@ -1933,7 +2133,13 @@
         "addToTrip": "הוסף לטיול",
         "perTotal": "/סה\"כ",
         "freeCancellation": "ביטול חינם",
-        "at": "ב-"
+        "at": "ב-",
+        "cheapest": "הזול ביותר",
+        "book": "הזמנה",
+        "orSimilar": "או דומה",
+        "addedToTrip": "נוסף לטיול",
+        "addToTripMessage": "להוסיף את הרכב ${car} מ-${supplier} לטיול שלי",
+        "total": "סה\"כ"
       },
       "flightCard": {
         "selected": "נבחר",
@@ -1941,7 +2147,8 @@
         "perPerson": "/לאדם",
         "nonStop": "ללא עצירות",
         "oneStop": "עצירה אחת",
-        "stops": "עצירות"
+        "stops": "עצירות",
+        "addToTripMessage": "להוסיף את הטיסה ${route} בתאריך ${date} לטיול שלי"
       },
       "hotelCard": {
         "reviews": "ביקורות",
@@ -1953,11 +2160,11 @@
     "widgets": {
       "addExperienceButton": "הוסף חוויה",
       "dayLabel": "יום ${n}",
+      "failedToLoadTrip": "נכשל בטעינת הטיול",
+      "retry": "נסה שוב",
       "yourStay": "השהייה שלך",
       "transport": "תחבורה",
-      "yourDayByDay": "יום אחר יום שלך",
-      "failedToLoadTrip": "נכשל בטעינת הטיול",
-      "retry": "נסה שוב"
+      "yourDayByDay": "יום אחר יום שלך"
     },
     "transportType": {
       "flight": "טיסה",
@@ -2004,6 +2211,8 @@
     "overview": {
       "madeBy": "נוצר על ידי ${creator}",
       "highlightsTitle": "דגשי הטיול במבט אחד",
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "הצג הכל",
       "showAllFlights": "הצג את כל הטיסות",
       "showAllTransport": "הצג את כל התחבורה",
@@ -2028,15 +2237,15 @@
       "hotel": {
         "night": {
           "one": "לילה ${n}",
+          "other": "${n} לילות",
           "two": "${n} לילות",
-          "many": "${n} לילות",
-          "other": "${n} לילות"
+          "many": "${n} לילות"
         },
         "stars": {
           "one": "כוכב ${n}",
+          "other": "${n} כוכבים",
           "two": "${n} כוכבים",
-          "many": "${n} כוכבים",
-          "other": "${n} כוכבים"
+          "many": "${n} כוכבים"
         },
         "addStay": "הוסף לינה",
         "addStayInCity": "הוסף לינה ב-${city}",
@@ -2047,16 +2256,14 @@
         "durationHr": "${n} שע'",
         "durationDay": {
           "one": "יום ${n}",
+          "other": "${n} ימים",
           "two": "${n} ימים",
-          "many": "${n} ימים",
-          "other": "${n} ימים"
+          "many": "${n} ימים"
         },
         "durationMinShort": "${n} ד'",
         "durationHrShort": "${n} ש'",
         "durationHrMin": "${h} ש' ${m} ד'"
       },
-      "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5",
       "add": {
         "activityTitle": "הוספת פעילות",
         "activityBody": "בחרו סיור או חוויה לימים שלכם.",
@@ -2111,7 +2318,6 @@
       "km": "${n} ק\"מ",
       "meters": "${n} מ'"
     },
-    "footer": {},
     "quickEdit": {
       "title": "תאריכים ונוסעים",
       "itinerary": "מסלול",
@@ -2120,9 +2326,9 @@
       "childNumber": "ילד ${index}",
       "age": {
         "one": "שנה אחת",
+        "other": "${n} שנים",
         "two": "שנתיים",
-        "many": "${n} שנים",
-        "other": "${n} שנים"
+        "many": "${n} שנים"
       },
       "moreAdults": "עוד מבוגר",
       "fewerAdults": "מבוגר אחד פחות",
@@ -2142,6 +2348,9 @@
       "failed": "לא הצלחנו לעדכן את הטיול שלך. נסו שוב.",
       "stale": "הטיול שלך השתנה בינתיים. נסו שוב.",
       "updating": "Layla מעדכנת את הטיול שלך…"
+    },
+    "legPicker": {
+      "overview": "סקירה"
     }
   },
   "tripWord": "טיול",
@@ -2164,47 +2373,47 @@
   "time_ago": {
     "years": {
       "one": " לפני שנה",
+      "other": " לפני ${n} שנים",
       "two": " לפני שנתיים",
-      "many": " לפני ${n} שנים",
-      "other": " לפני ${n} שנים"
+      "many": " לפני ${n} שנים"
     },
     "months": {
       "one": " לפני חודש",
+      "other": " לפני ${n} חודשים",
       "two": " לפני חודשיים",
-      "many": " לפני ${n} חודשים",
-      "other": " לפני ${n} חודשים"
+      "many": " לפני ${n} חודשים"
     },
     "days": {
       "one": " לפני יום",
+      "other": " לפני ${n} ימים",
       "two": " לפני יומיים",
-      "many": " לפני ${n} ימים",
-      "other": " לפני ${n} ימים"
+      "many": " לפני ${n} ימים"
     },
     "hours": {
       "one": " לפני שעה",
+      "other": " לפני ${n} שעות",
       "two": " לפני ${n} שעות",
-      "many": " לפני ${n} שעות",
-      "other": " לפני ${n} שעות"
+      "many": " לפני ${n} שעות"
     },
     "minutes": {
       "one": " לפני דקה",
+      "other": " לפני ${n} דקות",
       "two": " לפני ${n} דקות",
-      "many": " לפני ${n} דקות",
-      "other": " לפני ${n} דקות"
+      "many": " לפני ${n} דקות"
     },
     "seconds": {
       "one": " לפני שניה",
+      "other": " לפני ${n} שניות",
       "two": " לפני ${n} שניות",
-      "many": " לפני ${n} שניות",
-      "other": " לפני ${n} שניות"
+      "many": " לפני ${n} שניות"
     },
     "just_now": "ממש עכשיו"
   },
   "characters_left": {
     "one": "נותר תו אחד",
+    "other": "נותרו  ${n} תוים",
     "two": "נותרו  ${n} תוים",
-    "many": "נותרו  ${n} תוים",
-    "other": "נותרו  ${n} תוים"
+    "many": "נותרו  ${n} תוים"
   },
   "faq": "שאלות ותשובות",
   "internet_offline": "נראה שאין גישה לרשת האינטרנט. נא נסה/י שנית",
@@ -2269,6 +2478,27 @@
     "day": "יום",
     "category": "קטגוריה"
   },
+  "trip_book": {
+    "accommodations": "לינה",
+    "flights": "טיסות",
+    "private_transport": "תחבורה פרטית",
+    "experiences": "חוויות",
+    "save_on_booking": "חסכו ${amount} בהשוואה להזמנה נפרדת",
+    "layla_brings_deals": "ליילה מביאה לכם את ההצעות הטובות ביותר.",
+    "title": "הזמן טיול",
+    "book": "הזמן",
+    "delete": "מחק",
+    "alternative": "חלופה",
+    "experts_title": "הזמינו את הטיול הזה עם המומחים שלנו",
+    "benefit1_title": "חסכנו מעל 32 שעות תכנון",
+    "benefit1_description": "שבו בנוח — המומחים שלנו דואגים לכל הפרטים עבורכם.",
+    "benefit2_title": "${n}+ הזמנות בודדות טופלו",
+    "benefit2_description": "מלונות, טיסות, פעילויות — אנו מתאמים הכל לחופשת החלום שלכם.",
+    "benefit3_title": "${n}+ העברות אורגנו בצורה חלקה",
+    "benefit3_description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בשלמות במסלול שלכם.",
+    "continue_with_human": "להמשיך עם מומחה נסיעות",
+    "continue_with_booking": "המשך להזמנה"
+  },
   "paywall": {
     "title": "פתח את המסע השלם שלך",
     "subtitle": "המשך עם Premium לתכנון בלתי מוגבל וחסכון בלעדי.",
@@ -2332,49 +2562,6 @@
       "subtitle": "הפעל עיבוד בינה מלאכותית בהגדרות כדי לשוחח וליצור תוכנית טיול."
     }
   },
-  "trip_book": {
-    "accommodations": "לינה",
-    "flights": "טיסות",
-    "private_transport": "תחבורה פרטית",
-    "experiences": "חוויות",
-    "save_on_booking": "חסכו ${amount} בהשוואה להזמנה נפרדת",
-    "layla_brings_deals": "ליילה מביאה לכם את ההצעות הטובות ביותר.",
-    "title": "הזמן טיול",
-    "book": "הזמן",
-    "delete": "מחק",
-    "alternative": "חלופה",
-    "experts_title": "הזמינו את הטיול הזה עם המומחים שלנו",
-    "benefit1_title": "חסכנו מעל 32 שעות תכנון",
-    "benefit1_description": "שבו בנוח — המומחים שלנו דואגים לכל הפרטים עבורכם.",
-    "benefit2_title": "${n}+ הזמנות בודדות טופלו",
-    "benefit2_description": "מלונות, טיסות, פעילויות — אנו מתאמים הכל לחופשת החלום שלכם.",
-    "benefit3_title": "${n}+ העברות אורגנו בצורה חלקה",
-    "benefit3_description": "מתחנה לתחנה — אנו מבטיחים חיבורים מתואמים בשלמות במסלול שלכם.",
-    "continue_with_human": "להמשיך עם מומחה נסיעות",
-    "continue_with_booking": "המשך להזמנה"
-  },
-  "create_screen": {
-    "greetingWithName": "היי ${name},\nאיפה אתה רוצה *להתעורר* בפעם הבאה?",
-    "greeting": "איפה אתה רוצה *להתעורר* בפעם הבאה?",
-    "listening": "מקשיב...",
-    "placeholders": [
-      "סיור של שבועיים באיטליה: רומא, פירנצה וחוף אמלפי...",
-      "חודש בתאילנד, וייטנאם ובאלי...",
-      "שלושה שבועות ביפן, מטוקיו לקיוטו ולהוקאידו...",
-      "טיול של 10 ימים בדרום-מערב ארצות הברית...",
-      "מסע רכבת של 3 שבועות ברחבי אירופה...",
-      "ירח דבש של שבועיים במלדיביים וסיישל...",
-      "טיול משפחתי של 12 ימים: פריז, ברצלונה, ליסבון...",
-      "שבועיים בעקבות הזוהר הצפוני באיסלנד ובנורווגיה...",
-      "ספארי וחוף של 16 ימים בקניה ובזנזיבר...",
-      "הרפתקת תרמילאות של 21 ימים בדרום אמריקה..."
-    ],
-    "planIt": "לתכנן",
-    "tapAndTell": "לחץ וספר ל-Layla",
-    "placeholder": "עשרה ימים באיטליה ליום הנישואין שלנו, בלי למהר…"
-  },
-  "tripsWord": "טיולים",
-  "searchTrips": "חיפוש טיולים...",
   "main": {
     "tripsEmpty": {
       "title": "הטיולים שלך נמצאים כאן",
@@ -2394,18 +2581,6 @@
     "confirm_maybe_video": "האם אתה בטוח שברצונך לסמן סרטון זה כאולי?",
     "confirm_remove_category": "האם אתה בטוח שברצונך להסיר את הקטגוריה \"${category}\" מסרטון זה?",
     "video_copied": "מזהה הסרטון: ${videoId} הועתק בהצלחה"
-  },
-  "minutes": {
-    "one": "${n} דקה",
-    "two": "${n} דקות",
-    "many": "${n} דקות",
-    "other": "${n} דקות"
-  },
-  "hours": {
-    "one": "${n} שעה",
-    "two": "${n} שעות",
-    "many": "${n} שעות",
-    "other": "${n} שעות"
   },
   "checkout": {
     "title": "Checkout",
@@ -2431,13 +2606,24 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "תשלום מאובטח",
+      "poweredByStripe": "מופעל על ידי Stripe · הצפנת SSL",
+      "noSelection": "לא נבחר כלום – חזרו ובחרו מה להזמין."
     },
     "totals": {
       "total": "Total",
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "הוזמן",
+      "pending": "ממתין להזמנה",
+      "inProgress": "ההזמנה בתהליך",
+      "partial": "הוזמן חלקית",
+      "cancelled": "בוטל",
+      "alreadyBookedNotice": "חלק מהפריטים בסל שלך כבר הוזמנו והוסרו מהסכום הכולל."
     },
     "categories": {
       "accommodation": "Stays",
@@ -2452,13 +2638,72 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "חזרה לטיול שלי"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "תשלום אונליין",
+      "subtitle": "הדרך הכי מהירה להתקדם. משלמים בבטחה ו‑Layla מטפלת בהזמנה.",
+      "selectAll": "בחירת הכול",
+      "expired": "פג תוקף",
+      "soldOut": "לא נשארו חדרים כאן",
+      "refreshToContinue": "רעננו את המחירים שפג תוקפם כדי להמשיך לתשלום",
+      "replaceSoldOut": "החליפו את המלון שאזל כדי להמשיך לתשלום"
+    },
+    "travelers": {
+      "title": "פרטי הנוסעים",
+      "subtitle": "הוסיפו מסמך בתוקף לכל מי שנוסע בהזמנה הזו.",
+      "travelerSection": "נוסע $number",
+      "primaryTraveler": "נוסע ראשי",
+      "removeTraveler": "הסרה",
+      "addTraveler": "הוספת נוסע",
+      "whichDocument": "באיזה מסמך תשתמשו?",
+      "typePassport": "דרכון",
+      "typeNationalId": "תעודת זהות",
+      "firstName": "שם פרטי",
+      "middleName": "שם אמצעי (לא חובה)",
+      "lastName": "שם משפחה",
+      "dateOfBirth": "תאריך לידה",
+      "dateOfBirthHint": "DD.MM.YYYY",
+      "nationality": "אזרחות",
+      "issuingCountry": "מדינה מנפיקה",
+      "passportNumber": "מספר דרכון",
+      "idNumber": "מספר תעודה",
+      "gender": "מגדר",
+      "genderM": "זכר",
+      "genderF": "נקבה",
+      "genderU": "מעדיפים לא לציין",
+      "genderX": "לא צוין",
+      "expiry": "תאריך תפוגה",
+      "expiryHint": "MM/YYYY",
+      "countrySearch": "חיפוש מדינה",
+      "countrySearchEmpty": "לא נמצאו מדינות",
+      "storedSecurelyNote": "נשמר בצורה מאובטחת ומשותף רק עם חברות תעופה ומלונות לצורך השלמת ההזמנה.",
+      "phoneTitle": "טלפון ליצירת קשר",
+      "phoneSubtitle": "נתקשר רק אם משהו דורש את תשומת לבכם. בלי שיחות ממומחים ובלי שיחות מכירה.",
+      "phoneLabel": "מספר טלפון",
+      "continueCta": "המשך לתשלום",
+      "skipLink": "אוסיף את הפרטים אחר כך",
+      "docsDialogTitle": "התחילו את ההזמנה מוקדם יותר",
+      "docsDialogBody": "אנחנו צריכים את מסמכי הנסיעה שלכם כדי לבצע את ההזמנות. הוסיפו אותם עכשיו כדי שנתחיל מיד.",
+      "docsDialogAddNow": "הוספת מסמכי נסיעה",
+      "docsDialogLater": "אוסיף אותם אחר כך",
+      "errors": {
+        "required": "שדה חובה",
+        "dateOfBirthFormat": "השתמשו בפורמט DD.MM.YYYY",
+        "expiryFormat": "השתמשו בפורמט MM/YYYY",
+        "expired": "תוקף המסמך פג",
+        "passportFormat": "הזינו מספר דרכון תקין עבור המדינה שנבחרה",
+        "phoneRequired": "הוסיפו את מספר הטלפון שלכם",
+        "travelerDetails": "הזינו את פרטי הנוסע כדי להמשיך לתשלום",
+        "saveFailed": "לא הצלחנו לשמור את הפרטים. נסו שוב."
+      }
     },
     "steps": {
       "items": "בחירה",
@@ -2517,15 +2762,181 @@
     "starts_tomorrow": "מתחיל מחר",
     "starts_in": {
       "one": "מתחיל בעוד יום אחד",
+      "other": "מתחיל בעוד $n ימים",
       "two": "מתחיל בעוד יומיים",
-      "many": "מתחיל בעוד $n ימים",
-      "other": "מתחיל בעוד $n ימים"
+      "many": "מתחיל בעוד $n ימים"
     },
     "start_new": "התחלת טיול חדש",
+    "new_trip": "טיול חדש",
+    "day_of_total": "יום $day מתוך $total",
     "sort_by": "מיון לפי",
     "sort_trip_date": "תאריך הטיול",
     "sort_last_updated": "עדכון אחרון",
     "sort_date_created": "תאריך יצירה"
+  },
+  "expedia": {
+    "attribution": "מופעל על ידי Expedia",
+    "rooms": {
+      "title": "חדרים זמינים",
+      "loadingPrices": "טוענים מחירים עדכניים…",
+      "noneAvailable": "אין חדרים זמינים בתאריכים שנבחרו. נסו תאריכים אחרים מדף הטיול.",
+      "loadFailed": "לא הצלחנו לטעון מחירים עדכניים כרגע. נסו שוב.",
+      "retry": "ניסיון חוזר",
+      "noAvailabilityTitle": "לא נשארו חדרים כאן",
+      "onTripBadge": "בטיול שלכם",
+      "roomsLeft": "נשארו רק $count",
+      "perNight": "ללילה",
+      "inclTaxesShort": "כולל מיסים ועמלות",
+      "noMeals": "לא כולל ארוחות",
+      "payNow": "לתשלום עכשיו",
+      "nonRefundable": "ללא החזר",
+      "freeCancellationUntil": "ביטול חינם עד $date",
+      "cancellationTitle": "מדיניות ביטול",
+      "bedRequestNote": "בחירת המיטה היא בקשה בלבד ואינה מובטחת על ידי המלון.",
+      "maxRoomsReached": "אפשר להזמין עד 8 חדרים",
+      "reserve": "הזמנה",
+      "priceBreakdown": {
+        "taxesAndFees": "מיסים ועמלות",
+        "total": "סה״כ",
+        "taxesNote": "המיסים הם דמי השבת מס המשולמים לספקים (למשל מלונות); לפרטים ראו את תנאי השימוש שלנו. דמי השירות נשמרים כתמורה על טיפול בהזמנה ועשויים לכלול עמלות שגובים הספקים.",
+        "feesAtProperty": "חיובים לתשלום במלון",
+        "feesAtPropertyNote": "חיובים אלה משולמים במלון בצ׳ק‑אין או בצ׳ק‑אאוט, נקבעים על ידי המלון ואינם כלולים בסה״כ שלמעלה.",
+        "feeKind": {
+          "mandatoryFee": "עמלת חובה",
+          "resortFee": "דמי ריזורט",
+          "mandatoryTax": "מס חובה"
+        }
+      },
+      "chooseRooms": "בחירת חדרים"
+    },
+    "booking": {
+      "title": "השלמת ההזמנה",
+      "leadGuest": "אורח ראשי",
+      "roomGuest": "אורח בחדר $n",
+      "roomGuestHint": "כל חדר מוזמן על שם האורח הראשי שלו. חדר 1 על שם האורח הראשי, אלא אם תשנו זאת.",
+      "firstName": "שם פרטי",
+      "lastName": "שם משפחה",
+      "email": "אימייל",
+      "phone": "טלפון",
+      "invalidEmail": "הזינו כתובת אימייל תקינה",
+      "invalidPhone": "הזינו מספר טלפון תקין",
+      "requiredField": "שדה חובה",
+      "payAndBook": "לשלם $amount ולהזמין",
+      "processing": "מעבדים את ההזמנה…",
+      "chargedWhen": "הכרטיס מחויב עכשיו; ההזמנה מאושרת מיד.",
+      "paymentsUnavailable": "תשלומים אינם זמינים כרגע. נסו שוב מאוחר יותר.",
+      "priceChangedTitle": "המחיר השתנה",
+      "priceChangedBody": "המחיר העדכני הוא $amount. בדקו ואשרו כדי להמשיך.",
+      "confirmNewPrice": "אישור המחיר החדש",
+      "soldOutTitle": "אזל",
+      "soldOutBody": "החדרים האלה אזלו הרגע לתאריכים שלכם. לא חויבתם.",
+      "bookedTitle": "ההזמנה אושרה!",
+      "bookedBody": "החדרים שלכם הוזמנו. אימייל אישור בדרך אליכם.",
+      "confirmationNumber": "מספר אישור",
+      "notCharged": "לא חויבתם – הסכום שהוקפא בכרטיס שוחרר.",
+      "bookFailedTitle": "ההזמנה לא הושלמה",
+      "paymentFailedBody": "לא ניתן היה להשלים את התשלום ולא חויבתם. נסו שוב.",
+      "fulfillDelayedTitle": "התשלום אושר – ההזמנה עדיין לא אושרה",
+      "fulfillDelayedBody": "לא הצלחנו להגיע לשירות ההזמנות אחרי שהתשלום אושר. הקישו על ניסיון חוזר כדי לסיים את ההזמנה – לעולם לא תחויבו פעמיים.",
+      "challengeTitle": "נדרש אימות נוסף",
+      "challengeBody": "הבנק שלכם דורש אימות נוסף שלא הצלחנו להשלים. לא חויבתם. פנו לתמיכה בכתובת help@layla.ai.",
+      "tryAgain": "ניסיון חוזר",
+      "resumeFound": "מסיימים את ההזמנה הממתינה שלכם ב‑$hotel…",
+      "bookings": "ההזמנות שלכם",
+      "cancelBooking": "ביטול ההזמנה",
+      "cancelConfirmTitle": "לבטל את ההזמנה?",
+      "cancelConfirmBody": "ההחזרים כפופים למדיניות הביטול של התעריף.",
+      "cancelled": "ההזמנה בוטלה"
+    },
+    "details": {
+      "propertyInfo": "טוב לדעת",
+      "languagesSpoken": "שפות מדוברות",
+      "fees": "עמלות",
+      "mandatoryFees": "עמלות חובה",
+      "optionalExtras": "תוספות אופציונליות",
+      "finePrint": "האותיות הקטנות",
+      "contact": "יצירת קשר",
+      "nearestAirport": "נמל התעופה הקרוב",
+      "guestRatings": "דירוגי אורחים",
+      "minCheckinAge": "גיל מינימלי לצ׳ק‑אין: $age",
+      "viewRoomDetails": "הצגת פרטי החדר",
+      "roomDetails": "פרטי החדר",
+      "sleeps": "מתאים ל‑$count",
+      "roomSize": "$size מ״ר",
+      "aboutRoom": "על החדר",
+      "roomAmenities": "מתקני החדר",
+      "fax": "פקס"
+    },
+    "scores": {
+      "cleanliness": "ניקיון",
+      "service": "שירות",
+      "comfort": "נוחות",
+      "condition": "מצב המקום",
+      "location": "מיקום",
+      "neighborhood": "שכונה",
+      "quality": "איכות",
+      "value": "תמורה למחיר",
+      "amenities": "מתקנים"
+    },
+    "search": {
+      "refine": "דיוק החיפוש",
+      "where": "איפה",
+      "when": "מתי",
+      "who": "מי",
+      "filters": "מסננים",
+      "updateResults": "עדכון התוצאות",
+      "searchPromptHint": "תארו את המלון האידיאלי שלכם…",
+      "sortBestMatch": "ההתאמה הטובה ביותר",
+      "sortCheapest": "מחיר: מהנמוך לגבוה",
+      "sortMostExpensive": "מחיר: מהגבוה לנמוך",
+      "sortGuestRating": "דירוג אורחים",
+      "budgetPerNight": "תקציב ללילה",
+      "starRating": "כוכבים",
+      "guestRating": "דירוג אורחים",
+      "mealPlans": "ארוחות",
+      "popularFilters": "מסננים פופולריים",
+      "fromYourSearch": "מהחיפוש שלכם",
+      "noBudgetLimit": "ללא הגבלה",
+      "childN": "ילד $n",
+      "selectAge": "בחירת גיל",
+      "ageN": "גיל $age",
+      "childAgesRequired": "הוסיפו את הגיל של כל ילד כדי להמשיך",
+      "mealBreakfastIncluded": "כולל ארוחת בוקר",
+      "mealAllInclusive": "הכול כלול",
+      "popular": {
+        "freeBreakfast": "ארוחת בוקר חינם",
+        "swimmingPool": "בריכה",
+        "freeWifi": "Wi-Fi חינם",
+        "parking": "חניה",
+        "petsAllowed": "חיות מחמד מותרות",
+        "allInclusive": "הכול כלול",
+        "hotTub": "ג׳קוזי"
+      }
+    },
+    "reviews": {
+      "sortNote": "ביקורות בשפה שלכם מוצגות קודם, ואחריהן החדשות ביותר",
+      "policyLink": "איך עובדות ביקורות האורחים שלנו",
+      "seeAll": "הצגת כל הביקורות",
+      "allTitle": "כל $count הביקורות",
+      "allTitleFallback": "כל הביקורות",
+      "otherLanguagesNote": "מוצגות ביקורות כתובות בשפה שלכם. הציון הכולל מבוסס על כל $total ביקורות האורחים, כולל אלה בשפות אחרות.",
+      "reviewedOn": "נכתב ב‑$date",
+      "stayed": "שהות ב‑$date",
+      "viaSource": "דרך $source"
+    }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "הגיע הזמן לעדכון קצר",
+      "body": "גרסה זו של Layla כבר לא נתמכת. עדכנו כדי להמשיך לתכנן טיולים.",
+      "cta": "עדכון Layla"
+    },
+    "recommended": {
+      "title": "Layla חדשה מחכה לכם",
+      "body": "שיפרנו כמה דברים. עדכנו כשיהיה לכם רגע.",
+      "cta": "לעדכן עכשיו",
+      "later": "אולי אחר כך"
+    }
   },
   "consultation": {
     "title": "לדבר עם מומחה נסיעות",

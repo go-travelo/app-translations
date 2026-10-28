@@ -239,6 +239,26 @@
           "other": "${n} hotels"
         }
       },
+      "flightsCard": {
+        "type": "Flights",
+        "inLocation": "Flights to ${location}",
+        "seeAll": "See all flights",
+        "moreFlights": {
+          "one": "+${n} more flight",
+          "other": "+${n} more flights"
+        },
+        "checkedBag": "Checked bag included",
+        "cabinBag": "Cabin bag included"
+      },
+      "carRentalsCard": {
+        "type": "Car rentals",
+        "inLocation": "Cars in ${location}",
+        "seeAll": "See all cars",
+        "priceTotal": "total"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} of ${total}"
+      },
       "attach": {
         "photoLibrary": "Photo Library",
         "files": "Files",
@@ -267,6 +287,9 @@
         "webviewTitle": "Talk to a travel expert"
       },
       "activitiesCard": {
+        "type": "Activities",
+        "inLocation": "Activities in ${location}",
+        "seeAll": "See all activities",
         "addMessage": "Add ${name} to my trip"
       },
       "connectorsChip": "Import from Gmail or Outlook",
@@ -723,7 +746,8 @@
     "price_for_night": {
       "one": "Price for ${n} night",
       "other": "Price ${n} nights"
-    }
+    },
+    "laylasTip": "Layla's Tip"
   },
   "language": {
     "select_language": "Select language"
@@ -1307,7 +1331,9 @@
     "error_wrong_password": "Incorrect password. Please try again.",
     "error_invalid_credential": "Incorrect email or password.",
     "error_too_many_requests": "Too many attempts. Please try again later.",
-    "error_network": "Network error. Please check your connection."
+    "error_network": "Network error. Please check your connection.",
+    "reset_link_sent": "Check your inbox. If there's an account for this email, a reset link is on its way.",
+    "reset_link_failed": "We couldn't send the reset link. Please try again."
   },
   "splash": {
     "discover_where_to": "Discover where to\nfly next.",
@@ -1834,6 +1860,8 @@
         "totalCost": "Total Cost",
         "laylasPicks": "Layla's picks",
         "liveSearch": "Live search",
+        "multiCity": "Multi-city",
+        "addAnotherFlight": "Add another flight",
         "partialResults": "Showing partial results — the search didn't finish in time.",
         "showFlights": "Show flights ($n)",
         "selected": "Selected",
@@ -1897,7 +1925,34 @@
         "searchCarRentals": "Search Car Rentals",
         "noCarRentalsFound": "No car rentals found",
         "tryAdjustingCriteria": "Try adjusting your search criteria",
-        "failedSearch": "Failed to search car rentals. Please try again."
+        "failedSearch": "Failed to search car rentals. Please try again.",
+        "selectCar": "Select Car",
+        "refine": {
+          "transmission": "Transmission",
+          "automatic": "Automatic",
+          "manual": "Manual",
+          "carType": "Car type",
+          "mini": "Mini",
+          "economy": "Economy",
+          "compact": "Compact",
+          "intermediate": "Intermediate",
+          "standard": "Standard",
+          "fullsize": "Full-size",
+          "premium": "Premium",
+          "luxury": "Luxury",
+          "suv": "SUV",
+          "van": "Van",
+          "estate": "Estate",
+          "convertible": "Convertible",
+          "pickup": "Pickup",
+          "fuel": "Fuel",
+          "electric": "Electric",
+          "hybrid": "Hybrid",
+          "diesel": "Diesel",
+          "petrol": "Petrol",
+          "airportOnly": "At the airport",
+          "budgetTotal": "Budget (total)"
+        }
       },
       "activities": {
         "activities": "Activities",
@@ -2011,7 +2066,13 @@
         "addToTrip": "Add to trip",
         "perTotal": "/total",
         "freeCancellation": "Free cancellation",
-        "at": "at"
+        "at": "at",
+        "cheapest": "Cheapest",
+        "book": "Book",
+        "orSimilar": "or similar",
+        "addedToTrip": "Added to trip",
+        "addToTripMessage": "Add the ${car} from ${supplier} to my trip",
+        "total": "total"
       },
       "flightCard": {
         "selected": "Selected",
@@ -2019,7 +2080,8 @@
         "perPerson": "/person",
         "nonStop": "Non-stop",
         "oneStop": "1 stop",
-        "stops": "stops"
+        "stops": "stops",
+        "addToTripMessage": "Add the ${route} flight on ${date} to my trip"
       },
       "hotelCard": {
         "reviews": "Reviews",
@@ -2211,6 +2273,9 @@
       "failed": "Couldn't update your trip. Try again.",
       "stale": "Your trip changed in the meantime. Try again.",
       "updating": "Layla is updating your trip…"
+    },
+    "legPicker": {
+      "overview": "Overview"
     }
   },
   "tripWord": "Trip",
@@ -2462,6 +2527,14 @@
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "Booked",
+      "pending": "Awaiting booking",
+      "inProgress": "Booking in progress",
+      "partial": "Partially booked",
+      "cancelled": "Cancelled",
+      "alreadyBookedNotice": "Some items in your basket are already booked. They were removed from your total."
     },
     "categories": {
       "accommodation": "Stays",
@@ -2736,7 +2809,18 @@
       "childN": "Child $n",
       "selectAge": "Select age",
       "ageN": "Age $age",
-      "childAgesRequired": "Add each child's age to continue"
+      "childAgesRequired": "Add each child's age to continue",
+      "mealBreakfastIncluded": "Breakfast included",
+      "mealAllInclusive": "All-inclusive",
+      "popular": {
+        "freeBreakfast": "Free breakfast",
+        "swimmingPool": "Swimming pool",
+        "freeWifi": "Free WiFi",
+        "parking": "Parking",
+        "petsAllowed": "Pets allowed",
+        "allInclusive": "All-inclusive",
+        "hotTub": "Hot tub"
+      }
     },
     "reviews": {
       "sortNote": "Reviews are shown in your language first, then most recent",
