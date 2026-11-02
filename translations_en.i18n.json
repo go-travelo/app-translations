@@ -1668,7 +1668,8 @@
       "invite_value": "€100 for them, €100 for you",
       "support": "Support",
       "app": "App",
-      "trips_count": "· $n"
+      "trips_count": "· $n",
+      "stagingFooter": "Staging · test data"
     }
   },
   "auth": {
