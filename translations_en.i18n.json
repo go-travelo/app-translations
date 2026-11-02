@@ -164,7 +164,12 @@
       "rename_chat": "Rename Chat",
       "delete_chat": "Delete Chat?",
       "delete_chat_message": "${name} will be permanently deleted.",
-      "info_and_support": "Information and Support"
+      "info_and_support": "Information and Support",
+      "today": "Today",
+      "earlier": "Earlier",
+      "search_chats": "Search chats",
+      "trip_sub": "Trip · ${days} days",
+      "trip_sub_no_days": "Trip"
     },
     "chat": {
       "title": "Layla - AI Travel Planner",
@@ -293,7 +298,36 @@
         "addMessage": "Add ${name} to my trip"
       },
       "connectorsChip": "Import from Gmail or Outlook",
-      "legalLine": "AI-assisted travel service"
+      "legalLine": "AI-assisted travel service",
+      "askAbout": "Ask about ${title}…",
+      "tripPill": "Trip",
+      "tripPillBuilding": "Trip · building",
+      "status": {
+        "online": "Online",
+        "thinking": "Thinking…",
+        "buildingTrip": "Building your trip",
+        "readingChanges": "Reading your changes",
+        "checkingBudget": "Checking budget",
+        "pickingDestinations": "Picking destinations",
+        "checkingStays": "Checking stays",
+        "findingThingsToDo": "Finding things to do",
+        "findingSights": "Finding sights",
+        "workingOutRoute": "Working out the route",
+        "pricingTransfers": "Pricing transfers",
+        "pricingCar": "Pricing a car",
+        "choosingPhotos": "Choosing photos",
+        "namingTrip": "Naming the trip"
+      },
+      "home": {
+        "greeting": "Hi ${name}, where to next? ✦",
+        "greetingNoName": "Where to next? ✦",
+        "hint": "Tell me like you'd voice-note a friend: who's coming, where, when, what matters.",
+        "chipHotelMadrid": "Hotel in Madrid Thursday",
+        "chipCheapestLisbon": "Cheapest day to Lisbon",
+        "chipLongWeekend": "Plan a long weekend",
+        "chipSurprise": "Surprise me"
+      },
+      "send": "Send"
     },
     "trip_empty": {
       "title": "Chat & create trip",
@@ -1026,7 +1060,10 @@
       "status_processing": "Processing",
       "status_cancelled": "Cancelled",
       "status_booked": "Booked",
-      "status_in_progress": "In progress"
+      "status_in_progress": "In progress",
+      "heading": "Bookings",
+      "empty_title": "No bookings yet",
+      "empty_subtitle": "Ask Layla for a hotel or a flight and it lands here."
     },
     "travel": {
       "title": "Your travel profile",
@@ -1306,6 +1343,20 @@
           }
         }
       }
+    },
+    "hub": {
+      "title": "Profile",
+      "travellers": "Travellers",
+      "travellers_value": "$n saved",
+      "payment": "Payment",
+      "payment_value": "Set at checkout",
+      "connected_apps": "Connected apps",
+      "not_connected": "Not connected",
+      "preferences": "Preferences",
+      "preferences_value": "$percent% complete",
+      "settings": "Settings",
+      "advisor_blurb": "Plans with you, books it and stays on call while you're away.",
+      "advisor_title": "Your travel advisor"
     }
   },
   "auth": {
@@ -2681,7 +2732,8 @@
     "sort_by": "Sort by",
     "sort_trip_date": "Trip date",
     "sort_last_updated": "Last updated",
-    "sort_date_created": "Date created"
+    "sort_date_created": "Date created",
+    "all": "All"
   },
   "expedia": {
     "attribution": "Powered by Expedia",
@@ -2932,5 +2984,11 @@
     "newMessage": {
       "title": "Layla"
     }
-  }
+  },
+  "settings_screen": {
+    "title": "Settings",
+    "app": "App"
+  },
+  "chatWord": "Chat",
+  "bookingsWord": "Bookings"
 }
