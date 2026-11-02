@@ -244,6 +244,56 @@
           "other": "${n} hotels"
         }
       },
+      "hotelQuick": {
+        "laylasPick": "Layla's pick",
+        "bookNamed": "Book ${name}",
+        "seeAll": "See all ${n}",
+        "changeSomething": "Change something",
+        "cheaper": "Cheaper",
+        "perNight": "per night",
+        "staysNear": "Stays near ${area}",
+        "stays": "Stays",
+        "results": {
+          "one": "${n} result",
+          "other": "${n} results"
+        },
+        "guests": {
+          "one": "${n} guest",
+          "other": "${n} guests"
+        },
+        "sortPick": "Layla's pick",
+        "sortPrice": "Price",
+        "sortRating": "Rating",
+        "backToChat": "Back to chat",
+        "whyPicked": "Why Layla picked this",
+        "yourRoom": "Your room",
+        "changeRoom": "Change room",
+        "chooseRoom": "Choose a room",
+        "viaExpedia": "via Expedia",
+        "bookIt": "Book it",
+        "bookOnSite": "Book on the hotel's site",
+        "freeCancellationUntil": "Free cancellation until ${date}",
+        "nonRefundable": "Non-refundable",
+        "roomsLoading": "Checking live rooms…",
+        "noLiveRooms": "No live rooms for these dates",
+        "wonderful": "Wonderful",
+        "freeCancellation": "Free cancellation",
+        "mapView": "Map",
+        "sortLabel": "Sort: ${sort}",
+        "share": "Share",
+        "addToTrip": "Add to a trip instead",
+        "addToTripAsk": "Add ${name} to my trip",
+        "allFacilities": "All facilities",
+        "guestReviews": "Guest reviews",
+        "allReviews": "All reviews",
+        "select": "Select",
+        "selected": "Selected",
+        "chooseDates": "Choose dates",
+        "pickDates": "Pick dates",
+        "aboutRoom": "About this room",
+        "rates": "Rates",
+        "reviews": "Reviews"
+      },
       "flightsCard": {
         "type": "Flights",
         "inLocation": "Flights to ${location}",
@@ -2807,7 +2857,53 @@
       "cancelBooking": "Cancel booking",
       "cancelConfirmTitle": "Cancel this booking?",
       "cancelConfirmBody": "Refunds follow the rate's cancellation policy.",
-      "cancelled": "Booking cancelled"
+      "cancelled": "Booking cancelled",
+      "stepTravellers": "Travellers",
+      "stepReviewPay": "Review & pay",
+      "yourStay": "Your stay",
+      "nights": {
+        "one": "1 night",
+        "other": "$n nights"
+      },
+      "guests": {
+        "one": "1 guest",
+        "other": "$n guests"
+      },
+      "roomsCount": {
+        "one": "1 room",
+        "other": "$n rooms"
+      },
+      "pay": "Pay $amount",
+      "total": "Total",
+      "totalTaxesIncluded": "Total · taxes included",
+      "stay": "Stay",
+      "dates": "Dates",
+      "withdrawalNotice": "Hotel stays are exempt from the 14-day right of withdrawal; the rate's cancellation policy applies instead.",
+      "expediaTermsLine": "Booked through Expedia. By paying you accept the $terms.",
+      "expediaTerms": "Expedia Terms & Conditions",
+      "voucher": {
+        "eyebrow": "Hotel · via $provider",
+        "confirmed": "Confirmed",
+        "cancelledBadge": "Cancelled",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "from": "from $time",
+        "by": "by $time",
+        "guests": "Guests",
+        "room": "Room",
+        "reference": "$provider reference",
+        "copy": "Copy",
+        "copied": "Copied",
+        "addToCalendar": "Add to calendar",
+        "directions": "Directions",
+        "freeCancelUntil": "Cancel free until $date",
+        "nonRefundable": "Non-refundable",
+        "laylaBooked": "Booked. $amount charged. I'll tell you when check-in opens.",
+        "laylaBookedSummary": "Booking confirmed: $title, $checkIn to $checkOut, $room, $amount via $provider, reference $reference.",
+        "chipCar": "Need a car?",
+        "chipDinner": "Dinner near the hotel",
+        "chipLateCheckout": "Late checkout"
+      }
     },
     "details": {
       "propertyInfo": "Good to know",
