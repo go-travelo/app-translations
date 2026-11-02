@@ -377,7 +377,21 @@
         "chipLongWeekend": "Plan a long weekend",
         "chipSurprise": "Surprise me"
       },
-      "send": "Send"
+      "send": "Send",
+      "create": {
+        "todayView": "Today's view · ${city}",
+        "attach": "Attach",
+        "chipJapan": "Japan in spring",
+        "chipJapanPrompt": "Japan in spring, two weeks, cherry blossoms and great food, not too rushed",
+        "chipHoneymoon": "Honeymoon",
+        "chipHoneymoonPrompt": "A honeymoon somewhere romantic, ten days, beach and a bit of culture",
+        "chipFamilyBeach": "Family beach",
+        "chipFamilyBeachPrompt": "A family beach week with two kids, easy flights, pool and calm sea",
+        "chipSurprise": "Surprise me",
+        "chipSurprisePrompt": "Surprise me: a long weekend somewhere I would not think of",
+        "creatorTitle": "Or start from a creator's trip",
+        "creatorSub": "@benihunyadi · South of Italy road trip"
+      }
     },
     "trip_empty": {
       "title": "Chat & create trip",
@@ -1406,7 +1420,15 @@
       "preferences_value": "$percent% complete",
       "settings": "Settings",
       "advisor_blurb": "Plans with you, books it and stays on call while you're away.",
-      "advisor_title": "Your travel advisor"
+      "advisor_title": "Your travel advisor",
+      "passport_title": "Your passport",
+      "passport_subtitle": "Every place you've been, stamped.",
+      "passport_open": "Open",
+      "invite_friends": "Invite friends",
+      "invite_value": "€100 for them, €100 for you",
+      "support": "Support",
+      "app": "App",
+      "trips_count": "· $n"
     }
   },
   "auth": {
@@ -2783,7 +2805,8 @@
     "sort_trip_date": "Trip date",
     "sort_last_updated": "Last updated",
     "sort_date_created": "Date created",
-    "all": "All"
+    "all": "All",
+    "booked_of": "${booked} of ${total} booked"
   },
   "expedia": {
     "attribution": "Powered by Expedia",
@@ -3083,8 +3106,122 @@
   },
   "settings_screen": {
     "title": "Settings",
-    "app": "App"
+    "app": "App",
+    "preferences": "Preferences"
+  },
+  "support_screen": {
+    "title": "Support",
+    "advisor_subtitle": "On call while you're away.",
+    "whatsapp": "WhatsApp your travel advisor",
+    "help": "Help",
+    "help_24_7": "Help, 24/7",
+    "help_value": "FAQ",
+    "ask_layla": "Ask Layla",
+    "contact": "Contact Layla",
+    "contact_value": "hello@layla.ai",
+    "about": "About",
+    "about_layla": "About Layla",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy"
   },
   "chatWord": "Chat",
-  "bookingsWord": "Bookings"
+  "bookingsWord": "Bookings",
+  "discoverWord": "Discover",
+  "creditWord": "Credit",
+  "credit": {
+    "heading": "Credit",
+    "travel_credit": "Travel credit",
+    "nothing_yet": "Nothing on the way yet · invite a friend to start",
+    "invite": "Invite",
+    "your_circle": "Your circle",
+    "use_credit": "Use credit",
+    "postcard_title": "Send someone on the trip of their life",
+    "postcard_caption": "Send a postcard: €100 for them, €100 for you when they book.",
+    "postcard_cta": "Send a postcard",
+    "circle_count": "· ${n} of ${total} travelling",
+    "see_all": "See all",
+    "add_friend": "Add a friend"
+  },
+  "discover": {
+    "for_you": "For you",
+    "creators": "Creators",
+    "reels_coming_title": "Reels are coming",
+    "reels_coming_subtitle": "Short trips from Layla creators land here soon. Until then, start from a trip people loved.",
+    "see_templates": "Browse trips",
+    "creators_eyebrow": "Layla creators",
+    "templates_eyebrow": "Start from a trip people loved",
+    "template_tag": "Template · ${category}",
+    "templates": {
+      "thailand": {
+        "title": "Thailand's Andaman coast",
+        "category": "Beaches",
+        "route": "Phuket → Khao Lak"
+      },
+      "japan": {
+        "title": "Japan's kitchens, temples and hot springs",
+        "category": "Food & culture",
+        "route": "Tokyo → Kyoto → Osaka → Sapporo"
+      },
+      "iceland_road_trip": {
+        "title": "Iceland's south coast by car",
+        "category": "Road trip",
+        "route": "Reykjavik → Vik → Skaftafell → Reykjavik"
+      },
+      "east_africa": {
+        "title": "East Africa in 24 days, Kilimanjaro to Zanzibar",
+        "category": "Safari & beach",
+        "route": "Kilimanjaro → Amboseli → Samburu → Maasai Mara → Nairobi → Zanzibar"
+      },
+      "bali": {
+        "title": "Bali, temples to turquoise",
+        "category": "Islands",
+        "route": "Ubud → Gili Trawangan → Nusa Dua"
+      },
+      "iceland": {
+        "title": "Iceland under the aurora",
+        "category": "Northern lights",
+        "route": "Reykjavik → Northern lights → Sky Lagoon"
+      },
+      "lapland": {
+        "title": "Lapland in the snow",
+        "category": "Winter",
+        "route": "Rovaniemi → Santa Claus Village → Arctic wilderness"
+      },
+      "madeira": {
+        "title": "Madeira by car",
+        "category": "Road trip",
+        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro"
+      },
+      "egypt": {
+        "title": "Red Sea in El Gouna",
+        "category": "Beach",
+        "route": "Hurghada → El Gouna"
+      },
+      "thailand_north_to_south": {
+        "title": "Thailand, Bangkok to Phuket",
+        "category": "Cities & food",
+        "route": "Bangkok → Chiang Mai → Phuket"
+      },
+      "thailand_temples_and_sea": {
+        "title": "Thailand's temples, mountains and sea",
+        "category": "Luxury",
+        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta"
+      },
+      "puglia": {
+        "title": "Puglia, coast to countryside",
+        "category": "Coast & countryside",
+        "route": "Monopoli → Valle d'Itria → Lecce → Tricase"
+      },
+      "australia": {
+        "title": "Australia in 19 days, Tasmania to the Reef",
+        "category": "Grand tour",
+        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapore"
+      },
+      "japan_treasures": {
+        "title": "Japan's treasures: Osaka, Miyajima, Kyoto & Tokyo",
+        "category": "Cities & culture",
+        "route": "Osaka → Miyajima → Kyoto → Tokyo"
+      }
+    }
+  }
 }
