@@ -204,6 +204,7 @@
         }
       },
       "messageHint": "Vraag me iets",
+      "chatWithLayla": "Chat met Layla",
       "discardRecording": "Opname verwijderen",
       "useRecording": "Opname gebruiken",
       "possibleNextSteps": "Mogelijke volgende stappen",
@@ -371,7 +372,6 @@
         "cityAirport": "luchthaven ${city}",
         "perDay": "${price}/dag",
         "bookNamed": "${name} boeken",
-        "seeAll": "Alle ${n} bekijken",
         "manualFine": "Handgeschakeld is prima",
         "bigger": "Groter",
         "carsAt": "Auto's op ${place}",
@@ -1157,7 +1157,8 @@
       "connect_on_web_message": "${source} koppelen vanuit de app komt eraan. Koppel het één keer op layla.ai en de app houdt het bij.",
       "connect_unavailable": "Koppelen vanuit de app heeft een serverupdate nodig. Gebruik voorlopig layla.ai.",
       "connect_failed": "Koppelen is niet gelukt. Probeer het opnieuw.",
-      "open_web": "layla.ai openen"
+      "open_web": "layla.ai openen",
+      "status_last_failed": "Laatste update mislukt · ${date} · probeer opnieuw"
     },
     "deletion": {
       "confirm_message": "Je chats, reizen en gegevens verdwijnen binnen 24 uur. Tot die tijd kun je nog annuleren.",
@@ -3278,10 +3279,23 @@
       "other": "${n} vluchten geprijsd"
     },
     "stay": "Verblijf",
+    "stayTitle": {
+      "one": "Verblijf",
+      "other": "Verblijven"
+    },
     "flights": "Vluchten",
     "car": "Auto",
     "activities": "Activiteiten",
     "transfer": "Transfer",
+    "transferTitle": {
+      "one": "Transfer",
+      "other": "Transfers"
+    },
+    "transport": "Vervoer",
+    "transportLegs": {
+      "one": "${n} etappe",
+      "other": "${n} etappes"
+    },
     "route": "Route",
     "seeMore": "Meer bekijken",
     "carDays": {
@@ -3298,6 +3312,21 @@
     "inCart": "In mandje",
     "add": "Toevoegen",
     "booked": "Geboekt",
+    "changeTransport": "Vervoer wijzigen",
+    "removeFromCart": "Uit mandje halen",
+    "addToCart": "In mandje",
+    "removeFromTrip": "Uit de reis halen",
+    "readMore": "Lees meer",
+    "keepInTrip": "In de reis houden",
+    "chooseThisOne": "Deze kiezen",
+    "carSearch": {
+      "searchPrompt": "Een auto in ${city}",
+      "routePrompt": "Een auto van ${from} naar ${to}"
+    },
+    "addTransportRoute": "Vervoer toevoegen · ${from} → ${to}",
+    "addCarIn": "Auto toevoegen · ${city}",
+    "addStayRow": "Verblijf toevoegen · ${city} · ${nights}",
+    "addStayCity": "Verblijf toevoegen · ${city}",
     "checkout": "Afrekenen",
     "itemsFor": {
       "one": "${n} item · voor ${travellers}",
@@ -3342,7 +3371,107 @@
     "fullScreen": "Volledig scherm",
     "perNight": "per nacht",
     "perPerson": "per persoon",
-    "perDay": "per dag"
+    "perDay": "per dag",
+    "photos": "Foto's",
+    "playVideo": "Video afspelen",
+    "dayLine": {
+      "stay": "Verblijf in ${hotel}",
+      "flyInto": "Vliegen naar ${city}",
+      "driveTo": "Rijden naar ${city}",
+      "rideTo": "Met de trein naar ${city}",
+      "sailTo": "Varen naar ${city}",
+      "busTo": "Met de bus naar ${city}",
+      "transferTo": "Transfer naar ${city}",
+      "getTo": "Naar ${city}",
+      "flyHome": "Vlucht naar huis",
+      "flyTo": "Vliegen naar ${city}"
+    }
+  },
+  "credit": {
+    "heading": "Tegoed",
+    "travel_credit": "Reistegoed",
+    "nothing_yet": "Nog niets onderweg · nodig iemand uit om te beginnen",
+    "invite": "Uitnodigen",
+    "your_circle": "Jouw kring",
+    "use_credit": "Tegoed gebruiken",
+    "postcard_title": "Gun iemand de reis van z'n leven",
+    "postcard_caption": "Stuur een ansichtkaart: ${amount} voor hen, ${amount} voor jou zodra ze boeken.",
+    "postcard_cta": "Ansichtkaart sturen",
+    "circle_count": "· ${n} van ${total} op reis",
+    "see_all": "Alles bekijken",
+    "add_friend": "Iemand toevoegen",
+    "on_the_way": "${amount} onderweg · ${n} moeten nog boeken",
+    "earned_from": "Verdiend dankzij ${n} vrienden die op reis gingen",
+    "invite_title": "Gun iemand de reis van z'n leven",
+    "invite_body": "Stuur een ansichtkaart. Je vriend(in) krijgt ${them} korting op de eerste reis, en ${you} komt op jouw tegoed zodra er geboekt wordt.",
+    "tile_them": "voor hen",
+    "tile_you": "voor jou",
+    "step1_lead": "Kies iemand.",
+    "step1": "Uit je contacten, of typ gewoon een naam.",
+    "step2_lead": "Kies een plek.",
+    "step2": "Layla zoekt de foto voor de voorkant.",
+    "step3_lead": "Versturen.",
+    "step3": "Via Berichten, WhatsApp, Mail of door de link te kopiëren.",
+    "copy_link": "Link kopiëren",
+    "copied": "Gekopieerd",
+    "circle_link(plural)": {
+      "one": "Jouw kring · 1 vriend",
+      "other": "Jouw kring · ${n} vrienden"
+    },
+    "fine": "Het tegoed geldt voor je volgende boeking bij Layla. Eén beloning per persoon, uitbetaald na hun eerste boeking.",
+    "compose_title": "Nieuwe ansichtkaart",
+    "to": "Aan",
+    "where": "Waar",
+    "your_line": "Jouw zin",
+    "contacts": "Contacten",
+    "type_name": "Naam typen",
+    "name_hint": "Naam van je vriend(in)",
+    "place_hint": "Zoek een plek",
+    "greeting": "Groeten uit ${place}",
+    "signature": "— ${name}",
+    "post_line": "Layla ✦ Post · ${city} · ${date}",
+    "post_line_no_city": "Layla ✦ Post · ${date}",
+    "to_line": "Aan: ${name}",
+    "line_1": "Deze reis verdien je.",
+    "line_2": "Laten we eindelijk gaan.",
+    "line_3": "Pak je koffer. Deze is van mij (zo'n beetje).",
+    "write_own": "Zelf schrijven",
+    "own_hint": "Schrijf je zin",
+    "send_postcard": "Ansichtkaart versturen",
+    "sending": "Versturen…",
+    "send_failed": "Versturen is niet gelukt. Check je verbinding en probeer het opnieuw.",
+    "share_title": "Stuur 'm zoals jij wilt",
+    "share_sub": "Aan ${name} · ${place}",
+    "messages": "Berichten",
+    "whatsapp": "WhatsApp",
+    "mail": "Mail",
+    "more": "Meer…",
+    "share_message": "Ik heb je een ansichtkaart uit ${place} gestuurd ✦ € 100 korting op je eerste reis met Layla. Open 'm hier: ${url}",
+    "share_subject": "Een ansichtkaart uit ${place}",
+    "sent_title": "Daar gaat ie.",
+    "sent_body": "De ansichtkaart voor ${name} is onderweg. Zodra die geopend wordt, verschijnt ${name} in je kring.",
+    "see_circle": "Bekijk je kring",
+    "done": "Klaar",
+    "circle_title": "Jouw kring",
+    "stat_earned": "verdiend",
+    "stat_pending": "onderweg",
+    "stat_invited": "uitgenodigd",
+    "circle_caption": "${amount} komt op je tegoed, elke keer als iemand uit je kring een eerste reis boekt.",
+    "circle_empty": "Nog niemand. Stuur je eerste ansichtkaart en diegene verschijnt hier.",
+    "friends_travelling": "Vrienden op reis",
+    "travelling_count": "· ${n} van ${total}",
+    "status_booked": "Geboekt",
+    "status_planning": "Aan het plannen",
+    "status_invited": "Uitgenodigd",
+    "row_booked": "${place} geboekt · ${amount} verdiend",
+    "row_planning": "Tegoed geactiveerd · plant ${place}",
+    "row_claimed": "Heeft de € 100 geactiveerd · nog geen plannen",
+    "row_opened": "Heeft je ansichtkaart geopend",
+    "row_sent": "Ansichtkaart verstuurd",
+    "send_another": "Nog een ansichtkaart sturen",
+    "unavailable": "Tegoed is niet bereikbaar op ${host}. De tegoed-routes zijn daar nog niet uitgerold.",
+    "retry": "Opnieuw proberen",
+    "link_loading": "Je link wordt opgehaald…"
   },
   "discover": {
     "for_you": "Voor jou",
@@ -3350,9 +3479,7 @@
     "creators_eyebrow": "Layla-creators",
     "templates_eyebrow": "Begin met een reis waar anderen van hielden",
     "template_tag": "Sjabloon · ${category}",
-    "layla_creator": "Layla-creator",
-    "layla_advisor": "Layla-reisadviseur",
-    "instagram": "Instagram ↗",
+    "open_on": "${name} openen op ${platform}?",
     "plan_with_layla": "Plan deze reis met Layla",
     "stops": {
       "one": "${n} stop",
@@ -3368,9 +3495,6 @@
     "from_price": "vanaf ${price}",
     "from_caption": "hotels en ervaringen, voor ${party} · data flexibel",
     "start_from_trip": "Begin met deze reis",
-    "mute": "Dempen",
-    "unmute": "Geluid aan",
-    "share": "Delen",
     "trip_unavailable": "Deze reis is nu even niet beschikbaar.",
     "templates": {
       "thailand": {
@@ -3466,6 +3590,7 @@
     "refreshExpiredToContinue": "Vernieuw de verlopen prijzen om verder te gaan",
     "pricesExpiredShort": "Prijzen verlopen · vernieuwen",
     "refreshPrices": "Prijzen vernieuwen",
+    "refreshFailed": "Prijzen vernieuwen is niet gelukt · probeer opnieuw",
     "rerunSearch": {
       "hotel": "Die hotelprijzen zijn verlopen, kun je opnieuw zoeken?",
       "flight": "Die vluchtprijzen zijn verlopen, kun je opnieuw zoeken?",
@@ -3677,6 +3802,198 @@
       "longTrip": "$n dagen",
       "planWith": "Plannen met $name",
       "keepGoing": "Verder met Layla"
+    }
+  },
+  "passport": {
+    "visas": "VISA",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "REISPASPOORT",
+    "book_code": "P",
+    "surname": "Achternaam",
+    "given_names": "Voornamen",
+    "home": "Thuis",
+    "traveller_since": "Reiziger sinds",
+    "next": "Volgende",
+    "countries": "landen",
+    "cities": "steden",
+    "nights_away": "nachten weg",
+    "fill_title": "Vul hem met elke plek waar je bent geweest",
+    "connect_gmail": "Gmail koppelen",
+    "connect_outlook": "Outlook koppelen",
+    "connected": "Gekoppeld",
+    "connected_updated": "Gekoppeld · bijgewerkt op $date",
+    "or_by_hand": "of voeg plekken zelf toe",
+    "reading": "Je boekingen worden gelezen… $countries landen · $cities steden · $nights nachten weg",
+    "connecting": "Google wordt geopend…",
+    "connect_failed": "Gmail is niet gekoppeld. Probeer het nog eens of voeg plekken zelf toe.",
+    "where_title": "Waar ben je geweest?",
+    "place_hint": "Stad of plek",
+    "earlier": "Eerder",
+    "stamp_it": "Stempelen",
+    "stamp_failed": "Die plek is niet opgeslagen. Probeer het nog eens.",
+    "share_mine": "Mijn paspoort delen",
+    "ask_layla": "Waarheen nu? Vraag Layla",
+    "ask_layla_prefill": "Waar zou ik nu naartoe moeten?",
+    "share": {
+      "close": "Sluiten",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "Afbeelding opslaan",
+      "counts": "$countries landen. $cities steden.\n$nights nachten weg.",
+      "get_link": "Haal je Layla-paspoort · $link",
+      "get_plain": "Haal je Layla-paspoort",
+      "shared": "Gedeeld",
+      "shared_note": "Vrienden die op je link tikken krijgen € 100 korting op hun eerste reis",
+      "link_copied": "Link gekopieerd · voeg in Instagram een linksticker toe",
+      "no_app": "$app staat niet op je telefoon, we delen het op de gewone manier."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "E-mail koppelen",
+    "command": {
+      "notNow": "Nu niet",
+      "tryAgain": "Opnieuw proberen",
+      "useInstead": "Liever ${provider} gebruiken",
+      "connectedSeeFound": "${provider} gekoppeld · kijk wat ik heb gevonden",
+      "updateOne": "${provider} bijwerken",
+      "updateMany": "Koppelingen bijwerken"
+    },
+    "picker": {
+      "titleLead": "Breng je reiswereld",
+      "titleHighlight": "bij elkaar",
+      "body": "Koppel de plekken waar je reizen al staan. Layla vindt wat je eerder hebt geboekt, ziet wanneer je vrij bent en plant daaromheen.",
+      "footer": "Alleen lezen. Layla leest boekingsbevestigingen, er wordt niets vanuit je account verstuurd. Ontkoppelen kan altijd bij Gekoppelde accounts.",
+      "bestStart": "Beste start",
+      "connectedLastRead": "Gekoppeld · laatst gelezen ${when}",
+      "connectedPending": "Gekoppeld · eerste update volgt",
+      "expiredLine": "Koppeling verlopen · koppel opnieuw om bij te blijven",
+      "update": "Bijwerken",
+      "reconnect": "Opnieuw koppelen",
+      "connect": "Koppelen"
+    },
+    "provider": {
+      "googleSub": "Vindt je eerdere vluchten en hotels.",
+      "microsoftSub": "E-mail en agenda, als je Microsoft gebruikt.",
+      "instagramSub": "Alleen pro-accounts · je opgeslagen plekken en reels, als inspiratie."
+    },
+    "wait": {
+      "title": "Afronden in ${provider}…",
+      "body": "Er is een ${provider}-venster geopend. Kies het account waarmee je reizen boekt en geef alleen-lezen toegang. Kom hier terug als het klaar is.",
+      "waiting": "Wachten op ${provider}",
+      "cancel": "Annuleren"
+    },
+    "card": {
+      "intro": "Momentje. Ik lees je boekingen door, de oudste eerst.",
+      "reading": "${provider} lezen",
+      "keepChatting": "Chat gerust verder, ik zeg het als ik klaar ben.",
+      "keepBrowsing": "Kijk gerust verder rond. Dit duurt meestal een minuut of twee.",
+      "connected": "Gekoppeld",
+      "stillGoing": "Grote inbox. Ik ben nog bezig."
+    },
+    "errorCard": {
+      "intro": "${provider} liet me niet binnen. Als je het venster hebt gesloten, was dat alles: er is niets gelezen en niets veranderd.",
+      "retryLine": "Probeer het opnieuw, of gebruik liever ${other}.",
+      "retryLineSingle": "Probeer het wanneer je wilt opnieuw."
+    },
+    "done": {
+      "title": "${provider} gekoppeld",
+      "found": "Ik heb ${trips} gevonden in je ${provider}. Je reisprofiel is klaar.",
+      "noneNew": "Nog geen boekingsmails in deze mailbox. Ik kijk elke week opnieuw, dus nieuwe reizen verschijnen vanzelf.",
+      "updated": "Ik heb nu een goed gevoel voor je stijl.",
+      "close": "Sluiten"
+    },
+    "phases": {
+      "connect": {
+        "active": "De deur naar ${provider} openen",
+        "done": "Gekoppeld aan ${provider}"
+      },
+      "emails": {
+        "active": "Op zoek naar boekingsbevestigingen",
+        "done": {
+          "one": "${n} boeking gevonden",
+          "other": "${n} boekingen gevonden"
+        },
+        "tally": {
+          "one": "${n} e-mail",
+          "other": "${n} e-mails"
+        }
+      },
+      "calendar": {
+        "active": "Je agenda nakijken op reizen",
+        "done": {
+          "one": "${n} reis in je agenda gevonden",
+          "other": "${n} reizen in je agenda gevonden"
+        }
+      },
+      "trips": {
+        "active": "Boekingen samenvoegen tot reizen",
+        "done": {
+          "one": "${n} reis",
+          "other": "${n} reizen"
+        },
+        "doneWithCountries": "${trips}, ${countries}",
+        "countries": {
+          "one": "${n} land",
+          "other": "${n} landen"
+        }
+      },
+      "posts": {
+        "active": "Door de plekken bladeren die je hebt gedeeld",
+        "done": {
+          "one": "${n} post bekeken",
+          "other": "${n} posts bekeken"
+        }
+      },
+      "profile": {
+        "active": "Uitzoeken waar je van houdt",
+        "done": "Ik heb je stijl te pakken"
+      },
+      "map": {
+        "active": "Je reizen op de kaart zetten",
+        "done": {
+          "one": "${n} plek op je kaart",
+          "other": "${n} plekken op je kaart"
+        }
+      },
+      "save": {
+        "active": "Veilig bewaren in je account",
+        "done": "Opgeslagen"
+      },
+      "personalise": {
+        "active": "Layla op jou afstemmen",
+        "done": "Layla kent je nu"
+      }
+    },
+    "error": {
+      "cancelled": "Inloggen is geannuleerd. Er is niets geïmporteerd.",
+      "unexpectedState": "Er ging iets mis bij het inloggen. Probeer het opnieuw.",
+      "tokenExchangeFailed": "We konden het inloggen niet afronden. Probeer het opnieuw.",
+      "mailFetchFailed": "We konden je inbox niet lezen. Probeer het zo nog eens.",
+      "instagramBusinessOnly": "Instagram staat dit alleen toe voor zakelijke of creator-accounts.",
+      "unknown": "Er ging iets mis. Er is niets geïmporteerd."
+    },
+    "disconnect": {
+      "title": "${provider} ontkoppelen?",
+      "body": "Layla houdt de reizen die ze al heeft opgeslagen, maar leest geen nieuwe boekingen meer. Je kunt altijd opnieuw koppelen.",
+      "bodySocial": "Layla leest je ${provider}-posts niet meer en kan daar niet meer voor je plaatsen. Je reisprofiel en de posts die je al deelde blijven staan. Je kunt altijd opnieuw koppelen.",
+      "forget": "Ook de geïmporteerde reizen vergeten",
+      "forgetSocial": "Ook vergeten wat Layla uit je posts heeft geleerd",
+      "keep": "Gekoppeld houden",
+      "confirm": "Ontkoppelen"
+    },
+    "status": {
+      "disconnecting": "Ontkoppelen…",
+      "removing": "Geïmporteerde gegevens verwijderen…",
+      "updating": "Je boekingen lezen…"
+    },
+    "toast": {
+      "disconnected": "${provider} ontkoppeld",
+      "removed": "Geïmporteerde reizen verwijderd",
+      "disconnectFailed": "Ontkoppelen van ${provider} is niet gelukt",
+      "removeFailed": "Verwijderen van de geïmporteerde gegevens is niet gelukt",
+      "retry": "Opnieuw"
     }
   }
 }

@@ -204,6 +204,7 @@
         }
       },
       "messageHint": "Chiedimi qualsiasi cosa",
+      "chatWithLayla": "Chatta con Layla",
       "discardRecording": "Elimina registrazione",
       "useRecording": "Usa registrazione",
       "possibleNextSteps": "Possibili prossimi passi",
@@ -371,7 +372,6 @@
         "cityAirport": "aeroporto di ${city}",
         "perDay": "${price}/giorno",
         "bookNamed": "Prenota la ${name}",
-        "seeAll": "Vedi tutte le ${n}",
         "manualFine": "Manuale va bene",
         "bigger": "Più grande",
         "carsAt": "Auto all'${place}",
@@ -1157,7 +1157,8 @@
       "connect_on_web_message": "Collegare ${source} dall'app arriverà presto. Collegalo una volta su layla.ai e l'app lo tiene aggiornato.",
       "connect_unavailable": "Collegare dall'app richiede un aggiornamento del server. Per ora usa layla.ai.",
       "connect_failed": "Collegamento non riuscito. Riprova.",
-      "open_web": "Apri layla.ai"
+      "open_web": "Apri layla.ai",
+      "status_last_failed": "L’ultimo aggiornamento non è riuscito · ${date} · riprova"
     },
     "deletion": {
       "confirm_message": "Le tue chat, i viaggi e i dati spariscono entro 24 ore. Fino ad allora puoi ancora annullare.",
@@ -3278,10 +3279,23 @@
       "other": "${n} voli quotati"
     },
     "stay": "Alloggio",
+    "stayTitle": {
+      "one": "Alloggio",
+      "other": "Alloggi"
+    },
     "flights": "Voli",
     "car": "Auto",
     "activities": "Attività",
     "transfer": "Transfer",
+    "transferTitle": {
+      "one": "Transfer",
+      "other": "Transfer"
+    },
+    "transport": "Trasporti",
+    "transportLegs": {
+      "one": "${n} tappa",
+      "other": "${n} tappe"
+    },
     "route": "Itinerario",
     "seeMore": "Vedi altro",
     "carDays": {
@@ -3298,6 +3312,21 @@
     "inCart": "Nel carrello",
     "add": "Aggiungi",
     "booked": "Prenotato",
+    "changeTransport": "Modifica trasporto",
+    "removeFromCart": "Rimuovi dal carrello",
+    "addToCart": "Aggiungi al carrello",
+    "removeFromTrip": "Rimuovi dal viaggio",
+    "readMore": "Leggi di più",
+    "keepInTrip": "Mantieni nel viaggio",
+    "chooseThisOne": "Scegli questa",
+    "carSearch": {
+      "searchPrompt": "Un'auto a ${city}",
+      "routePrompt": "Un'auto da ${from} a ${to}"
+    },
+    "addTransportRoute": "Aggiungi trasporto · ${from} → ${to}",
+    "addCarIn": "Aggiungi un'auto · ${city}",
+    "addStayRow": "Aggiungi un alloggio · ${city} · ${nights}",
+    "addStayCity": "Aggiungi un alloggio · ${city}",
     "checkout": "Paga",
     "itemsFor": {
       "one": "${n} voce · per ${travellers}",
@@ -3342,7 +3371,107 @@
     "fullScreen": "Schermo intero",
     "perNight": "a notte",
     "perPerson": "a persona",
-    "perDay": "al giorno"
+    "perDay": "al giorno",
+    "photos": "Foto",
+    "playVideo": "Riproduci il video",
+    "dayLine": {
+      "stay": "Soggiorno al ${hotel}",
+      "flyInto": "In aereo a ${city}",
+      "driveTo": "In auto a ${city}",
+      "rideTo": "In treno a ${city}",
+      "sailTo": "In nave a ${city}",
+      "busTo": "In autobus a ${city}",
+      "transferTo": "Transfer a ${city}",
+      "getTo": "Verso ${city}",
+      "flyHome": "Volo di ritorno",
+      "flyTo": "In aereo a ${city}"
+    }
+  },
+  "credit": {
+    "heading": "Credito",
+    "travel_credit": "Credito viaggio",
+    "nothing_yet": "Ancora niente in arrivo · invita qualcuno per iniziare",
+    "invite": "Invita",
+    "your_circle": "La tua cerchia",
+    "use_credit": "Usa il credito",
+    "postcard_title": "Regala a qualcuno il viaggio della sua vita",
+    "postcard_caption": "Manda una cartolina: ${amount} per chi la riceve, ${amount} per te quando prenota.",
+    "postcard_cta": "Manda una cartolina",
+    "circle_count": "· ${n} su ${total} in viaggio",
+    "see_all": "Vedi tutti",
+    "add_friend": "Aggiungi qualcuno",
+    "on_the_way": "${amount} in arrivo · ${n} devono ancora prenotare",
+    "earned_from": "Guadagnati grazie a ${n} amici partiti",
+    "invite_title": "Regala a qualcuno il viaggio della sua vita",
+    "invite_body": "Manda una cartolina. Chi la riceve ha ${them} di sconto sul primo viaggio, e ${you} arrivano sul tuo credito appena prenota.",
+    "tile_them": "per chi la riceve",
+    "tile_you": "per te",
+    "step1_lead": "Scegli qualcuno.",
+    "step1": "Dai tuoi contatti, oppure scrivi semplicemente un nome.",
+    "step2_lead": "Scegli un posto.",
+    "step2": "Layla trova la foto per il fronte.",
+    "step3_lead": "Mandala.",
+    "step3": "Con Messaggi, WhatsApp, Mail o copiando il link.",
+    "copy_link": "Copia link",
+    "copied": "Copiato",
+    "circle_link(plural)": {
+      "one": "La tua cerchia · 1 amico",
+      "other": "La tua cerchia · ${n} amici"
+    },
+    "fine": "Il credito vale sulla tua prossima prenotazione con Layla. Un premio per persona, accreditato dopo la sua prima prenotazione.",
+    "compose_title": "Nuova cartolina",
+    "to": "A",
+    "where": "Dove",
+    "your_line": "La tua frase",
+    "contacts": "Contatti",
+    "type_name": "Scrivi un nome",
+    "name_hint": "Il nome di chi la riceve",
+    "place_hint": "Cerca un posto",
+    "greeting": "Saluti da ${place}",
+    "signature": "— ${name}",
+    "post_line": "Layla ✦ Post · ${city} · ${date}",
+    "post_line_no_city": "Layla ✦ Post · ${date}",
+    "to_line": "A: ${name}",
+    "line_1": "Questo viaggio te lo meriti.",
+    "line_2": "Dai, partiamo davvero.",
+    "line_3": "Fai la valigia. Offro io (più o meno).",
+    "write_own": "Scrivo io",
+    "own_hint": "Scrivi la tua frase",
+    "send_postcard": "Manda la cartolina",
+    "sending": "Invio…",
+    "send_failed": "Non è partita. Controlla la connessione e riprova.",
+    "share_title": "Mandala come preferisci",
+    "share_sub": "A ${name} · ${place}",
+    "messages": "Messaggi",
+    "whatsapp": "WhatsApp",
+    "mail": "Mail",
+    "more": "Altro…",
+    "share_message": "Ti ho mandato una cartolina da ${place} ✦ 100 € di sconto sul tuo primo viaggio con Layla. Aprila qui: ${url}",
+    "share_subject": "Una cartolina da ${place}",
+    "sent_title": "Ed è partita.",
+    "sent_body": "La cartolina per ${name} è in viaggio. Appena verrà aperta, ${name} comparirà nella tua cerchia.",
+    "see_circle": "Vedi la tua cerchia",
+    "done": "Fatto",
+    "circle_title": "La tua cerchia",
+    "stat_earned": "guadagnati",
+    "stat_pending": "in arrivo",
+    "stat_invited": "invitati",
+    "circle_caption": "${amount} arrivano sul tuo credito ogni volta che qualcuno della tua cerchia prenota il primo viaggio.",
+    "circle_empty": "Ancora nessuno. Manda la tua prima cartolina e la persona comparirà qui.",
+    "friends_travelling": "Amici in viaggio",
+    "travelling_count": "· ${n} su ${total}",
+    "status_booked": "Prenotato",
+    "status_planning": "In programma",
+    "status_invited": "Invitato",
+    "row_booked": "Ha prenotato ${place} · ${amount} guadagnati",
+    "row_planning": "Credito attivato · programma ${place}",
+    "row_claimed": "Ha attivato i suoi 100 € · ancora nessun piano",
+    "row_opened": "Ha aperto la tua cartolina",
+    "row_sent": "Cartolina inviata",
+    "send_another": "Manda un'altra cartolina",
+    "unavailable": "Il credito non è raggiungibile su ${host}. Le route del credito non sono ancora pubblicate lì.",
+    "retry": "Riprova",
+    "link_loading": "Recupero il tuo link…"
   },
   "discover": {
     "for_you": "Per te",
@@ -3350,9 +3479,7 @@
     "creators_eyebrow": "Creator Layla",
     "templates_eyebrow": "Parti da un viaggio che altri hanno amato",
     "template_tag": "Modello · ${category}",
-    "layla_creator": "Creator Layla",
-    "layla_advisor": "Consulente di viaggio Layla",
-    "instagram": "Instagram ↗",
+    "open_on": "Aprire ${name} su ${platform}?",
     "plan_with_layla": "Pianifica questo viaggio con Layla",
     "stops": {
       "one": "${n} tappa",
@@ -3368,9 +3495,6 @@
     "from_price": "da ${price}",
     "from_caption": "hotel ed esperienze, per ${party} · date flessibili",
     "start_from_trip": "Parti da questo viaggio",
-    "mute": "Silenzia",
-    "unmute": "Attiva audio",
-    "share": "Condividi",
     "trip_unavailable": "Questo viaggio non è disponibile al momento.",
     "templates": {
       "thailand": {
@@ -3466,6 +3590,7 @@
     "refreshExpiredToContinue": "Aggiorna i prezzi scaduti per continuare",
     "pricesExpiredShort": "Prezzi scaduti · aggiorna",
     "refreshPrices": "Aggiorna prezzi",
+    "refreshFailed": "Impossibile aggiornare i prezzi · riprova",
     "rerunSearch": {
       "hotel": "Quei prezzi degli hotel sono scaduti, puoi cercare di nuovo?",
       "flight": "Quei prezzi dei voli sono scaduti, puoi cercare di nuovo?",
@@ -3677,6 +3802,198 @@
       "longTrip": "$n giorni",
       "planWith": "Pianifica con $name",
       "keepGoing": "Continua con Layla"
+    }
+  },
+  "passport": {
+    "visas": "VISTI",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "PASSAPORTO DI VIAGGIO",
+    "book_code": "P",
+    "surname": "Cognome",
+    "given_names": "Nome",
+    "home": "Casa",
+    "traveller_since": "In viaggio dal",
+    "next": "Prossimo",
+    "countries": "paesi",
+    "cities": "città",
+    "nights_away": "notti fuori",
+    "fill_title": "Riempilo con ogni posto in cui sei stato",
+    "connect_gmail": "Collega Gmail",
+    "connect_outlook": "Collega Outlook",
+    "connected": "Collegato",
+    "connected_updated": "Collegato · aggiornato il $date",
+    "or_by_hand": "o aggiungi i posti a mano",
+    "reading": "Sto leggendo le tue prenotazioni… $countries paesi · $cities città · $nights notti fuori",
+    "connecting": "Apro Google…",
+    "connect_failed": "Gmail non si è collegato. Riprova o aggiungi i posti a mano.",
+    "where_title": "Dove sei stato?",
+    "place_hint": "Città o posto",
+    "earlier": "Prima",
+    "stamp_it": "Timbra",
+    "stamp_failed": "Quel posto non è stato salvato. Riprova.",
+    "share_mine": "Condividi il passaporto",
+    "ask_layla": "E adesso? Chiedi a Layla",
+    "ask_layla_prefill": "Dove dovrei andare adesso?",
+    "share": {
+      "close": "Chiudi",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "Salva immagine",
+      "counts": "$countries paesi. $cities città.\n$nights notti fuori.",
+      "get_link": "Prendi il tuo passaporto Layla · $link",
+      "get_plain": "Prendi il tuo passaporto Layla",
+      "shared": "Condiviso",
+      "shared_note": "Chi tocca il tuo link ha 100 € di sconto sul primo viaggio",
+      "link_copied": "Link copiato · aggiungi uno sticker link su Instagram",
+      "no_app": "$app non è installata, condividiamo nel modo solito."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "Collega i tuoi account",
+    "command": {
+      "notNow": "Non ora",
+      "tryAgain": "Riprova",
+      "useInstead": "Usa invece ${provider}",
+      "connectedSeeFound": "${provider} collegato · guarda cosa ho trovato",
+      "updateOne": "Aggiorna ${provider}",
+      "updateMany": "Aggiorna i collegamenti"
+    },
+    "picker": {
+      "titleLead": "Riunisci il tuo mondo di viaggi",
+      "titleHighlight": "in un unico posto",
+      "body": "Collega i posti dove vivono già i tuoi viaggi. Layla trova ciò che hai prenotato in passato, vede quando sei libero e pianifica di conseguenza.",
+      "footer": "Sola lettura. Layla legge le conferme di prenotazione, nulla viene inviato dal tuo account. Puoi scollegarti in qualsiasi momento da Account collegati.",
+      "bestStart": "Inizio migliore",
+      "connectedLastRead": "Collegato · ultima lettura ${when}",
+      "connectedPending": "Collegato · primo aggiornamento in arrivo",
+      "expiredLine": "Connessione scaduta · ricollega per continuare ad aggiornare",
+      "update": "Aggiorna ora",
+      "reconnect": "Ricollega",
+      "connect": "Collega"
+    },
+    "provider": {
+      "googleSub": "Trova voli e hotel passati, vede quando sei libero.",
+      "microsoftSub": "Email e calendario, se usi Microsoft.",
+      "instagramSub": "Solo account professionali · i tuoi luoghi salvati e i reel, come ispirazione."
+    },
+    "wait": {
+      "title": "Completa l'operazione su ${provider}…",
+      "body": "Si è aperta una finestra di ${provider}. Scegli l'account con cui prenoti i viaggi e consenti l'accesso in sola lettura. Torna qui quando hai finito.",
+      "waiting": "In attesa di ${provider}",
+      "cancel": "Annulla"
+    },
+    "card": {
+      "intro": "Un attimo. Sto leggendo le tue prenotazioni, dalla più vecchia.",
+      "reading": "Lettura di ${provider}",
+      "keepChatting": "Continua pure a chattare, ti avviso quando ho finito.",
+      "keepBrowsing": "Continua pure a esplorare. Di solito ci vuole un minuto o due.",
+      "connected": "Collegato",
+      "stillGoing": "Casella di posta bella piena. Sto ancora leggendo."
+    },
+    "errorCard": {
+      "intro": "${provider} non mi ha fatto entrare. Se hai chiuso la finestra, è solo per quello: non è stato letto nulla e non è cambiato nulla.",
+      "retryLine": "Riprova, oppure usa invece ${other}.",
+      "retryLineSingle": "Riprova quando vuoi."
+    },
+    "done": {
+      "title": "${provider} collegato",
+      "found": "Ho trovato ${trips} nel tuo ${provider}. Il tuo profilo di viaggio è pronto.",
+      "noneNew": "In questa casella non ci sono ancora email di prenotazione. Controllo ogni settimana, i nuovi viaggi compariranno da soli.",
+      "updated": "Ora ho un'idea del tuo stile.",
+      "close": "Chiudi"
+    },
+    "phases": {
+      "connect": {
+        "active": "Apro la porta a ${provider}",
+        "done": "Collegato a ${provider}"
+      },
+      "emails": {
+        "active": "Cerco le conferme di prenotazione",
+        "tally": {
+          "one": "${n} email",
+          "other": "${n} email"
+        },
+        "done": {
+          "one": "${n} prenotazione trovata",
+          "other": "${n} prenotazioni trovate"
+        }
+      },
+      "calendar": {
+        "active": "Controllo il tuo calendario per i viaggi",
+        "done": {
+          "one": "${n} viaggio trovato nel calendario",
+          "other": "${n} viaggi trovati nel calendario"
+        }
+      },
+      "trips": {
+        "active": "Raggruppo le prenotazioni in viaggi",
+        "done": {
+          "one": "${n} viaggio",
+          "other": "${n} viaggi"
+        },
+        "doneWithCountries": "${trips}, ${countries}",
+        "countries": {
+          "one": "${n} paese",
+          "other": "${n} paesi"
+        }
+      },
+      "posts": {
+        "active": "Sfoglio i luoghi che hai condiviso",
+        "done": {
+          "one": "${n} post sfogliato",
+          "other": "${n} post sfogliati"
+        }
+      },
+      "profile": {
+        "active": "Capisco cosa ami",
+        "done": "Ho capito il tuo stile"
+      },
+      "map": {
+        "active": "Appunto i tuoi viaggi sulla mappa",
+        "done": {
+          "one": "${n} luogo sulla tua mappa",
+          "other": "${n} luoghi sulla tua mappa"
+        }
+      },
+      "save": {
+        "active": "Lo conservo al sicuro nel tuo account",
+        "done": "Salvato"
+      },
+      "personalise": {
+        "active": "Adatto Layla a te",
+        "done": "Ora Layla ti conosce"
+      }
+    },
+    "error": {
+      "cancelled": "L'accesso è stato annullato. Non è stato importato nulla.",
+      "unexpectedState": "Qualcosa è andato storto durante l'accesso. Riprova.",
+      "tokenExchangeFailed": "Non siamo riusciti a completare l'accesso. Riprova.",
+      "mailFetchFailed": "Non siamo riusciti a leggere la tua casella di posta. Riprova tra un momento.",
+      "instagramBusinessOnly": "Instagram lo consente solo per account business o creator.",
+      "unknown": "Qualcosa è andato storto. Non è stato importato nulla."
+    },
+    "disconnect": {
+      "title": "Scollegare ${provider}?",
+      "body": "Layla conserva i viaggi già salvati, ma smette di leggere nuove prenotazioni. Puoi ricollegarti in qualsiasi momento.",
+      "bodySocial": "Layla smette di leggere i tuoi post su ${provider} e non può più pubblicare lì per te. Il tuo profilo di viaggio e i post già condivisi restano. Puoi ricollegarti in qualsiasi momento.",
+      "forget": "Dimentica anche i viaggi importati",
+      "forgetSocial": "Dimentica anche ciò che Layla ha imparato dai tuoi post",
+      "keep": "Mantieni collegato",
+      "confirm": "Scollega"
+    },
+    "status": {
+      "disconnecting": "Scollegamento…",
+      "removing": "Rimozione dei dati importati…",
+      "updating": "Lettura delle tue prenotazioni…"
+    },
+    "toast": {
+      "disconnected": "${provider} scollegato",
+      "removed": "Viaggi importati rimossi",
+      "disconnectFailed": "Impossibile scollegare ${provider}",
+      "removeFailed": "Impossibile rimuovere i dati importati",
+      "retry": "Riprova"
     }
   }
 }

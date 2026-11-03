@@ -204,6 +204,7 @@
         }
       },
       "messageHint": "שאל/י אותי כל דבר",
+      "chatWithLayla": "דברו עם Layla",
       "discardRecording": "מחיקת ההקלטה",
       "useRecording": "שימוש בהקלטה",
       "possibleNextSteps": "צעדים אפשריים הבאים",
@@ -375,7 +376,6 @@
         "cityAirport": "נמל התעופה ${city}",
         "perDay": "${price}/יום",
         "bookNamed": "להזמין ${name}",
-        "seeAll": "הצג הכול (${n})",
         "manualFine": "ידני זה בסדר",
         "bigger": "גדול יותר",
         "carsAt": "רכבים ב${place}",
@@ -1183,7 +1183,8 @@
       "connect_on_web_message": "חיבור ${source} מתוך האפליקציה מגיע בקרוב. חבר פעם אחת ב-layla.ai והאפליקציה תשמור על עדכניות.",
       "connect_unavailable": "חיבור מתוך האפליקציה דורש עדכון שרת. בינתיים השתמש ב-layla.ai.",
       "connect_failed": "החיבור נכשל. נסה שוב.",
-      "open_web": "פתח את layla.ai"
+      "open_web": "פתח את layla.ai",
+      "status_last_failed": "העדכון האחרון נכשל · ${date} · לנסות שוב"
     },
     "deletion": {
       "confirm_message": "הצ'אטים, הטיולים והנתונים שלך ייעלמו תוך 24 שעות. עד אז עדיין אפשר לבטל.",
@@ -3379,10 +3380,23 @@
       "many": "תומחרו ${n} טיסות"
     },
     "stay": "לינה",
+    "stayTitle": {
+      "one": "לינה",
+      "other": "לינות"
+    },
     "flights": "טיסות",
     "car": "רכב",
     "activities": "פעילויות",
     "transfer": "הסעה",
+    "transferTitle": {
+      "one": "הסעה",
+      "other": "הסעות"
+    },
+    "transport": "תחבורה",
+    "transportLegs": {
+      "one": "קטע אחד",
+      "other": "${n} קטעים"
+    },
     "route": "מסלול",
     "seeMore": "עוד",
     "carDays": {
@@ -3403,6 +3417,21 @@
     "inCart": "בעגלה",
     "add": "הוספה",
     "booked": "הוזמן",
+    "changeTransport": "שינוי תחבורה",
+    "removeFromCart": "הסרה מהעגלה",
+    "addToCart": "הוספה לעגלה",
+    "removeFromTrip": "הסרה מהטיול",
+    "readMore": "קרא עוד",
+    "keepInTrip": "להשאיר בטיול",
+    "chooseThisOne": "לבחור באפשרות הזו",
+    "carSearch": {
+      "searchPrompt": "רכב ב-${city}",
+      "routePrompt": "רכב מ-${from} ל-${to}"
+    },
+    "addTransportRoute": "הוספת תחבורה · ${from} ← ${to}",
+    "addCarIn": "הוספת רכב · ${city}",
+    "addStayRow": "הוספת לינה · ${city} · ${nights}",
+    "addStayCity": "הוספת לינה · ${city}",
     "checkout": "לתשלום",
     "itemsFor": {
       "one": "פריט אחד · עבור ${travellers}",
@@ -3455,7 +3484,107 @@
     "fullScreen": "מסך מלא",
     "perNight": "ללילה",
     "perPerson": "לאדם",
-    "perDay": "ליום"
+    "perDay": "ליום",
+    "photos": "תמונות",
+    "playVideo": "הפעלת הסרטון",
+    "dayLine": {
+      "stay": "לינה ב-${hotel}",
+      "flyInto": "טיסה ל-${city}",
+      "driveTo": "נסיעה ל-${city}",
+      "rideTo": "ברכבת ל-${city}",
+      "sailTo": "בספינה ל-${city}",
+      "busTo": "באוטובוס ל-${city}",
+      "transferTo": "הסעה ל-${city}",
+      "getTo": "הגעה ל-${city}",
+      "flyHome": "טיסה הביתה",
+      "flyTo": "טיסה ל-${city}"
+    }
+  },
+  "credit": {
+    "heading": "קרדיט",
+    "travel_credit": "קרדיט לטיולים",
+    "nothing_yet": "עוד שום דבר בדרך · כדאי להזמין מישהו כדי להתחיל",
+    "invite": "להזמין",
+    "your_circle": "המעגל שלך",
+    "use_credit": "להשתמש בקרדיט",
+    "postcard_title": "לפנק מישהו בטיול של החיים",
+    "postcard_caption": "שולחים גלויה: ${amount} למי שמקבל אותה, ${amount} לך ברגע שהזמנה נסגרת.",
+    "postcard_cta": "לשלוח גלויה",
+    "circle_count": "· ${n} מתוך ${total} בטיול",
+    "see_all": "להציג הכול",
+    "add_friend": "להוסיף מישהו",
+    "on_the_way": "${amount} בדרך · ${n} עדיין לא הזמינו",
+    "earned_from": "נצבר מ-${n} חברים שיצאו לטיול",
+    "invite_title": "לפנק מישהו בטיול של החיים",
+    "invite_body": "שולחים גלויה. מי שמקבל אותה נהנה מהנחה של ${them} על הטיול הראשון, ו-${you} נכנסים לקרדיט שלך ברגע שההזמנה נסגרת.",
+    "tile_them": "למי שמקבל",
+    "tile_you": "לך",
+    "step1_lead": "בוחרים מישהו.",
+    "step1": "מאנשי הקשר, או פשוט מקלידים שם.",
+    "step2_lead": "בוחרים מקום.",
+    "step2": "Layla מוצאת את התמונה לחזית.",
+    "step3_lead": "שולחים.",
+    "step3": "בהודעות, ב-WhatsApp, במייל או בהעתקת הקישור.",
+    "copy_link": "להעתיק קישור",
+    "copied": "הועתק",
+    "circle_link(plural)": {
+      "one": "המעגל שלך · חבר אחד",
+      "other": "המעגל שלך · ${n} חברים"
+    },
+    "fine": "הקרדיט חל על ההזמנה הבאה שלך עם Layla. תגמול אחד לכל אדם, אחרי ההזמנה הראשונה שלו.",
+    "compose_title": "גלויה חדשה",
+    "to": "אל",
+    "where": "לאן",
+    "your_line": "המשפט שלך",
+    "contacts": "אנשי קשר",
+    "type_name": "להקליד שם",
+    "name_hint": "השם של מי שמקבל",
+    "place_hint": "חיפוש מקום",
+    "greeting": "ד״ש מ${place}",
+    "signature": "— ${name}",
+    "post_line": "Layla ✦ Post · ${city} · ${date}",
+    "post_line_no_city": "Layla ✦ Post · ${date}",
+    "to_line": "אל: ${name}",
+    "line_1": "מגיע לך הטיול הזה.",
+    "line_2": "יאללה, סוף סוף נוסעים.",
+    "line_3": "לארוז מזוודה. הפעם זה עליי (בערך).",
+    "write_own": "לכתוב בעצמי",
+    "own_hint": "לכתוב את המשפט שלך",
+    "send_postcard": "לשלוח גלויה",
+    "sending": "שולחים…",
+    "send_failed": "זה לא נשלח. כדאי לבדוק את החיבור ולנסות שוב.",
+    "share_title": "לשלוח איך שנוח לך",
+    "share_sub": "אל ${name} · ${place}",
+    "messages": "הודעות",
+    "whatsapp": "WhatsApp",
+    "mail": "מייל",
+    "more": "עוד…",
+    "share_message": "שלחתי לך גלויה מ${place} ✦ 100 € הנחה על הטיול הראשון שלך עם Layla. אפשר לפתוח כאן: ${url}",
+    "share_subject": "גלויה מ${place}",
+    "sent_title": "יצאה לדרך.",
+    "sent_body": "הגלויה של ${name} בדרך. ברגע שתיפתח, ${name} יופיע במעגל שלך.",
+    "see_circle": "להציג את המעגל שלך",
+    "done": "סיום",
+    "circle_title": "המעגל שלך",
+    "stat_earned": "נצבר",
+    "stat_pending": "בדרך",
+    "stat_invited": "הוזמנו",
+    "circle_caption": "${amount} נכנסים לקרדיט שלך בכל פעם שמישהו מהמעגל שלך מזמין טיול ראשון.",
+    "circle_empty": "עדיין אף אחד. שולחים גלויה ראשונה והאדם יופיע כאן.",
+    "friends_travelling": "חברים בטיול",
+    "travelling_count": "· ${n} מתוך ${total}",
+    "status_booked": "הוזמן",
+    "status_planning": "בתכנון",
+    "status_invited": "הוזמן",
+    "row_booked": "הזמנה ל${place} · ${amount} נצברו",
+    "row_planning": "הקרדיט הופעל · מתכננים ${place}",
+    "row_claimed": "הפעלת 100 € · עדיין בלי תוכניות",
+    "row_opened": "הגלויה שלך נפתחה",
+    "row_sent": "הגלויה נשלחה",
+    "send_another": "לשלוח עוד גלויה",
+    "unavailable": "הקרדיט לא זמין ב-${host}. נתיבי הקרדיט עדיין לא פרוסים שם.",
+    "retry": "לנסות שוב",
+    "link_loading": "טוענים את הקישור שלך…"
   },
   "discover": {
     "for_you": "בשבילך",
@@ -3463,9 +3592,7 @@
     "creators_eyebrow": "יוצרי Layla",
     "templates_eyebrow": "להתחיל מטיול שאנשים אהבו",
     "template_tag": "תבנית · ${category}",
-    "layla_creator": "יוצר/ת של Layla",
-    "layla_advisor": "יועץ/ת טיולים של Layla",
-    "instagram": "Instagram ↗",
+    "open_on": "לפתוח את ${name} ב-${platform}?",
     "plan_with_layla": "לתכנן את הטיול הזה עם Layla",
     "stops": {
       "one": "עצירה אחת",
@@ -3481,9 +3608,6 @@
     "from_price": "החל מ-${price}",
     "from_caption": "מלונות וחוויות, ל-${party} · תאריכים גמישים",
     "start_from_trip": "להתחיל מהטיול הזה",
-    "mute": "השתקה",
-    "unmute": "הפעלת שמע",
-    "share": "שיתוף",
     "trip_unavailable": "הטיול הזה לא זמין כרגע.",
     "templates": {
       "thailand": {
@@ -3579,6 +3703,7 @@
     "refreshExpiredToContinue": "רעננו את המחירים שפג תוקפם כדי להמשיך",
     "pricesExpiredShort": "המחירים פגו · רענון",
     "refreshPrices": "רענון מחירים",
+    "refreshFailed": "לא הצלחנו לרענן את המחירים · נסו שוב",
     "rerunSearch": {
       "hotel": "המחירים של המלונות פג תוקפם, אפשר לחפש שוב?",
       "flight": "המחירים של הטיסות פג תוקפם, אפשר לחפש שוב?",
@@ -3790,6 +3915,205 @@
       "longTrip": "$n ימים",
       "planWith": "לתכנן עם $name",
       "keepGoing": "להמשיך עם Layla"
+    }
+  },
+  "passport": {
+    "visas": "ויזות",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "דרכון טיולים",
+    "book_code": "P",
+    "surname": "שם משפחה",
+    "given_names": "שם פרטי",
+    "home": "בית",
+    "traveller_since": "מטייל/ת מאז",
+    "next": "הבא",
+    "countries": "מדינות",
+    "cities": "ערים",
+    "nights_away": "לילות בחוץ",
+    "fill_title": "מלאו אותו בכל מקום שהייתם בו",
+    "connect_gmail": "חיבור Gmail",
+    "connect_outlook": "חיבור Outlook",
+    "connected": "מחובר",
+    "connected_updated": "מחובר · עודכן ב-$date",
+    "or_by_hand": "או הוסיפו מקומות ידנית",
+    "reading": "קוראים את ההזמנות שלכם… $countries מדינות · $cities ערים · $nights לילות בחוץ",
+    "connecting": "פותחים את Google…",
+    "connect_failed": "Gmail לא התחבר. נסו שוב או הוסיפו מקומות ידנית.",
+    "where_title": "איפה הייתם?",
+    "place_hint": "עיר או מקום",
+    "earlier": "קודם",
+    "stamp_it": "להחתים",
+    "stamp_failed": "המקום לא נשמר. נסו שוב.",
+    "share_mine": "שיתוף הדרכון",
+    "ask_layla": "לאן עכשיו? שאלו את Layla",
+    "ask_layla_prefill": "לאן כדאי לי לנסוע עכשיו?",
+    "share": {
+      "close": "סגירה",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "שמירת תמונה",
+      "counts": "$countries מדינות. $cities ערים.\n$nights לילות בחוץ.",
+      "get_link": "קחו דרכון Layla משלכם · $link",
+      "get_plain": "קחו דרכון Layla משלכם",
+      "shared": "שותף",
+      "shared_note": "חברים שלוחצים על הקישור שלכם מקבלים 100 € הנחה על הטיול הראשון",
+      "link_copied": "הקישור הועתק · הוסיפו סטיקר קישור ב-Instagram",
+      "no_app": "$app לא מותקנת, משתפים בדרך הרגילה."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "חיבור אימייל",
+    "command": {
+      "notNow": "לא עכשיו",
+      "tryAgain": "לנסות שוב",
+      "useInstead": "להשתמש ב-${provider} במקום",
+      "connectedSeeFound": "${provider} מחובר · לראות מה מצאתי",
+      "updateOne": "לעדכן את ${provider}",
+      "updateMany": "לעדכן חיבורים"
+    },
+    "picker": {
+      "titleLead": "כל עולם הנסיעות שלך",
+      "titleHighlight": "במקום אחד",
+      "body": "חברו את המקומות שבהם הנסיעות שלכם כבר נמצאות. Layla מוצאת מה הזמנתם בעבר, רואה מתי אתם פנויים ומתכננת סביב זה.",
+      "footer": "קריאה בלבד. Layla קוראת אישורי הזמנה, שום דבר לא נשלח מהחשבון שלכם. אפשר להתנתק בכל רגע בחשבונות מחוברים.",
+      "bestStart": "הכי טוב להתחיל",
+      "connectedLastRead": "מחובר · נקרא לאחרונה ${when}",
+      "connectedPending": "מחובר · העדכון הראשון בדרך",
+      "expiredLine": "החיבור פג · התחברו מחדש כדי להמשיך לעדכן",
+      "update": "עדכון",
+      "reconnect": "להתחבר מחדש",
+      "connect": "לחבר"
+    },
+    "provider": {
+      "googleSub": "מוצא את הטיסות והמלונות הקודמים שלכם.",
+      "microsoftSub": "אימייל ויומן, אם אתם ב-Microsoft.",
+      "instagramSub": "חשבונות מקצועיים בלבד · המקומות והרילס ששמרתם, בתור השראה."
+    },
+    "wait": {
+      "title": "מסיימים ב-${provider}…",
+      "body": "נפתח חלון של ${provider}. בחרו את החשבון שאיתו אתם מזמינים נסיעות ואשרו גישה לקריאה בלבד. חזרו לכאן כשסיימתם.",
+      "waiting": "מחכה ל-${provider}",
+      "cancel": "ביטול"
+    },
+    "card": {
+      "intro": "רגע אחד. אני קוראת את ההזמנות שלכם, מהישנה ביותר.",
+      "reading": "קוראת ${provider}",
+      "keepChatting": "תמשיכו לדבר איתי, אגיד לכם כשאסיים.",
+      "keepBrowsing": "אפשר להמשיך לגלוש. זה לוקח בדרך כלל דקה או שתיים.",
+      "connected": "מחובר",
+      "stillGoing": "תיבה גדולה. עדיין קוראת."
+    },
+    "errorCard": {
+      "intro": "${provider} לא נתן לי להיכנס. אם סגרתם את החלון, זה כל מה שקרה: שום דבר לא נקרא ושום דבר לא השתנה.",
+      "retryLine": "נסו שוב, או השתמשו ב-${other} במקום.",
+      "retryLineSingle": "נסו שוב מתי שתרצו."
+    },
+    "done": {
+      "title": "${provider} מחובר",
+      "found": "מצאתי ${trips} ב-${provider} שלכם. פרופיל הנסיעות שלכם מוכן.",
+      "noneNew": "אין עדיין אימיילים של הזמנות בתיבה הזו. אבדוק כל שבוע, כך שנסיעות חדשות יופיעו מעצמן.",
+      "updated": "עכשיו יש לי תחושה טובה לסגנון שלכם.",
+      "close": "סגירה"
+    },
+    "phases": {
+      "connect": {
+        "active": "פותחת את הדלת ל-${provider}",
+        "done": "מחובר ל-${provider}"
+      },
+      "emails": {
+        "active": "מחפשת אישורי הזמנה",
+        "done": {
+          "one": "נמצאה הזמנה אחת",
+          "two": "נמצאו שתי הזמנות",
+          "other": "נמצאו ${n} הזמנות"
+        },
+        "tally": {
+          "one": "אימייל אחד",
+          "two": "שני אימיילים",
+          "other": "${n} אימיילים"
+        }
+      },
+      "calendar": {
+        "active": "בודקת ביומן אם יש נסיעות",
+        "done": {
+          "one": "נמצאה נסיעה אחת ביומן",
+          "two": "נמצאו שתי נסיעות ביומן",
+          "other": "נמצאו ${n} נסיעות ביומן"
+        }
+      },
+      "trips": {
+        "active": "מחברת הזמנות לנסיעות",
+        "done": {
+          "one": "נסיעה אחת",
+          "two": "שתי נסיעות",
+          "other": "${n} נסיעות"
+        },
+        "doneWithCountries": "${trips}, ${countries}",
+        "countries": {
+          "one": "מדינה אחת",
+          "two": "שתי מדינות",
+          "other": "${n} מדינות"
+        }
+      },
+      "posts": {
+        "active": "עוברת על המקומות ששיתפתם",
+        "done": {
+          "one": "פוסט אחד נסקר",
+          "two": "שני פוסטים נסקרו",
+          "other": "${n} פוסטים נסקרו"
+        }
+      },
+      "profile": {
+        "active": "מבינה מה אתם אוהבים",
+        "done": "קלטתי את הסגנון שלכם"
+      },
+      "map": {
+        "active": "מסמנת את הנסיעות שלכם על המפה",
+        "done": {
+          "one": "מקום אחד על המפה שלכם",
+          "two": "שני מקומות על המפה שלכם",
+          "other": "${n} מקומות על המפה שלכם"
+        }
+      },
+      "save": {
+        "active": "שומרת את זה בבטחה בחשבון שלכם",
+        "done": "נשמר"
+      },
+      "personalise": {
+        "active": "מכווננת את Layla אליכם",
+        "done": "Layla מכירה אתכם עכשיו"
+      }
+    },
+    "error": {
+      "cancelled": "הכניסה בוטלה. שום דבר לא יובא.",
+      "unexpectedState": "משהו השתבש בכניסה. נסו שוב.",
+      "tokenExchangeFailed": "לא הצלחנו להשלים את הכניסה. נסו שוב.",
+      "mailFetchFailed": "לא הצלחנו לקרוא את תיבת הדואר שלכם. נסו שוב בעוד רגע.",
+      "instagramBusinessOnly": "Instagram מאפשר את זה רק לחשבונות עסקיים או של יוצרים.",
+      "unknown": "משהו השתבש. שום דבר לא יובא."
+    },
+    "disconnect": {
+      "title": "לנתק את ${provider}?",
+      "body": "Layla שומרת את הנסיעות שכבר נשמרו, אבל מפסיקה לקרוא הזמנות חדשות. אפשר להתחבר מחדש בכל רגע.",
+      "bodySocial": "Layla תפסיק לקרוא את הפוסטים שלכם ב-${provider} ולא תוכל יותר לפרסם שם בשבילכם. פרופיל הנסיעות והפוסטים ששיתפתם נשארים. אפשר להתחבר מחדש בכל רגע.",
+      "forget": "לשכוח גם את הנסיעות שיובאו",
+      "forgetSocial": "לשכוח גם מה ש-Layla למדה מהפוסטים שלכם",
+      "keep": "להשאיר מחובר",
+      "confirm": "לנתק"
+    },
+    "status": {
+      "disconnecting": "מנתקת…",
+      "removing": "מסירה את הנתונים שיובאו…",
+      "updating": "קוראת את ההזמנות שלכם…"
+    },
+    "toast": {
+      "disconnected": "${provider} נותק",
+      "removed": "הנסיעות שיובאו הוסרו",
+      "disconnectFailed": "לא הצלחתי לנתק את ${provider}",
+      "removeFailed": "לא הצלחתי להסיר את הנתונים שיובאו",
+      "retry": "לנסות שוב"
     }
   }
 }

@@ -204,6 +204,7 @@
         }
       },
       "messageHint": "اسألني أي شيء",
+      "chatWithLayla": "تحدث مع Layla",
       "discardRecording": "تجاهل التسجيل",
       "useRecording": "استخدم التسجيل",
       "possibleNextSteps": "الخطوات المحتملة التالية",
@@ -379,7 +380,6 @@
         "cityAirport": "مطار ${city}",
         "perDay": "${price}/اليوم",
         "bookNamed": "احجز ${name}",
-        "seeAll": "عرض الكل (${n})",
         "manualFine": "اليدوي يناسبني",
         "bigger": "أكبر",
         "carsAt": "سيارات في ${place}",
@@ -1208,7 +1208,8 @@
       "connect_on_web_message": "ربط ${source} من التطبيق قادم قريبًا. اربطه مرة واحدة عبر layla.ai وسيبقيه التطبيق محدّثًا.",
       "connect_unavailable": "الربط من التطبيق يحتاج تحديثًا على الخادم. استخدم layla.ai حاليًا.",
       "connect_failed": "تعذّر الربط. جرّب مرة أخرى.",
-      "open_web": "فتح layla.ai"
+      "open_web": "فتح layla.ai",
+      "status_last_failed": "فشل آخر تحديث · ${date} · حاول مرة أخرى"
     },
     "deletion": {
       "confirm_message": "ستختفي محادثاتك ورحلاتك وبياناتك خلال 24 ساعة. يمكنك الإلغاء حتى ذلك الحين.",
@@ -3481,10 +3482,23 @@
       "many": "تم تسعير ${n} رحلات"
     },
     "stay": "الإقامة",
+    "stayTitle": {
+      "one": "الإقامة",
+      "other": "الإقامات"
+    },
     "flights": "الرحلات الجوية",
     "car": "السيارة",
     "activities": "الأنشطة",
     "transfer": "التوصيل",
+    "transferTitle": {
+      "one": "التوصيل",
+      "other": "التوصيلات"
+    },
+    "transport": "المواصلات",
+    "transportLegs": {
+      "one": "مرحلة واحدة",
+      "other": "${n} مراحل"
+    },
     "route": "المسار",
     "seeMore": "عرض المزيد",
     "carDays": {
@@ -3509,6 +3523,21 @@
     "inCart": "في السلة",
     "add": "إضافة",
     "booked": "محجوز",
+    "changeTransport": "تغيير المواصلات",
+    "removeFromCart": "إزالة من السلة",
+    "addToCart": "إضافة إلى السلة",
+    "removeFromTrip": "إزالة من الرحلة",
+    "readMore": "اقرأ المزيد",
+    "keepInTrip": "الإبقاء في الرحلة",
+    "chooseThisOne": "اختيار هذا الخيار",
+    "carSearch": {
+      "searchPrompt": "سيارة في ${city}",
+      "routePrompt": "سيارة من ${from} إلى ${to}"
+    },
+    "addTransportRoute": "إضافة مواصلات · ${from} ← ${to}",
+    "addCarIn": "إضافة سيارة · ${city}",
+    "addStayRow": "إضافة إقامة · ${city} · ${nights}",
+    "addStayCity": "إضافة إقامة · ${city}",
     "checkout": "الدفع",
     "itemsFor": {
       "one": "عنصر واحد · لـ ${travellers}",
@@ -3569,7 +3598,107 @@
     "fullScreen": "ملء الشاشة",
     "perNight": "لليلة",
     "perPerson": "للشخص",
-    "perDay": "لليوم"
+    "perDay": "لليوم",
+    "photos": "الصور",
+    "playVideo": "تشغيل الفيديو",
+    "dayLine": {
+      "stay": "الإقامة في ${hotel}",
+      "flyInto": "بالطائرة إلى ${city}",
+      "driveTo": "بالسيارة إلى ${city}",
+      "rideTo": "بالقطار إلى ${city}",
+      "sailTo": "بالعبّارة إلى ${city}",
+      "busTo": "بالحافلة إلى ${city}",
+      "transferTo": "توصيل إلى ${city}",
+      "getTo": "الوصول إلى ${city}",
+      "flyHome": "رحلة العودة",
+      "flyTo": "بالطائرة إلى ${city}"
+    }
+  },
+  "credit": {
+    "heading": "الرصيد",
+    "travel_credit": "رصيد السفر",
+    "nothing_yet": "لا شيء في الطريق بعد · ادعُ شخصًا لتبدأ",
+    "invite": "دعوة",
+    "your_circle": "دائرتك",
+    "use_credit": "استخدام الرصيد",
+    "postcard_title": "أهدِ شخصًا رحلة العمر",
+    "postcard_caption": "أرسل بطاقة بريدية: ${amount} له، و${amount} لك عندما يحجز.",
+    "postcard_cta": "إرسال بطاقة بريدية",
+    "circle_count": "· ${n} من ${total} يسافرون",
+    "see_all": "عرض الكل",
+    "add_friend": "إضافة شخص",
+    "on_the_way": "${amount} في الطريق · ${n} لم يحجزوا بعد",
+    "earned_from": "مكتسب من ${n} أصدقاء سافروا",
+    "invite_title": "أهدِ شخصًا رحلة العمر",
+    "invite_body": "أرسل بطاقة بريدية. يحصل صديقك على خصم ${them} على رحلته الأولى، ويُضاف ${you} إلى رصيدك بمجرد أن يحجز.",
+    "tile_them": "له",
+    "tile_you": "لك",
+    "step1_lead": "اختر شخصًا.",
+    "step1": "من جهات اتصالك، أو اكتب اسمًا فقط.",
+    "step2_lead": "اختر مكانًا.",
+    "step2": "تجد Layla صورة الواجهة.",
+    "step3_lead": "أرسلها.",
+    "step3": "عبر الرسائل أو WhatsApp أو البريد، أو بنسخ الرابط.",
+    "copy_link": "نسخ الرابط",
+    "copied": "تم النسخ",
+    "circle_link(plural)": {
+      "one": "دائرتك · صديق واحد",
+      "other": "دائرتك · ${n} أصدقاء"
+    },
+    "fine": "يُطبَّق الرصيد على حجزك التالي مع Layla. مكافأة واحدة لكل شخص، تُدفع بعد حجزه الأول.",
+    "compose_title": "بطاقة بريدية جديدة",
+    "to": "إلى",
+    "where": "أين",
+    "your_line": "عبارتك",
+    "contacts": "جهات الاتصال",
+    "type_name": "اكتب اسمًا",
+    "name_hint": "اسم صديقك",
+    "place_hint": "ابحث عن مكان",
+    "greeting": "تحيات من ${place}",
+    "signature": "— ${name}",
+    "post_line": "Layla ✦ Post · ${city} · ${date}",
+    "post_line_no_city": "Layla ✦ Post · ${date}",
+    "to_line": "إلى: ${name}",
+    "line_1": "أنت تستحق هذه الرحلة.",
+    "line_2": "هيا نسافر أخيرًا.",
+    "line_3": "جهّز حقيبتك. هذه على حسابي (تقريبًا).",
+    "write_own": "أكتب عبارتي",
+    "own_hint": "اكتب عبارتك",
+    "send_postcard": "إرسال البطاقة",
+    "sending": "جارٍ الإرسال…",
+    "send_failed": "لم يتم الإرسال. تحقق من اتصالك وحاول مرة أخرى.",
+    "share_title": "أرسلها بالطريقة التي تناسبك",
+    "share_sub": "إلى ${name} · ${place}",
+    "messages": "الرسائل",
+    "whatsapp": "WhatsApp",
+    "mail": "البريد",
+    "more": "المزيد…",
+    "share_message": "أرسلت لك بطاقة بريدية من ${place} ✦ خصم 100 € على رحلتك الأولى مع Layla. افتحها هنا: ${url}",
+    "share_subject": "بطاقة بريدية من ${place}",
+    "sent_title": "ها هي في طريقها.",
+    "sent_body": "بطاقة ${name} في الطريق. بمجرد فتحها سيظهر ${name} في دائرتك.",
+    "see_circle": "عرض دائرتك",
+    "done": "تم",
+    "circle_title": "دائرتك",
+    "stat_earned": "مكتسب",
+    "stat_pending": "في الطريق",
+    "stat_invited": "مدعوون",
+    "circle_caption": "يُضاف ${amount} إلى رصيدك في كل مرة يحجز فيها أحد من دائرتك رحلته الأولى.",
+    "circle_empty": "لا أحد بعد. أرسل بطاقتك الأولى وسيظهر الشخص هنا.",
+    "friends_travelling": "أصدقاء يسافرون",
+    "travelling_count": "· ${n} من ${total}",
+    "status_booked": "تم الحجز",
+    "status_planning": "يخطط",
+    "status_invited": "مدعو",
+    "row_booked": "حجز ${place} · ${amount} مكتسبة",
+    "row_planning": "فعّل الرصيد · يخطط لرحلة إلى ${place}",
+    "row_claimed": "فعّل الـ 100 € · لا خطط بعد",
+    "row_opened": "فتح بطاقتك",
+    "row_sent": "تم إرسال البطاقة",
+    "send_another": "إرسال بطاقة أخرى",
+    "unavailable": "الرصيد غير متاح على ${host}. مسارات الرصيد لم تُنشر هناك بعد.",
+    "retry": "إعادة المحاولة",
+    "link_loading": "جارٍ تحميل رابطك…"
   },
   "discover": {
     "for_you": "لك",
@@ -3577,9 +3706,7 @@
     "creators_eyebrow": "صنّاع محتوى Layla",
     "templates_eyebrow": "ابدأ من رحلة أحبّها الناس",
     "template_tag": "قالب · ${category}",
-    "layla_creator": "صانع محتوى Layla",
-    "layla_advisor": "مستشار سفر Layla",
-    "instagram": "Instagram ↗",
+    "open_on": "فتح ${name} على ${platform}؟",
     "plan_with_layla": "خطّط هذه الرحلة مع Layla",
     "stops": {
       "one": "محطة واحدة",
@@ -3595,9 +3722,6 @@
     "from_price": "ابتداءً من ${price}",
     "from_caption": "فنادق وتجارب، لـ${party} · التواريخ مرنة",
     "start_from_trip": "ابدأ من هذه الرحلة",
-    "mute": "كتم الصوت",
-    "unmute": "تشغيل الصوت",
-    "share": "مشاركة",
     "trip_unavailable": "هذه الرحلة غير متاحة حالياً.",
     "templates": {
       "thailand": {
@@ -3693,6 +3817,7 @@
     "refreshExpiredToContinue": "حدّث الأسعار المنتهية للمتابعة",
     "pricesExpiredShort": "انتهت صلاحية الأسعار · حدّثها",
     "refreshPrices": "تحديث الأسعار",
+    "refreshFailed": "تعذّر تحديث الأسعار · حاول مرة أخرى",
     "rerunSearch": {
       "hotel": "أسعار الفنادق دي انتهت صلاحيتها، ممكن تبحثي من جديد؟",
       "flight": "أسعار الرحلات دي انتهت صلاحيتها، ممكن تبحثي من جديد؟",
@@ -3904,6 +4029,226 @@
       "longTrip": "$n أيام",
       "planWith": "خطّط مع $name",
       "keepGoing": "تابع مع Layla"
+    }
+  },
+  "passport": {
+    "visas": "تأشيرات",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "جواز سفر",
+    "book_code": "P",
+    "surname": "اللقب",
+    "given_names": "الاسم",
+    "home": "المدينة",
+    "traveller_since": "مسافر منذ",
+    "next": "التالي",
+    "countries": "دولة",
+    "cities": "مدينة",
+    "nights_away": "ليلة خارج البيت",
+    "fill_title": "املأه بكل مكان زرته",
+    "connect_gmail": "ربط Gmail",
+    "connect_outlook": "ربط Outlook",
+    "connected": "متصل",
+    "connected_updated": "متصل · آخر تحديث $date",
+    "or_by_hand": "أو أضف الأماكن يدويًا",
+    "reading": "جارٍ قراءة حجوزاتك… $countries دولة · $cities مدينة · $nights ليلة خارج البيت",
+    "connecting": "جارٍ فتح Google…",
+    "connect_failed": "لم يتم ربط Gmail. حاول مرة أخرى أو أضف الأماكن يدويًا.",
+    "where_title": "أين كنت؟",
+    "place_hint": "مدينة أو مكان",
+    "earlier": "قبل ذلك",
+    "stamp_it": "اختمه",
+    "stamp_failed": "لم يتم حفظ المكان. حاول مرة أخرى.",
+    "share_mine": "مشاركة جوازي",
+    "ask_layla": "إلى أين بعد ذلك؟ اسأل Layla",
+    "ask_layla_prefill": "إلى أين أسافر بعد ذلك؟",
+    "share": {
+      "close": "إغلاق",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "حفظ الصورة",
+      "counts": "$countries دولة. $cities مدينة.\n$nights ليلة خارج البيت.",
+      "get_link": "احصل على جواز Layla · $link",
+      "get_plain": "احصل على جواز Layla",
+      "shared": "تمت المشاركة",
+      "shared_note": "كل صديق يفتح رابطك يحصل على خصم 100 € على أول رحلة",
+      "link_copied": "تم نسخ الرابط · أضف ملصق رابط في Instagram",
+      "no_app": "$app غير مثبّت، سنشارك بالطريقة المعتادة."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "اربط حساباتك",
+    "command": {
+      "notNow": "ليس الآن",
+      "tryAgain": "حاول مرة أخرى",
+      "useInstead": "استخدم ${provider} بدلًا من ذلك",
+      "connectedSeeFound": "تم ربط ${provider} · شاهد ما وجدته",
+      "updateOne": "تحديث ${provider}",
+      "updateMany": "تحديث الاتصالات"
+    },
+    "picker": {
+      "titleLead": "اجمع عالم سفرك",
+      "titleHighlight": "في مكان واحد",
+      "body": "اربط الأماكن التي توجد فيها رحلاتك بالفعل. تجد Layla ما حجزته سابقًا، وتعرف متى تكون متفرغًا وتخطط وفقًا لذلك.",
+      "footer": "للقراءة فقط. تقرأ Layla تأكيدات الحجز، ولا يُرسل أي شيء من حسابك. يمكنك قطع الاتصال في أي وقت من الحسابات المرتبطة.",
+      "bestStart": "أفضل بداية",
+      "connectedLastRead": "متصل · آخر قراءة ${when}",
+      "connectedPending": "متصل · التحديث الأول قيد الانتظار",
+      "expiredLine": "انتهت صلاحية الاتصال · أعد الربط لمواصلة التحديث",
+      "update": "تحديث الآن",
+      "reconnect": "إعادة الربط",
+      "connect": "ربط"
+    },
+    "provider": {
+      "googleSub": "يجد رحلات الطيران والفنادق السابقة، ويعرف متى تكون متفرغًا.",
+      "microsoftSub": "البريد والتقويم، إذا كنت تستخدم Microsoft.",
+      "instagramSub": "الحسابات الاحترافية فقط · أماكنك المحفوظة ومقاطع Reels، كمصدر إلهام."
+    },
+    "wait": {
+      "title": "جارٍ الإنهاء في ${provider}…",
+      "body": "فُتحت نافذة ${provider}. اختر الحساب الذي تحجز به رحلاتك واسمح بالوصول للقراءة فقط. عُد إلى هنا عند الانتهاء.",
+      "waiting": "في انتظار ${provider}",
+      "cancel": "إلغاء"
+    },
+    "card": {
+      "intro": "لحظة واحدة. أقرأ حجوزاتك، من الأقدم أولًا.",
+      "reading": "جارٍ قراءة ${provider}",
+      "keepChatting": "واصل المحادثة، وسأخبرك حين أنتهي.",
+      "keepBrowsing": "يمكنك متابعة التصفح. يستغرق هذا عادةً دقيقة أو دقيقتين.",
+      "connected": "متصل",
+      "stillGoing": "بريد وارد كبير. ما زلت أعمل."
+    },
+    "errorCard": {
+      "intro": "لم يسمح لي ${provider} بالدخول. إذا أغلقت النافذة فهذا كل ما في الأمر: لم يُقرأ أي شيء ولم يتغير شيء.",
+      "retryLine": "حاول مرة أخرى، أو استخدم ${other} بدلًا من ذلك.",
+      "retryLineSingle": "حاول مرة أخرى متى شئت."
+    },
+    "done": {
+      "title": "تم ربط ${provider}",
+      "found": "وجدت ${trips} في ${provider} الخاص بك. ملفك السفري جاهز.",
+      "noneNew": "لا توجد رسائل حجوزات في هذا البريد بعد. سأتحقق أسبوعيًا، وستظهر الرحلات الجديدة من تلقاء نفسها.",
+      "updated": "أصبحت أعرف أسلوبك في السفر الآن.",
+      "close": "إغلاق"
+    },
+    "phases": {
+      "connect": {
+        "active": "جارٍ فتح الباب إلى ${provider}",
+        "done": "تم الاتصال بـ ${provider}"
+      },
+      "emails": {
+        "active": "جارٍ البحث عن تأكيدات الحجز",
+        "tally": {
+          "zero": "${n} رسائل",
+          "one": "رسالة واحدة",
+          "two": "رسالتان",
+          "few": "${n} رسائل",
+          "many": "${n} رسالة",
+          "other": "${n} رسالة"
+        },
+        "done": {
+          "zero": "لم يُعثر على أي حجز",
+          "one": "تم العثور على حجز واحد",
+          "two": "تم العثور على حجزين",
+          "few": "تم العثور على ${n} حجوزات",
+          "many": "تم العثور على ${n} حجزًا",
+          "other": "تم العثور على ${n} حجز"
+        }
+      },
+      "calendar": {
+        "active": "جارٍ البحث عن رحلات في تقويمك",
+        "done": {
+          "zero": "لم يُعثر على أي رحلة في التقويم",
+          "one": "تم العثور على رحلة واحدة في التقويم",
+          "two": "تم العثور على رحلتين في التقويم",
+          "few": "تم العثور على ${n} رحلات في التقويم",
+          "many": "تم العثور على ${n} رحلة في التقويم",
+          "other": "تم العثور على ${n} رحلة في التقويم"
+        }
+      },
+      "trips": {
+        "active": "جارٍ تجميع الحجوزات في رحلات",
+        "done": {
+          "zero": "${n} رحلات",
+          "one": "رحلة واحدة",
+          "two": "رحلتان",
+          "few": "${n} رحلات",
+          "many": "${n} رحلة",
+          "other": "${n} رحلة"
+        },
+        "doneWithCountries": "${trips}، ${countries}",
+        "countries": {
+          "zero": "${n} دول",
+          "one": "دولة واحدة",
+          "two": "دولتان",
+          "few": "${n} دول",
+          "many": "${n} دولة",
+          "other": "${n} دولة"
+        }
+      },
+      "posts": {
+        "active": "جارٍ تصفّح الأماكن التي شاركتها",
+        "done": {
+          "zero": "لم يُتصفَّح أي منشور",
+          "one": "تم تصفّح منشور واحد",
+          "two": "تم تصفّح منشورين",
+          "few": "تم تصفّح ${n} منشورات",
+          "many": "تم تصفّح ${n} منشورًا",
+          "other": "تم تصفّح ${n} منشور"
+        }
+      },
+      "profile": {
+        "active": "جارٍ اكتشاف ما تحبه",
+        "done": "فهمنا أسلوبك"
+      },
+      "map": {
+        "active": "جارٍ تثبيت رحلاتك على الخريطة",
+        "done": {
+          "zero": "لا أماكن على خريطتك",
+          "one": "مكان واحد على خريطتك",
+          "two": "مكانان على خريطتك",
+          "few": "${n} أماكن على خريطتك",
+          "many": "${n} مكانًا على خريطتك",
+          "other": "${n} مكان على خريطتك"
+        }
+      },
+      "save": {
+        "active": "جارٍ حفظ ذلك بأمان في حسابك",
+        "done": "تم الحفظ"
+      },
+      "personalise": {
+        "active": "جارٍ ضبط Layla لتناسبك",
+        "done": "Layla تعرفك الآن"
+      }
+    },
+    "error": {
+      "cancelled": "أُلغي تسجيل الدخول. لم يُستورد أي شيء.",
+      "unexpectedState": "حدث خطأ أثناء تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+      "tokenExchangeFailed": "تعذّر علينا إكمال تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+      "mailFetchFailed": "تعذّر علينا قراءة بريدك الوارد. يُرجى المحاولة مرة أخرى بعد قليل.",
+      "instagramBusinessOnly": "يسمح Instagram بذلك لحسابات الأعمال أو صنّاع المحتوى فقط.",
+      "unknown": "حدث خطأ ما. لم يُستورد أي شيء."
+    },
+    "disconnect": {
+      "title": "قطع الاتصال بـ ${provider}؟",
+      "body": "تحتفظ Layla بالرحلات التي حفظتها بالفعل، لكنها تتوقف عن قراءة الحجوزات الجديدة. يمكنك إعادة الربط في أي وقت.",
+      "bodySocial": "ستتوقف Layla عن قراءة منشوراتك على ${provider} ولن تتمكن بعد الآن من النشر هناك نيابةً عنك. يبقى ملف السفر الخاص بك والمنشورات التي شاركتها بالفعل. يمكنك إعادة الربط في أي وقت.",
+      "forget": "انسَ الرحلات المستوردة أيضًا",
+      "forgetSocial": "انسَ أيضًا ما تعلّمته Layla من منشوراتك",
+      "keep": "إبقاء الاتصال",
+      "confirm": "قطع الاتصال"
+    },
+    "status": {
+      "disconnecting": "جارٍ قطع الاتصال…",
+      "removing": "جارٍ إزالة البيانات المستوردة…",
+      "updating": "جارٍ قراءة حجوزاتك…"
+    },
+    "toast": {
+      "disconnected": "تم قطع الاتصال بـ ${provider}",
+      "removed": "تمت إزالة الرحلات المستوردة",
+      "disconnectFailed": "تعذّر قطع الاتصال بـ ${provider}",
+      "removeFailed": "تعذّرت إزالة البيانات المستوردة",
+      "retry": "إعادة المحاولة"
     }
   }
 }
