@@ -3335,6 +3335,348 @@
       },
       "change": "Wijzigen",
       "keepInTrip": "In de reis houden"
+    },
+    "map": "Kaart",
+    "pricesExpired": "Prijzen verlopen",
+    "refresh": "Vernieuwen",
+    "fullScreen": "Volledig scherm",
+    "perNight": "per nacht",
+    "perPerson": "per persoon",
+    "perDay": "per dag"
+  },
+  "discover": {
+    "for_you": "Voor jou",
+    "creators": "Creators",
+    "creators_eyebrow": "Layla-creators",
+    "templates_eyebrow": "Begin met een reis waar anderen van hielden",
+    "template_tag": "Sjabloon · ${category}",
+    "layla_creator": "Layla-creator",
+    "layla_advisor": "Layla-reisadviseur",
+    "instagram": "Instagram ↗",
+    "plan_with_layla": "Plan deze reis met Layla",
+    "stops": {
+      "one": "${n} stop",
+      "other": "${n} stops"
+    },
+    "days": {
+      "one": "${n} dag",
+      "other": "${n} dagen"
+    },
+    "template_days": "Sjabloon · ${days}",
+    "template_meta": "Sjabloon · ${days} · ${travellers}",
+    "day_label": "DAG ${n}",
+    "from_price": "vanaf ${price}",
+    "from_caption": "hotels en ervaringen, voor ${party} · data flexibel",
+    "start_from_trip": "Begin met deze reis",
+    "mute": "Dempen",
+    "unmute": "Geluid aan",
+    "share": "Delen",
+    "trip_unavailable": "Deze reis is nu even niet beschikbaar.",
+    "templates": {
+      "thailand": {
+        "title": "De Andamanse kust van Thailand",
+        "category": "Stranden",
+        "route": "Phuket → Khao Lak",
+        "intro": "Met de speedboot naar Phi Phi, zonsondergang bij Promthep Cape en een kookles op Phuket, daarna raften door de jungle en rustige stranden in Khao Lak."
+      },
+      "japan": {
+        "title": "Japans keukens, tempels en warme bronnen",
+        "category": "Eten & cultuur",
+        "route": "Tokio → Kioto → Osaka → Sapporo",
+        "intro": "Sushi met een chef van Tsukiji, zenmeditatie met een monnik, een kookles in Kanazawa, Nishiki Market en sake in Kioto, daarna ramen in Osaka en de zeevruchten van Sapporo."
+      },
+      "iceland_road_trip": {
+        "title": "De zuidkust van IJsland met de auto",
+        "category": "Roadtrip",
+        "route": "Reykjavik → Vik → Skaftafell → Reykjavik",
+        "intro": "Een huurauto langs de Golden Circle, zwart zand bij Vik, de gletsjerlagune bij Skaftafell en de oude grotten van Hella, terug naar Reykjavik."
+      },
+      "east_africa": {
+        "title": "Oost-Afrika in 24 dagen, van Kilimanjaro tot Zanzibar",
+        "category": "Safari & strand",
+        "route": "Kilimanjaro → Amboseli → Samburu → Masai Mara → Nairobi → Zanzibar",
+        "intro": "Olifanten onder de Kilimanjaro in Amboseli, de Samburu Special Five, flamingo's bij Lake Nakuru, vijf nachten gamedrives in de Masai Mara, en dan de steegjes van Stone Town en het witte zand van Zanzibar."
+      },
+      "bali": {
+        "title": "Bali, van tempels naar turquoise",
+        "category": "Eilanden",
+        "route": "Ubud → Gili Trawangan → Nusa Dua",
+        "intro": "Rijstterrassen en tempels rond Ubud, trage eilanddagen op Gili Trawangan en tot slot het strand van Nusa Dua."
+      },
+      "iceland": {
+        "title": "IJsland onder het noorderlicht",
+        "category": "Noorderlicht",
+        "route": "Reykjavik → Noorderlicht → Sky Lagoon",
+        "intro": "Een designhotel in Reykjavik, nachten op jacht naar het noorderlicht, Perlan, een foodwalk en weken in de Sky Lagoon."
+      },
+      "lapland": {
+        "title": "Lapland in de sneeuw",
+        "category": "Winter",
+        "route": "Rovaniemi → Santa Claus Village → Arctische wildernis",
+        "intro": "Santa Claus Village, met de sneeuwscooter naar het ijsvissen, een fototour langs het noorderlicht en een echte Finse sauna."
+      },
+      "madeira": {
+        "title": "Madeira met de auto",
+        "category": "Roadtrip",
+        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro",
+        "intro": "Een vijfsterrenhotel op de klif in Funchal en een auto om te verkennen: zonsopgang bij Ponta de São Lourenço, walvissen voor de kust en de toppen van Pico do Arieiro."
+      },
+      "egypt": {
+        "title": "De Rode Zee in El Gouna",
+        "category": "Strand",
+        "route": "Hurghada → El Gouna",
+        "intro": "Uitzicht over de lagune vanuit een vijfsterrenresort, snorkelen bij de riffen van de Rode Zee, een boot- en tuktuktour door El Gouna en trage dagen aan het water."
+      },
+      "thailand_north_to_south": {
+        "title": "Thailand, van Bangkok naar Phuket",
+        "category": "Steden & eten",
+        "route": "Bangkok → Chiang Mai → Phuket",
+        "intro": "Kanaalboten, muay thai en een streetfoodtour in Bangkok, tempels en een kookles in Chiang Mai, daarna olifanten en nachtmarkten in Phuket."
+      },
+      "thailand_temples_and_sea": {
+        "title": "Thailands tempels, bergen en zee",
+        "category": "Luxe",
+        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta",
+        "intro": "Het Mandarin Oriental in Bangkok, de oude tempels van Chiang Mai en een olifantenreservaat, kajaks en lichtgevend plankton bij Railay, en dan rustige dagen op Koh Lanta."
+      },
+      "puglia": {
+        "title": "Puglia, van kust naar platteland",
+        "category": "Kust & platteland",
+        "route": "Monopoli → Valle d'Itria → Lecce → Tricase",
+        "intro": "Een zonsondergangscruise voor Polignano, de trulli van Alberobello en olijfolie in de Valle d'Itria, barok Lecce, en dan kanoën door de zeegrotten van Santa Maria di Leuca."
+      },
+      "australia": {
+        "title": "Australië in 19 dagen, van Tasmanië tot het rif",
+        "category": "Grote rondreis",
+        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapore",
+        "intro": "Wild Tasmanië en de steegjes van Melbourne, zonsopgang boven Uluru, Sydney Harbour en de wijngaarden van Hunter Valley, daarna het regenwoud van Tamborine en het Great Barrier Reef, met een stop in Singapore."
+      },
+      "japan_treasures": {
+        "title": "Japans schatten: Osaka, Miyajima, Kioto & Tokio",
+        "category": "Steden & cultuur",
+        "route": "Osaka → Miyajima → Kioto → Tokio",
+        "intro": "Streetfood en neon in Osaka, de drijvende torii van Miyajima, vijf trage dagen tussen de tempels en theehuizen van Kioto, en dan Tokio van Senso-ji tot Shibuya."
+      }
+    }
+  },
+  "states": {
+    "expired": "Verlopen",
+    "fresh": "Actueel",
+    "refreshPrice": "Prijs vernieuwen",
+    "refreshExpiredToContinue": "Vernieuw de verlopen prijzen om verder te gaan",
+    "pricesExpiredShort": "Prijzen verlopen · vernieuwen",
+    "refreshPrices": "Prijzen vernieuwen",
+    "rerunSearch": {
+      "hotel": "Die hotelprijzen zijn verlopen, kun je opnieuw zoeken?",
+      "flight": "Die vluchtprijzen zijn verlopen, kun je opnieuw zoeken?",
+      "car": "Die autoprijzen zijn verlopen, kun je opnieuw zoeken?",
+      "activity": "Die prijzen voor activiteiten zijn verlopen, kun je opnieuw zoeken?"
+    },
+    "soldOut": "Uitverkocht",
+    "replace": "Vervangen",
+    "seeAll": "Alles bekijken",
+    "replaceSoldOut": "Die is uitverkocht, zoek een alternatief voor me",
+    "ratesExpiredTitle": "De prijzen kunnen veranderd zijn",
+    "ratesExpiredBody": "We hebben deze prijs een tijdje niet gecheckt. Vernieuw hem voordat je betaalt.",
+    "checkingPrice": "Prijs wordt gecheckt…",
+    "payFailed": {
+      "notCharged": "Er is niets afgeschreven",
+      "declined": "Je kaart is geweigerd. Probeer een andere kaart of Apple Pay.",
+      "tryAnotherCard": "Andere kaart proberen",
+      "useApplePay": "Apple Pay gebruiken"
+    },
+    "offline": {
+      "title": "Je bent offline.",
+      "body": "Je vouchers staan op deze telefoon. Chat en nieuwe berichten komen terug zodra er verbinding is.",
+      "saved": "Opgeslagen",
+      "status": "Offline"
+    }
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "Check-in vandaag",
+      "checkInIn": {
+        "one": "Check-in morgen",
+        "other": "Check-in over $n dagen"
+      },
+      "startsToday": "Begint vandaag",
+      "startsIn": {
+        "one": "Begint morgen",
+        "other": "Begint over $n dagen"
+      },
+      "via": "via $provider",
+      "kindHotel": "Hotel",
+      "kindFlight": "Vlucht",
+      "kindCar": "Huurauto",
+      "kindActivity": "Activiteit",
+      "reference": "Boekingsreferentie",
+      "bookingNo": "Boekingsnr. $ref",
+      "itinerary": "Reisplan",
+      "confirmation": "Bevestiging",
+      "pnr": "PNR",
+      "bookedOn": "Geboekt op $date · $payment",
+      "paidOnline": "Online betaald",
+      "paidAtCounter": "Betalen aan de balie",
+      "paidOnAccount": "Op rekening",
+      "confirmationPdf": "Bevestiging als pdf",
+      "invoicePdf": "Factuur als pdf",
+      "ticket": "Ticket",
+      "invoiceNeedsAddress": "Voor de factuur hebben we eerst een factuuradres nodig. Voeg het hieronder toe.",
+      "invoiceUnavailable": "Facturen voor deze boeking sturen we op verzoek per e-mail.",
+      "rooms": "Kamers",
+      "flights": "Vluchten",
+      "car": "Auto",
+      "activity": "Activiteit",
+      "after": "Vanaf $time",
+      "until": "Tot $time",
+      "pickUp": "Ophalen",
+      "returnLabel": "Inleveren",
+      "departs": "Vertrek",
+      "arrives": "Aankomst",
+      "when": "Wanneer",
+      "duration": "Duur",
+      "meetingPoint": "Ontmoetingspunt",
+      "nightsLocalTime": {
+        "one": "1 nacht · Tijden in de lokale tijd van het hotel",
+        "other": "$n nachten · Tijden in de lokale tijd van het hotel"
+      },
+      "daysCount": {
+        "one": "1 dag",
+        "other": "$n dagen"
+      },
+      "nightsCount": {
+        "one": "1 nacht",
+        "other": "$n nachten"
+      },
+      "ticketsCount": {
+        "one": "1 ticket",
+        "other": "$n tickets"
+      },
+      "passengersCount": {
+        "one": "1 passagier",
+        "other": "$n passagiers"
+      },
+      "cancelRoom": "Kamer annuleren",
+      "changeDates": "Data wijzigen",
+      "changeTime": "Tijd wijzigen",
+      "guestInfo": "Gastgegevens",
+      "names": "Namen",
+      "contactInfo": "Contact",
+      "passengers": "Passagiers",
+      "driver": "Bestuurder",
+      "travellers": "Reizigers",
+      "leadTraveller": "Hoofdreiziger",
+      "priceSummary": "Prijsoverzicht",
+      "taxesAndFees": "Belastingen en kosten",
+      "total": "Totaal",
+      "paidWithCard": "Online betaald · $card",
+      "chargedOn": "Afgeschreven op $date · incl. belastingen",
+      "chargedTaxesIncluded": "Incl. belastingen",
+      "payAtDeskNote": "Je betaalt aan de balie bij het ophalen",
+      "billingAddress": "Factuuradres",
+      "billingIntro": "Voeg een factuuradres toe om een factuur te krijgen. Zodra de factuur is uitgegeven, kun je het niet meer wijzigen.",
+      "setBillingAddress": "Factuuradres instellen",
+      "editBillingAddress": "Factuuradres bewerken",
+      "planRest": "Plan de rest van $city",
+      "planRestFallback": "Plan rond deze boeking",
+      "planRestLine": "Een diner dichtbij, een auto voor het weekend, een planwijziging — vraag maar.",
+      "askLayla": "Vraag Layla over deze boeking",
+      "placeHotel": "Hotel",
+      "placeAirport": "Luchthaven",
+      "placePickup": "Ophaalpunt",
+      "placeMeeting": "Ontmoetingspunt",
+      "directions": "Route",
+      "callHotel": "Hotel bellen",
+      "callSupplier": "$name bellen",
+      "emailSupplier": "$name mailen",
+      "addToCalendar": "In agenda zetten",
+      "support": "Klantenservice",
+      "supportTitle": "Hulp nodig bij deze boeking?",
+      "supportLine": "Neem contact op · de referentie gaat automatisch mee",
+      "cancelAllRooms": "Alle kamers annuleren",
+      "cancelBooking": "Boeking annuleren",
+      "cancelFoot": "Gratis annuleerbare tarieven krijg je volledig terug. Bij andere kunnen kosten gelden.",
+      "notCancellableFoot": "Deze boeking kun je niet in de app annuleren. Neem contact op met support, dan regelen wij het.",
+      "loadFailed": "We konden deze boeking nu niet laden.",
+      "retry": "Opnieuw proberen",
+      "sharePdf": "Bevestiging · $title"
+    },
+    "cancel": {
+      "titleRoom": "Deze kamer annuleren?",
+      "titleBooking": "Deze boeking annuleren?",
+      "working": "Annuleren…",
+      "doneRoom": "Kamer geannuleerd",
+      "doneBooking": "Boeking geannuleerd",
+      "refundFull": "Je krijgt $amount terug.",
+      "refundPartial": "Deels terugbetaald · je krijgt $amount terug.",
+      "refundNone": "Dit tarief is niet restitueerbaar. Je krijgt niets terug.",
+      "refundUnknown": "We kunnen het terugbetaalbedrag nu niet bevestigen. Als je annuleert, bekijkt ons team het en mailen we je.",
+      "body": "Gratis annuleerbare tarieven krijg je terug; bij andere kunnen kosten gelden. $provider bevestigt de annulering meteen.",
+      "workingWith": "Annuleren bij $provider…",
+      "yes": "Ja, annuleren",
+      "keep": "Boeking houden",
+      "resultIssued": "Een terugbetaling van $amount is onderweg naar je oorspronkelijke betaalmethode.",
+      "resultPending": "Je terugbetaling wordt verwerkt en verschijnt binnenkort op je oorspronkelijke betaalmethode.",
+      "resultNone": "Dit was een niet-restitueerbaar tarief, dus er is geen terugbetaling.",
+      "resultReview": "Ons team bekijkt je terugbetaling en mailt je.",
+      "doneFoot": "Layla zet de annulering in je chat en werkt Boekingen bij. Verder verandert er niets aan je reis.",
+      "findAnotherHotel": "Ander hotel zoeken",
+      "findAnotherCar": "Andere auto zoeken",
+      "findAnotherActivity": "Andere activiteit zoeken",
+      "backToBookings": "Terug naar boekingen",
+      "notCancellable": "Deze boeking kan hier niet meer worden geannuleerd.",
+      "failed": "De annulering is niet gelukt. Er is niets veranderd — probeer het opnieuw of neem contact op met support.",
+      "laylaCancelled": "Geannuleerd: $title. $refund",
+      "laylaRefund": "$amount is onderweg terug naar je kaart.",
+      "laylaNoRefund": "Geen terugbetaling."
+    },
+    "billing": {
+      "title": "Factuuradres",
+      "intro": "Komt op de pdf-factuur. Zodra de factuur is uitgegeven, kun je het adres niet meer wijzigen.",
+      "name": "Naam op factuur",
+      "company": "Bedrijf (optioneel)",
+      "companyHint": "Bedrijfsnaam",
+      "line1": "Adresregel 1",
+      "line2": "Adresregel 2 (optioneel)",
+      "line2Hint": "Appartement, verdieping, t.a.v.",
+      "city": "Plaats",
+      "postalCode": "Postcode",
+      "state": "Provincie / regio (optioneel)",
+      "country": "Land",
+      "countryHint": "Twee letters, bijv. NL",
+      "taxId": "Btw-nummer (optioneel)",
+      "taxIdHint": "Btw / KvK",
+      "countryNote": "Het land moet overeenkomen met het factuurland van je kaart.",
+      "save": "Adres opslaan",
+      "required": "Verplicht",
+      "saveFailed": "Adres kon niet worden opgeslagen. Controleer de velden en probeer opnieuw.",
+      "locked": "Er is een factuur uitgegeven; het adres kan niet meer worden gewijzigd."
+    },
+    "chat": {
+      "intro": "Wat wil je veranderen?",
+      "introWithPolicy": "$policy. Wat wil je veranderen?",
+      "chatName": "Boeking · $title",
+      "bookingDetails": "Boekingsdetails",
+      "changeDates": "Data wijzigen",
+      "addNight": "Een nacht erbij",
+      "lateCheckout": "Late check-out",
+      "changeTime": "Tijd wijzigen",
+      "changeCar": "Andere auto",
+      "addDriver": "Bestuurder toevoegen",
+      "changeFlight": "Vlucht wijzigen",
+      "addBag": "Bagage toevoegen",
+      "directions": "Route",
+      "cancel": "Annuleren"
+    },
+    "complexTrip": {
+      "badge": "Complexe reis · $days dagen · $stops stops",
+      "title": "Hier is een mens op z'n plek.",
+      "line": "$name, reisexpert, plant en boekt dit gratis samen met jou. Ze ziet deze hele chat.",
+      "multiCity": "Meerdere steden",
+      "groupOf": "Groep van $n",
+      "longTrip": "$n dagen",
+      "planWith": "Plannen met $name",
+      "keepGoing": "Verder met Layla"
     }
   }
 }

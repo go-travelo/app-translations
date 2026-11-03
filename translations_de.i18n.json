@@ -3335,6 +3335,348 @@
       },
       "change": "Ändern",
       "keepInTrip": "In der Reise behalten"
+    },
+    "map": "Karte",
+    "pricesExpired": "Preise abgelaufen",
+    "refresh": "Aktualisieren",
+    "fullScreen": "Vollbild",
+    "perNight": "pro Nacht",
+    "perPerson": "pro Person",
+    "perDay": "pro Tag"
+  },
+  "discover": {
+    "for_you": "Für dich",
+    "creators": "Creator",
+    "creators_eyebrow": "Layla Creator",
+    "templates_eyebrow": "Starte mit einer Reise, die andere geliebt haben",
+    "template_tag": "Vorlage · ${category}",
+    "layla_creator": "Layla Creator",
+    "layla_advisor": "Layla Reiseberater",
+    "instagram": "Instagram ↗",
+    "plan_with_layla": "Diese Reise mit Layla planen",
+    "stops": {
+      "one": "${n} Stopp",
+      "other": "${n} Stopps"
+    },
+    "days": {
+      "one": "${n} Tag",
+      "other": "${n} Tage"
+    },
+    "template_days": "Vorlage · ${days}",
+    "template_meta": "Vorlage · ${days} · ${travellers}",
+    "day_label": "TAG ${n}",
+    "from_price": "ab ${price}",
+    "from_caption": "Hotels und Erlebnisse, für ${party} · Daten flexibel",
+    "start_from_trip": "Mit dieser Reise starten",
+    "mute": "Stumm",
+    "unmute": "Ton an",
+    "share": "Teilen",
+    "trip_unavailable": "Diese Reise ist gerade nicht verfügbar.",
+    "templates": {
+      "thailand": {
+        "title": "Thailands Andamanenküste",
+        "category": "Strände",
+        "route": "Phuket → Khao Lak",
+        "intro": "Phi Phi im Speedboot, Sonnenuntergang am Promthep Cape und ein Kochkurs auf Phuket, dann Dschungel-Rafting und ruhige Strände in Khao Lak."
+      },
+      "japan": {
+        "title": "Japans Küchen, Tempel und heiße Quellen",
+        "category": "Essen & Kultur",
+        "route": "Tokio → Kyoto → Osaka → Sapporo",
+        "intro": "Sushi mit einem Tsukiji-Koch, Zen-Meditation mit einem Mönch, ein Kochkurs in Kanazawa, der Nishiki-Markt und Sake in Kyoto, dann Ramen in Osaka und Meeresfrüchte in Sapporo."
+      },
+      "iceland_road_trip": {
+        "title": "Islands Südküste mit dem Auto",
+        "category": "Roadtrip",
+        "route": "Reykjavík → Vík → Skaftafell → Reykjavík",
+        "intro": "Mit dem Mietwagen über den Golden Circle, schwarzer Sand in Vík, die Gletscherlagune bei Skaftafell und die alten Höhlen von Hella, zurück nach Reykjavík."
+      },
+      "east_africa": {
+        "title": "Ostafrika in 24 Tagen, vom Kilimandscharo nach Sansibar",
+        "category": "Safari & Strand",
+        "route": "Kilimandscharo → Amboseli → Samburu → Masai Mara → Nairobi → Sansibar",
+        "intro": "Elefanten vor dem Kilimandscharo in Amboseli, die Special Five von Samburu, Flamingos am Lake Nakuru, fünf Nächte Pirschfahrten in der Masai Mara, dann die Gassen von Stone Town und der weiße Sand Sansibars."
+      },
+      "bali": {
+        "title": "Bali, von Tempeln bis Türkis",
+        "category": "Inseln",
+        "route": "Ubud → Gili Trawangan → Nusa Dua",
+        "intro": "Reisterrassen und Tempel rund um Ubud, ruhige Inseltage auf Gili Trawangan und zum Schluss Strand in Nusa Dua."
+      },
+      "iceland": {
+        "title": "Island unter Polarlichtern",
+        "category": "Polarlichter",
+        "route": "Reykjavík → Polarlichter → Sky Lagoon",
+        "intro": "Ein Designhotel in Reykjavík, Nächte auf Polarlichtjagd, Perlan, ein Foodwalk und ein Bad in der Sky Lagoon."
+      },
+      "lapland": {
+        "title": "Lappland im Schnee",
+        "category": "Winter",
+        "route": "Rovaniemi → Weihnachtsmanndorf → Arktische Wildnis",
+        "intro": "Das Weihnachtsmanndorf, eine Schneemobiltour zum Eisangeln, eine Polarlicht-Fototour und eine echte finnische Sauna."
+      },
+      "madeira": {
+        "title": "Madeira mit dem Auto",
+        "category": "Roadtrip",
+        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro",
+        "intro": "Ein Fünf-Sterne-Haus auf der Klippe in Funchal und ein Auto zum Entdecken: Sonnenaufgang an der Ponta de São Lourenço, Wale vor der Küste und die Gipfel des Pico do Arieiro."
+      },
+      "egypt": {
+        "title": "Rotes Meer in El Gouna",
+        "category": "Strand",
+        "route": "Hurghada → El Gouna",
+        "intro": "Lagunenblick in einem Fünf-Sterne-Resort, Schnorcheln an den Riffen des Roten Meers, El Gouna per Boot und Tuk-Tuk und entspannte Tage am Wasser."
+      },
+      "thailand_north_to_south": {
+        "title": "Thailand, von Bangkok nach Phuket",
+        "category": "Städte & Essen",
+        "route": "Bangkok → Chiang Mai → Phuket",
+        "intro": "Bootsfahrten auf den Kanälen, Muay Thai und eine Streetfood-Tour in Bangkok, Tempel und ein Kochkurs in Chiang Mai, dann Elefanten und Nachtmärkte auf Phuket."
+      },
+      "thailand_temples_and_sea": {
+        "title": "Thailands Tempel, Berge und Meer",
+        "category": "Luxus",
+        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta",
+        "intro": "Das Mandarin Oriental in Bangkok, die alten Tempel von Chiang Mai und ein Elefantenschutzgebiet, Kajaks und leuchtendes Plankton in Railay, dann ruhige Tage auf Koh Lanta."
+      },
+      "puglia": {
+        "title": "Apulien, von der Küste ins Hinterland",
+        "category": "Küste & Hinterland",
+        "route": "Monopoli → Valle d'Itria → Lecce → Tricase",
+        "intro": "Eine Sonnenuntergangsfahrt vor Polignano, die Trulli von Alberobello und Olivenöl im Valle d'Itria, das barocke Lecce und dann mit dem Kanu in die Meeresgrotten von Santa Maria di Leuca."
+      },
+      "australia": {
+        "title": "Australien in 19 Tagen, von Tasmanien zum Riff",
+        "category": "Große Rundreise",
+        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapur",
+        "intro": "Wildes Tasmanien und Melbournes Gassen, Sonnenaufgang über dem Uluru, Sydneys Hafen und die Weingüter des Hunter Valley, dann Tamborines Regenwald und das Great Barrier Reef, mit Zwischenstopp in Singapur."
+      },
+      "japan_treasures": {
+        "title": "Japans Schätze: Osaka, Miyajima, Kyoto & Tokio",
+        "category": "Städte & Kultur",
+        "route": "Osaka → Miyajima → Kyoto → Tokio",
+        "intro": "Osakas Streetfood und Neonlichter, das schwimmende Torii von Miyajima, fünf ruhige Tage zwischen Kyotos Tempeln und Teehäusern, dann Tokio von Senso-ji bis Shibuya."
+      }
+    }
+  },
+  "states": {
+    "expired": "Abgelaufen",
+    "fresh": "Aktuell",
+    "refreshPrice": "Preis aktualisieren",
+    "refreshExpiredToContinue": "Abgelaufene Preise aktualisieren, um weiterzumachen",
+    "pricesExpiredShort": "Preise abgelaufen · aktualisieren",
+    "refreshPrices": "Preise aktualisieren",
+    "rerunSearch": {
+      "hotel": "Die Hotelpreise sind abgelaufen, kannst du nochmal suchen?",
+      "flight": "Die Flugpreise sind abgelaufen, kannst du nochmal suchen?",
+      "car": "Die Mietwagenpreise sind abgelaufen, kannst du nochmal suchen?",
+      "activity": "Die Preise für die Aktivitäten sind abgelaufen, kannst du nochmal suchen?"
+    },
+    "soldOut": "Ausgebucht",
+    "replace": "Ersetzen",
+    "seeAll": "Alle ansehen",
+    "replaceSoldOut": "Das ist ausgebucht, such mir bitte einen Ersatz",
+    "ratesExpiredTitle": "Die Preise könnten sich geändert haben",
+    "ratesExpiredBody": "Wir haben diesen Preis schon eine Weile nicht geprüft. Aktualisiere ihn, bevor du bezahlst.",
+    "checkingPrice": "Preis wird geprüft…",
+    "payFailed": {
+      "notCharged": "Es wurde nichts abgebucht",
+      "declined": "Deine Karte wurde abgelehnt. Versuch eine andere Karte oder Apple Pay.",
+      "tryAnotherCard": "Andere Karte versuchen",
+      "useApplePay": "Apple Pay nutzen"
+    },
+    "offline": {
+      "title": "Du bist offline.",
+      "body": "Deine Gutscheine sind auf diesem Handy gespeichert. Chat und neue Nachrichten kommen mit der Verbindung zurück.",
+      "saved": "Gespeichert",
+      "status": "Offline"
+    }
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "Check-in heute",
+      "checkInIn": {
+        "one": "Check-in morgen",
+        "other": "Check-in in $n Tagen"
+      },
+      "startsToday": "Geht heute los",
+      "startsIn": {
+        "one": "Geht morgen los",
+        "other": "Geht in $n Tagen los"
+      },
+      "via": "über $provider",
+      "kindHotel": "Hotel",
+      "kindFlight": "Flug",
+      "kindCar": "Mietwagen",
+      "kindActivity": "Aktivität",
+      "reference": "Buchungsreferenz",
+      "bookingNo": "Buchungsnr. $ref",
+      "itinerary": "Reiseplan",
+      "confirmation": "Bestätigung",
+      "pnr": "PNR",
+      "bookedOn": "Gebucht am $date · $payment",
+      "paidOnline": "Online bezahlt",
+      "paidAtCounter": "Zahlung am Schalter",
+      "paidOnAccount": "Auf Rechnung",
+      "confirmationPdf": "Bestätigung als PDF",
+      "invoicePdf": "Rechnung als PDF",
+      "ticket": "Ticket",
+      "invoiceNeedsAddress": "Für die Rechnung brauchen wir zuerst eine Rechnungsadresse. Füg sie unten hinzu.",
+      "invoiceUnavailable": "Rechnungen zu dieser Buchung gibt es auf Anfrage per E-Mail.",
+      "rooms": "Zimmer",
+      "flights": "Flüge",
+      "car": "Auto",
+      "activity": "Aktivität",
+      "after": "Ab $time",
+      "until": "Bis $time",
+      "pickUp": "Abholung",
+      "returnLabel": "Rückgabe",
+      "departs": "Abflug",
+      "arrives": "Ankunft",
+      "when": "Wann",
+      "duration": "Dauer",
+      "meetingPoint": "Treffpunkt",
+      "nightsLocalTime": {
+        "one": "1 Nacht · Alle Zeiten in der Ortszeit des Hotels",
+        "other": "$n Nächte · Alle Zeiten in der Ortszeit des Hotels"
+      },
+      "daysCount": {
+        "one": "1 Tag",
+        "other": "$n Tage"
+      },
+      "nightsCount": {
+        "one": "1 Nacht",
+        "other": "$n Nächte"
+      },
+      "ticketsCount": {
+        "one": "1 Ticket",
+        "other": "$n Tickets"
+      },
+      "passengersCount": {
+        "one": "1 Passagier",
+        "other": "$n Passagiere"
+      },
+      "cancelRoom": "Zimmer stornieren",
+      "changeDates": "Daten ändern",
+      "changeTime": "Uhrzeit ändern",
+      "guestInfo": "Gastdaten",
+      "names": "Namen",
+      "contactInfo": "Kontakt",
+      "passengers": "Passagiere",
+      "driver": "Fahrer:in",
+      "travellers": "Reisende",
+      "leadTraveller": "Hauptreisende:r",
+      "priceSummary": "Preisübersicht",
+      "taxesAndFees": "Steuern und Gebühren",
+      "total": "Gesamt",
+      "paidWithCard": "Online bezahlt · $card",
+      "chargedOn": "Abgebucht am $date · inkl. Steuern",
+      "chargedTaxesIncluded": "Inkl. Steuern",
+      "payAtDeskNote": "Zahlung am Schalter bei der Abholung",
+      "billingAddress": "Rechnungsadresse",
+      "billingIntro": "Füg eine Rechnungsadresse hinzu, um eine Rechnung zu erhalten. Nach Ausstellung lässt sie sich nicht mehr ändern.",
+      "setBillingAddress": "Rechnungsadresse angeben",
+      "editBillingAddress": "Rechnungsadresse bearbeiten",
+      "planRest": "Plan den Rest von $city",
+      "planRestFallback": "Plan rund um diese Buchung",
+      "planRestLine": "Abendessen in der Nähe, ein Auto fürs Wochenende, eine Planänderung — frag einfach.",
+      "askLayla": "Layla zu dieser Buchung fragen",
+      "placeHotel": "Hotel",
+      "placeAirport": "Flughafen",
+      "placePickup": "Abholung",
+      "placeMeeting": "Treffpunkt",
+      "directions": "Route",
+      "callHotel": "Hotel anrufen",
+      "callSupplier": "$name anrufen",
+      "emailSupplier": "$name schreiben",
+      "addToCalendar": "In Kalender",
+      "support": "Kundenservice",
+      "supportTitle": "Hilfe zu dieser Buchung?",
+      "supportLine": "Support kontaktieren · Referenz wird automatisch mitgeschickt",
+      "cancelAllRooms": "Alle Zimmer stornieren",
+      "cancelBooking": "Buchung stornieren",
+      "cancelFoot": "Kostenlos stornierbare Raten werden voll erstattet. Bei anderen kann eine Gebühr anfallen.",
+      "notCancellableFoot": "Diese Buchung lässt sich nicht in der App stornieren. Melde dich beim Support, wir kümmern uns darum.",
+      "loadFailed": "Wir konnten diese Buchung gerade nicht laden.",
+      "retry": "Nochmal versuchen",
+      "sharePdf": "Bestätigung · $title"
+    },
+    "cancel": {
+      "titleRoom": "Dieses Zimmer stornieren?",
+      "titleBooking": "Diese Buchung stornieren?",
+      "working": "Wird storniert…",
+      "doneRoom": "Zimmer storniert",
+      "doneBooking": "Buchung storniert",
+      "refundFull": "Du bekommst $amount zurück.",
+      "refundPartial": "Teilweise erstattbar · du bekommst $amount zurück.",
+      "refundNone": "Diese Rate ist nicht erstattbar. Es gibt keine Rückerstattung.",
+      "refundUnknown": "Wir können den Erstattungsbetrag gerade nicht bestätigen. Wenn du stornierst, prüft unser Team das und meldet sich per E-Mail.",
+      "body": "Kostenlos stornierbare Raten werden erstattet, bei anderen kann eine Gebühr anfallen. $provider bestätigt die Stornierung sofort.",
+      "workingWith": "Stornierung bei $provider…",
+      "yes": "Ja, stornieren",
+      "keep": "Buchung behalten",
+      "resultIssued": "Eine Rückerstattung von $amount ist auf dem Weg auf dein ursprüngliches Zahlungsmittel.",
+      "resultPending": "Deine Rückerstattung wird bearbeitet und erscheint in Kürze auf deinem ursprünglichen Zahlungsmittel.",
+      "resultNone": "Das war eine nicht erstattbare Rate, daher gibt es keine Rückerstattung.",
+      "resultReview": "Unser Team prüft deine Rückerstattung und meldet sich per E-Mail.",
+      "doneFoot": "Layla postet die Stornierung in deinen Chat und aktualisiert deine Buchungen. Sonst ändert sich nichts an deiner Reise.",
+      "findAnotherHotel": "Anderes Hotel suchen",
+      "findAnotherCar": "Anderes Auto suchen",
+      "findAnotherActivity": "Andere Aktivität suchen",
+      "backToBookings": "Zurück zu den Buchungen",
+      "notCancellable": "Diese Buchung lässt sich hier nicht mehr stornieren.",
+      "failed": "Die Stornierung hat nicht geklappt. Es hat sich nichts geändert — versuch es nochmal oder melde dich beim Support.",
+      "laylaCancelled": "Storniert: $title. $refund",
+      "laylaRefund": "$amount sind auf dem Weg zurück auf deine Karte.",
+      "laylaNoRefund": "Keine Rückerstattung."
+    },
+    "billing": {
+      "title": "Rechnungsadresse",
+      "intro": "Wird auf der Rechnung (PDF) verwendet. Nach Ausstellung der Rechnung lässt sich die Adresse nicht mehr ändern.",
+      "name": "Name auf der Rechnung",
+      "company": "Firma (optional)",
+      "companyHint": "Firmenname",
+      "line1": "Adresszeile 1",
+      "line2": "Adresszeile 2 (optional)",
+      "line2Hint": "Wohnung, Etage, c/o",
+      "city": "Stadt",
+      "postalCode": "PLZ",
+      "state": "Bundesland / Region (optional)",
+      "country": "Land",
+      "countryHint": "Zwei Buchstaben, z. B. DE",
+      "taxId": "Steuernummer (optional)",
+      "taxIdHint": "USt-IdNr.",
+      "countryNote": "Das Land muss zum Rechnungsland deiner Karte passen.",
+      "save": "Adresse speichern",
+      "required": "Pflichtfeld",
+      "saveFailed": "Die Adresse konnte nicht gespeichert werden. Prüf die Felder und versuch es nochmal.",
+      "locked": "Es wurde eine Rechnung ausgestellt; die Adresse lässt sich nicht mehr ändern."
+    },
+    "chat": {
+      "intro": "Was möchtest du ändern?",
+      "introWithPolicy": "$policy. Was möchtest du ändern?",
+      "chatName": "Buchung · $title",
+      "bookingDetails": "Buchungsdetails",
+      "changeDates": "Daten ändern",
+      "addNight": "Eine Nacht dazu",
+      "lateCheckout": "Later Check-out",
+      "changeTime": "Uhrzeit ändern",
+      "changeCar": "Auto wechseln",
+      "addDriver": "Fahrer:in hinzufügen",
+      "changeFlight": "Flug ändern",
+      "addBag": "Gepäck dazubuchen",
+      "directions": "Route",
+      "cancel": "Stornieren"
+    },
+    "complexTrip": {
+      "badge": "Komplexe Reise · $days Tage · $stops Stopps",
+      "title": "Hier lohnt sich ein Mensch.",
+      "line": "$name, Reiseexpert:in, plant und bucht das kostenlos mit dir. Der ganze Chat geht mit.",
+      "multiCity": "Mehrere Städte",
+      "groupOf": "Gruppe von $n",
+      "longTrip": "$n Tage",
+      "planWith": "Mit $name planen",
+      "keepGoing": "Weiter mit Layla"
     }
   }
 }

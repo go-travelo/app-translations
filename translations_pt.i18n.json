@@ -3335,6 +3335,348 @@
       },
       "change": "Alterar",
       "keepInTrip": "Manter na viagem"
+    },
+    "map": "Mapa",
+    "pricesExpired": "Preços expirados",
+    "refresh": "Atualizar",
+    "fullScreen": "Tela cheia",
+    "perNight": "por noite",
+    "perPerson": "por pessoa",
+    "perDay": "por dia"
+  },
+  "discover": {
+    "for_you": "Para ti",
+    "creators": "Criadores",
+    "creators_eyebrow": "Criadores Layla",
+    "templates_eyebrow": "Começa por uma viagem que outros adoraram",
+    "template_tag": "Modelo · ${category}",
+    "layla_creator": "Criador Layla",
+    "layla_advisor": "Consultor de viagens Layla",
+    "instagram": "Instagram ↗",
+    "plan_with_layla": "Planear esta viagem com a Layla",
+    "stops": {
+      "one": "${n} paragem",
+      "other": "${n} paragens"
+    },
+    "days": {
+      "one": "${n} dia",
+      "other": "${n} dias"
+    },
+    "template_days": "Modelo · ${days}",
+    "template_meta": "Modelo · ${days} · ${travellers}",
+    "day_label": "DIA ${n}",
+    "from_price": "desde ${price}",
+    "from_caption": "hotéis e experiências, para ${party} · datas flexíveis",
+    "start_from_trip": "Começar por esta viagem",
+    "mute": "Silenciar",
+    "unmute": "Ativar som",
+    "share": "Partilhar",
+    "trip_unavailable": "Esta viagem não está disponível neste momento.",
+    "templates": {
+      "thailand": {
+        "title": "A costa de Andamão na Tailândia",
+        "category": "Praias",
+        "route": "Phuket → Khao Lak",
+        "intro": "Phi Phi de lancha, pôr do sol no Cabo Promthep e uma aula de culinária em Phuket; depois rafting na selva e praias calmas em Khao Lak."
+      },
+      "japan": {
+        "title": "Cozinhas, templos e águas termais do Japão",
+        "category": "Gastronomia e cultura",
+        "route": "Tóquio → Quioto → Osaka → Sapporo",
+        "intro": "Sushi com um chef de Tsukiji, meditação zen com um monge, uma aula de culinária em Kanazawa, o mercado Nishiki e saquê em Quioto, depois ramen em Osaka e frutos do mar em Sapporo."
+      },
+      "iceland_road_trip": {
+        "title": "A costa sul da Islândia de carro",
+        "category": "Road trip",
+        "route": "Reykjavik → Vík → Skaftafell → Reykjavik",
+        "intro": "De carro alugado pelo Círculo Dourado, a areia preta de Vík, a lagoa glaciar perto de Skaftafell e as cavernas antigas de Hella, de volta a Reykjavik."
+      },
+      "east_africa": {
+        "title": "África Oriental em 24 dias, do Kilimanjaro a Zanzibar",
+        "category": "Safári e praia",
+        "route": "Kilimanjaro → Amboseli → Samburu → Masai Mara → Nairobi → Zanzibar",
+        "intro": "Elefantes sob o Kilimanjaro em Amboseli, os Special Five de Samburu, flamingos no lago Nakuru, cinco noites de safári no Masai Mara, e depois as vielas de Stone Town e a areia branca de Zanzibar."
+      },
+      "bali": {
+        "title": "Bali, dos templos ao turquesa",
+        "category": "Ilhas",
+        "route": "Ubud → Gili Trawangan → Nusa Dua",
+        "intro": "Terraços de arroz e templos em Ubud, dias tranquilos em Gili Trawangan e um final de praia em Nusa Dua."
+      },
+      "iceland": {
+        "title": "Islândia sob a aurora",
+        "category": "Auroras boreais",
+        "route": "Reykjavik → Auroras boreais → Sky Lagoon",
+        "intro": "Um hotel de design em Reykjavik, noites caçando a aurora boreal, Perlan, um passeio gastronômico e um banho na Sky Lagoon."
+      },
+      "lapland": {
+        "title": "Lapônia na neve",
+        "category": "Inverno",
+        "route": "Rovaniemi → Vila do Papai Noel → Natureza ártica",
+        "intro": "A Vila do Papai Noel, um passeio de snowmobile até a pesca no gelo, um tour de fotografia da aurora e uma autêntica sauna finlandesa."
+      },
+      "madeira": {
+        "title": "Madeira de carro",
+        "category": "Road trip",
+        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro",
+        "intro": "Um cinco estrelas na falésia em Funchal e um carro para explorar: nascer do sol na Ponta de São Lourenço, baleias em alto-mar e os picos do Pico do Arieiro."
+      },
+      "egypt": {
+        "title": "O Mar Vermelho em El Gouna",
+        "category": "Praia",
+        "route": "Hurghada → El Gouna",
+        "intro": "Vista para a lagoa num resort cinco estrelas, snorkel nos recifes do Mar Vermelho, passeio de barco e tuk-tuk por El Gouna e dias tranquilos à beira d’água."
+      },
+      "thailand_north_to_south": {
+        "title": "Tailândia, de Bangkok a Phuket",
+        "category": "Cidades e comida",
+        "route": "Bangkok → Chiang Mai → Phuket",
+        "intro": "Barcos nos canais, muay thai e um roteiro de comida de rua em Bangkok, templos e uma aula de culinária em Chiang Mai, depois elefantes e mercados noturnos em Phuket."
+      },
+      "thailand_temples_and_sea": {
+        "title": "Tailândia: templos, montanhas e mar",
+        "category": "Luxo",
+        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta",
+        "intro": "O Mandarin Oriental em Bangkok, os templos antigos de Chiang Mai e um santuário de elefantes, caiaque e plâncton luminoso em Railay, depois dias tranquilos em Koh Lanta."
+      },
+      "puglia": {
+        "title": "Apúlia, da costa ao campo",
+        "category": "Costa e campo",
+        "route": "Monopoli → Valle d'Itria → Lecce → Tricase",
+        "intro": "Um passeio de barco ao pôr do sol em Polignano, os trulli de Alberobello e o azeite do Valle d'Itria, a barroca Lecce e, por fim, de canoa pelas grutas marinhas de Santa Maria di Leuca."
+      },
+      "australia": {
+        "title": "Austrália em 19 dias, da Tasmânia ao recife",
+        "category": "Grande roteiro",
+        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapura",
+        "intro": "A Tasmânia selvagem e as vielas de Melbourne, o nascer do sol sobre Uluru, a baía de Sydney e os vinhedos do Hunter Valley, depois a floresta de Tamborine e a Grande Barreira de Coral, com escala em Singapura."
+      },
+      "japan_treasures": {
+        "title": "Tesouros do Japão: Osaka, Miyajima, Quioto e Tóquio",
+        "category": "Cidades e cultura",
+        "route": "Osaka → Miyajima → Quioto → Tóquio",
+        "intro": "A comida de rua e o néon de Osaka, o torii flutuante de Miyajima, cinco dias tranquilos entre os templos e casas de chá de Quioto, e Tóquio de Senso-ji a Shibuya."
+      }
+    }
+  },
+  "states": {
+    "expired": "Expirado",
+    "fresh": "Atualizado",
+    "refreshPrice": "Atualizar preço",
+    "refreshExpiredToContinue": "Atualiza os preços expirados para continuar",
+    "pricesExpiredShort": "Preços expirados · atualizar",
+    "refreshPrices": "Atualizar preços",
+    "rerunSearch": {
+      "hotel": "Esses preços de hotel expiraram, podes pesquisar outra vez?",
+      "flight": "Esses preços de voo expiraram, podes pesquisar outra vez?",
+      "car": "Esses preços de carro expiraram, podes pesquisar outra vez?",
+      "activity": "Esses preços de atividades expiraram, podes pesquisar outra vez?"
+    },
+    "soldOut": "Esgotado",
+    "replace": "Substituir",
+    "seeAll": "Ver tudo",
+    "replaceSoldOut": "Esse esgotou, encontra-me uma alternativa",
+    "ratesExpiredTitle": "Os preços podem ter mudado",
+    "ratesExpiredBody": "Já passou algum tempo desde que verificámos este preço. Atualiza-o antes de pagar.",
+    "checkingPrice": "A verificar o preço…",
+    "payFailed": {
+      "notCharged": "Não foi cobrado nada",
+      "declined": "O teu cartão foi recusado. Tenta outro cartão ou o Apple Pay.",
+      "tryAnotherCard": "Tentar outro cartão",
+      "useApplePay": "Usar Apple Pay"
+    },
+    "offline": {
+      "title": "Estás offline.",
+      "body": "Os vouchers estão guardados neste telemóvel. O chat e as novas mensagens voltam quando houver ligação.",
+      "saved": "Guardado",
+      "status": "Offline"
+    }
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "Check-in hoje",
+      "checkInIn": {
+        "one": "Check-in amanhã",
+        "other": "Check-in em $n dias"
+      },
+      "startsToday": "Começa hoje",
+      "startsIn": {
+        "one": "Começa amanhã",
+        "other": "Começa em $n dias"
+      },
+      "via": "via $provider",
+      "kindHotel": "Hotel",
+      "kindFlight": "Voo",
+      "kindCar": "Carro de aluguer",
+      "kindActivity": "Atividade",
+      "reference": "Referência da reserva",
+      "bookingNo": "Reserva n.º $ref",
+      "itinerary": "Itinerário",
+      "confirmation": "Confirmação",
+      "pnr": "PNR",
+      "bookedOn": "Reservado a $date · $payment",
+      "paidOnline": "Pago online",
+      "paidAtCounter": "Pagamento ao balcão",
+      "paidOnAccount": "Por conta",
+      "confirmationPdf": "Confirmação em PDF",
+      "invoicePdf": "Fatura em PDF",
+      "ticket": "Bilhete",
+      "invoiceNeedsAddress": "Para a fatura precisamos primeiro de uma morada de faturação. Adiciona-a abaixo.",
+      "invoiceUnavailable": "As faturas desta reserva são enviadas por e-mail a pedido.",
+      "rooms": "Quartos",
+      "flights": "Voos",
+      "car": "Carro",
+      "activity": "Atividade",
+      "after": "A partir das $time",
+      "until": "Até às $time",
+      "pickUp": "Levantamento",
+      "returnLabel": "Devolução",
+      "departs": "Partida",
+      "arrives": "Chegada",
+      "when": "Quando",
+      "duration": "Duração",
+      "meetingPoint": "Ponto de encontro",
+      "nightsLocalTime": {
+        "one": "1 noite · Horas na hora local do hotel",
+        "other": "$n noites · Horas na hora local do hotel"
+      },
+      "daysCount": {
+        "one": "1 dia",
+        "other": "$n dias"
+      },
+      "nightsCount": {
+        "one": "1 noite",
+        "other": "$n noites"
+      },
+      "ticketsCount": {
+        "one": "1 bilhete",
+        "other": "$n bilhetes"
+      },
+      "passengersCount": {
+        "one": "1 passageiro",
+        "other": "$n passageiros"
+      },
+      "cancelRoom": "Cancelar quarto",
+      "changeDates": "Alterar datas",
+      "changeTime": "Alterar hora",
+      "guestInfo": "Dados do hóspede",
+      "names": "Nomes",
+      "contactInfo": "Contacto",
+      "passengers": "Passageiros",
+      "driver": "Condutor",
+      "travellers": "Viajantes",
+      "leadTraveller": "Viajante principal",
+      "priceSummary": "Resumo do preço",
+      "taxesAndFees": "Impostos e taxas",
+      "total": "Total",
+      "paidWithCard": "Pago online · $card",
+      "chargedOn": "Cobrado a $date · impostos incluídos",
+      "chargedTaxesIncluded": "Impostos incluídos",
+      "payAtDeskNote": "Pagas ao balcão ao levantar o carro",
+      "billingAddress": "Morada de faturação",
+      "billingIntro": "Adiciona uma morada de faturação para receber uma fatura. Depois de emitida já não pode ser alterada.",
+      "setBillingAddress": "Definir morada de faturação",
+      "editBillingAddress": "Editar morada de faturação",
+      "planRest": "Planeia o resto de $city",
+      "planRestFallback": "Planeia à volta desta reserva",
+      "planRestLine": "Um jantar perto, um carro para o fim de semana, uma mudança de planos — é só pedir.",
+      "askLayla": "Perguntar à Layla sobre esta reserva",
+      "placeHotel": "Hotel",
+      "placeAirport": "Aeroporto",
+      "placePickup": "Levantamento",
+      "placeMeeting": "Ponto de encontro",
+      "directions": "Direções",
+      "callHotel": "Ligar ao hotel",
+      "callSupplier": "Ligar a $name",
+      "emailSupplier": "Escrever a $name",
+      "addToCalendar": "Adicionar ao calendário",
+      "support": "Apoio ao cliente",
+      "supportTitle": "Precisas de ajuda com esta reserva?",
+      "supportLine": "Contactar o apoio · a referência vai incluída automaticamente",
+      "cancelAllRooms": "Cancelar todos os quartos",
+      "cancelBooking": "Cancelar reserva",
+      "cancelFoot": "As tarifas com cancelamento gratuito são reembolsadas na totalidade. As outras podem ter um custo.",
+      "notCancellableFoot": "Esta reserva não pode ser cancelada na app. Fala com o apoio e tratamos disso.",
+      "loadFailed": "Não conseguimos carregar esta reserva agora.",
+      "retry": "Tentar de novo",
+      "sharePdf": "Confirmação · $title"
+    },
+    "cancel": {
+      "titleRoom": "Cancelar este quarto?",
+      "titleBooking": "Cancelar esta reserva?",
+      "working": "A cancelar…",
+      "doneRoom": "Quarto cancelado",
+      "doneBooking": "Reserva cancelada",
+      "refundFull": "Vais receber $amount de volta.",
+      "refundPartial": "Reembolso parcial · vais receber $amount.",
+      "refundNone": "Esta tarifa não é reembolsável. Não há reembolso.",
+      "refundUnknown": "Neste momento não conseguimos confirmar o valor do reembolso. Se cancelares, a nossa equipa analisa e escreve-te.",
+      "body": "As tarifas com cancelamento gratuito são reembolsadas; as outras podem ter um custo. A $provider confirma o cancelamento de imediato.",
+      "workingWith": "A cancelar com a $provider…",
+      "yes": "Sim, cancelar",
+      "keep": "Manter reserva",
+      "resultIssued": "Um reembolso de $amount está a caminho do teu método de pagamento original.",
+      "resultPending": "O teu reembolso está a ser processado e aparece em breve no teu método de pagamento original.",
+      "resultNone": "Era uma tarifa não reembolsável, por isso não há reembolso.",
+      "resultReview": "A nossa equipa está a analisar o reembolso e vai escrever-te.",
+      "doneFoot": "A Layla publica o cancelamento no teu chat e atualiza as Reservas. Nada mais muda na tua viagem.",
+      "findAnotherHotel": "Procurar outro hotel",
+      "findAnotherCar": "Procurar outro carro",
+      "findAnotherActivity": "Procurar outra atividade",
+      "backToBookings": "Voltar às reservas",
+      "notCancellable": "Esta reserva já não pode ser cancelada daqui.",
+      "failed": "O cancelamento não foi concluído. Nada mudou — tenta de novo ou fala com o apoio.",
+      "laylaCancelled": "Cancelado: $title. $refund",
+      "laylaRefund": "$amount estão a voltar para o teu cartão.",
+      "laylaNoRefund": "Sem reembolso."
+    },
+    "billing": {
+      "title": "Morada de faturação",
+      "intro": "Usada na fatura em PDF. Depois de emitida a fatura, a morada não pode ser alterada.",
+      "name": "Nome na fatura",
+      "company": "Empresa (opcional)",
+      "companyHint": "Nome da empresa",
+      "line1": "Morada, linha 1",
+      "line2": "Morada, linha 2 (opcional)",
+      "line2Hint": "Andar, porta, a/c",
+      "city": "Cidade",
+      "postalCode": "Código postal",
+      "state": "Distrito / região (opcional)",
+      "country": "País",
+      "countryHint": "Duas letras, p. ex. PT",
+      "taxId": "NIF (opcional)",
+      "taxIdHint": "NIF / IVA",
+      "countryNote": "O país tem de coincidir com o país de faturação do teu cartão.",
+      "save": "Guardar morada",
+      "required": "Obrigatório",
+      "saveFailed": "Não foi possível guardar a morada. Verifica os campos e tenta de novo.",
+      "locked": "Já foi emitida uma fatura; a morada não pode ser alterada."
+    },
+    "chat": {
+      "intro": "O que queres mudar?",
+      "introWithPolicy": "$policy. O que queres mudar?",
+      "chatName": "Reserva · $title",
+      "bookingDetails": "Detalhes da reserva",
+      "changeDates": "Alterar datas",
+      "addNight": "Juntar uma noite",
+      "lateCheckout": "Check-out tardio",
+      "changeTime": "Alterar a hora",
+      "changeCar": "Trocar de carro",
+      "addDriver": "Adicionar condutor",
+      "changeFlight": "Alterar o voo",
+      "addBag": "Adicionar mala",
+      "directions": "Direções",
+      "cancel": "Cancelar"
+    },
+    "complexTrip": {
+      "badge": "Viagem complexa · $days dias · $stops paragens",
+      "title": "Esta merece uma pessoa.",
+      "line": "A $name, especialista em viagens, planeia e reserva contigo, de graça. Vê toda esta conversa.",
+      "multiCity": "Várias cidades",
+      "groupOf": "Grupo de $n",
+      "longTrip": "$n dias",
+      "planWith": "Planear com a $name",
+      "keepGoing": "Continuar com a Layla"
     }
   }
 }

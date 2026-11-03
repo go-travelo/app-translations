@@ -3456,82 +3456,115 @@
   "discover": {
     "for_you": "For you",
     "creators": "Creators",
-    "reels_coming_title": "Reels are coming",
-    "reels_coming_subtitle": "Short trips from Layla creators land here soon. Until then, start from a trip people loved.",
-    "see_templates": "Browse trips",
     "creators_eyebrow": "Layla creators",
     "templates_eyebrow": "Start from a trip people loved",
     "template_tag": "Template · ${category}",
+    "layla_creator": "Layla creator",
+    "layla_advisor": "Layla travel advisor",
+    "instagram": "Instagram ↗",
+    "plan_with_layla": "Plan this trip with Layla",
+    "stops": {
+      "one": "${n} stop",
+      "other": "${n} stops"
+    },
+    "days": {
+      "one": "${n} day",
+      "other": "${n} days"
+    },
+    "template_days": "Template · ${days}",
+    "template_meta": "Template · ${days} · ${travellers}",
+    "day_label": "DAY ${n}",
+    "from_price": "from ${price}",
+    "from_caption": "hotels and experiences, for ${party} · dates flexible",
+    "start_from_trip": "Start from this trip",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "share": "Share",
+    "trip_unavailable": "This trip isn't available right now.",
     "templates": {
       "thailand": {
         "title": "Thailand's Andaman coast",
         "category": "Beaches",
-        "route": "Phuket → Khao Lak"
+        "route": "Phuket → Khao Lak",
+        "intro": "Phi Phi by speedboat, sunset at Promthep Cape and a cooking class in Phuket, then jungle rafting and quiet beaches in Khao Lak."
       },
       "japan": {
         "title": "Japan's kitchens, temples and hot springs",
         "category": "Food & culture",
-        "route": "Tokyo → Kyoto → Osaka → Sapporo"
+        "route": "Tokyo → Kyoto → Osaka → Sapporo",
+        "intro": "Sushi with a Tsukiji chef, Zen meditation with a monk, a cooking class in Kanazawa, Nishiki Market and sake in Kyoto, then ramen in Osaka and Sapporo's seafood."
       },
       "iceland_road_trip": {
         "title": "Iceland's south coast by car",
         "category": "Road trip",
-        "route": "Reykjavik → Vik → Skaftafell → Reykjavik"
+        "route": "Reykjavik → Vik → Skaftafell → Reykjavik",
+        "intro": "A rental car around the Golden Circle, black sand at Vik, the glacier lagoon near Skaftafell and the ancient caves of Hella, back to Reykjavik."
       },
       "east_africa": {
         "title": "East Africa in 24 days, Kilimanjaro to Zanzibar",
         "category": "Safari & beach",
-        "route": "Kilimanjaro → Amboseli → Samburu → Maasai Mara → Nairobi → Zanzibar"
+        "route": "Kilimanjaro → Amboseli → Samburu → Maasai Mara → Nairobi → Zanzibar",
+        "intro": "Elephants under Kilimanjaro in Amboseli, the Samburu Special Five, flamingos at Lake Nakuru, five nights of game drives in the Maasai Mara, then Stone Town's alleys and the white sand of Zanzibar."
       },
       "bali": {
         "title": "Bali, temples to turquoise",
         "category": "Islands",
-        "route": "Ubud → Gili Trawangan → Nusa Dua"
+        "route": "Ubud → Gili Trawangan → Nusa Dua",
+        "intro": "Rice terraces and temples around Ubud, slow island days on Gili Trawangan, then a beach finish in Nusa Dua."
       },
       "iceland": {
         "title": "Iceland under the aurora",
         "category": "Northern lights",
-        "route": "Reykjavik → Northern lights → Sky Lagoon"
+        "route": "Reykjavik → Northern lights → Sky Lagoon",
+        "intro": "A design hotel in Reykjavik, nights out chasing the northern lights, Perlan, a food walk and a soak at Sky Lagoon."
       },
       "lapland": {
         "title": "Lapland in the snow",
         "category": "Winter",
-        "route": "Rovaniemi → Santa Claus Village → Arctic wilderness"
+        "route": "Rovaniemi → Santa Claus Village → Arctic wilderness",
+        "intro": "Santa Claus Village, a snowmobile ride out to ice fishing, a northern lights photo tour and a proper Finnish sauna."
       },
       "madeira": {
         "title": "Madeira by car",
         "category": "Road trip",
-        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro"
+        "route": "Funchal → Ponta de São Lourenço → Pico do Arieiro",
+        "intro": "A clifftop five-star in Funchal and a car to explore: sunrise at Ponta de São Lourenço, whales offshore and the peaks of Pico do Arieiro."
       },
       "egypt": {
         "title": "Red Sea in El Gouna",
         "category": "Beach",
-        "route": "Hurghada → El Gouna"
+        "route": "Hurghada → El Gouna",
+        "intro": "Lagoon views at a five-star resort, snorkeling the Red Sea reefs, a boat and tuk-tuk tour of El Gouna and slow days by the water."
       },
       "thailand_north_to_south": {
         "title": "Thailand, Bangkok to Phuket",
         "category": "Cities & food",
-        "route": "Bangkok → Chiang Mai → Phuket"
+        "route": "Bangkok → Chiang Mai → Phuket",
+        "intro": "Canal boats, Muay Thai and a backstreet food tour in Bangkok, temples and a cooking class in Chiang Mai, then elephants and night markets in Phuket."
       },
       "thailand_temples_and_sea": {
         "title": "Thailand's temples, mountains and sea",
         "category": "Luxury",
-        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta"
+        "route": "Bangkok → Chiang Mai → Railay → Koh Lanta",
+        "intro": "The Mandarin Oriental in Bangkok, Chiang Mai's old temples and an elephant sanctuary, kayaks and glowing plankton at Railay, then quiet days on Koh Lanta."
       },
       "puglia": {
         "title": "Puglia, coast to countryside",
         "category": "Coast & countryside",
-        "route": "Monopoli → Valle d'Itria → Lecce → Tricase"
+        "route": "Monopoli → Valle d'Itria → Lecce → Tricase",
+        "intro": "A sunset cruise off Polignano, the trulli of Alberobello and olive oil in Valle d'Itria, baroque Lecce, then canoeing the sea caves of Santa Maria di Leuca."
       },
       "australia": {
         "title": "Australia in 19 days, Tasmania to the Reef",
         "category": "Grand tour",
-        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapore"
+        "route": "Hobart → Melbourne → Uluru → Sydney → Cairns → Singapore",
+        "intro": "Wild Tasmania and Melbourne's laneways, sunrise over Uluru, Sydney Harbour and the Hunter Valley vineyards, then Tamborine's rainforest and the Great Barrier Reef, with a Singapore stopover."
       },
       "japan_treasures": {
         "title": "Japan's treasures: Osaka, Miyajima, Kyoto & Tokyo",
         "category": "Cities & culture",
-        "route": "Osaka → Miyajima → Kyoto → Tokyo"
+        "route": "Osaka → Miyajima → Kyoto → Tokyo",
+        "intro": "Osaka's street food and neon, the floating torii of Miyajima, five slow days among Kyoto's temples and tea houses, then Tokyo from Senso-ji to Shibuya."
       }
     }
   },
@@ -3731,7 +3764,13 @@
     "addTransportation": "Add Transportation",
     "retry": "Retry",
     "mapUnavailable": "Map unavailable",
-    "datesTbd": "Dates to be determined"
+    "datesTbd": "Dates to be determined",
+    "map": "Map",
+    "pricesExpired": "Prices expired",
+    "refresh": "Refresh",
+    "fullScreen": "Full screen",
+    "perPerson": "per person",
+    "perDay": "per day"
   },
   "activityBooking": {
     "title": "Book your activity",
@@ -3787,6 +3826,226 @@
       "chipMore": "More for that day",
       "chipDinner": "Dinner nearby",
       "chipLeave": "Leave the rest free"
+    }
+  },
+  "states": {
+    "expired": "Expired",
+    "fresh": "Fresh",
+    "refreshPrice": "Refresh price",
+    "refreshExpiredToContinue": "Refresh expired prices to continue",
+    "pricesExpiredShort": "Prices expired · refresh",
+    "refreshPrices": "Refresh prices",
+    "rerunSearch": {
+      "hotel": "Those hotel prices have expired, can you search again?",
+      "flight": "Those flight prices have expired, can you search again?",
+      "car": "Those car prices have expired, can you search again?",
+      "activity": "Those activity prices have expired, can you search again?"
+    },
+    "soldOut": "Sold out",
+    "replace": "Replace",
+    "seeAll": "See all",
+    "replaceSoldOut": "That one sold out, find me a replacement",
+    "ratesExpiredTitle": "Prices may have changed",
+    "ratesExpiredBody": "It has been a while since we checked this price. Refresh it before you pay.",
+    "checkingPrice": "Checking the price…",
+    "payFailed": {
+      "notCharged": "Nothing was charged",
+      "declined": "Your card was declined. Try another card or Apple Pay.",
+      "tryAnotherCard": "Try another card",
+      "useApplePay": "Use Apple Pay"
+    },
+    "offline": {
+      "title": "You're offline.",
+      "body": "Vouchers are saved on this phone. Chat and new messages come back with the connection.",
+      "saved": "Saved",
+      "status": "Offline"
+    }
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "Check-in today",
+      "checkInIn": {
+        "one": "Check-in tomorrow",
+        "other": "Check-in in $n days"
+      },
+      "startsToday": "Starts today",
+      "startsIn": {
+        "one": "Starts tomorrow",
+        "other": "Starts in $n days"
+      },
+      "via": "via $provider",
+      "kindHotel": "Hotel",
+      "kindFlight": "Flight",
+      "kindCar": "Car rental",
+      "kindActivity": "Activity",
+      "reference": "Booking reference",
+      "bookingNo": "Booking No. $ref",
+      "itinerary": "Itinerary",
+      "confirmation": "Confirmation",
+      "pnr": "PNR",
+      "bookedOn": "Booked on $date · $payment",
+      "paidOnline": "Paid online",
+      "paidAtCounter": "Pay at the counter",
+      "paidOnAccount": "On account",
+      "confirmationPdf": "Confirmation PDF",
+      "invoicePdf": "Invoice PDF",
+      "ticket": "Ticket",
+      "invoiceNeedsAddress": "The invoice needs a billing address first. Add it below.",
+      "invoiceUnavailable": "Invoices for this booking are issued by email on request.",
+      "rooms": "Rooms",
+      "flights": "Flights",
+      "car": "Car",
+      "activity": "Activity",
+      "after": "After $time",
+      "until": "Until $time",
+      "pickUp": "Pick up",
+      "departs": "Departs",
+      "arrives": "Arrives",
+      "when": "When",
+      "duration": "Duration",
+      "meetingPoint": "Meeting point",
+      "nightsLocalTime": {
+        "one": "1 night · All times are in the hotel's local time",
+        "other": "$n nights · All times are in the hotel's local time"
+      },
+      "daysCount": {
+        "one": "1 day",
+        "other": "$n days"
+      },
+      "nightsCount": {
+        "one": "1 night",
+        "other": "$n nights"
+      },
+      "ticketsCount": {
+        "one": "1 ticket",
+        "other": "$n tickets"
+      },
+      "passengersCount": {
+        "one": "1 passenger",
+        "other": "$n passengers"
+      },
+      "cancelRoom": "Cancel room",
+      "changeDates": "Change dates",
+      "changeTime": "Change time",
+      "guestInfo": "Guest info",
+      "names": "Names",
+      "contactInfo": "Contact info",
+      "passengers": "Passengers",
+      "driver": "Driver",
+      "travellers": "Travellers",
+      "leadTraveller": "Lead traveller",
+      "priceSummary": "Price summary",
+      "taxesAndFees": "Taxes and fees",
+      "total": "Total",
+      "paidWithCard": "Paid online · $card",
+      "chargedOn": "Charged $date · taxes included",
+      "chargedTaxesIncluded": "Taxes included",
+      "payAtDeskNote": "Paid at the counter when you pick up the car",
+      "billingAddress": "Billing address",
+      "billingIntro": "Add a billing address to get an invoice. It can't be changed once the invoice is issued.",
+      "setBillingAddress": "Set billing address",
+      "editBillingAddress": "Edit billing address",
+      "planRest": "Plan the rest of $city",
+      "planRestFallback": "Plan around this booking",
+      "planRestLine": "Dinner nearby, a car for the weekend, a change of plan — just ask.",
+      "askLayla": "Ask Layla about this booking",
+      "placeHotel": "Hotel",
+      "placeAirport": "Airport",
+      "placePickup": "Pick-up",
+      "placeMeeting": "Meeting point",
+      "directions": "Directions",
+      "callHotel": "Call the hotel",
+      "callSupplier": "Call $name",
+      "emailSupplier": "Email $name",
+      "addToCalendar": "Add to calendar",
+      "support": "Customer support",
+      "supportTitle": "Need help with this booking?",
+      "supportLine": "Contact support · reference included automatically",
+      "cancelAllRooms": "Cancel all rooms",
+      "cancelBooking": "Cancel booking",
+      "cancelFoot": "Free-cancellation rates are refunded in full. Others may incur a charge.",
+      "notCancellableFoot": "This booking can't be cancelled from the app. Contact support and we'll sort it.",
+      "loadFailed": "We couldn't load this booking right now.",
+      "retry": "Try again",
+      "sharePdf": "Confirmation · $title",
+      "returnLabel": "Return"
+    },
+    "cancel": {
+      "titleRoom": "Cancel this room?",
+      "titleBooking": "Cancel this booking?",
+      "working": "Cancelling…",
+      "doneRoom": "Room cancelled",
+      "doneBooking": "Booking cancelled",
+      "refundFull": "You'll be refunded $amount.",
+      "refundPartial": "Partially refundable · you'll be refunded $amount.",
+      "refundNone": "This rate is non-refundable. You won't be refunded.",
+      "refundUnknown": "We can't confirm your refund amount right now. If you cancel, our team will review it and email you.",
+      "body": "Free-cancellation rates are refunded; others may incur a charge. $provider confirms the cancellation right away.",
+      "workingWith": "Cancelling with $provider…",
+      "yes": "Yes, cancel",
+      "keep": "Keep booking",
+      "resultIssued": "A refund of $amount is on its way to your original payment method.",
+      "resultPending": "Your refund is being processed and will appear on your original payment method shortly.",
+      "resultNone": "This was a non-refundable rate, so no refund was issued.",
+      "resultReview": "Our team is reviewing your refund and will email you.",
+      "doneFoot": "Layla posts the cancellation into your chat and updates Bookings. Nothing else in your trip changes.",
+      "findAnotherHotel": "Find another hotel",
+      "findAnotherCar": "Find another car",
+      "findAnotherActivity": "Find another activity",
+      "backToBookings": "Back to bookings",
+      "notCancellable": "This booking can no longer be cancelled from here.",
+      "failed": "The cancellation didn't go through. Nothing changed — try again or contact support.",
+      "laylaCancelled": "Cancelled: $title. $refund",
+      "laylaRefund": "$amount is on its way back to your card.",
+      "laylaNoRefund": "No refund applied."
+    },
+    "billing": {
+      "title": "Billing address",
+      "intro": "Used on the invoice PDF. Once the invoice is issued the address can't be changed.",
+      "name": "Name on invoice",
+      "company": "Company (optional)",
+      "companyHint": "Company name",
+      "line1": "Address line 1",
+      "line2": "Address line 2 (optional)",
+      "line2Hint": "Apartment, floor, c/o",
+      "city": "City",
+      "postalCode": "Postal code",
+      "state": "State / province (optional)",
+      "country": "Country",
+      "countryHint": "Two-letter code, e.g. ES",
+      "taxId": "Tax ID (optional)",
+      "taxIdHint": "VAT / NIF",
+      "countryNote": "Country must match your card's billing country.",
+      "save": "Save address",
+      "required": "Required",
+      "saveFailed": "Couldn't save the address. Check the fields and try again.",
+      "locked": "An invoice was issued; the address can't be changed."
+    },
+    "chat": {
+      "intro": "What would you like to change?",
+      "introWithPolicy": "$policy. What would you like to change?",
+      "chatName": "Booking · $title",
+      "bookingDetails": "Booking details",
+      "changeDates": "Change dates",
+      "addNight": "Add a night",
+      "lateCheckout": "Late checkout",
+      "changeTime": "Change the time",
+      "changeCar": "Change the car",
+      "addDriver": "Add a driver",
+      "changeFlight": "Change the flight",
+      "addBag": "Add a bag",
+      "directions": "Directions",
+      "cancel": "Cancel"
+    },
+    "complexTrip": {
+      "badge": "Complex trip · $days days · $stops stops",
+      "title": "This one's worth a human.",
+      "line": "$name, a travel expert, can plan and book it with you, free. They get this whole chat.",
+      "multiCity": "Multi-city",
+      "groupOf": "Group of $n",
+      "longTrip": "$n days",
+      "planWith": "Plan with $name",
+      "keepGoing": "Keep going with Layla"
     }
   }
 }
