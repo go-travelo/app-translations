@@ -2193,6 +2193,8 @@
     "reviews": {
       "sortNote": "Reviews are shown in your language first, then most recent",
       "policyLink": "How our guest reviews work",
+      "verifiedNote": "We verify reviews to ensure the traveler booked with Expedia Group. Travelers may receive a savings voucher when they submit a review. We publish all reviews, positive or negative, that meet our guidelines.",
+      "learnMore": "Learn more",
       "seeAll": "See all reviews",
       "allTitle": "All $count reviews",
       "allTitleFallback": "All reviews",
