@@ -164,7 +164,12 @@
       "rename_chat": "שני את שם הצ'אט",
       "delete_chat": "למחוק את הצ'אט?",
       "delete_chat_message": "${name} ימחק/תמחק לצמיתות.",
-      "info_and_support": "מידע ותמיכה"
+      "info_and_support": "מידע ותמיכה",
+      "today": "היום",
+      "yesterday": "אתמול",
+      "previous_7_days": "7 הימים האחרונים",
+      "earlier": "קודם לכן",
+      "search_chats": "חיפוש בצ'אטים"
     },
     "chat": {
       "title": "Layla - מתכנן נסיעות מבית AI",
@@ -226,6 +231,17 @@
         "expiredTripTooltip": "זוהי גרסה קודמת. הטיול האחרון שלך מוצג למעלה.",
         "continueWithHuman": "המשך הזמנה עם נציג אנושי",
         "version": "גרסה ${number}",
+        "versionOf": "גרסה ${number} מתוך ${total}",
+        "building": {
+          "badge": "בהכנה",
+          "flights": "טיסות",
+          "stay": "לינה",
+          "dayPlan": "תוכנית יומית",
+          "airportTransfer": "הסעה משדה התעופה",
+          "next": "הבא בתור",
+          "under": "עד ${amount}",
+          "step": "${phase} · ${n} מתוך ${total}"
+        },
         "latestVersion": "הגרסה האחרונה",
         "reopenVersion": "לפתוח שוב את הגרסה הזו",
         "backToLatest": "חזרה לגרסה האחרונה",
@@ -261,13 +277,19 @@
         "shownOf": "${shown} מתוך ${total}"
       },
       "attach": {
-        "photoLibrary": "ספריית התמונות",
+        "photoLibrary": "תמונות",
         "files": "קבצים",
         "camera": "מצלמה",
         "title": "הוספה לצ'אט"
       },
       "destinations_card": {
         "title": "יעדים בשבילך",
+        "more": {
+          "one": "עוד יעד אחד",
+          "two": "עוד ${n} יעדים",
+          "many": "עוד ${n} יעדים",
+          "other": "עוד ${n} יעדים"
+        },
         "subtitle": "הקישו לצפייה ולבחירה",
         "feedTitle": "בחרו את היעדים שלכם",
         "open": "פתיחה",
@@ -304,9 +326,6 @@
         "nonStop": "ישירה",
         "bookNamed": "להזמין ${carrier}, ${day}",
         "bookIt": "להזמין",
-        "addReturn": "להוסיף חזור",
-        "earlier": "מוקדם יותר",
-        "later": "מאוחר יותר",
         "pp": "לאדם",
         "ppLong": "לאדם",
         "forN": "${amount} ל-${n}",
@@ -331,9 +350,6 @@
         "outbound": "הלוך",
         "returnLeg": "חזור",
         "legN": "טיסה ${n}",
-        "optional": "אופציונלי",
-        "noReturn": "בלי חזור",
-        "oneWayOnly": "כיוון אחד בלבד",
         "landsNextDay": "נוחתת למחרת",
         "fareRules": "תנאי התעריף",
         "cabinBagIncluded": "תיק יד אחד לנוסע כלול",
@@ -358,7 +374,11 @@
         "fares": "תעריפים",
         "standardFare": "תעריף רגיל",
         "singleFare": "חברת התעופה מוכרת תעריף אחד לטיסה הזו",
-        "noCheckoutLink": "עדיין אין תעריף עדכני לטיסה הזו"
+        "noCheckoutLink": "עדיין אין תעריף עדכני לטיסה הזו",
+        "outShort": "הלוך",
+        "backShort": "חזור",
+        "estimateShort": "הערכה",
+        "multiCityTitle": "מספר יעדים"
       },
       "carQuick": {
         "seats": {
@@ -376,8 +396,6 @@
         "cityAirport": "נמל התעופה ${city}",
         "perDay": "${price}/יום",
         "bookNamed": "להזמין ${name}",
-        "manualFine": "ידני זה בסדר",
-        "bigger": "גדול יותר",
         "carsAt": "רכבים ב${place}",
         "cars": "רכבים",
         "pickUpAndReturnAt": "איסוף והחזרה ב${place}",
@@ -455,7 +473,8 @@
         "whyMoreSeats": "יותר מקומות",
         "whyBiggerBoot": "תא מטען גדול יותר",
         "whySamePrice": "אותו מחיר",
-        "whyCheaper": "זול יותר"
+        "whyCheaper": "זול יותר",
+        "perDayLabel": "ליום"
       }
     },
     "trip_empty": {
@@ -1989,6 +2008,7 @@
       "bookThisTrip": "הזמן את הטיול הזה",
       "customizeTrip": "התאם אישית את הטיול",
       "share": "שתף",
+      "downloadPdf": "הורדת PDF",
       "delete": "מחק",
       "invite": "הזמן"
     },
@@ -2501,7 +2521,43 @@
       "dateOrder": "כל יציאה חייבת להיות ביום היציאה הקודמת או אחריה"
     },
     "advisor": {
-      "plan_with": "לתכנן עם מומחה"
+      "plan_with": "לתכנן עם מומחה",
+      "card": {
+        "title": "להזמין עם יועץ טיולים",
+        "meta": "שיחה חינם של 30 דק׳ · מזמין הכול",
+        "reason": "טיול ב-${total} עם ${stops}: שווה בן אדם.",
+        "reasonTotal": "טיול ב-${total}: שווה בן אדם.",
+        "reasonStops": "טיול עם ${stops}: שווה בן אדם.",
+        "reasonPlain": "טיול בסדר גודל כזה: שווה בן אדם.",
+        "stops": {
+          "one": "תחנה אחת",
+          "two": "${n} תחנות",
+          "many": "${n} תחנות",
+          "other": "${n} תחנות"
+        },
+        "book": "לקבוע שיחה חינם",
+        "notNow": "לא עכשיו",
+        "bookedLine": "יועץ עובר איתך על הטיול ומזמין אותו."
+      },
+      "line": {
+        "before": "או ",
+        "link": "להזמין עם יועץ",
+        "after": " · חינם"
+      },
+      "block": {
+        "role": "יועץ טיולים",
+        "line": "מתכנן איתך, מזמין הכול, זמין בזמן הטיול",
+        "body": "יועץ עובר איתך על התוכנית, מזמין כל פריט במחיר הטוב ביותר שלנו ונשאר זמין בזמן הטיול. חינם, בלי התחייבות.",
+        "chipCall": "30 דק׳ חינם",
+        "chipPrice": "הזמנה במחיר הטוב ביותר",
+        "chipRoad": "זמין 24/7",
+        "cta": "לקבוע שיחה חינם"
+      },
+      "booked": {
+        "before": "יש שאלות על הטיול? ",
+        "link": "לדבר עם יועץ",
+        "after": ""
+      }
     },
     "timeline_intro": {
       "more": "עוד",
@@ -2748,12 +2804,13 @@
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "איך תרצה להזמין?",
+      "subtitle": "לשלם עכשיו ואנחנו נטפל בהזמנות, או לקבל עזרה ממומחה טיולים.",
+      "selfCheckout": "אזמין בעצמי",
+      "selfCheckoutDesc": "תשלום מאובטח עכשיו, אנחנו מזמינים הכול בשבילך.",
+      "expert": "להזמין עם מומחה",
+      "expertDesc": "לדבר עם בן אדם אמיתי שיסדר את הפרטים.",
+      "rail": "מומחה"
     },
     "details": {
       "title": "What are we booking?",
@@ -2898,6 +2955,57 @@
     },
     "cta": {
       "refreshing": "מעדכנים מחירים…"
+    },
+    "flow": {
+      "review": "בדיקה",
+      "travellers": "נוסעים",
+      "reviewTitle": "הזמנת הטיול",
+      "travellersTitle": "מי נוסע?",
+      "payTitle": "בדיקה ותשלום",
+      "travellersLead": "השמות בדיוק כמו בדרכון.",
+      "you": "אתה",
+      "pickSaved": "בחירת נוסע שמור",
+      "saveForNextTime": "לשמור לפעם הבאה",
+      "confirmed": {
+        "title": "שולם. $amount.",
+        "body": "עכשיו אנחנו מזמינים הכול ידנית, פריט אחרי פריט. כל פריט מאושר ברגע שהוא מוכן.",
+        "vouchers": "הקבלה בדרך אליך במייל. השוברים יגיעו לצ'אט עם אישור כל הזמנה.",
+        "seeBooking": "לצפייה בהזמנות",
+        "backToTrip": "חזרה לטיול",
+        "receipt": "הקבלה נשלחה אל $email. השוברים יגיעו לצ׳אט עם אישור כל הזמנה."
+      },
+      "travellerSection": "נוסע $number",
+      "neededFor": {
+        "one": "נדרש לטיסות.",
+        "two": "נדרש לשני הנוסעים.",
+        "many": "נדרש לכל ${n} הנוסעים.",
+        "other": "נדרש לכל ${n} הנוסעים."
+      },
+      "titleMx": "Mx",
+      "passportGender": "כמו בדרכון שלך",
+      "whatYouAreBooking": "מה שאתם מזמינים",
+      "totalTaxesIncluded": "סה״כ · כולל מיסים",
+      "vouchersLine": "$names · שוברים אל $email",
+      "terms": "בתשלום אתם מסכימים ל$terms של Layla ולתנאי הביטול של כל ספק.",
+      "termsLink": "תנאים",
+      "flightsNonRefundable": "מחירי טיסות אינם ניתנים להחזר לאחר הנפקת הכרטיס.",
+      "totalItems": {
+        "one": "פריט אחד",
+        "two": "2 פריטים",
+        "many": "$n פריטים",
+        "other": "$n פריטים"
+      },
+      "totalTravellers": {
+        "one": "נוסע אחד",
+        "two": "2 נוסעים",
+        "many": "$n נוסעים",
+        "other": "$n נוסעים"
+      },
+      "totalLine": "סה״כ · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "בתוקף עד $exp · שמור ב-Stripe",
+      "anotherCard": "כרטיס אחר",
+      "anotherCardSub": "מזינים בשלב הבא"
     }
   },
   "trips": {
@@ -3336,7 +3444,12 @@
     "heroLine": "${dates} · ${travellers}",
     "heroLineBudget": "${dates} · ${travellers} · תקציב מתחת ל-${budget}",
     "dates": "תאריכים",
-    "travellers": "נוסעים",
+    "travellers": {
+      "one": "נוסע",
+      "two": "נוסעים",
+      "many": "נוסעים",
+      "other": "נוסעים"
+    },
     "askLayla": "לשאול את Layla",
     "dayByDay": "יום אחר יום",
     "days": {
@@ -3353,6 +3466,7 @@
     "free": "חינם",
     "askAddToDay": "לבקש מ-Layla להוסיף משהו ליום ${n}",
     "addToDayPrefill": "הוסיפי משהו ליום ${n}: ",
+    "addToDay": "הוספה ליום ${n}",
     "pricesCheckedJustNow": "המחירים נבדקו ממש עכשיו",
     "pricesCheckedMinutes": "המחירים נבדקו לפני ${n} דק׳",
     "pricesCheckedHours": {
@@ -3498,7 +3612,44 @@
       "getTo": "הגעה ל-${city}",
       "flyHome": "טיסה הביתה",
       "flyTo": "טיסה ל-${city}"
-    }
+    },
+    "factDays": {
+      "one": "יום",
+      "two": "ימים",
+      "many": "ימים",
+      "other": "ימים"
+    },
+    "factStops": {
+      "one": "תחנה",
+      "two": "תחנות",
+      "many": "תחנות",
+      "other": "תחנות"
+    },
+    "countriesCount": {
+      "one": "מדינה אחת",
+      "two": "${n} מדינות",
+      "many": "${n} מדינות",
+      "other": "${n} מדינות"
+    },
+    "countriesAnd": "${a} ו${b}",
+    "plannedWithLayla": "תוכנן עם Layla",
+    "askToChangeAnything": "בקשו לשנות כל דבר",
+    "bookedOfItems": {
+      "one": "פריט אחד מתוך ${m} הוזמן",
+      "two": "${n} פריטים מתוך ${m} הוזמנו",
+      "many": "${n} פריטים מתוך ${m} הוזמנו",
+      "other": "${n} פריטים מתוך ${m} הוזמנו"
+    },
+    "itemsBooked": {
+      "one": "פריט אחד הוזמן",
+      "two": "${n} פריטים הוזמנו",
+      "many": "${n} פריטים הוזמנו",
+      "other": "${n} פריטים הוזמנו"
+    },
+    "allBooked": "הכול הוזמן",
+    "seeBooking": "לצפייה בהזמנה",
+    "paidAmount": "שולמו ${amount}",
+    "vouchersInChat": "השוברים בצ׳אט"
   },
   "credit": {
     "heading": "קרדיט",
@@ -3609,6 +3760,22 @@
     "from_caption": "מלונות וחוויות, ל-${party} · תאריכים גמישים",
     "start_from_trip": "להתחיל מהטיול הזה",
     "trip_unavailable": "הטיול הזה לא זמין כרגע.",
+    "filters": {
+      "beach": "חוף",
+      "cities": "ערים",
+      "northern_lights": "הזוהר הצפוני",
+      "road_trip": "טיול ברכב",
+      "safari": "ספארי"
+    },
+    "filter_count": {
+      "one": "טיול אחד · ${theme}",
+      "two": "שני טיולים · ${theme}",
+      "many": "${n} טיולים · ${theme}",
+      "other": "${n} טיולים · ${theme}"
+    },
+    "nothing_here": "עדיין אין כאן כלום",
+    "layla_creator": "יוצר/ת Layla",
+    "plan_this_trip": "לתכנן את הטיול הזה",
     "templates": {
       "thailand": {
         "title": "חוף אנדמן של תאילנד",
@@ -3711,9 +3878,7 @@
       "activity": "המחירים של הפעילויות פג תוקפם, אפשר לחפש שוב?"
     },
     "soldOut": "אזל",
-    "replace": "החלפה",
     "seeAll": "הצגת הכול",
-    "replaceSoldOut": "זה אזל, תמצאי לי חלופה",
     "ratesExpiredTitle": "ייתכן שהמחירים השתנו",
     "ratesExpiredBody": "עבר זמן מאז שבדקנו את המחיר הזה. רעננו אותו לפני התשלום.",
     "checkingPrice": "בודקים את המחיר…",
@@ -3728,7 +3893,8 @@
       "body": "השוברים שמורים בטלפון הזה. הצ'אט וההודעות החדשות יחזרו כשיהיה חיבור.",
       "saved": "שמור",
       "status": "לא מקוון"
-    }
+    },
+    "checkPriceAgain": "בדיקת מחיר מחדש"
   },
   "bookings": {
     "detail": {
@@ -3904,7 +4070,10 @@
       "changeFlight": "לשנות טיסה",
       "addBag": "להוסיף מזוודה",
       "directions": "ניווט",
-      "cancel": "ביטול"
+      "cancel": "ביטול",
+      "pendingBadge": "ממתין",
+      "refundPendingBadge": "החזר בטיפול",
+      "calendar": "יומן"
     },
     "complexTrip": {
       "badge": "טיול מורכב · $days ימים · $stops עצירות",
@@ -3915,6 +4084,54 @@
       "longTrip": "$n ימים",
       "planWith": "לתכנן עם $name",
       "keepGoing": "להמשיך עם Layla"
+    },
+    "titles": {
+      "route": "$from – $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "הזמנת הטיול",
+      "badgeInProgress": "בתהליך הזמנה",
+      "badgePartial": "$n מתוך $total אושרו",
+      "badgeConfirmed": "מאושר",
+      "badgeCancelled": "בוטל",
+      "noteInProgress": "אנחנו מזמינים כל פריט ישירות מול הספק. השוברים מגיעים לצ'אט ולמסך ההזמנות ברגע שהם מאושרים.",
+      "notePartial": "$n מתוך $total אושרו. השאר אצל הספקים, והשוברים מגיעים ברגע שהם מאושרים.",
+      "noteConfirmed": "הכול הוזמן. השוברים והכרטיסים האלקטרוניים נמצאים בצ'אט ובמסך ההזמנות.",
+      "noteCancelled": "ההזמנה הזו בוטלה. כל החזר כפוף לתנאי הספקים.",
+      "itemsCount": {
+        "one": "פריט אחד",
+        "two": "${n} פריטים",
+        "many": "${n} פריטים",
+        "other": "${n} פריטים"
+      },
+      "paidLine": "שולמו $amount · $date",
+      "payment": "תשלום",
+      "paymentRef": "אסמכתת תשלום",
+      "sectionStays": "לינה",
+      "sectionFlights": "טיסות",
+      "sectionCars": "רכב שכור",
+      "sectionTransfers": "הסעות",
+      "sectionActivities": "פעילויות",
+      "sectionTransport": "כרטיסים",
+      "itemInProgress": "בתהליך הזמנה",
+      "itemConfirmed": "מאושר",
+      "itemCancelled": "בוטל",
+      "confirmationReady": "האישור מוכן",
+      "askLayla": "לשאול את Layla על ההזמנה הזו",
+      "askLaylaLine": "שינויים, שאלות, תוספות: הכול בצ'אט של הטיול.",
+      "openTrip": "לפתוח את הטיול",
+      "voucherEyebrow": "הזמנת הטיול",
+      "voucherSubtitle": "שולם · בתהליך הזמנה",
+      "voucherPaid": "שולם",
+      "voucherItems": "פריטים",
+      "voucherDates": "תאריכים",
+      "voucherTravellers": "מטיילים",
+      "laylaPaid": "שולם. אני מזמינה עכשיו את $items שלך מול הספקים, וכל שובר יופיע כאן ברגע שהוא מאושר.",
+      "laylaPaidSummary": "התשלום על הטיול התקבל: $title, $items, $amount. ההזמנות בתהליך מול הספקים, והשוברים מגיעים פריט אחרי פריט.",
+      "barAllBooked": "הכול הוזמן",
+      "barVouchersInChat": "השוברים בצ'אט",
+      "paidAmount": "שולמו $amount"
     }
   },
   "passport": {
@@ -3970,21 +4187,29 @@
       "tryAgain": "לנסות שוב",
       "useInstead": "להשתמש ב-${provider} במקום",
       "connectedSeeFound": "${provider} מחובר · לראות מה מצאתי",
-      "updateOne": "לעדכן את ${provider}",
-      "updateMany": "לעדכן חיבורים"
+      "connectProvider": "לחבר את ${provider}",
+      "readOnlyLine": "קריאה בלבד. שום דבר לא נשלח מהחשבון שלכם.",
+      "connect": "לחבר",
+      "otherInstead": "עדיף ${provider}",
+      "connectedTwo": "${a} ו-${b} מחוברים",
+      "manage": "ניהול"
     },
     "picker": {
       "titleLead": "כל עולם הנסיעות שלך",
       "titleHighlight": "במקום אחד",
-      "body": "חברו את המקומות שבהם הנסיעות שלכם כבר נמצאות. Layla מוצאת מה הזמנתם בעבר, רואה מתי אתם פנויים ומתכננת סביב זה.",
-      "footer": "קריאה בלבד. Layla קוראת אישורי הזמנה, שום דבר לא נשלח מהחשבון שלכם. אפשר להתנתק בכל רגע בחשבונות מחוברים.",
+      "body": "Layla מוצאת מה הזמנתם בעבר, רואה מתי אתם פנויים ומתכננת סביב זה.",
+      "footer": "קריאה בלבד. שום דבר לא נשלח מהחשבונות שלכם. אפשר להתנתק בכל רגע בחשבונות מחוברים.",
       "bestStart": "הכי טוב להתחיל",
       "connectedLastRead": "מחובר · נקרא לאחרונה ${when}",
       "connectedPending": "מחובר · העדכון הראשון בדרך",
       "expiredLine": "החיבור פג · התחברו מחדש כדי להמשיך לעדכן",
       "update": "עדכון",
       "reconnect": "להתחבר מחדש",
-      "connect": "לחבר"
+      "connect": "לחבר",
+      "rowConnected": "מחובר",
+      "rowEmail": "מיילים של הזמנות",
+      "rowInstagram": "חשבונות מקצועיים בלבד",
+      "rowExpired": "החיבור פג"
     },
     "provider": {
       "googleSub": "מוצא את הטיסות והמלונות הקודמים שלכם.",
@@ -4115,5 +4340,11 @@
       "removeFailed": "לא הצלחתי להסיר את הנתונים שיובאו",
       "retry": "לנסות שוב"
     }
+  },
+  "photoCredits": {
+    "title": "קרדיט לצלמים",
+    "today": "הנוף של היום",
+    "all": "כל הרקעים",
+    "credit": "צילום: ${photographer} ב-Unsplash"
   }
 }

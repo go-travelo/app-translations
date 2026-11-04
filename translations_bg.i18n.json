@@ -164,7 +164,12 @@
       "rename_chat": "Преименувай Чат",
       "delete_chat": "Изтрий Чат?",
       "delete_chat_message": "${name} ще бъде изтрит завинаги.",
-      "info_and_support": "Информация и Поддръжка"
+      "info_and_support": "Информация и Поддръжка",
+      "today": "Днес",
+      "yesterday": "Вчера",
+      "previous_7_days": "Последните 7 дни",
+      "earlier": "По-рано",
+      "search_chats": "Търсене в чатовете"
     },
     "chat": {
       "title": "Layla - AI Планиране на Пътуване",
@@ -226,6 +231,17 @@
         "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе.",
         "continueWithHuman": "Продължете резервацията с агент",
         "version": "Версия ${number}",
+        "versionOf": "Версия ${number} от ${total}",
+        "building": {
+          "badge": "Подготвя се",
+          "flights": "Полети",
+          "stay": "Настаняване",
+          "dayPlan": "План по дни",
+          "airportTransfer": "Трансфер от летището",
+          "next": "следва",
+          "under": "под ${amount}",
+          "step": "${phase} · ${n} от ${total}"
+        },
         "latestVersion": "Най-нова версия",
         "reopenVersion": "Отвори тази версия отново",
         "backToLatest": "Обратно към най-новата",
@@ -261,13 +277,17 @@
         "shownOf": "${shown} от ${total}"
       },
       "attach": {
-        "photoLibrary": "Фотогалерия",
+        "photoLibrary": "Снимки",
         "files": "Файлове",
         "camera": "Камера",
         "title": "Добави в чата"
       },
       "destinations_card": {
         "title": "Дестинации за теб",
+        "more": {
+          "one": "още ${n} дестинация",
+          "other": "още ${n} дестинации"
+        },
         "subtitle": "Докосни, за да гледаш и избереш",
         "feedTitle": "Избери дестинациите си",
         "open": "Отвори",
@@ -300,9 +320,6 @@
         "nonStop": "Директен",
         "bookNamed": "Резервирай ${carrier}, ${day}",
         "bookIt": "Резервирай",
-        "addReturn": "Добави връщане",
-        "earlier": "По-рано",
-        "later": "По-късно",
         "pp": "на човек",
         "ppLong": "на човек",
         "forN": "${amount} за ${n}",
@@ -327,9 +344,6 @@
         "outbound": "Отиване",
         "returnLeg": "Връщане",
         "legN": "Полет ${n}",
-        "optional": "по избор",
-        "noReturn": "Без връщане",
-        "oneWayOnly": "Само отиване",
         "landsNextDay": "каца на следващия ден",
         "fareRules": "Условия на тарифата",
         "cabinBagIncluded": "1 ръчен багаж на човек е включен",
@@ -354,7 +368,11 @@
         "fares": "Тарифи",
         "standardFare": "Стандартна тарифа",
         "singleFare": "Авиокомпанията предлага само една тарифа за този полет",
-        "noCheckoutLink": "Актуална тарифа за този полет все още няма"
+        "noCheckoutLink": "Актуална тарифа за този полет все още няма",
+        "outShort": "Отиване",
+        "backShort": "Връщане",
+        "estimateShort": "ориентировъчно",
+        "multiCityTitle": "Няколко дестинации"
       },
       "carQuick": {
         "seats": {
@@ -372,8 +390,6 @@
         "cityAirport": "летище ${city}",
         "perDay": "${price}/ден",
         "bookNamed": "Резервирай ${name}",
-        "manualFine": "Ръчни скорости са ок",
-        "bigger": "По-голяма",
         "carsAt": "Коли на ${place}",
         "cars": "Коли",
         "pickUpAndReturnAt": "вземане и връщане на ${place}",
@@ -451,7 +467,8 @@
         "whyMoreSeats": "повече места",
         "whyBiggerBoot": "по-голям багажник",
         "whySamePrice": "същата цена",
-        "whyCheaper": "по-евтино"
+        "whyCheaper": "по-евтино",
+        "perDayLabel": "на ден"
       }
     },
     "trip_empty": {
@@ -1922,6 +1939,7 @@
       "bookThisTrip": "Резервирайте Това Пътуване",
       "customizeTrip": "Персонализирайте Пътуването",
       "share": "Сподели",
+      "downloadPdf": "Изтегли PDF",
       "delete": "Изтрий",
       "invite": "Покани"
     },
@@ -2426,7 +2444,41 @@
       "dateOrder": "Всяко отпътуване трябва да е в деня на предишното или след него"
     },
     "advisor": {
-      "plan_with": "Планирай с експерт"
+      "plan_with": "Планирай с експерт",
+      "card": {
+        "title": "Резервирай с пътен консултант",
+        "meta": "Безплатен 30-мин разговор · резервира всичко",
+        "reason": "Пътуване за ${total} с ${stops}: струва си човек.",
+        "reasonTotal": "Пътуване за ${total}: струва си човек.",
+        "reasonStops": "Пътуване с ${stops}: струва си човек.",
+        "reasonPlain": "Пътуване от този мащаб: струва си човек.",
+        "stops": {
+          "one": "${n} спирка",
+          "other": "${n} спирки"
+        },
+        "book": "Запази безплатен разговор",
+        "notNow": "Не сега",
+        "bookedLine": "Консултант преглежда пътуването с теб и го резервира."
+      },
+      "line": {
+        "before": "или ",
+        "link": "резервирай с консултант",
+        "after": " · безплатно"
+      },
+      "block": {
+        "role": "Пътен консултант",
+        "line": "Планира с теб, резервира всичко, на линия по време на пътуването",
+        "body": "Консултант преглежда този план с теб, резервира всяко нещо на нашата най-добра цена и остава на линия, докато пътуваш. Безплатно, без ангажимент.",
+        "chipCall": "30 мин безплатно",
+        "chipPrice": "Резервация на най-добра цена",
+        "chipRoad": "На линия 24/7",
+        "cta": "Запази безплатен разговор"
+      },
+      "booked": {
+        "before": "Въпроси за това пътуване? ",
+        "link": "Поговори с консултант",
+        "after": ""
+      }
     },
     "timeline_intro": {
       "more": "Още",
@@ -2659,12 +2711,13 @@
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "Как искаш да резервираш?",
+      "subtitle": "Плати сега и ние ще направим резервациите, или получи помощ от пътен експерт.",
+      "selfCheckout": "Ще резервирам сам",
+      "selfCheckoutDesc": "Плати сигурно сега, ние резервираме всичко вместо теб.",
+      "expert": "Резервирай с експерт",
+      "expertDesc": "Говори с човек, който ще уреди подробностите.",
+      "rail": "Експерт"
     },
     "details": {
       "title": "What are we booking?",
@@ -2809,6 +2862,51 @@
     },
     "cta": {
       "refreshing": "Обновяване на цените…"
+    },
+    "flow": {
+      "review": "Преглед",
+      "travellers": "Пътуващи",
+      "reviewTitle": "Резервирай пътуването си",
+      "travellersTitle": "Кой пътува?",
+      "payTitle": "Преглед и плащане",
+      "travellersLead": "Имената точно както в паспорта.",
+      "you": "Ти",
+      "pickSaved": "Избери запазен пътуващ",
+      "saveForNextTime": "Запази за следващия път",
+      "confirmed": {
+        "title": "Платено. $amount.",
+        "body": "Сега резервираме всичко ръчно, елемент по елемент. Всеки се потвърждава веднага щом е готов.",
+        "vouchers": "Разписката идва по имейл. Ваучерите се появяват в чата с потвърждаването на всяка резервация.",
+        "seeBooking": "Виж резервациите",
+        "backToTrip": "Обратно към пътуването",
+        "receipt": "Разписката е изпратена на $email. Ваучерите идват в чата ти, щом всяка резервация бъде потвърдена."
+      },
+      "travellerSection": "Пътуващ $number",
+      "neededFor": {
+        "one": "Нужно за полетите.",
+        "other": "Нужно за всички ${n} пътуващи."
+      },
+      "titleMx": "Mx",
+      "passportGender": "Както в паспорта ти",
+      "whatYouAreBooking": "Какво резервираш",
+      "totalTaxesIncluded": "Общо · с включени такси",
+      "vouchersLine": "$names · ваучери на $email",
+      "terms": "С плащането приемаш $terms на Layla и условията за анулиране на всеки доставчик.",
+      "termsLink": "условията",
+      "flightsNonRefundable": "Самолетните тарифи не подлежат на възстановяване след издаване на билета.",
+      "totalItems": {
+        "one": "1 артикул",
+        "other": "$n артикула"
+      },
+      "totalTravellers": {
+        "one": "1 пътник",
+        "other": "$n пътници"
+      },
+      "totalLine": "Общо · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "Изтича $exp · запазена в Stripe",
+      "anotherCard": "Друга карта",
+      "anotherCardSub": "Въвеждаш я на следващата стъпка"
     }
   },
   "trips": {
@@ -3245,7 +3343,10 @@
     "heroLine": "${dates} · ${travellers}",
     "heroLineBudget": "${dates} · ${travellers} · бюджет под ${budget}",
     "dates": "Дати",
-    "travellers": "Пътници",
+    "travellers": {
+      "one": "Пътник",
+      "other": "Пътници"
+    },
     "askLayla": "Попитай Layla",
     "dayByDay": "Ден по ден",
     "days": {
@@ -3260,6 +3361,7 @@
     "free": "Безплатно",
     "askAddToDay": "Помоли Layla да добави нещо към ден ${n}",
     "addToDayPrefill": "Добави нещо към ден ${n}: ",
+    "addToDay": "Добави към ден ${n}",
     "pricesCheckedJustNow": "Цените са проверени току-що",
     "pricesCheckedMinutes": "Цените са проверени преди ${n} мин",
     "pricesCheckedHours": {
@@ -3385,7 +3487,34 @@
       "getTo": "До ${city}",
       "flyHome": "Полет към дома",
       "flyTo": "Полет до ${city}"
-    }
+    },
+    "factDays": {
+      "one": "Ден",
+      "other": "Дни"
+    },
+    "factStops": {
+      "one": "Спирка",
+      "other": "Спирки"
+    },
+    "countriesCount": {
+      "one": "${n} държава",
+      "other": "${n} държави"
+    },
+    "countriesAnd": "${a} и ${b}",
+    "plannedWithLayla": "Планирано с Layla",
+    "askToChangeAnything": "Поискайте промяна на каквото и да е",
+    "bookedOfItems": {
+      "one": "1 от ${m} артикула е резервиран",
+      "other": "${n} от ${m} артикула са резервирани"
+    },
+    "itemsBooked": {
+      "one": "${n} артикул е резервиран",
+      "other": "${n} артикула са резервирани"
+    },
+    "allBooked": "Всичко е резервирано",
+    "seeBooking": "Виж резервацията",
+    "paidAmount": "Платени ${amount}",
+    "vouchersInChat": "Ваучерите са в чата"
   },
   "credit": {
     "heading": "Кредит",
@@ -3496,6 +3625,20 @@
     "from_caption": "хотели и преживявания, за ${party} · гъвкави дати",
     "start_from_trip": "Започни от това пътуване",
     "trip_unavailable": "Това пътуване не е налично в момента.",
+    "filters": {
+      "beach": "Плаж",
+      "cities": "Градове",
+      "northern_lights": "Северно сияние",
+      "road_trip": "Пътешествие с кола",
+      "safari": "Сафари"
+    },
+    "filter_count": {
+      "one": "${n} пътуване · ${theme}",
+      "other": "${n} пътувания · ${theme}"
+    },
+    "nothing_here": "Тук още няма нищо",
+    "layla_creator": "Layla създател",
+    "plan_this_trip": "Планирай това пътуване",
     "templates": {
       "thailand": {
         "title": "Андаманското крайбрежие на Тайланд",
@@ -3598,9 +3741,7 @@
       "activity": "Тези цени на активности са изтекли, може ли да потърсиш пак?"
     },
     "soldOut": "Изчерпано",
-    "replace": "Замени",
     "seeAll": "Виж всички",
-    "replaceSoldOut": "Това е изчерпано, намери ми алтернатива",
     "ratesExpiredTitle": "Цените може да са се променили",
     "ratesExpiredBody": "Отдавна не сме проверявали тази цена. Обнови я, преди да платиш.",
     "checkingPrice": "Проверяваме цената…",
@@ -3615,7 +3756,8 @@
       "body": "Ваучерите са запазени на този телефон. Чатът и новите съобщения се връщат, щом има връзка.",
       "saved": "Запазено",
       "status": "Офлайн"
-    }
+    },
+    "checkPriceAgain": "Провери цената отново"
   },
   "bookings": {
     "detail": {
@@ -3791,7 +3933,10 @@
       "changeFlight": "Промени полета",
       "addBag": "Добави багаж",
       "directions": "Упътване",
-      "cancel": "Отмени"
+      "cancel": "Отмени",
+      "pendingBadge": "Изчаква",
+      "refundPendingBadge": "Възстановяване изчаква",
+      "calendar": "Календар"
     },
     "complexTrip": {
       "badge": "Сложно пътуване · $days дни · $stops спирки",
@@ -3802,6 +3947,52 @@
       "longTrip": "$n дни",
       "planWith": "Планирай с $name",
       "keepGoing": "Продължи с Layla"
+    },
+    "titles": {
+      "route": "От $from до $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "Резервация на пътуването",
+      "badgeInProgress": "Резервира се",
+      "badgePartial": "$n от $total потвърдени",
+      "badgeConfirmed": "Потвърдена",
+      "badgeCancelled": "Отменена",
+      "noteInProgress": "Резервираме всеки елемент директно при доставчика. Ваучерите пристигат в чата ти и в Резервации веднага щом бъдат потвърдени.",
+      "notePartial": "$n от $total потвърдени. Останалото е при доставчиците; ваучерите идват веднага щом бъдат потвърдени.",
+      "noteConfirmed": "Всичко е резервирано. Ваучерите и електронните билети са в чата ти и в Резервации.",
+      "noteCancelled": "Тази резервация беше отменена. Евентуално възстановяване следва условията на доставчиците.",
+      "itemsCount": {
+        "one": "1 елемент",
+        "other": "$n елемента"
+      },
+      "paidLine": "Платени $amount · $date",
+      "payment": "Плащане",
+      "paymentRef": "Референция на плащането",
+      "sectionStays": "Настанявания",
+      "sectionFlights": "Полети",
+      "sectionCars": "Кола под наем",
+      "sectionTransfers": "Трансфери",
+      "sectionActivities": "Дейности",
+      "sectionTransport": "Билети",
+      "itemInProgress": "Резервира се",
+      "itemConfirmed": "Потвърдено",
+      "itemCancelled": "Отменено",
+      "confirmationReady": "Потвърждението е готово",
+      "askLayla": "Попитай Layla за тази резервация",
+      "askLaylaLine": "Промени, въпроси, екстри: всичко е в чата на пътуването.",
+      "openTrip": "Отвори пътуването",
+      "voucherEyebrow": "Резервация на пътуването",
+      "voucherSubtitle": "Платено · резервира се",
+      "voucherPaid": "Платено",
+      "voucherItems": "Елементи",
+      "voucherDates": "Дати",
+      "voucherTravellers": "Пътуващи",
+      "laylaPaid": "Платено. Вече резервирам твоите $items при доставчиците; всеки ваучер се появява тук веднага щом бъде потвърден.",
+      "laylaPaidSummary": "Получено плащане за пътуването: $title, $items, $amount. Резервациите са в процес при доставчиците; ваучерите идват по елементи.",
+      "barAllBooked": "Всичко е резервирано",
+      "barVouchersInChat": "Ваучерите са в чата",
+      "paidAmount": "Платени $amount"
     }
   },
   "passport": {
@@ -3857,21 +4048,29 @@
       "tryAgain": "Опитай отново",
       "useInstead": "Използвай ${provider} вместо това",
       "connectedSeeFound": "${provider} е свързан · виж какво открих",
-      "updateOne": "Обнови ${provider}",
-      "updateMany": "Обнови връзките"
+      "connectProvider": "Свържи ${provider}",
+      "readOnlyLine": "Само за четене. Нищо не се изпраща от акаунта ти.",
+      "connect": "Свържи",
+      "otherInstead": "По-добре ${provider}",
+      "connectedTwo": "${a} и ${b} са свързани",
+      "manage": "Управление"
     },
     "picker": {
       "titleLead": "Събери света на пътуванията си",
       "titleHighlight": "на едно място",
-      "body": "Свържи местата, където вече са пътуванията ти. Layla намира какво си резервирал досега, вижда кога си свободен и планира около това.",
-      "footer": "Само за четене. Layla чете потвърждения за резервации, нищо не се изпраща от акаунта ти. Можеш да прекъснеш връзката по всяко време от Свързани акаунти.",
+      "body": "Layla намира какво си резервирал досега, вижда кога си свободен и планира около това.",
+      "footer": "Само за четене. Нищо не се изпраща от акаунтите ти. Прекъсни връзката по всяко време от Свързани акаунти.",
       "bestStart": "Най-добро начало",
       "connectedLastRead": "Свързано · последно четене ${when}",
       "connectedPending": "Свързано · първото обновяване предстои",
       "expiredLine": "Връзката е изтекла · свържи отново, за да продължи обновяването",
       "update": "Обнови",
       "reconnect": "Свържи отново",
-      "connect": "Свържи"
+      "connect": "Свържи",
+      "rowConnected": "Свързано",
+      "rowEmail": "Имейли с резервации",
+      "rowInstagram": "Само професионални акаунти",
+      "rowExpired": "Връзката е изтекла"
     },
     "provider": {
       "googleSub": "Намира предишните ти полети и хотели.",
@@ -3995,5 +4194,11 @@
       "removeFailed": "Не успях да премахна импортираните данни",
       "retry": "Опитай пак"
     }
+  },
+  "photoCredits": {
+    "title": "Автори на снимките",
+    "today": "Гледката за днес",
+    "all": "Всички фонове",
+    "credit": "Снимка: ${photographer}, Unsplash"
   }
 }

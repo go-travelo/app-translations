@@ -164,7 +164,12 @@
       "rename_chat": "Chat umbenennen",
       "delete_chat": "Chat löschen?",
       "delete_chat_message": "${name} wird dauerhaft gelöscht werden.",
-      "info_and_support": "Informationen und Support"
+      "info_and_support": "Informationen und Support",
+      "today": "Heute",
+      "yesterday": "Gestern",
+      "previous_7_days": "Letzte 7 Tage",
+      "earlier": "Früher",
+      "search_chats": "Chats durchsuchen"
     },
     "chat": {
       "title": "Layla - KI Reiseplaner",
@@ -226,6 +231,17 @@
         "expiredTripTooltip": "Dies ist eine ältere Version. Deine neueste Reise wird oben angezeigt.",
         "continueWithHuman": "Buchung mit einem Menschen fortsetzen",
         "version": "Version ${number}",
+        "versionOf": "Version ${number} von ${total}",
+        "building": {
+          "badge": "Wird erstellt",
+          "flights": "Flüge",
+          "stay": "Unterkunft",
+          "dayPlan": "Tagesplan",
+          "airportTransfer": "Flughafentransfer",
+          "next": "als Nächstes",
+          "under": "unter ${amount}",
+          "step": "${phase} · ${n} von ${total}"
+        },
         "latestVersion": "Neueste Version",
         "reopenVersion": "Diese Version wieder öffnen",
         "backToLatest": "Zurück zur neuesten Version",
@@ -261,13 +277,17 @@
         "shownOf": "${shown} von ${total}"
       },
       "attach": {
-        "photoLibrary": "Fotomediathek",
+        "photoLibrary": "Fotos",
         "files": "Dateien",
         "camera": "Kamera",
         "title": "Zum Chat hinzufügen"
       },
       "destinations_card": {
         "title": "Reiseziele für dich",
+        "more": {
+          "one": "${n} weiteres Ziel",
+          "other": "${n} weitere Ziele"
+        },
         "subtitle": "Tippe zum Ansehen und Auswählen",
         "feedTitle": "Wähl deine Reiseziele",
         "open": "Öffnen",
@@ -300,9 +320,6 @@
         "nonStop": "Nonstop",
         "bookNamed": "${carrier} buchen, ${day}",
         "bookIt": "Jetzt buchen",
-        "addReturn": "Rückflug dazu",
-        "earlier": "Früher",
-        "later": "Später",
         "pp": "p. P.",
         "ppLong": "pro Person",
         "forN": "${amount} für ${n}",
@@ -327,9 +344,6 @@
         "outbound": "Hinflug",
         "returnLeg": "Rückflug",
         "legN": "Flug ${n}",
-        "optional": "optional",
-        "noReturn": "Kein Rückflug",
-        "oneWayOnly": "Nur Hinflug",
         "landsNextDay": "landet am Folgetag",
         "fareRules": "Tarifbedingungen",
         "cabinBagIncluded": "1 Handgepäck pro Person inklusive",
@@ -354,7 +368,11 @@
         "fares": "Tarife",
         "standardFare": "Standardtarif",
         "singleFare": "Die Airline bietet für diesen Flug nur einen Tarif an",
-        "noCheckoutLink": "Für diesen Flug ist noch kein Live-Tarif verfügbar"
+        "noCheckoutLink": "Für diesen Flug ist noch kein Live-Tarif verfügbar",
+        "outShort": "Hin",
+        "backShort": "Rück",
+        "estimateShort": "Schätzung",
+        "multiCityTitle": "Gabelflug"
       },
       "carQuick": {
         "seats": {
@@ -372,8 +390,6 @@
         "cityAirport": "Flughafen ${city}",
         "perDay": "${price}/Tag",
         "bookNamed": "${name} buchen",
-        "manualFine": "Schaltung ist okay",
-        "bigger": "Größer",
         "carsAt": "Autos am ${place}",
         "cars": "Autos",
         "pickUpAndReturnAt": "Abholung und Rückgabe: ${place}",
@@ -451,7 +467,8 @@
         "whyMoreSeats": "mehr Sitze",
         "whyBiggerBoot": "größerer Kofferraum",
         "whySamePrice": "gleicher Preis",
-        "whyCheaper": "günstiger"
+        "whyCheaper": "günstiger",
+        "perDayLabel": "pro Tag"
       }
     },
     "trip_empty": {
@@ -1922,6 +1939,7 @@
       "bookThisTrip": "Diese Reise Buchen",
       "customizeTrip": "Reise Anpassen",
       "share": "Teilen",
+      "downloadPdf": "PDF herunterladen",
       "delete": "Löschen",
       "invite": "Einladen"
     },
@@ -2426,7 +2444,41 @@
       "dateOrder": "Jede Abreise muss am Tag der vorherigen oder danach liegen"
     },
     "advisor": {
-      "plan_with": "Mit einem Experten planen"
+      "plan_with": "Mit einem Experten planen",
+      "card": {
+        "title": "Mit einem Reiseberater buchen",
+        "meta": "Kostenloses 30-Min-Gespräch · bucht alles",
+        "reason": "Eine Reise für ${total} über ${stops}: da lohnt sich ein Mensch.",
+        "reasonTotal": "Eine Reise für ${total}: da lohnt sich ein Mensch.",
+        "reasonStops": "Eine Reise über ${stops}: da lohnt sich ein Mensch.",
+        "reasonPlain": "Eine Reise dieser Größe: da lohnt sich ein Mensch.",
+        "stops": {
+          "one": "${n} Stopp",
+          "other": "${n} Stopps"
+        },
+        "book": "Kostenloses Gespräch buchen",
+        "notNow": "Jetzt nicht",
+        "bookedLine": "Ein Berater geht die Reise mit dir durch und bucht sie."
+      },
+      "line": {
+        "before": "oder ",
+        "link": "mit einem Berater buchen",
+        "after": " · kostenlos"
+      },
+      "block": {
+        "role": "Ein Reiseberater",
+        "line": "Plant mit dir, bucht alles, ist unterwegs erreichbar",
+        "body": "Ein Berater geht diesen Plan mit dir durch, bucht jeden Posten zu unserem besten Preis und bleibt unterwegs erreichbar. Kostenlos, unverbindlich.",
+        "chipCall": "30 Min gratis",
+        "chipPrice": "Bestpreis-Buchung",
+        "chipRoad": "Rund um die Uhr unterwegs",
+        "cta": "Kostenloses Gespräch buchen"
+      },
+      "booked": {
+        "before": "Fragen zu dieser Reise? ",
+        "link": "Sprich mit einem Berater",
+        "after": ""
+      }
     },
     "timeline_intro": {
       "more": "Mehr",
@@ -2659,12 +2711,13 @@
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "Wie möchtest du buchen?",
+      "subtitle": "Jetzt bezahlen, wir übernehmen die Buchungen, oder dich von einem Reiseexperten beraten lassen.",
+      "selfCheckout": "Selbst buchen",
+      "selfCheckoutDesc": "Jetzt sicher bezahlen, wir buchen alles für dich.",
+      "expert": "Mit einem Experten buchen",
+      "expertDesc": "Sprich mit einem Menschen, der die Details für dich klärt.",
+      "rail": "Experte"
     },
     "details": {
       "title": "What are we booking?",
@@ -2809,6 +2862,51 @@
     },
     "cta": {
       "refreshing": "Preise werden aktualisiert …"
+    },
+    "flow": {
+      "review": "Prüfen",
+      "travellers": "Reisende",
+      "reviewTitle": "Deine Reise buchen",
+      "travellersTitle": "Wer reist mit?",
+      "payTitle": "Prüfen und bezahlen",
+      "travellersLead": "Namen genau wie im Pass.",
+      "you": "Du",
+      "pickSaved": "Gespeicherte Person wählen",
+      "saveForNextTime": "Fürs nächste Mal merken",
+      "confirmed": {
+        "title": "Bezahlt. $amount.",
+        "body": "Wir buchen jetzt alles per Hand, Posten für Posten. Jeder wird bestätigt, sobald er durch ist.",
+        "vouchers": "Deine Quittung kommt per E-Mail. Die Gutscheine landen im Chat, sobald die jeweilige Buchung bestätigt ist.",
+        "seeBooking": "Buchungen ansehen",
+        "backToTrip": "Zurück zur Reise",
+        "receipt": "Beleg an $email geschickt. Die Gutscheine erscheinen im Chat, sobald jede Buchung bestätigt ist."
+      },
+      "travellerSection": "Reisende:r $number",
+      "neededFor": {
+        "one": "Für die Flüge nötig.",
+        "other": "Für alle ${n} Reisenden nötig."
+      },
+      "titleMx": "Mx",
+      "passportGender": "Wie im Pass",
+      "whatYouAreBooking": "Das buchst du",
+      "totalTaxesIncluded": "Gesamt · inkl. Steuern",
+      "vouchersLine": "$names · Gutscheine an $email",
+      "terms": "Mit der Zahlung akzeptierst du die $terms von Layla und die Stornobedingungen der einzelnen Anbieter.",
+      "termsLink": "AGB",
+      "flightsNonRefundable": "Flugtarife sind nach dem Ticketing nicht erstattbar.",
+      "totalItems": {
+        "one": "1 Position",
+        "other": "$n Positionen"
+      },
+      "totalTravellers": {
+        "one": "1 Reisender",
+        "other": "$n Reisende"
+      },
+      "totalLine": "Gesamt · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "Läuft ab $exp · bei Stripe gespeichert",
+      "anotherCard": "Andere Karte",
+      "anotherCardSub": "Im nächsten Schritt eingeben"
     }
   },
   "trips": {
@@ -3245,7 +3343,10 @@
     "heroLine": "${dates} · ${travellers}",
     "heroLineBudget": "${dates} · ${travellers} · Budget unter ${budget}",
     "dates": "Daten",
-    "travellers": "Reisende",
+    "travellers": {
+      "one": "Reisender",
+      "other": "Reisende"
+    },
     "askLayla": "Layla fragen",
     "dayByDay": "Tag für Tag",
     "days": {
@@ -3260,6 +3361,7 @@
     "free": "Kostenlos",
     "askAddToDay": "Layla bitten, etwas zu Tag ${n} hinzuzufügen",
     "addToDayPrefill": "Füge etwas zu Tag ${n} hinzu: ",
+    "addToDay": "Zu Tag ${n} hinzufügen",
     "pricesCheckedJustNow": "Preise gerade geprüft",
     "pricesCheckedMinutes": "Preise vor ${n} Min. geprüft",
     "pricesCheckedHours": {
@@ -3385,7 +3487,34 @@
       "getTo": "Weiter nach ${city}",
       "flyHome": "Heimflug",
       "flyTo": "Flug nach ${city}"
-    }
+    },
+    "factDays": {
+      "one": "Tag",
+      "other": "Tage"
+    },
+    "factStops": {
+      "one": "Stopp",
+      "other": "Stopps"
+    },
+    "countriesCount": {
+      "one": "${n} Land",
+      "other": "${n} Länder"
+    },
+    "countriesAnd": "${a} & ${b}",
+    "plannedWithLayla": "Geplant mit Layla",
+    "askToChangeAnything": "Frag nach, wenn du etwas ändern möchtest",
+    "bookedOfItems": {
+      "one": "1 von ${m} Posten gebucht",
+      "other": "${n} von ${m} Posten gebucht"
+    },
+    "itemsBooked": {
+      "one": "${n} Posten gebucht",
+      "other": "${n} Posten gebucht"
+    },
+    "allBooked": "Alles gebucht",
+    "seeBooking": "Buchung ansehen",
+    "paidAmount": "${amount} bezahlt",
+    "vouchersInChat": "Voucher im Chat"
   },
   "credit": {
     "heading": "Guthaben",
@@ -3496,6 +3625,20 @@
     "from_caption": "Hotels und Erlebnisse, für ${party} · Daten flexibel",
     "start_from_trip": "Mit dieser Reise starten",
     "trip_unavailable": "Diese Reise ist gerade nicht verfügbar.",
+    "filters": {
+      "beach": "Strand",
+      "cities": "Städte",
+      "northern_lights": "Nordlichter",
+      "road_trip": "Roadtrip",
+      "safari": "Safari"
+    },
+    "filter_count": {
+      "one": "${n} Reise · ${theme}",
+      "other": "${n} Reisen · ${theme}"
+    },
+    "nothing_here": "Hier ist noch nichts",
+    "layla_creator": "Layla Creator",
+    "plan_this_trip": "Diese Reise planen",
     "templates": {
       "thailand": {
         "title": "Thailands Andamanenküste",
@@ -3598,9 +3741,7 @@
       "activity": "Die Preise für die Aktivitäten sind abgelaufen, kannst du nochmal suchen?"
     },
     "soldOut": "Ausgebucht",
-    "replace": "Ersetzen",
     "seeAll": "Alle ansehen",
-    "replaceSoldOut": "Das ist ausgebucht, such mir bitte einen Ersatz",
     "ratesExpiredTitle": "Die Preise könnten sich geändert haben",
     "ratesExpiredBody": "Wir haben diesen Preis schon eine Weile nicht geprüft. Aktualisiere ihn, bevor du bezahlst.",
     "checkingPrice": "Preis wird geprüft…",
@@ -3615,7 +3756,8 @@
       "body": "Deine Gutscheine sind auf diesem Handy gespeichert. Chat und neue Nachrichten kommen mit der Verbindung zurück.",
       "saved": "Gespeichert",
       "status": "Offline"
-    }
+    },
+    "checkPriceAgain": "Preis erneut prüfen"
   },
   "bookings": {
     "detail": {
@@ -3791,7 +3933,10 @@
       "changeFlight": "Flug ändern",
       "addBag": "Gepäck dazubuchen",
       "directions": "Route",
-      "cancel": "Stornieren"
+      "cancel": "Stornieren",
+      "pendingBadge": "Ausstehend",
+      "refundPendingBadge": "Erstattung ausstehend",
+      "calendar": "Kalender"
     },
     "complexTrip": {
       "badge": "Komplexe Reise · $days Tage · $stops Stopps",
@@ -3802,6 +3947,52 @@
       "longTrip": "$n Tage",
       "planWith": "Mit $name planen",
       "keepGoing": "Weiter mit Layla"
+    },
+    "titles": {
+      "route": "$from nach $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "Reisebuchung",
+      "badgeInProgress": "Wird gebucht",
+      "badgePartial": "$n von $total bestätigt",
+      "badgeConfirmed": "Bestätigt",
+      "badgeCancelled": "Storniert",
+      "noteInProgress": "Wir buchen gerade jeden Posten direkt beim Anbieter. Die Voucher landen in deinem Chat und unter Buchungen, sobald sie bestätigt sind.",
+      "notePartial": "$n von $total bestätigt. Der Rest liegt bei den Anbietern; die Voucher folgen, sobald sie bestätigt sind.",
+      "noteConfirmed": "Alles gebucht. Voucher und E-Tickets findest du in deinem Chat und unter Buchungen.",
+      "noteCancelled": "Diese Buchung wurde storniert. Eine Erstattung richtet sich nach den Bedingungen der Anbieter.",
+      "itemsCount": {
+        "one": "1 Posten",
+        "other": "$n Posten"
+      },
+      "paidLine": "$amount bezahlt · $date",
+      "payment": "Zahlung",
+      "paymentRef": "Zahlungsreferenz",
+      "sectionStays": "Unterkünfte",
+      "sectionFlights": "Flüge",
+      "sectionCars": "Mietwagen",
+      "sectionTransfers": "Transfers",
+      "sectionActivities": "Aktivitäten",
+      "sectionTransport": "Tickets",
+      "itemInProgress": "Wird gebucht",
+      "itemConfirmed": "Bestätigt",
+      "itemCancelled": "Storniert",
+      "confirmationReady": "Bestätigung liegt vor",
+      "askLayla": "Frag Layla zu dieser Buchung",
+      "askLaylaLine": "Änderungen, Fragen, Extras: alles im Chat der Reise.",
+      "openTrip": "Reise öffnen",
+      "voucherEyebrow": "Reisebuchung",
+      "voucherSubtitle": "Bezahlt · wird gebucht",
+      "voucherPaid": "Bezahlt",
+      "voucherItems": "Posten",
+      "voucherDates": "Daten",
+      "voucherTravellers": "Reisende",
+      "laylaPaid": "Bezahlt. Ich buche deine $items jetzt bei den Anbietern; jeder Voucher landet hier, sobald er bestätigt ist.",
+      "laylaPaidSummary": "Reisezahlung eingegangen: $title, $items, $amount. Die Buchungen laufen bei den Anbietern; die Voucher folgen pro Posten.",
+      "barAllBooked": "Alles gebucht",
+      "barVouchersInChat": "Voucher im Chat",
+      "paidAmount": "$amount bezahlt"
     }
   },
   "passport": {
@@ -3857,21 +4048,29 @@
       "tryAgain": "Erneut versuchen",
       "useInstead": "Stattdessen ${provider} verwenden",
       "connectedSeeFound": "${provider} verbunden · sieh dir an, was ich gefunden habe",
-      "updateOne": "${provider} aktualisieren",
-      "updateMany": "Verbindungen aktualisieren"
+      "connectProvider": "${provider} verbinden",
+      "readOnlyLine": "Nur Lesezugriff. Aus deinem Konto wird nichts gesendet.",
+      "connect": "Verbinden",
+      "otherInstead": "Lieber ${provider}",
+      "connectedTwo": "${a} und ${b} verbunden",
+      "manage": "Verwalten"
     },
     "picker": {
       "titleLead": "Bring deine Reisewelt",
       "titleHighlight": "zusammen",
-      "body": "Verbinde die Orte, an denen deine Reisen schon liegen. Layla findet, was du früher gebucht hast, sieht, wann du Zeit hast, und plant darum herum.",
-      "footer": "Nur Lesezugriff. Layla liest Buchungsbestätigungen, von deinem Konto wird nichts gesendet. Trenne die Verbindung jederzeit unter Verbundene Konten.",
+      "body": "Layla findet, was du früher gebucht hast, sieht, wann du Zeit hast, und plant darum herum.",
+      "footer": "Nur Lesezugriff. Aus deinen Konten wird nichts gesendet. Trennen jederzeit unter Verbundene Konten.",
       "bestStart": "Bester Start",
       "connectedLastRead": "Verbunden · zuletzt gelesen ${when}",
       "connectedPending": "Verbunden · erstes Update steht aus",
       "expiredLine": "Verbindung abgelaufen · erneut verbinden, um weiter zu aktualisieren",
       "update": "Jetzt aktualisieren",
       "reconnect": "Erneut verbinden",
-      "connect": "Verbinden"
+      "connect": "Verbinden",
+      "rowConnected": "Verbunden",
+      "rowEmail": "Buchungs-Mails",
+      "rowInstagram": "Nur Pro-Konten",
+      "rowExpired": "Verbindung abgelaufen"
     },
     "provider": {
       "googleSub": "Findet vergangene Flüge und Hotels, sieht, wann du Zeit hast.",
@@ -3995,5 +4194,11 @@
       "removeFailed": "Die importierten Daten konnten nicht entfernt werden",
       "retry": "Erneut versuchen"
     }
+  },
+  "photoCredits": {
+    "title": "Bildnachweise",
+    "today": "Heutige Aussicht",
+    "all": "Alle Hintergründe",
+    "credit": "Foto von ${photographer} auf Unsplash"
   }
 }

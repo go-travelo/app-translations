@@ -164,7 +164,12 @@
       "rename_chat": "Chat Hernoemen",
       "delete_chat": "Chat Verwijderen?",
       "delete_chat_message": "${name} wordt permanent verwijderd.",
-      "info_and_support": "Informatie en Ondersteuning"
+      "info_and_support": "Informatie en Ondersteuning",
+      "today": "Vandaag",
+      "yesterday": "Gisteren",
+      "previous_7_days": "Afgelopen 7 dagen",
+      "earlier": "Eerder",
+      "search_chats": "Chats zoeken"
     },
     "chat": {
       "title": "Layla - AI Reisplanner",
@@ -226,6 +231,17 @@
         "expiredTripTooltip": "Dit is een vorige versie. Je laatste reis wordt hierboven weergegeven.",
         "continueWithHuman": "Doorgaan met boeken via een medewerker",
         "version": "Versie ${number}",
+        "versionOf": "Versie ${number} van ${total}",
+        "building": {
+          "badge": "In opbouw",
+          "flights": "Vluchten",
+          "stay": "Verblijf",
+          "dayPlan": "Dagplanning",
+          "airportTransfer": "Luchthaventransfer",
+          "next": "hierna",
+          "under": "onder ${amount}",
+          "step": "${phase} · ${n} van ${total}"
+        },
         "latestVersion": "Nieuwste versie",
         "reopenVersion": "Deze versie opnieuw openen",
         "backToLatest": "Terug naar de nieuwste",
@@ -261,13 +277,17 @@
         "shownOf": "${shown} van ${total}"
       },
       "attach": {
-        "photoLibrary": "Fotobibliotheek",
+        "photoLibrary": "Foto's",
         "files": "Bestanden",
         "camera": "Camera",
         "title": "Toevoegen aan chat"
       },
       "destinations_card": {
         "title": "Bestemmingen voor jou",
+        "more": {
+          "one": "nog ${n} bestemming",
+          "other": "nog ${n} bestemmingen"
+        },
         "subtitle": "Tik om te kijken en te kiezen",
         "feedTitle": "Kies je bestemmingen",
         "open": "Openen",
@@ -300,9 +320,6 @@
         "nonStop": "Rechtstreeks",
         "bookNamed": "${carrier} boeken, ${day}",
         "bookIt": "Boeken",
-        "addReturn": "Retour toevoegen",
-        "earlier": "Vroeger",
-        "later": "Later",
         "pp": "p.p.",
         "ppLong": "per persoon",
         "forN": "${amount} voor ${n}",
@@ -327,9 +344,6 @@
         "outbound": "Heenvlucht",
         "returnLeg": "Terugvlucht",
         "legN": "Vlucht ${n}",
-        "optional": "optioneel",
-        "noReturn": "Geen retour",
-        "oneWayOnly": "Alleen heen",
         "landsNextDay": "landt de volgende dag",
         "fareRules": "Tariefvoorwaarden",
         "cabinBagIncluded": "1 handbagage p.p. inbegrepen",
@@ -354,7 +368,11 @@
         "fares": "Tarieven",
         "standardFare": "Standaardtarief",
         "singleFare": "De maatschappij verkoopt één tarief voor deze vlucht",
-        "noCheckoutLink": "Nog geen actueel tarief voor deze vlucht"
+        "noCheckoutLink": "Nog geen actueel tarief voor deze vlucht",
+        "outShort": "Heen",
+        "backShort": "Terug",
+        "estimateShort": "schatting",
+        "multiCityTitle": "Meerdere bestemmingen"
       },
       "carQuick": {
         "seats": {
@@ -372,8 +390,6 @@
         "cityAirport": "luchthaven ${city}",
         "perDay": "${price}/dag",
         "bookNamed": "${name} boeken",
-        "manualFine": "Handgeschakeld is prima",
-        "bigger": "Groter",
         "carsAt": "Auto's op ${place}",
         "cars": "Auto's",
         "pickUpAndReturnAt": "ophalen en inleveren bij ${place}",
@@ -451,7 +467,8 @@
         "whyMoreSeats": "meer zitplaatsen",
         "whyBiggerBoot": "grotere kofferbak",
         "whySamePrice": "zelfde prijs",
-        "whyCheaper": "goedkoper"
+        "whyCheaper": "goedkoper",
+        "perDayLabel": "per dag"
       }
     },
     "trip_empty": {
@@ -1922,6 +1939,7 @@
       "bookThisTrip": "Boek Deze Reis",
       "customizeTrip": "Pas Reis Aan",
       "share": "Delen",
+      "downloadPdf": "PDF downloaden",
       "delete": "Verwijderen",
       "invite": "Uitnodigen"
     },
@@ -2426,7 +2444,41 @@
       "dateOrder": "Elk vertrek moet op of na het vorige vallen"
     },
     "advisor": {
-      "plan_with": "Plan met een expert"
+      "plan_with": "Plan met een expert",
+      "card": {
+        "title": "Boeken met een reisadviseur",
+        "meta": "Gratis gesprek van 30 min · boekt alles",
+        "reason": "Een reis van ${total} over ${stops}: daar hoort een mens bij.",
+        "reasonTotal": "Een reis van ${total}: daar hoort een mens bij.",
+        "reasonStops": "Een reis over ${stops}: daar hoort een mens bij.",
+        "reasonPlain": "Een reis van dit formaat: daar hoort een mens bij.",
+        "stops": {
+          "one": "${n} stop",
+          "other": "${n} stops"
+        },
+        "book": "Gratis gesprek boeken",
+        "notNow": "Nu niet",
+        "bookedLine": "Een adviseur neemt de reis met je door en boekt alles."
+      },
+      "line": {
+        "before": "of ",
+        "link": "boek met een adviseur",
+        "after": " · gratis"
+      },
+      "block": {
+        "role": "Een reisadviseur",
+        "line": "Plant met je mee, boekt alles, bereikbaar onderweg",
+        "body": "Een adviseur neemt dit plan met je door, boekt elk onderdeel voor onze beste prijs en blijft bereikbaar terwijl je reist. Gratis, vrijblijvend.",
+        "chipCall": "30 min gratis",
+        "chipPrice": "Boeken voor de beste prijs",
+        "chipRoad": "24/7 bereikbaar",
+        "cta": "Gratis gesprek boeken"
+      },
+      "booked": {
+        "before": "Vragen over deze reis? ",
+        "link": "Praat met een adviseur",
+        "after": ""
+      }
     },
     "timeline_intro": {
       "more": "Meer",
@@ -2659,12 +2711,13 @@
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "Hoe wil je boeken?",
+      "subtitle": "Betaal nu en wij regelen de boekingen, of laat je helpen door een reisexpert.",
+      "selfCheckout": "Zelf boeken",
+      "selfCheckoutDesc": "Betaal nu veilig, wij boeken alles voor je.",
+      "expert": "Boeken met een expert",
+      "expertDesc": "Praat met een echt mens die de details regelt.",
+      "rail": "Expert"
     },
     "details": {
       "title": "What are we booking?",
@@ -2809,6 +2862,51 @@
     },
     "cta": {
       "refreshing": "Prijzen bijwerken…"
+    },
+    "flow": {
+      "review": "Controleren",
+      "travellers": "Reizigers",
+      "reviewTitle": "Je reis boeken",
+      "travellersTitle": "Wie reist er mee?",
+      "payTitle": "Controleren en betalen",
+      "travellersLead": "Namen precies zoals in het paspoort.",
+      "you": "Jij",
+      "pickSaved": "Kies een opgeslagen reiziger",
+      "saveForNextTime": "Bewaren voor de volgende keer",
+      "confirmed": {
+        "title": "Betaald. $amount.",
+        "body": "We boeken nu alles met de hand, onderdeel voor onderdeel. Elk onderdeel wordt bevestigd zodra het rond is.",
+        "vouchers": "Je bon komt per e-mail. De vouchers verschijnen in de chat zodra elke boeking bevestigd is.",
+        "seeBooking": "Boekingen bekijken",
+        "backToTrip": "Terug naar de reis",
+        "receipt": "Bon verstuurd naar $email. De vouchers verschijnen in je chat zodra elke boeking is bevestigd."
+      },
+      "travellerSection": "Reiziger $number",
+      "neededFor": {
+        "one": "Nodig voor de vluchten.",
+        "other": "Nodig voor alle ${n} reizigers."
+      },
+      "titleMx": "Mx",
+      "passportGender": "Zoals in je paspoort",
+      "whatYouAreBooking": "Dit boek je",
+      "totalTaxesIncluded": "Totaal · incl. belastingen",
+      "vouchersLine": "$names · vouchers naar $email",
+      "terms": "Door te betalen ga je akkoord met de $terms van Layla en de annuleringsvoorwaarden van elke aanbieder.",
+      "termsLink": "voorwaarden",
+      "flightsNonRefundable": "Vliegtickets zijn na uitgifte niet restitueerbaar.",
+      "totalItems": {
+        "one": "1 item",
+        "other": "$n items"
+      },
+      "totalTravellers": {
+        "one": "1 reiziger",
+        "other": "$n reizigers"
+      },
+      "totalLine": "Totaal · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "Verloopt $exp · opgeslagen bij Stripe",
+      "anotherCard": "Andere kaart",
+      "anotherCardSub": "Vul je in de volgende stap in"
     }
   },
   "trips": {
@@ -3245,7 +3343,10 @@
     "heroLine": "${dates} · ${travellers}",
     "heroLineBudget": "${dates} · ${travellers} · budget onder ${budget}",
     "dates": "Data",
-    "travellers": "Reizigers",
+    "travellers": {
+      "one": "Reiziger",
+      "other": "Reizigers"
+    },
     "askLayla": "Vraag Layla",
     "dayByDay": "Dag voor dag",
     "days": {
@@ -3260,6 +3361,7 @@
     "free": "Gratis",
     "askAddToDay": "Vraag Layla om iets toe te voegen aan dag ${n}",
     "addToDayPrefill": "Voeg iets toe aan dag ${n}: ",
+    "addToDay": "Toevoegen aan dag ${n}",
     "pricesCheckedJustNow": "Prijzen zojuist gecheckt",
     "pricesCheckedMinutes": "Prijzen ${n} min geleden gecheckt",
     "pricesCheckedHours": {
@@ -3385,7 +3487,34 @@
       "getTo": "Naar ${city}",
       "flyHome": "Vlucht naar huis",
       "flyTo": "Vliegen naar ${city}"
-    }
+    },
+    "factDays": {
+      "one": "Dag",
+      "other": "Dagen"
+    },
+    "factStops": {
+      "one": "Stop",
+      "other": "Stops"
+    },
+    "countriesCount": {
+      "one": "${n} land",
+      "other": "${n} landen"
+    },
+    "countriesAnd": "${a} & ${b}",
+    "plannedWithLayla": "Gepland met Layla",
+    "askToChangeAnything": "Vraag om wat dan ook aan te passen",
+    "bookedOfItems": {
+      "one": "1 van ${m} items geboekt",
+      "other": "${n} van ${m} items geboekt"
+    },
+    "itemsBooked": {
+      "one": "${n} item geboekt",
+      "other": "${n} items geboekt"
+    },
+    "allBooked": "Alles geboekt",
+    "seeBooking": "Boeking bekijken",
+    "paidAmount": "${amount} betaald",
+    "vouchersInChat": "Vouchers in de chat"
   },
   "credit": {
     "heading": "Tegoed",
@@ -3496,6 +3625,20 @@
     "from_caption": "hotels en ervaringen, voor ${party} · data flexibel",
     "start_from_trip": "Begin met deze reis",
     "trip_unavailable": "Deze reis is nu even niet beschikbaar.",
+    "filters": {
+      "beach": "Strand",
+      "cities": "Steden",
+      "northern_lights": "Noorderlicht",
+      "road_trip": "Roadtrip",
+      "safari": "Safari"
+    },
+    "filter_count": {
+      "one": "${n} reis · ${theme}",
+      "other": "${n} reizen · ${theme}"
+    },
+    "nothing_here": "Hier is nog niets",
+    "layla_creator": "Layla-creator",
+    "plan_this_trip": "Deze reis plannen",
     "templates": {
       "thailand": {
         "title": "De Andamanse kust van Thailand",
@@ -3598,9 +3741,7 @@
       "activity": "Die prijzen voor activiteiten zijn verlopen, kun je opnieuw zoeken?"
     },
     "soldOut": "Uitverkocht",
-    "replace": "Vervangen",
     "seeAll": "Alles bekijken",
-    "replaceSoldOut": "Die is uitverkocht, zoek een alternatief voor me",
     "ratesExpiredTitle": "De prijzen kunnen veranderd zijn",
     "ratesExpiredBody": "We hebben deze prijs een tijdje niet gecheckt. Vernieuw hem voordat je betaalt.",
     "checkingPrice": "Prijs wordt gecheckt…",
@@ -3615,7 +3756,8 @@
       "body": "Je vouchers staan op deze telefoon. Chat en nieuwe berichten komen terug zodra er verbinding is.",
       "saved": "Opgeslagen",
       "status": "Offline"
-    }
+    },
+    "checkPriceAgain": "Prijs opnieuw checken"
   },
   "bookings": {
     "detail": {
@@ -3791,7 +3933,10 @@
       "changeFlight": "Vlucht wijzigen",
       "addBag": "Bagage toevoegen",
       "directions": "Route",
-      "cancel": "Annuleren"
+      "cancel": "Annuleren",
+      "pendingBadge": "In afwachting",
+      "refundPendingBadge": "Terugbetaling in behandeling",
+      "calendar": "Agenda"
     },
     "complexTrip": {
       "badge": "Complexe reis · $days dagen · $stops stops",
@@ -3802,6 +3947,52 @@
       "longTrip": "$n dagen",
       "planWith": "Plannen met $name",
       "keepGoing": "Verder met Layla"
+    },
+    "titles": {
+      "route": "$from naar $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "Reisboeking",
+      "badgeInProgress": "Wordt geboekt",
+      "badgePartial": "$n van $total bevestigd",
+      "badgeConfirmed": "Bevestigd",
+      "badgeCancelled": "Geannuleerd",
+      "noteInProgress": "We boeken elk onderdeel rechtstreeks bij de aanbieder. De vouchers komen in je chat en onder Boekingen zodra ze bevestigd zijn.",
+      "notePartial": "$n van $total bevestigd. De rest ligt bij de aanbieders; de vouchers volgen zodra ze bevestigd zijn.",
+      "noteConfirmed": "Alles geboekt. Vouchers en e-tickets staan in je chat en onder Boekingen.",
+      "noteCancelled": "Deze boeking is geannuleerd. Een eventuele terugbetaling volgt de voorwaarden van de aanbieders.",
+      "itemsCount": {
+        "one": "1 onderdeel",
+        "other": "$n onderdelen"
+      },
+      "paidLine": "$amount betaald · $date",
+      "payment": "Betaling",
+      "paymentRef": "Betaalreferentie",
+      "sectionStays": "Verblijven",
+      "sectionFlights": "Vluchten",
+      "sectionCars": "Huurauto",
+      "sectionTransfers": "Transfers",
+      "sectionActivities": "Activiteiten",
+      "sectionTransport": "Tickets",
+      "itemInProgress": "Wordt geboekt",
+      "itemConfirmed": "Bevestigd",
+      "itemCancelled": "Geannuleerd",
+      "confirmationReady": "Bevestiging staat klaar",
+      "askLayla": "Vraag Layla over deze boeking",
+      "askLaylaLine": "Wijzigingen, vragen, extra's: alles in de chat van de reis.",
+      "openTrip": "Reis openen",
+      "voucherEyebrow": "Reisboeking",
+      "voucherSubtitle": "Betaald · wordt geboekt",
+      "voucherPaid": "Betaald",
+      "voucherItems": "Onderdelen",
+      "voucherDates": "Data",
+      "voucherTravellers": "Reizigers",
+      "laylaPaid": "Betaald. Ik boek je $items nu bij de aanbieders; elke voucher verschijnt hier zodra hij bevestigd is.",
+      "laylaPaidSummary": "Reisbetaling ontvangen: $title, $items, $amount. Boekingen lopen bij de aanbieders; de vouchers volgen per onderdeel.",
+      "barAllBooked": "Alles geboekt",
+      "barVouchersInChat": "Vouchers in je chat",
+      "paidAmount": "$amount betaald"
     }
   },
   "passport": {
@@ -3857,21 +4048,29 @@
       "tryAgain": "Opnieuw proberen",
       "useInstead": "Liever ${provider} gebruiken",
       "connectedSeeFound": "${provider} gekoppeld · kijk wat ik heb gevonden",
-      "updateOne": "${provider} bijwerken",
-      "updateMany": "Koppelingen bijwerken"
+      "connectProvider": "${provider} koppelen",
+      "readOnlyLine": "Alleen lezen. Er wordt niets vanuit je account verstuurd.",
+      "connect": "Koppelen",
+      "otherInstead": "Liever ${provider}",
+      "connectedTwo": "${a} en ${b} gekoppeld",
+      "manage": "Beheren"
     },
     "picker": {
       "titleLead": "Breng je reiswereld",
       "titleHighlight": "bij elkaar",
-      "body": "Koppel de plekken waar je reizen al staan. Layla vindt wat je eerder hebt geboekt, ziet wanneer je vrij bent en plant daaromheen.",
-      "footer": "Alleen lezen. Layla leest boekingsbevestigingen, er wordt niets vanuit je account verstuurd. Ontkoppelen kan altijd bij Gekoppelde accounts.",
+      "body": "Layla vindt wat je eerder hebt geboekt, ziet wanneer je vrij bent en plant daaromheen.",
+      "footer": "Alleen lezen. Er wordt niets vanuit je accounts verstuurd. Ontkoppelen kan altijd bij Gekoppelde accounts.",
       "bestStart": "Beste start",
       "connectedLastRead": "Gekoppeld · laatst gelezen ${when}",
       "connectedPending": "Gekoppeld · eerste update volgt",
       "expiredLine": "Koppeling verlopen · koppel opnieuw om bij te blijven",
       "update": "Bijwerken",
       "reconnect": "Opnieuw koppelen",
-      "connect": "Koppelen"
+      "connect": "Koppelen",
+      "rowConnected": "Gekoppeld",
+      "rowEmail": "Boekingsmails",
+      "rowInstagram": "Alleen pro-accounts",
+      "rowExpired": "Koppeling verlopen"
     },
     "provider": {
       "googleSub": "Vindt je eerdere vluchten en hotels.",
@@ -3995,5 +4194,11 @@
       "removeFailed": "Verwijderen van de geïmporteerde gegevens is niet gelukt",
       "retry": "Opnieuw"
     }
+  },
+  "photoCredits": {
+    "title": "Fotocredits",
+    "today": "Uitzicht van vandaag",
+    "all": "Alle achtergronden",
+    "credit": "Foto van ${photographer} op Unsplash"
   }
 }
