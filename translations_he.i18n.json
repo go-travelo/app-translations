@@ -475,6 +475,14 @@
         "whySamePrice": "אותו מחיר",
         "whyCheaper": "זול יותר",
         "perDayLabel": "ליום"
+      },
+      "create": {
+        "todayView": "הנוף של היום · ${city}",
+        "attach": "צירוף קובץ",
+        "chipPlace": "כמה ימים ב${city}",
+        "chipPlacePrompt": "כמה ימים ב${city}: הכי טוב שיש שם, בלי לחץ, עם מקום נחמד לישון בו",
+        "chipSurprise": "תפתיעי אותי",
+        "chipSurprisePrompt": "תפתיעי אותי: סוף שבוע ארוך במקום שלא הייתי חושב עליו"
       }
     },
     "trip_empty": {
@@ -1785,7 +1793,7 @@
     ],
     "planIt": "לתכנן",
     "tapAndTell": "לחץ וספר ל-Layla",
-    "placeholder": "עשרה ימים באיטליה ליום הנישואין שלנו, בלי למהר…"
+    "placeholder": "לאן? ספר ל-Layla על התאריכים, התקציב והסגנון שלך…"
   },
   "creator": "יוצר",
   "currency": "מטבע",

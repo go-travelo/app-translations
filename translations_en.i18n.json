@@ -476,16 +476,10 @@
       "create": {
         "todayView": "Today's view · ${city}",
         "attach": "Attach",
-        "chipJapan": "Japan in spring",
-        "chipJapanPrompt": "Japan in spring, two weeks, cherry blossoms and great food, not too rushed",
-        "chipHoneymoon": "Honeymoon",
-        "chipHoneymoonPrompt": "A honeymoon somewhere romantic, ten days, beach and a bit of culture",
-        "chipFamilyBeach": "Family beach",
-        "chipFamilyBeachPrompt": "A family beach week with two kids, easy flights, pool and calm sea",
+        "chipPlace": "A few days in ${city}",
+        "chipPlacePrompt": "A few days in ${city}: the best of it at an easy pace, somewhere nice to stay",
         "chipSurprise": "Surprise me",
-        "chipSurprisePrompt": "Surprise me: a long weekend somewhere I would not think of",
-        "creatorTitle": "Or start from a creator's trip",
-        "creatorSub": "@benihunyadi · South of Italy road trip"
+        "chipSurprisePrompt": "Surprise me: a long weekend somewhere I would not think of"
       },
       "carQuick": {
         "seats": {
@@ -1906,7 +1900,7 @@
     ],
     "planIt": "Plan it",
     "tapAndTell": "Tap and tell Layla",
-    "placeholder": "Ten days in Italy for our anniversary, no rushing…"
+    "placeholder": "Where to? Tell Layla your dates, budget and style…"
   },
   "creator": "Creator",
   "currency": "Currency",

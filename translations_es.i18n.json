@@ -469,6 +469,14 @@
         "whySamePrice": "mismo precio",
         "whyCheaper": "más barato",
         "perDayLabel": "por día"
+      },
+      "create": {
+        "todayView": "La vista de hoy · ${city}",
+        "attach": "Adjuntar",
+        "chipPlace": "Unos días en ${city}",
+        "chipPlacePrompt": "Unos días en ${city}: lo mejor, sin prisas y con un sitio bonito donde dormir",
+        "chipSurprise": "Sorpréndeme",
+        "chipSurprisePrompt": "Sorpréndeme: un fin de semana largo en algún sitio que no se me ocurriría"
       }
     },
     "trip_empty": {
@@ -1723,7 +1731,7 @@
     ],
     "planIt": "Planéalo",
     "tapAndTell": "Toca y cuéntaselo a Layla",
-    "placeholder": "Diez días en Italia por nuestro aniversario, sin prisas…"
+    "placeholder": "¿A dónde? Cuéntale a Layla tus fechas, presupuesto y estilo…"
   },
   "creator": "Creador",
   "currency": "Moneda",

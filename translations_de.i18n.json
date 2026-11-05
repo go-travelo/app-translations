@@ -469,6 +469,14 @@
         "whySamePrice": "gleicher Preis",
         "whyCheaper": "günstiger",
         "perDayLabel": "pro Tag"
+      },
+      "create": {
+        "todayView": "Heute im Blick · ${city}",
+        "attach": "Anhängen",
+        "chipPlace": "Ein paar Tage in ${city}",
+        "chipPlacePrompt": "Ein paar Tage in ${city}: das Beste davon in Ruhe, mit einer schönen Unterkunft",
+        "chipSurprise": "Überrasch mich",
+        "chipSurprisePrompt": "Überrasch mich: ein langes Wochenende irgendwo, wo ich nicht drauf käme"
       }
     },
     "trip_empty": {
@@ -1723,7 +1731,7 @@
     ],
     "planIt": "Planen",
     "tapAndTell": "Tippen und Layla erzählen",
-    "placeholder": "Zehn Tage Italien zu unserem Hochzeitstag, ohne Hetze…"
+    "placeholder": "Wohin? Sag Layla deine Daten, dein Budget und deinen Stil…"
   },
   "creator": "Ersteller",
   "currency": "Währung",

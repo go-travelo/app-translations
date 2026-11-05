@@ -469,6 +469,14 @@
         "whySamePrice": "zelfde prijs",
         "whyCheaper": "goedkoper",
         "perDayLabel": "per dag"
+      },
+      "create": {
+        "todayView": "Uitzicht van vandaag · ${city}",
+        "attach": "Bijvoegen",
+        "chipPlace": "Een paar dagen in ${city}",
+        "chipPlacePrompt": "Een paar dagen in ${city}: het mooiste ervan, zonder haast, met een fijne plek om te slapen",
+        "chipSurprise": "Verras me",
+        "chipSurprisePrompt": "Verras me: een lang weekend ergens waar ik zelf niet op zou komen"
       }
     },
     "trip_empty": {
@@ -1723,7 +1731,7 @@
     ],
     "planIt": "Plan het",
     "tapAndTell": "Tik en vertel het Layla",
-    "placeholder": "Tien dagen Italië voor onze trouwdag, zonder haast…"
+    "placeholder": "Waarheen? Vertel Layla je data, budget en stijl…"
   },
   "creator": "Maker",
   "currency": "Valuta",

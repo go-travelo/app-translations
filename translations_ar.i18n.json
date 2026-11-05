@@ -481,6 +481,14 @@
         "whySamePrice": "نفس السعر",
         "whyCheaper": "أرخص",
         "perDayLabel": "لليوم"
+      },
+      "create": {
+        "todayView": "إطلالة اليوم · ${city}",
+        "attach": "إرفاق",
+        "chipPlace": "بضعة أيام في ${city}",
+        "chipPlacePrompt": "بضعة أيام في ${city}: أجمل ما فيها على مهل، مع مكان جميل للإقامة",
+        "chipSurprise": "فاجئيني",
+        "chipSurprisePrompt": "فاجئيني: عطلة نهاية أسبوع طويلة في مكان لم يخطر ببالي"
       }
     },
     "trip_empty": {
@@ -1846,7 +1854,7 @@
     ],
     "planIt": "خطّطها",
     "tapAndTell": "اضغط وأخبر Layla",
-    "placeholder": "عشرة أيام في إيطاليا بمناسبة ذكرى زواجنا، من دون عجلة…"
+    "placeholder": "إلى أين؟ أخبر Layla بتواريخك وميزانيتك وأسلوبك…"
   },
   "creator": "المبتكر",
   "currency": "العملة",
