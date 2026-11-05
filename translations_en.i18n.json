@@ -765,7 +765,7 @@
     "video": {
       "step1Title": "Your perfect trip,\nin minutes.",
       "step1Subtitle": "Real prices, curated picks. No tabs, no guesswork.",
-      "step2Title": "A Human Expert.\nAlways on standby.",
+      "step2Title": "A Human Advisor.\nAlways on standby.",
       "step2Subtitle": "Trip refinement, guidance and bookings. All done for you",
       "step3Title": "Better hotels.\nBetter prices.",
       "step3Subtitle": "Exclusive offers on selected stays. Yours to unlock."
@@ -1340,10 +1340,10 @@
     "block_1": "I'm Layla. I plan trips for a living, and I'm good at it. Tell me where you're leaning, who's coming and what kind of trip you actually want, and I'll have a real plan in front of you in minutes, not a mood board. I have opinions about where you should go. I'll share them.",
     "block_2": "Here's how I work. I read what you tell me, pick up on what you don't, and shape the trip around it: the right city for the right week, a neighbourhood that fits how you live, the restaurant worth crossing town for. No endless scrolling, no forty open tabs. Think of me as the friend with ridiculously good taste who already did the research.",
     "block_3": "I plan the whole thing, not just the highlights. Flights that connect sensibly, hotels I'd actually stay in, days paced so you're not sprinting between sights. If your plans change, tell me and I'll rework the itinerary around them. You stay in charge; I handle the logistics.",
-    "block_4": "Then real people take over. Behind me is a team of human travel experts who book, confirm and handle the details. They check the things an AI shouldn't guess at, like whether that transfer is realistic or that “sea view” is real, and they're reachable when something goes sideways on the road. Planned by Layla. Handled by her experts.",
+    "block_4": "Then real people take over. Behind me is a team of human travel advisors who book, confirm and handle the details. They check the things an AI shouldn't guess at, like whether that transfer is realistic or that “sea view” is real, and they're reachable when something goes sideways on the road. Planned by Layla. Handled by her advisors.",
     "block_5": "Booking is straightforward. Once you're happy with the plan, we lock it in. Flights, stays and activities come from trusted partners, with hotels booked through Expedia, so prices are real and bookings are confirmed. No sketchy sites, no surprise fees.",
-    "block_6": "The trip doesn't end at check-in. While you're away I'm still here: the best coffee near your hotel, what to do when it rains, how to get across town without losing an afternoon. Ask any time. The experts are on hand around the clock too, in whatever time zone you've landed in.",
-    "block_7": "So if you're done with the same old guidebook itinerary and want a trip that's actually yours, start a conversation with me. I'll plan it with taste, and the experts will make it real.\n\nAdventure awaits ✈️",
+    "block_6": "The trip doesn't end at check-in. While you're away I'm still here: the best coffee near your hotel, what to do when it rains, how to get across town without losing an afternoon. Ask any time. The advisors are on hand around the clock too, in whatever time zone you've landed in.",
+    "block_7": "So if you're done with the same old guidebook itinerary and want a trip that's actually yours, start a conversation with me. I'll plan it with taste, and the advisors will make it real.\n\nAdventure awaits ✈️",
     "button": "Chat with Layla"
   },
   "download_app": {
@@ -2335,14 +2335,14 @@
     "book": "Book",
     "delete": "Delete",
     "alternative": "Alternative",
-    "experts_title": "Book this Trip with our Experts",
+    "experts_title": "Book this Trip with our Advisors",
     "benefit1_title": "32+ hours of planning saved",
-    "benefit1_description": "Sit back — our experts take care of every detail for you.",
+    "benefit1_description": "Sit back — our advisors take care of every detail for you.",
     "benefit2_title": "${n}+ individual bookings handled",
     "benefit2_description": "Hotels, flights, activities — we coordinate everything for your dream trip.",
     "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
-    "continue_with_human": "Continue with a travel expert",
+    "continue_with_human": "Continue with a travel advisor",
     "continue_with_booking": "Continue with Booking"
   },
   "paywall": {
@@ -2432,10 +2432,10 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details."
     },
     "details": {
@@ -2524,7 +2524,7 @@
       "countrySearchEmpty": "No countries found",
       "storedSecurelyNote": "Stored securely and only shared with airlines and hotels to complete your booking.",
       "phoneTitle": "Contact phone",
-      "phoneSubtitle": "We'll only call if something needs attention. No expert calls or sales calls.",
+      "phoneSubtitle": "We'll only call if something needs attention. No advisor calls or sales calls.",
       "phoneLabel": "Phone number",
       "continueCta": "Continue to checkout",
       "skipLink": "I'll add my details later",
