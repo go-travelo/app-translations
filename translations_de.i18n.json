@@ -666,7 +666,7 @@
     "video": {
       "step1Title": "Deine perfekte Reise,\nin Minuten.",
       "step1Subtitle": "Echte Preise, kuratierte Auswahl. Keine Tabs, kein Rätselraten.",
-      "step2Title": "Ein menschlicher Experte.\nImmer bereit.",
+      "step2Title": "Ein menschlicher Berater.\nImmer bereit.",
       "step2Subtitle": "Reiseverbesserung, Beratung und Buchungen. Alles für dich erledigt",
       "step3Title": "Bessere Hotels.\nBessere Preise.",
       "step3Subtitle": "Exklusive Angebote für ausgewählte Unterkünfte. Deins zum Freischalten."
@@ -1241,10 +1241,10 @@
     "block_1": "Ich bin Layla. Reisen planen ist mein Job, und ich mache ihn gut. Sag mir, wohin es dich zieht, wer mitkommt und was für eine Reise du wirklich willst, und in wenigen Minuten liegt ein echter Plan vor dir, kein Moodboard. Ich habe eine Meinung dazu, wohin du fahren solltest. Und ich sage sie dir.",
     "block_2": "So arbeite ich: Ich höre zu, was du mir erzählst, achte auf das, was du nicht sagst, und baue die Reise darum herum. Die richtige Stadt für die richtige Woche, ein Viertel, das zu dir passt, das Restaurant, für das sich der Umweg lohnt. Kein endloses Scrollen, keine vierzig offenen Tabs. Stell dir die Freundin mit dem verdammt guten Geschmack vor, die die Recherche schon erledigt hat.",
     "block_3": "Ich plane die ganze Reise, nicht nur die Highlights. Flüge, die vernünftig anschließen, Hotels, in denen ich selbst schlafen würde, Tage mit genug Luft, damit du nicht von Sehenswürdigkeit zu Sehenswürdigkeit hetzt. Ändern sich deine Pläne, sag Bescheid, und ich baue die Route um. Du behältst das Steuer, ich kümmere mich um die Logistik.",
-    "block_4": "Dann übernehmen echte Menschen. Hinter mir steht ein Team aus Reiseexperten, das bucht, bestätigt und sich um die Details kümmert. Sie prüfen, was eine KI nicht raten sollte, etwa ob der Transfer realistisch ist oder der „Meerblick“ wirklich einer ist, und sie sind erreichbar, wenn unterwegs etwas schiefgeht. Geplant von Layla. Umgesetzt von ihrem Expertenteam.",
+    "block_4": "Dann übernehmen echte Menschen. Hinter mir steht ein Team aus Reiseberatern, das bucht, bestätigt und sich um die Details kümmert. Sie prüfen, was eine KI nicht raten sollte, etwa ob der Transfer realistisch ist oder der „Meerblick“ wirklich einer ist, und sie sind erreichbar, wenn unterwegs etwas schiefgeht. Geplant von Layla. Umgesetzt von ihrem Beraterteam.",
     "block_5": "Buchen ist unkompliziert. Sobald der Plan passt, machen wir ihn fest. Flüge, Unterkünfte und Aktivitäten kommen von verlässlichen Partnern, Hotels werden über Expedia gebucht. Die Preise sind echt, die Buchungen bestätigt. Keine zwielichtigen Seiten, keine versteckten Gebühren.",
-    "block_6": "Mit dem Check-in ist die Reise nicht vorbei. Unterwegs bin ich weiter da: der beste Kaffee in der Nähe deines Hotels, was du bei Regen machst, wie du durch die Stadt kommst, ohne einen Nachmittag zu verlieren. Frag jederzeit. Und das Expertenteam ist rund um die Uhr erreichbar, in welcher Zeitzone du auch gelandet bist.",
-    "block_7": "Wenn du also genug hast vom immer gleichen Reiseführer-Programm und eine Reise willst, die wirklich deine ist, fang ein Gespräch mit mir an. Ich plane sie mit Geschmack, und das Expertenteam macht sie wahr.\n\nDas Abenteuer wartet ✈️",
+    "block_6": "Mit dem Check-in ist die Reise nicht vorbei. Unterwegs bin ich weiter da: der beste Kaffee in der Nähe deines Hotels, was du bei Regen machst, wie du durch die Stadt kommst, ohne einen Nachmittag zu verlieren. Frag jederzeit. Und das Beraterteam ist rund um die Uhr erreichbar, in welcher Zeitzone du auch gelandet bist.",
+    "block_7": "Wenn du also genug hast vom immer gleichen Reiseführer-Programm und eine Reise willst, die wirklich deine ist, fang ein Gespräch mit mir an. Ich plane sie mit Geschmack, und das Beraterteam macht sie wahr.\n\nDas Abenteuer wartet ✈️",
     "button": "Mit Layla chatten"
   },
   "download_app": {
@@ -2258,14 +2258,14 @@
     "book": "Buchen",
     "delete": "Löschen",
     "alternative": "Alternative",
-    "experts_title": "Buche diese Reise mit unseren Experten",
+    "experts_title": "Buche diese Reise mit unseren Beratern",
     "benefit1_title": "32+ Stunden Planungszeit geschenkt",
-    "benefit1_description": "Lehnen Sie sich zurück – unsere Experten kümmern sich um jedes Detail.",
+    "benefit1_description": "Lehnen Sie sich zurück – unsere Berater kümmern sich um jedes Detail.",
     "benefit2_title": "${n}+ Einzelbuchungen für Sie erledigt",
     "benefit2_description": "Hotels, Flüge, Aktivitäten – wir koordinieren alles optimal für Ihre Traumreise.",
     "benefit3_title": "${n}+ Transfers nahtlos organisiert",
     "benefit3_description": "Von Stopp zu Stopp – wir sorgen für perfekt abgestimmte Verbindungen auf Ihrer Route.",
-    "continue_with_human": "Mit einem Reiseexperten fortfahren",
+    "continue_with_human": "Mit einem Reiseberater fortfahren",
     "continue_with_booking": "Weiter zur Buchung"
   },
   "create_screen": {
@@ -2322,10 +2322,10 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details."
     },
     "details": {

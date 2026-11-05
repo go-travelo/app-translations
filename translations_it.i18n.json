@@ -666,7 +666,7 @@
     "video": {
       "step1Title": "Il tuo viaggio perfetto,\nin pochi minuti.",
       "step1Subtitle": "Prezzi reali, selezione curata. Nessuna scheda, nessuna congettura.",
-      "step2Title": "Un esperto umano.\nSempre disponibile.",
+      "step2Title": "Un consulente umano.\nSempre disponibile.",
       "step2Subtitle": "Perfezionamento del viaggio, guida e prenotazioni. Tutto fatto per te",
       "step3Title": "Hotel migliori.\nPrezzi migliori.",
       "step3Subtitle": "Offerte esclusive su soggiorni selezionati. Tuoi da sbloccare."
@@ -1241,10 +1241,10 @@
     "block_1": "Sono Layla. Organizzo viaggi di mestiere, e lo faccio bene. Dimmi dove ti tira, chi viene e che tipo di viaggio vuoi davvero: in pochi minuti avrai davanti un piano vero, non una bacheca di ispirazioni. Ho delle opinioni su dove dovresti andare. E te le dico.",
     "block_2": "Ecco come lavoro. Ascolto quello che mi racconti, colgo quello che non dici e costruisco il viaggio attorno a questo. La città giusta nella settimana giusta, un quartiere che somiglia al tuo modo di vivere, il ristorante per cui vale la pena attraversare la città. Niente scroll infinito, niente quaranta schede aperte. Pensami come l'amica dal gusto spaventosamente buono che la ricerca l'ha già fatta.",
     "block_3": "Pianifico tutto il viaggio, non solo le tappe principali. Voli che si incastrano bene, hotel in cui dormirei io stessa, giornate con il ritmo giusto per non correre da un posto all'altro. Se i piani cambiano, dimmelo e ridisegno l'itinerario. Decidi tu; alla logistica penso io.",
-    "block_4": "Poi subentrano persone vere. Dietro di me c'è un team di esperti di viaggio che prenota, conferma e si occupa dei dettagli. Verificano ciò che un'IA non dovrebbe indovinare, per esempio se il trasferimento è realistico o se quella “vista mare” esiste davvero, e sono raggiungibili se qualcosa va storto lungo la strada. Pianificato da Layla. Gestito dai suoi esperti.",
+    "block_4": "Poi subentrano persone vere. Dietro di me c'è un team di consulenti di viaggio che prenota, conferma e si occupa dei dettagli. Verificano ciò che un'IA non dovrebbe indovinare, per esempio se il trasferimento è realistico o se quella “vista mare” esiste davvero, e sono raggiungibili se qualcosa va storto lungo la strada. Pianificato da Layla. Gestito dai suoi consulenti.",
     "block_5": "Prenotare è semplice. Quando il piano ti convince, lo blocchiamo. Voli, alloggi e attività arrivano da partner affidabili, e gli hotel si prenotano tramite Expedia. Prezzi reali, prenotazioni confermate. Niente siti dubbi, niente costi a sorpresa.",
-    "block_6": "Il viaggio non finisce al check-in. Mentre sei via ci sono ancora: il caffè migliore vicino al tuo hotel, cosa fare se piove, come attraversare la città senza perdere un pomeriggio. Chiedi quando vuoi. Anche gli esperti sono disponibili a qualsiasi ora, in qualunque fuso orario ti trovi.",
-    "block_7": "Quindi, se il solito itinerario da guida turistica non ti basta più e vuoi un viaggio che sia davvero tuo, inizia una conversazione con me. Io lo pianifico con gusto, e gli esperti lo rendono reale.\n\nL'avventura ti aspetta ✈️",
+    "block_6": "Il viaggio non finisce al check-in. Mentre sei via ci sono ancora: il caffè migliore vicino al tuo hotel, cosa fare se piove, come attraversare la città senza perdere un pomeriggio. Chiedi quando vuoi. Anche i consulenti sono disponibili a qualsiasi ora, in qualunque fuso orario ti trovi.",
+    "block_7": "Quindi, se il solito itinerario da guida turistica non ti basta più e vuoi un viaggio che sia davvero tuo, inizia una conversazione con me. Io lo pianifico con gusto, e i consulenti lo rendono reale.\n\nL'avventura ti aspetta ✈️",
     "button": "Chatta con Layla"
   },
   "download_app": {
@@ -2258,14 +2258,14 @@
     "book": "Prenota",
     "delete": "Elimina",
     "alternative": "Alternativa",
-    "experts_title": "Prenota questo viaggio con i nostri esperti",
+    "experts_title": "Prenota questo viaggio con i nostri consulenti",
     "benefit1_title": "Oltre 32 ore di pianificazione risparmiate",
-    "benefit1_description": "Rilassati — i nostri esperti si occupano di ogni dettaglio.",
+    "benefit1_description": "Rilassati — i nostri consulenti si occupano di ogni dettaglio.",
     "benefit2_title": "${n}+ prenotazioni individuali gestite",
     "benefit2_description": "Hotel, voli, attività — coordiniamo tutto per il tuo viaggio da sogno.",
     "benefit3_title": "${n}+ trasferimenti organizzati senza intoppi",
     "benefit3_description": "Da tappa a tappa — garantiamo coincidenze perfettamente sincronizzate sul tuo percorso.",
-    "continue_with_human": "Continua con un esperto di viaggi",
+    "continue_with_human": "Continua con un consulente di viaggio",
     "continue_with_booking": "Continua con la prenotazione"
   },
   "create_screen": {
@@ -2322,10 +2322,10 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details."
     },
     "details": {

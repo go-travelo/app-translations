@@ -666,7 +666,7 @@
     "video": {
       "step1Title": "Jouw perfecte reis,\nin minuten.",
       "step1Subtitle": "Echte prijzen, zorgvuldige selectie. Geen tabbladen, geen giswerk.",
-      "step2Title": "Een menselijke expert.\nAltijd beschikbaar.",
+      "step2Title": "Een menselijke adviseur.\nAltijd beschikbaar.",
       "step2Subtitle": "Reisverbetering, begeleiding en boekingen. Alles voor jou gedaan",
       "step3Title": "Betere hotels.\nBetere prijzen.",
       "step3Subtitle": "Exclusieve aanbiedingen voor geselecteerde verblijven. Van jou om te ontgrendelen."
@@ -1241,10 +1241,10 @@
     "block_1": "Ik ben Layla. Reizen plannen is mijn vak, en ik ben er goed in. Vertel me waar je naartoe neigt, wie er meegaat en wat voor reis je écht wilt, en binnen een paar minuten ligt er een echt plan voor je, geen moodboard. Ik heb een mening over waar je heen zou moeten. En die krijg je te horen.",
     "block_2": "Zo werk ik: ik luister naar wat je vertelt, pik op wat je niet zegt en bouw de reis daaromheen. De juiste stad in de juiste week, een buurt die past bij hoe je leeft, het restaurant waarvoor je de stad doorsteekt. Geen eindeloos scrollen, geen veertig open tabbladen. Zie me als de vriendin met belachelijk goede smaak die het uitzoekwerk al gedaan heeft.",
     "block_3": "Ik plan de hele reis, niet alleen de hoogtepunten. Vluchten die logisch op elkaar aansluiten, hotels waar ik zelf zou slapen, dagen met genoeg lucht zodat je niet van bezienswaardigheid naar bezienswaardigheid rent. Veranderen je plannen? Zeg het, dan bouw ik de route om. Jij houdt de regie, ik regel de logistiek.",
-    "block_4": "Daarna nemen echte mensen het over. Achter mij staat een team van reisexperts dat boekt, bevestigt en de details afhandelt. Zij checken wat een AI niet moet gokken, zoals of die transfer haalbaar is of dat ‘zeezicht’ echt bestaat, en ze zijn bereikbaar als er onderweg iets misgaat. Gepland door Layla. Geregeld door haar experts.",
+    "block_4": "Daarna nemen echte mensen het over. Achter mij staat een team van reisadviseurs dat boekt, bevestigt en de details afhandelt. Zij checken wat een AI niet moet gokken, zoals of die transfer haalbaar is of dat ‘zeezicht’ echt bestaat, en ze zijn bereikbaar als er onderweg iets misgaat. Gepland door Layla. Geregeld door haar adviseurs.",
     "block_5": "Boeken is simpel. Zodra het plan goed voelt, leggen we het vast. Vluchten, verblijven en activiteiten komen van betrouwbare partners, en hotels boek je via Expedia. Echte prijzen, bevestigde boekingen. Geen louche sites, geen verrassingskosten.",
-    "block_6": "De reis stopt niet bij het inchecken. Onderweg ben ik er nog steeds: de beste koffie bij je hotel, wat je doet als het regent, hoe je de stad oversteekt zonder een middag kwijt te zijn. Vraag het wanneer je wilt. Ook de experts zijn dag en nacht bereikbaar, in welke tijdzone je ook geland bent.",
-    "block_7": "Dus ben je klaar met het standaard reisgidsprogramma en wil je een reis die echt van jou is, begin dan een gesprek met mij. Ik plan hem met smaak, en de experts maken hem waar.\n\nHet avontuur wacht ✈️",
+    "block_6": "De reis stopt niet bij het inchecken. Onderweg ben ik er nog steeds: de beste koffie bij je hotel, wat je doet als het regent, hoe je de stad oversteekt zonder een middag kwijt te zijn. Vraag het wanneer je wilt. Ook de adviseurs zijn dag en nacht bereikbaar, in welke tijdzone je ook geland bent.",
+    "block_7": "Dus ben je klaar met het standaard reisgidsprogramma en wil je een reis die echt van jou is, begin dan een gesprek met mij. Ik plan hem met smaak, en de adviseurs maken hem waar.\n\nHet avontuur wacht ✈️",
     "button": "Chat met Layla"
   },
   "download_app": {
@@ -2258,14 +2258,14 @@
     "book": "Boeken",
     "delete": "Verwijderen",
     "alternative": "Alternatief",
-    "experts_title": "Boek deze reis met onze experts",
+    "experts_title": "Boek deze reis met onze adviseurs",
     "benefit1_title": "32+ uur planningswerk bespaard",
-    "benefit1_description": "Achterover leunen — onze experts zorgen voor elk detail.",
+    "benefit1_description": "Achterover leunen — onze adviseurs zorgen voor elk detail.",
     "benefit2_title": "${n}+ individuele boekingen afgehandeld",
     "benefit2_description": "Hotels, vluchten, activiteiten — wij coördineren alles voor uw droomreis.",
     "benefit3_title": "${n}+ transfers naadloos georganiseerd",
     "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
-    "continue_with_human": "Doorgaan met een reisexpert",
+    "continue_with_human": "Doorgaan met een reisadviseur",
     "continue_with_booking": "Doorgaan met boeken"
   },
   "create_screen": {
@@ -2322,10 +2322,10 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details."
     },
     "details": {

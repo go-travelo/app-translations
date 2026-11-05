@@ -656,7 +656,7 @@
     "video": {
       "step1Title": "完美旅程，\n几分钟搞定。",
       "step1Subtitle": "真实价格，精选推荐。无需切换标签，无需猜测。",
-      "step2Title": "真人专家，\n随时待命。",
+      "step2Title": "真人顾问，\n随时待命。",
       "step2Subtitle": "行程优化、指导和预订，全部为您一手包办",
       "step3Title": "更好的酒店，\n更优惠的价格。",
       "step3Subtitle": "精选住宿专属优惠，等你来解锁。"
@@ -1228,10 +1228,10 @@
     "block_1": "我是 Layla。规划旅行是我的本职，而且我做得很好。告诉我你想去哪个方向、和谁同行、真正想要什么样的旅程，几分钟内你面前就会有一份真正的计划，而不是一块灵感板。关于你该去哪儿，我有自己的看法。我也会直接说出来。",
     "block_2": "我是这样工作的：听你说的，留意你没说的，再围绕这些搭建整趟旅程。对的城市配对的那一周，一个和你生活方式合拍的街区，一家值得穿过半座城去吃的餐厅。不用无尽地刷屏，也不用开四十个标签页。把我当成那个品味好得离谱、已经替你做完功课的朋友。",
     "block_3": "我规划的是整趟旅程，不只是亮点。衔接合理的航班，我自己也愿意住的酒店，节奏舒服、不用在景点之间奔跑的每一天。计划有变，告诉我，我会重新安排行程。你来做主，物流交给我。",
-    "block_4": "接下来由真人接手。我身后有一支旅行专家团队，负责预订、确认和处理细节。他们会核实 AI 不该靠猜的事，比如接驳是否现实、那句「海景」是否真的存在，旅途中出了状况也能找到他们。Layla 规划，她的专家落实。",
+    "block_4": "接下来由真人接手。我身后有一支旅行顾问团队，负责预订、确认和处理细节。他们会核实 AI 不该靠猜的事，比如接驳是否现实、那句「海景」是否真的存在，旅途中出了状况也能找到他们。Layla 规划，她的顾问落实。",
     "block_5": "预订很简单。计划满意了，我们就锁定它。航班、住宿和活动都来自可信赖的合作伙伴，酒店通过 Expedia 预订。价格真实，预订有确认。没有可疑网站，也没有意外费用。",
-    "block_6": "旅程不会止于入住。你在外面的时候我依然在：酒店附近最好的咖啡，下雨天该做什么，怎样穿过城市而不浪费一个下午。随时问我。专家也全天候在线，无论你降落在哪个时区。",
-    "block_7": "所以，如果你厌倦了千篇一律的旅游指南行程，想要一趟真正属于你的旅行，就来和我聊聊。我用品味来规划，专家把它变成现实。\n\n冒险在等你 ✈️",
+    "block_6": "旅程不会止于入住。你在外面的时候我依然在：酒店附近最好的咖啡，下雨天该做什么，怎样穿过城市而不浪费一个下午。随时问我。顾问也全天候在线，无论你降落在哪个时区。",
+    "block_7": "所以，如果你厌倦了千篇一律的旅游指南行程，想要一趟真正属于你的旅行，就来和我聊聊。我用品味来规划，顾问把它变成现实。\n\n冒险在等你 ✈️",
     "button": "和Layla聊天"
   },
   "download_app": {
@@ -2220,14 +2220,14 @@
     "book": "预订",
     "delete": "删除",
     "alternative": "替代方案",
-    "experts_title": "与我们的专家一起预订此行程",
+    "experts_title": "与我们的顾问一起预订此行程",
     "benefit1_title": "节省超过 32 小时的规划时间",
-    "benefit1_description": "放松一下——我们的专家会为您处理每一个细节。",
+    "benefit1_description": "放松一下——我们的顾问会为您处理每一个细节。",
     "benefit2_title": "${n}+项个人预订已处理",
     "benefit2_description": "酒店、航班、活动——我们为您梦想之旅协调一切。",
     "benefit3_title": "${n}+次接送无缝安排",
     "benefit3_description": "站站相连——我们确保您行程路线上的完美衔接。",
-    "continue_with_human": "继续由旅行专家协助",
+    "continue_with_human": "继续由旅行顾问协助",
     "continue_with_booking": "继续预订"
   },
   "create_screen": {
@@ -2282,10 +2282,10 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details."
     },
     "details": {
