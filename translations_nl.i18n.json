@@ -128,7 +128,7 @@
       },
       "chatbot": {
         "inputHint": "Vraag me iets",
-        "msg1": "Hoi ${user} 👋\n\nIk ben Layla, je reisexpert.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
+        "msg1": "Hoi ${user} 👋\n\nIk ben Layla, je reisadviseur.\n\nVoordat we beginnen, zou ik graag willen weten wat voor soort reiziger je bent. 🌍\n\nVertel me wat voor soort reis je zoekt door te schrijven of te praten.",
         "msg2": "Geweldig! Ik denk dat ik begrijp waar je naar op zoek bent.\n\nHeb je nog meer eisen?",
         "msg3": "Waar ben je in geïnteresseerd?",
         "msg4": "Waar vertrek je vandaan?",
@@ -305,7 +305,7 @@
       },
       "continueWithSelected": "Doorgaan met ${n} geselecteerd",
       "advisor": {
-        "webviewTitle": "Praat met een reisexpert"
+        "webviewTitle": "Praat met een reisadviseur"
       },
       "activitiesCard": {
         "type": "Activiteiten",
@@ -973,7 +973,7 @@
     "video": {
       "step1Title": "Jouw perfecte reis,\nin minuten.",
       "step1Subtitle": "Echte prijzen, zorgvuldige selectie. Geen tabbladen, geen giswerk.",
-      "step2Title": "Een menselijke expert.\nAltijd beschikbaar.",
+      "step2Title": "Een menselijke adviseur.\nAltijd beschikbaar.",
       "step2Subtitle": "Reisverbetering, begeleiding en boekingen. Alles voor jou gedaan",
       "step3Title": "Betere hotels.\nBetere prijzen.",
       "step3Subtitle": "Exclusieve aanbiedingen voor geselecteerde verblijven. Van jou om te ontgrendelen."
@@ -996,7 +996,7 @@
           "subtitle": "Vluchten en verblijven voorgeselecteerd"
         },
         "advisor": {
-          "title": "Je reisexpert",
+          "title": "Je reisadviseur",
           "subtitle": "Checkt en boekt"
         },
         "destination": {
@@ -1107,7 +1107,7 @@
     "subscription_id_label": "Abonnements-ID:\n${subscriptionId}",
     "add_your_name": "Voeg je naam toe",
     "edit": "Bewerken",
-    "advisor_title": "Je reisexpert",
+    "advisor_title": "Je reisadviseur",
     "advisor_subtitle": "Plant met je mee, boekt alles en blijft bereikbaar terwijl je weg bent.",
     "book_a_call": "Gesprek inplannen",
     "your_trips": "Je reizen",
@@ -1134,7 +1134,7 @@
     "delete_confirm_again_title": "Laatste check",
     "delete_confirm_again_message": "Account van ${email} verwijderen? Er is geen weg terug.",
     "sign_in_to_keep_trips": "Log in om je reizen te bewaren",
-    "sign_in_subtitle": "Je plannen, boekingen en je reisexpert, op elk apparaat.",
+    "sign_in_subtitle": "Je plannen, boekingen en je reisadviseur, op elk apparaat.",
     "new_to_layla": "Nieuw bij Layla?",
     "switch_language_title": "Overschakelen naar ${language}?",
     "switch_language_message": "Layla spreekt vanaf nu ${language}.",
@@ -1554,10 +1554,10 @@
     "block_1": "Ik ben Layla. Reizen plannen is mijn vak, en ik ben er goed in. Vertel me waar je naartoe neigt, wie er meegaat en wat voor reis je écht wilt, en binnen een paar minuten ligt er een echt plan voor je, geen moodboard. Ik heb een mening over waar je heen zou moeten. En die krijg je te horen.",
     "block_2": "Zo werk ik: ik luister naar wat je vertelt, pik op wat je niet zegt en bouw de reis daaromheen. De juiste stad in de juiste week, een buurt die past bij hoe je leeft, het restaurant waarvoor je de stad doorsteekt. Geen eindeloos scrollen, geen veertig open tabbladen. Zie me als de vriendin met belachelijk goede smaak die het uitzoekwerk al gedaan heeft.",
     "block_3": "Ik plan de hele reis, niet alleen de hoogtepunten. Vluchten die logisch op elkaar aansluiten, hotels waar ik zelf zou slapen, dagen met genoeg lucht zodat je niet van bezienswaardigheid naar bezienswaardigheid rent. Veranderen je plannen? Zeg het, dan bouw ik de route om. Jij houdt de regie, ik regel de logistiek.",
-    "block_4": "Daarna nemen echte mensen het over. Achter mij staat een team van reisexperts dat boekt, bevestigt en de details afhandelt. Zij checken wat een AI niet moet gokken, zoals of die transfer haalbaar is of dat ‘zeezicht’ echt bestaat, en ze zijn bereikbaar als er onderweg iets misgaat. Gepland door Layla. Geregeld door haar experts.",
+    "block_4": "Daarna nemen echte mensen het over. Achter mij staat een team van reisadviseurs dat boekt, bevestigt en de details afhandelt. Zij checken wat een AI niet moet gokken, zoals of die transfer haalbaar is of dat ‘zeezicht’ echt bestaat, en ze zijn bereikbaar als er onderweg iets misgaat. Gepland door Layla. Geregeld door haar adviseurs.",
     "block_5": "Boeken is simpel. Zodra het plan goed voelt, leggen we het vast. Vluchten, verblijven en activiteiten komen van betrouwbare partners, en hotels boek je via Expedia. Echte prijzen, bevestigde boekingen. Geen louche sites, geen verrassingskosten.",
-    "block_6": "De reis stopt niet bij het inchecken. Onderweg ben ik er nog steeds: de beste koffie bij je hotel, wat je doet als het regent, hoe je de stad oversteekt zonder een middag kwijt te zijn. Vraag het wanneer je wilt. Ook de experts zijn dag en nacht bereikbaar, in welke tijdzone je ook geland bent.",
-    "block_7": "Dus ben je klaar met het standaard reisgidsprogramma en wil je een reis die echt van jou is, begin dan een gesprek met mij. Ik plan hem met smaak, en de experts maken hem waar.\n\nHet avontuur wacht ✈️",
+    "block_6": "De reis stopt niet bij het inchecken. Onderweg ben ik er nog steeds: de beste koffie bij je hotel, wat je doet als het regent, hoe je de stad oversteekt zonder een middag kwijt te zijn. Vraag het wanneer je wilt. Ook de adviseurs zijn dag en nacht bereikbaar, in welke tijdzone je ook geland bent.",
+    "block_7": "Dus ben je klaar met het standaard reisgidsprogramma en wil je een reis die echt van jou is, begin dan een gesprek met mij. Ik plan hem met smaak, en de adviseurs maken hem waar.\n\nHet avontuur wacht ✈️",
     "button": "Chat met Layla"
   },
   "download_app": {
@@ -1921,7 +1921,7 @@
       "noTransportationYet": "Nog geen vervoer",
       "addTransportation": "Vervoer toevoegen",
       "fromPrice": "vanaf ${price}",
-      "lockedBooked": "Geboekt. Wijzigingen aan deze route lopen via je reisexpert.",
+      "lockedBooked": "Geboekt. Wijzigingen aan deze route lopen via je reisadviseur.",
       "modes": {
         "privateCar": "Eigen auto",
         "rentalCar": "Huurauto",
@@ -2452,7 +2452,7 @@
       "dateOrder": "Elk vertrek moet op of na het vorige vallen"
     },
     "advisor": {
-      "plan_with": "Plan met een expert",
+      "plan_with": "Plan met een adviseur",
       "card": {
         "title": "Boeken met een reisadviseur",
         "meta": "Gratis gesprek van 30 min · boekt alles",
@@ -2623,14 +2623,14 @@
     "book": "Boeken",
     "delete": "Verwijderen",
     "alternative": "Alternatief",
-    "experts_title": "Boek deze reis met onze experts",
+    "experts_title": "Boek deze reis met onze adviseurs",
     "benefit1_title": "32+ uur planningswerk bespaard",
-    "benefit1_description": "Achterover leunen — onze experts zorgen voor elk detail.",
+    "benefit1_description": "Achterover leunen — onze adviseurs zorgen voor elk detail.",
     "benefit2_title": "${n}+ individuele boekingen afgehandeld",
     "benefit2_description": "Hotels, vluchten, activiteiten — wij coördineren alles voor uw droomreis.",
     "benefit3_title": "${n}+ transfers naadloos georganiseerd",
     "benefit3_description": "Van stop tot stop — wij zorgen voor perfect afgestemde verbindingen op uw route.",
-    "continue_with_human": "Doorgaan met een reisexpert",
+    "continue_with_human": "Doorgaan met een reisadviseur",
     "continue_with_booking": "Doorgaan met boeken"
   },
   "paywall": {
@@ -2720,12 +2720,12 @@
     "title": "Checkout",
     "method": {
       "title": "Hoe wil je boeken?",
-      "subtitle": "Betaal nu en wij regelen de boekingen, of laat je helpen door een reisexpert.",
+      "subtitle": "Betaal nu en wij regelen de boekingen, of laat je helpen door een reisadviseur.",
       "selfCheckout": "Zelf boeken",
       "selfCheckoutDesc": "Betaal nu veilig, wij boeken alles voor je.",
-      "expert": "Boeken met een expert",
+      "expert": "Boeken met een adviseur",
       "expertDesc": "Praat met een echt mens die de details regelt.",
-      "rail": "Expert"
+      "rail": "Adviseur"
     },
     "details": {
       "title": "What are we booking?",
@@ -2821,7 +2821,7 @@
       "countrySearchEmpty": "Geen landen gevonden",
       "storedSecurelyNote": "Veilig opgeslagen en alleen gedeeld met luchtvaartmaatschappijen en hotels om je boeking af te ronden.",
       "phoneTitle": "Telefoonnummer",
-      "phoneSubtitle": "We bellen alleen als er iets aandacht nodig heeft. Geen telefoontjes van experts of verkopers.",
+      "phoneSubtitle": "We bellen alleen als er iets aandacht nodig heeft. Geen telefoontjes van adviseurs of verkopers.",
       "phoneLabel": "Telefoonnummer",
       "continueCta": "Doorgaan naar afrekenen",
       "skipLink": "Ik vul mijn gegevens later in",
@@ -2929,7 +2929,7 @@
       "save": "Opslaan"
     },
     "call_hero": {
-      "title": "Gesprek met een reisexpert"
+      "title": "Gesprek met een reisadviseur"
     }
   },
   "trips_list": {
@@ -3117,8 +3117,8 @@
     }
   },
   "consultation": {
-    "title": "Praat met een reisexpert",
-    "advisorRole": "Je reisexpert",
+    "title": "Praat met een reisadviseur",
+    "advisorRole": "Je reisadviseur",
     "steps": {
       "details": "Gegevens",
       "schedule": "Tijd",
@@ -3126,7 +3126,7 @@
     },
     "details": {
       "heading": "Hoe bereiken we je?",
-      "subheading": "Je expert gebruikt dit om het gesprek te bevestigen.",
+      "subheading": "Je adviseur gebruikt dit om het gesprek te bevestigen.",
       "fullName": "Volledige naam",
       "email": "E-mail",
       "phone": "Telefoonnummer",
@@ -3134,7 +3134,7 @@
       "method": "Hoe wil je praten?",
       "video": "Videogesprek",
       "phoneCall": "Telefoongesprek",
-      "privacy": "Je gegevens blijven bij Layla en je expert.",
+      "privacy": "Je gegevens blijven bij Layla en je adviseur.",
       "nameRequired": "Vul je naam in",
       "emailInvalid": "Vul een geldig e-mailadres in",
       "emailRelay": "We hebben een werkend e-mailadres nodig om je gesprek te bevestigen.",
@@ -3159,14 +3159,14 @@
       "heading": "Helemaal geregeld, ${name}!",
       "headingNoName": "Helemaal geregeld!",
       "subheading": "Een agenda-uitnodiging met alle details is onderweg naar je mail.",
-      "advisor": "Expert",
+      "advisor": "Adviseur",
       "when": "Wanneer",
       "call": "Gesprek",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Verzetten",
       "cancelCall": "Gesprek annuleren",
       "done": "Klaar",
-      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je expert kan het ook over deze reis hebben.",
+      "otherTrip": "Je gesprek op ${date} dekt al je plannen. Je adviseur kan het ook over deze reis hebben.",
       "status": {
         "confirmed": "Bevestigd",
         "rescheduled": "Verzet",
@@ -3184,18 +3184,18 @@
       "disc": "Gesprek geboekt"
     },
     "advisorDisc": {
-      "book": "Een gesprek met je reisexpert inplannen",
-      "booked": "Je gesprek met de reisexpert"
+      "book": "Een gesprek met je reisadviseur inplannen",
+      "booked": "Je gesprek met de reisadviseur"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Je gesprek met je reisexpert is over 3 uur",
-      "oneHour": "Je gesprek met je reisexpert is over 1 uur",
-      "tenMinutes": "Je gesprek met je reisexpert is over 10 minuten",
-      "threeHoursNoName": "Je gesprek met je reisexpert is over 3 uur",
-      "oneHourNoName": "Je gesprek met je reisexpert is over 1 uur",
-      "tenMinutesNoName": "Je gesprek met je reisexpert is over 10 minuten",
+      "threeHours": "Je gesprek met je reisadviseur is over 3 uur",
+      "oneHour": "Je gesprek met je reisadviseur is over 1 uur",
+      "tenMinutes": "Je gesprek met je reisadviseur is over 10 minuten",
+      "threeHoursNoName": "Je gesprek met je reisadviseur is over 3 uur",
+      "oneHourNoName": "Je gesprek met je reisadviseur is over 1 uur",
+      "tenMinutesNoName": "Je gesprek met je reisadviseur is over 10 minuten",
       "body": "${time} · ${medium}. Tik voor de details."
     },
     "newMessage": {
@@ -3949,7 +3949,7 @@
     "complexTrip": {
       "badge": "Complexe reis · $days dagen · $stops stops",
       "title": "Hier is een mens op z'n plek.",
-      "line": "$name, reisexpert, plant en boekt dit gratis samen met jou. Ze ziet deze hele chat.",
+      "line": "$name, reisadviseur, plant en boekt dit gratis samen met jou. Ze ziet deze hele chat.",
       "multiCity": "Meerdere steden",
       "groupOf": "Groep van $n",
       "longTrip": "$n dagen",

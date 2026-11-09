@@ -128,7 +128,7 @@
       },
       "chatbot": {
         "inputHint": "Me pergunte qualquer coisa",
-        "msg1": "Oi ${user} 👋\n\nSou Layla, a sua especialista em viagens.\n\nAntes de começarmos, gostaria de saber que tipo de viajante que você é. 🌍\n\nMe diga que tipo de viagem você está procurando, pode escrever ou falar.",
+        "msg1": "Oi ${user} 👋\n\nSou Layla, a sua consultora de viagem.\n\nAntes de começarmos, gostaria de saber que tipo de viajante que você é. 🌍\n\nMe diga que tipo de viagem você está procurando, pode escrever ou falar.",
         "msg2": "Incrível! Acho que entendi o que você está procurando.\n\nVocê tem mais algum requisito?",
         "msg3": "O que te interessa?",
         "msg4": "De onde você partirá?",
@@ -305,7 +305,7 @@
       },
       "continueWithSelected": "Continuar com ${n} selecionados",
       "advisor": {
-        "webviewTitle": "Falar com um especialista em viagens"
+        "webviewTitle": "Falar com um consultor de viagem"
       },
       "activitiesCard": {
         "type": "Atividades",
@@ -973,7 +973,7 @@
     "video": {
       "step1Title": "A sua viagem perfeita,\nem minutos.",
       "step1Subtitle": "Preços reais, seleções curadas. Sem abas, sem suposições.",
-      "step2Title": "Um especialista humano.\nSempre disponível.",
+      "step2Title": "Um consultor humano.\nSempre disponível.",
       "step2Subtitle": "Refinamento de viagem, orientação e reservas. Tudo feito por você",
       "step3Title": "Melhores hotéis.\nMelhores preços.",
       "step3Subtitle": "Ofertas exclusivas em estadias selecionadas. Suas para desbloquear."
@@ -996,7 +996,7 @@
           "subtitle": "Voos e estadias pré-selecionados"
         },
         "advisor": {
-          "title": "Seu especialista",
+          "title": "Seu consultor",
           "subtitle": "Confere e reserva"
         },
         "destination": {
@@ -1107,7 +1107,7 @@
     "subscription_id_label": "ID de assinatura:\n${subscriptionId}",
     "add_your_name": "Adiciona o teu nome",
     "edit": "Editar",
-    "advisor_title": "Seu especialista em viagens",
+    "advisor_title": "Seu consultor de viagem",
     "advisor_subtitle": "Planeja com você, reserva tudo e fica disponível enquanto você viaja.",
     "book_a_call": "Marcar uma ligação",
     "your_trips": "Suas viagens",
@@ -1134,7 +1134,7 @@
     "delete_confirm_again_title": "Última confirmação",
     "delete_confirm_again_message": "Excluir a conta de ${email}? Não tem volta.",
     "sign_in_to_keep_trips": "Entre para guardar suas viagens",
-    "sign_in_subtitle": "Seus planos, reservas e seu especialista em viagens, em todos os seus aparelhos.",
+    "sign_in_subtitle": "Seus planos, reservas e seu consultor de viagem, em todos os seus aparelhos.",
     "new_to_layla": "Novo na Layla?",
     "switch_language_title": "Mudar para ${language}?",
     "switch_language_message": "A partir de agora, a Layla fala ${language}.",
@@ -1431,7 +1431,7 @@
       },
       "details": {
         "title": "Dados do viajante",
-        "hint": "Preenche as tuas reservas e chamadas com o especialista.",
+        "hint": "Preenche as tuas reservas e chamadas com o consultor.",
         "name": "Nome",
         "email": "E-mail",
         "phone": "Telefone",
@@ -1554,10 +1554,10 @@
     "block_1": "Eu sou a Layla. Planejar viagens é o meu trabalho, e eu faço isso bem. Me conta para onde você está pensando em ir, quem vai junto e que tipo de viagem você quer de verdade, e em poucos minutos você terá um plano real na sua frente, não um painel de inspiração. Eu tenho opinião sobre para onde você deveria ir. E vou dizer.",
     "block_2": "É assim que eu trabalho: escuto o que você me conta, percebo o que você não diz e monto a viagem em volta disso. A cidade certa na semana certa, um bairro que combina com o seu jeito de viver, o restaurante que vale atravessar a cidade. Sem rolagem infinita, sem quarenta abas abertas. Pense em mim como a amiga de gosto absurdamente bom que já fez a pesquisa.",
     "block_3": "Eu planejo a viagem inteira, não só os pontos altos. Voos que conectam com sentido, hotéis em que eu mesma ficaria, dias com ritmo para você não sair correndo de um lugar para o outro. Se os planos mudarem, me avisa e eu refaço o roteiro. Você no comando; eu cuido da logística.",
-    "block_4": "Depois entram pessoas de verdade. Atrás de mim tem um time de especialistas em viagem que reserva, confirma e resolve os detalhes. Eles checam o que uma IA não deveria chutar, como se o traslado é realista ou se aquela “vista para o mar” existe mesmo, e ficam disponíveis se algo der errado no caminho. Planejado pela Layla. Resolvido pelos especialistas dela.",
+    "block_4": "Depois entram pessoas de verdade. Atrás de mim tem um time de consultores de viagem que reserva, confirma e resolve os detalhes. Eles checam o que uma IA não deveria chutar, como se o traslado é realista ou se aquela “vista para o mar” existe mesmo, e ficam disponíveis se algo der errado no caminho. Planejado pela Layla. Resolvido pelos consultores dela.",
     "block_5": "Reservar é simples. Quando o plano estiver do seu jeito, a gente fecha. Voos, hospedagens e atividades vêm de parceiros de confiança, e os hotéis são reservados pela Expedia. Preços reais, reservas confirmadas. Nada de sites duvidosos nem taxas surpresa.",
-    "block_6": "A viagem não termina no check-in. Enquanto você estiver fora, eu continuo aqui: o melhor café perto do seu hotel, o que fazer se chover, como atravessar a cidade sem perder a tarde. Pergunte a qualquer hora. Os especialistas também ficam disponíveis o dia todo, em qualquer fuso em que você tenha pousado.",
-    "block_7": "Então, se você cansou do roteiro de guia de sempre e quer uma viagem que seja realmente sua, comece uma conversa comigo. Eu planejo com gosto, e os especialistas fazem acontecer.\n\nA aventura te espera ✈️",
+    "block_6": "A viagem não termina no check-in. Enquanto você estiver fora, eu continuo aqui: o melhor café perto do seu hotel, o que fazer se chover, como atravessar a cidade sem perder a tarde. Pergunte a qualquer hora. Os consultores também ficam disponíveis o dia todo, em qualquer fuso em que você tenha pousado.",
+    "block_7": "Então, se você cansou do roteiro de guia de sempre e quer uma viagem que seja realmente sua, comece uma conversa comigo. Eu planejo com gosto, e os consultores fazem acontecer.\n\nA aventura te espera ✈️",
     "button": "Converse com Layla"
   },
   "download_app": {
@@ -1921,7 +1921,7 @@
       "noTransportationYet": "Ainda sem transporte",
       "addTransportation": "Adicionar transporte",
       "fromPrice": "a partir de ${price}",
-      "lockedBooked": "Reservado. Mudanças neste trecho passam pelo seu especialista.",
+      "lockedBooked": "Reservado. Mudanças neste trecho passam pelo seu consultor.",
       "modes": {
         "privateCar": "Carro próprio",
         "rentalCar": "Carro alugado",
@@ -2452,7 +2452,7 @@
       "dateOrder": "Cada partida tem de ser no mesmo dia da anterior ou depois"
     },
     "advisor": {
-      "plan_with": "Planejar com um especialista",
+      "plan_with": "Planejar com um consultor",
       "card": {
         "title": "Reservar com um consultor de viagem",
         "meta": "Chamada grátis de 30 min · ele reserva tudo",
@@ -2623,14 +2623,14 @@
     "book": "Reservar",
     "delete": "Excluir",
     "alternative": "Alternativa",
-    "experts_title": "Reserve esta viagem com nossos especialistas",
+    "experts_title": "Reserve esta viagem com nossos consultores",
     "benefit1_title": "Mais de 32 horas de planejamento economizadas",
-    "benefit1_description": "Relaxe — nossos especialistas cuidam de cada detalhe.",
+    "benefit1_description": "Relaxe — nossos consultores cuidam de cada detalhe.",
     "benefit2_title": "${n}+ reservas individuais gerenciadas",
     "benefit2_description": "Hotéis, voos, atividades — coordenamos tudo para a sua viagem dos sonhos.",
     "benefit3_title": "${n}+ transferências organizadas sem problemas",
     "benefit3_description": "De parada em parada — garantimos conexões perfeitamente sincronizadas em sua rota.",
-    "continue_with_human": "Continuar com um especialista em viagens",
+    "continue_with_human": "Continuar com um consultor de viagem",
     "continue_with_booking": "Continuar com a reserva"
   },
   "paywall": {
@@ -2720,12 +2720,12 @@
     "title": "Checkout",
     "method": {
       "title": "Como você quer reservar?",
-      "subtitle": "Pague agora e a gente cuida das reservas, ou peça ajuda a um especialista em viagens.",
+      "subtitle": "Pague agora e a gente cuida das reservas, ou peça ajuda a um consultor de viagem.",
       "selfCheckout": "Reservo por conta própria",
       "selfCheckoutDesc": "Pague agora com segurança, a gente reserva tudo para você.",
-      "expert": "Reservar com um especialista",
+      "expert": "Reservar com um consultor",
       "expertDesc": "Fale com uma pessoa de verdade que resolve os detalhes.",
-      "rail": "Especialista"
+      "rail": "Consultor"
     },
     "details": {
       "title": "What are we booking?",
@@ -2821,7 +2821,7 @@
       "countrySearchEmpty": "Nenhum país encontrado",
       "storedSecurelyNote": "Guardados com segurança e compartilhados só com companhias aéreas e hotéis para concluir a sua reserva.",
       "phoneTitle": "Telefone de contato",
-      "phoneSubtitle": "Só ligamos se algo precisar da sua atenção. Nada de ligações de especialistas ou de vendas.",
+      "phoneSubtitle": "Só ligamos se algo precisar da sua atenção. Nada de ligações de consultores ou de vendas.",
       "phoneLabel": "Número de telefone",
       "continueCta": "Continuar para o pagamento",
       "skipLink": "Vou adicionar meus dados depois",
@@ -2929,7 +2929,7 @@
       "save": "Salvar"
     },
     "call_hero": {
-      "title": "Ligação com um especialista em viagens"
+      "title": "Ligação com um consultor de viagem"
     }
   },
   "trips_list": {
@@ -3117,8 +3117,8 @@
     }
   },
   "consultation": {
-    "title": "Falar com um especialista em viagens",
-    "advisorRole": "Seu especialista em viagens",
+    "title": "Falar com um consultor de viagem",
+    "advisorRole": "Seu consultor de viagem",
     "steps": {
       "details": "Contato",
       "schedule": "Horário",
@@ -3126,7 +3126,7 @@
     },
     "details": {
       "heading": "Como falamos com você?",
-      "subheading": "Seu especialista usa esses dados para confirmar a chamada.",
+      "subheading": "Seu consultor usa esses dados para confirmar a chamada.",
       "fullName": "Nome completo",
       "email": "E-mail",
       "phone": "Telefone",
@@ -3134,7 +3134,7 @@
       "method": "Como você prefere conversar?",
       "video": "Videochamada",
       "phoneCall": "Ligação",
-      "privacy": "Seus dados ficam só com a Layla e seu especialista.",
+      "privacy": "Seus dados ficam só com a Layla e seu consultor.",
       "nameRequired": "Digite seu nome",
       "emailInvalid": "Digite um e-mail válido",
       "emailRelay": "Precisamos de um e-mail que funcione para confirmar sua chamada.",
@@ -3159,14 +3159,14 @@
       "heading": "Tudo certo, ${name}!",
       "headingNoName": "Tudo certo!",
       "subheading": "Um convite de calendário com todos os detalhes está a caminho do seu e-mail.",
-      "advisor": "Especialista",
+      "advisor": "Consultor",
       "when": "Quando",
       "call": "Chamada",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Remarcar",
       "cancelCall": "Cancelar chamada",
       "done": "Pronto",
-      "otherTrip": "Sua chamada em ${date} cobre todos os seus planos. Seu especialista também pode falar sobre esta viagem.",
+      "otherTrip": "Sua chamada em ${date} cobre todos os seus planos. Seu consultor também pode falar sobre esta viagem.",
       "status": {
         "confirmed": "Confirmada",
         "rescheduled": "Remarcada",
@@ -3184,18 +3184,18 @@
       "disc": "Chamada agendada"
     },
     "advisorDisc": {
-      "book": "Marcar uma chamada com o teu especialista em viagens",
-      "booked": "A tua chamada com o especialista em viagens"
+      "book": "Marcar uma chamada com o teu consultor de viagem",
+      "booked": "A tua chamada com o consultor de viagem"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Sua ligação com o especialista em viagens é em 3 horas",
-      "oneHour": "Sua ligação com o especialista em viagens é em 1 hora",
-      "tenMinutes": "Sua ligação com o especialista em viagens é em 10 minutos",
-      "threeHoursNoName": "Sua ligação com o especialista é em 3 horas",
-      "oneHourNoName": "Sua ligação com o especialista é em 1 hora",
-      "tenMinutesNoName": "Sua ligação com o especialista é em 10 minutos",
+      "threeHours": "Sua ligação com o consultor de viagem é em 3 horas",
+      "oneHour": "Sua ligação com o consultor de viagem é em 1 hora",
+      "tenMinutes": "Sua ligação com o consultor de viagem é em 10 minutos",
+      "threeHoursNoName": "Sua ligação com o consultor é em 3 horas",
+      "oneHourNoName": "Sua ligação com o consultor é em 1 hora",
+      "tenMinutesNoName": "Sua ligação com o consultor é em 10 minutos",
       "body": "${time} · ${medium}. Toque para ver os detalhes."
     },
     "newMessage": {
@@ -3949,7 +3949,7 @@
     "complexTrip": {
       "badge": "Viagem complexa · $days dias · $stops paragens",
       "title": "Esta merece uma pessoa.",
-      "line": "A $name, especialista em viagens, planeia e reserva contigo, de graça. Vê toda esta conversa.",
+      "line": "A $name, consultora de viagem, planeia e reserva contigo, de graça. Vê toda esta conversa.",
       "multiCity": "Várias cidades",
       "groupOf": "Grupo de $n",
       "longTrip": "$n dias",

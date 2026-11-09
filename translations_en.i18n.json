@@ -128,7 +128,7 @@
       },
       "chatbot": {
         "inputHint": "Ask me anything",
-        "msg1": "Hey ${user} 👋\n\nI'm Layla, your travel expert.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
+        "msg1": "Hey ${user} 👋\n\nI'm Layla, your travel advisor.\n\nBefore we begin, I would love to learn what kind of a traveller you are. 🌍\n\nTell me what kind of a trip are you looking for by writing or speaking.",
         "msg2": "Amazing! I think I understand what you are looking for.\n\nDo you have any more requirements?",
         "msg3": "What are you interested in?",
         "msg4": "Where will you depart from?",
@@ -430,7 +430,7 @@
       },
       "continueWithSelected": "Continue with ${n} selected",
       "advisor": {
-        "webviewTitle": "Talk to a travel expert"
+        "webviewTitle": "Talk to a travel advisor"
       },
       "activitiesCard": {
         "type": "Activities",
@@ -1119,7 +1119,7 @@
     "video": {
       "step1Title": "Your perfect trip,\nin minutes.",
       "step1Subtitle": "Real prices, curated picks. No tabs, no guesswork.",
-      "step2Title": "A Human Expert.\nAlways on standby.",
+      "step2Title": "A Human Advisor.\nAlways on standby.",
       "step2Subtitle": "Trip refinement, guidance and bookings. All done for you",
       "step3Title": "Better hotels.\nBetter prices.",
       "step3Subtitle": "Exclusive offers on selected stays. Yours to unlock."
@@ -1142,7 +1142,7 @@
           "subtitle": "Shortlisted flights and stays"
         },
         "advisor": {
-          "title": "Your expert",
+          "title": "Your advisor",
           "subtitle": "Checks and books"
         },
         "destination": {
@@ -1253,7 +1253,7 @@
     "subscription_id_label": "Subscription ID:\n${subscriptionId}",
     "add_your_name": "Add your name",
     "edit": "Edit",
-    "advisor_title": "Your travel expert",
+    "advisor_title": "Your travel advisor",
     "advisor_subtitle": "Plans with you, books it and stays on call while you're away.",
     "book_a_call": "Book a call",
     "your_trips": "Your trips",
@@ -1280,7 +1280,7 @@
     "delete_confirm_again_title": "Last check",
     "delete_confirm_again_message": "Delete the account for ${email}? There is no way back.",
     "sign_in_to_keep_trips": "Sign in to keep your trips",
-    "sign_in_subtitle": "Your plans, bookings and your travel expert, on every device.",
+    "sign_in_subtitle": "Your plans, bookings and your travel advisor, on every device.",
     "new_to_layla": "New to Layla?",
     "switch_language_title": "Switch to ${language}?",
     "switch_language_message": "Layla will speak ${language} from now on.",
@@ -1580,7 +1580,7 @@
       },
       "details": {
         "title": "Traveller details",
-        "hint": "Prefills your bookings and expert calls.",
+        "hint": "Prefills your bookings and advisor calls.",
         "name": "Name",
         "email": "Email",
         "phone": "Phone",
@@ -1723,10 +1723,10 @@
     "block_1": "I'm Layla. I plan trips for a living, and I'm good at it. Tell me where you're leaning, who's coming and what kind of trip you actually want, and I'll have a real plan in front of you in minutes, not a mood board. I have opinions about where you should go. I'll share them.",
     "block_2": "Here's how I work. I read what you tell me, pick up on what you don't, and shape the trip around it: the right city for the right week, a neighbourhood that fits how you live, the restaurant worth crossing town for. No endless scrolling, no forty open tabs. Think of me as the friend with ridiculously good taste who already did the research.",
     "block_3": "I plan the whole thing, not just the highlights. Flights that connect sensibly, hotels I'd actually stay in, days paced so you're not sprinting between sights. If your plans change, tell me and I'll rework the itinerary around them. You stay in charge; I handle the logistics.",
-    "block_4": "Then real people take over. Behind me is a team of human travel experts who book, confirm and handle the details. They check the things an AI shouldn't guess at, like whether that transfer is realistic or that “sea view” is real, and they're reachable when something goes sideways on the road. Planned by Layla. Handled by her experts.",
+    "block_4": "Then real people take over. Behind me is a team of human travel advisors who book, confirm and handle the details. They check the things an AI shouldn't guess at, like whether that transfer is realistic or that “sea view” is real, and they're reachable when something goes sideways on the road. Planned by Layla. Handled by her advisors.",
     "block_5": "Booking is straightforward. Once you're happy with the plan, we lock it in. Flights, stays and activities come from trusted partners, with hotels booked through Expedia, so prices are real and bookings are confirmed. No sketchy sites, no surprise fees.",
-    "block_6": "The trip doesn't end at check-in. While you're away I'm still here: the best coffee near your hotel, what to do when it rains, how to get across town without losing an afternoon. Ask any time. The experts are on hand around the clock too, in whatever time zone you've landed in.",
-    "block_7": "So if you're done with the same old guidebook itinerary and want a trip that's actually yours, start a conversation with me. I'll plan it with taste, and the experts will make it real.\n\nAdventure awaits ✈️",
+    "block_6": "The trip doesn't end at check-in. While you're away I'm still here: the best coffee near your hotel, what to do when it rains, how to get across town without losing an afternoon. Ask any time. The advisors are on hand around the clock too, in whatever time zone you've landed in.",
+    "block_7": "So if you're done with the same old guidebook itinerary and want a trip that's actually yours, start a conversation with me. I'll plan it with taste, and the advisors will make it real.\n\nAdventure awaits ✈️",
     "button": "Chat with Layla"
   },
   "download_app": {
@@ -2090,7 +2090,7 @@
       "noTransportationYet": "No transportation yet",
       "addTransportation": "Add transportation",
       "fromPrice": "from ${price}",
-      "lockedBooked": "Booked. Changes to this route go through your expert.",
+      "lockedBooked": "Booked. Changes to this route go through your advisor.",
       "modes": {
         "privateCar": "Private car",
         "rentalCar": "Rental car",
@@ -2621,7 +2621,7 @@
       "dateOrder": "Each departure must be on or after the one before it"
     },
     "advisor": {
-      "plan_with": "Plan with an expert",
+      "plan_with": "Plan with an advisor",
       "card": {
         "title": "Book with a travel advisor",
         "meta": "Free 30-min call · books it",
@@ -2792,14 +2792,14 @@
     "book": "Book",
     "delete": "Delete",
     "alternative": "Alternative",
-    "experts_title": "Book this Trip with our Experts",
+    "experts_title": "Book this Trip with our Advisors",
     "benefit1_title": "32+ hours of planning saved",
-    "benefit1_description": "Sit back — our experts take care of every detail for you.",
+    "benefit1_description": "Sit back — our advisors take care of every detail for you.",
     "benefit2_title": "${n}+ individual bookings handled",
     "benefit2_description": "Hotels, flights, activities — we coordinate everything for your dream trip.",
     "benefit3_title": "${n}+ transfers seamlessly organized",
     "benefit3_description": "From stop to stop — we ensure perfectly timed connections on your route.",
-    "continue_with_human": "Continue with a travel expert",
+    "continue_with_human": "Continue with a travel advisor",
     "continue_with_booking": "Continue with Booking"
   },
   "paywall": {
@@ -2889,12 +2889,12 @@
     "title": "Checkout",
     "method": {
       "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
+      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel advisor.",
       "selfCheckout": "Book it myself",
       "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
+      "expert": "Book with an advisor",
       "expertDesc": "Talk to a human who'll sort out the details.",
-      "rail": "Expert"
+      "rail": "Advisor"
     },
     "details": {
       "title": "What are we booking?",
@@ -2990,7 +2990,7 @@
       "countrySearchEmpty": "No countries found",
       "storedSecurelyNote": "Stored securely and only shared with airlines and hotels to complete your booking.",
       "phoneTitle": "Contact phone",
-      "phoneSubtitle": "We'll only call if something needs attention. No expert calls or sales calls.",
+      "phoneSubtitle": "We'll only call if something needs attention. No advisor calls or sales calls.",
       "phoneLabel": "Phone number",
       "continueCta": "Continue to checkout",
       "skipLink": "I'll add my details later",
@@ -3098,7 +3098,7 @@
       "save": "Save"
     },
     "call_hero": {
-      "title": "Call with a travel expert"
+      "title": "Call with a travel advisor"
     }
   },
   "trips_list": {
@@ -3404,8 +3404,8 @@
     }
   },
   "consultation": {
-    "title": "Talk to a travel expert",
-    "advisorRole": "Your travel expert",
+    "title": "Talk to a travel advisor",
+    "advisorRole": "Your travel advisor",
     "steps": {
       "details": "Details",
       "schedule": "Time",
@@ -3413,7 +3413,7 @@
     },
     "details": {
       "heading": "How can we reach you?",
-      "subheading": "Your expert uses these to confirm the call.",
+      "subheading": "Your advisor uses these to confirm the call.",
       "fullName": "Full name",
       "email": "Email",
       "phone": "Phone number",
@@ -3421,7 +3421,7 @@
       "method": "How would you like to talk?",
       "video": "Video call",
       "phoneCall": "Phone call",
-      "privacy": "Your details stay with Layla and your expert.",
+      "privacy": "Your details stay with Layla and your advisor.",
       "nameRequired": "Please add your name",
       "emailInvalid": "Please enter a valid email address",
       "emailRelay": "We need a working email to confirm your call.",
@@ -3446,14 +3446,14 @@
       "heading": "You're all set, ${name}!",
       "headingNoName": "You're all set!",
       "subheading": "A calendar invite with the details is on its way to your email.",
-      "advisor": "Expert",
+      "advisor": "Advisor",
       "when": "When",
       "call": "Call",
       "callValue": "${medium} · ${minutes} min",
       "reschedule": "Reschedule",
       "cancelCall": "Cancel call",
       "done": "Done",
-      "otherTrip": "Your call on ${date} covers all your plans. Your expert can talk about this trip too.",
+      "otherTrip": "Your call on ${date} covers all your plans. Your advisor can talk about this trip too.",
       "status": {
         "confirmed": "Confirmed",
         "rescheduled": "Rescheduled",
@@ -3471,18 +3471,18 @@
       "disc": "Call booked"
     },
     "advisorDisc": {
-      "book": "Book a call with your expert",
-      "booked": "Your expert call"
+      "book": "Book a call with your advisor",
+      "booked": "Your advisor call"
     }
   },
   "notifications": {
     "callReminder": {
-      "threeHours": "Your call with a travel expert is in 3 hours",
-      "oneHour": "Your call with a travel expert is in 1 hour",
-      "tenMinutes": "Your call with a travel expert is in 10 minutes",
-      "threeHoursNoName": "Your expert call is in 3 hours",
-      "oneHourNoName": "Your expert call is in 1 hour",
-      "tenMinutesNoName": "Your expert call is in 10 minutes",
+      "threeHours": "Your call with a travel advisor is in 3 hours",
+      "oneHour": "Your call with a travel advisor is in 1 hour",
+      "tenMinutes": "Your call with a travel advisor is in 10 minutes",
+      "threeHoursNoName": "Your advisor call is in 3 hours",
+      "oneHourNoName": "Your advisor call is in 1 hour",
+      "tenMinutesNoName": "Your advisor call is in 10 minutes",
       "body": "${time} · ${medium}. Tap for the details."
     },
     "newMessage": {
@@ -4271,7 +4271,7 @@
     "complexTrip": {
       "badge": "Complex trip · $days days · $stops stops",
       "title": "This one's worth a human.",
-      "line": "$name, a travel expert, can plan and book it with you, free. They get this whole chat.",
+      "line": "$name, a travel advisor, can plan and book it with you, free. They get this whole chat.",
       "multiCity": "Multi-city",
       "groupOf": "Group of $n",
       "longTrip": "$n days",
