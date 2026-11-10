@@ -1894,5 +1894,9 @@
         "feesAtPropertyNote": "Ces frais sont à régler à l'établissement à l'arrivée ou au départ ; ils sont fixés par l'établissement et ne sont pas inclus dans le total ci-dessus."
       }
     }
+  },
+  "geoBlocked": {
+    "title": "Layla n'est pas disponible dans votre région",
+    "subtitle": "Nous ne pouvons pas proposer nos services dans votre région pour le moment. Nous vous prions de nous excuser pour la gêne occasionnée."
   }
 }

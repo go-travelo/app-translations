@@ -1885,5 +1885,9 @@
     "sort_trip_date": "Reisdatum",
     "sort_last_updated": "Laatst bijgewerkt",
     "sort_date_created": "Aanmaakdatum"
+  },
+  "geoBlocked": {
+    "title": "Layla is niet beschikbaar in jouw regio",
+    "subtitle": "We kunnen onze diensten op dit moment niet aanbieden op jouw locatie. Excuses voor het ongemak."
   }
 }

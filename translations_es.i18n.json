@@ -1894,5 +1894,9 @@
         "feesAtPropertyNote": "Estos cargos se pagan en el alojamiento al hacer el check-in o el check-out, los fija el alojamiento y no están incluidos en el total anterior."
       }
     }
+  },
+  "geoBlocked": {
+    "title": "Layla no está disponible en tu región",
+    "subtitle": "No podemos ofrecer nuestros servicios en tu ubicación en este momento. Lamentamos las molestias."
   }
 }

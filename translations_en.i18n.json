@@ -2214,5 +2214,9 @@
       "cta": "Update now",
       "later": "Maybe later"
     }
+  },
+  "geoBlocked": {
+    "title": "Layla isn't available in your region",
+    "subtitle": "We're unable to offer our services in your location right now. We're sorry for the inconvenience."
   }
 }
