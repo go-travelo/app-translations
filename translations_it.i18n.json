@@ -1646,8 +1646,8 @@
     "other": "${n} ospiti"
   },
   "room": {
-    "one": "${n} stanza",
-    "other": "${n} stanze"
+    "one": "${n} camera",
+    "other": "${n} camere"
   },
   "person": {
     "one": "${n} persona",
@@ -1658,8 +1658,8 @@
     "other": "${n} recensioni"
   },
   "rooms": {
-    "one": "${n} stanza",
-    "other": "${n} stanze"
+    "one": "${n} camera",
+    "other": "${n} camere"
   },
   "stop": {
     "one": "${n} fermata",
