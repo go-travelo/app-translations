@@ -1,4 +1,103 @@
 {
+  "activityDetail": {
+    "topRated": "Високо оценено",
+    "bestseller": "Бестселър",
+    "freeAdmission": "Безплатен вход",
+    "reviewsTitle": "Отзиви",
+    "reviewsCount": "${n} отзива",
+    "seeAll": "Виж всички",
+    "topicService": "Обслужване",
+    "topicTransportation": "Транспорт",
+    "topicValue": "Цена/качество",
+    "topicSafety": "Безопасност",
+    "lovedTitle": "Какво хареса на пътуващите",
+    "goodToKnowTitle": "Добре е да знаеш",
+    "durationLabel": "Продължителност",
+    "durationMinutes": "${n} мин",
+    "durationHours": "${n} ч",
+    "durationDays": "${n} дни",
+    "groupSizeLabel": "Размер на групата",
+    "groupSizeUpTo": "До ${n} души",
+    "groupSizeRange": "${min}–${max} души",
+    "validityLabel": "Валидност",
+    "languagesLabel": "Езици",
+    "liveGuide": "Екскурзовод на живо",
+    "featureSkipTheLine": "Без чакане на опашка",
+    "featureWheelchairAccessible": "Достъпно за инвалидни колички",
+    "featurePickupIncluded": "Включено вземане от адрес",
+    "featureMobileVoucher": "Мобилен ваучер",
+    "featureInstantConfirmation": "Незабавно потвърждение",
+    "highlightsTitle": "Акценти",
+    "descriptionTitle": "За това преживяване",
+    "insiderTipsTitle": "Съвети от местни",
+    "optionsTitle": "Опции",
+    "includesTitle": "Какво е включено",
+    "addonsTitle": "Допълнения",
+    "itineraryTitle": "Маршрут",
+    "itineraryStart": "Начало",
+    "itineraryFinish": "Край",
+    "admissionIncluded": "Входът е включен",
+    "admissionNotIncluded": "Входът не е включен",
+    "passBy": "Преминава без спиране",
+    "meetingPointTitle": "Място на среща",
+    "notSuitableTitle": "Не е подходящо за",
+    "whatToBringTitle": "Какво да вземеш",
+    "notAllowedTitle": "Не е разрешено",
+    "importantInfoTitle": "Важна информация",
+    "freeCancellation": "Безплатно анулиране",
+    "freeCancellationBefore": "Безплатно анулиране до ${hours} ч преди началото",
+    "supplierTitle": "Организатор",
+    "machineTranslatedNote": "Част от това съдържание е преведена автоматично.",
+    "openingHoursTitle": "Работно време",
+    "faqTitle": "Често задавани въпроси",
+    "experiencesTitle": "Начини да го преживееш",
+    "recommendationsTitle": "Може да ти хареса и",
+    "fromPrice": "От"
+  },
+  "placeDetail": {
+    "aboutTitle": "За мястото",
+    "goodToKnowTitle": "Добре е да знаеш",
+    "openingHoursTitle": "Работно време",
+    "contactTitle": "Контакт",
+    "permanentlyClosed": "Затворено за постоянно",
+    "temporarilyClosed": "Временно затворено",
+    "unavailable": "В момента подробностите не са налични.",
+    "viewOnGoogleMaps": "Виж в Google Maps",
+    "perPerson": "на човек",
+    "offerings": {
+      "dineIn": "Хранене на място",
+      "takeout": "За вкъщи",
+      "delivery": "Доставка",
+      "curbsidePickup": "Вземане пред заведението",
+      "reservable": "Резервации",
+      "breakfast": "Закуска",
+      "brunch": "Брънч",
+      "lunch": "Обяд",
+      "dinner": "Вечеря",
+      "beer": "Бира",
+      "wine": "Вино",
+      "vegetarian": "Вегетариански опции",
+      "cocktails": "Коктейли",
+      "coffee": "Кафе",
+      "dessert": "Десерт",
+      "outdoorSeating": "Места на открито",
+      "liveMusic": "Музика на живо",
+      "menuForChildren": "Детско меню",
+      "goodForChildren": "Подходящо за деца",
+      "goodForGroups": "Подходящо за групи",
+      "goodForWatchingSports": "Спорт по телевизията",
+      "allowsDogs": "Кучетата са добре дошли",
+      "restroom": "Тоалетна",
+      "creditCards": "Кредитни карти",
+      "contactless": "Безконтактно плащане",
+      "freeParking": "Безплатен паркинг",
+      "paidParking": "Платен паркинг",
+      "valetParking": "Паркинг с пиколо",
+      "wheelchair": "Достъпно за инвалидни колички",
+      "wheelchairParking": "Паркинг за хора с увреждания",
+      "wheelchairRestroom": "Достъпна тоалетна"
+    }
+  },
   "blog": {
     "postNotFound": "Моля, провери URL адреса, нямаме такава публикация.",
     "askLaylaAbout": "Попитайте Layla за ${name}",
@@ -29,7 +128,7 @@
       },
       "chatbot": {
         "inputHint": "Питай ме каквото и да е",
-        "msg1": "Здравей ${user} 👋\n\nАз съм Layla, твоят съветник по пътувания.\n\nПреди да започнем, бих искала да разбера какъв тип пътешественик си. 🌍\n\nКажи ми какъв тип пътешествие търсиш, като пишеш или говориш с мен.",
+        "msg1": "Здравей ${user} 👋\n\nАз съм Layla, твоята консултантка по пътувания.\n\nПреди да започнем, бих искала да разбера какъв тип пътешественик си. 🌍\n\nКажи ми какъв тип пътешествие търсиш, като пишеш или говориш с мен.",
         "msg2": "Страхотно! Мисля, че разбрах какво търсиш.\n\nИмаш ли още изисквания?",
         "msg3": "От какво се интересуваш?",
         "msg4": "Откъде ще тръгнеш?",
@@ -65,12 +164,19 @@
       "rename_chat": "Преименувай Чат",
       "delete_chat": "Изтрий Чат?",
       "delete_chat_message": "${name} ще бъде изтрит завинаги.",
-      "info_and_support": "Информация и Поддръжка"
+      "info_and_support": "Информация и Поддръжка",
+      "today": "Днес",
+      "yesterday": "Вчера",
+      "previous_7_days": "Последните 7 дни",
+      "earlier": "По-рано",
+      "search_chats": "Търсене в чатовете"
     },
     "chat": {
       "title": "Layla - AI Планиране на Пътуване",
       "isTyping": "${name} пише...",
-      "typing": "Layla пише...",
+      "thinking": "Layla мисли",
+      "newMessage": "Ново съобщение",
+      "mediaGifBadge": "GIF",
       "generatingTrip": "Генериране на вашето пътуване...",
       "tripGenerating": {
         "routes": "Най-добрите маршрути, заключени",
@@ -104,6 +210,10 @@
         }
       },
       "messageHint": "Попитайте ме за всичко",
+      "chatWithLayla": "Пишете на Layla",
+      "discardRecording": "Изтрий записа",
+      "useRecording": "Използвай записа",
+      "possibleNextSteps": "Възможни следващи стъпки",
       "contextMenu": {
         "copy": "Копирай",
         "good_response": "Добър отговор",
@@ -120,7 +230,42 @@
         "latestTrip": "Последно пътуване",
         "previousTrip": "Предишно пътуване",
         "expiredTripTooltip": "Това е предишна версия. Последното ви пътуване е показано по-горе.",
-        "continueWithHuman": "Продължете резервацията с агент"
+        "continueWithHuman": "Продължете резервацията с агент",
+        "version": "Версия ${number}",
+        "versionOf": "Версия ${number} от ${total}",
+        "building": {
+          "badge": "Подготвя се",
+          "flights": "Полети",
+          "stay": "Настаняване",
+          "dayPlan": "План по дни",
+          "airportTransfer": "Трансфер от летището",
+          "next": "следва",
+          "under": "под ${amount}",
+          "step": "${phase} · ${n} от ${total}"
+        },
+        "ready": {
+          "badge": "Планът е готов",
+          "openTrip": "Отвори пътуването",
+          "fromFor": "От ${price} за ${n}",
+          "flights": {
+            "one": "${n} полет",
+            "other": "${n} полета"
+          },
+          "stays": {
+            "one": "${n} настаняване",
+            "other": "${n} настанявания"
+          },
+          "car": "кола",
+          "activities": {
+            "one": "${n} дейност",
+            "other": "${n} дейности"
+          },
+          "transfer": "трансфер"
+        },
+        "latestVersion": "Най-нова версия",
+        "reopenVersion": "Отвори тази версия отново",
+        "backToLatest": "Обратно към най-новата",
+        "previewingVersion": "Разглеждаш версия ${number}"
       },
       "hotelsCard": {
         "type": "Хотели",
@@ -131,16 +276,355 @@
           "other": "${n} хотела"
         }
       },
-      "attach": {
-        "photoLibrary": "Фотогалерия",
-        "files": "Файлове"
+      "hotelQuick": {
+        "laylasPick": "Изборът на Layla",
+        "bookNamed": "Резервирай ${name}",
+        "perNight": "на нощ",
+        "staysNear": "Настаняване близо до ${area}",
+        "stays": "Настаняване",
+        "results": {
+          "one": "${n} резултат",
+          "other": "${n} резултата"
+        },
+        "guests": {
+          "one": "${n} гост",
+          "other": "${n} гости"
+        },
+        "sortPick": "Изборът на Layla",
+        "sortPrice": "Цена",
+        "sortRating": "Оценка",
+        "backToChat": "Обратно към чата",
+        "whyPicked": "Защо Layla избра това",
+        "yourRoom": "Твоята стая",
+        "changeRoom": "Смени стаята",
+        "chooseRoom": "Избери стая",
+        "viaExpedia": "чрез Expedia",
+        "bookIt": "Резервирай",
+        "bookOnSite": "Резервирай на сайта на хотела",
+        "freeCancellationUntil": "Безплатна отмяна до ${date}",
+        "nonRefundable": "Без възстановяване",
+        "roomsLoading": "Проверяваме свободните стаи…",
+        "noLiveRooms": "В момента няма свободни стаи за тези дати",
+        "wonderful": "Чудесно",
+        "freeCancellation": "Безплатна отмяна",
+        "mapView": "Карта",
+        "sortLabel": "Подредба: ${sort}",
+        "share": "Сподели",
+        "addToTrip": "Добави към пътуване вместо това",
+        "addToTripAsk": "Добави ${name} към пътуването ми",
+        "allFacilities": "Всички удобства",
+        "guestReviews": "Отзиви от гости",
+        "allReviews": "Всички отзиви",
+        "select": "Избери",
+        "selected": "Избрано",
+        "chooseDates": "Избери дати",
+        "pickDates": "Посочи дати",
+        "aboutRoom": "За стаята",
+        "rates": "Тарифи",
+        "reviews": "Отзиви"
       },
-      "possibleNextSteps": "Възможни следващи стъпки",
+      "flightsCard": {
+        "type": "Полети",
+        "inLocation": "Полети до ${location}",
+        "seeAll": "Виж всички полети",
+        "moreFlights": {
+          "one": "+${n} още полет",
+          "other": "+${n} още полета"
+        },
+        "checkedBag": "Чекиран багаж включен",
+        "cabinBag": "Ръчен багаж включен"
+      },
+      "carRentalsCard": {
+        "type": "Коли под наем",
+        "inLocation": "Коли в ${location}",
+        "seeAll": "Виж всички коли",
+        "priceTotal": "общо"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} от ${total}"
+      },
+      "attach": {
+        "photoLibrary": "Снимки",
+        "files": "Файлове",
+        "camera": "Камера",
+        "title": "Добави в чата"
+      },
       "destinations_card": {
         "title": "Дестинации за теб",
-        "subtitle": "Докосни, за да гледаш и избереш"
+        "more": {
+          "one": "още ${n} дестинация",
+          "other": "още ${n} дестинации"
+        },
+        "subtitle": "Докосни, за да гледаш и избереш",
+        "feedTitle": "Избери дестинациите си",
+        "open": "Отвори",
+        "add": "Добави",
+        "added": "Добавено",
+        "selectedCount": {
+          "one": "${n} избрана",
+          "other": "${n} избрани"
+        },
+        "planWith": {
+          "one": "Планирай с ${n} дестинация",
+          "other": "Планирай с ${n} дестинации"
+        },
+        "idealFor": "Идеално за ${days}"
       },
-      "continueWithSelected": "Продължи с ${n} избрани"
+      "continueWithSelected": "Продължи с ${n} избрани",
+      "advisor": {
+        "webviewTitle": "Говори с пътен консултант"
+      },
+      "activitiesCard": {
+        "type": "Дейности",
+        "inLocation": "Дейности в ${location}",
+        "seeAll": "Виж всички дейности",
+        "addMessage": "Добави ${name} към пътуването ми"
+      },
+      "connectorsChip": "Импортирай от Gmail или Outlook",
+      "legalLine": "Туристическа услуга с помощта на ИИ",
+      "askAbout": "Питай за ${title}…",
+      "tripPill": "Пътуване",
+      "tripPillBuilding": "Пътуване · подготвя се",
+      "status": {
+        "online": "На линия",
+        "thinking": "Мисли…",
+        "buildingTrip": "Сглобява пътуването ти",
+        "readingChanges": "Чете промените ти",
+        "checkingBudget": "Проверява бюджета",
+        "pickingDestinations": "Избира дестинации",
+        "checkingStays": "Проверява местата за настаняване",
+        "findingThingsToDo": "Търси какво да правиш",
+        "findingSights": "Търси забележителности",
+        "workingOutRoute": "Начертава маршрута",
+        "pricingTransfers": "Проверява цени на трансфери",
+        "pricingCar": "Проверява цени на коли",
+        "pricingFlights": "Проверява цени на полети",
+        "buildingItinerary": "Подготвя програмата",
+        "choosingPhotos": "Избира снимки",
+        "namingTrip": "Измисля име на пътуването",
+        "tripReady": "Пътуването е готово",
+        "tripReadyLive": "Пътуването е готово · актуални цени"
+      },
+      "home": {
+        "greeting": "Здравей, ${name}, накъде този път? ✦",
+        "greetingNoName": "Накъде този път? ✦",
+        "hint": "Разкажи ми, все едно пращаш гласово съобщение на приятел: кой идва, къде, кога и какво е важно.",
+        "chipHotelMadrid": "Хотел в Мадрид за четвъртък",
+        "chipCheapestLisbon": "Най-евтиният ден за Лисабон",
+        "chipLongWeekend": "Планирай дълъг уикенд",
+        "chipSurprise": "Изненадай ме"
+      },
+      "send": "Изпрати",
+      "flightQuick": {
+        "laylasPickDay": "Изборът на Layla · ${day}",
+        "nonStop": "Директен",
+        "bookNamed": "Резервирай ${carrier}, ${day}",
+        "bookIt": "Резервирай",
+        "pp": "на човек",
+        "ppLong": "на човек",
+        "forN": "${amount} за ${n}",
+        "travellers": {
+          "one": "${n} пътник",
+          "other": "${n} пътници"
+        },
+        "oneWay": "еднопосочен",
+        "returnTrip": "двупосочен",
+        "multiCity": "няколко дестинации",
+        "flightsCount": {
+          "one": "${n} полет",
+          "other": "${n} полета"
+        },
+        "fromPp": "от ${price} на човек",
+        "filterNonStop": "Директен",
+        "filterMorning": "Сутрин",
+        "filterEvening": "Вечер",
+        "filterBag": "С багаж",
+        "editSearch": "Промени търсенето",
+        "backToChat": "Обратно към чата",
+        "outbound": "Отиване",
+        "returnLeg": "Връщане",
+        "legN": "Полет ${n}",
+        "landsNextDay": "каца на следващия ден",
+        "fareRules": "Условия на тарифата",
+        "cabinBagIncluded": "1 ръчен багаж на човек е включен",
+        "cabinBagNotIncluded": "Ръчен багаж не е включен",
+        "checkedBagIncluded": "Чекиран багаж е включен",
+        "checkedBagExtra": "Чекиран багаж срещу доплащане",
+        "refundable": "Възстановима тарифа",
+        "nonRefundable": "Промени срещу такса, без възстановяване",
+        "seatsAtCheckIn": "място при чекиране",
+        "share": "Сподели",
+        "pick": "Избор",
+        "stopVia": "${n} прекачване ${via}",
+        "cabinBagShort": "ръчен багаж",
+        "checkedBagShort": "чекиран багаж",
+        "cheapestWhy": "Най-евтин",
+        "fastestWhy": "Най-бърз",
+        "bestWhy": "Най-добър избор",
+        "summaryTravellers": "${travellers} · ${trip}",
+        "liveFare": "Актуална тарифа · ${carrier}",
+        "estimatedFare": "Ориентировъчна тарифа",
+        "priceChangedLine": "Цената се промени · сега ${amount}, преди ${was}",
+        "fares": "Тарифи",
+        "standardFare": "Стандартна тарифа",
+        "singleFare": "Авиокомпанията предлага само една тарифа за този полет",
+        "noCheckoutLink": "Актуална тарифа за този полет все още няма",
+        "outShort": "Отиване",
+        "backShort": "Връщане",
+        "estimateShort": "ориентировъчно",
+        "multiCityTitle": "Няколко дестинации"
+      },
+      "carQuick": {
+        "seats": {
+          "one": "${n} място",
+          "other": "${n} места"
+        },
+        "bags": {
+          "one": "${n} куфар",
+          "other": "${n} куфара"
+        },
+        "daysCount": {
+          "one": "${n} ден",
+          "other": "${n} дни"
+        },
+        "cityAirport": "летище ${city}",
+        "perDay": "${price}/ден",
+        "bookNamed": "Резервирай ${name}",
+        "carsAt": "Коли на ${place}",
+        "cars": "Коли",
+        "pickUpAndReturnAt": "вземане и връщане на ${place}",
+        "pickUpAt": "вземане на ${place}",
+        "returnAt": "връщане на ${place}",
+        "sortLabel": "Подредба: ${sort}",
+        "sortPick": "изборът на Layla",
+        "sortPrice": "цена",
+        "sortSupplier": "фирма",
+        "filterAutomatic": "Автоматик",
+        "filterFreeCancellation": "Безплатна отмяна",
+        "filterUnlimitedKm": "Неограничени км",
+        "filterUnder": "Под ${price}",
+        "showMore": "Покажи още ${n}",
+        "continueWith": "Продължи с ${name}",
+        "freeCancellationAll": "Безплатна отмяна за всички показани коли",
+        "pickUp": "Вземане",
+        "returnLabel": "Връщане",
+        "samePlace": "Същото място",
+        "roundTrip": "Връщане на същото място (отиване и връщане)",
+        "oneWayAsk": "Да върна колата другаде: ",
+        "cover": "Застраховка",
+        "basicCover": "Основно покритие",
+        "noCover": "Без включено покритие",
+        "included": "Включено",
+        "excess": "${amount} самоучастие",
+        "zeroExcess": "Без самоучастие",
+        "paidAtDesk": "Плаща се на гишето",
+        "plusPerDay": "+${price}/ден",
+        "plusPerRental": "+${price}",
+        "fuel": "Гориво",
+        "mileage": "Пробег",
+        "driver": "Шофьор",
+        "deposit": "Депозит",
+        "cancellation": "Отмяна",
+        "freeUntil": "Безплатно до ${date}",
+        "freeCancellation": "Безплатна отмяна",
+        "cancellationFee": "Такса за отмяна",
+        "nonRefundable": "Без възстановяване",
+        "daysTimes": {
+          "one": "1 ден × ${price}",
+          "other": "${n} дни × ${price}"
+        },
+        "taxesAndFees": "Данъци и такси",
+        "includedLower": "включени",
+        "total": "Общо",
+        "dueToday": "За плащане днес",
+        "dueAtDesk": "За плащане на гишето",
+        "bookIt": "Резервирай",
+        "reserveAtDesk": "Резервирай · плащане на гишето",
+        "notBookable": "Не може да се резервира тук",
+        "seeAllRules": "Всички условия",
+        "rules": "Условия за наем",
+        "checkingOffer": "Проверяваме офертата…",
+        "offerGone": "Тази оферта вече не е налична. Поискай от Layla нови.",
+        "offerFailed": "Офертата не можа да се зареди. Опитай пак след малко.",
+        "whyCheapest": "най-евтина",
+        "whyCheapestAutomatic": "най-евтиният автоматик",
+        "whyCheapestPerDay": "най-евтина на ден",
+        "whyMoreRoom": "повече място за багажа",
+        "whyFreeCancellation": "безплатна отмяна",
+        "driverRule": "${age}+, книжка от 1 година, кредитна карта",
+        "driverRuleShort": "Книжка и кредитна карта на гишето",
+        "fuelPolicy": {
+          "fullToFull": "Пълен към пълен",
+          "sameToSame": "Същото ниво",
+          "fullToEmpty": "Пълен към празен, предплатено",
+          "prepaid": "Предплатено",
+          "levelToLevel": "Ниво към ниво",
+          "quarterToQuarter": "Четвърт към четвърт",
+          "halfToHalf": "Половин към половин",
+          "emptyToEmpty": "Празен към празен"
+        },
+        "whyAutomaticAsAsked": "автоматик, както поиска",
+        "whyMoreSeats": "повече места",
+        "whyBiggerBoot": "по-голям багажник",
+        "whySamePrice": "същата цена",
+        "whyCheaper": "по-евтино",
+        "perDayLabel": "на ден"
+      },
+      "activityQuick": {
+        "thingsToDo": "Какво да правиш",
+        "bookNamedFor": "Резервирай ${name} за ${n}",
+        "perPerson": "на човек",
+        "travellers": {
+          "one": "${n} участник",
+          "other": "${n} участници"
+        },
+        "sortLayla": "Layla",
+        "sortPrice": "Цена",
+        "sortRating": "Оценка",
+        "sortLabel": "Подредба: ${sort}",
+        "filterHalfDay": "Половин ден",
+        "filterFullDay": "Цял ден",
+        "filterFood": "Храна",
+        "filterOutdoors": "На открито",
+        "filterFreeCancellation": "Безплатна отмяна",
+        "showMore": "Покажи още ${n}",
+        "backToChat": "Обратно към чата",
+        "whyPicked": "Защо Layla избра това.",
+        "startTime": "Начален час · ${date}",
+        "startTimeNoDate": "Начален час",
+        "checkingTimes": "Проверяваме часовете…",
+        "noTimes": "Няма свободни часове през следващите две седмици",
+        "moreDates": "Още дати",
+        "anyTime": "По всяко време",
+        "providerTimes": "Часовете и билетите се избират на сайта на доставчика.",
+        "meetingPoint": "Място на среща · ${name}",
+        "pickup": "вземане ${time}",
+        "map": "Карта",
+        "included": "Включено",
+        "notIncluded": "Не е включено",
+        "highlights": "Акценти",
+        "cancellation": "Отмяна",
+        "freeUntil": "Безплатно до ${date}",
+        "freeCancellation": "Безплатна отмяна",
+        "nonRefundable": "Без възстановяване",
+        "unitLine": "${n} × ${price}",
+        "totalFor": "Общо за ${n}",
+        "bookIt": "Резервирай",
+        "bookOnSite": "Резервирай на сайта на доставчика",
+        "smallGroup": "малка група",
+        "reviews": "Отзиви",
+        "reviewsCount": "${n} отзива",
+        "durationHours": "${n} ч",
+        "durationMinutes": "${n} мин"
+      },
+      "create": {
+        "todayView": "Гледката днес · ${city}",
+        "attach": "Прикачи",
+        "chipPlace": "Няколко дни в ${city}",
+        "chipPlacePrompt": "Няколко дни в ${city}: най-доброто от мястото, без бързане, с хубаво място за нощувка",
+        "chipSurprise": "Изненадай ме",
+        "chipSurprisePrompt": "Изненадай ме: дълъг уикенд някъде, за където не бих се сетил"
+      }
     },
     "trip_empty": {
       "title": "Чат и създаване на пътуване",
@@ -357,6 +841,7 @@
     "flight_price_range": "Ценови диапазон на полети",
     "average_price": "Средна цена ${price}",
     "or_less": "или по-малко",
+    "or": "или",
     "flight_time": "Продължителност на полета",
     "average_duration": "Средна продължителност ${hours} ч",
     "round_hrs": "${val} ч",
@@ -373,8 +858,7 @@
     "km_from": "На ${distance}км от ${city}",
     "consider_broadening": "Опа! Не успях да намеря съответствия на основата на твоите текущи предпочитания. Разгледай възможността да разшириш търсенето си, като коригираш предпочитанията си за по-широк набор от възможности.",
     "return_with_bullet": " ${code} двупосочно",
-    "approx_for_your_dates": "Приблизително за твоите дати",
-    "or": "или"
+    "approx_for_your_dates": "Приблизително за твоите дати"
   },
   "flights_feat": {
     "flights_to": "Полети до ${to}",
@@ -383,6 +867,7 @@
     "all_filters": "Всички филтри",
     "no_flights": "Няма полети",
     "estimated_price": "Приблизителна цена",
+    "estimated": "Приблизително",
     "livePrices": "Актуална цена",
     "travelers_info_updated_successfully": "Информацията за пътниците е обновена успешно",
     "flight_details": "Детайли за полета",
@@ -435,8 +920,7 @@
       "other": "${n} пътници"
     },
     "one_way": "Еднопосочен",
-    "youll_arrive_next_day": "Пристигане на следващия ден",
-    "estimated": "Приблизително"
+    "youll_arrive_next_day": "Пристигане на следващия ден"
   },
   "hotel": {
     "aboutProperty": "За този имот",
@@ -593,7 +1077,8 @@
     "price_for_night": {
       "one": "Цена за ${n} нощ",
       "other": "Цена ${n} нощувки"
-    }
+    },
+    "laylasTip": "Съветът на Layla"
   },
   "language": {
     "select_language": "Избери език"
@@ -629,15 +1114,13 @@
     },
     "push_notifications": {
       "button": "Дай разрешение за push известия",
-      "body": "Нека те уведомя, когато намеря страхотни оферти",
-      "notification_body": "Току-що намерих за теб няколко супер евтини полети до Лапландия! Да видим северното сияние? 👀",
       "skip": "Не, благодаря, друг път!",
       "title": "Не пропускай пътуване!"
     },
     "video": {
       "step1Title": "Твоето идеално пътуване,\nза минути.",
       "step1Subtitle": "Реални цени, внимателен подбор. Без раздели, без догадки.",
-      "step2Title": "Човешки експерт.\nВинаги на разположение.",
+      "step2Title": "Жив консултант.\nВинаги на разположение.",
       "step2Subtitle": "Усъвършенстване на пътуването, насоки и резервации. Всичко направено за теб",
       "step3Title": "По-добри хотели.\nПо-добри цени.",
       "step3Subtitle": "Ексклузивни оферти за избрани настанявания. Твоят за отключване."
@@ -645,7 +1128,7 @@
     "tripLoading": {
       "seeYourTrip": "Виж пътуването си",
       "laylaIsPlanning": "Layla планира...",
-      "yourTripIsReady": "Пътуването ти е готово",
+      "yourTripIsReady": "Първият ти план е готов",
       "progressLabel": "Прогрес на планирането",
       "daysCount": {
         "one": "${n} ден",
@@ -654,15 +1137,14 @@
       "stages": {
         "you": {
           "title": "Ти",
-          "subtitle": "Само кажи"
+          "subtitle": "Ти каза"
         },
-        "flights": {
-          "title": "Полети",
-          "subtitle": "Най-добрите маршрути, фиксирани"
+        "layla": {
+          "subtitle": "Полети и настаняване подбрани"
         },
-        "stays": {
-          "title": "Настаняване",
-          "subtitle": "Избрани специално за теб"
+        "advisor": {
+          "title": "Твоят консултант",
+          "subtitle": "Проверява и резервира"
         },
         "destination": {
           "fallbackTitle": "Маршрут",
@@ -675,7 +1157,8 @@
       "button": "Оцени Layla"
     },
     "notification": {
-      "later": "По-късно"
+      "later": "По-късно",
+      "now": "сега"
     },
     "tripPreview": {
       "viewTrip": "Виж плана",
@@ -687,6 +1170,135 @@
       "iLove": "Обичам: ${labels}.",
       "iNeedHelpWith": "Нуждая се от помощ с: ${labels}.",
       "inspireMe": "Вдъхнови ме къде да отида."
+    },
+    "welcome": {
+      "headline": "AI го планира.\nПътният ти консултант\nго прави\nнезабравимо.",
+      "highlight": "незабравимо",
+      "getStarted": "Да започваме"
+    },
+    "script": {
+      "heyBeat": "Хей, ти ✦",
+      "heyMediaFallback": "👋",
+      "heyIntro": "Аз съм Layla. Планирам пътуването ти за минути, а после истински пътен консултант го прави незабравимо.",
+      "hiChip": "Здравей, Layla 👋",
+      "proofLead": "Преди да започнем: в много добра компания си",
+      "proofTripsValue": "1 млн.+",
+      "proofTripsLabel": "планирани пътувания",
+      "proofReviewsValue": "50 хил.+",
+      "proofReviewsLabel": "отзива с 5 звезди",
+      "proofQuote": "„Като супер организиран приятел.“",
+      "proofFallback": "1 млн.+ планирани пътувания · 50 хил.+ отзива с 5 звезди · „Като супер организиран приятел.“",
+      "tripAsk": "Е… предстои ли ти пътуване?",
+      "yesChip": "Да! Да планираме ✈️",
+      "dreamingChip": "Просто мечтая",
+      "voiceAsk": "Супер. Разкажи ми, все едно пращаш гласово съобщение на приятел: кой идва, къде, кога и какво е важно.",
+      "originAsk": "Откъде летиш?",
+      "planDone": "Първият план е готов ✦",
+      "shareLocationChip": "📍 Сподели местоположение",
+      "mapLocating": "Определям местоположението…",
+      "mapFailed": "Не успях да намеря местоположението ти",
+      "mapTypeCity": "Или напиши града си отдолу",
+      "mapFallback": "📍",
+      "connectAsk": "Ако свържеш имейла си, ще мога да планирам около резервациите, които вече имаш.",
+      "connectGmail": "Gmail",
+      "connectOutlook": "Outlook",
+      "connectPrivacy": "Питам те, преди да добавя каквото и да е. Можеш да прекъснеш връзката по всяко време от Настройки.",
+      "connectFallback": "Gmail или Outlook: намери резервациите, които вече имаш. Питам те, преди да добавя каквото и да е.",
+      "connectGmailChip": "Свържи Gmail",
+      "connectOutlookChip": "Свържи Outlook",
+      "notNowChip": "Не сега",
+      "connectDone": "${source} е свързан.",
+      "connectDoneBookings": {
+        "one": "${source} е свързан: намерих ${n} резервация.",
+        "other": "${source} е свързан: намерих ${n} резервации."
+      },
+      "importChecking": "Преглеждам пощата ти…",
+      "importLooking": "✦ Търся резервациите, които вече имаш",
+      "gmailAlreadyConnected": "Gmail вече е свързан ✓",
+      "outlookAlreadyConnected": "Outlook вече е свързан ✓",
+      "planningStatus": "Планирам…",
+      "tripTitleFallback": "Твоето пътуване",
+      "tripDays": {
+        "one": "${n} ден",
+        "other": "${n} дни"
+      },
+      "tripNights": {
+        "one": "${n} нощувка",
+        "other": "${n} нощувки"
+      },
+      "tripBrief": "✓ Каза ми какво искаш",
+      "tripShortlisting": "✦ Подбирам полети и настаняване…",
+      "tripShortlisted": "✓ Подбрах полети и настаняване",
+      "tripAdvisorNext": "✦ Пътният ти консултант проверява и резервира",
+      "advisorsLead": "И още нещо. Запознай се с нашите пътни консултанти ✦",
+      "advisorsTitle": "Те поемат сложните пътувания",
+      "advisorsBody": "Маршрути с няколко спирки, меден месец, кръгли рождени дни. Пътният ти консултант изпипва всеки детайл и резервира всичко вместо теб.",
+      "advisorsSimpleTitle": "Лесно пътуване",
+      "advisorsSimpleBody": "Резервираш директно тук, с едно докосване",
+      "advisorsComplexTitle": "Сложно пътуване",
+      "advisorsComplexBody": "Пътният ти консултант планира, проверява и резервира",
+      "advisorsFitStopsOccasion": "Пътуването ти има ${stops} спирки и е за ${occasion}, затова за него ще се погрижи пътен консултант. Безплатно, без такси.",
+      "advisorsFitStops": "Пътуването ти има ${stops} спирки, затова за него ще се погрижи пътен консултант. Безплатно, без такси.",
+      "advisorsFitOccasion": "Пътуването ти е за ${occasion}, затова за него ще се погрижи пътен консултант. Безплатно, без такси.",
+      "advisorsFitPlain": "За твоето пътуване ще се погрижи пътен консултант. Безплатно, без такси.",
+      "occasions": {
+        "anniversary": {
+          "inLine": "годишнина",
+          "label": "Годишнина"
+        },
+        "honeymoon": {
+          "inLine": "меден месец",
+          "label": "Меден месец"
+        },
+        "birthday": {
+          "inLine": "кръгъл рожден ден",
+          "label": "Рожден ден"
+        },
+        "wedding": {
+          "inLine": "сватба",
+          "label": "Сватба"
+        },
+        "babymoon": {
+          "inLine": "ваканция преди бебето",
+          "label": "Ваканция преди бебето"
+        },
+        "proposal": {
+          "inLine": "предложение за брак",
+          "label": "Предложение за брак"
+        }
+      },
+      "saveBeat": "Запази пътуването си ✦",
+      "saveWhy": "За да те чака тук, когато и да се върнеш, и пътният ти консултант да може да продължи с него.",
+      "saveCta": "Запази пътуването ми →",
+      "saveSheetTitle": "Запази пътуването си",
+      "savePerkFree": "✦ Безплатно от началото до края",
+      "savePerkNoSubscription": "✦ Без абонамент",
+      "savePerkNoFees": "✦ Без такси",
+      "saveApple": "Продължи с Apple",
+      "saveGoogle": "Продължи с Google",
+      "saveEmail": "Продължи с имейл",
+      "saveCaption": "Един акаунт. Пътуването, чатът и пътният ти консултант – всичко на едно място.",
+      "saveEmailTitle": "Създай акаунта си",
+      "saveEmailBack": "Назад",
+      "saveClose": "Затвори",
+      "saveFailed": "Не успяхме да запазим пътуването ти. Да опитаме пак?",
+      "joined": "✦ Пътуването е запазено. Добре дошли в Layla.",
+      "youreIn": "Вече си вътре 🥳",
+      "hereItIs": "Ето го",
+      "revealSaved": "Запазено",
+      "revealChat": "Чат",
+      "revealArriveFrom": "пристигане от ${origin}",
+      "revealTravellers": {
+        "one": "${n} пътуващ",
+        "other": "${n} пътуващи"
+      },
+      "revealAdvisorLead": "Искаш ли пътен консултант да се заеме?",
+      "revealAdvisorBody": "Кажи на Layla и консултантът ще провери всеки детайл и ще резервира всичко. Без такси.",
+      "revealCta": "Към пътуванията ми →"
+    },
+    "welcomeChips": {
+      "noFees": "Без такси",
+      "care": "Грижа 24/7"
     },
     "alreadyUsed": "Вече използвал Layla?",
     "share": {
@@ -765,7 +1377,419 @@
     "subscription_id_copied": "Идентификаторът на абонамента е копиран",
     "user_id_label": "Потребителски ID:\n${userId}",
     "subscription_id_label": "Идентификатор на абонамент:\n${subscriptionId}",
-    "add_your_name": "Добави името си"
+    "add_your_name": "Добави името си",
+    "edit": "Редактирай",
+    "advisor_title": "Твоят пътен консултант",
+    "advisor_subtitle": "Планира с теб, резервира всичко и остава на линия, докато пътуваш.",
+    "book_a_call": "Запази разговор",
+    "your_trips": "Твоите пътувания",
+    "see_all": "Виж всички",
+    "no_trips_yet": "Още няма пътувания",
+    "start_planning": "Започни да планираш",
+    "trip_status_upcoming": "Предстоящо",
+    "trip_status_ongoing": "На път",
+    "trip_status_past": "Минало",
+    "trip_status_planning": "В подготовка",
+    "trip_status_working": "Layla работи по него",
+    "help_and_contact": "Помощ и контакт",
+    "share_layla": "Сподели Layla",
+    "legal_row": "Условия, поверителност, правна информация",
+    "account": "Акаунт",
+    "notifications": "Известия",
+    "notifications_on": "Вкл.",
+    "notifications_off": "Изкл.",
+    "log_out_title": "Излизане?",
+    "log_out_message": "Можеш да влезеш отново по всяко време. Пътуванията ти остават запазени в акаунта.",
+    "delete_account": "Изтрий акаунта",
+    "delete_confirm_title": "Да изтрием акаунта ти?",
+    "delete_confirm_message": "Профилът и историята на пътуванията ти ще бъдат премахнати от Layla. Това не може да се отмени.",
+    "delete_confirm_again_title": "Последна проверка",
+    "delete_confirm_again_message": "Да изтрием акаунта на ${email}? Връщане назад няма.",
+    "sign_in_to_keep_trips": "Влез, за да запазиш пътуванията си",
+    "sign_in_subtitle": "Плановете, резервациите и пътният ти консултант – на всяко устройство.",
+    "new_to_layla": "Нов в Layla?",
+    "switch_language_title": "Да превключим на ${language}?",
+    "switch_language_message": "Отсега нататък Layla ще говори на ${language}.",
+    "switch_action": "Превключи",
+    "popular_currencies": "Популярни",
+    "all_currencies": "Всички валути",
+    "no_currencies_found": "Няма съвпадащи валути",
+    "remove_photo": "Премахни снимката",
+    "signed_in_with": "Влязъл с ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "имейл",
+    "footer_user_id": "ID ${id} · Докосни, за да копираш",
+    "connectors": {
+      "title": "Свързани акаунти",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "Свържи",
+      "update_now": "Обнови сега",
+      "reconnect": "Свържи отново",
+      "status_connected": "Свързан · обновява се всяка седмица",
+      "status_connected_last": "Свързан · обновява се всяка седмица · последно ${date}",
+      "status_expired": "Връзката е изтекла · свържи отново, за да продължат обновленията",
+      "status_running": "Четене на потвържденията за резервации…",
+      "status_running_instagram": "Четене на твоите места…",
+      "status_email_idle": "Пътувания и резервации от последните 15 години",
+      "status_instagram_idle": "Места, които си споделял. Засега само за бизнес акаунти.",
+      "status_imported_trips": "Импортирани пътувания: ${count}",
+      "trust": "Layla пази само детайлите на пътуванията и по една снимка на място. Никога твоите имейли, публикации или пароли.",
+      "disconnect": "Прекъсни връзката",
+      "remove_data": "Изтрий импортираните данни",
+      "remove_confirm_title": "Да изтрия импортираните данни?",
+      "remove_confirm_message": "Пътуванията и предпочитанията, които Layla научи от ${source}, ще бъдат изтрити. Можеш да се свържеш отново по всяко време.",
+      "disconnect_confirm_title": "Да прекъсна връзката с ${source}?",
+      "disconnect_confirm_message": "Layla спира да чете нови резервации. Импортираните пътувания остават, докато не ги изтриеш.",
+      "outcome_found": "Намерени пътувания: ${count}",
+      "outcome_none_new": "Нищо ново от последния път",
+      "outcome_updated": "Обновено",
+      "outcome_rate_limited": "Твърде много обновления. Опитай пак след минута.",
+      "outcome_too_slow": "Отне твърде дълго. Опитай пак.",
+      "outcome_expired": "Връзката е изтекла. Свържи отново, за да обновиш.",
+      "outcome_failed": "Обновяването не успя. Опитай пак.",
+      "connect_on_web_title": "Свържи в layla.ai",
+      "connect_on_web_message": "Свързването на ${source} от приложението идва скоро. Свържи го веднъж в layla.ai и приложението ще го поддържа актуално.",
+      "connect_unavailable": "Свързването от приложението изисква обновяване на сървъра. Засега използвай layla.ai.",
+      "connect_failed": "Свързването не успя. Опитай пак.",
+      "open_web": "Отвори layla.ai",
+      "status_last_failed": "Последното обновяване не успя · ${date} · опитай отново"
+    },
+    "deletion": {
+      "confirm_message": "Чатовете, пътуванията и данните ти изчезват до 24 часа. Дотогава още можеш да се откажеш.",
+      "confirm_button": "Да, изтрий акаунта ми",
+      "requested_title": "Заявено изтриване",
+      "requested_message": "Изчезва до 24 часа. Докосни, за да откажеш.",
+      "requested_toast": "Изтриването е заявено. Акаунтът ти изчезва до 24 часа.",
+      "cancelled_toast": "Изтриването е отказано. Радваме се, че оставаш.",
+      "cancel_title": "Да запазим акаунта ти?",
+      "cancel_message": "Изтриването се отказва и нищо не се изтрива.",
+      "keep_account": "Запази акаунта ми",
+      "failed": "Не се получи. Опитай пак."
+    },
+    "download_data": {
+      "title": "Изтегли моите данни",
+      "error": "Не успяхме да подготвим данните ти. Опитай отново."
+    },
+    "bookings": {
+      "title": "Твоите резервации",
+      "count": {
+        "one": "${n} резервация",
+        "other": "${n} резервации"
+      },
+      "status_paid": "Платена",
+      "status_processing": "Обработва се",
+      "status_cancelled": "Отменена",
+      "status_booked": "Потвърдена",
+      "status_in_progress": "В процес",
+      "heading": "Резервации",
+      "empty_title": "Още няма резервации",
+      "empty_subtitle": "Поискай от Layla хотел или полет и резервацията ще се появи тук."
+    },
+    "travel": {
+      "title": "Твоят пътешественически профил",
+      "completeness": "${percent}% завършен",
+      "complete": "Профилът е пълен",
+      "hint_dials": "Настрой стила си на пътуване с пет бързи плъзгания.",
+      "hint_interests": "Избери поне пет интереса.",
+      "hint_about": "Отговори на още няколко картички.",
+      "style_title": "Твоят стил на пътуване",
+      "style_hint": "Плъзни всеки регулатор там, където наистина си. Layla настройва всеки план по него.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "Бавни сутрини",
+          "right": "На крак от зори"
+        },
+        "socialBattery": {
+          "left": "В пашкула си",
+          "right": "Душата на компанията"
+        },
+        "planningStyle": {
+          "left": "Без план",
+          "right": "Всичко по план"
+        },
+        "diningStyle": {
+          "left": "Улична храна",
+          "right": "Бяла покривка"
+        },
+        "settingVibe": {
+          "left": "Диво и далечно",
+          "right": "Светлините на града"
+        }
+      },
+      "interests": {
+        "title": "Какво те вълнува",
+        "hint": "Избери какво обичаш. Layla оформя всеки план според това.",
+        "add": "Добави интереси",
+        "search": "Търси интереси",
+        "add_custom": "Добави „${text}“",
+        "selected": {
+          "one": "${n} избран",
+          "other": "${n} избрани"
+        },
+        "item(map)": {
+          "architecture": "Архитектура",
+          "art": "Изкуство",
+          "camping": "Къмпинг",
+          "cocktails": "Коктейли",
+          "coffee": "Кафе",
+          "cooking": "Готвене",
+          "culturalHeritage": "Културно наследство",
+          "cycling": "Колоездене",
+          "design": "Дизайн",
+          "diving": "Гмуркане",
+          "fashion": "Мода",
+          "fitness": "Фитнес",
+          "foodScenes": "Кулинарна сцена",
+          "hiking": "Преходи",
+          "history": "История",
+          "liveMusic": "Музика на живо",
+          "localCulture": "Местна култура",
+          "museums": "Музеи",
+          "nightlife": "Нощен живот",
+          "outdoors": "На открито",
+          "photography": "Фотография",
+          "sailing": "Ветроходство",
+          "shopping": "Пазаруване",
+          "skiing": "Ски",
+          "snorkeling": "Шнорхелинг",
+          "spa": "Спа",
+          "surfing": "Сърф",
+          "sustainability": "Устойчивост",
+          "wine": "Вино",
+          "yoga": "Йога"
+        }
+      },
+      "about": {
+        "title": "Разкажи ни за себе си",
+        "hint": "Няколко думи стигат. Пропускай каквото искаш; всеки отговор прави плановете ти по-точни.",
+        "answer": "Отговори",
+        "write_own": "Или напиши своето…",
+        "card(map)": {
+          "cantSleepWithout": "Не мога да спя без",
+          "neverCompromise": "Никога не правя компромис с",
+          "travelWith": "Обикновено пътувам с",
+          "bornDecade": "Десетилетието, в което съм роден",
+          "specialNeeds": "Специални нужди",
+          "idealHotel": "Идеалният ми хотел в 3 думи",
+          "workTrips": "В командировка ми трябва",
+          "dreamDestination": "Където винаги съм искал да отида",
+          "pets": "Домашни любимци",
+          "languages": "Езици, които говоря",
+          "dietaryNeeds": "Хранителни нужди"
+        },
+        "option(map)": {
+          "location": "Местоположение",
+          "price": "Цена",
+          "comfort": "Комфорт",
+          "quiet": "Тишина",
+          "space": "Пространство",
+          "other": "Друго",
+          "solo": "Сам",
+          "partner": "Партньора ми",
+          "familyKids": "Семейство с деца",
+          "friends": "Приятели",
+          "50s": "50-те",
+          "60s": "60-те",
+          "70s": "70-те",
+          "80s": "80-те",
+          "90s": "90-те",
+          "2000s": "2000-те"
+        },
+        "language_title": "Езици, които говориш",
+        "search_language": "Търси език",
+        "chars_left": "Остават ${n} знака",
+        "question(map)": {
+          "cantSleepWithout": "Без какво не можеш да заспиш?",
+          "neverCompromise": "За какво никога не правиш компромис?",
+          "travelWith": "С кого пътуваш обикновено?",
+          "bornDecade": "Кое е десетилетието ти на раждане?",
+          "specialNeeds": "Специални нужди, които винаги да спазваме?",
+          "idealHotel": "Идеалният ти хотел с 3 думи?",
+          "workTrips": "Какво ти трябва при командировка?",
+          "dreamDestination": "Къде мечтаеш да отидеш от години?",
+          "pets": "Пътуват ли домашни любимци с теб?",
+          "languages": "Какви езици говориш?",
+          "dietaryNeeds": "Хранителни нужди?"
+        },
+        "example(map)": {
+          "cantSleepWithout": "Например: пълна тишина, затъмняващи завеси, хладен климатик, твърда възглавница.",
+          "neverCompromise": "Избери това, което решава, когато два хотела са наравно, или напиши свое.",
+          "travelWith": "Избери всичко, което важи. Пак ще съобразим контекста на всяко пътуване.",
+          "bornDecade": "По желание. Леко настройва стила и темпото, но никога не изключва нищо.",
+          "specialNeeds": "Например: достъп без стъпала, душ на нивото на пода, задължителен асансьор, стаи за хора с увреден слух.",
+          "idealHotel": "Например: тих, дизайнерски, със закуска. Или: на плажа, оживен, евтин.",
+          "workTrips": "Например: истинско бюро, бърз wifi, фитнес 24/7, офисите на крачка.",
+          "dreamDestination": "Например: Япония по време на цъфтежа на черешите, Патагония, крайбрежието на Амалфи.",
+          "pets": "Например: малък френски булдог, който мрази стълби.",
+          "dietaryNeeds": "Например: вегетарианска, безглутенова, халал."
+        },
+        "placeholder(map)": {
+          "cantSleepWithout": "Не мога да заспя без:",
+          "specialNeeds": "Нуждая се от:",
+          "idealHotel": "Идеалният ми хотел е:",
+          "workTrips": "При командировка ми трябва:",
+          "dreamDestination": "Мечтаната ми дестинация:",
+          "pets": "Моят любимец:",
+          "dietaryNeeds": "Моите хранителни нужди:"
+        },
+        "suggest(map)": {
+          "cantSleepWithout_1": "Пълна тишина",
+          "cantSleepWithout_2": "Затъмняващи завеси",
+          "cantSleepWithout_3": "Хладен климатик",
+          "cantSleepWithout_4": "Твърда възглавница",
+          "specialNeeds_1": "Достъп без стъпала",
+          "specialNeeds_2": "Душ на нивото на пода",
+          "specialNeeds_3": "Задължителен асансьор",
+          "specialNeeds_4": "Стая за хора с увреден слух",
+          "idealHotel_1": "Тих, дизайнерски, закуска",
+          "idealHotel_2": "На плажа, оживен, евтин",
+          "idealHotel_3": "Централен, уютен, стилен",
+          "idealHotel_4": "Лукс, спа, гледка",
+          "workTrips_1": "Истинско бюро",
+          "workTrips_2": "Бърз wifi",
+          "workTrips_3": "Фитнес 24/7",
+          "workTrips_4": "Близо до офисите",
+          "dreamDestination_1": "Япония с цъфналите череши",
+          "dreamDestination_2": "Патагония",
+          "dreamDestination_3": "Крайбрежието на Амалфи",
+          "dreamDestination_4": "Бали",
+          "pets_1": "Пътувам с куче",
+          "pets_2": "Малко куче, за кабината",
+          "pets_3": "Котката идва понякога",
+          "pets_4": "Без домашни любимци",
+          "dietaryNeeds_1": "Вегетарианска",
+          "dietaryNeeds_2": "Веганска",
+          "dietaryNeeds_3": "Без глутен",
+          "dietaryNeeds_4": "Халал"
+        }
+      },
+      "hero": {
+        "headline_hint": "Добави ред за това как пътуваш",
+        "location_hint": "Къде живееш?",
+        "edit_intro": "Редактирай представянето",
+        "headline": "Заглавие",
+        "location": "Град",
+        "stat_trips": "пътувания",
+        "stat_countries": "държави"
+      },
+      "places": {
+        "title": "Къде си бил",
+        "countries": {
+          "one": "${n} държава",
+          "other": "${n} държави"
+        },
+        "empty": "Пътуванията от пощата ти и тези, които добавиш сам, се появяват тук.",
+        "timeline": "Хронология",
+        "add": "Добави пътуване",
+        "add_title": "Добави престой",
+        "city": "Град",
+        "country": "Държава (по избор)",
+        "hotel": "Хотел (по избор)",
+        "start": "Начална дата",
+        "end": "Крайна дата (по избор)",
+        "pick": "Избери дата",
+        "save": "Запази пътуването",
+        "error": "Пътуването не можа да се запази. Опитай отново.",
+        "unknown": "Някъде",
+        "booking_type(map)": {
+          "flight": "Полет",
+          "hotel": "Хотел",
+          "train": "Влак",
+          "car": "Кола",
+          "activity": "Дейност",
+          "cruise": "Круиз",
+          "other": "Резервация"
+        }
+      },
+      "details": {
+        "title": "Данни на пътуващия",
+        "hint": "Попълва предварително резервациите и разговорите с консултант.",
+        "name": "Име",
+        "email": "Имейл",
+        "phone": "Телефон",
+        "phone_hint": "Добави телефонен номер"
+      },
+      "temperature": {
+        "title": "Температура",
+        "celsius": "Целзий (°C)",
+        "fahrenheit": "Фаренхайт (°F)"
+      },
+      "up_next": "Следва",
+      "style": {
+        "prompt": "Настрой стила си на пътуване · ${n} от ${total}",
+        "balanced": "Балансиран откривател",
+        "pole(map)": {
+          "morningPace": {
+            "low": "бавни сутрини",
+            "high": "ранни старти"
+          },
+          "socialBattery": {
+            "low": "спокойствие",
+            "high": "социални дни"
+          },
+          "planningStyle": {
+            "low": "спонтанно",
+            "high": "всичко по план"
+          },
+          "diningStyle": {
+            "low": "улична храна",
+            "high": "висша кухня"
+          },
+          "settingVibe": {
+            "low": "извън утъпканите пътеки",
+            "high": "светлините на града"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "Бавен пътешественик",
+            "high": "Ранобудник"
+          },
+          "socialBattery": {
+            "low": "Тих пътешественик",
+            "high": "Общителен пътешественик"
+          },
+          "planningStyle": {
+            "low": "Свободен дух",
+            "high": "Планировчик"
+          },
+          "diningStyle": {
+            "low": "Фен на уличната храна",
+            "high": "Гурме"
+          },
+          "settingVibe": {
+            "low": "Откривател",
+            "high": "Градски човек"
+          }
+        }
+      }
+    },
+    "hub": {
+      "title": "Профил",
+      "travellers": "Пътуващи",
+      "travellers_value": "Запазени: $n",
+      "payment": "Плащане",
+      "payment_value": "Задава се при плащане",
+      "connected_apps": "Свързани приложения",
+      "not_connected": "Не е свързано",
+      "preferences": "Предпочитания",
+      "preferences_value": "Попълнени $percent%",
+      "settings": "Настройки",
+      "advisor_blurb": "Планира с теб, резервира всичко и е на линия, докато пътуваш.",
+      "advisor_title": "Твоят пътен консултант",
+      "passport_title": "Твоят паспорт",
+      "passport_subtitle": "Всяко посетено място – с печат.",
+      "passport_open": "Отвори",
+      "invite_friends": "Покани приятели",
+      "invite_value": "100 € за тях, 100 € за теб",
+      "support": "Поддръжка",
+      "app": "Приложение",
+      "trips_count": "· $n",
+      "stagingFooter": "Staging · тестови данни"
+    }
   },
   "auth": {
     "email": "Имейл",
@@ -790,7 +1814,9 @@
     "error_wrong_password": "Грешна парола. Моля, опитайте отново.",
     "error_invalid_credential": "Грешен имейл или парола.",
     "error_too_many_requests": "Твърде много опити. Моля, опитайте по-късно.",
-    "error_network": "Мрежова грешка. Проверете връзката си."
+    "error_network": "Мрежова грешка. Проверете връзката си.",
+    "reset_link_sent": "Проверете пощата си. Ако има акаунт с този имейл, линкът за нулиране е на път.",
+    "reset_link_failed": "Линкът за нулиране не можа да бъде изпратен. Опитайте отново."
   },
   "splash": {
     "discover_where_to": "Открий следващия си полет.",
@@ -818,15 +1844,15 @@
     "share_bucketlist": "Покани приятели в твоят списък с желания"
   },
   "about_screen": {
-    "title": "За мен, Layla.",
+    "title": "За Layla",
     "subtitle": "Открий света с Layla; AI планиране на пътувания и твоят най-добър приятел за пътуване.",
-    "block_1": "Хей, всички! Аз съм Layla и съм ТОЛКОВА въодушевена да разкажа каква трябва да бъде вашата последна обсесия - аз! Знаете, че ние просто обожаваме да планираме тези спонтанни пътувания и да се наслаждаваме на най-добрия ни приключенски живот, нали? Е, аз съм основно вашият спътник AI когато става въпрос за пътувания и съм тук, за да ви помогна да откриете нови места и да сбъднете вашите пътешествени мечти. Нека го обясня малко по-подробно...",
-    "block_2": "Първоначално, хората често казват \"Layla е като феята кръстница на вдъхновението за пътуване\". Забрави часовете, прекарани безцелно скролвайки в Instagram или Pinterest - като Изкуствен интелект, който планира пътешествия, аз подбирам персонализирани предложения за пътуване, базирани на ТВОИТЕ интереси. И повярвай ми, имам онова шесто чувство за откриване на най-страхотните места за ваканция, които дори не знаеш, че съществуват. Разговорът с мен е като да имаш свой собствен пътеводител, без високата цена.",
-    "block_3": "Сега знам какво мислиш - \"Наистина ли ми трябва още една апликация, която да затрупва телефона ми?\" Слушай, сладурче. Layla не е просто още едно приложение; тя е променя играта. Представи си това: казваш ми какво ти трябва, дали е почивка на плажа, градска разходка или планинско приключение, и БУМ - аз ще ти предложа голямо разнообразие от дестинации, напълно персонализирани за теб, дори с видеоклипове, за да усетиш атмосферата на всяко място.",
-    "block_4": "Най-добрата част? Разговорът с мен, Layla, изглажда всички проблеми при планирането на пътувания. Не е нужно вече да балансираш милион табове, опитвайки се да намериш най-добрите полети, хотели и забавления. Аз съм тук за теб. Претърсвам уеб пространството за най-горещите дестинации, хващам тези бюджетни полети и те свързвам с невероятни места за престой, които са подходящи за Инстаграм. Всичко, което трябва да направиш, е да си приготвиш чантата и да изглеждаш сладко.",
-    "block_5": "Сега, хайде да говорим за резервации. Тук съм, за да улесня твоето пътуване - от откриването на мечтаната ти дестинация до намирането на най-добрите оферти. Изкуственият интелект е тук, за да направи всичко толкова лесно, че дори и кралица, която не се справя с технологиите, може да се справи с това. Плюс това, можеш да разчиташ на Layla да ти помогне - няма подозрителни резервационни сайтове или съмнителни настанявания на хоризонта - сътрудничим с Skyscanner и Booking.com",
-    "block_6": "Но почакай, има още нещо. AI не само ти помага да планираш. По време на път, аз съм твоят най-добър помощник, когато става въпрос за опознаване на нов град. Въоръжена съм с информация за забележителностите, които трябва да се видят, за скритите съкровища и за най-модерните местни заведения. Ще те заведа до всички места, където местните се мотаят.",
-    "block_7": "Така че, ако ти е омръзнало от едно и също и си готов да разнообразиш пътуванията си, говори с мен, Layla. Аз не съм просто изкуствен интелект; аз променям начина, по който планираш пътуванията си, както и куратор на туристически настроения, и съм твоя паспорт към света. Приготви се да пътуваш уверено, любими мои, защото Layla има грижата за твоите мечтани пътешествия да се превърнат в реалност.\n\nПриключенията те очакват ✈️💖",
+    "block_1": "Аз съм Layla. Планирането на пътувания ми е работата и я върша добре. Кажи ми накъде те тегли, кой идва с теб и какво пътуване искаш всъщност, и след няколко минути пред теб ще има истински план, а не табло с вдъхновения. Имам мнение къде трябва да отидеш. И ще ти го кажа.",
+    "block_2": "Ето как работя: слушам какво ми казваш, улавям какво премълчаваш и изграждам пътуването около това. Правилният град в правилната седмица, квартал, който пасва на начина ти на живот, ресторантът, заради който си струва да прекосиш града. Без безкрайно скролване, без четиридесет отворени раздела. Мисли за мен като за приятелката с безупречен вкус, която вече е направила проучването.",
+    "block_3": "Планирам цялото пътуване, не само акцентите. Полети, които се връзват разумно, хотели, в които самата аз бих отседнала, дни с темпо, при което не тичаш от забележителност на забележителност. Ако плановете ти се променят, кажи ми и ще пренаредя маршрута. Ти решаваш; аз поемам логистиката.",
+    "block_4": "После се включват истински хора. Зад мен стои екип от пътни консултанти, които резервират, потвърждават и уреждат детайлите. Те проверяват това, което един ИИ не бива да гадае, например дали трансферът е реалистичен и дали онзи „изглед към морето“ наистина съществува, и са на линия, ако по пътя нещо се обърка. Планирано от Layla. Уредено от нейните консултанти.",
+    "block_5": "Резервирането е лесно. Щом планът ти хареса, го заключваме. Полетите, настаняването и активностите идват от надеждни партньори, а хотелите се резервират през Expedia. Реални цени, потвърдени резервации. Без съмнителни сайтове и скрити такси.",
+    "block_6": "Пътуването не свършва с настаняването. Докато си навън, аз съм все още тук: най-доброто кафе до хотела ти, какво да правиш, ако вали, как да прекосиш града, без да изгубиш следобеда. Питай по всяко време. Консултантите също са на разположение денонощно, в която и часова зона да се намираш.",
+    "block_7": "Така че, ако ти е писнало от едни и същи маршрути от пътеводителите и искаш пътуване, което наистина е твое, започни разговор с мен. Аз ще го планирам с вкус, а консултантите ще го превърнат в реалност.\n\nПриключението те очаква ✈️",
     "button": "Чат с Layla"
   },
   "download_app": {
@@ -897,6 +1923,14 @@
   "days": {
     "one": "${n} ден",
     "other": "${n} дни"
+  },
+  "hours": {
+    "one": "${n} час",
+    "other": "${n} часа"
+  },
+  "minutes": {
+    "one": "${n} минута",
+    "other": "${n} минути"
   },
   "children": {
     "one": "${n} дете",
@@ -974,6 +2008,26 @@
   "contact_us": "Свържи се с нас",
   "continue_label": "Продължи",
   "create": "Създай",
+  "create_screen": {
+    "greetingWithName": "Здравей, ${name},\nкъде искаш да се *събудиш* следващия път?",
+    "greeting": "Къде искаш да се *събудиш* следващия път?",
+    "listening": "Слушам...",
+    "placeholders": [
+      "2-седмично пътуване из Италия: Рим, Флоренция и Амалфийското крайбрежие...",
+      "Един месец из Тайланд, Виетнам и Бали...",
+      "Три седмици в Япония: Токио, Киото и Хокайдо...",
+      "10-дневно пътешествие из американския Югозапад...",
+      "3-седмично пътуване с влак из Европа...",
+      "2-седмичен меден месец на Малдивите и Сейшелите...",
+      "12-дневно семейно пътуване: Париж, Барселона, Лисабон...",
+      "Две седмици в търсене на северното сияние в Исландия и Норвегия...",
+      "16-дневно сафари и плаж в Кения и Занзибар...",
+      "21-дневно приключение с раница в Южна Америка..."
+    ],
+    "planIt": "Планирай",
+    "tapAndTell": "Натисни и кажи на Layla",
+    "placeholder": "Накъде? Кажи на Layla датите, бюджета и стила си…"
+  },
   "creator": "Автор",
   "currency": "Валута",
   "daysWord": "Дни",
@@ -1037,14 +2091,17 @@
   "preferences": "Предпочитания",
   "exploreWord": "Разгледай",
   "profileWord": "Профил",
+  "tripsWord": "Пътувания",
   "powered_by": "Подържан от",
   "read_more": "Прочети повече",
+  "read_less": "Покажи по-малко",
   "remove": "Премахни",
   "rename": "Преименувай",
   "reset": "Нулирай",
   "returnWord": "Връщане",
   "roomsWord": "Стаи",
   "search": "Търси",
+  "searchTrips": "Търсене на пътувания...",
   "save": "Запази",
   "saved_to": "Запазени в",
   "see_all": "Виж всичко",
@@ -1087,9 +2144,9 @@
     },
     "header": {
       "daysLabel": "${count} Дни",
-      "adultsLabel": "${count} Възрастни",
       "chooseDate": "Изберете Дата",
-      "inviteSomeone": "Поканете някого на вашето Пътуване"
+      "inviteSomeone": "Поканете някого на вашето Пътуване",
+      "adultsLabel": "${count} Възрастни"
     },
     "sections": {
       "yourFlights": "Вашите Полети",
@@ -1145,7 +2202,27 @@
       "bookThisBus": "Резервирайте този автобус",
       "bookThisTrain": "Резервирайте този влак",
       "bookThisBoat": "Резервирайте тази лодка",
-      "bookThisTransfer": "Резервирайте този трансфер"
+      "bookThisTransfer": "Резервирайте този трансфер",
+      "waysToTravel": "Начини за пътуване",
+      "waysCount": {
+        "one": "${n} начин за пътуване",
+        "other": "${n} начина за пътуване"
+      },
+      "optionsSubtitle": "${from} → ${to}",
+      "updating": "Обновява се…",
+      "otherWays": "Други варианти",
+      "recommended": "Препоръчано: ${mode}",
+      "comingSoonBody": "Резервацията на ${mode} скоро идва в Layla.",
+      "noTransportationYet": "Все още няма транспорт",
+      "addTransportation": "Добави транспорт",
+      "fromPrice": "от ${price}",
+      "lockedBooked": "Резервирано. Промените по този участък минават през твоя консултант.",
+      "modes": {
+        "privateCar": "Собствена кола",
+        "rentalCar": "Кола под наем",
+        "mixed": "Комбинирано пътуване",
+        "walking": "Пеша"
+      }
     },
     "restaurant": {
       "title": "Ресторант"
@@ -1165,6 +2242,7 @@
       "bookThisTrip": "Резервирайте Това Пътуване",
       "customizeTrip": "Персонализирайте Пътуването",
       "share": "Сподели",
+      "downloadPdf": "Изтегли PDF",
       "delete": "Изтрий",
       "invite": "Покани"
     },
@@ -1173,6 +2251,16 @@
       "chat": "Чат",
       "trip": "Пътуване",
       "cart": "Кошница"
+    },
+    "hide_chat": "Скрий чата",
+    "show_chat": "Покажи чата",
+    "cart_with_total": "Количка · $total",
+    "footer": {
+      "from_total": "От $total",
+      "total_for": {
+        "one": "общо за $n човек",
+        "other": "общо за $n души"
+      }
     },
     "messages": {
       "inviteComingSoon": "Покана - Скоро",
@@ -1190,6 +2278,7 @@
       "hotelRemovedSuccessfully": "Хотелът е премахнат успешно",
       "failedRemoveHotel": "Неуспешно премахване на хотел. Моля, опитайте отново.",
       "failedRemoveFlight": "Неуспешно премахване на полет. Моля, опитайте отново.",
+      "failedRemoveExperience": "Преживяването не можа да бъде премахнато. Опитай отново.",
       "updatingCarOption": "Актуализиране на опция за автомобил...",
       "transportOptionUpdated": "Опцията за транспорт е актуализирана успешно",
       "failedUpdateTransport": "Неуспешна актуализация на опция за транспорт",
@@ -1255,6 +2344,8 @@
         "totalCost": "Обща Цена",
         "laylasPicks": "Изборът на Layla",
         "liveSearch": "Търсене на живо",
+        "multiCity": "Няколко дестинации",
+        "addAnotherFlight": "Добави още един полет",
         "partialResults": "Показани са частични резултати — търсенето не приключи навреме.",
         "showFlights": "Покажи полетите ($n)",
         "selected": "Избрано",
@@ -1318,7 +2409,34 @@
         "searchCarRentals": "Търси Коли под Наем",
         "noCarRentalsFound": "Не са намерени коли под наем",
         "tryAdjustingCriteria": "Опитайте да промените критериите си за търсене",
-        "failedSearch": "Неуспешно търсене на коли под наем. Моля, опитайте отново."
+        "failedSearch": "Неуспешно търсене на коли под наем. Моля, опитайте отново.",
+        "selectCar": "Избери кола",
+        "refine": {
+          "transmission": "Скоростна кутия",
+          "automatic": "Автоматична",
+          "manual": "Ръчна",
+          "carType": "Тип кола",
+          "mini": "Мини",
+          "economy": "Икономична",
+          "compact": "Компактна",
+          "intermediate": "Среден клас",
+          "standard": "Стандартна",
+          "fullsize": "Голяма",
+          "premium": "Премиум",
+          "luxury": "Луксозна",
+          "suv": "SUV",
+          "van": "Ван",
+          "estate": "Комби",
+          "convertible": "Кабриолет",
+          "pickup": "Пикап",
+          "fuel": "Гориво",
+          "electric": "Електрическа",
+          "hybrid": "Хибридна",
+          "diesel": "Дизел",
+          "petrol": "Бензин",
+          "airportOnly": "На летището",
+          "budgetTotal": "Бюджет (общо)"
+        }
       },
       "activities": {
         "activities": "Дейности",
@@ -1366,7 +2484,11 @@
       "findAlternative": "Намери Алтернатива",
       "fromTo": "${from} до ${to}",
       "oneStop": "1 спирка",
-      "stops": "${count} спирки"
+      "stops": "${count} спирки",
+      "skip": "Пропусни този трансфер",
+      "keep": "Запази трансфера",
+      "skipped": "Пропуснат",
+      "addBack": "Добави отново"
     },
     "carTransport": {
       "transport": "Транспорт",
@@ -1428,7 +2550,13 @@
         "addToTrip": "Добави към пътуването",
         "perTotal": "/общо",
         "freeCancellation": "Безплатна анулация",
-        "at": "в"
+        "at": "в",
+        "cheapest": "Най-евтино",
+        "book": "Резервирай",
+        "orSimilar": "или подобен",
+        "addedToTrip": "Добавено към пътуването",
+        "addToTripMessage": "Добави ${car} от ${supplier} към пътуването ми",
+        "total": "общо"
       },
       "flightCard": {
         "selected": "Избрано",
@@ -1436,7 +2564,8 @@
         "perPerson": "/на човек",
         "nonStop": "Без спирки",
         "oneStop": "1 спирка",
-        "stops": "спирки"
+        "stops": "спирки",
+        "addToTripMessage": "Добави полета ${route} на ${date} към пътуването ми"
       },
       "hotelCard": {
         "reviews": "Отзиви",
@@ -1448,11 +2577,11 @@
     "widgets": {
       "addExperienceButton": "Добави Преживяване",
       "dayLabel": "Ден ${n}",
+      "failedToLoadTrip": "Неуспешно зареждане на пътуването",
+      "retry": "Опитай отново",
       "yourStay": "Вашият Престой",
       "transport": "Транспорт",
-      "yourDayByDay": "Вашият Ден по Ден",
-      "failedToLoadTrip": "Неуспешно зареждане на пътуването",
-      "retry": "Опитай отново"
+      "yourDayByDay": "Вашият Ден по Ден"
     },
     "transportType": {
       "flight": "Полет",
@@ -1499,6 +2628,8 @@
     "overview": {
       "madeBy": "Създадено от ${creator}",
       "highlightsTitle": "Основни моменти от пътуването с един поглед",
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "Покажи всички",
       "showAllFlights": "Покажи всички полети",
       "showAllTransport": "Покажи всички превози",
@@ -1544,21 +2675,49 @@
         "durationHrShort": "${n} ч",
         "durationHrMin": "${h} ч ${m} мин"
       },
-      "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "add": {
+        "activityTitle": "Добави активност",
+        "activityBody": "Избери тур или преживяване за дните си.",
+        "stayBody": "Избери хотел за престоя си.",
+        "chooseStop": "Коя спирка?"
+      }
     },
     "lists": {
       "noActivitiesFound": "Няма намерени дейности",
       "noStaysFound": "Няма намерени престои",
-      "noFlightsFound": "Няма намерени полети",
       "noRentalsFound": "Няма намерени наеми",
       "perPerson": "на човек",
       "free": "Безплатно",
       "transportFlight": "Полет",
       "transportTrain": "Влак",
-      "transportRental": "Наем"
+      "transportRental": "Наем",
+      "empty": {
+        "all": {
+          "title": "Все още няма транспорт",
+          "body": "Layla добавя полети, влакове и други, докато маршрутът ти се оформя."
+        },
+        "flight": {
+          "title": "Все още няма полети",
+          "body": "Добави полет и той ще се появи тук."
+        },
+        "train": {
+          "title": "Все още няма влакове",
+          "body": "Добави пътуване с влак и то ще се появи тук."
+        },
+        "ferry": {
+          "title": "Все още няма фериботи",
+          "body": "Добави фериботен преход и той ще се появи тук."
+        },
+        "car": {
+          "title": "Все още няма пътувания с кола",
+          "body": "Добави пътуване и то ще се появи тук."
+        },
+        "rental": {
+          "title": "Все още няма коли под наем",
+          "body": "Добави кола под наем и тя ще се появи тук."
+        }
+      }
     },
-    "timeline": "Хронология",
     "flightsSortBar": {
       "sort": "Сортиране",
       "airlines": "Авиокомпании",
@@ -1569,6 +2728,72 @@
     "distance": {
       "km": "${n} км",
       "meters": "${n} м"
+    },
+    "quickEdit": {
+      "title": "Дати и пътуващи",
+      "itinerary": "Маршрут",
+      "childAges": "Възраст на децата",
+      "childAgesHint": "Възрастта по време на пътуването определя тарифата и вида на стаята.",
+      "childNumber": "Дете ${index}",
+      "age": {
+        "one": "${n} година",
+        "other": "${n} години"
+      },
+      "moreAdults": "Още един възрастен",
+      "fewerAdults": "Един възрастен по-малко",
+      "moreChildren": "Още едно дете",
+      "fewerChildren": "Едно дете по-малко",
+      "dateRequired": "Всяко отпътуване трябва да има дата",
+      "dateOrder": "Всяко отпътуване трябва да е в деня на предишното или след него"
+    },
+    "advisor": {
+      "plan_with": "Планирай с консултант",
+      "card": {
+        "title": "Резервирай с пътен консултант",
+        "meta": "Безплатен 30-мин разговор · резервира всичко",
+        "reason": "Пътуване за ${total} с ${stops}: струва си човек.",
+        "reasonTotal": "Пътуване за ${total}: струва си човек.",
+        "reasonStops": "Пътуване с ${stops}: струва си човек.",
+        "reasonPlain": "Пътуване от този мащаб: струва си човек.",
+        "stops": {
+          "one": "${n} спирка",
+          "other": "${n} спирки"
+        },
+        "book": "Запази безплатен разговор",
+        "notNow": "Не сега",
+        "bookedLine": "Консултант преглежда пътуването с теб и го резервира."
+      },
+      "line": {
+        "before": "или ",
+        "link": "резервирай с консултант",
+        "after": " · безплатно"
+      },
+      "block": {
+        "role": "Пътен консултант",
+        "line": "Планира с теб, резервира всичко, на линия по време на пътуването",
+        "body": "Консултант преглежда този план с теб, резервира всяко нещо на нашата най-добра цена и остава на линия, докато пътуваш. Безплатно, без ангажимент.",
+        "chipCall": "30 мин безплатно",
+        "chipPrice": "Резервация на най-добра цена",
+        "chipRoad": "На линия 24/7",
+        "cta": "Запази безплатен разговор"
+      },
+      "booked": {
+        "before": "Въпроси за това пътуване? ",
+        "link": "Поговори с консултант",
+        "after": ""
+      }
+    },
+    "timeline_intro": {
+      "more": "Още",
+      "title": "За този ден"
+    },
+    "edit": {
+      "failed": "Пътуването ти не можа да се обнови. Опитай пак.",
+      "stale": "Междувременно пътуването ти се промени. Опитай пак.",
+      "updating": "Layla обновява пътуването ти…"
+    },
+    "legPicker": {
+      "overview": "Общ преглед"
     }
   },
   "tripWord": "Пътуване",
@@ -1682,6 +2907,27 @@
     "day": "Ден",
     "category": "Категория"
   },
+  "trip_book": {
+    "accommodations": "Настаняване",
+    "flights": "Полети",
+    "private_transport": "Частен транспорт",
+    "experiences": "Преживявания",
+    "save_on_booking": "Спестете ${amount} в сравнение с отделното резервиране",
+    "layla_brings_deals": "Layla ви носи най-добрите оферти.",
+    "title": "Резервирайте пътуване",
+    "book": "Резервирай",
+    "delete": "Изтрий",
+    "alternative": "Алтернатива",
+    "experts_title": "Резервирайте това пътуване с нашите консултанти",
+    "benefit1_title": "Спестени са над 32 часа планиране",
+    "benefit1_description": "Отпуснете се — нашите консултанти се грижат за всеки детайл.",
+    "benefit2_title": "${n}+ индивидуални резервации обработени",
+    "benefit2_description": "Хотели, полети, дейности — координираме всичко за пътуването на мечтите ви.",
+    "benefit3_title": "${n}+ трансфера организирани безпроблемно",
+    "benefit3_description": "От спирка до спирка — осигуряваме идеално синхронизирани връзки по вашия маршрут.",
+    "continue_with_human": "Продължи с пътен консултант",
+    "continue_with_booking": "Продължи с резервацията"
+  },
   "paywall": {
     "title": "Отключете Вашето Пълно Пътуване",
     "subtitle": "Продължете с Premium за неограничено планиране и ексклузивни спестявания.",
@@ -1745,47 +2991,6 @@
       "subtitle": "Активирай AI обработката в Настройки, за да чатиш и да генерираш план за пътуване."
     }
   },
-  "trip_book": {
-    "accommodations": "Настаняване",
-    "flights": "Полети",
-    "private_transport": "Частен транспорт",
-    "experiences": "Преживявания",
-    "save_on_booking": "Спестете ${amount} в сравнение с отделното резервиране",
-    "layla_brings_deals": "Layla ви носи най-добрите оферти.",
-    "title": "Резервирайте пътуване",
-    "book": "Резервирай",
-    "delete": "Изтрий",
-    "alternative": "Алтернатива",
-    "experts_title": "Резервирайте това пътуване с нашите експерти",
-    "benefit1_title": "Спестени са над 32 часа планиране",
-    "benefit1_description": "Отпуснете се — нашите експерти се грижат за всеки детайл.",
-    "benefit2_title": "${n}+ индивидуални резервации обработени",
-    "benefit2_description": "Хотели, полети, дейности — координираме всичко за пътуването на мечтите ви.",
-    "benefit3_title": "${n}+ трансфера организирани безпроблемно",
-    "benefit3_description": "От спирка до спирка — осигуряваме идеално синхронизирани връзки по вашия маршрут.",
-    "continue_with_human": "Продължи с пътен експерт",
-    "book_with_human": "Резервирай с пътен експерт",
-    "continue_with_booking": "Продължи с резервацията"
-  },
-  "create_screen": {
-    "greetingWithName": "Здравей, ${name},\nкакво искаш да\nпреживееш?",
-    "greeting": "Какво искаш да\nпреживееш?",
-    "listening": "Слушам...",
-    "placeholders": [
-      "2-седмично пътуване из Италия: Рим, Флоренция и Амалфийското крайбрежие...",
-      "Един месец из Тайланд, Виетнам и Бали...",
-      "Три седмици в Япония: Токио, Киото и Хокайдо...",
-      "10-дневно пътешествие из американския Югозапад...",
-      "3-седмично пътуване с влак из Европа...",
-      "2-седмичен меден месец на Малдивите и Сейшелите...",
-      "12-дневно семейно пътуване: Париж, Барселона, Лисабон...",
-      "Две седмици в търсене на северното сияние в Исландия и Норвегия...",
-      "16-дневно сафари и плаж в Кения и Занзибар...",
-      "21-дневно приключение с раница в Южна Америка..."
-    ]
-  },
-  "tripsWord": "Пътувания",
-  "searchTrips": "Търсене на пътувания...",
   "main": {
     "tripsEmpty": {
       "title": "Вашите пътувания са тук",
@@ -1806,23 +3011,16 @@
     "confirm_remove_category": "Сигурни ли сте, че искате да премахнете категория \"${category}\" от това видео?",
     "video_copied": "ID на видео: ${videoId} е копирано успешно"
   },
-  "minutes": {
-    "one": "${n} минута",
-    "other": "${n} минути"
-  },
-  "hours": {
-    "one": "${n} час",
-    "other": "${n} часа"
-  },
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "Как искаш да резервираш?",
+      "subtitle": "Плати сега и ние ще направим резервациите, или получи помощ от пътен консултант.",
+      "selfCheckout": "Ще резервирам сам",
+      "selfCheckoutDesc": "Плати сигурно сега, ние резервираме всичко вместо теб.",
+      "expert": "Резервирай с консултант",
+      "expertDesc": "Говори с човек, който ще уреди подробностите.",
+      "rail": "Консултант"
     },
     "details": {
       "title": "What are we booking?",
@@ -1838,13 +3036,24 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "Сигурно плащане",
+      "poweredByStripe": "С технологията на Stripe · SSL криптиране",
+      "noSelection": "Нищо не е избрано – върни се и избери какво искаш да резервираш."
     },
     "totals": {
       "total": "Total",
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "Резервирано",
+      "pending": "Чака резервация",
+      "inProgress": "Резервацията е в ход",
+      "partial": "Частично резервирано",
+      "cancelled": "Отменено",
+      "alreadyBookedNotice": "Някои елементи в количката ти вече са резервирани. Премахнахме ги от общата сума."
     },
     "categories": {
       "accommodation": "Stays",
@@ -1859,13 +3068,163 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "Обратно към пътуването ми"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "Онлайн плащане",
+      "subtitle": "Най-бързият начин. Плати сигурно и Layla се грижи за резервацията.",
+      "selectAll": "Избери всички",
+      "expired": "Изтекла",
+      "soldOut": "Тук вече няма свободни стаи",
+      "refreshToContinue": "Обнови изтеклите цени, за да продължиш с плащането",
+      "replaceSoldOut": "Замени изчерпания хотел, за да продължиш с плащането"
+    },
+    "travelers": {
+      "title": "Данни на пътуващите",
+      "subtitle": "Добави валиден документ за всеки, който пътува с тази резервация.",
+      "travelerSection": "Пътуващ $number",
+      "primaryTraveler": "Основен пътуващ",
+      "removeTraveler": "Премахни",
+      "addTraveler": "Добави пътуващ",
+      "whichDocument": "Кой документ ще използваш?",
+      "typePassport": "Паспорт",
+      "typeNationalId": "Лична карта",
+      "firstName": "Име",
+      "middleName": "Презиме (по желание)",
+      "lastName": "Фамилия",
+      "dateOfBirth": "Дата на раждане",
+      "dateOfBirthHint": "ДД.ММ.ГГГГ",
+      "nationality": "Националност",
+      "issuingCountry": "Държава на издаване",
+      "passportNumber": "Номер на паспорта",
+      "idNumber": "Номер на документа",
+      "gender": "Пол",
+      "genderM": "Мъж",
+      "genderF": "Жена",
+      "genderU": "Предпочитам да не посочвам",
+      "genderX": "Неуточнен",
+      "expiry": "Дата на изтичане",
+      "expiryHint": "ММ/ГГГГ",
+      "countrySearch": "Търси държава",
+      "countrySearchEmpty": "Няма намерени държави",
+      "storedSecurelyNote": "Съхраняват се сигурно и се споделят само с авиокомпании и хотели, за да завършим резервацията ти.",
+      "phoneTitle": "Телефон за връзка",
+      "phoneSubtitle": "Ще се обадим само ако нещо изисква внимание. Без обаждания от консултанти и без търговски обаждания.",
+      "phoneLabel": "Телефонен номер",
+      "continueCta": "Продължи към плащане",
+      "skipLink": "Ще добавя данните си по-късно",
+      "docsDialogTitle": "Стартирай резервацията си по-рано",
+      "docsDialogBody": "Нужни са ни документите ти за пътуване, за да направим резервациите. Добави ги сега, за да започнем веднага.",
+      "docsDialogAddNow": "Добави документи за пътуване",
+      "docsDialogLater": "Ще ги добавя по-късно",
+      "errors": {
+        "required": "Задължително",
+        "dateOfBirthFormat": "Използвай формат ДД.ММ.ГГГГ",
+        "expiryFormat": "Използвай формат ММ/ГГГГ",
+        "expired": "Документът е изтекъл",
+        "passportFormat": "Въведи валиден номер на паспорт за избраната държава",
+        "phoneRequired": "Добави телефонния си номер",
+        "travelerDetails": "Въведи данните на пътуващия, за да продължиш с плащането",
+        "saveFailed": "Данните ти не можаха да бъдат запазени. Опитай отново."
+      }
+    },
+    "steps": {
+      "items": "Избор",
+      "details": "Данни",
+      "pay": "Плащане",
+      "done": "Готово"
+    },
+    "contact": {
+      "heading": "Кой резервира?",
+      "subheading": "Тук ще ти изпратим потвърждението и новини за резервацията.",
+      "privacy": "Данните ти остават при Layla и доставчиците, които довършват резервацията."
+    },
+    "pricesChanged": {
+      "title": "Цените се промениха",
+      "description": "Някои цени в пътуването ти бяха обновени, след като отвори плащането. Върни се към пътуването, за да видиш новата обща сума, и резервирай отново.",
+      "cta": "Виж новите цени"
+    },
+    "intentFailed": {
+      "title": "Не успяхме да започнем плащането",
+      "description": "Плащането не беше завършено. Опитай отново."
+    },
+    "promo": {
+      "label": "Промокод",
+      "placeholder": "Въведи кода",
+      "apply": "Приложи",
+      "remove": "Премахни",
+      "invalid": "Този код не може да се приложи.",
+      "applied": "Кодът $code е приложен"
+    },
+    "cta": {
+      "refreshing": "Обновяване на цените…"
+    },
+    "flow": {
+      "review": "Преглед",
+      "travellers": "Пътуващи",
+      "reviewTitle": "Резервирай пътуването си",
+      "travellersTitle": "Кой пътува?",
+      "payTitle": "Преглед и плащане",
+      "travellersLead": "Имената точно както в паспорта.",
+      "you": "Ти",
+      "pickSaved": "Избери запазен пътуващ",
+      "saveForNextTime": "Запази за следващия път",
+      "confirmed": {
+        "title": "Платено. $amount.",
+        "body": "Сега резервираме всичко ръчно, елемент по елемент. Всеки се потвърждава веднага щом е готов.",
+        "vouchers": "Разписката идва по имейл. Ваучерите се появяват в чата с потвърждаването на всяка резервация.",
+        "seeBooking": "Виж резервациите",
+        "backToTrip": "Обратно към пътуването",
+        "receipt": "Разписката е изпратена на $email. Ваучерите идват в чата ти, щом всяка резервация бъде потвърдена."
+      },
+      "travellerSection": "Пътуващ $number",
+      "neededFor": {
+        "one": "Нужно за полетите.",
+        "other": "Нужно за всички ${n} пътуващи."
+      },
+      "titleMx": "Mx",
+      "passportGender": "Както в паспорта ти",
+      "whatYouAreBooking": "Какво резервираш",
+      "totalTaxesIncluded": "Общо · с включени такси",
+      "vouchersLine": "$names · ваучери на $email",
+      "terms": "С плащането приемаш $terms на Layla и условията за анулиране на всеки доставчик.",
+      "termsLink": "условията",
+      "flightsNonRefundable": "Самолетните тарифи не подлежат на възстановяване след издаване на билета.",
+      "totalItems": {
+        "one": "1 артикул",
+        "other": "$n артикула"
+      },
+      "totalTravellers": {
+        "one": "1 пътник",
+        "other": "$n пътници"
+      },
+      "totalLine": "Общо · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "Изтича $exp · запазена в Stripe",
+      "anotherCard": "Друга карта",
+      "anotherCardSub": "Въвеждаш я на следващата стъпка"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "Сподели пътуването",
+      "delete": "Изтрий пътуването",
+      "delete_title": "Да изтрием ли това пътуване?",
+      "delete_message": "„${name}“ и всичко планирано в него ще бъдат изтрити завинаги.",
+      "rename": "Преименувай пътуването",
+      "rename_title": "Преименуване на пътуването",
+      "rename_placeholder": "Име на пътуването",
+      "save": "Запази"
+    },
+    "call_hero": {
+      "title": "Разговор с пътен консултант"
     }
   },
   "trips_list": {
@@ -1881,10 +3240,1433 @@
       "other": "Започва след $n дни"
     },
     "start_new": "Започни ново пътуване",
+    "new_trip": "Ново пътуване",
+    "day_of_total": "Ден $day от $total",
     "sort_by": "Подреди по",
     "sort_trip_date": "Дата на пътуването",
     "sort_last_updated": "Последна промяна",
-    "sort_date_created": "Дата на създаване"
+    "sort_date_created": "Дата на създаване",
+    "all": "Всички",
+    "booked_of": "Резервирани ${booked} от ${total}"
+  },
+  "expedia": {
+    "attribution": "С технологията на Expedia",
+    "rooms": {
+      "title": "Свободни стаи",
+      "loadingPrices": "Зареждане на актуалните цени…",
+      "noneAvailable": "Няма свободни стаи за избраните дати. Опитай с други дати от страницата на пътуването.",
+      "loadFailed": "В момента не можем да заредим актуалните цени. Опитай отново.",
+      "retry": "Опитай отново",
+      "noAvailabilityTitle": "Тук вече няма свободни стаи",
+      "onTripBadge": "В пътуването ти",
+      "roomsLeft": "Остават само $count",
+      "perNight": "на нощувка",
+      "inclTaxesShort": "Вкл. данъци и такси",
+      "noMeals": "Без включено хранене",
+      "payNow": "Плати сега",
+      "nonRefundable": "Без възстановяване",
+      "freeCancellationUntil": "Безплатно анулиране до $date",
+      "cancellationTitle": "Условия за анулиране",
+      "bedRequestNote": "Изборът на легло е само заявка и не се гарантира от мястото за настаняване.",
+      "maxRoomsReached": "Можеш да резервираш до 8 стаи",
+      "reserve": "Резервирай",
+      "priceBreakdown": {
+        "taxesAndFees": "Данъци и такси",
+        "total": "Общо",
+        "taxesNote": "Данъците са такси за възстановяване на данъци, плащани на доставчиците (напр. хотели); за подробности виж нашите Условия за ползване. Таксите за обслужване се задържат като възнаграждение за обработката на резервацията ти и може да включват такси, начислявани от доставчиците.",
+        "feesAtProperty": "Такси, дължими на място",
+        "feesAtPropertyNote": "Тези такси се плащат на място при настаняване или напускане, определят се от мястото за настаняване и не са включени в горната обща сума.",
+        "feeKind": {
+          "mandatoryFee": "Задължителна такса",
+          "resortFee": "Курортна такса",
+          "mandatoryTax": "Задължителен данък"
+        }
+      },
+      "chooseRooms": "Избери стаи"
+    },
+    "booking": {
+      "title": "Завърши резервацията си",
+      "leadGuest": "Основен гост",
+      "roomGuest": "Гост за стая $n",
+      "roomGuestHint": "Всяка стая се резервира на името на основния ѝ гост. Стая 1 е на името на основния гост, освен ако не го промениш.",
+      "firstName": "Име",
+      "lastName": "Фамилия",
+      "email": "Имейл",
+      "phone": "Телефон",
+      "invalidEmail": "Въведи валиден имейл адрес",
+      "invalidPhone": "Въведи валиден телефонен номер",
+      "requiredField": "Задължително",
+      "payAndBook": "Плати $amount и резервирай",
+      "processing": "Обработваме резервацията ти…",
+      "chargedWhen": "Картата ти се таксува сега; резервацията се потвърждава веднага.",
+      "paymentsUnavailable": "В момента плащанията не са налични. Опитай отново по-късно.",
+      "priceChangedTitle": "Цената се промени",
+      "priceChangedBody": "Актуалната цена сега е $amount. Прегледай и потвърди, за да продължиш.",
+      "confirmNewPrice": "Потвърди новата цена",
+      "soldOutTitle": "Изчерпано",
+      "soldOutBody": "Тези стаи току-що се изчерпаха за твоите дати. Нищо не е таксувано.",
+      "bookedTitle": "Резервацията е потвърдена!",
+      "bookedBody": "Стаите ти са резервирани. Имейл с потвърждение е на път.",
+      "confirmationNumber": "Номер на потвърждение",
+      "notCharged": "Нищо не е таксувано – блокираната сума по картата ти е освободена.",
+      "bookFailedTitle": "Резервацията не беше успешна",
+      "paymentFailedBody": "Плащането не можа да бъде завършено и нищо не е таксувано. Опитай отново.",
+      "fulfillDelayedTitle": "Плащането е одобрено – резервацията още не е потвърдена",
+      "fulfillDelayedBody": "След одобрението на плащането ти не успяхме да се свържем с услугата за резервации. Натисни „Опитай отново“, за да завършиш резервацията – никога няма да бъдеш таксуван два пъти.",
+      "challengeTitle": "Нужна е допълнителна проверка",
+      "challengeBody": "Банката ти изисква допълнителна проверка, която не успяхме да завършим. Нищо не е таксувано. Свържи се с поддръжката на help@layla.ai.",
+      "tryAgain": "Опитай отново",
+      "resumeFound": "Завършваме чакащата ти резервация за $hotel…",
+      "bookings": "Твоите резервации",
+      "cancelBooking": "Анулирай резервацията",
+      "cancelConfirmTitle": "Да анулираме тази резервация?",
+      "cancelConfirmBody": "Възстановяванията следват условията за анулиране на тарифата.",
+      "cancelled": "Резервацията е анулирана",
+      "stepTravellers": "Гости",
+      "stepReviewPay": "Преглед и плащане",
+      "yourStay": "Твоят престой",
+      "nights": {
+        "one": "1 нощувка",
+        "other": "$n нощувки"
+      },
+      "guests": {
+        "one": "1 гост",
+        "other": "$n гости"
+      },
+      "roomsCount": {
+        "one": "1 стая",
+        "other": "$n стаи"
+      },
+      "pay": "Плати $amount",
+      "total": "Общо",
+      "totalTaxesIncluded": "Общо · с включени данъци",
+      "stay": "Престой",
+      "dates": "Дати",
+      "withdrawalNotice": "За хотелските престои не важи 14-дневното право на отказ; вместо това се прилагат условията за отмяна на тарифата.",
+      "expediaTermsLine": "Резервира се чрез Expedia. С плащането приемаш $terms.",
+      "expediaTerms": "Общите условия на Expedia",
+      "voucher": {
+        "eyebrow": "Хотел · чрез $provider",
+        "confirmed": "Потвърдено",
+        "cancelledBadge": "Анулирано",
+        "checkIn": "Настаняване",
+        "checkOut": "Напускане",
+        "from": "от $time",
+        "by": "до $time",
+        "guests": "Гости",
+        "room": "Стая",
+        "reference": "Референция в $provider",
+        "copy": "Копирай",
+        "copied": "Копирано",
+        "addToCalendar": "Добави в календара",
+        "directions": "Упътване",
+        "freeCancelUntil": "Безплатна отмяна до $date",
+        "nonRefundable": "Без възстановяване",
+        "laylaBooked": "Резервирано. $amount от картата ти. Ще ти кажа, когато може да се настаниш.",
+        "laylaBookedSummary": "Резервацията е потвърдена: $title, $checkIn – $checkOut, $room, $amount чрез $provider, референция $reference.",
+        "chipCar": "Трябва ли ти кола?",
+        "chipDinner": "Вечеря близо до хотела",
+        "chipLateCheckout": "Късно напускане"
+      }
+    },
+    "details": {
+      "propertyInfo": "Добре е да знаеш",
+      "languagesSpoken": "Говорими езици",
+      "fees": "Такси",
+      "mandatoryFees": "Задължителни такси",
+      "optionalExtras": "Допълнителни екстри",
+      "finePrint": "Важни условия",
+      "contact": "Контакт",
+      "nearestAirport": "Най-близко летище",
+      "guestRatings": "Оценки на гостите",
+      "minCheckinAge": "Минимална възраст за настаняване: $age",
+      "viewRoomDetails": "Виж детайли за стаята",
+      "roomDetails": "Детайли за стаята",
+      "sleeps": "Побира $count",
+      "roomSize": "$size м²",
+      "aboutRoom": "За тази стая",
+      "roomAmenities": "Удобства в стаята",
+      "fax": "Факс"
+    },
+    "scores": {
+      "cleanliness": "Чистота",
+      "service": "Обслужване",
+      "comfort": "Комфорт",
+      "condition": "Състояние",
+      "location": "Местоположение",
+      "neighborhood": "Квартал",
+      "quality": "Качество",
+      "value": "Цена/качество",
+      "amenities": "Удобства"
+    },
+    "search": {
+      "refine": "Прецизирай",
+      "where": "Къде",
+      "when": "Кога",
+      "who": "Кой",
+      "filters": "Филтри",
+      "updateResults": "Обнови резултатите",
+      "searchPromptHint": "Опиши идеалния си хотел…",
+      "sortBestMatch": "Най-подходящи",
+      "sortCheapest": "Цена: възходящо",
+      "sortMostExpensive": "Цена: низходящо",
+      "sortGuestRating": "Оценка на гостите",
+      "budgetPerNight": "Бюджет на нощувка",
+      "starRating": "Звезди",
+      "guestRating": "Оценка на гостите",
+      "mealPlans": "Хранене",
+      "popularFilters": "Популярни филтри",
+      "fromYourSearch": "От твоето търсене",
+      "noBudgetLimit": "Без лимит",
+      "childN": "Дете $n",
+      "selectAge": "Избери възраст",
+      "ageN": "$age г.",
+      "childAgesRequired": "Посочи възрастта на всяко дете, за да продължиш",
+      "mealBreakfastIncluded": "Включена закуска",
+      "mealAllInclusive": "All inclusive",
+      "popular": {
+        "freeBreakfast": "Безплатна закуска",
+        "swimmingPool": "Басейн",
+        "freeWifi": "Безплатен Wi-Fi",
+        "parking": "Паркинг",
+        "petsAllowed": "Допускат се домашни любимци",
+        "allInclusive": "All inclusive",
+        "hotTub": "Джакузи"
+      }
+    },
+    "reviews": {
+      "sortNote": "Първо отзивите на твоя език, после най-новите",
+      "policyLink": "Как работят отзивите на гостите",
+      "seeAll": "Виж всички отзиви",
+      "allTitle": "Всички $count отзива",
+      "allTitleFallback": "Всички отзиви",
+      "otherLanguagesNote": "Показваме писмените отзиви на твоя език. Общата оценка се базира на всички $total отзива на гости, включително тези на други езици.",
+      "reviewedOn": "Отзив от $date",
+      "stayed": "Престой през $date",
+      "viaSource": "чрез $source"
+    }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "Време е за бърза актуализация",
+      "body": "Тази версия на Layla вече не се поддържа. Актуализирай, за да продължиш да планираш пътуванията си.",
+      "cta": "Актуализирай Layla"
+    },
+    "recommended": {
+      "title": "Нова Layla те очаква",
+      "body": "Направихме нещата по-гладки. Актуализирай, когато имаш момент.",
+      "cta": "Актуализирай сега",
+      "later": "Може би по-късно"
+    }
+  },
+  "consultation": {
+    "title": "Говори с пътен консултант",
+    "advisorRole": "Твоят пътен консултант",
+    "steps": {
+      "details": "Контакт",
+      "schedule": "Час",
+      "confirmed": "Потвърдено"
+    },
+    "details": {
+      "heading": "Как да се свържем с теб?",
+      "subheading": "Консултантът ти ги използва, за да потвърди разговора.",
+      "fullName": "Пълно име",
+      "email": "Имейл",
+      "phone": "Телефонен номер",
+      "phoneHint": "С код на държавата, напр. +359",
+      "method": "Как предпочиташ да говорим?",
+      "video": "Видеоразговор",
+      "phoneCall": "Телефонен разговор",
+      "privacy": "Данните ти остават при Layla и твоя консултант.",
+      "nameRequired": "Въведи името си",
+      "emailInvalid": "Въведи валиден имейл адрес",
+      "emailRelay": "Трябва ни работещ имейл, за да потвърдим разговора.",
+      "emailRejected": "Този имейл не получава съобщения. Използвай друг.",
+      "phoneInvalid": "Въведи валиден номер с код на държавата",
+      "phoneRejected": "Този номер не приема обаждания и съобщения. Използвай друг.",
+      "continueLabel": "Напред"
+    },
+    "schedule": {
+      "heading": "Избери час",
+      "subheading": "Безплатен 30-минутен разговор, часовете са по твоето местно време.",
+      "noSlots": "Няма свободни часове за този ден",
+      "loadError": "Не успяхме да заредим свободните часове.",
+      "retry": "Опитай пак",
+      "openBookingPage": "Отвори страницата за резервация",
+      "confirm": "Потвърди резервацията",
+      "booking": "Резервираме…",
+      "slotTaken": "Този час току-що беше зает. Избери друг.",
+      "bookingError": "Не успяхме да резервираме разговора. Опитай пак."
+    },
+    "confirmed": {
+      "heading": "Всичко е готово, ${name}!",
+      "headingNoName": "Всичко е готово!",
+      "subheading": "Покана за календара с всички детайли пътува към имейла ти.",
+      "advisor": "Консултант",
+      "when": "Кога",
+      "call": "Разговор",
+      "callValue": "${medium} · ${minutes} мин",
+      "reschedule": "Премести",
+      "cancelCall": "Отмени разговора",
+      "done": "Готово",
+      "otherTrip": "Разговорът ти на ${date} покрива всичките ти планове. Консултантът може да говори и за това пътуване.",
+      "status": {
+        "confirmed": "Потвърден",
+        "rescheduled": "Пренасрочен",
+        "cancelled": "Отменен"
+      },
+      "videoLink": "Линк за видеоразговора",
+      "joinCall": "Включи се",
+      "cancelledNotice": "Този разговор беше отменен. Можеш да резервираш нов по всяко време.",
+      "bookAgain": "Резервирай нов разговор"
+    },
+    "booked": {
+      "pill": "Разговор запазен · ${date}",
+      "profileLine": "Твоят разговор: ${date}",
+      "view": "Виж резервацията",
+      "disc": "Разговорът е запазен"
+    },
+    "advisorDisc": {
+      "book": "Запази разговор с твоя пътен консултант",
+      "booked": "Твоят разговор с пътния консултант"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "Разговорът ти с пътния консултант е след 3 часа",
+      "oneHour": "Разговорът ти с пътния консултант е след 1 час",
+      "tenMinutes": "Разговорът ти с пътния консултант е след 10 минути",
+      "threeHoursNoName": "Разговорът ти с консултанта е след 3 часа",
+      "oneHourNoName": "Разговорът ти с консултанта е след 1 час",
+      "tenMinutesNoName": "Разговорът ти с консултанта е след 10 минути",
+      "body": "${time} · ${medium}. Докосни за подробности."
+    },
+    "newMessage": {
+      "title": "Layla"
+    }
+  },
+  "settings_screen": {
+    "title": "Настройки",
+    "app": "Приложение",
+    "preferences": "Предпочитания"
+  },
+  "support_screen": {
+    "title": "Поддръжка",
+    "advisor_subtitle": "На линия, докато пътуваш.",
+    "whatsapp": "Пиши на пътния си консултант в WhatsApp",
+    "help": "Помощ",
+    "help_24_7": "Помощ 24/7",
+    "help_value": "ЧЗВ",
+    "ask_layla": "Попитай Layla",
+    "contact": "Свържи се с Layla",
+    "contact_value": "hello@layla.ai",
+    "about": "Относно",
+    "about_layla": "За Layla",
+    "terms": "Условия за ползване",
+    "privacy": "Политика за поверителност"
+  },
+  "chatWord": "Чат",
+  "bookingsWord": "Резервации",
+  "discoverWord": "Открий",
+  "creditWord": "Кредит",
+  "flightBooking": {
+    "title": "Резервирай полета си",
+    "stepTravellers": "Пътници",
+    "stepReviewPay": "Преглед и плащане",
+    "matching": "Търсим този полет при авиокомпанията…",
+    "matchingHint": "Проверяваме актуалната тарифа. Може да отнеме до минута.",
+    "yourFlight": "Твоят полет",
+    "passengers": "Пътници",
+    "passengerN": "Пътник ${n}",
+    "adult": "Възрастен",
+    "child": "Дете",
+    "infant": "Бебе",
+    "ready": "Готово",
+    "signInRequired": "Влез в профила си, за да резервираш полети.",
+    "asOnPassport": "Имена както са в паспорта",
+    "titleField": "Обръщение",
+    "titleMr": "Г-н",
+    "titleMs": "Г-жа",
+    "titleMrs": "Г-жа (омъжена)",
+    "titleMiss": "Г-ца",
+    "titleDr": "Д-р",
+    "gender": "Пол",
+    "male": "Мъж",
+    "female": "Жена",
+    "dateOfBirth": "Дата на раждане",
+    "dateHint": "ГГГГ-ММ-ДД",
+    "invalidDate": "Въведи датата като ГГГГ-ММ-ДД",
+    "passportNumber": "Номер на паспорт",
+    "passportCountry": "Издаваща държава (2 букви)",
+    "passportExpiry": "Валидност на паспорта",
+    "invalidName": "Само букви, интервали, тирета и апострофи",
+    "conditions": "Условия",
+    "changes": "Промени",
+    "refunds": "Възстановяване",
+    "allowed": "Разрешено",
+    "notAllowed": "Не е разрешено",
+    "withFee": "Такса ${amount}",
+    "unknownCondition": "Попитай авиокомпанията",
+    "fareExpires": "Тарифата е запазена до ${time}",
+    "expiredTitle": "Тази тарифа изтече",
+    "expiredBody": "Обнови, за да поискаме цената отново от авиокомпанията.",
+    "refresh": "Обнови",
+    "closestTitle": "Точната тарифа не е налична",
+    "closestBody": "Авиокомпанията вече не продава точно тази тарифа. Попитай Layla за следващия най-добър вариант.",
+    "notBookableTitle": "Тази тарифа не може да се резервира тук",
+    "notBookableBody": "Авиокомпанията не продава тази тарифа през Layla. Попитай Layla за алтернатива.",
+    "bookingExists": "Вече имаш започната резервация за този полет.",
+    "orderFailedBody": "Авиокомпанията не успя да потвърди билета. Картата ти не е таксувана.",
+    "chargedWhen": "Картата ти се таксува едва когато авиокомпанията потвърди билета.",
+    "termsLine": "С плащането приемаш условията на тарифата на авиокомпанията и ${terms} на Layla.",
+    "terms": "общите условия",
+    "askAlternative": "Попитай Layla за алтернатива",
+    "voucher": {
+      "eyebrow": "Полет · ${carrier}",
+      "departs": "Излита",
+      "arrives": "Каца",
+      "terminals": "Терминали",
+      "passengers": "Пътници",
+      "addToCalendar": "Добави в календара",
+      "checkInOpens": "Чекиране · от ${day}",
+      "changeOrCancel": "Промени или откажи",
+      "laylaBooked": "Резервирано. ${amount} от картата ти. Бордните карти ще пристигнат тук 24 часа по-рано.",
+      "laylaBookedSummary": "Резервацията на полет е потвърдена: ${title}, излита ${departs}, каца ${arrives}, пътници ${passengers}, ${amount}, референция ${reference}.",
+      "chipHotel": "Хотел в ${city}?",
+      "chipTransfer": "Трансфер от летището",
+      "chipBag": "Добави багаж",
+      "cabinBagEach": "1 ръчен багаж на човек",
+      "checkedBagEach": "чекиран багаж на човек"
+    }
+  },
+  "carBooking": {
+    "title": "Резервирай колата си",
+    "stepDriver": "Шофьор",
+    "stepReviewPay": "Преглед и плащане",
+    "stepReview": "Преглед и резервация",
+    "yourCar": "Твоята кола",
+    "car": "Кола",
+    "dates": "Дати",
+    "where": "Къде",
+    "cover": "Застраховка",
+    "totalTaxesIncluded": "Общо, с данъци и такси",
+    "paidAtDeskNote": "Плаща се на гишето, не сега",
+    "mainDriver": "Основен шофьор",
+    "driverHint": "Имената както са в книжката",
+    "firstName": "Име",
+    "lastName": "Фамилия",
+    "email": "Имейл",
+    "phone": "Телефон",
+    "age": "Възраст на шофьора",
+    "ageHint": "По желание · някои тарифи имат възрастови ограничения",
+    "flightTitle": "Полет при пристигане",
+    "flightHint": "По желание · гишето пази колата, ако полетът закъснее",
+    "airline": "Код на авиокомпанията",
+    "flightNumber": "Номер на полета",
+    "invalidEmail": "Въведи валиден имейл",
+    "invalidPhone": "Въведи валиден телефон",
+    "invalidAge": "Между 16 и 99",
+    "requiredField": "Задължително",
+    "pay": "Плати ${amount}",
+    "reserve": "Резервирай · ${amount} на гишето",
+    "processing": "Резервираме…",
+    "chargedWhen": "Картата ти се таксува едва когато фирмата потвърди резервацията.",
+    "counterWhen": "Сега нищо не се таксува: плащаш на фирмата на гишето.",
+    "withdrawalNotice": "За наем на кола няма право на отказ; важат условията за отмяна на фирмата.",
+    "termsLine": "С резервацията приемаш ${terms}.",
+    "terms": "условията за наем",
+    "priceChangedTitle": "Цената се промени",
+    "priceChangedBody": "Фирмата вече иска ${amount}. Да резервираме на новата цена?",
+    "confirmNewPrice": "Резервирай за ${amount}",
+    "soldOutBody": "Тази кола вече не е налична за тези дати. Поискай от Layla други опции.",
+    "unsupportedBody": "Тази тарифа не може да се резервира в приложението. Поискай от Layla друга кола.",
+    "bookFailedTitle": "Резервацията не мина",
+    "paymentFailedBody": "Нищо не е таксувано. Опитай пак или избери друга кола.",
+    "fulfillDelayedTitle": "Все още потвърждаваме",
+    "fulfillDelayedBody": "Картата ти е оторизирана, фирмата се бави с потвърждението. Опитай пак, за да довършиш резервацията.",
+    "pendingTitle": "Потвърждението е на път",
+    "pendingBody": "Фирмата още потвърждава. Ще получиш ваучера по имейл и тук в чата.",
+    "challengeBody": "Фирмата иска да се свърже с теб преди да потвърди. Екипът ни ще ти пише по имейл; засега нищо не е таксувано.",
+    "bookedTitle": "Резервирано",
+    "bookedBody": "Покажи ваучера на гишето на ${supplier}.",
+    "reservedBody": "Резервирано. Плащаш ${amount} на гишето на ${supplier}.",
+    "tryAgain": "Опитай отново",
+    "paymentsUnavailable": "Плащанията не са достъпни в тази версия.",
+    "backToChat": "Обратно към чата",
+    "voucher": {
+      "eyebrow": "Кола · чрез ${provider}",
+      "subtitle": "${place} · ${days}",
+      "pickUp": "Вземане",
+      "returnLabel": "Връщане",
+      "where": "Къде",
+      "driver": "Шофьор",
+      "reference": "${supplier} ${reference}",
+      "deskDirections": "Как да стигна до гишето",
+      "addToCalendar": "Добави в календара",
+      "cancelFreeUntil": "Безплатна отмяна до ${date}",
+      "payAtDesk": "Плащаш ${amount} на гишето",
+      "laylaBooked": "Резервирано. ${amount} от картата ти. Покажи ваучера на гишето на ${supplier}.",
+      "laylaReserved": "Резервирано. Сега нищо не се таксува, плащаш ${amount} на гишето на ${supplier}.",
+      "laylaBookedSummary": "Наемът е потвърден: ${car} от ${supplier}, вземане ${pickUp} на ${place}, връщане ${dropOff}, ${amount} чрез ${provider}, референция ${reference}.",
+      "chipTransfer": "Добави трансфер",
+      "chipEnough": "Колата стига",
+      "chipDirections": "Как да стигна до гишето"
+    }
+  },
+  "tripPage": {
+    "planReady": "Планът е готов",
+    "heroLine": "${dates} · ${travellers}",
+    "heroLineBudget": "${dates} · ${travellers} · бюджет под ${budget}",
+    "dates": "Дати",
+    "travellers": {
+      "one": "Пътник",
+      "other": "Пътници"
+    },
+    "askLayla": "Попитай Layla",
+    "dayByDay": "Ден по ден",
+    "days": {
+      "one": "${n} ден",
+      "other": "${n} дни"
+    },
+    "askToChange": "Поискай промяна",
+    "dayLabel": "Ден ${n} · ${date}",
+    "dayLabelNoDate": "Ден ${n}",
+    "open": "Отвори",
+    "change": "Промени",
+    "free": "Безплатно",
+    "askAddToDay": "Помоли Layla да добави нещо към ден ${n}",
+    "addToDayPrefill": "Добави нещо към ден ${n}: ",
+    "addToDay": "Добави към ден ${n}",
+    "pricesCheckedJustNow": "Цените са проверени току-що",
+    "pricesCheckedMinutes": "Цените са проверени преди ${n} мин",
+    "pricesCheckedHours": {
+      "one": "Цените са проверени преди ${n} час",
+      "other": "Цените са проверени преди ${n} часа"
+    },
+    "pricesCheckedDays": {
+      "one": "Цените са проверени преди ${n} ден",
+      "other": "Цените са проверени преди ${n} дни"
+    },
+    "staysCompared": {
+      "one": "${n} сравнена нощувка",
+      "other": "${n} сравнени нощувки"
+    },
+    "flightsPriced": {
+      "one": "${n} остойностен полет",
+      "other": "${n} остойностени полета"
+    },
+    "stay": "Нощувка",
+    "stayTitle": {
+      "one": "Нощувка",
+      "other": "Нощувки"
+    },
+    "flights": "Полети",
+    "car": "Кола",
+    "activities": "Дейности",
+    "transfer": "Трансфер",
+    "transferTitle": {
+      "one": "Трансфер",
+      "other": "Трансфери"
+    },
+    "transport": "Транспорт",
+    "transportLegs": {
+      "one": "${n} отсечка",
+      "other": "${n} отсечки"
+    },
+    "route": "Маршрут",
+    "seeMore": "Виж още",
+    "carDays": {
+      "one": "${supplier} · ${n} ден",
+      "other": "${supplier} · ${n} дни"
+    },
+    "inYourCart": "В количката ти",
+    "leftOut": "Изключено",
+    "totalItems": {
+      "one": "Общо · ${n} артикул",
+      "other": "Общо · ${n} артикула"
+    },
+    "cartNote": "За ${travellers}. Актуални цени с включени такси. Нищо не се резервира, докато не платиш. Размаркирай каквото искаш да оставиш извън това плащане.",
+    "inCart": "В количката",
+    "add": "Добави",
+    "booked": "Резервирано",
+    "changeTransport": "Промени транспорта",
+    "removeFromCart": "Премахни от количката",
+    "addToCart": "Добави в количката",
+    "removeFromTrip": "Премахни от пътуването",
+    "readMore": "Прочети още",
+    "keepInTrip": "Запази в пътуването",
+    "chooseThisOne": "Избери тази",
+    "carSearch": {
+      "searchPrompt": "Кола в ${city}",
+      "routePrompt": "Кола от ${from} до ${to}"
+    },
+    "addTransportRoute": "Добави транспорт · ${from} → ${to}",
+    "addCarIn": "Добави кола · ${city}",
+    "addStayRow": "Добави нощувка · ${city} · ${nights}",
+    "addStayCity": "Добави нощувка · ${city}",
+    "checkout": "Плащане",
+    "itemsFor": {
+      "one": "${n} артикул · за ${travellers}",
+      "other": "${n} артикула · за ${travellers}"
+    },
+    "groupStay": "Нощувка · ${nights}",
+    "groupFlights": "Полети · ${n}",
+    "groupCar": "Кола · ${days}",
+    "groupActivities": "Дейности · ${n}",
+    "groupTransfer": "Трансфер",
+    "hotelSheet": {
+      "title": "Твоята нощувка",
+      "reviews": {
+        "one": "${n} отзив",
+        "other": "${n} отзива"
+      },
+      "roomLine": "${nights} · ${perNight} на нощ",
+      "nightsGuests": "${nights} · ${guests}",
+      "guests": {
+        "one": "${n} гост",
+        "other": "${n} гости"
+      },
+      "keepInTrip": "Запази в пътуването",
+      "changeHotel": "Смени хотела"
+    },
+    "transferSheet": {
+      "title": "Трансфер от летището",
+      "people": "Хора",
+      "peopleOf": "${n} от ${max}",
+      "duration": "Продължителност",
+      "provider": "Доставчик",
+      "oneWayPeople": {
+        "one": "Еднопосочно · ${n} човек",
+        "other": "Еднопосочно · ${n} души"
+      },
+      "change": "Промени",
+      "keepInTrip": "Запази в пътуването"
+    },
+    "travelTip": "Съвет за пътуването",
+    "dailyItinerary": "Програма по дни",
+    "dayByDayPlan": "План ден по ден за ${destination}",
+    "creatorTips": "Съвети от авторите",
+    "creatorVideos": "Видеа от авторите",
+    "yourAccommodation": "Твоето настаняване",
+    "guestReviews": "Отзиви от гости",
+    "pricingDetails": "Подробности за цената",
+    "pricePerNight": "Цена на нощувка",
+    "map": "Карта",
+    "pricesExpired": "Цените са изтекли",
+    "refresh": "Обнови",
+    "fullScreen": "Цял екран",
+    "perNight": "на нощ",
+    "totalPrice": "Обща цена",
+    "greatValue": "Отлична цена",
+    "thingsToDo": "Какво да правиш",
+    "activity": "Дейност",
+    "attraction": "Забележителност",
+    "sitesAroundTitle": "Забележителности около ${city}",
+    "sitesAroundSubtitle": "Открий места близо до дестинацията си",
+    "seeAll": "Виж всички",
+    "videoModalComingSoon": "Пълната видеогалерия идва скоро!",
+    "videosAvailable": "налични видеа",
+    "close": "Затвори",
+    "addHotel": "Добави хотел",
+    "addTransportation": "Добави транспорт",
+    "retry": "Опитай пак",
+    "mapUnavailable": "Картата не е достъпна",
+    "datesTbd": "Датите предстои да се уточнят",
+    "perPerson": "на човек",
+    "perDay": "на ден",
+    "photos": "Снимки",
+    "playVideo": "Пусни видеото",
+    "dayLine": {
+      "stay": "Престой в ${hotel}",
+      "flyInto": "Полет до ${city}",
+      "driveTo": "С кола до ${city}",
+      "rideTo": "С влак до ${city}",
+      "sailTo": "С кораб до ${city}",
+      "busTo": "С автобус до ${city}",
+      "transferTo": "Трансфер до ${city}",
+      "getTo": "До ${city}",
+      "flyHome": "Полет към дома",
+      "flyTo": "Полет до ${city}"
+    },
+    "factDays": {
+      "one": "Ден",
+      "other": "Дни"
+    },
+    "factStops": {
+      "one": "Спирка",
+      "other": "Спирки"
+    },
+    "countriesCount": {
+      "one": "${n} държава",
+      "other": "${n} държави"
+    },
+    "countriesAnd": "${a} и ${b}",
+    "plannedWithLayla": "Планирано с Layla",
+    "askToChangeAnything": "Поискайте промяна на каквото и да е",
+    "bookedOfItems": {
+      "one": "1 от ${m} артикула е резервиран",
+      "other": "${n} от ${m} артикула са резервирани"
+    },
+    "itemsBooked": {
+      "one": "${n} артикул е резервиран",
+      "other": "${n} артикула са резервирани"
+    },
+    "allBooked": "Всичко е резервирано",
+    "seeBooking": "Виж резервацията",
+    "paidAmount": "Платени ${amount}",
+    "vouchersInChat": "Ваучерите са в чата"
+  },
+  "activityBooking": {
+    "title": "Резервирай дейността си",
+    "stepDetails": "Данни",
+    "stepReviewPay": "Преглед и плащане",
+    "yourActivity": "Твоята дейност",
+    "activity": "Дейност",
+    "when": "Кога",
+    "travellers": "Участници",
+    "meetingPoint": "Място на среща",
+    "duration": "Продължителност",
+    "total": "Общо",
+    "leadTraveller": "Основен участник",
+    "supplierQuestions": "Няколко данни за организатора",
+    "required": "Задължително",
+    "quoteLoading": "Проверяваме цената…",
+    "quoteFailed": "Не успяхме да изчислим цена за този час. Опитай пак.",
+    "pay": "Плати ${amount}",
+    "processing": "Обработваме…",
+    "tryAgain": "Опитай отново",
+    "priceChangedTitle": "Цената се промени",
+    "priceChangedBody": "Организаторът вече иска ${amount} за този час. Потвърди, за да продължиш.",
+    "confirmNewPrice": "Потвърди ${amount}",
+    "soldOutBody": "Местата за този час току-що свършиха. Избери друг час в чата.",
+    "unbookableBody": "Тази дейност изисква данни, които още не можем да събираме. Резервирай я на сайта на доставчика.",
+    "paymentsUnavailable": "Плащанията не са достъпни в тази версия.",
+    "bookFailedTitle": "Не се получи",
+    "paymentFailedBody": "Картата ти не е таксувана. Опитай пак или използвай друга карта.",
+    "supplierRefusedBody": "Организаторът не успя да потвърди този час. Блокираната сума по картата ти е освободена.",
+    "fulfillDelayedTitle": "Все още потвърждаваме",
+    "fulfillDelayedBody": "Картата ти е оторизирана, а организаторът потвърждава. Опитай пак след малко.",
+    "invalidAnswersBody": "Организаторът иска тези данни да бъдат поправени.",
+    "invalidPhoneBody": "Организаторът има нужда от валиден мобилен номер с код на държавата.",
+    "chargedWhen": "Картата ти се таксува едва когато организаторът потвърди.",
+    "expediaTermsLine": "С резервацията приемаш ${terms}.",
+    "expediaTerms": "условията на Expedia",
+    "voucher": {
+      "eyebrow": "Дейност · чрез ${provider}",
+      "tickets": {
+        "one": "${n} билет",
+        "other": "${n} билета"
+      },
+      "when": "Кога",
+      "duration": "Продължителност",
+      "travellers": "Участници",
+      "meetingPoint": "Място на среща",
+      "anyTime": "По всяко време",
+      "voucherPending": "Ваучерът е на път",
+      "openVoucher": "Отвори ваучера",
+      "laylaBooked": "Резервирано. ${amount} от картата ти.${meet}",
+      "meetLine": " Гидът те чака в ${time} при ${place}.",
+      "laylaBookedSummary": "Резервацията е потвърдена: ${title} на ${when}, участници: ${n}, ${amount} чрез ${provider}, референция ${reference}.",
+      "chipMore": "Още нещо за този ден",
+      "chipDinner": "Вечеря наблизо",
+      "chipLeave": "Остави остатъка от деня свободен"
+    }
+  },
+  "credit": {
+    "heading": "Кредит",
+    "travel_credit": "Кредит за пътуване",
+    "nothing_yet": "Още нищо на път · покани някого, за да започнеш",
+    "invite": "Покани",
+    "your_circle": "Твоят кръг",
+    "use_credit": "Използвай кредита",
+    "postcard_title": "Подари на някого пътуването на живота му",
+    "postcard_caption": "Изпрати картичка: ${amount} за него, ${amount} за теб, когато резервира.",
+    "postcard_cta": "Изпрати картичка",
+    "circle_travelling": "${n} от ${total} пътуват",
+    "add_friend": "Добави някого",
+    "pending_amount": "+${amount}",
+    "pending_rest(plural)": {
+      "one": "на път · 1 приятел планира",
+      "other": "на път · ${n} приятели планират"
+    },
+    "earned_from": "Спечелени от ${n} приятели, които пътуваха",
+    "invite_hero": "Подари на някого, когото обичаш, пътуването на живота му.",
+    "invite_lead": "Знаеш кой има нужда от истинска почивка. Изпрати му картичка с ${offer}. Когато резервира, и ти получаваш ${amount}.",
+    "invite_offer": "${amount} отстъпка за първото му пътуване",
+    "tile_them": "за него",
+    "tile_you": "за теб",
+    "how1_lead": "Изпрати картичка.",
+    "how1": "Избери снимка, напиши ред и я изпрати, както обикновено си пишеш.",
+    "how2_lead": "Приятелят ти планира с Layla.",
+    "how2": "Пътният консултант поема сложните неща.",
+    "how3_lead": "Резервира и двамата получавате по ${amount}.",
+    "how3": "Без ограничение на броя приятели.",
+    "copy_link": "Копирай линка",
+    "copied": "Копирано",
+    "circle_link(plural)": {
+      "one": "Твоят кръг · 1 приятел",
+      "other": "Твоят кръг · ${n} приятели"
+    },
+    "invite_fine": "Кредитът идва, когато първото пътуване на приятеля ти е резервирано. Важи за пътувания с Layla с пътен консултант.",
+    "compose_heading": "Твоята картичка",
+    "flip": "Обърни картичката",
+    "to": "До",
+    "contacts": "Контакти",
+    "name_hint": "Името на приятеля ти",
+    "greeting": "Поздрави от ${place}",
+    "postmark_ring": "Layla ✦ Поща · ${city} ·",
+    "postmark_ring_no_city": "Layla ✦ Поща ·",
+    "to_line": "До: ${name}",
+    "chip_holiday": "Истинска почивка",
+    "chip_honeymoon": "Меденият месец",
+    "chip_turn": "Твой ред е",
+    "note_holiday": "Все повтаряш, че ти трябва истинска почивка. Ето ти ${amount} – спри да го казваш и тръгвай.",
+    "note_honeymoon": "За медения месец, който двамата все отлагате. Резервирайте го. С обич, ${initial}.",
+    "note_honeymoon_unsigned": "За медения месец, който двамата все отлагате. Резервирайте го.",
+    "note_turn": "Помниш ли нашето пътуване? Сега е твой ред. Layla свърши цялата трудна работа вместо нас.",
+    "write_own": "Напиши свои",
+    "own_hint": "Напиши своите думи",
+    "send_postcard": "Изпрати картичката",
+    "sending": "Изпращане…",
+    "send_failed": "Не се изпрати. Провери връзката си и опитай пак.",
+    "share_title": "Изпрати я както искаш",
+    "share_preview": "${name} ти изпрати картичка ✦ ${amount} за следващото ти пътуване",
+    "share_preview_unsigned": "Картичка за теб ✦ ${amount} за следващото ти пътуване",
+    "messages": "Съобщения",
+    "whatsapp": "WhatsApp",
+    "mail": "Mail",
+    "share_message": "Изпратих ти картичка от ${place} ✦ 100 € отстъпка за първото ти пътуване с Layla. Отвори я тук: ${url}",
+    "share_subject": "Картичка от ${place}",
+    "sent_heading": "Картичката ти е",
+    "sent_pill": "на път",
+    "sent_message": "Ще ти кажем веднага щом ${name} я отвори. Когато резервира, ${amount} влизат в профила ти.",
+    "see_circle": "Виж кръга си",
+    "circle_title": "Твоят кръг",
+    "stat_earned": "спечелени",
+    "stat_pending": "на път",
+    "circle_rule": "Всеки приятел, който резервира пътуване = ${amount} за него и ${amount} за теб.",
+    "circle_empty": "Още никой. Изпрати първата си картичка и човекът ще се появи тук.",
+    "friends_travelling": "Приятели на път",
+    "status_booked": "Резервирано",
+    "status_planning": "Планира",
+    "stamp_booked": "резервирано",
+    "stamp_planning": "планира ${place}",
+    "stamp_planning_no_place": "планира",
+    "stamp_claimed": "активирано",
+    "stamp_opened": "отворена",
+    "stamp_sent": "изпратена картичка",
+    "row_booked_added": "Резервира ${place} · добавени ${amount}",
+    "row_booked_added_no_place": "Резервира · добавени ${amount}",
+    "row_planning_with": "Планира ${place} с Layla",
+    "row_planning_no_place": "Планира с Layla",
+    "row_claimed": "Активира своите 100 € · още без планове",
+    "row_opened_at": "Отвори картичката ти ${when}",
+    "row_sent_at": "Картичката е изпратена ${when}",
+    "just_now": "току-що",
+    "nudge": "Подсети",
+    "send_another": "Изпрати още една картичка",
+    "unavailable": "Кредитът не е достъпен на ${host}. Маршрутите за кредит още не са качени там.",
+    "retry": "Опитай пак",
+    "link_loading": "Зареждане на линка ти…"
+  },
+  "discover": {
+    "for_you": "За теб",
+    "creators": "Създатели",
+    "creators_eyebrow": "Създатели на Layla",
+    "templates_eyebrow": "Започни от пътуване, което хората обикнаха",
+    "template_tag": "Шаблон · ${category}",
+    "open_on": "Да се отвори ${name} в ${platform}?",
+    "plan_with_layla": "Планирай това пътуване с Layla",
+    "stops": {
+      "one": "${n} спирка",
+      "other": "${n} спирки"
+    },
+    "days": {
+      "one": "${n} ден",
+      "other": "${n} дни"
+    },
+    "template_days": "Шаблон · ${days}",
+    "template_meta": "Шаблон · ${days} · ${travellers}",
+    "day_label": "ДЕН ${n}",
+    "from_price": "от ${price}",
+    "from_caption": "хотели и преживявания, за ${party} · гъвкави дати",
+    "start_from_trip": "Започни от това пътуване",
+    "trip_unavailable": "Това пътуване не е налично в момента.",
+    "filters": {
+      "beach": "Плаж",
+      "cities": "Градове",
+      "northern_lights": "Северно сияние",
+      "road_trip": "Пътешествие с кола",
+      "safari": "Сафари"
+    },
+    "filter_count": {
+      "one": "${n} пътуване · ${theme}",
+      "other": "${n} пътувания · ${theme}"
+    },
+    "nothing_here": "Тук още няма нищо",
+    "layla_creator": "Layla създател",
+    "plan_this_trip": "Планирай това пътуване",
+    "templates": {
+      "thailand": {
+        "title": "Андаманското крайбрежие на Тайланд",
+        "category": "Плажове",
+        "route": "Пукет → Кхао Лак",
+        "intro": "Пхи Пхи с моторница, залез на нос Промтеп и урок по готвене в Пукет, после рафтинг в джунглата и тихи плажове в Кхао Лак."
+      },
+      "japan": {
+        "title": "Кухните, храмовете и горещите извори на Япония",
+        "category": "Храна и култура",
+        "route": "Токио → Киото → Осака → Сапоро",
+        "intro": "Суши с готвач от Цукиджи, дзен медитация с монах, урок по готвене в Каназава, пазарът Нишики и саке в Киото, после рамен в Осака и морските дарове на Сапоро."
+      },
+      "iceland_road_trip": {
+        "title": "Южното крайбрежие на Исландия с кола",
+        "category": "Пътешествие с кола",
+        "route": "Рейкявик → Вик → Скафтафел → Рейкявик",
+        "intro": "Кола под наем по Златния кръг, черен пясък във Вик, ледниковата лагуна край Скафтафел и древните пещери на Хела, и обратно в Рейкявик."
+      },
+      "east_africa": {
+        "title": "Източна Африка за 24 дни, от Килиманджаро до Занзибар",
+        "category": "Сафари и плаж",
+        "route": "Килиманджаро → Амбосели → Самбуру → Масай Мара → Найроби → Занзибар",
+        "intro": "Слонове под Килиманджаро в Амбосели, специалната петорка на Самбуру, фламинго на езерото Накуру, пет нощи сафари в Масай Мара, после уличките на Стоун Таун и белият пясък на Занзибар."
+      },
+      "bali": {
+        "title": "Бали, от храмовете до тюркоаза",
+        "category": "Острови",
+        "route": "Убуд → Гили Траванган → Нуса Дуа",
+        "intro": "Оризови тераси и храмове около Убуд, бавни островни дни на Гили Траванган и плажен финал в Нуса Дуа."
+      },
+      "iceland": {
+        "title": "Исландия под северното сияние",
+        "category": "Северно сияние",
+        "route": "Рейкявик → Северно сияние → Sky Lagoon",
+        "intro": "Дизайнерски хотел в Рейкявик, нощи в търсене на северното сияние, Перлан, кулинарна разходка и накисване в Sky Lagoon."
+      },
+      "lapland": {
+        "title": "Лапландия в снега",
+        "category": "Зима",
+        "route": "Рованиеми → Селото на Дядо Коледа → Арктическа пустош",
+        "intro": "Селото на Дядо Коледа, моторна шейна до леден риболов, фототур на северното сияние и истинска финландска сауна."
+      },
+      "madeira": {
+        "title": "Мадейра с кола",
+        "category": "Пътешествие с кола",
+        "route": "Фуншал → Понта де Сао Лоуренсо → Пико до Ариейро",
+        "intro": "Петзвезден хотел на скалите във Фуншал и кола за обикаляне: изгрев на Понта де Сао Лоуренсо, китове в открито море и върховете на Пико до Ариейро."
+      },
+      "egypt": {
+        "title": "Червено море в Ел Гуна",
+        "category": "Плаж",
+        "route": "Хургада → Ел Гуна",
+        "intro": "Гледка към лагуната от петзвезден курорт, шнорхелинг по рифовете на Червено море, обиколка на Ел Гуна с лодка и тук-тук и бавни дни край водата."
+      },
+      "thailand_north_to_south": {
+        "title": "Тайланд, от Банкок до Пукет",
+        "category": "Градове и храна",
+        "route": "Банкок → Чианг Май → Пукет",
+        "intro": "Лодки по каналите, муай тай и кулинарна обиколка из уличките на Банкок, храмове и урок по готвене в Чианг Май, после слонове и нощни пазари в Пукет."
+      },
+      "thailand_temples_and_sea": {
+        "title": "Храмовете, планините и морето на Тайланд",
+        "category": "Лукс",
+        "route": "Банкок → Чианг Май → Райлей → Ко Ланта",
+        "intro": "Mandarin Oriental в Банкок, старите храмове на Чианг Май и слонско убежище, каяци и светещ планктон в Райлей, после тихи дни на Ко Ланта."
+      },
+      "puglia": {
+        "title": "Пулия, от брега към полята",
+        "category": "Бряг и провинция",
+        "route": "Монополи → Вале д'Итрия → Лече → Трикасе",
+        "intro": "Круиз по залез край Полиняно, трулите на Алберобело и зехтин във Вале д'Итрия, бароковият Лече, а после кану в морските пещери на Санта Мария ди Леука."
+      },
+      "australia": {
+        "title": "Австралия за 19 дни, от Тасмания до рифа",
+        "category": "Голяма обиколка",
+        "route": "Хобарт → Мелбърн → Улуру → Сидни → Кернс → Сингапур",
+        "intro": "Дивата Тасмания и уличките на Мелбърн, изгрев над Улуру, пристанището на Сидни и лозята на Хънтър Вали, после дъждовната гора на Тамборин и Големият бариерен риф, с престой в Сингапур."
+      },
+      "japan_treasures": {
+        "title": "Съкровищата на Япония: Осака, Миаджима, Киото и Токио",
+        "category": "Градове и култура",
+        "route": "Осака → Миаджима → Киото → Токио",
+        "intro": "Уличната храна и неонът на Осака, плаващите тории на Миаджима, пет бавни дни сред храмовете и чайните на Киото, после Токио от Сенсо-джи до Шибуя."
+      }
+    }
+  },
+  "states": {
+    "expired": "Изтекла",
+    "fresh": "Актуална",
+    "refreshPrice": "Обнови цената",
+    "refreshExpiredToContinue": "Обнови изтеклите цени, за да продължиш",
+    "pricesExpiredShort": "Цените са изтекли · обнови",
+    "refreshPrices": "Обнови цените",
+    "refreshFailed": "Цените не можаха да се обновят · опитайте отново",
+    "rerunSearch": {
+      "hotel": "Тези цени на хотели са изтекли, може ли да потърсиш пак?",
+      "flight": "Тези цени на полети са изтекли, може ли да потърсиш пак?",
+      "car": "Тези цени на коли са изтекли, може ли да потърсиш пак?",
+      "activity": "Тези цени на активности са изтекли, може ли да потърсиш пак?"
+    },
+    "soldOut": "Изчерпано",
+    "seeAll": "Виж всички",
+    "ratesExpiredTitle": "Цените може да са се променили",
+    "ratesExpiredBody": "Отдавна не сме проверявали тази цена. Обнови я, преди да платиш.",
+    "checkingPrice": "Проверяваме цената…",
+    "payFailed": {
+      "notCharged": "Нищо не е таксувано",
+      "declined": "Картата ти беше отказана. Опитай с друга карта или с Apple Pay.",
+      "tryAnotherCard": "Опитай с друга карта",
+      "useApplePay": "Използвай Apple Pay"
+    },
+    "offline": {
+      "title": "Нямаш връзка.",
+      "body": "Ваучерите са запазени на този телефон. Чатът и новите съобщения се връщат, щом има връзка.",
+      "saved": "Запазено",
+      "status": "Офлайн"
+    },
+    "checkPriceAgain": "Провери цената отново"
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "Настаняване днес",
+      "checkInIn": {
+        "one": "Настаняване утре",
+        "other": "Настаняване след $n дни"
+      },
+      "startsToday": "Започва днес",
+      "startsIn": {
+        "one": "Започва утре",
+        "other": "Започва след $n дни"
+      },
+      "via": "чрез $provider",
+      "kindHotel": "Хотел",
+      "kindFlight": "Полет",
+      "kindCar": "Кола под наем",
+      "kindActivity": "Активност",
+      "reference": "Референция на резервацията",
+      "bookingNo": "Резервация № $ref",
+      "itinerary": "Маршрут",
+      "confirmation": "Потвърждение",
+      "pnr": "PNR",
+      "bookedOn": "Резервирано на $date · $payment",
+      "paidOnline": "Платено онлайн",
+      "paidAtCounter": "Плащане на гише",
+      "paidOnAccount": "По сметка",
+      "confirmationPdf": "Потвърждение в PDF",
+      "invoicePdf": "Фактура в PDF",
+      "ticket": "Билет",
+      "invoiceNeedsAddress": "За фактурата първо ни трябва адрес за фактуриране. Добави го по-долу.",
+      "invoiceUnavailable": "Фактури за тази резервация се изпращат по имейл при поискване.",
+      "rooms": "Стаи",
+      "flights": "Полети",
+      "car": "Кола",
+      "activity": "Активност",
+      "after": "След $time",
+      "until": "До $time",
+      "pickUp": "Вземане",
+      "returnLabel": "Връщане",
+      "departs": "Излита",
+      "arrives": "Каца",
+      "when": "Кога",
+      "duration": "Продължителност",
+      "meetingPoint": "Място на среща",
+      "nightsLocalTime": {
+        "one": "1 нощувка · Часовете са по местно време на хотела",
+        "other": "$n нощувки · Часовете са по местно време на хотела"
+      },
+      "daysCount": {
+        "one": "1 ден",
+        "other": "$n дни"
+      },
+      "nightsCount": {
+        "one": "1 нощувка",
+        "other": "$n нощувки"
+      },
+      "ticketsCount": {
+        "one": "1 билет",
+        "other": "$n билета"
+      },
+      "passengersCount": {
+        "one": "1 пътник",
+        "other": "$n пътници"
+      },
+      "cancelRoom": "Отмени стаята",
+      "changeDates": "Промени датите",
+      "changeTime": "Промени часа",
+      "guestInfo": "Данни за госта",
+      "names": "Имена",
+      "contactInfo": "Контакт",
+      "passengers": "Пътници",
+      "driver": "Шофьор",
+      "travellers": "Пътуващи",
+      "leadTraveller": "Основен пътуващ",
+      "priceSummary": "Обобщение на цената",
+      "taxesAndFees": "Данъци и такси",
+      "total": "Общо",
+      "paidWithCard": "Платено онлайн · $card",
+      "chargedOn": "Удържано на $date · с включени данъци",
+      "chargedTaxesIncluded": "С включени данъци",
+      "payAtDeskNote": "Плащаш на гишето при вземане на колата",
+      "billingAddress": "Адрес за фактуриране",
+      "billingIntro": "Добави адрес за фактуриране, за да получиш фактура. След издаването ѝ не може да се променя.",
+      "setBillingAddress": "Задай адрес за фактуриране",
+      "editBillingAddress": "Редактирай адреса за фактуриране",
+      "planRest": "Планирай останалото в $city",
+      "planRestFallback": "Планирай около тази резервация",
+      "planRestLine": "Вечеря наблизо, кола за уикенда, промяна в плана — просто попитай.",
+      "askLayla": "Попитай Layla за тази резервация",
+      "placeHotel": "Хотел",
+      "placeAirport": "Летище",
+      "placePickup": "Вземане",
+      "placeMeeting": "Място на среща",
+      "directions": "Упътване",
+      "callHotel": "Обади се на хотела",
+      "callSupplier": "Обади се на $name",
+      "emailSupplier": "Пиши на $name",
+      "addToCalendar": "Добави в календара",
+      "support": "Обслужване на клиенти",
+      "supportTitle": "Нужна ти е помощ с тази резервация?",
+      "supportLine": "Свържи се с поддръжката · референцията се добавя автоматично",
+      "cancelAllRooms": "Отмени всички стаи",
+      "cancelBooking": "Отмени резервацията",
+      "cancelFoot": "Тарифите с безплатна отмяна се възстановяват изцяло. При другите може да има такса.",
+      "notCancellableFoot": "Тази резервация не може да се отмени от приложението. Свържи се с поддръжката и ще го уредим.",
+      "loadFailed": "В момента не успяхме да заредим тази резервация.",
+      "retry": "Опитай пак",
+      "sharePdf": "Потвърждение · $title"
+    },
+    "cancel": {
+      "titleRoom": "Да отменим тази стая?",
+      "titleBooking": "Да отменим тази резервация?",
+      "working": "Отменя се…",
+      "doneRoom": "Стаята е отменена",
+      "doneBooking": "Резервацията е отменена",
+      "refundFull": "Ще ти възстановим $amount.",
+      "refundPartial": "Частично възстановяване · ще получиш $amount.",
+      "refundNone": "Тази тарифа е без възстановяване. Няма да получиш сума обратно.",
+      "refundUnknown": "В момента не можем да потвърдим сумата за възстановяване. Ако отмениш, екипът ни ще провери и ще ти пише.",
+      "body": "Тарифите с безплатна отмяна се възстановяват; при другите може да има такса. $provider потвърждава отмяната веднага.",
+      "workingWith": "Отмяна чрез $provider…",
+      "yes": "Да, отмени",
+      "keep": "Запази резервацията",
+      "resultIssued": "Възстановяване от $amount е на път към първоначалния ти метод на плащане.",
+      "resultPending": "Възстановяването се обработва и скоро ще се появи по първоначалния ти метод на плащане.",
+      "resultNone": "Тарифата беше без възстановяване, така че няма сума обратно.",
+      "resultReview": "Екипът ни преглежда възстановяването и ще ти пише.",
+      "doneFoot": "Layla публикува отмяната в чата ти и обновява Резервации. Нищо друго в пътуването ти не се променя.",
+      "findAnotherHotel": "Намери друг хотел",
+      "findAnotherCar": "Намери друга кола",
+      "findAnotherActivity": "Намери друга активност",
+      "backToBookings": "Обратно към резервациите",
+      "notCancellable": "Тази резервация вече не може да се отмени оттук.",
+      "failed": "Отмяната не мина. Нищо не е променено — опитай пак или се свържи с поддръжката.",
+      "laylaCancelled": "Отменено: $title. $refund",
+      "laylaRefund": "$amount се връщат по картата ти.",
+      "laylaNoRefund": "Без възстановяване."
+    },
+    "billing": {
+      "title": "Адрес за фактуриране",
+      "intro": "Използва се във фактурата (PDF). След издаване на фактурата адресът не може да се променя.",
+      "name": "Име във фактурата",
+      "company": "Фирма (по избор)",
+      "companyHint": "Име на фирмата",
+      "line1": "Адрес, ред 1",
+      "line2": "Адрес, ред 2 (по избор)",
+      "line2Hint": "Апартамент, етаж, на вниманието на",
+      "city": "Град",
+      "postalCode": "Пощенски код",
+      "state": "Област / регион (по избор)",
+      "country": "Държава",
+      "countryHint": "Две букви, напр. BG",
+      "taxId": "ДДС номер (по избор)",
+      "taxIdHint": "ЕИК / ДДС",
+      "countryNote": "Държавата трябва да съвпада с държавата на фактуриране на картата ти.",
+      "save": "Запази адреса",
+      "required": "Задължително",
+      "saveFailed": "Адресът не можа да се запази. Провери полетата и опитай пак.",
+      "locked": "Издадена е фактура; адресът вече не може да се променя."
+    },
+    "chat": {
+      "intro": "Какво искаш да промениш?",
+      "introWithPolicy": "$policy. Какво искаш да промениш?",
+      "chatName": "Резервация · $title",
+      "bookingDetails": "Детайли за резервацията",
+      "changeDates": "Промени датите",
+      "addNight": "Добави нощувка",
+      "lateCheckout": "Късно напускане",
+      "changeTime": "Промени часа",
+      "changeCar": "Смени колата",
+      "addDriver": "Добави шофьор",
+      "changeFlight": "Промени полета",
+      "addBag": "Добави багаж",
+      "directions": "Упътване",
+      "cancel": "Отмени",
+      "pendingBadge": "Изчаква",
+      "refundPendingBadge": "Възстановяване изчаква",
+      "calendar": "Календар"
+    },
+    "complexTrip": {
+      "badge": "Сложно пътуване · $days дни · $stops спирки",
+      "title": "Това заслужава човек.",
+      "line": "$name, пътен консултант, може да го планира и резервира с теб безплатно. Вижда целия този чат.",
+      "multiCity": "Няколко града",
+      "groupOf": "Група от $n",
+      "longTrip": "$n дни",
+      "planWith": "Планирай с $name",
+      "keepGoing": "Продължи с Layla"
+    },
+    "titles": {
+      "route": "От $from до $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "Резервация на пътуването",
+      "badgeInProgress": "Резервира се",
+      "badgePartial": "$n от $total потвърдени",
+      "badgeConfirmed": "Потвърдена",
+      "badgeCancelled": "Отменена",
+      "noteInProgress": "Резервираме всеки елемент директно при доставчика. Ваучерите пристигат в чата ти и в Резервации веднага щом бъдат потвърдени.",
+      "notePartial": "$n от $total потвърдени. Останалото е при доставчиците; ваучерите идват веднага щом бъдат потвърдени.",
+      "noteConfirmed": "Всичко е резервирано. Ваучерите и електронните билети са в чата ти и в Резервации.",
+      "noteCancelled": "Тази резервация беше отменена. Евентуално възстановяване следва условията на доставчиците.",
+      "itemsCount": {
+        "one": "1 елемент",
+        "other": "$n елемента"
+      },
+      "paidLine": "Платени $amount · $date",
+      "payment": "Плащане",
+      "paymentRef": "Референция на плащането",
+      "sectionStays": "Настанявания",
+      "sectionFlights": "Полети",
+      "sectionCars": "Кола под наем",
+      "sectionTransfers": "Трансфери",
+      "sectionActivities": "Дейности",
+      "sectionTransport": "Билети",
+      "itemInProgress": "Резервира се",
+      "itemConfirmed": "Потвърдено",
+      "itemCancelled": "Отменено",
+      "confirmationReady": "Потвърждението е готово",
+      "askLayla": "Попитай Layla за тази резервация",
+      "askLaylaLine": "Промени, въпроси, екстри: всичко е в чата на пътуването.",
+      "openTrip": "Отвори пътуването",
+      "voucherEyebrow": "Резервация на пътуването",
+      "voucherSubtitle": "Платено · резервира се",
+      "voucherPaid": "Платено",
+      "voucherItems": "Елементи",
+      "voucherDates": "Дати",
+      "voucherTravellers": "Пътуващи",
+      "laylaPaid": "Платено. Вече резервирам твоите $items при доставчиците; всеки ваучер се появява тук веднага щом бъде потвърден.",
+      "laylaPaidSummary": "Получено плащане за пътуването: $title, $items, $amount. Резервациите са в процес при доставчиците; ваучерите идват по елементи.",
+      "barAllBooked": "Всичко е резервирано",
+      "barVouchersInChat": "Ваучерите са в чата",
+      "paidAmount": "Платени $amount"
+    }
+  },
+  "passport": {
+    "visas": "ВИЗИ",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "ПЪТЕН ПАСПОРТ",
+    "book_code": "P",
+    "surname": "Фамилия",
+    "given_names": "Имена",
+    "home": "Дом",
+    "traveller_since": "Пътува от",
+    "next": "Следващо",
+    "countries": "държави",
+    "cities": "града",
+    "nights_away": "нощувки навън",
+    "fill_title": "Напълни го с всяко място, където си бил",
+    "connect_gmail": "Свържи Gmail",
+    "connect_outlook": "Свържи Outlook",
+    "connected": "Свързан",
+    "connected_updated": "Свързан · обновен на $date",
+    "or_by_hand": "или добави места ръчно",
+    "reading": "Четем резервациите ти… $countries държави · $cities града · $nights нощувки навън",
+    "connecting": "Отваряме Google…",
+    "connect_failed": "Gmail не се свърза. Опитай пак или добави места ръчно.",
+    "where_title": "Къде си бил?",
+    "place_hint": "Град или място",
+    "earlier": "По-рано",
+    "stamp_it": "Подпечатай",
+    "stamp_failed": "Мястото не се запази. Опитай пак.",
+    "share_mine": "Сподели паспорта ми",
+    "ask_layla": "Накъде сега? Питай Layla",
+    "ask_layla_prefill": "Накъде да отида сега?",
+    "share": {
+      "close": "Затвори",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "Запази снимката",
+      "counts": "$countries държави. $cities града.\n$nights нощувки навън.",
+      "get_link": "Вземи своя Layla паспорт · $link",
+      "get_plain": "Вземи своя Layla паспорт",
+      "shared": "Споделено",
+      "shared_note": "Приятелите, които отворят линка ти, получават 100 € отстъпка за първото си пътуване",
+      "link_copied": "Линкът е копиран · добави стикер с линк в Instagram",
+      "no_app": "$app не е инсталирано, споделяме по обичайния начин."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "Свържи имейла си",
+    "command": {
+      "notNow": "Не сега",
+      "tryAgain": "Опитай отново",
+      "useInstead": "Използвай ${provider} вместо това",
+      "connectedSeeFound": "${provider} е свързан · виж какво открих",
+      "connectProvider": "Свържи ${provider}",
+      "readOnlyLine": "Само за четене. Нищо не се изпраща от акаунта ти.",
+      "connect": "Свържи",
+      "otherInstead": "По-добре ${provider}",
+      "connectedTwo": "${a} и ${b} са свързани",
+      "manage": "Управление"
+    },
+    "picker": {
+      "titleLead": "Събери света на пътуванията си",
+      "titleHighlight": "на едно място",
+      "body": "Layla намира какво си резервирал досега, вижда кога си свободен и планира около това.",
+      "footer": "Само за четене. Нищо не се изпраща от акаунтите ти. Прекъсни връзката по всяко време от Свързани акаунти.",
+      "bestStart": "Най-добро начало",
+      "connectedLastRead": "Свързано · последно четене ${when}",
+      "connectedPending": "Свързано · първото обновяване предстои",
+      "expiredLine": "Връзката е изтекла · свържи отново, за да продължи обновяването",
+      "update": "Обнови",
+      "reconnect": "Свържи отново",
+      "connect": "Свържи",
+      "rowConnected": "Свързано",
+      "rowEmail": "Имейли с резервации",
+      "rowInstagram": "Само професионални акаунти",
+      "rowExpired": "Връзката е изтекла"
+    },
+    "provider": {
+      "googleSub": "Намира предишните ти полети и хотели.",
+      "microsoftSub": "Имейл и календар, ако използваш Microsoft.",
+      "instagramSub": "Само за професионални акаунти · запазените ти места и reels, като вдъхновение."
+    },
+    "wait": {
+      "title": "Довършване в ${provider}…",
+      "body": "Отвори се прозорец на ${provider}. Избери акаунта, с който резервираш пътувания, и разреши достъп само за четене. Върни се тук, когато приключиш.",
+      "waiting": "Изчаквам ${provider}",
+      "cancel": "Отказ"
+    },
+    "card": {
+      "intro": "Секунда. Чета резервациите ти, най-старите първо.",
+      "reading": "Чета ${provider}",
+      "keepChatting": "Продължавай да пишеш, ще ти кажа, когато свърша.",
+      "keepBrowsing": "Спокойно разглеждай. Обикновено отнема минута-две.",
+      "connected": "Свързано",
+      "stillGoing": "Голяма пощенска кутия. Още чета."
+    },
+    "errorCard": {
+      "intro": "${provider} не ме пусна. Ако си затворил прозореца, това е всичко: нищо не е прочетено и нищо не е променено.",
+      "retryLine": "Опитай отново или използвай ${other} вместо това.",
+      "retryLineSingle": "Опитай отново, когато поискаш."
+    },
+    "done": {
+      "title": "${provider} е свързан",
+      "found": "Открих ${trips} в твоя ${provider}. Профилът ти на пътешественик е готов.",
+      "noneNew": "В тази пощенска кутия още няма имейли с резервации. Ще проверявам всяка седмица, така че новите пътувания ще се появят сами.",
+      "updated": "Вече имам усещане за стила ти.",
+      "close": "Затвори"
+    },
+    "phases": {
+      "connect": {
+        "active": "Отварям вратата към ${provider}",
+        "done": "Свързано с ${provider}"
+      },
+      "emails": {
+        "active": "Търся потвърждения за резервации",
+        "done": {
+          "one": "${n} намерена резервация",
+          "other": "${n} намерени резервации"
+        },
+        "tally": {
+          "one": "${n} имейл",
+          "other": "${n} имейла"
+        }
+      },
+      "calendar": {
+        "active": "Проверявам календара ти за пътувания",
+        "done": {
+          "one": "${n} пътуване от календара",
+          "other": "${n} пътувания от календара"
+        }
+      },
+      "trips": {
+        "active": "Сглобявам резервациите в пътувания",
+        "done": {
+          "one": "${n} пътуване",
+          "other": "${n} пътувания"
+        },
+        "doneWithCountries": "${trips}, ${countries}",
+        "countries": {
+          "one": "${n} държава",
+          "other": "${n} държави"
+        }
+      },
+      "posts": {
+        "active": "Разглеждам местата, които си споделил",
+        "done": {
+          "one": "${n} разгледана публикация",
+          "other": "${n} разгледани публикации"
+        }
+      },
+      "profile": {
+        "active": "Разбирам какво обичаш",
+        "done": "Вече усещам стила ти"
+      },
+      "map": {
+        "active": "Отбелязвам пътуванията ти на картата",
+        "done": {
+          "one": "${n} място на картата ти",
+          "other": "${n} места на картата ти"
+        }
+      },
+      "save": {
+        "active": "Пазя това на сигурно в акаунта ти",
+        "done": "Запазено"
+      },
+      "personalise": {
+        "active": "Настройвам Layla за теб",
+        "done": "Layla вече те познава"
+      }
+    },
+    "error": {
+      "cancelled": "Входът беше отменен. Нищо не е импортирано.",
+      "unexpectedState": "Нещо се обърка при входа. Моля, опитай отново.",
+      "tokenExchangeFailed": "Не успяхме да завършим входа. Моля, опитай отново.",
+      "mailFetchFailed": "Не успяхме да прочетем пощата ти. Опитай отново след малко.",
+      "instagramBusinessOnly": "Instagram позволява това само за бизнес или creator акаунти.",
+      "unknown": "Нещо се обърка. Нищо не е импортирано."
+    },
+    "disconnect": {
+      "title": "Да прекъсна ли връзката с ${provider}?",
+      "body": "Layla запазва пътуванията, които вече е записала, но спира да чете нови резервации. Можеш да се свържеш отново по всяко време.",
+      "bodySocial": "Layla спира да чете публикациите ти в ${provider} и вече не може да публикува там от твое име. Профилът ти на пътешественик и споделените публикации остават. Можеш да се свържеш отново по всяко време.",
+      "forget": "Забрави и импортираните пътувания",
+      "forgetSocial": "Забрави и наученото от публикациите ти",
+      "keep": "Остави свързано",
+      "confirm": "Прекъсни"
+    },
+    "status": {
+      "disconnecting": "Прекъсвам връзката…",
+      "removing": "Премахвам импортираните данни…",
+      "updating": "Чета резервациите ти…"
+    },
+    "toast": {
+      "disconnected": "Връзката с ${provider} е прекъсната",
+      "removed": "Импортираните пътувания са премахнати",
+      "disconnectFailed": "Не успях да прекъсна връзката с ${provider}",
+      "removeFailed": "Не успях да премахна импортираните данни",
+      "retry": "Опитай пак"
+    }
+  },
+  "photoCredits": {
+    "title": "Автори на снимките",
+    "today": "Гледката за днес",
+    "all": "Всички фонове",
+    "credit": "Снимка: ${photographer}, Unsplash"
   },
   "geoBlocked": {
     "title": "Layla не е налична във вашия регион",

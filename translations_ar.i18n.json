@@ -1,4 +1,103 @@
 {
+  "activityDetail": {
+    "topRated": "الأعلى تقييمًا",
+    "bestseller": "الأكثر مبيعًا",
+    "freeAdmission": "الدخول مجاني",
+    "reviewsTitle": "التقييمات",
+    "reviewsCount": "${n} تقييم",
+    "seeAll": "عرض الكل",
+    "topicService": "الخدمة",
+    "topicTransportation": "المواصلات",
+    "topicValue": "القيمة مقابل السعر",
+    "topicSafety": "السلامة",
+    "lovedTitle": "ما أحبّه المسافرون",
+    "goodToKnowTitle": "من المفيد معرفته",
+    "durationLabel": "المدة",
+    "durationMinutes": "${n} دقيقة",
+    "durationHours": "${n} ساعة",
+    "durationDays": "${n} أيام",
+    "groupSizeLabel": "حجم المجموعة",
+    "groupSizeUpTo": "حتى ${n} أشخاص",
+    "groupSizeRange": "${min}–${max} أشخاص",
+    "validityLabel": "الصلاحية",
+    "languagesLabel": "اللغات",
+    "liveGuide": "مرشد سياحي",
+    "featureSkipTheLine": "تخطّي الطابور",
+    "featureWheelchairAccessible": "مناسب لذوي الاحتياجات الخاصة",
+    "featurePickupIncluded": "يشمل النقل من مكان الإقامة",
+    "featureMobileVoucher": "قسيمة على الهاتف",
+    "featureInstantConfirmation": "تأكيد فوري",
+    "highlightsTitle": "أبرز المميزات",
+    "descriptionTitle": "عن هذه التجربة",
+    "insiderTipsTitle": "نصائح من أهل المكان",
+    "optionsTitle": "الخيارات",
+    "includesTitle": "ما يشمله السعر",
+    "addonsTitle": "الإضافات",
+    "itineraryTitle": "مسار الرحلة",
+    "itineraryStart": "البداية",
+    "itineraryFinish": "النهاية",
+    "admissionIncluded": "تذكرة الدخول مشمولة",
+    "admissionNotIncluded": "تذكرة الدخول غير مشمولة",
+    "passBy": "مرور دون توقف",
+    "meetingPointTitle": "نقطة التجمع",
+    "notSuitableTitle": "غير مناسب لـ",
+    "whatToBringTitle": "ما يجب إحضاره",
+    "notAllowedTitle": "غير مسموح",
+    "importantInfoTitle": "معلومات مهمة",
+    "freeCancellation": "إلغاء مجاني",
+    "freeCancellationBefore": "إلغاء مجاني حتى ${hours} ساعة قبل البدء",
+    "supplierTitle": "بتنظيم من",
+    "machineTranslatedNote": "تُرجم جزء من هذا المحتوى آليًا.",
+    "openingHoursTitle": "ساعات العمل",
+    "faqTitle": "الأسئلة الشائعة",
+    "experiencesTitle": "طرق لخوض التجربة",
+    "recommendationsTitle": "قد يعجبك أيضًا",
+    "fromPrice": "ابتداءً من"
+  },
+  "placeDetail": {
+    "aboutTitle": "نبذة",
+    "goodToKnowTitle": "من المفيد معرفته",
+    "openingHoursTitle": "ساعات العمل",
+    "contactTitle": "التواصل",
+    "permanentlyClosed": "مغلق نهائيًا",
+    "temporarilyClosed": "مغلق مؤقتًا",
+    "unavailable": "التفاصيل غير متاحة حاليًا.",
+    "viewOnGoogleMaps": "عرض على خرائط Google",
+    "perPerson": "للشخص",
+    "offerings": {
+      "dineIn": "تناول الطعام في المكان",
+      "takeout": "طلبات خارجية",
+      "delivery": "توصيل",
+      "curbsidePickup": "استلام من أمام المكان",
+      "reservable": "حجوزات",
+      "breakfast": "فطور",
+      "brunch": "برانش",
+      "lunch": "غداء",
+      "dinner": "عشاء",
+      "beer": "يقدّم البيرة",
+      "wine": "يقدّم النبيذ",
+      "vegetarian": "خيارات نباتية",
+      "cocktails": "كوكتيلات",
+      "coffee": "قهوة",
+      "dessert": "حلويات",
+      "outdoorSeating": "جلسات خارجية",
+      "liveMusic": "موسيقى حية",
+      "menuForChildren": "قائمة للأطفال",
+      "goodForChildren": "مناسب للأطفال",
+      "goodForGroups": "مناسب للمجموعات",
+      "goodForWatchingSports": "بث الرياضة على التلفاز",
+      "allowsDogs": "يسمح بالكلاب",
+      "restroom": "دورة مياه",
+      "creditCards": "بطاقات ائتمان",
+      "contactless": "دفع لا تلامسي",
+      "freeParking": "موقف سيارات مجاني",
+      "paidParking": "موقف سيارات مدفوع",
+      "valetParking": "خدمة صفّ السيارات",
+      "wheelchair": "مناسب لذوي الاحتياجات الخاصة",
+      "wheelchairParking": "موقف لذوي الاحتياجات الخاصة",
+      "wheelchairRestroom": "دورة مياه لذوي الاحتياجات الخاصة"
+    }
+  },
   "blog": {
     "postNotFound": "يرجى التحقق من عنوان URL ، ليس لدينا مثل هذه المشاركة.",
     "askLaylaAbout": "اسأل Layla حول ${name}",
@@ -65,12 +164,19 @@
       "rename_chat": "إعادة تسمية الدردشة",
       "delete_chat": "حذف الدردشة؟",
       "delete_chat_message": "سيتم حذف ${name} بشكل دائم.",
-      "info_and_support": "المعلومات والدعم"
+      "info_and_support": "المعلومات والدعم",
+      "today": "اليوم",
+      "yesterday": "أمس",
+      "previous_7_days": "آخر 7 أيام",
+      "earlier": "أقدم",
+      "search_chats": "البحث في المحادثات"
     },
     "chat": {
       "title": "Layla - مخطِّط السفر الذكي",
       "isTyping": "يكتب ${name}...",
-      "typing": "ليلى تكتب...",
+      "thinking": "ليلى تفكّر",
+      "newMessage": "رسالة جديدة",
+      "mediaGifBadge": "GIF",
       "generatingTrip": "جارٍ إنشاء رحلتك...",
       "tripGenerating": {
         "routes": "أفضل المسارات، مؤمَّنة",
@@ -104,6 +210,10 @@
         }
       },
       "messageHint": "اسألني أي شيء",
+      "chatWithLayla": "تحدث مع Layla",
+      "discardRecording": "تجاهل التسجيل",
+      "useRecording": "استخدم التسجيل",
+      "possibleNextSteps": "الخطوات المحتملة التالية",
       "contextMenu": {
         "copy": "نسخ",
         "good_response": "رد جيد",
@@ -120,7 +230,54 @@
         "latestTrip": "أحدث رحلة",
         "previousTrip": "رحلة سابقة",
         "expiredTripTooltip": "هذا إصدار سابق. رحلتك الأحدث تظهر أعلاه.",
-        "continueWithHuman": "متابعة الحجز مع مستشار"
+        "continueWithHuman": "متابعة الحجز مع مستشار",
+        "version": "الإصدار ${number}",
+        "versionOf": "النسخة ${number} من ${total}",
+        "building": {
+          "badge": "قيد الإعداد",
+          "flights": "الرحلات الجوية",
+          "stay": "الإقامة",
+          "dayPlan": "خطة الأيام",
+          "airportTransfer": "النقل من المطار",
+          "next": "التالي",
+          "under": "أقل من ${amount}",
+          "step": "${phase} · ${n} من ${total}"
+        },
+        "ready": {
+          "badge": "الخطة جاهزة",
+          "openTrip": "افتح الرحلة",
+          "fromFor": "ابتداءً من ${price} لعدد ${n}",
+          "flights": {
+            "one": "رحلة طيران واحدة",
+            "other": "${n} رحلات طيران",
+            "zero": "${n} رحلة طيران",
+            "two": "رحلتا طيران",
+            "few": "${n} رحلات طيران",
+            "many": "${n} رحلة طيران"
+          },
+          "stays": {
+            "one": "إقامة واحدة",
+            "other": "${n} إقامات",
+            "zero": "${n} إقامة",
+            "two": "إقامتان",
+            "few": "${n} إقامات",
+            "many": "${n} إقامة"
+          },
+          "car": "سيارة",
+          "activities": {
+            "one": "نشاط واحد",
+            "other": "${n} أنشطة",
+            "zero": "${n} نشاط",
+            "two": "نشاطان",
+            "few": "${n} أنشطة",
+            "many": "${n} نشاطًا"
+          },
+          "transfer": "توصيلة"
+        },
+        "latestVersion": "أحدث نسخة",
+        "reopenVersion": "افتح هذه النسخة من جديد",
+        "backToLatest": "العودة إلى الأحدث",
+        "previewingVersion": "أنت تشاهد الإصدار ${number}"
       },
       "hotelsCard": {
         "type": "فنادق",
@@ -131,16 +288,379 @@
           "other": "${n} فنادق"
         }
       },
-      "attach": {
-        "photoLibrary": "مكتبة الصور",
-        "files": "الملفات"
+      "hotelQuick": {
+        "laylasPick": "اختيار Layla",
+        "bookNamed": "احجز ${name}",
+        "perNight": "لليلة",
+        "staysNear": "أماكن إقامة قرب ${area}",
+        "stays": "أماكن الإقامة",
+        "results": {
+          "one": "نتيجة واحدة",
+          "other": "${n} نتائج",
+          "zero": "لا نتائج",
+          "two": "نتيجتان",
+          "few": "${n} نتائج",
+          "many": "${n} نتيجة"
+        },
+        "guests": {
+          "one": "ضيف واحد",
+          "other": "${n} ضيوف",
+          "zero": "${n} ضيف",
+          "two": "ضيفان",
+          "few": "${n} ضيوف",
+          "many": "${n} ضيفًا"
+        },
+        "sortPick": "اختيار Layla",
+        "sortPrice": "السعر",
+        "sortRating": "التقييم",
+        "backToChat": "العودة إلى المحادثة",
+        "whyPicked": "لماذا اختارته Layla",
+        "yourRoom": "غرفتك",
+        "changeRoom": "تغيير الغرفة",
+        "chooseRoom": "اختر غرفة",
+        "viaExpedia": "عبر Expedia",
+        "bookIt": "احجز",
+        "bookOnSite": "احجز من موقع الفندق",
+        "freeCancellationUntil": "إلغاء مجاني حتى ${date}",
+        "nonRefundable": "غير قابل للاسترداد",
+        "roomsLoading": "نتحقق من الغرف المتاحة…",
+        "noLiveRooms": "لا غرف متاحة حاليًا في هذه التواريخ",
+        "wonderful": "رائع",
+        "freeCancellation": "إلغاء مجاني",
+        "mapView": "الخريطة",
+        "sortLabel": "الترتيب: ${sort}",
+        "share": "مشاركة",
+        "addToTrip": "أضِفه إلى رحلة بدلًا من ذلك",
+        "addToTripAsk": "أضف ${name} إلى رحلتي",
+        "allFacilities": "كل المرافق",
+        "guestReviews": "تقييمات النزلاء",
+        "allReviews": "كل التقييمات",
+        "select": "اختيار",
+        "selected": "تم الاختيار",
+        "chooseDates": "اختر التواريخ",
+        "pickDates": "حدّد التواريخ",
+        "aboutRoom": "عن هذه الغرفة",
+        "rates": "الأسعار",
+        "reviews": "التقييمات"
       },
-      "possibleNextSteps": "الخطوات المحتملة التالية",
+      "flightsCard": {
+        "type": "رحلات طيران",
+        "inLocation": "رحلات طيران إلى ${location}",
+        "seeAll": "عرض كل الرحلات",
+        "moreFlights": {
+          "one": "+${n} رحلة أخرى",
+          "other": "+${n} رحلات أخرى"
+        },
+        "checkedBag": "حقيبة مسجّلة مشمولة",
+        "cabinBag": "حقيبة مقصورة مشمولة"
+      },
+      "carRentalsCard": {
+        "type": "تأجير سيارات",
+        "inLocation": "سيارات في ${location}",
+        "seeAll": "عرض كل السيارات",
+        "priceTotal": "الإجمالي"
+      },
+      "summaryCard": {
+        "shownOf": "${shown} من ${total}"
+      },
+      "attach": {
+        "photoLibrary": "الصور",
+        "files": "الملفات",
+        "camera": "الكاميرا",
+        "title": "إضافة إلى المحادثة"
+      },
       "destinations_card": {
         "title": "وجهات مقترحة لك",
-        "subtitle": "اضغط للمشاهدة والاختيار"
+        "more": {
+          "zero": "لا توجد وجهات أخرى",
+          "one": "وجهة أخرى واحدة",
+          "two": "وجهتان أخريان",
+          "few": "${n} وجهات أخرى",
+          "many": "${n} وجهة أخرى",
+          "other": "${n} وجهة أخرى"
+        },
+        "subtitle": "اضغط للمشاهدة والاختيار",
+        "feedTitle": "اختر وجهاتك",
+        "open": "فتح",
+        "add": "أضِف",
+        "added": "تمت الإضافة",
+        "selectedCount": {
+          "one": "تم اختيار وجهة واحدة",
+          "other": "تم اختيار ${n} وجهة",
+          "zero": "لم يتم اختيار شيء",
+          "two": "تم اختيار وجهتين",
+          "few": "تم اختيار ${n} وجهات",
+          "many": "تم اختيار ${n} وجهة"
+        },
+        "planWith": {
+          "one": "خطّط مع ${n} وجهة",
+          "other": "خطّط مع ${n} وجهة",
+          "zero": "خطّط مع ${n} وجهة",
+          "two": "خطّط مع وجهتين",
+          "few": "خطّط مع ${n} وجهات",
+          "many": "خطّط مع ${n} وجهة"
+        },
+        "idealFor": "مثالي لمدة ${days}"
       },
-      "continueWithSelected": "متابعة مع ${n} محدد"
+      "continueWithSelected": "متابعة مع ${n} محدد",
+      "advisor": {
+        "webviewTitle": "تحدّث مع مستشار سفر"
+      },
+      "activitiesCard": {
+        "type": "الأنشطة",
+        "inLocation": "أنشطة في ${location}",
+        "seeAll": "عرض كل الأنشطة",
+        "addMessage": "أضف ${name} إلى رحلتي"
+      },
+      "connectorsChip": "استيراد من Gmail أو Outlook",
+      "legalLine": "خدمة سفر مدعومة بالذكاء الاصطناعي",
+      "askAbout": "اسأل عن ${title}…",
+      "tripPill": "الرحلة",
+      "tripPillBuilding": "الرحلة · قيد الإعداد",
+      "status": {
+        "online": "متصلة",
+        "thinking": "تفكّر…",
+        "buildingTrip": "تبني رحلتك",
+        "readingChanges": "تقرأ تعديلاتك",
+        "checkingBudget": "تراجع الميزانية",
+        "pickingDestinations": "تختار الوجهات",
+        "checkingStays": "تبحث عن أماكن إقامة",
+        "findingThingsToDo": "تبحث عن أنشطة",
+        "findingSights": "تبحث عن معالم",
+        "workingOutRoute": "ترسم المسار",
+        "pricingTransfers": "تتحقق من أسعار التوصيلات",
+        "pricingCar": "تتحقق من أسعار السيارات",
+        "pricingFlights": "تتحقق من أسعار الطيران",
+        "buildingItinerary": "تُعدّ برنامج الرحلة",
+        "choosingPhotos": "تختار الصور",
+        "namingTrip": "تختار اسمًا للرحلة",
+        "tripReady": "الرحلة جاهزة",
+        "tripReadyLive": "الرحلة جاهزة · أسعار مباشرة"
+      },
+      "home": {
+        "greeting": "أهلًا ${name}، إلى أين وجهتك القادمة؟ ✦",
+        "greetingNoName": "إلى أين وجهتك القادمة؟ ✦",
+        "hint": "احكِ لي كأنك ترسل رسالة صوتية لصديق: من سيأتي، إلى أين، متى، وما المهم بالنسبة لك.",
+        "chipHotelMadrid": "فندق في مدريد يوم الخميس",
+        "chipCheapestLisbon": "أرخص يوم للسفر إلى لشبونة",
+        "chipLongWeekend": "خطّطي لعطلة نهاية أسبوع طويلة",
+        "chipSurprise": "فاجئيني"
+      },
+      "send": "إرسال",
+      "flightQuick": {
+        "laylasPickDay": "اختيار Layla · ${day}",
+        "nonStop": "بدون توقف",
+        "bookNamed": "احجز ${carrier}، ${day}",
+        "bookIt": "احجز",
+        "pp": "للشخص",
+        "ppLong": "للشخص الواحد",
+        "forN": "${amount} لـ ${n}",
+        "travellers": {
+          "one": "مسافر واحد",
+          "other": "${n} مسافرين"
+        },
+        "oneWay": "ذهاب فقط",
+        "returnTrip": "ذهاب وعودة",
+        "multiCity": "وجهات متعددة",
+        "flightsCount": {
+          "one": "رحلة واحدة",
+          "other": "${n} رحلات"
+        },
+        "fromPp": "ابتداءً من ${price} للشخص",
+        "filterNonStop": "بدون توقف",
+        "filterMorning": "صباحًا",
+        "filterEvening": "مساءً",
+        "filterBag": "الحقيبة مشمولة",
+        "editSearch": "تعديل البحث",
+        "backToChat": "العودة إلى المحادثة",
+        "outbound": "الذهاب",
+        "returnLeg": "العودة",
+        "legN": "الرحلة ${n}",
+        "landsNextDay": "يصل في اليوم التالي",
+        "fareRules": "شروط التعرفة",
+        "cabinBagIncluded": "حقيبة يد واحدة لكل شخص مشمولة",
+        "cabinBagNotIncluded": "حقيبة اليد غير مشمولة",
+        "checkedBagIncluded": "الحقيبة المسجّلة مشمولة",
+        "checkedBagExtra": "الحقيبة المسجّلة برسوم إضافية",
+        "refundable": "تعرفة قابلة للاسترداد",
+        "nonRefundable": "التعديل برسوم، لا استرداد",
+        "seatsAtCheckIn": "المقاعد عند تسجيل الوصول",
+        "share": "مشاركة",
+        "pick": "الاختيار",
+        "stopVia": "${n} توقف ${via}",
+        "cabinBagShort": "حقيبة يد",
+        "checkedBagShort": "حقيبة مسجّلة",
+        "cheapestWhy": "الأرخص",
+        "fastestWhy": "الأسرع",
+        "bestWhy": "الأفضل إجمالًا",
+        "summaryTravellers": "${travellers} · ${trip}",
+        "liveFare": "السعر الحالي · ${carrier}",
+        "estimatedFare": "سعر تقديري",
+        "priceChangedLine": "تغيّر السعر · الآن ${amount}، كان ${was}",
+        "fares": "التعرفات",
+        "standardFare": "التعرفة العادية",
+        "singleFare": "تبيع شركة الطيران تعرفة واحدة لهذه الرحلة",
+        "noCheckoutLink": "السعر الحالي لهذه الرحلة غير متاح بعد",
+        "outShort": "ذهاب",
+        "backShort": "عودة",
+        "estimateShort": "تقديري",
+        "multiCityTitle": "وجهات متعددة"
+      },
+      "carQuick": {
+        "seats": {
+          "one": "مقعد واحد",
+          "other": "${n} مقاعد"
+        },
+        "bags": {
+          "one": "حقيبة واحدة",
+          "other": "${n} حقائب"
+        },
+        "daysCount": {
+          "one": "يوم واحد",
+          "other": "${n} أيام"
+        },
+        "cityAirport": "مطار ${city}",
+        "perDay": "${price}/اليوم",
+        "bookNamed": "احجز ${name}",
+        "carsAt": "سيارات في ${place}",
+        "cars": "سيارات",
+        "pickUpAndReturnAt": "الاستلام والإرجاع في ${place}",
+        "pickUpAt": "الاستلام في ${place}",
+        "returnAt": "الإرجاع في ${place}",
+        "sortLabel": "الترتيب: ${sort}",
+        "sortPick": "اختيار Layla",
+        "sortPrice": "السعر",
+        "sortSupplier": "الشركة",
+        "filterAutomatic": "أوتوماتيك",
+        "filterFreeCancellation": "إلغاء مجاني",
+        "filterUnlimitedKm": "كيلومترات غير محدودة",
+        "filterUnder": "أقل من ${price}",
+        "showMore": "عرض ${n} أخرى",
+        "continueWith": "المتابعة مع ${name}",
+        "freeCancellationAll": "إلغاء مجاني لكل السيارات المعروضة",
+        "pickUp": "الاستلام",
+        "returnLabel": "الإرجاع",
+        "samePlace": "نفس المكان",
+        "roundTrip": "الإرجاع في نفس المكان (ذهاب وعودة)",
+        "oneWayAsk": "إرجاع السيارة في مكان آخر: ",
+        "cover": "التغطية",
+        "basicCover": "التغطية الأساسية",
+        "noCover": "لا تشمل تغطية",
+        "included": "مشمولة",
+        "excess": "تحمّل ${amount}",
+        "zeroExcess": "بدون تحمّل",
+        "paidAtDesk": "تُدفع عند المكتب",
+        "plusPerDay": "+${price}/اليوم",
+        "plusPerRental": "+${price}",
+        "fuel": "الوقود",
+        "mileage": "المسافة",
+        "driver": "السائق",
+        "deposit": "التأمين",
+        "cancellation": "الإلغاء",
+        "freeUntil": "مجاني حتى ${date}",
+        "freeCancellation": "إلغاء مجاني",
+        "cancellationFee": "تُطبّق رسوم إلغاء",
+        "nonRefundable": "غير قابل للاسترداد",
+        "daysTimes": {
+          "one": "يوم × ${price}",
+          "other": "${n} أيام × ${price}"
+        },
+        "taxesAndFees": "الضرائب والرسوم",
+        "includedLower": "مشمولة",
+        "total": "الإجمالي",
+        "dueToday": "يُدفع اليوم",
+        "dueAtDesk": "يُدفع عند المكتب",
+        "bookIt": "احجز",
+        "reserveAtDesk": "احجز · الدفع عند المكتب",
+        "notBookable": "لا يمكن الحجز هنا",
+        "seeAllRules": "كل الشروط",
+        "rules": "شروط التأجير",
+        "checkingOffer": "نتحقق من العرض…",
+        "offerGone": "هذا العرض لم يعد متاحًا. اطلب من Layla عروضًا جديدة.",
+        "offerFailed": "تعذّر تحميل العرض. حاول بعد قليل.",
+        "whyCheapest": "الأرخص",
+        "whyCheapestAutomatic": "أرخص أوتوماتيك",
+        "whyCheapestPerDay": "الأرخص في اليوم",
+        "whyMoreRoom": "مساحة أكبر للحقائب",
+        "whyFreeCancellation": "إلغاء مجاني",
+        "driverRule": "${age}+، رخصة منذ سنة، بطاقة ائتمان",
+        "driverRuleShort": "الرخصة وبطاقة الائتمان عند المكتب",
+        "fuelPolicy": {
+          "fullToFull": "ممتلئ إلى ممتلئ",
+          "sameToSame": "نفس المستوى",
+          "fullToEmpty": "ممتلئ إلى فارغ، مدفوع مسبقًا",
+          "prepaid": "مدفوع مسبقًا",
+          "levelToLevel": "مستوى إلى مستوى",
+          "quarterToQuarter": "ربع إلى ربع",
+          "halfToHalf": "نصف إلى نصف",
+          "emptyToEmpty": "فارغ إلى فارغ"
+        },
+        "whyAutomaticAsAsked": "أوتوماتيك كما طلبت",
+        "whyMoreSeats": "مقاعد أكثر",
+        "whyBiggerBoot": "صندوق أكبر",
+        "whySamePrice": "نفس السعر",
+        "whyCheaper": "أرخص",
+        "perDayLabel": "لليوم"
+      },
+      "activityQuick": {
+        "thingsToDo": "أنشطة وتجارب",
+        "bookNamedFor": "احجز ${name} لعدد ${n}",
+        "perPerson": "للشخص",
+        "travellers": {
+          "one": "شخص واحد",
+          "other": "${n} أشخاص",
+          "zero": "${n} شخص",
+          "two": "شخصان",
+          "few": "${n} أشخاص",
+          "many": "${n} شخصًا"
+        },
+        "sortLayla": "Layla",
+        "sortPrice": "السعر",
+        "sortRating": "التقييم",
+        "sortLabel": "الترتيب: ${sort}",
+        "filterHalfDay": "نصف يوم",
+        "filterFullDay": "يوم كامل",
+        "filterFood": "طعام",
+        "filterOutdoors": "في الهواء الطلق",
+        "filterFreeCancellation": "إلغاء مجاني",
+        "showMore": "عرض ${n} أخرى",
+        "backToChat": "العودة إلى المحادثة",
+        "whyPicked": "لماذا اختارته Layla.",
+        "startTime": "وقت البدء · ${date}",
+        "startTimeNoDate": "وقت البدء",
+        "checkingTimes": "نتحقق من المواعيد…",
+        "noTimes": "لا مواعيد متاحة خلال الأسبوعين القادمين",
+        "moreDates": "تواريخ أخرى",
+        "anyTime": "في أي وقت",
+        "providerTimes": "تختار المواعيد والتذاكر من موقع مزوّد الخدمة.",
+        "meetingPoint": "نقطة اللقاء · ${name}",
+        "pickup": "الاصطحاب ${time}",
+        "map": "الخريطة",
+        "included": "مشمول",
+        "notIncluded": "غير مشمول",
+        "highlights": "أبرز المميزات",
+        "cancellation": "الإلغاء",
+        "freeUntil": "مجانًا حتى ${date}",
+        "freeCancellation": "إلغاء مجاني",
+        "nonRefundable": "غير قابل للاسترداد",
+        "unitLine": "${n} × ${price}",
+        "totalFor": "الإجمالي لعدد ${n}",
+        "bookIt": "احجز",
+        "bookOnSite": "احجز من موقع مزوّد الخدمة",
+        "smallGroup": "مجموعة صغيرة",
+        "reviews": "التقييمات",
+        "reviewsCount": "${n} تقييم",
+        "durationHours": "${n} س",
+        "durationMinutes": "${n} د"
+      },
+      "create": {
+        "todayView": "إطلالة اليوم · ${city}",
+        "attach": "إرفاق",
+        "chipPlace": "بضعة أيام في ${city}",
+        "chipPlacePrompt": "بضعة أيام في ${city}: أجمل ما فيها على مهل، مع مكان جميل للإقامة",
+        "chipSurprise": "فاجئيني",
+        "chipSurprisePrompt": "فاجئيني: عطلة نهاية أسبوع طويلة في مكان لم يخطر ببالي"
+      }
     },
     "trip_empty": {
       "title": "الدردشة وإنشاء رحلة",
@@ -222,20 +742,20 @@
     "share": "دعوة",
     "copy": "نسخ للتحرير",
     "destinations": {
-      "zero": "${n} وجهة",
       "one": "${n} وجهة",
+      "other": "${n} وجهات",
+      "zero": "${n} وجهة",
       "two": "${n} وجهات",
       "few": "${n} وجهات",
-      "many": "${n} وجهات",
-      "other": "${n} وجهات"
+      "many": "${n} وجهات"
     },
     "people_collaborating_with_you": {
-      "zero": "",
       "one": "",
+      "other": "${n} الأشخاص الذين يخططون معك.",
+      "zero": "",
       "two": "${n} الأشخاص الذين يخططون معك.",
       "few": "${n} الأشخاص الذين يخططون معك.",
-      "many": "${n} الأشخاص الذين يخططون معك.",
-      "other": "${n} الأشخاص الذين يخططون معك."
+      "many": "${n} الأشخاص الذين يخططون معك."
     },
     "login_widget": {
       "title": "تسجيل الدخول أو التسجيل",
@@ -324,20 +844,20 @@
       "autumn": "الخريف",
       "winter": "الشتاء",
       "nights": {
-        "zero": "${n} ليلة",
         "one": "ليلة واحدة",
+        "other": "${n} ليالٍ",
+        "zero": "${n} ليلة",
         "two": "${n} ليالٍ",
         "few": "${n} ليالٍ",
-        "many": "${n} ليالٍ",
-        "other": "${n} ليالٍ"
+        "many": "${n} ليالٍ"
       },
       "stars": {
-        "zero": "${n} نجمة",
         "one": "${n} نجمة",
+        "other": "${n} نجوم",
+        "zero": "${n} نجمة",
         "two": "${n} نجوم",
         "few": "${n} نجوم",
-        "many": "${n} نجوم",
-        "other": "${n} نجوم"
+        "many": "${n} نجوم"
       },
       "use_this_template": "استخدم هذا النموذج",
       "by": "بواسطة"
@@ -373,6 +893,7 @@
     "flight_price_range": "نطاق سعر الرحلة",
     "average_price": "السعر الإفراضي ${price}",
     "or_less": "أو أقل",
+    "or": "أو",
     "flight_time": "مدة الرحلة",
     "average_duration": "مدة متوسطة ${hours} س",
     "round_hrs": "${val} ساعات",
@@ -389,8 +910,7 @@
     "km_from": "على بُعد ${distance} كم من ${city}",
     "consider_broadening": "عذرًا! لم نتمكن من العثور على تطابقات بناءً على تفضيلاتك الحالية. قد ترغب في توسيع نطاق بحثك من خلال تعديل التفضيلات للحصول على مجموعة أوسع من الخيارات.",
     "return_with_bullet": " ${code} عودة",
-    "approx_for_your_dates": "تقريبًا لتواريخك",
-    "or": "أو"
+    "approx_for_your_dates": "تقريبًا لتواريخك"
   },
   "flights_feat": {
     "flights_to": "رحلات الى ${to}",
@@ -399,6 +919,7 @@
     "all_filters": "جميع الفلاتر",
     "no_flights": "لا يوجد رحلات",
     "estimated_price": "السعر المقدر",
+    "estimated": "تقديري",
     "livePrices": "أسعار حية",
     "travelers_info_updated_successfully": "تم تحديث معلومات المسافرين بنجاح",
     "flight_details": "تفاصيل الرحلة",
@@ -416,12 +937,12 @@
     "how_many_people": "كم عدد الأشخاص؟",
     "connection_in": "التوصيل في المطار",
     "total_for": {
-      "zero": "المجموع لـ ${n} مسافر",
       "one": "المجموع لـ ${n} مسافر",
+      "other": "المجموع لـ ${n} مسافرين",
+      "zero": "المجموع لـ ${n} مسافر",
       "two": "المجموع لـ ${n} مسافرين",
       "few": "المجموع لـ ${n} مسافرين",
-      "many": "المجموع لـ ${n} مسافرين",
-      "other": "المجموع لـ ${n} مسافرين"
+      "many": "المجموع لـ ${n} مسافرين"
     },
     "search_flights": "ابحث عن رحلات",
     "read_before_booking": "اقرأ قبل الحجز",
@@ -443,32 +964,31 @@
     "dates_updated_successfully": "تم تحديث التواريخ بنجاح",
     "we_collected_cheapest_providers": "فيما يلي شركاء السفر الموثوق بهم في Skyscanner لحجز رحلتك من خلاله - حدد الموقع الذي ترغب في شراء التذكرة منه!",
     "travellers": {
-      "zero": "${n} مسافر",
       "one": "${n} مسافر",
+      "other": "${n} مسافرين",
+      "zero": "${n} مسافر",
       "two": "${n} مسافرين",
       "few": "${n} مسافرين",
-      "many": "${n} مسافرين",
-      "other": "${n} مسافرين"
+      "many": "${n} مسافرين"
     },
     "provider_found": {
-      "zero": " ${n} تم العثور على المزود",
       "one": " ${n} تم العثور على المزود",
+      "other": " ${n} تم العثور على مقدمي الخدمات",
+      "zero": " ${n} تم العثور على المزود",
       "two": " ${n} تم العثور على مقدمي الخدمات",
       "few": " ${n} تم العثور على مقدمي الخدمات",
-      "many": " ${n} تم العثور على مقدمي الخدمات",
-      "other": " ${n} تم العثور على مقدمي الخدمات"
+      "many": " ${n} تم العثور على مقدمي الخدمات"
     },
     "passengers": {
-      "zero": "${n} مسافر",
       "one": "${n} مسافر",
+      "other": "${n} مسافرين",
+      "zero": "${n} مسافر",
       "two": "${n} مسافرين",
       "few": "${n} مسافرين",
-      "many": "${n} مسافرين",
-      "other": "${n} مسافرين"
+      "many": "${n} مسافرين"
     },
     "one_way": "رحلة ذهاب فقط",
-    "youll_arrive_next_day": "الوصول في اليوم التالي",
-    "estimated": "تقديري"
+    "youll_arrive_next_day": "الوصول في اليوم التالي"
   },
   "hotel": {
     "aboutProperty": "عن مكان الإقامة",
@@ -604,12 +1124,12 @@
     "check_availability": "تحقق من الفرصة",
     "select_dates": "حدد التواريخ",
     "detailed_reviews": {
-      "zero": "${n} مراجعة مفصلة",
       "one": "${n} مراجعة مفصلة",
+      "other": "${n} مراجعات مفصلة",
+      "zero": "${n} مراجعة مفصلة",
       "two": "${n} مراجعات مفصلة",
       "few": "${n} مراجعات مفصلة",
-      "many": "${n} مراجعات مفصلة",
-      "other": "${n} مراجعات مفصلة"
+      "many": "${n} مراجعات مفصلة"
     },
     "rooms_and_guests": "الغرف والنزلاء",
     "stays_close_by": "الإقامات القريبة",
@@ -627,13 +1147,14 @@
     "what_this_place_offers": "ما يقدمه هذا المكان",
     "share_text": "تحقق من هذا الفندق: ${name}",
     "price_for_night": {
-      "zero": "",
       "one": "السعر لـ ${n} ليلة",
+      "other": "السعر ${n} ليالٍ",
+      "zero": "",
       "two": "السعر لـ ${n} ليلتين",
       "few": "السعر لـ ${n} ليال قليلة",
-      "many": "السعر لـ ${n} ليالٍ",
-      "other": "السعر ${n} ليالٍ"
-    }
+      "many": "السعر لـ ${n} ليالٍ"
+    },
+    "laylasTip": "نصيحة Layla"
   },
   "language": {
     "select_language": "اختر اللغة"
@@ -669,15 +1190,13 @@
     },
     "push_notifications": {
       "button": "اسمح بالإشعارات الفورية",
-      "body": "دعني أعلمك عندما أجد صفقات رائعة",
-      "notification_body": "لقد وجدت لك بعض الرحلات الجوية الرخيصة جداً إلى لابلاند! هل نرى الأضواء الشمالية؟ 👀",
       "skip": "لا شكرا، في مرة أخرى!",
       "title": "لا تفوّت رحلة!"
     },
     "video": {
       "step1Title": "رحلتك المثالية،\nفي دقائق.",
       "step1Subtitle": "أسعار حقيقية، خيارات منتقاة. لا تبويب، لا تخمين.",
-      "step2Title": "خبير بشري.\nفي انتظارك دائماً.",
+      "step2Title": "مستشار بشري.\nفي انتظارك دائماً.",
       "step2Subtitle": "تحسين الرحلة، التوجيه والحجوزات. كل شيء يُنجز من أجلك",
       "step3Title": "فنادق أفضل.\nأسعار أفضل.",
       "step3Subtitle": "عروض حصرية على الإقامات المختارة. لك أن تكتشفها."
@@ -685,27 +1204,26 @@
     "tripLoading": {
       "seeYourTrip": "شاهد رحلتك",
       "laylaIsPlanning": "Layla تخطط...",
-      "yourTripIsReady": "رحلتك جاهزة",
+      "yourTripIsReady": "خطتك الأولى جاهزة",
       "progressLabel": "تقدم التخطيط",
       "daysCount": {
         "one": "يوم واحد",
+        "other": "${n} يوم",
         "two": "يومان",
         "few": "${n} أيام",
-        "many": "${n} يوماً",
-        "other": "${n} يوم"
+        "many": "${n} يوماً"
       },
       "stages": {
         "you": {
           "title": "أنت",
-          "subtitle": "فقط قل الكلمة"
+          "subtitle": "قلت الكلمة"
         },
-        "flights": {
-          "title": "الرحلات",
-          "subtitle": "أفضل المسارات، تم الحجز"
+        "layla": {
+          "subtitle": "رحلات وإقامات مختارة"
         },
-        "stays": {
-          "title": "الإقامات",
-          "subtitle": "مختارة خصيصًا لك"
+        "advisor": {
+          "title": "مستشارك",
+          "subtitle": "يراجع ويحجز"
         },
         "destination": {
           "fallbackTitle": "المسار",
@@ -718,7 +1236,8 @@
       "button": "قيّم Layla"
     },
     "notification": {
-      "later": "لاحقاً"
+      "later": "لاحقاً",
+      "now": "الآن"
     },
     "tripPreview": {
       "viewTrip": "عرض الخطة",
@@ -730,6 +1249,151 @@
       "iLove": "أحب: ${labels}.",
       "iNeedHelpWith": "أحتاج مساعدة في: ${labels}.",
       "inspireMe": "ألهمني إلى أين أذهب."
+    },
+    "welcome": {
+      "headline": "الذكاء الاصطناعي\nيخطّط رحلتك.\nومستشار سفرك\nيجعلها لا تُنسى.",
+      "highlight": "لا تُنسى",
+      "getStarted": "لنبدأ"
+    },
+    "script": {
+      "heyBeat": "أهلًا بك ✦",
+      "heyMediaFallback": "👋",
+      "heyIntro": "أنا Layla. أخطط لرحلتك في دقائق، ثم يجعلها مستشار سفر حقيقي رحلة لا تُنسى.",
+      "hiChip": "أهلًا Layla 👋",
+      "proofLead": "قبل أن نبدأ، أنت في صحبة رائعة",
+      "proofTripsValue": "+1 مليون",
+      "proofTripsLabel": "رحلة تم تخطيطها",
+      "proofReviewsValue": "+50 ألف",
+      "proofReviewsLabel": "تقييم بخمس نجوم",
+      "proofQuote": "«كصديق منظّم للغاية.»",
+      "proofFallback": "أكثر من مليون رحلة · أكثر من 50 ألف تقييم بخمس نجوم · «كصديق منظّم للغاية.»",
+      "tripAsk": "إذن… هل لديك رحلة قريبة؟",
+      "yesChip": "نعم! لنبدأ التخطيط ✈️",
+      "dreamingChip": "مجرّد أحلام",
+      "voiceAsk": "رائع! احكِ لي كأنك ترسل رسالة صوتية لصديق: من سيأتي، إلى أين، متى، وما المهم بالنسبة لك.",
+      "originAsk": "من أي مدينة ستنطلق رحلتك؟",
+      "planDone": "أول خطة جاهزة ✦",
+      "shareLocationChip": "📍 مشاركة الموقع",
+      "mapLocating": "أحدّد موقعك…",
+      "mapFailed": "تعذّر تحديد موقعك",
+      "mapTypeCity": "أو اكتب مدينتك في الأسفل",
+      "mapFallback": "📍",
+      "connectAsk": "ربط بريدك الإلكتروني يساعدني على التخطيط حول حجوزاتك الحالية.",
+      "connectGmail": "Gmail",
+      "connectOutlook": "Outlook",
+      "connectPrivacy": "أستأذنك قبل إضافة أي شيء. يمكنك إلغاء الربط في أي وقت من الإعدادات.",
+      "connectFallback": "Gmail أو Outlook: اعثر على حجوزاتك الحالية. سأستأذنك قبل إضافة أي شيء.",
+      "connectGmailChip": "ربط Gmail",
+      "connectOutlookChip": "ربط Outlook",
+      "notNowChip": "ليس الآن",
+      "connectDone": "تم ربط ${source}.",
+      "connectDoneBookings": {
+        "one": "تم ربط ${source}: وجدت حجزًا واحدًا.",
+        "other": "تم ربط ${source}: وجدت ${n} حجوزات.",
+        "zero": "تم ربط ${source}: لم أجد أي حجوزات.",
+        "two": "تم ربط ${source}: وجدت حجزين.",
+        "few": "تم ربط ${source}: وجدت ${n} حجوزات.",
+        "many": "تم ربط ${source}: وجدت ${n} حجزًا."
+      },
+      "importChecking": "أتحقق من بريدك الوارد…",
+      "importLooking": "✦ أبحث عن حجوزاتك الحالية",
+      "gmailAlreadyConnected": "Gmail مربوط بالفعل ✓",
+      "outlookAlreadyConnected": "Outlook مربوط بالفعل ✓",
+      "planningStatus": "أخطط…",
+      "tripTitleFallback": "رحلتك",
+      "tripDays": {
+        "one": "يوم واحد",
+        "other": "${n} أيام",
+        "zero": "${n} يوم",
+        "two": "يومان",
+        "few": "${n} أيام",
+        "many": "${n} يومًا"
+      },
+      "tripNights": {
+        "one": "ليلة واحدة",
+        "other": "${n} ليالٍ",
+        "zero": "${n} ليلة",
+        "two": "ليلتان",
+        "few": "${n} ليالٍ",
+        "many": "${n} ليلة"
+      },
+      "tripBrief": "✓ أخبرتني بما تريد",
+      "tripShortlisting": "✦ أنتقي الرحلات وأماكن الإقامة…",
+      "tripShortlisted": "✓ اخترت أفضل الرحلات وأماكن الإقامة",
+      "tripAdvisorNext": "✦ مستشار سفرك يتحقق ويحجز",
+      "advisorsLead": "شيء أخير. تعرّف على مستشاري السفر لدينا ✦",
+      "advisorsTitle": "يتولّون الرحلات المعقّدة",
+      "advisorsBody": "رحلات بمحطات متعددة، شهر عسل، أعياد ميلاد مميّزة. مستشار سفرك يتقن كل تفصيلة ويحجز كل شيء عنك.",
+      "advisorsSimpleTitle": "رحلة بسيطة",
+      "advisorsSimpleBody": "احجزها بنفسك هنا بلمسة واحدة",
+      "advisorsComplexTitle": "رحلة معقّدة",
+      "advisorsComplexBody": "مستشار سفرك يخطط ويتحقق ويحجز",
+      "advisorsFitStopsOccasion": "في رحلتك ${stops} محطات وهي بمناسبة ${occasion}، لذا سيتولّاها مستشار سفر. مجانًا وبلا رسوم.",
+      "advisorsFitStops": "في رحلتك ${stops} محطات، لذا سيتولّاها مستشار سفر. مجانًا وبلا رسوم.",
+      "advisorsFitOccasion": "رحلتك بمناسبة ${occasion}، لذا سيتولّاها مستشار سفر. مجانًا وبلا رسوم.",
+      "advisorsFitPlain": "سيتولّى رحلتك مستشار سفر. مجانًا وبلا رسوم.",
+      "occasions": {
+        "anniversary": {
+          "inLine": "ذكرى الزواج",
+          "label": "ذكرى الزواج"
+        },
+        "honeymoon": {
+          "inLine": "شهر العسل",
+          "label": "شهر العسل"
+        },
+        "birthday": {
+          "inLine": "عيد ميلاد مميّز",
+          "label": "عيد ميلاد"
+        },
+        "wedding": {
+          "inLine": "حفل زفاف",
+          "label": "زفاف"
+        },
+        "babymoon": {
+          "inLine": "انتظار المولود",
+          "label": "رحلة قبل المولود"
+        },
+        "proposal": {
+          "inLine": "طلب الزواج",
+          "label": "طلب الزواج"
+        }
+      },
+      "saveBeat": "احفظ رحلتك ✦",
+      "saveWhy": "لتجدها هنا متى عدت، ويستطيع مستشار سفرك متابعتها.",
+      "saveCta": "احفظ رحلتي ←",
+      "saveSheetTitle": "احفظ رحلتك",
+      "savePerkFree": "✦ مجاني من البداية إلى النهاية",
+      "savePerkNoSubscription": "✦ بلا اشتراك",
+      "savePerkNoFees": "✦ بلا رسوم",
+      "saveApple": "المتابعة باستخدام Apple",
+      "saveGoogle": "المتابعة باستخدام Google",
+      "saveEmail": "المتابعة بالبريد الإلكتروني",
+      "saveCaption": "حساب واحد. رحلتك ومحادثتك ومستشار سفرك، كلها في مكان واحد.",
+      "saveEmailTitle": "أنشئ حسابك",
+      "saveEmailBack": "رجوع",
+      "saveClose": "إغلاق",
+      "saveFailed": "تعذّر علينا حفظ رحلتك. نحاول مجددًا؟",
+      "joined": "✦ تم حفظ الرحلة. أهلًا بك في Layla.",
+      "youreIn": "أنت معنا الآن 🥳",
+      "hereItIs": "ها هي",
+      "revealSaved": "محفوظة",
+      "revealChat": "الدردشة",
+      "revealArriveFrom": "الوصول من ${origin}",
+      "revealTravellers": {
+        "one": "مسافر واحد",
+        "other": "${n} مسافرين",
+        "zero": "${n} مسافر",
+        "two": "مسافران",
+        "few": "${n} مسافرين",
+        "many": "${n} مسافرًا"
+      },
+      "revealAdvisorLead": "تريد مستشار سفر يتولّاها؟",
+      "revealAdvisorBody": "اطلب ذلك من Layla، وسيتحقق المستشار من كل تفصيلة ويحجز كل شيء. بلا رسوم.",
+      "revealCta": "إلى رحلاتي ←"
+    },
+    "welcomeChips": {
+      "noFees": "بدون رسوم",
+      "care": "رعاية على مدار الساعة"
     },
     "alreadyUsed": "استخدمت Layla من قبل؟",
     "share": {
@@ -808,7 +1472,427 @@
     "subscription_id_copied": "تم نسخ معرف الاشتراك إلى الحافظة",
     "user_id_label": "معرف المستخدم:\n${userId}",
     "subscription_id_label": "معرف الاشتراك:\n${subscriptionId}",
-    "add_your_name": "أضف اسمك"
+    "add_your_name": "أضف اسمك",
+    "edit": "تعديل",
+    "advisor_title": "مستشار سفرك",
+    "advisor_subtitle": "يخطط معك، يحجز كل شيء، ويبقى على تواصل وأنت في رحلتك.",
+    "book_a_call": "احجز مكالمة",
+    "your_trips": "رحلاتك",
+    "see_all": "عرض الكل",
+    "no_trips_yet": "لا رحلات بعد",
+    "start_planning": "ابدأ التخطيط",
+    "trip_status_upcoming": "قادمة",
+    "trip_status_ongoing": "جارية",
+    "trip_status_past": "منتهية",
+    "trip_status_planning": "قيد التحضير",
+    "trip_status_working": "Layla تعمل عليها",
+    "help_and_contact": "المساعدة والتواصل",
+    "share_layla": "شارك Layla",
+    "legal_row": "الشروط، الخصوصية، البيانات القانونية",
+    "account": "الحساب",
+    "notifications": "الإشعارات",
+    "notifications_on": "مفعّلة",
+    "notifications_off": "موقوفة",
+    "log_out_title": "تسجيل الخروج؟",
+    "log_out_message": "تقدر تسجل الدخول متى ما شئت. رحلاتك تبقى محفوظة في حسابك.",
+    "delete_account": "حذف الحساب",
+    "delete_confirm_title": "حذف حسابك؟",
+    "delete_confirm_message": "سيُحذف ملفك وسجل رحلاتك من Layla. لا يمكن التراجع عن هذا.",
+    "delete_confirm_again_title": "تأكيد أخير",
+    "delete_confirm_again_message": "حذف حساب ${email}؟ لا رجعة بعد ذلك.",
+    "sign_in_to_keep_trips": "سجّل الدخول للاحتفاظ برحلاتك",
+    "sign_in_subtitle": "خططك وحجوزاتك ومستشار سفرك، على كل أجهزتك.",
+    "new_to_layla": "جديد على Layla؟",
+    "switch_language_title": "التبديل إلى ${language}؟",
+    "switch_language_message": "ستتحدث Layla معك بـ${language} من الآن فصاعدًا.",
+    "switch_action": "تبديل",
+    "popular_currencies": "الشائعة",
+    "all_currencies": "كل العملات",
+    "no_currencies_found": "لا توجد عملات مطابقة",
+    "remove_photo": "إزالة الصورة",
+    "signed_in_with": "تم تسجيل الدخول عبر ${provider}",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "provider_email": "البريد الإلكتروني",
+    "footer_user_id": "المعرّف ${id} · اضغط للنسخ",
+    "connectors": {
+      "title": "الحسابات المتصلة",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "instagram": "Instagram",
+      "connect": "ربط",
+      "update_now": "تحديث الآن",
+      "reconnect": "إعادة الربط",
+      "status_connected": "متصل · يتحدّث أسبوعيًا",
+      "status_connected_last": "متصل · يتحدّث أسبوعيًا · آخر تحديث ${date}",
+      "status_expired": "انتهت صلاحية الاتصال · أعد الربط لتستمر التحديثات",
+      "status_running": "جارٍ قراءة تأكيدات الحجز…",
+      "status_running_instagram": "جارٍ قراءة أماكنك…",
+      "status_email_idle": "الرحلات والحجوزات من آخر 15 سنة",
+      "status_instagram_idle": "الأماكن التي شاركتها. الحسابات المهنية فقط حاليًا.",
+      "status_imported_trips": "تم استيراد ${count} رحلة",
+      "trust": "تحتفظ Layla بتفاصيل الرحلات وصورة واحدة لكل مكان فقط. لا رسائلك ولا منشوراتك ولا كلمات مرورك أبدًا.",
+      "disconnect": "فصل",
+      "remove_data": "حذف البيانات المستوردة",
+      "remove_confirm_title": "حذف البيانات المستوردة؟",
+      "remove_confirm_message": "ستُحذف الرحلات والتفضيلات التي تعلّمتها Layla من ${source}. يمكنك الربط من جديد في أي وقت.",
+      "disconnect_confirm_title": "فصل ${source}؟",
+      "disconnect_confirm_message": "ستتوقف Layla عن قراءة الحجوزات الجديدة. تبقى الرحلات المستوردة حتى تحذفها.",
+      "outcome_found": "تم العثور على ${count} رحلة",
+      "outcome_none_new": "لا جديد منذ المرة الماضية",
+      "outcome_updated": "تم التحديث",
+      "outcome_rate_limited": "تحديثات كثيرة. جرّب بعد دقيقة.",
+      "outcome_too_slow": "استغرق الأمر وقتًا طويلًا. جرّب مرة أخرى.",
+      "outcome_expired": "انتهت صلاحية الاتصال. أعد الربط للتحديث.",
+      "outcome_failed": "فشل التحديث. جرّب مرة أخرى.",
+      "connect_on_web_title": "الربط عبر layla.ai",
+      "connect_on_web_message": "ربط ${source} من التطبيق قادم قريبًا. اربطه مرة واحدة عبر layla.ai وسيبقيه التطبيق محدّثًا.",
+      "connect_unavailable": "الربط من التطبيق يحتاج تحديثًا على الخادم. استخدم layla.ai حاليًا.",
+      "connect_failed": "تعذّر الربط. جرّب مرة أخرى.",
+      "open_web": "فتح layla.ai",
+      "status_last_failed": "فشل آخر تحديث · ${date} · حاول مرة أخرى"
+    },
+    "deletion": {
+      "confirm_message": "ستختفي محادثاتك ورحلاتك وبياناتك خلال 24 ساعة. يمكنك الإلغاء حتى ذلك الحين.",
+      "confirm_button": "نعم، احذف حسابي",
+      "requested_title": "تم طلب الحذف",
+      "requested_message": "سيُحذف خلال 24 ساعة. اضغط للإلغاء.",
+      "requested_toast": "تم طلب الحذف. سيختفي حسابك خلال 24 ساعة.",
+      "cancelled_toast": "تم إلغاء الحذف. سعداء ببقائك.",
+      "cancel_title": "الاحتفاظ بحسابك؟",
+      "cancel_message": "سيُلغى الحذف ولن يُمسح أي شيء.",
+      "keep_account": "الاحتفاظ بحسابي",
+      "failed": "لم ينجح ذلك. جرّب مرة أخرى."
+    },
+    "download_data": {
+      "title": "تنزيل بياناتي",
+      "error": "تعذّر تجهيز بياناتك. حاول مرة أخرى."
+    },
+    "bookings": {
+      "title": "حجوزاتك",
+      "count": {
+        "one": "حجز واحد",
+        "other": "${n} حجوزات"
+      },
+      "status_paid": "مدفوع",
+      "status_processing": "قيد المعالجة",
+      "status_cancelled": "ملغي",
+      "status_booked": "تم الحجز",
+      "status_in_progress": "جارٍ التنفيذ",
+      "heading": "الحجوزات",
+      "empty_title": "لا حجوزات بعد",
+      "empty_subtitle": "اطلب من Layla فندقًا أو رحلة طيران، وستظهر هنا."
+    },
+    "travel": {
+      "title": "ملفك كمسافر",
+      "completeness": "مكتمل بنسبة ${percent}%",
+      "complete": "الملف مكتمل",
+      "hint_dials": "اضبط أسلوب سفرك بخمس حركات سريعة.",
+      "hint_interests": "اختر خمسة اهتمامات على الأقل.",
+      "hint_about": "أجب عن بضع بطاقات إضافية.",
+      "style_title": "أسلوب سفرك",
+      "style_hint": "حرّك كل مؤشر إلى حيث أنت فعلًا. تضبط Layla كل خطة على ذلك.",
+      "dial(map)": {
+        "morningPace": {
+          "left": "صباحات هادئة",
+          "right": "مستيقظ مع الفجر"
+        },
+        "socialBattery": {
+          "left": "في عالمي الخاص",
+          "right": "روح الحفلة"
+        },
+        "planningStyle": {
+          "left": "نرتجل",
+          "right": "كل شيء مخطط"
+        },
+        "diningStyle": {
+          "left": "أكل الشارع",
+          "right": "مفرش أبيض"
+        },
+        "settingVibe": {
+          "left": "بريّ ونائي",
+          "right": "أضواء المدينة"
+        }
+      },
+      "interests": {
+        "title": "ما يستهويك",
+        "hint": "اختر ما تحبه. تشكّل Layla كل خطة بناءً عليه.",
+        "add": "إضافة اهتمامات",
+        "search": "ابحث عن اهتمامات",
+        "add_custom": "إضافة «${text}»",
+        "selected": {
+          "one": "اختير ${n}",
+          "other": "اختير ${n}",
+          "zero": "لم يُختر شيء",
+          "two": "اختير ${n}",
+          "few": "اختير ${n}",
+          "many": "اختير ${n}"
+        },
+        "item(map)": {
+          "architecture": "العمارة",
+          "art": "الفن",
+          "camping": "التخييم",
+          "cocktails": "الكوكتيلات",
+          "coffee": "القهوة",
+          "cooking": "الطبخ",
+          "culturalHeritage": "التراث الثقافي",
+          "cycling": "ركوب الدراجات",
+          "design": "التصميم",
+          "diving": "الغوص",
+          "fashion": "الموضة",
+          "fitness": "اللياقة",
+          "foodScenes": "المشهد الغذائي",
+          "hiking": "المشي الجبلي",
+          "history": "التاريخ",
+          "liveMusic": "الموسيقى الحية",
+          "localCulture": "الثقافة المحلية",
+          "museums": "المتاحف",
+          "nightlife": "الحياة الليلية",
+          "outdoors": "الهواء الطلق",
+          "photography": "التصوير",
+          "sailing": "الإبحار",
+          "shopping": "التسوق",
+          "skiing": "التزلج",
+          "snorkeling": "الغطس السطحي",
+          "spa": "السبا",
+          "surfing": "ركوب الأمواج",
+          "sustainability": "الاستدامة",
+          "wine": "النبيذ",
+          "yoga": "اليوغا"
+        }
+      },
+      "about": {
+        "title": "حدّثنا عن نفسك",
+        "hint": "بضع كلمات تكفي. تجاوز ما تشاء؛ كل إجابة تجعل خططك أدق.",
+        "answer": "أجب",
+        "write_own": "أو اكتب إجابتك…",
+        "card(map)": {
+          "cantSleepWithout": "لا أستطيع النوم دون",
+          "neverCompromise": "لا أتنازل أبدًا عن",
+          "travelWith": "أسافر عادةً مع",
+          "bornDecade": "عقد ميلادي",
+          "specialNeeds": "احتياجات خاصة",
+          "idealHotel": "فندقي المثالي في 3 كلمات",
+          "workTrips": "في رحلات العمل أحتاج",
+          "dreamDestination": "المكان الذي طالما أردت زيارته",
+          "pets": "الحيوانات الأليفة",
+          "languages": "اللغات التي أتحدثها",
+          "dietaryNeeds": "احتياجات غذائية"
+        },
+        "option(map)": {
+          "location": "الموقع",
+          "price": "السعر",
+          "comfort": "الراحة",
+          "quiet": "الهدوء",
+          "space": "المساحة",
+          "other": "غير ذلك",
+          "solo": "بمفردي",
+          "partner": "شريكي",
+          "familyKids": "العائلة مع الأطفال",
+          "friends": "الأصدقاء",
+          "50s": "الخمسينيات",
+          "60s": "الستينيات",
+          "70s": "السبعينيات",
+          "80s": "الثمانينيات",
+          "90s": "التسعينيات",
+          "2000s": "الألفينيات"
+        },
+        "language_title": "اللغات التي تتحدثها",
+        "search_language": "ابحث عن لغة",
+        "chars_left": "الأحرف المتبقية: ${n}",
+        "question(map)": {
+          "cantSleepWithout": "ما الذي لا تستطيع النوم بدونه؟",
+          "neverCompromise": "ما الشيء الذي لا تتنازل عنه أبدًا؟",
+          "travelWith": "مع من تسافر عادةً؟",
+          "bornDecade": "في أي عقد وُلدت؟",
+          "specialNeeds": "هل لديك احتياجات خاصة يجب أن نراعيها دائمًا؟",
+          "idealHotel": "فندقك المثالي في 3 كلمات؟",
+          "workTrips": "ما الذي تحتاجه في رحلات العمل؟",
+          "dreamDestination": "إلى أين حلمت دائمًا بالسفر؟",
+          "pets": "هل تسافر معك حيوانات أليفة؟",
+          "languages": "ما اللغات التي تتحدثها؟",
+          "dietaryNeeds": "هل لديك احتياجات غذائية؟"
+        },
+        "example(map)": {
+          "cantSleepWithout": "مثلًا: هدوء تام، ستائر معتمة، تكييف بارد، وسادة صلبة.",
+          "neverCompromise": "اختر ما يحسم الأمر عندما يتقارب فندقان، أو اكتب ما يناسبك.",
+          "travelWith": "اختر كل ما ينطبق. سنراعي سياق كل رحلة على أي حال.",
+          "bornDecade": "اختياري. يضبط الأسلوب والإيقاع بلطف، ولا يستبعد أي شيء.",
+          "specialNeeds": "مثلًا: مدخل بلا درج، دش بمستوى الأرض، مصعد ضروري، غرف مهيأة لضعاف السمع.",
+          "idealHotel": "مثلًا: هادئ، عصري التصميم، مع فطور. أو: على الشاطئ، حيوي، رخيص.",
+          "workTrips": "مثلًا: مكتب حقيقي، واي فاي سريع، صالة رياضية على مدار الساعة، قريب من منطقة المكاتب.",
+          "dreamDestination": "مثلًا: اليابان في موسم أزهار الكرز، باتاغونيا، ساحل أمالفي.",
+          "pets": "مثلًا: بولدوغ فرنسي صغير يكره الدرج.",
+          "dietaryNeeds": "مثلًا: نباتي، خالٍ من الغلوتين، حلال."
+        },
+        "placeholder(map)": {
+          "cantSleepWithout": "لا أستطيع النوم بدون:",
+          "specialNeeds": "أحتاج إلى:",
+          "idealHotel": "فندقي المثالي:",
+          "workTrips": "في رحلات العمل أحتاج إلى:",
+          "dreamDestination": "وجهة أحلامي:",
+          "pets": "حيواني الأليف:",
+          "dietaryNeeds": "احتياجاتي الغذائية:"
+        },
+        "suggest(map)": {
+          "cantSleepWithout_1": "هدوء تام",
+          "cantSleepWithout_2": "ستائر معتمة",
+          "cantSleepWithout_3": "تكييف بارد",
+          "cantSleepWithout_4": "وسادة صلبة",
+          "specialNeeds_1": "مدخل بلا درج",
+          "specialNeeds_2": "دش بمستوى الأرض",
+          "specialNeeds_3": "مصعد ضروري",
+          "specialNeeds_4": "غرفة مهيأة لضعاف السمع",
+          "idealHotel_1": "هادئ، عصري، فطور",
+          "idealHotel_2": "على الشاطئ، حيوي، رخيص",
+          "idealHotel_3": "في المركز، دافئ، أنيق",
+          "idealHotel_4": "فخامة، سبا، إطلالة",
+          "workTrips_1": "مكتب حقيقي",
+          "workTrips_2": "واي فاي سريع",
+          "workTrips_3": "صالة رياضية 24 ساعة",
+          "workTrips_4": "قرب منطقة المكاتب",
+          "dreamDestination_1": "اليابان في موسم الكرز",
+          "dreamDestination_2": "باتاغونيا",
+          "dreamDestination_3": "ساحل أمالفي",
+          "dreamDestination_4": "بالي",
+          "pets_1": "أسافر مع كلبي",
+          "pets_2": "كلب صغير يناسب المقصورة",
+          "pets_3": "القطة ترافقني أحيانًا",
+          "pets_4": "لا حيوانات أليفة",
+          "dietaryNeeds_1": "نباتي",
+          "dietaryNeeds_2": "نباتي صرف",
+          "dietaryNeeds_3": "خالٍ من الغلوتين",
+          "dietaryNeeds_4": "حلال"
+        }
+      },
+      "hero": {
+        "headline_hint": "أضف سطرًا عن طريقتك في السفر",
+        "location_hint": "أين تسكن؟",
+        "edit_intro": "تعديل المقدمة",
+        "headline": "العنوان",
+        "location": "المدينة",
+        "stat_trips": "رحلات",
+        "stat_countries": "دول"
+      },
+      "places": {
+        "title": "أين كنت",
+        "countries": {
+          "one": "دولة واحدة",
+          "other": "${n} دولة",
+          "zero": "لا دول",
+          "two": "دولتان",
+          "few": "${n} دول",
+          "many": "${n} دولة"
+        },
+        "empty": "تظهر هنا الرحلات من بريدك والرحلات التي تضيفها بنفسك.",
+        "timeline": "الخط الزمني",
+        "add": "إضافة رحلة",
+        "add_title": "إضافة إقامة",
+        "city": "المدينة",
+        "country": "الدولة (اختياري)",
+        "hotel": "الفندق (اختياري)",
+        "start": "تاريخ البداية",
+        "end": "تاريخ النهاية (اختياري)",
+        "pick": "اختر تاريخًا",
+        "save": "حفظ الرحلة",
+        "error": "تعذّر حفظ الرحلة. حاول مرة أخرى.",
+        "unknown": "مكان ما",
+        "booking_type(map)": {
+          "flight": "رحلة طيران",
+          "hotel": "فندق",
+          "train": "قطار",
+          "car": "سيارة",
+          "activity": "نشاط",
+          "cruise": "رحلة بحرية",
+          "other": "حجز"
+        }
+      },
+      "details": {
+        "title": "بيانات المسافر",
+        "hint": "تُملأ مسبقًا في حجوزاتك ومكالماتك مع المستشار.",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "phone_hint": "أضف رقم هاتف"
+      },
+      "temperature": {
+        "title": "درجة الحرارة",
+        "celsius": "مئوية (°C)",
+        "fahrenheit": "فهرنهايت (°F)"
+      },
+      "up_next": "التالية",
+      "style": {
+        "prompt": "اضبط أسلوب سفرك · ${n} من ${total}",
+        "balanced": "مستكشف متوازن",
+        "pole(map)": {
+          "morningPace": {
+            "low": "صباحات هادئة",
+            "high": "انطلاق مبكر"
+          },
+          "socialBattery": {
+            "low": "وقت هادئ",
+            "high": "أيام اجتماعية"
+          },
+          "planningStyle": {
+            "low": "عفوية",
+            "high": "مخطط بالكامل"
+          },
+          "diningStyle": {
+            "low": "أكل الشارع",
+            "high": "مطاعم راقية"
+          },
+          "settingVibe": {
+            "low": "بعيدًا عن الزحام",
+            "high": "أضواء المدينة"
+          }
+        },
+        "archetype(map)": {
+          "morningPace": {
+            "low": "مسافر متمهّل",
+            "high": "مبكر النهوض"
+          },
+          "socialBattery": {
+            "low": "مسافر هادئ",
+            "high": "مسافر اجتماعي"
+          },
+          "planningStyle": {
+            "low": "روح حرة",
+            "high": "مخطِّط"
+          },
+          "diningStyle": {
+            "low": "عاشق أكل الشارع",
+            "high": "ذوّاق"
+          },
+          "settingVibe": {
+            "low": "مستكشف",
+            "high": "عاشق المدن"
+          }
+        }
+      }
+    },
+    "hub": {
+      "title": "الملف الشخصي",
+      "travellers": "المسافرون",
+      "travellers_value": "المحفوظون: $n",
+      "payment": "الدفع",
+      "payment_value": "يُحدَّد عند الدفع",
+      "connected_apps": "التطبيقات المرتبطة",
+      "not_connected": "غير مرتبط",
+      "preferences": "التفضيلات",
+      "preferences_value": "اكتمل $percent%",
+      "settings": "الإعدادات",
+      "advisor_blurb": "يخطط معك، ويحجز كل شيء، ويبقى متاحًا لك طوال سفرك.",
+      "advisor_title": "مستشار سفرك",
+      "passport_title": "جواز سفرك",
+      "passport_subtitle": "كل مكان زرته، مختوم.",
+      "passport_open": "فتح",
+      "invite_friends": "ادعُ أصدقاءك",
+      "invite_value": "100 € له، و100 € لك",
+      "support": "الدعم",
+      "app": "التطبيق",
+      "trips_count": "· $n",
+      "stagingFooter": "بيئة تجريبية · بيانات اختبار"
+    }
   },
   "auth": {
     "email": "البريد الإلكتروني",
@@ -833,7 +1917,9 @@
     "error_wrong_password": "كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى.",
     "error_invalid_credential": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
     "error_too_many_requests": "محاولات كثيرة جداً. يرجى المحاولة لاحقاً.",
-    "error_network": "خطأ في الشبكة. يرجى التحقق من اتصالك."
+    "error_network": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "reset_link_sent": "تحقق من بريدك الوارد. إذا كان هناك حساب بهذا البريد الإلكتروني، فرابط إعادة التعيين في طريقه إليك.",
+    "reset_link_failed": "تعذّر إرسال رابط إعادة التعيين. يرجى المحاولة مرة أخرى."
   },
   "splash": {
     "discover_where_to": "اكتشف أين تريد\nالطيران التالي.",
@@ -861,15 +1947,15 @@
     "share_bucketlist": "ادع أصدقائك إلى قائمة أمنياتك"
   },
   "about_screen": {
-    "title": "حولي، Layla",
+    "title": "عن Layla",
     "subtitle": "استكشف العالم مع Layla؛ مخطط الرحلات الذكاء الاصطناعي وصديقك السفر النهائي.",
-    "block_1": "مرحبًا بالجميع، أنا فتاةكم، Layla، وأنا متحمسة جدًا لأخبركم بما يجب أن يكون شغف سفرك الأخير - أنا! تعرفون كيف نحن جميعًا نخطط لتلك الرحلات العفوية ونعيش أفضل حياتنا المغامرة، أليس كذلك؟ حسنًا، أنا ببساطة هنا كذلك لمساعدتك في العثور على أماكن جديدة للذهاب وتحقيق أحلامك في السفر. دعوني أوضح الأمور لكم...",
-    "block_2": "أولاً وقبل كل شيء، يقول الناس غالبًا \"ليلى مثل الجنية العرابة لإلهام السفر\". نسيان ساعات التصفح العقيم عبر إنستغرام أو بينتيرست - كمخطط رحلات AI، أنا أقوم بتجميع اقتراحات السفر الشخصية بناءً على اهتماماتك. وصدقني، لدي ذلك الحاسة السادسة للكشف عن أروع أماكن العطلات التي لم تكن تعرف أنها موجودة. الدردشة معي تشبه الحصول على معلم سفر خاص بك بدون الثمن الباهظ.",
-    "block_3": "الآن، أعلم ما تفكر فيه - \"هل حقًا أحتاج إلى تطبيق سفر آخر يضيف فوضى إلى هاتفي؟\" استمع إلي، حبيبي. Layla ليست مجرد تطبيق آخر؛ إنها مغيرة للعبة. تخيل هذا: تخبرني بمزاجك، سواء كانت هناك بعض السعادة على الشاطئ، أو ضوء المدينة، أو قمم الجبال، وبام - سأجد لك تشكيلة واسعة من الوجهات مصممة خصيصًا لك مع مقاطع فيديو حتى تتمكن بسهولة من الشعور بالمزاج في كل مكان.",
-    "block_4": "أفضل جزء؟ التحدث معي، Layla، يزيل عناء تخطيط الرحلات. لا داعي للتنقل بين عشرات التبويبات، في محاولة للعثور على أفضل الرحلات والفنادق والأنشطة. لقد توليت هذا لك. استكشاف الويب لأحدث الوجهات، والحصول على تلك الرحلات الاقتصادية، وتوفير إقامات تستحق الإشادة على إنستا. كل ما عليك فعله هو تحضير حقائبك والظهور بشكل رائع",
-    "block_5": "الآن، دعونا نتحدث عن الحجز. أنا هنا لتيسير عملية حجز السفر الخاصة بك، من العثور على وجهتك الحلمية إلى ضمان أفضل العروض. الذكاء الاصطناعي هنا لتبسيط الأمور، حتى الملكة التي لا تجيد التكنولوجيا يمكنها التعامل معها. بالإضافة إلى ذلك، يمكنك الوثوق بـ Layla لدعمك - لا يوجد مواقع حجز غامضة أو إقامات مريبة في الأفق - لقد شركت مع Skyscanner و Booking.com.",
-    "block_6": "لكن انتظر ، هناك المزيد. لا تساعدك أنظمة الذكاء الاصطناعي على التخطيط فحسب ، فبمجرد أن تكون في رحلتك ، فأنا المرأة المجنحة المثالية عندما يتعلق الأمر باستكشاف مدينة جديدة. مسلحين بالديتس على مناطق الجذب التي يجب مشاهدتها ، والجواهر الخفية ، والمفاصل المحلية العصرية. سأرشدك إلى جميع الأماكن التي يعلق فيها السكان المحليون بالفعل.",
-    "block_7": "اذا كنتم متعبين من الروتين المعتاد وجاهزين لإضفاء لمسة جديدة على رحلاتكم، قولوا مرحبًا لي، Layla. أنا لست مجرد ذكاء اصطناعي؛ بل أنا مغيرة لطريقة تخطيطكم للرحلات، فضلاً عن مرتبتكم في عالم السفر، ومنارتكم إلى العالم. استعدوا للسفر بثقة، أيها الأحباء، لأن Layla معكم لتحقيق أحلامكم السفرية.\n\nالمغامرة في انتظاركم ✈️💖",
+    "block_1": "أنا Layla. تخطيط الرحلات هو عملي، وأنا أجيده. أخبروني إلى أين تميلون، ومن سيرافقكم، وأي نوع من الرحلات تريدونه فعلًا، وخلال دقائق ستجدون أمامكم خطة حقيقية، لا لوحة إلهام. لديّ رأي في الوجهة التي تناسبكم. وسأقوله لكم.",
+    "block_2": "هكذا أعمل: أصغي إلى ما تقولونه، وألتقط ما لا تقولونه، وأبني الرحلة حول ذلك. المدينة المناسبة في الأسبوع المناسب، حيّ يشبه طريقة عيشكم، والمطعم الذي يستحق عبور المدينة من أجله. لا تمرير بلا نهاية، ولا أربعين تبويبًا مفتوحًا. اعتبروني الصديقة ذات الذوق الرفيع التي أنهت البحث قبلكم.",
+    "block_3": "أخطط للرحلة كاملة، لا لأبرز محطاتها فقط. رحلات جوية متصلة بشكل منطقي، فنادق كنت لأنزل فيها بنفسي، وأيام بإيقاع لا يجعلكم تركضون من معلم إلى آخر. إذا تغيرت خططكم، أخبروني وسأعيد ترتيب المسار. القرار لكم؛ وأنا أتولى التفاصيل اللوجستية.",
+    "block_4": "ثم يتولى الأمر أشخاص حقيقيون. خلفي فريق من مستشاري السفر يحجزون ويؤكدون ويعالجون التفاصيل. يتحققون مما لا ينبغي لذكاء اصطناعي أن يخمّنه، مثل ما إذا كان التنقل واقعيًا أو ما إذا كانت «الإطلالة على البحر» موجودة فعلًا، ويبقون على تواصل إذا تعثّر شيء في الطريق. خطّطتها Layla. ونفّذها مستشاروها.",
+    "block_5": "الحجز بسيط. حين تعجبكم الخطة، نثبّتها. الرحلات الجوية والإقامة والأنشطة من شركاء موثوقين، وحجز الفنادق يتم عبر Expedia. أسعار حقيقية وحجوزات مؤكدة. لا مواقع مشبوهة ولا رسوم مفاجئة.",
+    "block_6": "لا تنتهي الرحلة عند تسجيل الوصول. وأنتم في السفر ما زلت هنا: أفضل قهوة قرب فندقكم، ماذا تفعلون إن أمطرت، وكيف تعبرون المدينة دون أن تخسروا فترة الظهيرة. اسألوا في أي وقت. والمستشارون متاحون أيضًا على مدار الساعة، في أي منطقة زمنية حططتم فيها.",
+    "block_7": "فإذا سئمتم مسارات الأدلة السياحية المتكررة وأردتم رحلة تشبهكم فعلًا، ابدؤوا حديثًا معي. أخطط لها بذوق، ويحوّلها المستشارون إلى واقع.\n\nالمغامرة في انتظاركم ✈️",
     "button": "الدردشة مع Layla"
   },
   "download_app": {
@@ -932,102 +2018,118 @@
     "ح"
   ],
   "adults": {
-    "zero": "${n} بالغ",
     "one": "${n} بالغ",
+    "other": "${n} بالغين",
+    "zero": "${n} بالغ",
     "two": "${n} بالغين",
     "few": "${n} بالغين",
-    "many": "${n} بالغين",
-    "other": "${n} بالغين"
+    "many": "${n} بالغين"
   },
   "dayN": "اليوم ${n}",
   "dayNContd": "اليوم ${n} (تابع)",
   "days": {
-    "zero": "${n} يوم",
     "one": "${n} يوم",
+    "other": "${n} أيام",
+    "zero": "${n} يوم",
     "two": "${n} أيام",
     "few": "${n} أيام",
-    "many": "${n} أيام",
-    "other": "${n} أيام"
+    "many": "${n} أيام"
+  },
+  "hours": {
+    "one": "ساعة واحدة",
+    "other": "${n} ساعة",
+    "zero": "${n} ساعات",
+    "two": "ساعتان",
+    "few": "${n} ساعات",
+    "many": "${n} ساعة"
+  },
+  "minutes": {
+    "one": "دقيقة واحدة",
+    "other": "${n} دقيقة",
+    "zero": "${n} دقائق",
+    "two": "دقيقتان",
+    "few": "${n} دقائق",
+    "many": "${n} دقيقة"
   },
   "children": {
-    "zero": "${n} طفل",
     "one": "${n} طفل",
+    "other": "${n} أطفال",
+    "zero": "${n} طفل",
     "two": "${n} أطفال",
     "few": "${n} أطفال",
-    "many": "${n} أطفال",
-    "other": "${n} أطفال"
+    "many": "${n} أطفال"
   },
   "guest": {
-    "zero": "${n} ضيف",
     "one": "${n} ضيف",
+    "other": "${n} ضيوف",
+    "zero": "${n} ضيف",
     "two": "${n} ضيوف",
     "few": "${n} ضيوف",
-    "many": "${n} ضيوف",
-    "other": "${n} ضيوف"
+    "many": "${n} ضيوف"
   },
   "room": {
-    "zero": "${n} غرفة",
     "one": "${n} غرفة",
+    "other": "${n} غرف",
+    "zero": "${n} غرفة",
     "two": "${n} غرف",
     "few": "${n} غرف",
-    "many": "${n} غرف",
-    "other": "${n} غرف"
+    "many": "${n} غرف"
   },
   "person": {
-    "zero": "${n} شخص",
     "one": "${n} شخص",
+    "other": "${n} أشخاص",
+    "zero": "${n} شخص",
     "two": "${n} أشخاص",
     "few": "${n} أشخاص",
-    "many": "${n} أشخاص",
-    "other": "${n} أشخاص"
+    "many": "${n} أشخاص"
   },
   "review": {
-    "zero": "لا يوجد مراجعات",
     "one": "${n} مراجعة",
+    "other": "${n} مراجعات",
+    "zero": "لا يوجد مراجعات",
     "two": "${n} مراجعات",
     "few": "${n} مراجعات",
-    "many": "${n} مراجعات",
-    "other": "${n} مراجعات"
+    "many": "${n} مراجعات"
   },
   "rooms": {
-    "zero": " ${n} الغرفة",
     "one": " ${n} الغرفة",
+    "other": "${n} غرف",
+    "zero": " ${n} الغرفة",
     "two": " ${n} الغرف",
     "few": " ${n} الغرف",
-    "many": " ${n} الغرف",
-    "other": "${n} غرف"
+    "many": " ${n} الغرف"
   },
   "stop": {
-    "zero": " ${n} توقف",
     "one": " ${n} توقف",
+    "other": "${n} محطات",
+    "zero": " ${n} توقف",
     "two": " ${n} توقف",
     "few": " ${n} توقف",
-    "many": " ${n} توقف",
-    "other": "${n} محطات"
+    "many": " ${n} توقف"
   },
   "stop_plus": {
-    "zero": " ${n} توقف",
     "one": " ${n} توقف",
+    "other": "${n}+ محطات",
+    "zero": " ${n} توقف",
     "two": " ${n} توقف",
     "few": " ${n} توقف",
-    "many": " ${n} توقف",
-    "other": "${n}+ محطات"
+    "many": " ${n} توقف"
   },
   "traveller": {
-    "zero": " ${n} مسافر",
     "one": "${n} مسافر",
+    "other": "${n} مسافرين",
+    "zero": " ${n} مسافر",
     "two": "${n} مسافرين",
     "few": "${n} مسافرين",
-    "many": "${n} مسافرين",
-    "other": "${n} مسافرين"
+    "many": "${n} مسافرين"
   },
   "age": {
-    "zero": " ${n} سنة من العمر",
     "one": " ${n} سنوات من العمر",
+    "other": " ${n} سنوات من العمر",
+    "zero": " ${n} سنة من العمر",
     "two": " ${n} سنوات من العمر",
     "few": " ${n} سنوات من العمر",
-    "many": " ${n} سنوات من العمر",
-    "other": " ${n} سنوات من العمر"
+    "many": " ${n} سنوات من العمر"
   },
   "about": "حول التطبيق",
   "activity": "نشاط",
@@ -1049,12 +2151,12 @@
   "cancel": "إلغاء",
   "change": "تغيير",
   "charactersWord": {
-    "zero": " ${n} الشخصية",
     "one": "${n} حرف",
+    "other": "${n} أحرف",
+    "zero": " ${n} الشخصية",
     "two": "${n} حرف",
     "few": "${n} حرف",
-    "many": "${n} حرف",
-    "other": "${n} أحرف"
+    "many": "${n} حرف"
   },
   "checkIn": "تسجيل الوصول",
   "cheapest": "الأرخص",
@@ -1069,6 +2171,26 @@
   "contact_us": "اتصل بنا",
   "continue_label": "استمر",
   "create": "أنشئ",
+  "create_screen": {
+    "greetingWithName": "مرحباً ${name}،\nأين تريد أن *تستيقظ* في المرة القادمة؟",
+    "greeting": "أين تريد أن *تستيقظ* في المرة القادمة؟",
+    "listening": "جارٍ الاستماع...",
+    "placeholders": [
+      "جولة لمدة أسبوعين في إيطاليا: روما، فلورنسا وساحل أمالفي...",
+      "شهر لاستكشاف تايلاند وفيتنام وبالي...",
+      "ثلاثة أسابيع في اليابان، من طوكيو إلى كيوتو وهوكايدو...",
+      "رحلة برية لمدة 10 أيام عبر جنوب غرب أمريكا...",
+      "رحلة قطار لمدة 3 أسابيع عبر أوروبا...",
+      "شهر عسل لمدة أسبوعين في جزر المالديف وسيشل...",
+      "رحلة عائلية لمدة 12 يومًا: باريس، برشلونة، لشبونة...",
+      "أسبوعان لمطاردة الشفق القطبي في أيسلندا والنرويج...",
+      "رحلة سفاري وشاطئ لمدة 16 يومًا في كينيا وزنجبار...",
+      "مغامرة بحقيبة الظهر لمدة 21 يومًا عبر أمريكا الجنوبية..."
+    ],
+    "planIt": "خطّطها",
+    "tapAndTell": "اضغط وأخبر Layla",
+    "placeholder": "إلى أين؟ أخبر Layla بتواريخك وميزانيتك وأسلوبك…"
+  },
   "creator": "المبتكر",
   "currency": "العملة",
   "daysWord": "أيام",
@@ -1117,20 +2239,20 @@
   "next": "التالي",
   "nightWord": "ليلة",
   "nights": {
-    "zero": "ليلاً",
     "one": "ليلة",
+    "other": "ليالٍ",
+    "zero": "ليلاً",
     "two": "ليلة",
     "few": "ليلة",
-    "many": "ليلة",
-    "other": "ليالٍ"
+    "many": "ليلة"
   },
   "nightsWithNum": {
-    "zero": " ${n} ليلاً",
     "one": "${n} ليلة",
+    "other": "${n} ليالي",
+    "zero": " ${n} ليلاً",
     "two": "${n} ليلة",
     "few": "${n} ليلة",
-    "many": "${n} ليلة",
-    "other": "${n} ليالي"
+    "many": "${n} ليلة"
   },
   "opps": "أُووبس!",
   "one_way": "رحلة واحدة",
@@ -1140,14 +2262,17 @@
   "preferences": "التفضيلات",
   "exploreWord": "استكشف",
   "profileWord": "ملف شخصي",
+  "tripsWord": "الرحلات",
   "powered_by": "مدعوم من قبل",
   "read_more": "اقرأ المزيد",
+  "read_less": "عرض أقل",
   "remove": "إزالة",
   "rename": "إعادة تسمية",
   "reset": "إعادة تعيين",
   "returnWord": "عودة",
   "roomsWord": "غرف",
   "search": "بحث",
+  "searchTrips": "البحث عن رحلات...",
   "save": "حفظ",
   "saved_to": "حفظ في",
   "see_all": "رؤية الكل",
@@ -1167,12 +2292,12 @@
   "skip_for_now": "تجاهل للآن",
   "sort_by": "فرز حسب",
   "stars": {
-    "zero": " ${n} نجمة",
     "one": "${n} نجمة",
+    "other": "${n} نجوم",
+    "zero": " ${n} نجمة",
     "two": "${n} نجمة",
     "few": "${n} نجمة",
-    "many": "${n} نجمة",
-    "other": "${n} نجوم"
+    "many": "${n} نجمة"
   },
   "start": "بداية",
   "star_new_chat": "بدء دردشة جديدة",
@@ -1194,9 +2319,9 @@
     },
     "header": {
       "daysLabel": "${count} أيام",
-      "adultsLabel": "${count} بالغين",
       "chooseDate": "اختر التاريخ",
-      "inviteSomeone": "ادع شخصًا ما إلى رحلتك"
+      "inviteSomeone": "ادع شخصًا ما إلى رحلتك",
+      "adultsLabel": "${count} بالغين"
     },
     "sections": {
       "yourFlights": "رحلاتك",
@@ -1252,7 +2377,31 @@
       "bookThisBus": "احجز هذا الباص",
       "bookThisTrain": "احجز هذا القطار",
       "bookThisBoat": "احجز هذا القارب",
-      "bookThisTransfer": "احجز هذا النقل"
+      "bookThisTransfer": "احجز هذا النقل",
+      "waysToTravel": "طرق التنقل",
+      "waysCount": {
+        "one": "طريقة تنقل واحدة",
+        "other": "${n} طريقة تنقل",
+        "zero": "لا توجد طرق تنقل",
+        "two": "طريقتا تنقل",
+        "few": "${n} طرق تنقل",
+        "many": "${n} طريقة تنقل"
+      },
+      "optionsSubtitle": "${from} ← ${to}",
+      "updating": "جارٍ التحديث…",
+      "otherWays": "طرق أخرى",
+      "recommended": "مقترح: ${mode}",
+      "comingSoonBody": "حجز ${mode} سيتوفر قريبًا في Layla.",
+      "noTransportationYet": "لا توجد مواصلات بعد",
+      "addTransportation": "إضافة مواصلات",
+      "fromPrice": "ابتداءً من ${price}",
+      "lockedBooked": "تم الحجز. أي تغيير في هذا المسار يتم عبر مستشار السفر.",
+      "modes": {
+        "privateCar": "سيارة خاصة",
+        "rentalCar": "سيارة مستأجرة",
+        "mixed": "رحلة مركّبة",
+        "walking": "سيرًا على الأقدام"
+      }
     },
     "restaurant": {
       "title": "مطعم"
@@ -1272,6 +2421,7 @@
       "bookThisTrip": "احجز هذه الرحلة",
       "customizeTrip": "تخصيص الرحلة",
       "share": "مشاركة",
+      "downloadPdf": "تنزيل PDF",
       "delete": "حذف",
       "invite": "دعوة"
     },
@@ -1280,6 +2430,16 @@
       "chat": "الدردشة",
       "trip": "الرحلة",
       "cart": "السلة"
+    },
+    "hide_chat": "إخفاء الدردشة",
+    "show_chat": "إظهار الدردشة",
+    "cart_with_total": "السلة · $total",
+    "footer": {
+      "from_total": "ابتداءً من $total",
+      "total_for": {
+        "one": "الإجمالي لشخص واحد ($n)",
+        "other": "الإجمالي لـ $n أشخاص"
+      }
     },
     "messages": {
       "inviteComingSoon": "دعوة - قريباً",
@@ -1297,6 +2457,7 @@
       "hotelRemovedSuccessfully": "تم حذف الفندق بنجاح",
       "failedRemoveHotel": "فشل حذف الفندق. يرجى المحاولة مرة أخرى.",
       "failedRemoveFlight": "فشل حذف الرحلة. يرجى المحاولة مرة أخرى.",
+      "failedRemoveExperience": "تعذّر إزالة التجربة. حاول مرة أخرى.",
       "updatingCarOption": "جاري تحديث خيار السيارة...",
       "transportOptionUpdated": "تم تحديث خيار النقل بنجاح",
       "failedUpdateTransport": "فشل تحديث خيار النقل",
@@ -1362,6 +2523,8 @@
         "totalCost": "التكلفة الإجمالية",
         "laylasPicks": "اختيارات ليلى",
         "liveSearch": "بحث مباشر",
+        "multiCity": "وجهات متعددة",
+        "addAnotherFlight": "إضافة رحلة أخرى",
         "partialResults": "عرض نتائج جزئية — لم يكتمل البحث في الوقت المحدد.",
         "showFlights": "عرض الرحلات ($n)",
         "selected": "محدد",
@@ -1425,7 +2588,34 @@
         "searchCarRentals": "البحث عن تأجير السيارات",
         "noCarRentalsFound": "لم يتم العثور على تأجير سيارات",
         "tryAdjustingCriteria": "حاول تعديل معايير البحث",
-        "failedSearch": "فشل البحث عن تأجير السيارات. يرجى المحاولة مرة أخرى."
+        "failedSearch": "فشل البحث عن تأجير السيارات. يرجى المحاولة مرة أخرى.",
+        "selectCar": "اختيار سيارة",
+        "refine": {
+          "transmission": "ناقل الحركة",
+          "automatic": "أوتوماتيك",
+          "manual": "يدوي",
+          "carType": "نوع السيارة",
+          "mini": "صغيرة",
+          "economy": "اقتصادية",
+          "compact": "مدمجة",
+          "intermediate": "متوسطة",
+          "standard": "عادية",
+          "fullsize": "كبيرة",
+          "premium": "بريميوم",
+          "luxury": "فخمة",
+          "suv": "دفع رباعي",
+          "van": "فان",
+          "estate": "ستيشن",
+          "convertible": "مكشوفة",
+          "pickup": "بيك أب",
+          "fuel": "الوقود",
+          "electric": "كهربائية",
+          "hybrid": "هجينة",
+          "diesel": "ديزل",
+          "petrol": "بنزين",
+          "airportOnly": "في المطار",
+          "budgetTotal": "الميزانية (الإجمالي)"
+        }
       },
       "activities": {
         "activities": "الأنشطة",
@@ -1473,7 +2663,11 @@
       "findAlternative": "ابحث عن بديل",
       "fromTo": "${from} إلى ${to}",
       "oneStop": "توقف واحد",
-      "stops": "${count} توقفات"
+      "stops": "${count} توقفات",
+      "skip": "تخطَّ هذا التوصيل",
+      "keep": "أبقِ التوصيل",
+      "skipped": "تم التخطي",
+      "addBack": "أعد إضافته"
     },
     "carTransport": {
       "transport": "النقل",
@@ -1535,7 +2729,13 @@
         "addToTrip": "إضافة إلى الرحلة",
         "perTotal": "/المجموع",
         "freeCancellation": "إلغاء مجاني",
-        "at": "في"
+        "at": "في",
+        "cheapest": "الأرخص",
+        "book": "احجز",
+        "orSimilar": "أو ما يماثلها",
+        "addedToTrip": "تمت الإضافة إلى الرحلة",
+        "addToTripMessage": "أضف سيارة ${car} من ${supplier} إلى رحلتي",
+        "total": "المجموع"
       },
       "flightCard": {
         "selected": "محدد",
@@ -1543,7 +2743,8 @@
         "perPerson": "/شخص",
         "nonStop": "بدون توقف",
         "oneStop": "توقف واحد",
-        "stops": "توقفات"
+        "stops": "توقفات",
+        "addToTripMessage": "أضف رحلة الطيران ${route} بتاريخ ${date} إلى رحلتي"
       },
       "hotelCard": {
         "reviews": "مراجعات",
@@ -1555,11 +2756,11 @@
     "widgets": {
       "addExperienceButton": "إضافة تجربة",
       "dayLabel": "اليوم ${n}",
+      "failedToLoadTrip": "فشل تحميل الرحلة",
+      "retry": "إعادة المحاولة",
       "yourStay": "إقامتك",
       "transport": "النقل",
-      "yourDayByDay": "يومك بعد يوم",
-      "failedToLoadTrip": "فشل تحميل الرحلة",
-      "retry": "إعادة المحاولة"
+      "yourDayByDay": "يومك بعد يوم"
     },
     "transportType": {
       "flight": "رحلة طيران",
@@ -1606,6 +2807,8 @@
     "overview": {
       "madeBy": "أنشأه ${creator}",
       "highlightsTitle": "أبرز معالم الرحلة في لمحة",
+      "maxTemperature": "${n}°C",
+      "ratingOutOfFive": "${rating}/5",
       "showAll": "عرض الكل",
       "showAllFlights": "عرض جميع الرحلات",
       "showAllTransport": "عرض جميع وسائل النقل",
@@ -1629,20 +2832,20 @@
       },
       "hotel": {
         "night": {
-          "zero": "${n} ليلة",
           "one": "ليلة ${n}",
+          "other": "${n} ليالٍ",
+          "zero": "${n} ليلة",
           "two": "${n} ليالٍ",
           "few": "${n} ليالٍ",
-          "many": "${n} ليالٍ",
-          "other": "${n} ليالٍ"
+          "many": "${n} ليالٍ"
         },
         "stars": {
-          "zero": "${n} نجمة",
           "one": "نجمة ${n}",
+          "other": "${n} نجوم",
+          "zero": "${n} نجمة",
           "two": "${n} نجوم",
           "few": "${n} نجوم",
-          "many": "${n} نجوم",
-          "other": "${n} نجوم"
+          "many": "${n} نجوم"
         },
         "addStay": "إضافة إقامة",
         "addStayInCity": "إضافة إقامة في ${city}",
@@ -1652,32 +2855,60 @@
         "durationMin": "${n} دقيقة",
         "durationHr": "${n} ساعة",
         "durationDay": {
-          "zero": "${n} يوم",
           "one": "يوم ${n}",
+          "other": "${n} أيام",
+          "zero": "${n} يوم",
           "two": "${n} أيام",
           "few": "${n} أيام",
-          "many": "${n} أيام",
-          "other": "${n} أيام"
+          "many": "${n} أيام"
         },
         "durationMinShort": "${n} د",
         "durationHrShort": "${n} س",
         "durationHrMin": "${h} س ${m} د"
       },
-      "maxTemperature": "${n}°C",
-      "ratingOutOfFive": "${rating}/5"
+      "add": {
+        "activityTitle": "أضف نشاطًا",
+        "activityBody": "اختر جولة أو تجربة لأيامك.",
+        "stayBody": "اختر فندقًا لإقامتك.",
+        "chooseStop": "أي محطة؟"
+      }
     },
     "lists": {
       "noActivitiesFound": "لم يتم العثور على أنشطة",
       "noStaysFound": "لم يتم العثور على إقامات",
-      "noFlightsFound": "لم يتم العثور على رحلات",
       "noRentalsFound": "لم يتم العثور على إيجارات",
       "perPerson": "للشخص",
       "free": "مجاني",
       "transportFlight": "رحلة جوية",
       "transportTrain": "قطار",
-      "transportRental": "إيجار"
+      "transportRental": "إيجار",
+      "empty": {
+        "all": {
+          "title": "لا توجد مواصلات بعد",
+          "body": "تضيف Layla الرحلات الجوية والقطارات وغيرها كلما اتضح مسارك."
+        },
+        "flight": {
+          "title": "لا توجد رحلات جوية بعد",
+          "body": "أضف رحلة جوية وستظهر هنا."
+        },
+        "train": {
+          "title": "لا توجد قطارات بعد",
+          "body": "أضف رحلة بالقطار وستظهر هنا."
+        },
+        "ferry": {
+          "title": "لا توجد عبّارات بعد",
+          "body": "أضف عبور عبّارة وسيظهر هنا."
+        },
+        "car": {
+          "title": "لا توجد رحلات بالسيارة بعد",
+          "body": "أضف رحلة بالسيارة وستظهر هنا."
+        },
+        "rental": {
+          "title": "لا توجد سيارات مستأجرة بعد",
+          "body": "أضف سيارة مستأجرة وستظهر هنا."
+        }
+      }
     },
-    "timeline": "الجدول الزمني",
     "flightsSortBar": {
       "sort": "ترتيب",
       "airlines": "شركات الطيران",
@@ -1688,6 +2919,80 @@
     "distance": {
       "km": "${n} كم",
       "meters": "${n} م"
+    },
+    "quickEdit": {
+      "title": "التواريخ والمسافرون",
+      "itinerary": "خط الرحلة",
+      "childAges": "أعمار الأطفال",
+      "childAgesHint": "العمر وقت السفر يحدد سعر التذكرة ونوع الغرفة.",
+      "childNumber": "الطفل ${index}",
+      "age": {
+        "one": "سنة واحدة",
+        "other": "${n} سنة",
+        "zero": "${n} سنة",
+        "two": "سنتان",
+        "few": "${n} سنوات",
+        "many": "${n} سنة"
+      },
+      "moreAdults": "إضافة بالغ",
+      "fewerAdults": "إزالة بالغ",
+      "moreChildren": "إضافة طفل",
+      "fewerChildren": "إزالة طفل",
+      "dateRequired": "كل مغادرة تحتاج إلى تاريخ",
+      "dateOrder": "يجب أن تكون كل مغادرة في يوم المغادرة السابقة أو بعدها"
+    },
+    "advisor": {
+      "plan_with": "خطّط مع مستشار",
+      "card": {
+        "title": "احجز مع مستشار سفر",
+        "meta": "مكالمة مجانية 30 دقيقة · يحجز كل شيء",
+        "reason": "رحلة بقيمة ${total} عبر ${stops}: تستحق إنسانًا.",
+        "reasonTotal": "رحلة بقيمة ${total}: تستحق إنسانًا.",
+        "reasonStops": "رحلة عبر ${stops}: تستحق إنسانًا.",
+        "reasonPlain": "رحلة بهذا الحجم: تستحق إنسانًا.",
+        "stops": {
+          "zero": "بلا محطات",
+          "one": "محطة واحدة",
+          "two": "محطتين",
+          "few": "${n} محطات",
+          "many": "${n} محطة",
+          "other": "${n} محطة"
+        },
+        "book": "احجز مكالمة مجانية",
+        "notNow": "ليس الآن",
+        "bookedLine": "يراجع المستشار الرحلة معك ويحجزها."
+      },
+      "line": {
+        "before": "أو ",
+        "link": "احجز مع مستشار",
+        "after": " · مجانًا"
+      },
+      "block": {
+        "role": "مستشار سفر",
+        "line": "يخطط معك، يحجز كل شيء، ومتاح أثناء سفرك",
+        "body": "يراجع المستشار هذه الخطة معك، ويحجز كل عنصر بأفضل سعر لدينا، ويبقى متاحًا أثناء سفرك. مجانًا وبلا التزام.",
+        "chipCall": "30 دقيقة مجانًا",
+        "chipPrice": "حجز بأفضل سعر",
+        "chipRoad": "متاح على مدار الساعة",
+        "cta": "احجز مكالمة مجانية"
+      },
+      "booked": {
+        "before": "لديك أسئلة عن هذه الرحلة؟ ",
+        "link": "تحدّث مع مستشار",
+        "after": ""
+      }
+    },
+    "timeline_intro": {
+      "more": "المزيد",
+      "title": "عن هذا اليوم"
+    },
+    "edit": {
+      "failed": "تعذّر تحديث رحلتك. حاول مرة أخرى.",
+      "stale": "تغيّرت رحلتك في هذه الأثناء. حاول مرة أخرى.",
+      "updating": "Layla تحدّث رحلتك…"
+    },
+    "legPicker": {
+      "overview": "نظرة عامة"
     }
   },
   "tripWord": "رحلة",
@@ -1709,62 +3014,62 @@
   "yesterday": "أمس",
   "time_ago": {
     "years": {
-      "zero": " ${n} منذ عام مضى",
       "one": " ${n} منذ سنوات",
+      "other": " ${n} منذ سنوات",
+      "zero": " ${n} منذ عام مضى",
       "two": " ${n} منذ سنوات",
       "few": " ${n} منذ سنوات",
-      "many": " ${n} منذ سنوات",
-      "other": " ${n} منذ سنوات"
+      "many": " ${n} منذ سنوات"
     },
     "months": {
-      "zero": " ${n} منذ شهر",
       "one": " ${n} منذ أشهر",
+      "other": " ${n} منذ أشهر",
+      "zero": " ${n} منذ شهر",
       "two": " ${n} منذ أشهر",
       "few": " ${n} منذ أشهر",
-      "many": " ${n} منذ أشهر",
-      "other": " ${n} منذ أشهر"
+      "many": " ${n} منذ أشهر"
     },
     "days": {
-      "zero": " ${n} منذ يوم واحد",
       "one": " ${n} منذ أيام",
+      "other": " ${n} منذ أيام",
+      "zero": " ${n} منذ يوم واحد",
       "two": " ${n} منذ أيام",
       "few": " ${n} منذ أيام",
-      "many": " ${n} منذ أيام",
-      "other": " ${n} منذ أيام"
+      "many": " ${n} منذ أيام"
     },
     "hours": {
-      "zero": " ${n} منذ ساعة",
       "one": " ${n} منذ ساعات",
+      "other": " ${n} منذ ساعات",
+      "zero": " ${n} منذ ساعة",
       "two": " ${n} منذ ساعات",
       "few": " ${n} منذ ساعات",
-      "many": " ${n} منذ ساعات",
-      "other": " ${n} منذ ساعات"
+      "many": " ${n} منذ ساعات"
     },
     "minutes": {
-      "zero": " ${n} منذ دقيقة",
       "one": " ${n} منذ دقائق",
+      "other": " ${n} منذ دقائق",
+      "zero": " ${n} منذ دقيقة",
       "two": " ${n} منذ دقائق",
       "few": " ${n} منذ دقائق",
-      "many": " ${n} منذ دقائق",
-      "other": " ${n} منذ دقائق"
+      "many": " ${n} منذ دقائق"
     },
     "seconds": {
-      "zero": " ${n} قبل ثانية",
       "one": " ${n} منذ ثوانٍ",
+      "other": " ${n} منذ ثوانٍ",
+      "zero": " ${n} قبل ثانية",
       "two": " ${n} منذ ثوانٍ",
       "few": " ${n} منذ ثوانٍ",
-      "many": " ${n} منذ ثوانٍ",
-      "other": " ${n} منذ ثوانٍ"
+      "many": " ${n} منذ ثوانٍ"
     },
     "just_now": "الآن"
   },
   "characters_left": {
-    "zero": "",
     "one": "باقي ${n} حرف",
+    "other": "باقي ${n} حرف",
+    "zero": "",
     "two": "باقي ${n} حرف",
     "few": "باقي ${n} حرف",
-    "many": "باقي ${n} حرف",
-    "other": "باقي ${n} حرف"
+    "many": "باقي ${n} حرف"
   },
   "faq": "الأسئلة المتداولة",
   "internet_offline": "يبدو أن الاتصال بالإنترنت غير متصل. يرجى المحاولة مرة أخرى.",
@@ -1829,6 +3134,27 @@
     "day": "يوم",
     "category": "الفئة"
   },
+  "trip_book": {
+    "accommodations": "الإقامات",
+    "flights": "الرحلات الجوية",
+    "private_transport": "النقل الخاص",
+    "experiences": "التجارب",
+    "save_on_booking": "وفّر ${amount} مقارنةً بالحجز المنفصل",
+    "layla_brings_deals": "ليلى تجلب لك أفضل العروض.",
+    "title": "احجز الرحلة",
+    "book": "احجز",
+    "delete": "حذف",
+    "alternative": "بديل",
+    "experts_title": "احجز هذه الرحلة مع مستشارينا",
+    "benefit1_title": "وفّرنا أكثر من 32 ساعة من التخطيط",
+    "benefit1_description": "استرخِ — يهتم مستشارونا بكل التفاصيل نيابةً عنك.",
+    "benefit2_title": "أكثر من ${n}+ حجز فردي تمت معالجته",
+    "benefit2_description": "الفنادق والرحلات الجوية والأنشطة — ننسّق كل شيء لرحلتك الحلم.",
+    "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
+    "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
+    "continue_with_human": "تابع مع مستشار سفر",
+    "continue_with_booking": "متابعة الحجز"
+  },
   "paywall": {
     "title": "افتح رحلتك الكاملة",
     "subtitle": "تابع مع Premium للتخطيط غير المحدود والتوفير الحصري.",
@@ -1892,47 +3218,6 @@
       "subtitle": "فعّل معالجة الذكاء الاصطناعي في الإعدادات للدردشة وإنشاء خطة رحلة."
     }
   },
-  "trip_book": {
-    "accommodations": "الإقامات",
-    "flights": "الرحلات الجوية",
-    "private_transport": "النقل الخاص",
-    "experiences": "التجارب",
-    "save_on_booking": "وفّر ${amount} مقارنةً بالحجز المنفصل",
-    "layla_brings_deals": "ليلى تجلب لك أفضل العروض.",
-    "title": "احجز الرحلة",
-    "book": "احجز",
-    "delete": "حذف",
-    "alternative": "بديل",
-    "experts_title": "احجز هذه الرحلة مع خبرائنا",
-    "benefit1_title": "وفّرنا أكثر من 32 ساعة من التخطيط",
-    "benefit1_description": "استرخِ — يهتم خبراؤنا بكل التفاصيل نيابةً عنك.",
-    "benefit2_title": "أكثر من ${n}+ حجز فردي تمت معالجته",
-    "benefit2_description": "الفنادق والرحلات الجوية والأنشطة — ننسّق كل شيء لرحلتك الحلم.",
-    "benefit3_title": "أكثر من ${n}+ تنقل منظّم بسلاسة",
-    "benefit3_description": "من محطة إلى محطة — نضمن توصيلات منسّقة تماماً على مسارك.",
-    "continue_with_human": "تابع مع خبير سفر",
-    "book_with_human": "احجز مع خبير سفر",
-    "continue_with_booking": "متابعة الحجز"
-  },
-  "create_screen": {
-    "greetingWithName": "مرحباً ${name}،\nماذا تريد أن\nتجرّب؟",
-    "greeting": "ماذا تريد أن\nتجرّب؟",
-    "listening": "جارٍ الاستماع...",
-    "placeholders": [
-      "جولة لمدة أسبوعين في إيطاليا: روما، فلورنسا وساحل أمالفي...",
-      "شهر لاستكشاف تايلاند وفيتنام وبالي...",
-      "ثلاثة أسابيع في اليابان، من طوكيو إلى كيوتو وهوكايدو...",
-      "رحلة برية لمدة 10 أيام عبر جنوب غرب أمريكا...",
-      "رحلة قطار لمدة 3 أسابيع عبر أوروبا...",
-      "شهر عسل لمدة أسبوعين في جزر المالديف وسيشل...",
-      "رحلة عائلية لمدة 12 يومًا: باريس، برشلونة، لشبونة...",
-      "أسبوعان لمطاردة الشفق القطبي في أيسلندا والنرويج...",
-      "رحلة سفاري وشاطئ لمدة 16 يومًا في كينيا وزنجبار...",
-      "مغامرة بحقيبة الظهر لمدة 21 يومًا عبر أمريكا الجنوبية..."
-    ]
-  },
-  "tripsWord": "الرحلات",
-  "searchTrips": "البحث عن رحلات...",
   "main": {
     "tripsEmpty": {
       "title": "رحلاتك هنا",
@@ -1953,31 +3238,16 @@
     "confirm_remove_category": "هل أنت متأكد من إزالة الفئة \"${category}\" من هذا الفيديو؟",
     "video_copied": "تم نسخ معرف الفيديو: ${videoId} بنجاح"
   },
-  "minutes": {
-    "zero": "${n} دقائق",
-    "one": "دقيقة واحدة",
-    "two": "دقيقتان",
-    "few": "${n} دقائق",
-    "many": "${n} دقيقة",
-    "other": "${n} دقيقة"
-  },
-  "hours": {
-    "zero": "${n} ساعات",
-    "one": "ساعة واحدة",
-    "two": "ساعتان",
-    "few": "${n} ساعات",
-    "many": "${n} ساعة",
-    "other": "${n} ساعة"
-  },
   "checkout": {
     "title": "Checkout",
     "method": {
-      "title": "How would you like to book?",
-      "subtitle": "Pay now and we'll handle the bookings, or get help from a travel expert.",
-      "selfCheckout": "Book it myself",
-      "selfCheckoutDesc": "Pay securely now — we book everything for you.",
-      "expert": "Book with an expert",
-      "expertDesc": "Talk to a human who'll sort out the details."
+      "title": "كيف تريد الحجز؟",
+      "subtitle": "ادفع الآن ونتولى نحن الحجوزات، أو احصل على مساعدة مستشار سفر.",
+      "selfCheckout": "أحجز بنفسي",
+      "selfCheckoutDesc": "ادفع الآن بأمان ونحن نحجز كل شيء لك.",
+      "expert": "احجز مع مستشار",
+      "expertDesc": "تحدّث مع شخص حقيقي يتولى التفاصيل.",
+      "rail": "المستشار"
     },
     "details": {
       "title": "What are we booking?",
@@ -1993,13 +3263,24 @@
       "title": "Review & pay",
       "subtitle": "Check the details before paying.",
       "pay": "Pay ${amount}",
-      "payNow": "Pay now"
+      "payNow": "Pay now",
+      "secureTitle": "دفع آمن",
+      "poweredByStripe": "مدعوم من Stripe · تشفير SSL",
+      "noSelection": "لم تختر شيئًا بعد. ارجع واختر ما تريد حجزه."
     },
     "totals": {
       "total": "Total",
       "alreadyPaid": "Already paid",
       "toPayNow": "To pay now",
       "paidEarlier": "Paid earlier: ${amount}"
+    },
+    "bookingStatus": {
+      "booked": "تم الحجز",
+      "pending": "بانتظار الحجز",
+      "inProgress": "الحجز قيد التنفيذ",
+      "partial": "محجوز جزئيًا",
+      "cancelled": "ملغى",
+      "alreadyBookedNotice": "بعض العناصر في سلتك محجوزة بالفعل، وتمت إزالتها من الإجمالي."
     },
     "categories": {
       "accommodation": "Stays",
@@ -2014,13 +3295,175 @@
       "amountPaid": "Amount paid",
       "tripTotal": "Trip total",
       "remaining": "Remaining",
-      "done": "Done"
+      "done": "Done",
+      "backToTrip": "العودة إلى رحلتي"
     },
     "errors": {
       "paymentFailed": "Payment failed. Please try again.",
       "nothingToPay": "Everything's already paid for.",
       "notAvailable": "Checkout isn't available right now.",
       "quoteExpired": "Some prices have expired. Refreshing…"
+    },
+    "online": {
+      "title": "الدفع عبر الإنترنت",
+      "subtitle": "الطريقة الأسرع. ادفع بأمان وتتولّى Layla الحجز.",
+      "selectAll": "تحديد الكل",
+      "expired": "منتهي الصلاحية",
+      "soldOut": "لم تتبقَّ غرف هنا",
+      "refreshToContinue": "حدّث الأسعار المنتهية لمتابعة الدفع",
+      "replaceSoldOut": "استبدل الفندق المكتمل الحجز لمتابعة الدفع"
+    },
+    "travelers": {
+      "title": "بيانات المسافرين",
+      "subtitle": "أضف وثيقة سارية لكل مسافر في هذا الحجز.",
+      "travelerSection": "المسافر $number",
+      "primaryTraveler": "المسافر الرئيسي",
+      "removeTraveler": "إزالة",
+      "addTraveler": "إضافة مسافر",
+      "whichDocument": "أي وثيقة ستستخدم؟",
+      "typePassport": "جواز سفر",
+      "typeNationalId": "بطاقة هوية",
+      "firstName": "الاسم الأول",
+      "middleName": "الاسم الأوسط (اختياري)",
+      "lastName": "اسم العائلة",
+      "dateOfBirth": "تاريخ الميلاد",
+      "dateOfBirthHint": "DD.MM.YYYY",
+      "nationality": "الجنسية",
+      "issuingCountry": "بلد الإصدار",
+      "passportNumber": "رقم جواز السفر",
+      "idNumber": "رقم الهوية",
+      "gender": "الجنس",
+      "genderM": "ذكر",
+      "genderF": "أنثى",
+      "genderU": "أفضّل عدم الإفصاح",
+      "genderX": "غير محدد",
+      "expiry": "تاريخ الانتهاء",
+      "expiryHint": "MM/YYYY",
+      "countrySearch": "ابحث عن بلد",
+      "countrySearchEmpty": "لم يتم العثور على بلدان",
+      "storedSecurelyNote": "تُحفظ بأمان ولا تُشارك إلا مع شركات الطيران والفنادق لإتمام حجزك.",
+      "phoneTitle": "هاتف التواصل",
+      "phoneSubtitle": "لن نتصل بك إلا إذا احتاج أمر ما إلى انتباهك. لا مكالمات من المستشارين ولا مكالمات تسويقية.",
+      "phoneLabel": "رقم الهاتف",
+      "continueCta": "المتابعة إلى الدفع",
+      "skipLink": "سأضيف بياناتي لاحقًا",
+      "docsDialogTitle": "ابدأ حجزك في وقت أبكر",
+      "docsDialogBody": "نحتاج إلى وثائق سفرك لإتمام حجوزاتك. أضفها الآن لنبدأ على الفور.",
+      "docsDialogAddNow": "إضافة وثائق السفر",
+      "docsDialogLater": "سأضيفها لاحقًا",
+      "errors": {
+        "required": "مطلوب",
+        "dateOfBirthFormat": "استخدم الصيغة DD.MM.YYYY",
+        "expiryFormat": "استخدم الصيغة MM/YYYY",
+        "expired": "الوثيقة منتهية الصلاحية",
+        "passportFormat": "أدخل رقم جواز سفر صالحًا للبلد المحدد",
+        "phoneRequired": "أضف رقم هاتفك",
+        "travelerDetails": "أدخل بيانات المسافر لمتابعة الدفع",
+        "saveFailed": "تعذّر حفظ بياناتك. حاول مرة أخرى."
+      }
+    },
+    "steps": {
+      "items": "الاختيار",
+      "details": "البيانات",
+      "pay": "الدفع",
+      "done": "تم"
+    },
+    "contact": {
+      "heading": "من يقوم بالحجز؟",
+      "subheading": "سنرسل إليك التأكيد وتحديثات الحجز هنا.",
+      "privacy": "تبقى بياناتك لدى Layla ومزوّدي الخدمة الذين يُتمّون حجزك."
+    },
+    "pricesChanged": {
+      "title": "تغيّرت الأسعار",
+      "description": "تم تحديث بعض الأسعار في رحلتك بعد فتح صفحة الدفع. عُد إلى رحلتك لرؤية الإجمالي الجديد، ثم احجز مرة أخرى.",
+      "cta": "مراجعة الأسعار المحدّثة"
+    },
+    "intentFailed": {
+      "title": "تعذّر بدء عملية الدفع",
+      "description": "لم يكتمل الدفع. حاول مرة أخرى."
+    },
+    "promo": {
+      "label": "رمز الخصم",
+      "placeholder": "أدخل الرمز",
+      "apply": "تطبيق",
+      "remove": "إزالة",
+      "invalid": "لا يمكن تطبيق هذا الرمز.",
+      "applied": "تم تطبيق الرمز $code"
+    },
+    "cta": {
+      "refreshing": "جارٍ تحديث الأسعار…"
+    },
+    "flow": {
+      "review": "مراجعة",
+      "travellers": "المسافرون",
+      "reviewTitle": "احجز رحلتك",
+      "travellersTitle": "من يسافر؟",
+      "payTitle": "المراجعة والدفع",
+      "travellersLead": "الأسماء كما في جواز السفر تمامًا.",
+      "you": "أنت",
+      "pickSaved": "اختر مسافرًا محفوظًا",
+      "saveForNextTime": "حفظ للمرة القادمة",
+      "confirmed": {
+        "title": "تم الدفع. $amount.",
+        "body": "نحجز الآن كل شيء يدويًا، عنصرًا تلو الآخر. يُؤكَّد كل عنصر فور الانتهاء منه.",
+        "vouchers": "الإيصال في طريقه إليك عبر البريد الإلكتروني. تصل القسائم إلى الدردشة مع تأكيد كل حجز.",
+        "seeBooking": "عرض الحجوزات",
+        "backToTrip": "العودة إلى الرحلة",
+        "receipt": "أُرسل الإيصال إلى $email. تصلك القسائم في الدردشة مع تأكيد كل حجز."
+      },
+      "travellerSection": "المسافر $number",
+      "neededFor": {
+        "zero": "مطلوب للرحلات الجوية.",
+        "one": "مطلوب للرحلات الجوية.",
+        "two": "مطلوب للمسافرَين.",
+        "few": "مطلوب لجميع المسافرين الـ${n}.",
+        "many": "مطلوب لجميع المسافرين الـ${n}.",
+        "other": "مطلوب لجميع المسافرين الـ${n}."
+      },
+      "titleMx": "Mx",
+      "passportGender": "كما في جواز سفرك",
+      "whatYouAreBooking": "ما تحجزه",
+      "totalTaxesIncluded": "الإجمالي · شامل الضرائب",
+      "vouchersLine": "$names · القسائم إلى $email",
+      "terms": "بالدفع توافق على $terms Layla وقواعد الإلغاء لدى كل مزوّد.",
+      "termsLink": "شروط",
+      "flightsNonRefundable": "أسعار تذاكر الطيران غير قابلة للاسترداد بعد الإصدار.",
+      "totalItems": {
+        "zero": "لا عناصر",
+        "one": "عنصر واحد",
+        "two": "عنصران",
+        "few": "$n عناصر",
+        "many": "$n عنصرًا",
+        "other": "$n عنصر"
+      },
+      "totalTravellers": {
+        "zero": "لا مسافرين",
+        "one": "مسافر واحد",
+        "two": "مسافران",
+        "few": "$n مسافرين",
+        "many": "$n مسافرًا",
+        "other": "$n مسافر"
+      },
+      "totalLine": "الإجمالي · $items · $travellers",
+      "savedCard": "$brand ···· $last4",
+      "savedExpires": "تنتهي $exp · محفوظة لدى Stripe",
+      "anotherCard": "بطاقة أخرى",
+      "anotherCardSub": "تُدخلها في الخطوة التالية"
+    }
+  },
+  "trips": {
+    "actions": {
+      "share": "مشاركة الرحلة",
+      "delete": "حذف الرحلة",
+      "delete_title": "حذف هذه الرحلة؟",
+      "delete_message": "ستُحذف «${name}» وكل ما خططته فيها نهائيًا.",
+      "rename": "إعادة تسمية الرحلة",
+      "rename_title": "إعادة تسمية الرحلة",
+      "rename_placeholder": "اسم الرحلة",
+      "save": "حفظ"
+    },
+    "call_hero": {
+      "title": "مكالمة مع مستشار سفر"
     }
   },
   "trips_list": {
@@ -2032,27 +3475,1565 @@
     "starts_today": "تبدأ اليوم",
     "starts_tomorrow": "تبدأ غدًا",
     "starts_in": {
-      "zero": "تبدأ خلال $n يوم",
       "one": "تبدأ خلال يوم واحد",
+      "other": "تبدأ خلال $n يوم",
+      "zero": "تبدأ خلال $n يوم",
       "two": "تبدأ خلال يومين",
       "few": "تبدأ خلال $n أيام",
-      "many": "تبدأ خلال $n يومًا",
-      "other": "تبدأ خلال $n يوم"
+      "many": "تبدأ خلال $n يومًا"
     },
     "start_new": "ابدأ رحلة جديدة",
+    "new_trip": "رحلة جديدة",
+    "day_of_total": "اليوم $day من $total",
     "sort_by": "الترتيب حسب",
     "sort_trip_date": "تاريخ الرحلة",
     "sort_last_updated": "آخر تحديث",
-    "sort_date_created": "تاريخ الإنشاء"
+    "sort_date_created": "تاريخ الإنشاء",
+    "all": "الكل",
+    "booked_of": "تم حجز ${booked} من ${total}"
   },
   "expedia": {
+    "attribution": "مدعوم من Expedia",
     "rooms": {
+      "title": "الغرف المتاحة",
+      "loadingPrices": "جارٍ تحميل الأسعار الحالية…",
+      "noneAvailable": "لا توجد غرف متاحة للتواريخ المحددة. جرّب تواريخ أخرى من صفحة الرحلة.",
+      "loadFailed": "تعذّر تحميل الأسعار الحالية الآن. حاول مرة أخرى.",
+      "retry": "حاول مرة أخرى",
+      "noAvailabilityTitle": "لم تتبقَّ غرف هنا",
+      "onTripBadge": "ضمن رحلتك",
+      "roomsLeft": "لم يتبقَّ سوى $count",
+      "perNight": "لليلة الواحدة",
+      "inclTaxesShort": "شامل الضرائب والرسوم",
+      "noMeals": "لا يشمل وجبات",
+      "payNow": "ادفع الآن",
+      "nonRefundable": "غير قابل للاسترداد",
+      "freeCancellationUntil": "إلغاء مجاني حتى $date",
+      "cancellationTitle": "سياسة الإلغاء",
       "bedRequestNote": "خيارات السرير هي طلبات فقط وقد لا يضمنها مكان الإقامة.",
+      "maxRoomsReached": "يمكنك حجز 8 غرف كحد أقصى",
+      "reserve": "احجز",
       "priceBreakdown": {
+        "taxesAndFees": "الضرائب والرسوم",
+        "total": "الإجمالي",
         "taxesNote": "الضرائب هي رسوم استعادة الضرائب المدفوعة لمزودي الخدمة (على سبيل المثال، الفنادق). لمزيد من التفاصيل، برجاء الاطّلاع على شروط الاستخدام الخاصة بنا. تُحصَّل رسوم الخدمة كتعويض عن إدارة حجزك، وقد تتضمّن رسومًا صادرة عن مزودي الخدمة.",
-        "feesAtPropertyNote": "هذه الرسوم تُدفع في مكان الإقامة عند تسجيل الوصول أو المغادرة، ويحددها مكان الإقامة، وهي غير مشمولة في الإجمالي أعلاه."
+        "feesAtProperty": "رسوم تُدفع في مكان الإقامة",
+        "feesAtPropertyNote": "هذه الرسوم تُدفع في مكان الإقامة عند تسجيل الوصول أو المغادرة، ويحددها مكان الإقامة، وهي غير مشمولة في الإجمالي أعلاه.",
+        "feeKind": {
+          "mandatoryFee": "رسوم إلزامية",
+          "resortFee": "رسوم المنتجع",
+          "mandatoryTax": "ضريبة إلزامية"
+        }
+      },
+      "chooseRooms": "اختيار الغرف"
+    },
+    "booking": {
+      "title": "أكمل حجزك",
+      "leadGuest": "النزيل الرئيسي",
+      "roomGuest": "نزيل الغرفة $n",
+      "roomGuestHint": "تُحجز كل غرفة باسم نزيلها الرئيسي. الغرفة 1 باسم النزيل الرئيسي ما لم تغيّر ذلك.",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "invalidEmail": "أدخل عنوان بريد إلكتروني صالحًا",
+      "invalidPhone": "أدخل رقم هاتف صالحًا",
+      "requiredField": "مطلوب",
+      "payAndBook": "ادفع $amount واحجز",
+      "processing": "جارٍ معالجة حجزك…",
+      "chargedWhen": "يُخصم المبلغ من بطاقتك الآن، ويُؤكَّد الحجز فورًا.",
+      "paymentsUnavailable": "الدفع غير متاح حاليًا. حاول مرة أخرى لاحقًا.",
+      "priceChangedTitle": "تغيّر السعر",
+      "priceChangedBody": "السعر الحالي أصبح $amount. راجعه وأكّد للمتابعة.",
+      "confirmNewPrice": "تأكيد السعر الجديد",
+      "soldOutTitle": "نفدت الغرف",
+      "soldOutBody": "نفدت هذه الغرف للتو لتواريخك. لم يُخصم منك أي مبلغ.",
+      "bookedTitle": "تم تأكيد الحجز!",
+      "bookedBody": "تم حجز غرفك. رسالة التأكيد في طريقها إلى بريدك.",
+      "confirmationNumber": "رقم التأكيد",
+      "notCharged": "لم يُخصم منك أي مبلغ، وتم إلغاء الحجز المؤقت على بطاقتك.",
+      "bookFailedTitle": "لم يكتمل الحجز",
+      "paymentFailedBody": "تعذّر إتمام الدفع ولم يُخصم منك أي مبلغ. حاول مرة أخرى.",
+      "fulfillDelayedTitle": "تم اعتماد الدفع، ولم يُؤكَّد الحجز بعد",
+      "fulfillDelayedBody": "تعذّر الوصول إلى خدمة الحجز بعد اعتماد الدفع. اضغط \"حاول مرة أخرى\" لإتمام حجزك، ولن يُخصم منك المبلغ مرتين أبدًا.",
+      "challengeTitle": "مطلوب تحقق إضافي",
+      "challengeBody": "يطلب بنكك تحققًا إضافيًا لم نتمكن من إتمامه. لم يُخصم منك أي مبلغ. تواصل مع الدعم على help@layla.ai.",
+      "tryAgain": "حاول مرة أخرى",
+      "resumeFound": "جارٍ إتمام حجزك المعلّق في $hotel…",
+      "bookings": "حجوزاتك",
+      "cancelBooking": "إلغاء الحجز",
+      "cancelConfirmTitle": "هل تريد إلغاء هذا الحجز؟",
+      "cancelConfirmBody": "يخضع استرداد المبلغ لسياسة الإلغاء الخاصة بالسعر.",
+      "cancelled": "تم إلغاء الحجز",
+      "stepTravellers": "النزلاء",
+      "stepReviewPay": "المراجعة والدفع",
+      "yourStay": "إقامتك",
+      "nights": {
+        "one": "ليلة واحدة",
+        "other": "$n ليالٍ",
+        "zero": "$n ليلة",
+        "two": "ليلتان",
+        "few": "$n ليالٍ",
+        "many": "$n ليلة"
+      },
+      "guests": {
+        "one": "نزيل واحد",
+        "other": "$n نزلاء",
+        "zero": "$n نزيل",
+        "two": "نزيلان",
+        "few": "$n نزلاء",
+        "many": "$n نزيلًا"
+      },
+      "roomsCount": {
+        "one": "غرفة واحدة",
+        "other": "$n غرف",
+        "zero": "$n غرفة",
+        "two": "غرفتان",
+        "few": "$n غرف",
+        "many": "$n غرفة"
+      },
+      "pay": "ادفع $amount",
+      "total": "الإجمالي",
+      "totalTaxesIncluded": "الإجمالي · شامل الضرائب",
+      "stay": "الإقامة",
+      "dates": "التواريخ",
+      "withdrawalNotice": "الإقامات الفندقية مستثناة من حق الرجوع خلال 14 يومًا، وتُطبَّق بدلًا من ذلك سياسة الإلغاء الخاصة بالسعر.",
+      "expediaTermsLine": "الحجز عبر Expedia. بالدفع أنت توافق على $terms.",
+      "expediaTerms": "شروط وأحكام Expedia",
+      "voucher": {
+        "eyebrow": "فندق · عبر $provider",
+        "confirmed": "مؤكَّد",
+        "cancelledBadge": "ملغى",
+        "checkIn": "تسجيل الوصول",
+        "checkOut": "تسجيل المغادرة",
+        "from": "من $time",
+        "by": "حتى $time",
+        "guests": "النزلاء",
+        "room": "الغرفة",
+        "reference": "مرجع $provider",
+        "copy": "نسخ",
+        "copied": "تم النسخ",
+        "addToCalendar": "أضف إلى التقويم",
+        "directions": "الاتجاهات",
+        "freeCancelUntil": "إلغاء مجاني حتى $date",
+        "nonRefundable": "غير قابل للاسترداد",
+        "laylaBooked": "تم الحجز. خُصم $amount. سأخبرك عندما يحين وقت تسجيل الوصول.",
+        "laylaBookedSummary": "تأكيد الحجز: $title، من $checkIn إلى $checkOut، $room، $amount عبر $provider، المرجع $reference.",
+        "chipCar": "تحتاج سيارة؟",
+        "chipDinner": "عشاء قرب الفندق",
+        "chipLateCheckout": "مغادرة متأخرة"
+      }
+    },
+    "details": {
+      "propertyInfo": "من المفيد معرفته",
+      "languagesSpoken": "اللغات المتحدَّث بها",
+      "fees": "الرسوم",
+      "mandatoryFees": "رسوم إلزامية",
+      "optionalExtras": "إضافات اختيارية",
+      "finePrint": "شروط مهمة",
+      "contact": "التواصل",
+      "nearestAirport": "أقرب مطار",
+      "guestRatings": "تقييمات النزلاء",
+      "minCheckinAge": "الحد الأدنى لسن تسجيل الوصول: $age",
+      "viewRoomDetails": "عرض تفاصيل الغرفة",
+      "roomDetails": "تفاصيل الغرفة",
+      "sleeps": "تتسع لـ $count",
+      "roomSize": "$size م²",
+      "aboutRoom": "عن هذه الغرفة",
+      "roomAmenities": "مرافق الغرفة",
+      "fax": "فاكس"
+    },
+    "scores": {
+      "cleanliness": "النظافة",
+      "service": "الخدمة",
+      "comfort": "الراحة",
+      "condition": "حالة المكان",
+      "location": "الموقع",
+      "neighborhood": "الحي",
+      "quality": "الجودة",
+      "value": "القيمة مقابل السعر",
+      "amenities": "المرافق"
+    },
+    "search": {
+      "refine": "تحسين البحث",
+      "where": "أين",
+      "when": "متى",
+      "who": "من",
+      "filters": "الفلاتر",
+      "updateResults": "تحديث النتائج",
+      "searchPromptHint": "صِف فندقك المثالي…",
+      "sortBestMatch": "الأنسب",
+      "sortCheapest": "السعر: من الأقل إلى الأعلى",
+      "sortMostExpensive": "السعر: من الأعلى إلى الأقل",
+      "sortGuestRating": "تقييم النزلاء",
+      "budgetPerNight": "الميزانية لليلة",
+      "starRating": "عدد النجوم",
+      "guestRating": "تقييم النزلاء",
+      "mealPlans": "الوجبات",
+      "popularFilters": "فلاتر شائعة",
+      "fromYourSearch": "من بحثك",
+      "noBudgetLimit": "بلا حد",
+      "childN": "الطفل $n",
+      "selectAge": "اختر العمر",
+      "ageN": "$age سنة",
+      "childAgesRequired": "أضف عمر كل طفل للمتابعة",
+      "mealBreakfastIncluded": "يشمل الفطور",
+      "mealAllInclusive": "شامل كليًا",
+      "popular": {
+        "freeBreakfast": "فطور مجاني",
+        "swimmingPool": "مسبح",
+        "freeWifi": "واي فاي مجاني",
+        "parking": "موقف سيارات",
+        "petsAllowed": "يسمح بالحيوانات الأليفة",
+        "allInclusive": "شامل كليًا",
+        "hotTub": "جاكوزي"
+      }
+    },
+    "reviews": {
+      "sortNote": "تُعرض التقييمات بلغتك أولًا، ثم الأحدث",
+      "policyLink": "كيف تعمل تقييمات النزلاء لدينا",
+      "seeAll": "عرض كل التقييمات",
+      "allTitle": "كل التقييمات ($count)",
+      "allTitleFallback": "كل التقييمات",
+      "otherLanguagesNote": "تُعرض التقييمات المكتوبة بلغتك. تستند النتيجة الإجمالية إلى جميع تقييمات النزلاء وعددها $total، بما فيها التقييمات بلغات أخرى.",
+      "reviewedOn": "تاريخ التقييم: $date",
+      "stayed": "الإقامة: $date",
+      "viaSource": "عبر $source"
+    }
+  },
+  "appUpdate": {
+    "mandatory": {
+      "title": "حان وقت تحديث سريع",
+      "body": "هذا الإصدار من Layla لم يعد مدعومًا. حدّث التطبيق لمواصلة التخطيط لرحلاتك.",
+      "cta": "تحديث Layla"
+    },
+    "recommended": {
+      "title": "إصدار جديد من Layla جاهز",
+      "body": "جعلنا الأمور أكثر سلاسة. حدّث التطبيق عندما يتوفر لديك وقت.",
+      "cta": "التحديث الآن",
+      "later": "ربما لاحقًا"
+    }
+  },
+  "consultation": {
+    "title": "تحدّث مع مستشار سفر",
+    "advisorRole": "مستشار السفر الخاص بك",
+    "steps": {
+      "details": "بياناتك",
+      "schedule": "الموعد",
+      "confirmed": "تم التأكيد"
+    },
+    "details": {
+      "heading": "كيف نتواصل معك؟",
+      "subheading": "يستخدمها مستشارك لتأكيد المكالمة.",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "phoneHint": "مع رمز الدولة، مثل ‎+966",
+      "method": "كيف تفضّل أن نتحدث؟",
+      "video": "مكالمة فيديو",
+      "phoneCall": "مكالمة هاتفية",
+      "privacy": "بياناتك تبقى بين Layla ومستشارك فقط.",
+      "nameRequired": "يرجى إدخال اسمك",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+      "emailRelay": "نحتاج إلى بريد إلكتروني فعّال لتأكيد مكالمتك.",
+      "emailRejected": "هذا البريد لا يستقبل الرسائل. يرجى استخدام بريد آخر.",
+      "phoneInvalid": "يرجى إدخال رقم هاتف صالح مع رمز الدولة",
+      "phoneRejected": "هذا الرقم لا يستقبل المكالمات أو الرسائل. يرجى استخدام رقم آخر.",
+      "continueLabel": "متابعة"
+    },
+    "schedule": {
+      "heading": "اختر موعدًا",
+      "subheading": "مكالمة مجانية لمدة 30 دقيقة، والمواعيد بتوقيتك المحلي.",
+      "noSlots": "لا توجد مواعيد متاحة في هذا اليوم",
+      "loadError": "تعذّر تحميل المواعيد المتاحة.",
+      "retry": "إعادة المحاولة",
+      "openBookingPage": "فتح صفحة الحجز",
+      "confirm": "تأكيد الحجز",
+      "booking": "جارٍ الحجز…",
+      "slotTaken": "تم حجز هذا الموعد للتو. اختر موعدًا آخر.",
+      "bookingError": "تعذّر حجز المكالمة. يرجى المحاولة مرة أخرى."
+    },
+    "confirmed": {
+      "heading": "كل شيء جاهز يا ${name}!",
+      "headingNoName": "كل شيء جاهز!",
+      "subheading": "دعوة التقويم بكل التفاصيل في طريقها إلى بريدك.",
+      "advisor": "المستشار",
+      "when": "الموعد",
+      "call": "المكالمة",
+      "callValue": "${medium} · ${minutes} دقيقة",
+      "reschedule": "تغيير الموعد",
+      "cancelCall": "إلغاء المكالمة",
+      "done": "تم",
+      "otherTrip": "مكالمتك في ${date} تغطي كل خططك. يمكن لمستشارك الحديث عن هذه الرحلة أيضًا.",
+      "status": {
+        "confirmed": "مؤكدة",
+        "rescheduled": "أُعيد جدولتها",
+        "cancelled": "ملغاة"
+      },
+      "videoLink": "رابط مكالمة الفيديو",
+      "joinCall": "انضم",
+      "cancelledNotice": "تم إلغاء هذه المكالمة. يمكنك حجز مكالمة جديدة في أي وقت.",
+      "bookAgain": "حجز مكالمة جديدة"
+    },
+    "booked": {
+      "pill": "تم حجز مكالمة · ${date}",
+      "profileLine": "مكالمتك: ${date}",
+      "view": "عرض الحجز",
+      "disc": "تم حجز المكالمة"
+    },
+    "advisorDisc": {
+      "book": "احجز مكالمة مع مستشار السفر",
+      "booked": "مكالمتك مع مستشار السفر"
+    }
+  },
+  "notifications": {
+    "callReminder": {
+      "threeHours": "مكالمتك مع مستشار السفر بعد 3 ساعات",
+      "oneHour": "مكالمتك مع مستشار السفر بعد ساعة",
+      "tenMinutes": "مكالمتك مع مستشار السفر بعد 10 دقائق",
+      "threeHoursNoName": "مكالمتك مع المستشار بعد 3 ساعات",
+      "oneHourNoName": "مكالمتك مع المستشار بعد ساعة",
+      "tenMinutesNoName": "مكالمتك مع المستشار بعد 10 دقائق",
+      "body": "${time} · ${medium}. اضغط لعرض التفاصيل."
+    },
+    "newMessage": {
+      "title": "Layla"
+    }
+  },
+  "settings_screen": {
+    "title": "الإعدادات",
+    "app": "التطبيق",
+    "preferences": "التفضيلات"
+  },
+  "support_screen": {
+    "title": "الدعم",
+    "advisor_subtitle": "متاح لك طوال سفرك.",
+    "whatsapp": "راسل مستشار سفرك عبر WhatsApp",
+    "help": "المساعدة",
+    "help_24_7": "مساعدة على مدار الساعة",
+    "help_value": "الأسئلة الشائعة",
+    "ask_layla": "اسأل Layla",
+    "contact": "تواصل مع Layla",
+    "contact_value": "hello@layla.ai",
+    "about": "حول",
+    "about_layla": "عن Layla",
+    "terms": "شروط الخدمة",
+    "privacy": "سياسة الخصوصية"
+  },
+  "chatWord": "الدردشة",
+  "bookingsWord": "الحجوزات",
+  "discoverWord": "اكتشف",
+  "creditWord": "الرصيد",
+  "flightBooking": {
+    "title": "احجز رحلتك",
+    "stepTravellers": "المسافرون",
+    "stepReviewPay": "المراجعة والدفع",
+    "matching": "نبحث عن هذه الرحلة لدى شركة الطيران…",
+    "matchingHint": "نتحقق من السعر الحالي. قد يستغرق ذلك دقيقة.",
+    "yourFlight": "رحلتك",
+    "passengers": "المسافرون",
+    "passengerN": "المسافر ${n}",
+    "adult": "بالغ",
+    "child": "طفل",
+    "infant": "رضيع",
+    "ready": "جاهز",
+    "signInRequired": "سجّل الدخول لحجز الرحلات.",
+    "asOnPassport": "الأسماء كما في جواز السفر",
+    "titleField": "اللقب",
+    "titleMr": "السيد",
+    "titleMs": "السيدة",
+    "titleMrs": "السيدة (متزوجة)",
+    "titleMiss": "الآنسة",
+    "titleDr": "د.",
+    "gender": "الجنس",
+    "male": "ذكر",
+    "female": "أنثى",
+    "dateOfBirth": "تاريخ الميلاد",
+    "dateHint": "YYYY-MM-DD",
+    "invalidDate": "أدخل التاريخ بصيغة YYYY-MM-DD",
+    "passportNumber": "رقم جواز السفر",
+    "passportCountry": "بلد الإصدار (حرفان)",
+    "passportExpiry": "تاريخ انتهاء الجواز",
+    "invalidName": "أحرف ومسافات وشرطات وفواصل عليا فقط",
+    "conditions": "الشروط",
+    "changes": "التعديل",
+    "refunds": "الاسترداد",
+    "allowed": "مسموح",
+    "notAllowed": "غير مسموح",
+    "withFee": "رسوم ${amount}",
+    "unknownCondition": "اسأل شركة الطيران",
+    "fareExpires": "السعر محجوز حتى ${time}",
+    "expiredTitle": "انتهت صلاحية هذا السعر",
+    "expiredBody": "حدّث لإعادة طلب السعر من شركة الطيران.",
+    "refresh": "تحديث",
+    "closestTitle": "هذا السعر بالضبط لم يعد متاحًا",
+    "closestBody": "لم تعد شركة الطيران تبيع هذا السعر بالضبط. اطلب من Layla أفضل بديل.",
+    "notBookableTitle": "لا يمكن حجز هذا السعر هنا",
+    "notBookableBody": "شركة الطيران لا تبيع هذا السعر عبر Layla. اطلب من Layla بديلًا.",
+    "bookingExists": "لديك حجز قيد التنفيذ لهذه الرحلة بالفعل.",
+    "orderFailedBody": "لم تتمكن شركة الطيران من تأكيد التذكرة. لم يُخصم أي مبلغ من بطاقتك.",
+    "chargedWhen": "لا يُخصم من بطاقتك إلا بعد أن تؤكد شركة الطيران التذكرة.",
+    "termsLine": "بالدفع توافق على شروط تعرفة شركة الطيران و${terms} الخاصة بـ Layla.",
+    "terms": "الشروط",
+    "askAlternative": "اطلب من Layla بديلًا",
+    "voucher": {
+      "eyebrow": "رحلة · ${carrier}",
+      "departs": "الإقلاع",
+      "arrives": "الوصول",
+      "terminals": "المحطات",
+      "passengers": "المسافرون",
+      "addToCalendar": "إضافة إلى التقويم",
+      "checkInOpens": "تسجيل الوصول · يفتح ${day}",
+      "changeOrCancel": "تعديل أو إلغاء",
+      "laylaBooked": "تم الحجز. ${amount} من بطاقتك. تصل بطاقات الصعود هنا قبل 24 ساعة.",
+      "laylaBookedSummary": "تأكيد حجز الرحلة: ${title}، الإقلاع ${departs}، الوصول ${arrives}، المسافرون ${passengers}، ${amount}، مرجع الحجز ${reference}.",
+      "chipHotel": "فندق في ${city}؟",
+      "chipTransfer": "توصيل من المطار",
+      "chipBag": "إضافة حقيبة",
+      "cabinBagEach": "حقيبة يد واحدة لكل شخص",
+      "checkedBagEach": "حقيبة مسجّلة لكل شخص"
+    }
+  },
+  "carBooking": {
+    "title": "احجز سيارتك",
+    "stepDriver": "السائق",
+    "stepReviewPay": "المراجعة والدفع",
+    "stepReview": "المراجعة والحجز",
+    "yourCar": "سيارتك",
+    "car": "السيارة",
+    "dates": "التواريخ",
+    "where": "أين",
+    "cover": "التغطية",
+    "totalTaxesIncluded": "الإجمالي شاملًا الضرائب والرسوم",
+    "paidAtDeskNote": "تُدفع عند المكتب، ليس الآن",
+    "mainDriver": "السائق الرئيسي",
+    "driverHint": "الاسم كما في رخصة القيادة",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "age": "عمر السائق",
+    "ageHint": "اختياري · بعض الأسعار لها حدود عمرية",
+    "flightTitle": "رحلة الوصول",
+    "flightHint": "اختياري · يحتفظ المكتب بالسيارة إذا تأخرت رحلتك",
+    "airline": "رمز شركة الطيران",
+    "flightNumber": "رقم الرحلة",
+    "invalidEmail": "أدخل بريدًا إلكترونيًا صحيحًا",
+    "invalidPhone": "أدخل رقم هاتف صحيحًا",
+    "invalidAge": "بين 16 و99",
+    "requiredField": "مطلوب",
+    "pay": "ادفع ${amount}",
+    "reserve": "احجز · ${amount} عند المكتب",
+    "processing": "جارٍ الحجز…",
+    "chargedWhen": "لا يُخصم من بطاقتك إلا بعد أن تؤكد شركة التأجير الحجز.",
+    "counterWhen": "لا يُخصم شيء الآن: تدفع لشركة التأجير عند المكتب.",
+    "withdrawalNotice": "تأجير السيارات مستثنى من حق الرجوع؛ تُطبّق شروط الإلغاء الخاصة بالشركة.",
+    "termsLine": "بالحجز أنت توافق على ${terms}.",
+    "terms": "شروط التأجير",
+    "priceChangedTitle": "تغيّر السعر",
+    "priceChangedBody": "تطلب شركة التأجير الآن ${amount}. أتحجز بالسعر الجديد؟",
+    "confirmNewPrice": "احجز بـ ${amount}",
+    "soldOutBody": "هذه السيارة لم تعد متاحة في هذه التواريخ. اطلب من Layla خيارات جديدة.",
+    "unsupportedBody": "لا يمكن حجز هذا السعر من التطبيق. اطلب من Layla سيارة أخرى.",
+    "bookFailedTitle": "لم يكتمل الحجز",
+    "paymentFailedBody": "لم يُخصم منك شيء. حاول مجددًا أو اختر سيارة أخرى.",
+    "fulfillDelayedTitle": "ما زلنا نؤكد",
+    "fulfillDelayedBody": "بطاقتك معتمدة، وشركة التأجير تحتاج لحظة للتأكيد. حاول مجددًا لإتمام الحجز.",
+    "pendingTitle": "التأكيد في الطريق",
+    "pendingBody": "ما زالت شركة التأجير تؤكد. ستصلك القسيمة بالبريد الإلكتروني وهنا في الدردشة.",
+    "challengeBody": "تحتاج شركة التأجير للتواصل معك قبل التأكيد. سيراسلك فريقنا بالبريد الإلكتروني؛ لم يُخصم شيء بعد.",
+    "bookedTitle": "تم الحجز",
+    "bookedBody": "أظهر القسيمة عند مكتب ${supplier}.",
+    "reservedBody": "تم الحجز. تدفع ${amount} عند مكتب ${supplier}.",
+    "tryAgain": "حاول مرة أخرى",
+    "paymentsUnavailable": "الدفع غير متاح في هذه النسخة.",
+    "backToChat": "العودة إلى الدردشة",
+    "voucher": {
+      "eyebrow": "سيارة · عبر ${provider}",
+      "subtitle": "${place} · ${days}",
+      "pickUp": "الاستلام",
+      "returnLabel": "الإرجاع",
+      "where": "أين",
+      "driver": "السائق",
+      "reference": "${supplier} ${reference}",
+      "deskDirections": "الطريق إلى المكتب",
+      "addToCalendar": "أضف إلى التقويم",
+      "cancelFreeUntil": "إلغاء مجاني حتى ${date}",
+      "payAtDesk": "تدفع ${amount} عند المكتب",
+      "laylaBooked": "تم الحجز. ${amount} على بطاقتك. أظهر القسيمة عند مكتب ${supplier}.",
+      "laylaReserved": "تم الحجز. لا يُخصم شيء الآن، تدفع ${amount} عند مكتب ${supplier}.",
+      "laylaBookedSummary": "تأكيد تأجير السيارة: ${car} من ${supplier}، الاستلام ${pickUp} في ${place}، الإرجاع ${dropOff}، ${amount} عبر ${provider}، المرجع ${reference}.",
+      "chipTransfer": "أضف توصيلة",
+      "chipEnough": "السيارة تكفي",
+      "chipDirections": "الطريق إلى المكتب"
+    }
+  },
+  "tripPage": {
+    "planReady": "الخطة جاهزة",
+    "heroLine": "${dates} · ${travellers}",
+    "heroLineBudget": "${dates} · ${travellers} · ميزانية أقل من ${budget}",
+    "dates": "التواريخ",
+    "travellers": {
+      "zero": "مسافرون",
+      "one": "مسافر",
+      "two": "مسافران",
+      "few": "مسافرون",
+      "many": "مسافرًا",
+      "other": "مسافرون"
+    },
+    "askLayla": "اسأل Layla",
+    "dayByDay": "يومًا بيوم",
+    "days": {
+      "one": "يوم ${n}",
+      "other": "${n} أيام",
+      "zero": "يوم ${n}",
+      "two": "${n} أيام",
+      "few": "${n} أيام",
+      "many": "${n} أيام"
+    },
+    "askToChange": "اطلب تعديلًا",
+    "dayLabel": "اليوم ${n} · ${date}",
+    "dayLabelNoDate": "اليوم ${n}",
+    "open": "فتح",
+    "change": "تغيير",
+    "free": "مجانًا",
+    "askAddToDay": "اطلب من Layla إضافة شيء إلى اليوم ${n}",
+    "addToDayPrefill": "أضف شيئًا إلى اليوم ${n}: ",
+    "addToDay": "إضافة إلى اليوم ${n}",
+    "pricesCheckedJustNow": "تم التحقق من الأسعار للتو",
+    "pricesCheckedMinutes": "تم التحقق من الأسعار قبل ${n} دقيقة",
+    "pricesCheckedHours": {
+      "one": "تم التحقق من الأسعار قبل ساعة",
+      "other": "تم التحقق من الأسعار قبل ${n} ساعات",
+      "zero": "تم التحقق من الأسعار قبل أقل من ساعة",
+      "two": "تم التحقق من الأسعار قبل ${n} ساعات",
+      "few": "تم التحقق من الأسعار قبل ${n} ساعات",
+      "many": "تم التحقق من الأسعار قبل ${n} ساعات"
+    },
+    "pricesCheckedDays": {
+      "one": "تم التحقق من الأسعار قبل يوم",
+      "other": "تم التحقق من الأسعار قبل ${n} أيام",
+      "zero": "تم التحقق من الأسعار اليوم",
+      "two": "تم التحقق من الأسعار قبل ${n} أيام",
+      "few": "تم التحقق من الأسعار قبل ${n} أيام",
+      "many": "تم التحقق من الأسعار قبل ${n} أيام"
+    },
+    "staysCompared": {
+      "one": "تمت مقارنة إقامة واحدة",
+      "other": "تمت مقارنة ${n} إقامات",
+      "zero": "لم تتم مقارنة أي إقامة",
+      "two": "تمت مقارنة ${n} إقامات",
+      "few": "تمت مقارنة ${n} إقامات",
+      "many": "تمت مقارنة ${n} إقامات"
+    },
+    "flightsPriced": {
+      "one": "تم تسعير رحلة واحدة",
+      "other": "تم تسعير ${n} رحلات",
+      "zero": "لم يتم تسعير أي رحلة",
+      "two": "تم تسعير ${n} رحلات",
+      "few": "تم تسعير ${n} رحلات",
+      "many": "تم تسعير ${n} رحلات"
+    },
+    "stay": "الإقامة",
+    "stayTitle": {
+      "one": "الإقامة",
+      "other": "الإقامات"
+    },
+    "flights": "الرحلات الجوية",
+    "car": "السيارة",
+    "activities": "الأنشطة",
+    "transfer": "التوصيل",
+    "transferTitle": {
+      "one": "التوصيل",
+      "other": "التوصيلات"
+    },
+    "transport": "المواصلات",
+    "transportLegs": {
+      "one": "مرحلة واحدة",
+      "other": "${n} مراحل"
+    },
+    "route": "المسار",
+    "seeMore": "عرض المزيد",
+    "carDays": {
+      "one": "${supplier} · يوم واحد",
+      "other": "${supplier} · ${n} أيام",
+      "zero": "${supplier} · أقل من يوم",
+      "two": "${supplier} · ${n} أيام",
+      "few": "${supplier} · ${n} أيام",
+      "many": "${supplier} · ${n} أيام"
+    },
+    "inYourCart": "في سلتك",
+    "leftOut": "غير مُدرج",
+    "totalItems": {
+      "one": "الإجمالي · عنصر واحد",
+      "other": "الإجمالي · ${n} عناصر",
+      "zero": "الإجمالي · لا عناصر",
+      "two": "الإجمالي · ${n} عناصر",
+      "few": "الإجمالي · ${n} عناصر",
+      "many": "الإجمالي · ${n} عناصر"
+    },
+    "cartNote": "لـ ${travellers}. أسعار مباشرة شاملة الضرائب. لا يُحجز شيء حتى تدفع. ألغِ تحديد ما تريد استبعاده من هذا الدفع.",
+    "inCart": "في السلة",
+    "add": "إضافة",
+    "booked": "محجوز",
+    "changeTransport": "تغيير المواصلات",
+    "removeFromCart": "إزالة من السلة",
+    "addToCart": "إضافة إلى السلة",
+    "removeFromTrip": "إزالة من الرحلة",
+    "readMore": "اقرأ المزيد",
+    "keepInTrip": "الإبقاء في الرحلة",
+    "chooseThisOne": "اختيار هذا الخيار",
+    "carSearch": {
+      "searchPrompt": "سيارة في ${city}",
+      "routePrompt": "سيارة من ${from} إلى ${to}"
+    },
+    "addTransportRoute": "إضافة مواصلات · ${from} ← ${to}",
+    "addCarIn": "إضافة سيارة · ${city}",
+    "addStayRow": "إضافة إقامة · ${city} · ${nights}",
+    "addStayCity": "إضافة إقامة · ${city}",
+    "checkout": "الدفع",
+    "itemsFor": {
+      "one": "عنصر واحد · لـ ${travellers}",
+      "other": "${n} عناصر · لـ ${travellers}",
+      "zero": "لا عناصر · لـ ${travellers}",
+      "two": "${n} عناصر · لـ ${travellers}",
+      "few": "${n} عناصر · لـ ${travellers}",
+      "many": "${n} عناصر · لـ ${travellers}"
+    },
+    "groupStay": "الإقامة · ${nights}",
+    "groupFlights": "الرحلات الجوية · ${n}",
+    "groupCar": "السيارة · ${days}",
+    "groupActivities": "الأنشطة · ${n}",
+    "groupTransfer": "التوصيل",
+    "hotelSheet": {
+      "title": "إقامتك",
+      "reviews": {
+        "one": "تقييم واحد",
+        "other": "${n} تقييمات",
+        "zero": "لا تقييمات",
+        "two": "${n} تقييمات",
+        "few": "${n} تقييمات",
+        "many": "${n} تقييمات"
+      },
+      "roomLine": "${nights} · ${perNight} لليلة",
+      "nightsGuests": "${nights} · ${guests}",
+      "guests": {
+        "one": "نزيل واحد",
+        "other": "${n} نزلاء",
+        "zero": "لا نزلاء",
+        "two": "${n} نزلاء",
+        "few": "${n} نزلاء",
+        "many": "${n} نزلاء"
+      },
+      "keepInTrip": "الإبقاء في الرحلة",
+      "changeHotel": "تغيير الفندق"
+    },
+    "transferSheet": {
+      "title": "التوصيل من المطار",
+      "people": "الأشخاص",
+      "peopleOf": "${n} من ${max}",
+      "duration": "المدة",
+      "provider": "مزوّد الخدمة",
+      "oneWayPeople": {
+        "one": "ذهاب فقط · شخص واحد",
+        "other": "ذهاب فقط · ${n} أشخاص",
+        "zero": "ذهاب فقط · لا أشخاص",
+        "two": "ذهاب فقط · ${n} أشخاص",
+        "few": "ذهاب فقط · ${n} أشخاص",
+        "many": "ذهاب فقط · ${n} أشخاص"
+      },
+      "change": "تغيير",
+      "keepInTrip": "الإبقاء في الرحلة"
+    },
+    "travelTip": "نصيحة سفر",
+    "dailyItinerary": "البرنامج اليومي",
+    "dayByDayPlan": "خطة يومًا بيوم في ${destination}",
+    "creatorTips": "نصائح صنّاع المحتوى",
+    "creatorVideos": "فيديوهات صنّاع المحتوى",
+    "yourAccommodation": "مكان إقامتك",
+    "guestReviews": "تقييمات النزلاء",
+    "pricingDetails": "تفاصيل السعر",
+    "pricePerNight": "السعر لليلة",
+    "map": "الخريطة",
+    "pricesExpired": "انتهت صلاحية الأسعار",
+    "refresh": "تحديث",
+    "fullScreen": "ملء الشاشة",
+    "perNight": "لليلة",
+    "totalPrice": "السعر الإجمالي",
+    "greatValue": "قيمة ممتازة",
+    "thingsToDo": "أنشطة وتجارب",
+    "activity": "نشاط",
+    "attraction": "معلم سياحي",
+    "sitesAroundTitle": "معالم حول ${city}",
+    "sitesAroundSubtitle": "اكتشف أماكن قريبة من وجهتك",
+    "seeAll": "عرض الكل",
+    "videoModalComingSoon": "معرض الفيديو الكامل قريبًا!",
+    "videosAvailable": "فيديوهات متاحة",
+    "close": "إغلاق",
+    "addHotel": "إضافة فندق",
+    "addTransportation": "إضافة مواصلات",
+    "retry": "إعادة المحاولة",
+    "mapUnavailable": "الخريطة غير متاحة",
+    "datesTbd": "التواريخ لم تُحدَّد بعد",
+    "perPerson": "للشخص",
+    "perDay": "لليوم",
+    "photos": "الصور",
+    "playVideo": "تشغيل الفيديو",
+    "dayLine": {
+      "stay": "الإقامة في ${hotel}",
+      "flyInto": "بالطائرة إلى ${city}",
+      "driveTo": "بالسيارة إلى ${city}",
+      "rideTo": "بالقطار إلى ${city}",
+      "sailTo": "بالعبّارة إلى ${city}",
+      "busTo": "بالحافلة إلى ${city}",
+      "transferTo": "توصيل إلى ${city}",
+      "getTo": "الوصول إلى ${city}",
+      "flyHome": "رحلة العودة",
+      "flyTo": "بالطائرة إلى ${city}"
+    },
+    "factDays": {
+      "zero": "أيام",
+      "one": "يوم",
+      "two": "يومان",
+      "few": "أيام",
+      "many": "يومًا",
+      "other": "أيام"
+    },
+    "factStops": {
+      "zero": "محطات",
+      "one": "محطة",
+      "two": "محطتان",
+      "few": "محطات",
+      "many": "محطة",
+      "other": "محطات"
+    },
+    "countriesCount": {
+      "zero": "لا دول",
+      "one": "دولة واحدة",
+      "two": "دولتان",
+      "few": "${n} دول",
+      "many": "${n} دولة",
+      "other": "${n} دولة"
+    },
+    "countriesAnd": "${a} و${b}",
+    "plannedWithLayla": "مخطَّط مع Layla",
+    "askToChangeAnything": "اطلب تغيير أي شيء",
+    "bookedOfItems": {
+      "zero": "لم يُحجز أي عنصر من ${m}",
+      "one": "عنصر واحد من ${m} محجوز",
+      "two": "عنصران من ${m} محجوزان",
+      "few": "${n} عناصر من ${m} محجوزة",
+      "many": "${n} عنصرًا من ${m} محجوزًا",
+      "other": "${n} عنصر من ${m} محجوز"
+    },
+    "itemsBooked": {
+      "zero": "لا عناصر محجوزة",
+      "one": "عنصر واحد محجوز",
+      "two": "عنصران محجوزان",
+      "few": "${n} عناصر محجوزة",
+      "many": "${n} عنصرًا محجوزًا",
+      "other": "${n} عنصر محجوز"
+    },
+    "allBooked": "تم حجز كل شيء",
+    "seeBooking": "عرض الحجز",
+    "paidAmount": "تم دفع ${amount}",
+    "vouchersInChat": "القسائم في الدردشة"
+  },
+  "activityBooking": {
+    "title": "احجز نشاطك",
+    "stepDetails": "التفاصيل",
+    "stepReviewPay": "المراجعة والدفع",
+    "yourActivity": "نشاطك",
+    "activity": "النشاط",
+    "when": "الموعد",
+    "travellers": "المشاركون",
+    "meetingPoint": "نقطة اللقاء",
+    "duration": "المدة",
+    "total": "الإجمالي",
+    "leadTraveller": "المسافر الرئيسي",
+    "supplierQuestions": "بعض التفاصيل لمنظّم النشاط",
+    "required": "مطلوب",
+    "quoteLoading": "نتحقق من السعر…",
+    "quoteFailed": "تعذّر علينا تسعير هذا الموعد. حاول مجددًا.",
+    "pay": "ادفع ${amount}",
+    "processing": "جارٍ المعالجة…",
+    "tryAgain": "حاول مرة أخرى",
+    "priceChangedTitle": "تغيّر السعر",
+    "priceChangedBody": "أصبح منظّم النشاط يطلب ${amount} لهذا الموعد. أكّد للمتابعة.",
+    "confirmNewPrice": "أكّد ${amount}",
+    "soldOutBody": "نفدت الأماكن في هذا الموعد للتو. اختر موعدًا آخر في المحادثة.",
+    "unbookableBody": "يطلب هذا النشاط تفاصيل لا يمكننا جمعها بعد. احجزه من موقع مزوّد الخدمة.",
+    "paymentsUnavailable": "الدفع غير متاح في هذه النسخة.",
+    "bookFailedTitle": "لم تكتمل العملية",
+    "paymentFailedBody": "لم يُخصم شيء من بطاقتك. حاول مجددًا أو استخدم بطاقة أخرى.",
+    "supplierRefusedBody": "لم يتمكن منظّم النشاط من تأكيد هذا الموعد. أُلغي الحجز المؤقت على بطاقتك.",
+    "fulfillDelayedTitle": "ما زلنا نؤكد",
+    "fulfillDelayedBody": "بطاقتك معتمدة، ومنظّم النشاط يؤكد الحجز الآن. حاول مجددًا بعد لحظات.",
+    "invalidAnswersBody": "يحتاج منظّم النشاط إلى تصحيح هذه التفاصيل.",
+    "invalidPhoneBody": "يحتاج منظّم النشاط إلى رقم جوال صحيح مع رمز الدولة.",
+    "chargedWhen": "يُخصم المبلغ من بطاقتك بعد أن يؤكد منظّم النشاط الحجز.",
+    "expediaTermsLine": "بالحجز أنت توافق على ${terms}.",
+    "expediaTerms": "شروط Expedia",
+    "voucher": {
+      "eyebrow": "نشاط · عبر ${provider}",
+      "tickets": {
+        "one": "تذكرة واحدة",
+        "other": "${n} تذاكر",
+        "zero": "${n} تذكرة",
+        "two": "تذكرتان",
+        "few": "${n} تذاكر",
+        "many": "${n} تذكرة"
+      },
+      "when": "الموعد",
+      "duration": "المدة",
+      "travellers": "المشاركون",
+      "meetingPoint": "نقطة اللقاء",
+      "anyTime": "في أي وقت",
+      "voucherPending": "القسيمة في الطريق",
+      "openVoucher": "افتح القسيمة",
+      "laylaBooked": "تم الحجز. خُصم ${amount}.${meet}",
+      "meetLine": " سيلتقيك المرشد الساعة ${time} عند ${place}.",
+      "laylaBookedSummary": "تأكيد الحجز: ${title} في ${when}، عدد الأشخاص ${n}، ${amount} عبر ${provider}، المرجع ${reference}.",
+      "chipMore": "المزيد لذلك اليوم",
+      "chipDinner": "عشاء قريب",
+      "chipLeave": "اتركي باقي اليوم بلا خطط"
+    }
+  },
+  "credit": {
+    "heading": "الرصيد",
+    "travel_credit": "رصيد السفر",
+    "nothing_yet": "لا شيء في الطريق بعد · ادعُ شخصًا لتبدأ",
+    "invite": "دعوة",
+    "your_circle": "دائرتك",
+    "use_credit": "استخدام الرصيد",
+    "postcard_title": "أهدِ شخصًا رحلة العمر",
+    "postcard_caption": "أرسل بطاقة بريدية: ${amount} له، و${amount} لك عندما يحجز.",
+    "postcard_cta": "إرسال بطاقة بريدية",
+    "circle_travelling": "${n} من ${total} يسافرون",
+    "add_friend": "إضافة شخص",
+    "pending_amount": "+${amount}",
+    "pending_rest(plural)": {
+      "one": "في الطريق · صديق واحد يخطط",
+      "other": "في الطريق · ${n} أصدقاء يخططون",
+      "zero": "في الطريق · لا أحد يخطط بعد",
+      "two": "في الطريق · صديقان يخططان",
+      "few": "في الطريق · ${n} أصدقاء يخططون",
+      "many": "في الطريق · ${n} صديقًا يخططون"
+    },
+    "earned_from": "مكتسب من ${n} أصدقاء سافروا",
+    "invite_hero": "أهدِ من تحب رحلة العمر.",
+    "invite_lead": "أنت تعرف من يحتاج إلى إجازة حقيقية. أرسل له بطاقة بريدية مع ${offer}. وعندما يحجز، تحصل أنت أيضًا على ${amount}.",
+    "invite_offer": "خصم ${amount} على رحلته الأولى",
+    "tile_them": "له",
+    "tile_you": "لك",
+    "how1_lead": "أرسل بطاقة بريدية.",
+    "how1": "اختر صورة، واكتب سطرًا، وأرسلها بالطريقة التي تراسل بها عادةً.",
+    "how2_lead": "صديقك يخطط مع Layla.",
+    "how2": "مستشار سفره يتولّى عنه الأجزاء المعقّدة.",
+    "how3_lead": "يحجز، ويحصل كلٌّ منكما على ${amount}.",
+    "how3": "بلا حدّ لعدد الأصدقاء.",
+    "copy_link": "نسخ الرابط",
+    "copied": "تم النسخ",
+    "circle_link(plural)": {
+      "one": "دائرتك · صديق واحد",
+      "other": "دائرتك · ${n} أصدقاء"
+    },
+    "invite_fine": "يصلك الرصيد عند حجز أول رحلة لصديقك. ينطبق على رحلات Layla مع مستشار سفر.",
+    "compose_heading": "بطاقتك البريدية",
+    "flip": "اقلب البطاقة",
+    "to": "إلى",
+    "contacts": "جهات الاتصال",
+    "name_hint": "اسم صديقك",
+    "greeting": "تحيات من ${place}",
+    "postmark_ring": "Layla ✦ Post · ${city} ·",
+    "postmark_ring_no_city": "Layla ✦ Post ·",
+    "to_line": "إلى: ${name}",
+    "chip_holiday": "إجازة حقيقية",
+    "chip_honeymoon": "شهر العسل",
+    "chip_turn": "دورك الآن",
+    "note_holiday": "دائمًا تقول إنك بحاجة إلى إجازة حقيقية. إليك ${amount} لتتوقف عن الكلام وتسافر.",
+    "note_honeymoon": "لشهر العسل الذي تؤجّلانه دائمًا. احجزاه. مع حبي، ${initial}.",
+    "note_honeymoon_unsigned": "لشهر العسل الذي تؤجّلانه دائمًا. احجزاه.",
+    "note_turn": "أتذكر رحلتنا؟ الآن دورك. Layla تولّت عنّا كل الأمور الصعبة.",
+    "write_own": "أكتب عبارتي",
+    "own_hint": "اكتب عبارتك",
+    "send_postcard": "إرسال البطاقة",
+    "sending": "جارٍ الإرسال…",
+    "send_failed": "لم يتم الإرسال. تحقق من اتصالك وحاول مرة أخرى.",
+    "share_title": "أرسلها بالطريقة التي تناسبك",
+    "share_preview": "بطاقة بريدية من ${name} ✦ ${amount} لرحلتك القادمة",
+    "share_preview_unsigned": "بطاقة بريدية لك ✦ ${amount} لرحلتك القادمة",
+    "messages": "الرسائل",
+    "whatsapp": "WhatsApp",
+    "mail": "البريد",
+    "share_message": "أرسلت لك بطاقة بريدية من ${place} ✦ خصم 100 € على رحلتك الأولى مع Layla. افتحها هنا: ${url}",
+    "share_subject": "بطاقة بريدية من ${place}",
+    "sent_heading": "بطاقتك",
+    "sent_pill": "في الطريق",
+    "sent_message": "سنخبرك فور أن يفتحها ${name}. وعندما يحجز، يصل ${amount} إلى حسابك.",
+    "see_circle": "عرض دائرتك",
+    "circle_title": "دائرتك",
+    "stat_earned": "مكتسب",
+    "stat_pending": "في الطريق",
+    "circle_rule": "كل صديق يحجز رحلة = ${amount} له و${amount} لك.",
+    "circle_empty": "لا أحد بعد. أرسل بطاقتك الأولى وسيظهر الشخص هنا.",
+    "friends_travelling": "أصدقاء يسافرون",
+    "status_booked": "تم الحجز",
+    "status_planning": "يخطط",
+    "stamp_booked": "تم الحجز",
+    "stamp_planning": "${place} قيد التخطيط",
+    "stamp_planning_no_place": "قيد التخطيط",
+    "stamp_claimed": "تم التفعيل",
+    "stamp_opened": "فُتحت",
+    "stamp_sent": "أُرسلت البطاقة",
+    "row_booked_added": "حجز ${place} · أُضيف ${amount}",
+    "row_booked_added_no_place": "تم الحجز · أُضيف ${amount}",
+    "row_planning_with": "يخطط لرحلة إلى ${place} مع Layla",
+    "row_planning_no_place": "يخطط مع Layla",
+    "row_claimed": "فعّل الـ 100 € · لا خطط بعد",
+    "row_opened_at": "فتح بطاقتك ${when}",
+    "row_sent_at": "أُرسلت البطاقة ${when}",
+    "just_now": "قبل لحظات",
+    "nudge": "ذكّره",
+    "send_another": "إرسال بطاقة أخرى",
+    "unavailable": "الرصيد غير متاح على ${host}. مسارات الرصيد لم تُنشر هناك بعد.",
+    "retry": "إعادة المحاولة",
+    "link_loading": "جارٍ تحميل رابطك…"
+  },
+  "discover": {
+    "for_you": "لك",
+    "creators": "صنّاع المحتوى",
+    "creators_eyebrow": "صنّاع محتوى Layla",
+    "templates_eyebrow": "ابدأ من رحلة أحبّها الناس",
+    "template_tag": "قالب · ${category}",
+    "open_on": "فتح ${name} على ${platform}؟",
+    "plan_with_layla": "خطّط هذه الرحلة مع Layla",
+    "stops": {
+      "one": "محطة واحدة",
+      "other": "${n} محطات"
+    },
+    "days": {
+      "one": "يوم واحد",
+      "other": "${n} أيام"
+    },
+    "template_days": "قالب · ${days}",
+    "template_meta": "قالب · ${days} · ${travellers}",
+    "day_label": "اليوم ${n}",
+    "from_price": "ابتداءً من ${price}",
+    "from_caption": "فنادق وتجارب، لـ${party} · التواريخ مرنة",
+    "start_from_trip": "ابدأ من هذه الرحلة",
+    "trip_unavailable": "هذه الرحلة غير متاحة حالياً.",
+    "filters": {
+      "beach": "شاطئ",
+      "cities": "مدن",
+      "northern_lights": "الشفق القطبي",
+      "road_trip": "رحلة بالسيارة",
+      "safari": "سفاري"
+    },
+    "filter_count": {
+      "zero": "لا رحلات · ${theme}",
+      "one": "رحلة واحدة · ${theme}",
+      "two": "رحلتان · ${theme}",
+      "few": "${n} رحلات · ${theme}",
+      "many": "${n} رحلة · ${theme}",
+      "other": "${n} رحلة · ${theme}"
+    },
+    "nothing_here": "لا يوجد شيء هنا بعد",
+    "layla_creator": "صانع محتوى Layla",
+    "plan_this_trip": "خطّط لهذه الرحلة",
+    "templates": {
+      "thailand": {
+        "title": "ساحل أندامان في تايلاند",
+        "category": "شواطئ",
+        "route": "بوكيت ← خاو لاك",
+        "intro": "في في بالقارب السريع، وغروب الشمس عند رأس برومثيب، ودرس طبخ في بوكيت، ثم تجديف في الغابة وشواطئ هادئة في خاو لاك."
+      },
+      "japan": {
+        "title": "مطابخ اليابان ومعابدها وينابيعها الحارة",
+        "category": "طعام وثقافة",
+        "route": "طوكيو → كيوتو → أوساكا → سابورو",
+        "intro": "سوشي مع طاهٍ من تسوكيجي، وتأمل زن مع راهب، ودرس طبخ في كانازاوا، وسوق نيشيكي والساكي في كيوتو، ثم الرامن في أوساكا والمأكولات البحرية في سابورو."
+      },
+      "iceland_road_trip": {
+        "title": "الساحل الجنوبي لآيسلندا بالسيارة",
+        "category": "رحلة برية",
+        "route": "ريكيافيك → فيك → سكافتافيل → ريكيافيك",
+        "intro": "بسيارة مستأجرة حول الدائرة الذهبية، والرمال السوداء في فيك، والبحيرة الجليدية قرب سكافتافيل، وكهوف هيلا القديمة، ثم العودة إلى ريكيافيك."
+      },
+      "east_africa": {
+        "title": "شرق أفريقيا في 24 يومًا، من كليمنجارو إلى زنجبار",
+        "category": "سفاري وشاطئ",
+        "route": "كليمنجارو → أمبوسيلي → سامبورو → ماساي مارا → نيروبي → زنجبار",
+        "intro": "أفيال أمبوسيلي تحت جبل كليمنجارو، وحيوانات سامبورو الخمسة المميزة، وطيور الفلامنجو في بحيرة ناكورو، وخمس ليالٍ من جولات السفاري في ماساي مارا، ثم أزقة ستون تاون ورمال زنجبار البيضاء."
+      },
+      "bali": {
+        "title": "بالي، من المعابد إلى الفيروز",
+        "category": "جزر",
+        "route": "أوبود ← جيلي تراوانغان ← نوسا دوا",
+        "intro": "مدرجات الأرز والمعابد حول أوبود، أيام هادئة في جيلي تراوانغان، ثم ختام على شاطئ نوسا دوا."
+      },
+      "iceland": {
+        "title": "آيسلندا تحت الشفق القطبي",
+        "category": "الشفق القطبي",
+        "route": "ريكيافيك ← الشفق القطبي ← سكاي لاغون",
+        "intro": "فندق بتصميم مميز في ريكيافيك، ليالٍ في مطاردة الشفق القطبي، وبيرلان، وجولة طعام، وحمام في سكاي لاغون."
+      },
+      "lapland": {
+        "title": "لابلاند تحت الثلج",
+        "category": "شتاء",
+        "route": "روفانيمي ← قرية سانتا كلوز ← البرية القطبية",
+        "intro": "قرية سانتا كلوز، ورحلة بالدراجة الثلجية للصيد على الجليد، وجولة لتصوير الشفق القطبي، وساونا فنلندية أصيلة."
+      },
+      "madeira": {
+        "title": "ماديرا بالسيارة",
+        "category": "رحلة برية",
+        "route": "فونشال ← بونتا دي ساو لورينسو ← بيكو دو أريرو",
+        "intro": "فندق خمس نجوم على الجرف في فونشال وسيارة للاستكشاف: شروق الشمس في بونتا دي ساو لورينسو، والحيتان في عرض البحر، وقمم بيكو دو أريرو."
+      },
+      "egypt": {
+        "title": "البحر الأحمر في الجونة",
+        "category": "شاطئ",
+        "route": "الغردقة ← الجونة",
+        "intro": "إطلالة على البحيرة في منتجع خمس نجوم، وغطس بالسنوركل في شعاب البحر الأحمر، وجولة في الجونة بالقارب والتوك توك، وأيام هادئة بجانب الماء."
+      },
+      "thailand_north_to_south": {
+        "title": "تايلاند من بانكوك إلى بوكيت",
+        "category": "مدن وطعام",
+        "route": "بانكوك → شيانغ ماي → بوكيت",
+        "intro": "قوارب في القنوات والمواي تاي وجولة طعام شارع في بانكوك، ومعابد ودرس طبخ في شيانغ ماي، ثم الفيلة والأسواق الليلية في بوكيت."
+      },
+      "thailand_temples_and_sea": {
+        "title": "تايلاند: معابد وجبال وبحر",
+        "category": "فاخرة",
+        "route": "بانكوك → شيانغ ماي → رايلي → كو لانتا",
+        "intro": "فندق ماندارين أورينتال في بانكوك، ومعابد شيانغ ماي القديمة ومحمية للفيلة، والتجديف والعوالق المضيئة في رايلي، ثم أيام هادئة في كو لانتا."
+      },
+      "puglia": {
+        "title": "بوليا، من الساحل إلى الريف",
+        "category": "الساحل والريف",
+        "route": "مونوبولي ← وادي إيتريا ← ليتشي ← تريكاسي",
+        "intro": "رحلة بحرية عند الغروب قبالة بولينيانو، وبيوت الترولي في ألبيروبيلو وزيت الزيتون في وادي إيتريا، ثم ليتشي الباروكية، وأخيرًا جولة بالكانو في الكهوف البحرية في سانتا ماريا دي لوكا."
+      },
+      "australia": {
+        "title": "أستراليا في 19 يومًا، من تسمانيا إلى الحاجز المرجاني",
+        "category": "جولة كبرى",
+        "route": "هوبارت → ملبورن → أولورو → سيدني → كيرنز → سنغافورة",
+        "intro": "تسمانيا البرية وأزقة ملبورن، شروق الشمس فوق أولورو، ميناء سيدني وكروم هنتر فالي، ثم غابات تامبورين والحاجز المرجاني العظيم، مع توقف في سنغافورة."
+      },
+      "japan_treasures": {
+        "title": "كنوز اليابان: أوساكا وميياجيما وكيوتو وطوكيو",
+        "category": "مدن وثقافة",
+        "route": "أوساكا → ميياجيما → كيوتو → طوكيو",
+        "intro": "طعام الشوارع وأضواء النيون في أوساكا، بوابة توري العائمة في ميياجيما، خمسة أيام هادئة بين معابد كيوتو وبيوت الشاي، ثم طوكيو من سينسو-جي إلى شيبويا."
       }
     }
+  },
+  "states": {
+    "expired": "منتهي الصلاحية",
+    "fresh": "محدّث",
+    "refreshPrice": "تحديث السعر",
+    "refreshExpiredToContinue": "حدّث الأسعار المنتهية للمتابعة",
+    "pricesExpiredShort": "انتهت صلاحية الأسعار · حدّثها",
+    "refreshPrices": "تحديث الأسعار",
+    "refreshFailed": "تعذّر تحديث الأسعار · حاول مرة أخرى",
+    "rerunSearch": {
+      "hotel": "أسعار الفنادق دي انتهت صلاحيتها، ممكن تبحثي من جديد؟",
+      "flight": "أسعار الرحلات دي انتهت صلاحيتها، ممكن تبحثي من جديد؟",
+      "car": "أسعار السيارات دي انتهت صلاحيتها، ممكن تبحثي من جديد؟",
+      "activity": "أسعار الأنشطة دي انتهت صلاحيتها، ممكن تبحثي من جديد؟"
+    },
+    "soldOut": "نفدت",
+    "seeAll": "عرض الكل",
+    "ratesExpiredTitle": "ربما تغيّرت الأسعار",
+    "ratesExpiredBody": "مرّ وقت منذ تحققنا من هذا السعر. حدّثه قبل الدفع.",
+    "checkingPrice": "جارٍ التحقق من السعر…",
+    "payFailed": {
+      "notCharged": "لم يُخصم أي مبلغ",
+      "declined": "رُفضت بطاقتك. جرّب بطاقة أخرى أو Apple Pay.",
+      "tryAnotherCard": "جرّب بطاقة أخرى",
+      "useApplePay": "استخدم Apple Pay"
+    },
+    "offline": {
+      "title": "أنت غير متصل.",
+      "body": "القسائم محفوظة على هذا الهاتف. تعود الدردشة والرسائل الجديدة مع عودة الاتصال.",
+      "saved": "محفوظ",
+      "status": "غير متصل"
+    },
+    "checkPriceAgain": "تحقق من السعر مجددًا"
+  },
+  "bookings": {
+    "detail": {
+      "checkInToday": "تسجيل الوصول اليوم",
+      "checkInIn": {
+        "one": "تسجيل الوصول غدًا",
+        "other": "تسجيل الوصول بعد $n أيام"
+      },
+      "startsToday": "يبدأ اليوم",
+      "startsIn": {
+        "one": "يبدأ غدًا",
+        "other": "يبدأ بعد $n أيام"
+      },
+      "via": "عبر $provider",
+      "kindHotel": "فندق",
+      "kindFlight": "رحلة طيران",
+      "kindCar": "سيارة مستأجرة",
+      "kindActivity": "نشاط",
+      "reference": "مرجع الحجز",
+      "bookingNo": "حجز رقم $ref",
+      "itinerary": "خط الرحلة",
+      "confirmation": "التأكيد",
+      "pnr": "PNR",
+      "bookedOn": "تم الحجز في $date · $payment",
+      "paidOnline": "مدفوع عبر الإنترنت",
+      "paidAtCounter": "الدفع عند المكتب",
+      "paidOnAccount": "على الحساب",
+      "confirmationPdf": "التأكيد بصيغة PDF",
+      "invoicePdf": "الفاتورة بصيغة PDF",
+      "ticket": "التذكرة",
+      "invoiceNeedsAddress": "نحتاج أولًا إلى عنوان فوترة للفاتورة. أضفه بالأسفل.",
+      "invoiceUnavailable": "تُرسَل فواتير هذا الحجز عبر البريد الإلكتروني عند الطلب.",
+      "rooms": "الغرف",
+      "flights": "الرحلات",
+      "car": "السيارة",
+      "activity": "النشاط",
+      "after": "بعد $time",
+      "until": "حتى $time",
+      "pickUp": "الاستلام",
+      "returnLabel": "الإرجاع",
+      "departs": "الإقلاع",
+      "arrives": "الوصول",
+      "when": "متى",
+      "duration": "المدة",
+      "meetingPoint": "نقطة اللقاء",
+      "nightsLocalTime": {
+        "one": "ليلة واحدة · كل الأوقات بالتوقيت المحلي للفندق",
+        "other": "$n ليالٍ · كل الأوقات بالتوقيت المحلي للفندق"
+      },
+      "daysCount": {
+        "one": "يوم واحد",
+        "other": "$n أيام"
+      },
+      "nightsCount": {
+        "one": "ليلة واحدة",
+        "other": "$n ليالٍ"
+      },
+      "ticketsCount": {
+        "one": "تذكرة واحدة",
+        "other": "$n تذاكر"
+      },
+      "passengersCount": {
+        "one": "مسافر واحد",
+        "other": "$n مسافرين"
+      },
+      "cancelRoom": "إلغاء الغرفة",
+      "changeDates": "تغيير التواريخ",
+      "changeTime": "تغيير الوقت",
+      "guestInfo": "بيانات النزيل",
+      "names": "الأسماء",
+      "contactInfo": "بيانات التواصل",
+      "passengers": "المسافرون",
+      "driver": "السائق",
+      "travellers": "المسافرون",
+      "leadTraveller": "المسافر الرئيسي",
+      "priceSummary": "ملخص السعر",
+      "taxesAndFees": "الضرائب والرسوم",
+      "total": "الإجمالي",
+      "paidWithCard": "مدفوع عبر الإنترنت · $card",
+      "chargedOn": "تم الخصم في $date · شامل الضرائب",
+      "chargedTaxesIncluded": "شامل الضرائب",
+      "payAtDeskNote": "تدفع عند المكتب عند استلام السيارة",
+      "billingAddress": "عنوان الفوترة",
+      "billingIntro": "أضف عنوان فوترة لتحصل على فاتورة. لا يمكن تغييره بعد إصدار الفاتورة.",
+      "setBillingAddress": "تحديد عنوان الفوترة",
+      "editBillingAddress": "تعديل عنوان الفوترة",
+      "planRest": "خطّط لبقية $city",
+      "planRestFallback": "خطّط حول هذا الحجز",
+      "planRestLine": "عشاء قريب، سيارة لعطلة نهاية الأسبوع، تغيير في الخطة — اطلب فقط.",
+      "askLayla": "اسأل Layla عن هذا الحجز",
+      "placeHotel": "الفندق",
+      "placeAirport": "المطار",
+      "placePickup": "نقطة الاستلام",
+      "placeMeeting": "نقطة اللقاء",
+      "directions": "الاتجاهات",
+      "callHotel": "اتصل بالفندق",
+      "callSupplier": "اتصل بـ $name",
+      "emailSupplier": "راسل $name",
+      "addToCalendar": "أضف إلى التقويم",
+      "support": "خدمة العملاء",
+      "supportTitle": "تحتاج مساعدة بخصوص هذا الحجز؟",
+      "supportLine": "تواصل مع الدعم · يُرفَق المرجع تلقائيًا",
+      "cancelAllRooms": "إلغاء كل الغرف",
+      "cancelBooking": "إلغاء الحجز",
+      "cancelFoot": "الأسعار القابلة للإلغاء مجانًا تُسترد بالكامل. غيرها قد تخضع لرسوم.",
+      "notCancellableFoot": "لا يمكن إلغاء هذا الحجز من التطبيق. تواصل مع الدعم وسنتولى الأمر.",
+      "loadFailed": "تعذّر تحميل هذا الحجز الآن.",
+      "retry": "حاول مجددًا",
+      "sharePdf": "التأكيد · $title"
+    },
+    "cancel": {
+      "titleRoom": "إلغاء هذه الغرفة؟",
+      "titleBooking": "إلغاء هذا الحجز؟",
+      "working": "جارٍ الإلغاء…",
+      "doneRoom": "تم إلغاء الغرفة",
+      "doneBooking": "تم إلغاء الحجز",
+      "refundFull": "سيُرد لك $amount.",
+      "refundPartial": "استرداد جزئي · سيُرد لك $amount.",
+      "refundNone": "هذا السعر غير قابل للاسترداد. لن يُرد لك شيء.",
+      "refundUnknown": "لا يمكننا تأكيد مبلغ الاسترداد الآن. إذا ألغيت، سيراجعه فريقنا ويراسلك.",
+      "body": "الأسعار القابلة للإلغاء مجانًا تُسترد؛ غيرها قد تخضع لرسوم. تؤكد $provider الإلغاء فورًا.",
+      "workingWith": "جارٍ الإلغاء لدى $provider…",
+      "yes": "نعم، إلغاء",
+      "keep": "الاحتفاظ بالحجز",
+      "resultIssued": "استرداد بقيمة $amount في طريقه إلى وسيلة الدفع الأصلية.",
+      "resultPending": "جارٍ معالجة الاسترداد وسيظهر قريبًا في وسيلة الدفع الأصلية.",
+      "resultNone": "كان هذا سعرًا غير قابل للاسترداد، لذا لم يُصدر أي استرداد.",
+      "resultReview": "يراجع فريقنا الاسترداد وسيراسلك.",
+      "doneFoot": "تنشر Layla الإلغاء في محادثتك وتحدّث الحجوزات. لا يتغير أي شيء آخر في رحلتك.",
+      "findAnotherHotel": "ابحث عن فندق آخر",
+      "findAnotherCar": "ابحث عن سيارة أخرى",
+      "findAnotherActivity": "ابحث عن نشاط آخر",
+      "backToBookings": "العودة إلى الحجوزات",
+      "notCancellable": "لم يعد بالإمكان إلغاء هذا الحجز من هنا.",
+      "failed": "لم يتم الإلغاء. لم يتغير شيء — حاول مجددًا أو تواصل مع الدعم.",
+      "laylaCancelled": "تم الإلغاء: $title. $refund",
+      "laylaRefund": "$amount في طريقه للعودة إلى بطاقتك.",
+      "laylaNoRefund": "لا يوجد استرداد."
+    },
+    "billing": {
+      "title": "عنوان الفوترة",
+      "intro": "يُستخدم في فاتورة PDF. بعد إصدار الفاتورة لا يمكن تغيير العنوان.",
+      "name": "الاسم على الفاتورة",
+      "company": "الشركة (اختياري)",
+      "companyHint": "اسم الشركة",
+      "line1": "العنوان، السطر 1",
+      "line2": "العنوان، السطر 2 (اختياري)",
+      "line2Hint": "الشقة، الطابق، عناية",
+      "city": "المدينة",
+      "postalCode": "الرمز البريدي",
+      "state": "المنطقة / المحافظة (اختياري)",
+      "country": "الدولة",
+      "countryHint": "حرفان، مثل AE",
+      "taxId": "الرقم الضريبي (اختياري)",
+      "taxIdHint": "ضريبة القيمة المضافة",
+      "countryNote": "يجب أن تطابق الدولة دولة فوترة بطاقتك.",
+      "save": "حفظ العنوان",
+      "required": "مطلوب",
+      "saveFailed": "تعذّر حفظ العنوان. تحقق من الحقول وحاول مجددًا.",
+      "locked": "تم إصدار فاتورة؛ لا يمكن تغيير العنوان."
+    },
+    "chat": {
+      "intro": "ماذا تريد أن تغيّر؟",
+      "introWithPolicy": "$policy. ماذا تريد أن تغيّر؟",
+      "chatName": "حجز · $title",
+      "bookingDetails": "تفاصيل الحجز",
+      "changeDates": "تغيير التواريخ",
+      "addNight": "إضافة ليلة",
+      "lateCheckout": "مغادرة متأخرة",
+      "changeTime": "تغيير الوقت",
+      "changeCar": "تغيير السيارة",
+      "addDriver": "إضافة سائق",
+      "changeFlight": "تغيير الرحلة",
+      "addBag": "إضافة حقيبة",
+      "directions": "الاتجاهات",
+      "cancel": "إلغاء",
+      "pendingBadge": "قيد الانتظار",
+      "refundPendingBadge": "الاسترداد قيد الانتظار",
+      "calendar": "التقويم"
+    },
+    "complexTrip": {
+      "badge": "رحلة مركّبة · $days أيام · $stops محطات",
+      "title": "هذه تستحق إنسانًا.",
+      "line": "$name، مستشارة سفر، يمكنها التخطيط والحجز معك مجانًا. ترى هذه المحادثة كاملة.",
+      "multiCity": "عدة مدن",
+      "groupOf": "مجموعة من $n",
+      "longTrip": "$n أيام",
+      "planWith": "خطّط مع $name",
+      "keepGoing": "تابع مع Layla"
+    },
+    "titles": {
+      "route": "من $from إلى $to",
+      "moreStops": "+$n"
+    },
+    "trip": {
+      "pageTitle": "حجز الرحلة",
+      "badgeInProgress": "جارٍ الحجز",
+      "badgePartial": "تم تأكيد $n من $total",
+      "badgeConfirmed": "مؤكد",
+      "badgeCancelled": "ملغي",
+      "noteInProgress": "نحجز كل عنصر مباشرة لدى مزوّده. تصلك القسائم في الدردشة وتحت الحجوزات فور تأكيدها.",
+      "notePartial": "تم تأكيد $n من $total. الباقي لدى المزوّدين، والقسائم تصل فور تأكيدها.",
+      "noteConfirmed": "كل شيء محجوز. القسائم والتذاكر الإلكترونية في الدردشة وتحت الحجوزات.",
+      "noteCancelled": "أُلغي هذا الحجز. أي استرداد يتبع شروط المزوّدين.",
+      "itemsCount": {
+        "zero": "لا عناصر",
+        "one": "عنصر واحد",
+        "two": "عنصران",
+        "few": "${n} عناصر",
+        "many": "${n} عنصرًا",
+        "other": "${n} عنصر"
+      },
+      "paidLine": "تم دفع $amount · $date",
+      "payment": "الدفع",
+      "paymentRef": "مرجع الدفع",
+      "sectionStays": "الإقامات",
+      "sectionFlights": "الرحلات الجوية",
+      "sectionCars": "سيارة مستأجرة",
+      "sectionTransfers": "التنقّلات",
+      "sectionActivities": "الأنشطة",
+      "sectionTransport": "التذاكر",
+      "itemInProgress": "جارٍ الحجز",
+      "itemConfirmed": "مؤكد",
+      "itemCancelled": "ملغي",
+      "confirmationReady": "التأكيد جاهز",
+      "askLayla": "اسأل Layla عن هذا الحجز",
+      "askLaylaLine": "تعديلات، أسئلة، إضافات: كل شيء في دردشة الرحلة.",
+      "openTrip": "افتح الرحلة",
+      "voucherEyebrow": "حجز الرحلة",
+      "voucherSubtitle": "مدفوع · جارٍ الحجز",
+      "voucherPaid": "المدفوع",
+      "voucherItems": "العناصر",
+      "voucherDates": "التواريخ",
+      "voucherTravellers": "المسافرون",
+      "laylaPaid": "تم الدفع. أحجز الآن $items لدى المزوّدين، وتصلك كل قسيمة هنا فور تأكيدها.",
+      "laylaPaidSummary": "تم استلام دفعة الرحلة: $title، $items، $amount. الحجوزات جارية لدى المزوّدين، والقسائم تصل عنصرًا بعنصر.",
+      "barAllBooked": "تم حجز كل شيء",
+      "barVouchersInChat": "القسائم في الدردشة",
+      "paidAmount": "تم دفع $amount"
+    }
+  },
+  "passport": {
+    "visas": "تأشيرات",
+    "page_of": "$page / $pages",
+    "book_left": "LAYLA",
+    "book_right": "جواز سفر",
+    "book_code": "P",
+    "surname": "اللقب",
+    "given_names": "الاسم",
+    "home": "المدينة",
+    "traveller_since": "مسافر منذ",
+    "next": "التالي",
+    "countries": "دولة",
+    "cities": "مدينة",
+    "nights_away": "ليلة خارج البيت",
+    "fill_title": "املأه بكل مكان زرته",
+    "connect_gmail": "ربط Gmail",
+    "connect_outlook": "ربط Outlook",
+    "connected": "متصل",
+    "connected_updated": "متصل · آخر تحديث $date",
+    "or_by_hand": "أو أضف الأماكن يدويًا",
+    "reading": "جارٍ قراءة حجوزاتك… $countries دولة · $cities مدينة · $nights ليلة خارج البيت",
+    "connecting": "جارٍ فتح Google…",
+    "connect_failed": "لم يتم ربط Gmail. حاول مرة أخرى أو أضف الأماكن يدويًا.",
+    "where_title": "أين كنت؟",
+    "place_hint": "مدينة أو مكان",
+    "earlier": "قبل ذلك",
+    "stamp_it": "اختمه",
+    "stamp_failed": "لم يتم حفظ المكان. حاول مرة أخرى.",
+    "share_mine": "مشاركة جوازي",
+    "ask_layla": "إلى أين بعد ذلك؟ اسأل Layla",
+    "ask_layla_prefill": "إلى أين أسافر بعد ذلك؟",
+    "share": {
+      "close": "إغلاق",
+      "instagram": "Instagram Stories",
+      "tiktok": "TikTok",
+      "whatsapp": "WhatsApp",
+      "save_image": "حفظ الصورة",
+      "counts": "$countries دولة. $cities مدينة.\n$nights ليلة خارج البيت.",
+      "get_link": "احصل على جواز Layla · $link",
+      "get_plain": "احصل على جواز Layla",
+      "shared": "تمت المشاركة",
+      "shared_note": "كل صديق يفتح رابطك يحصل على خصم 100 € على أول رحلة",
+      "link_copied": "تم نسخ الرابط · أضف ملصق رابط في Instagram",
+      "no_app": "$app غير مثبّت، سنشارك بالطريقة المعتادة."
+    }
+  },
+  "tripImport": {
+    "chatCommand": "اربط حساباتك",
+    "command": {
+      "notNow": "ليس الآن",
+      "tryAgain": "حاول مرة أخرى",
+      "useInstead": "استخدم ${provider} بدلًا من ذلك",
+      "connectedSeeFound": "تم ربط ${provider} · شاهد ما وجدته",
+      "connectProvider": "ربط ${provider}",
+      "readOnlyLine": "للقراءة فقط. لا يُرسل أي شيء من حسابك.",
+      "connect": "ربط",
+      "otherInstead": "${provider} بدلًا من ذلك",
+      "connectedTwo": "تم ربط ${a} و${b}",
+      "manage": "إدارة"
+    },
+    "picker": {
+      "titleLead": "اجمع عالم سفرك",
+      "titleHighlight": "في مكان واحد",
+      "body": "تجد Layla ما حجزته سابقًا، وتعرف متى تكون متفرغًا وتخطط وفقًا لذلك.",
+      "footer": "للقراءة فقط. لا يُرسل أي شيء من حساباتك. اقطع الاتصال في أي وقت من الحسابات المرتبطة.",
+      "bestStart": "أفضل بداية",
+      "connectedLastRead": "متصل · آخر قراءة ${when}",
+      "connectedPending": "متصل · التحديث الأول قيد الانتظار",
+      "expiredLine": "انتهت صلاحية الاتصال · أعد الربط لمواصلة التحديث",
+      "update": "تحديث الآن",
+      "reconnect": "إعادة الربط",
+      "connect": "ربط",
+      "rowConnected": "متصل",
+      "rowEmail": "رسائل الحجوزات",
+      "rowInstagram": "الحسابات الاحترافية فقط",
+      "rowExpired": "انتهت صلاحية الاتصال"
+    },
+    "provider": {
+      "googleSub": "يجد رحلات الطيران والفنادق السابقة، ويعرف متى تكون متفرغًا.",
+      "microsoftSub": "البريد والتقويم، إذا كنت تستخدم Microsoft.",
+      "instagramSub": "الحسابات الاحترافية فقط · أماكنك المحفوظة ومقاطع Reels، كمصدر إلهام."
+    },
+    "wait": {
+      "title": "جارٍ الإنهاء في ${provider}…",
+      "body": "فُتحت نافذة ${provider}. اختر الحساب الذي تحجز به رحلاتك واسمح بالوصول للقراءة فقط. عُد إلى هنا عند الانتهاء.",
+      "waiting": "في انتظار ${provider}",
+      "cancel": "إلغاء"
+    },
+    "card": {
+      "intro": "لحظة واحدة. أقرأ حجوزاتك، من الأقدم أولًا.",
+      "reading": "جارٍ قراءة ${provider}",
+      "keepChatting": "واصل المحادثة، وسأخبرك حين أنتهي.",
+      "keepBrowsing": "يمكنك متابعة التصفح. يستغرق هذا عادةً دقيقة أو دقيقتين.",
+      "connected": "متصل",
+      "stillGoing": "بريد وارد كبير. ما زلت أعمل."
+    },
+    "errorCard": {
+      "intro": "لم يسمح لي ${provider} بالدخول. إذا أغلقت النافذة فهذا كل ما في الأمر: لم يُقرأ أي شيء ولم يتغير شيء.",
+      "retryLine": "حاول مرة أخرى، أو استخدم ${other} بدلًا من ذلك.",
+      "retryLineSingle": "حاول مرة أخرى متى شئت."
+    },
+    "done": {
+      "title": "تم ربط ${provider}",
+      "found": "وجدت ${trips} في ${provider} الخاص بك. ملفك السفري جاهز.",
+      "noneNew": "لا توجد رسائل حجوزات في هذا البريد بعد. سأتحقق أسبوعيًا، وستظهر الرحلات الجديدة من تلقاء نفسها.",
+      "updated": "أصبحت أعرف أسلوبك في السفر الآن.",
+      "close": "إغلاق"
+    },
+    "phases": {
+      "connect": {
+        "active": "جارٍ فتح الباب إلى ${provider}",
+        "done": "تم الاتصال بـ ${provider}"
+      },
+      "emails": {
+        "active": "جارٍ البحث عن تأكيدات الحجز",
+        "tally": {
+          "zero": "${n} رسائل",
+          "one": "رسالة واحدة",
+          "two": "رسالتان",
+          "few": "${n} رسائل",
+          "many": "${n} رسالة",
+          "other": "${n} رسالة"
+        },
+        "done": {
+          "zero": "لم يُعثر على أي حجز",
+          "one": "تم العثور على حجز واحد",
+          "two": "تم العثور على حجزين",
+          "few": "تم العثور على ${n} حجوزات",
+          "many": "تم العثور على ${n} حجزًا",
+          "other": "تم العثور على ${n} حجز"
+        }
+      },
+      "calendar": {
+        "active": "جارٍ البحث عن رحلات في تقويمك",
+        "done": {
+          "zero": "لم يُعثر على أي رحلة في التقويم",
+          "one": "تم العثور على رحلة واحدة في التقويم",
+          "two": "تم العثور على رحلتين في التقويم",
+          "few": "تم العثور على ${n} رحلات في التقويم",
+          "many": "تم العثور على ${n} رحلة في التقويم",
+          "other": "تم العثور على ${n} رحلة في التقويم"
+        }
+      },
+      "trips": {
+        "active": "جارٍ تجميع الحجوزات في رحلات",
+        "done": {
+          "zero": "${n} رحلات",
+          "one": "رحلة واحدة",
+          "two": "رحلتان",
+          "few": "${n} رحلات",
+          "many": "${n} رحلة",
+          "other": "${n} رحلة"
+        },
+        "doneWithCountries": "${trips}، ${countries}",
+        "countries": {
+          "zero": "${n} دول",
+          "one": "دولة واحدة",
+          "two": "دولتان",
+          "few": "${n} دول",
+          "many": "${n} دولة",
+          "other": "${n} دولة"
+        }
+      },
+      "posts": {
+        "active": "جارٍ تصفّح الأماكن التي شاركتها",
+        "done": {
+          "zero": "لم يُتصفَّح أي منشور",
+          "one": "تم تصفّح منشور واحد",
+          "two": "تم تصفّح منشورين",
+          "few": "تم تصفّح ${n} منشورات",
+          "many": "تم تصفّح ${n} منشورًا",
+          "other": "تم تصفّح ${n} منشور"
+        }
+      },
+      "profile": {
+        "active": "جارٍ اكتشاف ما تحبه",
+        "done": "فهمنا أسلوبك"
+      },
+      "map": {
+        "active": "جارٍ تثبيت رحلاتك على الخريطة",
+        "done": {
+          "zero": "لا أماكن على خريطتك",
+          "one": "مكان واحد على خريطتك",
+          "two": "مكانان على خريطتك",
+          "few": "${n} أماكن على خريطتك",
+          "many": "${n} مكانًا على خريطتك",
+          "other": "${n} مكان على خريطتك"
+        }
+      },
+      "save": {
+        "active": "جارٍ حفظ ذلك بأمان في حسابك",
+        "done": "تم الحفظ"
+      },
+      "personalise": {
+        "active": "جارٍ ضبط Layla لتناسبك",
+        "done": "Layla تعرفك الآن"
+      }
+    },
+    "error": {
+      "cancelled": "أُلغي تسجيل الدخول. لم يُستورد أي شيء.",
+      "unexpectedState": "حدث خطأ أثناء تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+      "tokenExchangeFailed": "تعذّر علينا إكمال تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+      "mailFetchFailed": "تعذّر علينا قراءة بريدك الوارد. يُرجى المحاولة مرة أخرى بعد قليل.",
+      "instagramBusinessOnly": "يسمح Instagram بذلك لحسابات الأعمال أو صنّاع المحتوى فقط.",
+      "unknown": "حدث خطأ ما. لم يُستورد أي شيء."
+    },
+    "disconnect": {
+      "title": "قطع الاتصال بـ ${provider}؟",
+      "body": "تحتفظ Layla بالرحلات التي حفظتها بالفعل، لكنها تتوقف عن قراءة الحجوزات الجديدة. يمكنك إعادة الربط في أي وقت.",
+      "bodySocial": "ستتوقف Layla عن قراءة منشوراتك على ${provider} ولن تتمكن بعد الآن من النشر هناك نيابةً عنك. يبقى ملف السفر الخاص بك والمنشورات التي شاركتها بالفعل. يمكنك إعادة الربط في أي وقت.",
+      "forget": "انسَ الرحلات المستوردة أيضًا",
+      "forgetSocial": "انسَ أيضًا ما تعلّمته Layla من منشوراتك",
+      "keep": "إبقاء الاتصال",
+      "confirm": "قطع الاتصال"
+    },
+    "status": {
+      "disconnecting": "جارٍ قطع الاتصال…",
+      "removing": "جارٍ إزالة البيانات المستوردة…",
+      "updating": "جارٍ قراءة حجوزاتك…"
+    },
+    "toast": {
+      "disconnected": "تم قطع الاتصال بـ ${provider}",
+      "removed": "تمت إزالة الرحلات المستوردة",
+      "disconnectFailed": "تعذّر قطع الاتصال بـ ${provider}",
+      "removeFailed": "تعذّرت إزالة البيانات المستوردة",
+      "retry": "إعادة المحاولة"
+    }
+  },
+  "photoCredits": {
+    "title": "حقوق الصور",
+    "today": "إطلالة اليوم",
+    "all": "كل الخلفيات",
+    "credit": "صورة بعدسة ${photographer} على Unsplash"
   },
   "geoBlocked": {
     "title": "‏Layla غير متوفّر في منطقتك",
