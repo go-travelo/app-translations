@@ -3658,16 +3658,11 @@
     },
     "earned_from": "Earned from ${n} friends who travelled",
     "invite_hero": "Send someone you love on the trip of their life.",
-    "invite_lead": "You know who needs a proper holiday. Send them a postcard with ${offer}. When they book, you get ${amount} too.",
-    "invite_offer": "${amount} off their first trip",
     "tile_them": "for them",
     "tile_you": "for you",
     "how1_lead": "Send a postcard.",
-    "how1": "Pick a photo, write a line, send it however you text.",
     "how2_lead": "They plan with Layla.",
-    "how2": "Their travel advisor handles the complex bits.",
     "how3_lead": "They book, you both get ${amount}.",
-    "how3": "No limit on how many friends.",
     "copy_link": "Copy link",
     "copied": "Copied",
     "circle_link(plural)": {
@@ -3679,6 +3674,7 @@
     "flip": "Flip the postcard",
     "to": "To",
     "contacts": "Contacts",
+    "type_name": "Type a name",
     "name_hint": "Your friend's name",
     "greeting": "Greetings from ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
@@ -3734,7 +3730,12 @@
     "send_another": "Send another postcard",
     "unavailable": "Credit isn't reachable on ${host}. The credit routes aren't deployed there yet.",
     "retry": "Retry",
-    "link_loading": "Getting your link…"
+    "link_loading": "Getting your link…",
+    "scene_search_title": "Find a scene",
+    "scene_search_hint": "Search a city or place",
+    "scene_search_empty": "Type a place, then pick the photo for the front.",
+    "scene_search_none": "No photos for “${query}”. Try a nearby city.",
+    "scene_photo": "${place}, photo ${index}"
   },
   "discover": {
     "for_you": "For you",

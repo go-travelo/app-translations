@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Gagné grâce à ${n} amis partis en voyage",
     "invite_hero": "Offre à quelqu'un que tu aimes le voyage de sa vie.",
-    "invite_lead": "Tu sais qui a besoin de vraies vacances. Envoie-lui une carte postale avec ${offer}. Quand la personne réserve, tu reçois aussi ${amount}.",
-    "invite_offer": "${amount} offerts sur son premier voyage",
     "tile_them": "pour elle",
     "tile_you": "pour toi",
     "how1_lead": "Envoie une carte postale.",
-    "how1": "Choisis une photo, écris un petit mot et envoie-la par ta messagerie habituelle.",
     "how2_lead": "Le voyage se prépare avec Layla.",
-    "how2": "Un conseiller voyage s'occupe du plus compliqué.",
     "how3_lead": "Dès la réservation, vous recevez chacun ${amount}.",
-    "how3": "Autant d'amis que tu veux.",
     "copy_link": "Copier le lien",
     "copied": "Copié",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Retourner la carte postale",
     "to": "Pour",
     "contacts": "Contacts",
+    "type_name": "Écrire un prénom",
     "name_hint": "Le prénom de la personne",
     "greeting": "Salutations de ${place}",
     "postmark_ring": "Layla ✦ Poste · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Envoyer une autre carte postale",
     "unavailable": "Le crédit n'est pas joignable sur ${host}. Les routes crédit n'y sont pas encore déployées.",
     "retry": "Réessayer",
-    "link_loading": "Récupération de ton lien…"
+    "link_loading": "Récupération de ton lien…",
+    "scene_search_title": "Trouver une vue",
+    "scene_search_hint": "Cherche une ville ou un lieu",
+    "scene_search_empty": "Tape un lieu, puis choisis la photo du recto.",
+    "scene_search_none": "Aucune photo pour « ${query} ». Essaie une ville proche.",
+    "scene_photo": "${place}, photo ${index}"
   },
   "discover": {
     "for_you": "Pour toi",
