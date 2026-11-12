@@ -1398,6 +1398,7 @@
     "notifications": "Notifications",
     "notifications_on": "Activées",
     "notifications_off": "Désactivées",
+    "haptics": "Retour haptique",
     "log_out_title": "Se déconnecter ?",
     "log_out_message": "Tu pourras te reconnecter quand tu veux. Tes voyages restent enregistrés sur ton compte.",
     "delete_account": "Supprimer le compte",

@@ -1398,6 +1398,7 @@
     "notifications": "Meldingen",
     "notifications_on": "Aan",
     "notifications_off": "Uit",
+    "haptics": "Haptische feedback",
     "log_out_title": "Uitloggen?",
     "log_out_message": "Je kunt altijd weer inloggen. Je reizen blijven bewaard in je account.",
     "delete_account": "Account verwijderen",

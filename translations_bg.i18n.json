@@ -1398,6 +1398,7 @@
     "notifications": "Известия",
     "notifications_on": "Вкл.",
     "notifications_off": "Изкл.",
+    "haptics": "Тактилна обратна връзка",
     "log_out_title": "Излизане?",
     "log_out_message": "Можеш да влезеш отново по всяко време. Пътуванията ти остават запазени в акаунта.",
     "delete_account": "Изтрий акаунта",

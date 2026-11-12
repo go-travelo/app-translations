@@ -1398,6 +1398,7 @@
     "notifications": "Notificaciones",
     "notifications_on": "Activadas",
     "notifications_off": "Desactivadas",
+    "haptics": "Respuesta háptica",
     "log_out_title": "¿Cerrar sesión?",
     "log_out_message": "Puedes volver a entrar cuando quieras. Tus viajes se quedan guardados en tu cuenta.",
     "delete_account": "Eliminar cuenta",

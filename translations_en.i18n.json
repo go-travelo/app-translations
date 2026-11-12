@@ -1399,6 +1399,7 @@
     "notifications": "Notifications",
     "notifications_on": "On",
     "notifications_off": "Off",
+    "haptics": "Haptics",
     "log_out_title": "Log out?",
     "log_out_message": "You can sign back in any time. Your trips stay saved to your account.",
     "delete_account": "Delete account",

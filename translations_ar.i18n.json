@@ -1493,6 +1493,7 @@
     "notifications": "الإشعارات",
     "notifications_on": "مفعّلة",
     "notifications_off": "موقوفة",
+    "haptics": "الحس اللمسي",
     "log_out_title": "تسجيل الخروج؟",
     "log_out_message": "تقدر تسجل الدخول متى ما شئت. رحلاتك تبقى محفوظة في حسابك.",
     "delete_account": "حذف الحساب",

@@ -1446,6 +1446,7 @@
     "notifications": "התראות",
     "notifications_on": "פועל",
     "notifications_off": "כבוי",
+    "haptics": "משוב מישוש",
     "log_out_title": "להתנתק?",
     "log_out_message": "אפשר להתחבר שוב בכל רגע. הטיולים שלך נשארים שמורים בחשבון.",
     "delete_account": "מחיקת חשבון",
