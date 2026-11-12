@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Ganado gracias a ${n} amigos que viajaron",
     "invite_hero": "Regálale a alguien que quieres el viaje de su vida.",
-    "invite_lead": "Ya sabes quién necesita unas vacaciones de verdad. Envíale una postal con ${offer}. Cuando reserve, tú también recibes ${amount}.",
-    "invite_offer": "${amount} de descuento en su primer viaje",
     "tile_them": "para esa persona",
     "tile_you": "para ti",
     "how1_lead": "Envía una postal.",
-    "how1": "Elige una foto, escribe una frase y envíala por tu app de mensajes de siempre.",
     "how2_lead": "Esa persona planea con Layla.",
-    "how2": "Su asesor de viajes se encarga de lo complicado.",
     "how3_lead": "Cuando reserve, los dos recibís ${amount}.",
-    "how3": "Sin límite de amigos.",
     "copy_link": "Copiar enlace",
     "copied": "Copiado",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Dar la vuelta a la postal",
     "to": "Para",
     "contacts": "Contactos",
+    "type_name": "Escribir un nombre",
     "name_hint": "Nombre de esa persona",
     "greeting": "Saludos desde ${place}",
     "postmark_ring": "Layla ✦ Correo · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Enviar otra postal",
     "unavailable": "El crédito no está disponible en ${host}. Las rutas de crédito aún no están desplegadas ahí.",
     "retry": "Reintentar",
-    "link_loading": "Cargando tu enlace…"
+    "link_loading": "Cargando tu enlace…",
+    "scene_search_title": "Busca una imagen",
+    "scene_search_hint": "Busca una ciudad o un lugar",
+    "scene_search_empty": "Escribe un lugar y elige la foto para la postal.",
+    "scene_search_none": "No hay fotos de «${query}». Prueba con una ciudad cercana.",
+    "scene_photo": "${place}, foto ${index}"
   },
   "discover": {
     "for_you": "Para ti",

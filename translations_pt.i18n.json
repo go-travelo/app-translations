@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Ganho graças a ${n} amigos que viajaram",
     "invite_hero": "Presenteie alguém que você ama com a viagem da vida.",
-    "invite_lead": "Você sabe quem está precisando de férias de verdade. Mande um cartão-postal com ${offer}. Quando a pessoa reservar, você também ganha ${amount}.",
-    "invite_offer": "${amount} de desconto na primeira viagem",
     "tile_them": "para essa pessoa",
     "tile_you": "para você",
     "how1_lead": "Envie um cartão-postal.",
-    "how1": "Escolha uma foto, escreva uma frase e mande pelo app de mensagens que você já usa.",
     "how2_lead": "Essa pessoa planeja com a Layla.",
-    "how2": "O consultor de viagem cuida da parte complicada.",
     "how3_lead": "Quando a pessoa reservar, vocês dois ganham ${amount}.",
-    "how3": "Sem limite de amigos.",
     "copy_link": "Copiar link",
     "copied": "Copiado",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Virar o cartão-postal",
     "to": "Para",
     "contacts": "Contatos",
+    "type_name": "Escrever um nome",
     "name_hint": "Nome dessa pessoa",
     "greeting": "Saudações de ${place}",
     "postmark_ring": "Layla ✦ Correio · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Enviar outro cartão-postal",
     "unavailable": "O crédito não está acessível em ${host}. As rotas de crédito ainda não foram publicadas aí.",
     "retry": "Tentar outra vez",
-    "link_loading": "Obtendo seu link…"
+    "link_loading": "Obtendo seu link…",
+    "scene_search_title": "Encontre uma imagem",
+    "scene_search_hint": "Busque uma cidade ou lugar",
+    "scene_search_empty": "Digite um lugar e escolha a foto da frente do cartão.",
+    "scene_search_none": "Nenhuma foto para “${query}”. Tente uma cidade próxima.",
+    "scene_photo": "${place}, foto ${index}"
   },
   "discover": {
     "for_you": "Para você",

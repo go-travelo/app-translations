@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Guadagnati grazie a ${n} amici partiti",
     "invite_hero": "Regala a una persona cara il viaggio della sua vita.",
-    "invite_lead": "Lo sai chi ha bisogno di una vera vacanza. Manda una cartolina con ${offer}. Quando prenota, anche tu ricevi ${amount}.",
-    "invite_offer": "${amount} di sconto sul primo viaggio",
     "tile_them": "per chi la riceve",
     "tile_you": "per te",
     "how1_lead": "Manda una cartolina.",
-    "how1": "Scegli una foto, scrivi una frase e mandala con l'app che usi di solito.",
     "how2_lead": "Chi la riceve pianifica con Layla.",
-    "how2": "Il suo consulente di viaggio pensa alle parti complicate.",
     "how3_lead": "Quando prenota, ricevete ${amount} a testa.",
-    "how3": "Nessun limite di amici.",
     "copy_link": "Copia link",
     "copied": "Copiato",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Gira la cartolina",
     "to": "A",
     "contacts": "Contatti",
+    "type_name": "Scrivi un nome",
     "name_hint": "Il nome di chi la riceve",
     "greeting": "Saluti da ${place}",
     "postmark_ring": "Layla ✦ Posta · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Manda un'altra cartolina",
     "unavailable": "Il credito non è raggiungibile su ${host}. Le route del credito non sono ancora pubblicate lì.",
     "retry": "Riprova",
-    "link_loading": "Recupero il tuo link…"
+    "link_loading": "Recupero il tuo link…",
+    "scene_search_title": "Trova una veduta",
+    "scene_search_hint": "Cerca una città o un luogo",
+    "scene_search_empty": "Scrivi un luogo, poi scegli la foto per la cartolina.",
+    "scene_search_none": "Nessuna foto per «${query}». Prova con una città vicina.",
+    "scene_photo": "${place}, foto ${index}"
   },
   "discover": {
     "for_you": "Per te",

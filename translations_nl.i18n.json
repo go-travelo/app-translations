@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Verdiend dankzij ${n} vrienden die op reis gingen",
     "invite_hero": "Gun iemand van wie je houdt de reis van z'n leven.",
-    "invite_lead": "Je weet wel wie er echt even tussenuit moet. Stuur diegene een ansichtkaart met ${offer}. Boekt die, dan krijg jij ook ${amount}.",
-    "invite_offer": "${amount} korting op de eerste reis",
     "tile_them": "voor hen",
     "tile_you": "voor jou",
     "how1_lead": "Stuur een ansichtkaart.",
-    "how1": "Kies een foto, schrijf een regeltje en stuur 'm via je favoriete app.",
     "how2_lead": "Ze plannen met Layla.",
-    "how2": "Een reisadviseur regelt de lastige dingen.",
     "how3_lead": "Boeken ze, dan krijgen jullie allebei ${amount}.",
-    "how3": "Zoveel vrienden als je wilt.",
     "copy_link": "Link kopiëren",
     "copied": "Gekopieerd",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Ansichtkaart omdraaien",
     "to": "Aan",
     "contacts": "Contacten",
+    "type_name": "Naam typen",
     "name_hint": "Naam van je vriend(in)",
     "greeting": "Groeten uit ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Nog een ansichtkaart sturen",
     "unavailable": "Tegoed is niet bereikbaar op ${host}. De tegoed-routes zijn daar nog niet uitgerold.",
     "retry": "Opnieuw proberen",
-    "link_loading": "Je link wordt opgehaald…"
+    "link_loading": "Je link wordt opgehaald…",
+    "scene_search_title": "Zoek een plaatje",
+    "scene_search_hint": "Zoek een stad of plek",
+    "scene_search_empty": "Typ een plek en kies de foto voor de voorkant.",
+    "scene_search_none": "Geen foto’s voor ‘${query}’. Probeer een stad in de buurt.",
+    "scene_photo": "${place}, foto ${index}"
   },
   "discover": {
     "for_you": "Voor jou",

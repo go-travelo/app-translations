@@ -3991,16 +3991,11 @@
     },
     "earned_from": "Verdient durch ${n} Freunde, die verreist sind",
     "invite_hero": "Schenk einem lieben Menschen die Reise seines Lebens.",
-    "invite_lead": "Du weißt genau, wer mal wieder richtig Urlaub braucht. Schick der Person eine Postkarte mit ${offer}. Bucht sie, bekommst du auch ${amount}.",
-    "invite_offer": "${amount} Rabatt auf die erste Reise",
     "tile_them": "für sie",
     "tile_you": "für dich",
     "how1_lead": "Schick eine Postkarte.",
-    "how1": "Such ein Foto aus, schreib ein paar Zeilen und schick sie über deinen Lieblingsmessenger.",
     "how2_lead": "Die Reise wird mit Layla geplant.",
-    "how2": "Um das Komplizierte kümmert sich ein Reiseberater.",
     "how3_lead": "Wird gebucht, bekommt ihr beide ${amount}.",
-    "how3": "Lade so viele Freunde ein, wie du willst.",
     "copy_link": "Link kopieren",
     "copied": "Kopiert",
     "circle_link(plural)": {
@@ -4012,6 +4007,7 @@
     "flip": "Postkarte umdrehen",
     "to": "An",
     "contacts": "Kontakte",
+    "type_name": "Namen eingeben",
     "name_hint": "Name deiner Freundin oder deines Freundes",
     "greeting": "Grüße aus ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
@@ -4067,7 +4063,12 @@
     "send_another": "Noch eine Postkarte schicken",
     "unavailable": "Guthaben ist auf ${host} nicht erreichbar. Die Guthaben-Routen sind dort noch nicht ausgerollt.",
     "retry": "Erneut versuchen",
-    "link_loading": "Dein Link wird geladen…"
+    "link_loading": "Dein Link wird geladen…",
+    "scene_search_title": "Motiv finden",
+    "scene_search_hint": "Stadt oder Ort suchen",
+    "scene_search_empty": "Gib einen Ort ein und such dir das Foto für die Vorderseite aus.",
+    "scene_search_none": "Keine Fotos zu „${query}“. Versuch es mit einer Stadt in der Nähe.",
+    "scene_photo": "${place}, Foto ${index}"
   },
   "discover": {
     "for_you": "Für dich",
