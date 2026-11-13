@@ -1308,6 +1308,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ ${provider} gekoppeld · alleen reismail",
       "importedLead": "Gelezen. ${trips} sinds ${year}, ${countries}.",
+      "importedLeadThisYear": "Gelezen. ${trips} dit jaar, ${countries}.",
       "tripCount": {
         "one": "${n} reis",
         "other": "${n} reizen"

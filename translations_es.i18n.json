@@ -1308,6 +1308,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ ${provider} conectado · solo correos de viajes",
       "importedLead": "Leído. ${trips} desde ${year}, ${countries}.",
+      "importedLeadThisYear": "Leído. ${trips} este año, ${countries}.",
       "tripCount": {
         "one": "${n} viaje",
         "other": "${n} viajes"

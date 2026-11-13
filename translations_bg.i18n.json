@@ -1308,6 +1308,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ ${provider} е свързан · само имейли за пътувания",
       "importedLead": "Прочетох. ${trips} от ${year} насам, ${countries}.",
+      "importedLeadThisYear": "Прочетох. ${trips} тази година, ${countries}.",
       "tripCount": {
         "one": "${n} пътуване",
         "other": "${n} пътувания"

@@ -1356,6 +1356,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ ${provider} מחובר · רק מיילים של נסיעות",
       "importedLead": "קראתי. ${trips} מאז ${year}, ${countries}.",
+      "importedLeadThisYear": "קראתי. ${trips} השנה, ${countries}.",
       "tripCount": {
         "one": "טיול אחד",
         "two": "${n} טיולים",

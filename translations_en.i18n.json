@@ -1309,6 +1309,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ ${provider} connected · travel mail only",
       "importedLead": "Read it. ${trips} since ${year}, ${countries}.",
+      "importedLeadThisYear": "Read it. ${trips} this year, ${countries}.",
       "tripCount": {
         "one": "${n} trip",
         "other": "${n} trips"

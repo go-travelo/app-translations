@@ -1403,6 +1403,7 @@
       "connectMicrosoft": "Microsoft",
       "connectedDivider": "✦ تم ربط ${provider} · رسائل السفر فقط",
       "importedLead": "قرأته. ${trips} منذ ${year}، ${countries}.",
+      "importedLeadThisYear": "قرأته. ${trips} هذا العام، ${countries}.",
       "tripCount": {
         "zero": "لا رحلات",
         "one": "رحلة واحدة",
