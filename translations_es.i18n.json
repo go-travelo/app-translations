@@ -4143,6 +4143,8 @@
     "invite_cta": "Invitar a alguien",
     "invite_terms": "Viajes desde ${minimum} · sin contar vuelos · reservado y pagado por completo hasta el ${date} · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
     "invite_terms_open": "Viajes desde ${minimum} · sin contar vuelos · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
+    "invite_terms_standard": "Viajes desde ${minimum} · sin contar vuelos · válido 12 meses · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
+    "invite_terms_standard_until": "Viajes desde ${minimum} · sin contar vuelos · válido hasta el ${date} · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
     "friend_fallback": "Tu amigo o amiga",
     "name_hint_optional": "Nombre de tu amigo o amiga (opcional)",
     "sent_message_unnamed": "Te avisaremos en cuanto la abra. Cuando reserve, recibirás ${amount} en tu cuenta.",

@@ -4143,6 +4143,8 @@
     "invite_cta": "Inviter un proche",
     "invite_terms": "Voyages dès ${minimum} · hors vols · réservé et payé en totalité d'ici le ${date} · première réservation uniquement · un code par réservation · non cumulable avec d'autres offres",
     "invite_terms_open": "Voyages dès ${minimum} · hors vols · première réservation uniquement · un code par réservation · non cumulable avec d'autres offres",
+    "invite_terms_standard": "Voyages dès ${minimum} · hors vols · valable 12 mois · première réservation uniquement · un code par réservation · non cumulable avec d'autres offres",
+    "invite_terms_standard_until": "Voyages dès ${minimum} · hors vols · valable jusqu'au ${date} · première réservation uniquement · un code par réservation · non cumulable avec d'autres offres",
     "friend_fallback": "Ton proche",
     "name_hint_optional": "Prénom de ton proche (facultatif)",
     "sent_message_unnamed": "On te prévient dès qu'elle est ouverte. Dès sa réservation, tu reçois ${amount} sur ton compte.",

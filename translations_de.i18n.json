@@ -4143,6 +4143,8 @@
     "invite_cta": "Jemanden einladen",
     "invite_terms": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · bis zum ${date} gebucht und vollständig bezahlt · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
     "invite_terms_open": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
+    "invite_terms_standard": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · 12 Monate gültig · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
+    "invite_terms_standard_until": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · gültig bis ${date} · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
     "friend_fallback": "Dein Freund oder deine Freundin",
     "name_hint_optional": "Vorname (optional)",
     "sent_message_unnamed": "Wir sagen dir sofort Bescheid, wenn sie geöffnet wird. Wird gebucht, landen ${amount} auf deinem Konto.",

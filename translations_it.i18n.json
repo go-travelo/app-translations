@@ -4143,6 +4143,8 @@
     "invite_cta": "Invita qualcuno",
     "invite_terms": "Viaggi da ${minimum} · voli esclusi · prenotato e pagato per intero entro il ${date} · solo la prima prenotazione · un codice per prenotazione · non cumulabile con altre promozioni",
     "invite_terms_open": "Viaggi da ${minimum} · voli esclusi · solo la prima prenotazione · un codice per prenotazione · non cumulabile con altre promozioni",
+    "invite_terms_standard": "Viaggi da ${minimum} · voli esclusi · valido 12 mesi · solo la prima prenotazione · un codice per prenotazione · non cumulabile con altre promozioni",
+    "invite_terms_standard_until": "Viaggi da ${minimum} · voli esclusi · valido fino al ${date} · solo la prima prenotazione · un codice per prenotazione · non cumulabile con altre promozioni",
     "friend_fallback": "Il tuo amico o la tua amica",
     "name_hint_optional": "Il nome del tuo amico o della tua amica (facoltativo)",
     "sent_message_unnamed": "Ti avvisiamo appena viene aperta. Quando prenota, ${amount} arrivano sul tuo account.",

@@ -4143,6 +4143,8 @@
     "invite_cta": "Nodig een vriend uit",
     "invite_terms": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · uiterlijk ${date} geboekt en volledig betaald · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
     "invite_terms_open": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
+    "invite_terms_standard": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · 12 maanden geldig · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
+    "invite_terms_standard_until": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · geldig tot ${date} · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
     "friend_fallback": "Je vriend(in)",
     "name_hint_optional": "Naam van je vriend(in) (optioneel)",
     "sent_message_unnamed": "We laten het je meteen weten als hij geopend wordt. Boeken ze, dan komt ${amount} op je account.",
