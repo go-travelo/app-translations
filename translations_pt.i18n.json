@@ -1279,8 +1279,6 @@
       "saveEmail": "Continuar com e-mail",
       "saveCaption": "Uma só conta. Sua viagem, seu chat e seu consultor de viagem, tudo num só lugar.",
       "saveEmailTitle": "Crie sua conta",
-      "saveEmailBack": "Voltar",
-      "saveClose": "Fechar",
       "saveFailed": "Não conseguimos salvar sua viagem. Tentar de novo?",
       "joined": "✦ Viagem salva. Boas-vindas à Layla.",
       "youreIn": "Você está dentro 🥳",
@@ -1570,7 +1568,9 @@
       "status_in_progress": "Em andamento",
       "heading": "Reservas",
       "empty_title": "Nenhuma reserva ainda",
-      "empty_subtitle": "Peça um hotel ou um voo à Layla e ele aparece aqui."
+      "empty_subtitle": "Peça um hotel ou um voo à Layla e ele aparece aqui.",
+      "error_title": "Não conseguimos carregar suas reservas",
+      "error_subtitle": "Verifique sua conexão e tente de novo."
     },
     "travel": {
       "title": "Seu perfil de viajante",
@@ -1887,6 +1887,7 @@
     "email_invalid": "Por favor, insira um e-mail válido",
     "password_required": "Senha é obrigatória",
     "password_min_length": "A senha deve ter pelo menos 6 caracteres",
+    "password_requirements": "A senha deve ter pelo menos 8 caracteres, incluindo uma maiúscula, uma minúscula e um número.",
     "confirm_password": "Confirmar senha",
     "already_have_account": "Já tem uma conta?",
     "new_to_layla": "Novo na Layla?",
@@ -1899,6 +1900,7 @@
     "error_invalid_credential": "E-mail ou senha incorretos.",
     "error_too_many_requests": "Muitas tentativas. Tente novamente mais tarde.",
     "error_network": "Erro de rede. Verifique sua conexão.",
+    "error_unknown": "Algo deu errado. Tente novamente.",
     "reset_link_sent": "Confira sua caixa de entrada. Se houver uma conta com este e-mail, o link para redefinir a senha está a caminho.",
     "reset_link_failed": "Não foi possível enviar o link. Tente novamente.",
     "continue_with_apple": "Continuar com a Apple",

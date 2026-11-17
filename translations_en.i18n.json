@@ -1279,8 +1279,6 @@
       "saveEmail": "Continue with email",
       "saveCaption": "One account. Your trip, your chat and your travel advisor, all in one place.",
       "saveEmailTitle": "Create your account",
-      "saveEmailBack": "Back",
-      "saveClose": "Close",
       "saveFailed": "We couldn't save your trip. Try again?",
       "joined": "✦ Trip saved. Welcome to Layla.",
       "youreIn": "You're in 🥳",
@@ -1570,7 +1568,9 @@
       "status_in_progress": "In progress",
       "heading": "Bookings",
       "empty_title": "No bookings yet",
-      "empty_subtitle": "Ask Layla for a hotel or a flight and it lands here."
+      "empty_subtitle": "Ask Layla for a hotel or a flight and it lands here.",
+      "error_title": "Couldn't load your bookings",
+      "error_subtitle": "Check your connection and try again."
     },
     "travel": {
       "title": "Your travel profile",
@@ -1887,6 +1887,7 @@
     "email_invalid": "Please enter a valid email",
     "password_required": "Password is required",
     "password_min_length": "Password must be at least 6 characters",
+    "password_requirements": "Password must be at least 8 characters, including an uppercase letter, a lowercase letter and a number.",
     "confirm_password": "Confirm password",
     "already_have_account": "Already have an account?",
     "new_to_layla": "New to Layla?",
@@ -1899,6 +1900,7 @@
     "error_invalid_credential": "Incorrect email or password.",
     "error_too_many_requests": "Too many attempts. Please try again later.",
     "error_network": "Network error. Please check your connection.",
+    "error_unknown": "Something went wrong. Please try again.",
     "reset_link_sent": "Check your inbox. If there's an account for this email, a reset link is on its way.",
     "reset_link_failed": "We couldn't send the reset link. Please try again.",
     "continue_with_apple": "Continue with Apple",

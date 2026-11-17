@@ -1279,8 +1279,6 @@
       "saveEmail": "Doorgaan met e-mail",
       "saveCaption": "Eén account. Je reis, je chat en je reisadviseur, alles op één plek.",
       "saveEmailTitle": "Maak je account aan",
-      "saveEmailBack": "Terug",
-      "saveClose": "Sluiten",
       "saveFailed": "We konden je reis niet opslaan. Nog een keer proberen?",
       "joined": "✦ Reis opgeslagen. Welkom bij Layla.",
       "youreIn": "Je bent erbij 🥳",
@@ -1570,7 +1568,9 @@
       "status_in_progress": "Bezig",
       "heading": "Boekingen",
       "empty_title": "Nog geen boekingen",
-      "empty_subtitle": "Vraag Layla om een hotel of vlucht, dan verschijnt je boeking hier."
+      "empty_subtitle": "Vraag Layla om een hotel of vlucht, dan verschijnt je boeking hier.",
+      "error_title": "We konden je boekingen niet laden",
+      "error_subtitle": "Check je verbinding en probeer het opnieuw."
     },
     "travel": {
       "title": "Jouw reisprofiel",
@@ -1887,6 +1887,7 @@
     "email_invalid": "Voer een geldig e-mailadres in",
     "password_required": "Wachtwoord is verplicht",
     "password_min_length": "Het wachtwoord moet minimaal 6 tekens bevatten",
+    "password_requirements": "Je wachtwoord moet minstens 8 tekens hebben, met een hoofdletter, een kleine letter en een cijfer.",
     "confirm_password": "Bevestig wachtwoord",
     "already_have_account": "Heb je al een account?",
     "new_to_layla": "Nieuw bij Layla?",
@@ -1899,6 +1900,7 @@
     "error_invalid_credential": "Onjuist e-mailadres of wachtwoord.",
     "error_too_many_requests": "Te veel pogingen. Probeer het later opnieuw.",
     "error_network": "Netwerkfout. Controleer uw verbinding.",
+    "error_unknown": "Er ging iets mis. Probeer het opnieuw.",
     "reset_link_sent": "Controleer uw inbox. Als er een account bestaat voor dit e-mailadres, is de herstellink onderweg.",
     "reset_link_failed": "De herstellink kon niet worden verzonden. Probeer het opnieuw.",
     "continue_with_apple": "Doorgaan met Apple",

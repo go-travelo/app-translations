@@ -1279,8 +1279,6 @@
       "saveEmail": "Continua con l'email",
       "saveCaption": "Un solo account. Il tuo viaggio, la tua chat e il tuo consulente di viaggio, tutto in un unico posto.",
       "saveEmailTitle": "Crea il tuo account",
-      "saveEmailBack": "Indietro",
-      "saveClose": "Chiudi",
       "saveFailed": "Non siamo riusciti a salvare il tuo viaggio. Riproviamo?",
       "joined": "✦ Viaggio salvato. Ti diamo il benvenuto su Layla.",
       "youreIn": "Sei dei nostri 🥳",
@@ -1570,7 +1568,9 @@
       "status_in_progress": "In corso",
       "heading": "Prenotazioni",
       "empty_title": "Ancora nessuna prenotazione",
-      "empty_subtitle": "Chiedi a Layla un hotel o un volo e lo troverai qui."
+      "empty_subtitle": "Chiedi a Layla un hotel o un volo e lo troverai qui.",
+      "error_title": "Non siamo riusciti a caricare le tue prenotazioni",
+      "error_subtitle": "Controlla la connessione e riprova."
     },
     "travel": {
       "title": "Il tuo profilo di viaggio",
@@ -1887,6 +1887,7 @@
     "email_invalid": "Inserisci un'email valida",
     "password_required": "La password è obbligatoria",
     "password_min_length": "La password deve contenere almeno 6 caratteri",
+    "password_requirements": "La password deve avere almeno 8 caratteri e includere una lettera maiuscola, una minuscola e un numero.",
     "confirm_password": "Conferma password",
     "already_have_account": "Hai già un account?",
     "new_to_layla": "Nuovo su Layla?",
@@ -1899,6 +1900,7 @@
     "error_invalid_credential": "Email o password errati.",
     "error_too_many_requests": "Troppi tentativi. Riprova più tardi.",
     "error_network": "Errore di rete. Controlla la connessione.",
+    "error_unknown": "Qualcosa è andato storto. Riprova.",
     "reset_link_sent": "Controlla la tua casella di posta. Se esiste un account con questa email, il link per reimpostare la password è in arrivo.",
     "reset_link_failed": "Non siamo riusciti a inviare il link. Riprova.",
     "continue_with_apple": "Continua con Apple",
