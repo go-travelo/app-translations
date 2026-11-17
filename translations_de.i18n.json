@@ -4064,20 +4064,17 @@
   },
   "credit": {
     "heading": "Guthaben",
-    "invite": "Einladen",
     "your_circle": "Dein Kreis",
     "postcard_cta": "Postkarte schicken",
     "circle_travelling": "${n} von ${total} auf Reisen",
     "add_friend": "Jemanden einladen",
     "copy_link": "Link kopieren",
     "copied": "Kopiert",
-    "invite_fine": "Das Guthaben wird gutgeschrieben, sobald die erste Reise der eingeladenen Person gebucht ist. Gilt für Layla-Reisen mit Reiseberater.",
     "compose_heading": "Deine Postkarte",
     "flip": "Postkarte umdrehen",
     "to": "An",
     "contacts": "Kontakte",
     "type_name": "Namen eingeben",
-    "name_hint": "Name deiner Freundin oder deines Freundes",
     "greeting": "Grüße aus ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
     "postmark_ring_no_city": "Layla ✦ Post ·",
@@ -4139,9 +4136,6 @@
       "one": "Freund",
       "other": "Freunde"
     },
-    "circle_empty_short": "Noch niemand in deinem Kreis.",
-    "bf_badge": "Black Friday · bis ${date}",
-    "invite_title": "Schenk ${amount}, bekomm ${reward}.",
     "invite_lead_strong": "${amount} Rabatt auf die erste Reise.",
     "invite_lead_rest": "${reward} für dich, wenn bis zum ${date} gebucht wird.",
     "invite_lead_rest_open": "${reward} für dich, wenn gebucht wird.",
@@ -4166,7 +4160,31 @@
     "no_code_body_open": "Schau bald wieder vorbei. Dein Code bringt Freunden ${amount} Rabatt auf ihre erste Reise und dir ${reward}, wenn sie buchen.",
     "circle_rule_dated": "Für jede Buchung bis zum ${date}: ${amount} Rabatt für sie, ${reward} für dich.",
     "circle_rule_open": "Für jede Buchung: ${amount} Rabatt für sie, ${reward} für dich.",
-    "row_booked_plain": "${place} gebucht"
+    "row_booked_plain": "${place} gebucht",
+    "invite_friends": "Freunde einladen",
+    "campaign_title": "Schenk ${amount}, bekomm ${reward}",
+    "campaign_first_trip": "Erste Reise ab ${minimum}",
+    "campaign_any_trip": "Jede Reise ab ${minimum}",
+    "campaign_booked": "${n} von ${total} gebucht",
+    "pill_ends": "${badge} · bis ${date}",
+    "pill_ends_alone": "Bis ${date}",
+    "pill_always_on": "${badge} · immer verfügbar",
+    "circle_row(plural)": {
+      "one": "${n} Freund · ${booked} gebucht · ${earned} verdient",
+      "other": "${n} Freunde · ${booked} gebucht · ${earned} verdient"
+    },
+    "rewards_title": "Prämien",
+    "rewards_line(plural)": {
+      "one": "${count} einlösbar",
+      "other": "${count} einlösbar, aus ${n} Aktionen"
+    },
+    "getting_code": "Dein Code kommt gleich",
+    "mint_failed": "Wir konnten deinen Code nicht abrufen.",
+    "try_again": "Nochmal versuchen",
+    "empty_title": "Gerade keine Einladungsaktion",
+    "empty_body": "Sobald eine läuft, siehst du sie hier. Deine verdienten Prämien bleiben in deinem Konto.",
+    "load_failed_title": "Wir konnten dein Guthaben nicht laden",
+    "load_failed_body": "Prüf deine Verbindung und versuch es nochmal."
   },
   "discover": {
     "for_you": "Für dich",

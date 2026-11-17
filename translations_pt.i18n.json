@@ -4064,20 +4064,17 @@
   },
   "credit": {
     "heading": "Crédito",
-    "invite": "Convidar",
     "your_circle": "Seu círculo",
     "postcard_cta": "Enviar um cartão-postal",
     "circle_travelling": "${n} de ${total} viajando",
     "add_friend": "Adicionar alguém",
     "copy_link": "Copiar link",
     "copied": "Copiado",
-    "invite_fine": "O crédito cai quando a pessoa que você convidou reservar a primeira viagem. Vale para viagens da Layla com consultor de viagem.",
     "compose_heading": "Seu cartão-postal",
     "flip": "Virar o cartão-postal",
     "to": "Para",
     "contacts": "Contatos",
     "type_name": "Escrever um nome",
-    "name_hint": "Nome dessa pessoa",
     "greeting": "Saudações de ${place}",
     "postmark_ring": "Layla ✦ Correio · ${city} ·",
     "postmark_ring_no_city": "Layla ✦ Correio ·",
@@ -4139,9 +4136,6 @@
       "one": "amigo",
       "other": "amigos"
     },
-    "circle_empty_short": "Ninguém no seu círculo ainda.",
-    "bf_badge": "Black Friday · até ${date}",
-    "invite_title": "Dê ${amount}, ganhe ${reward}.",
     "invite_lead_strong": "${amount} de desconto na primeira viagem.",
     "invite_lead_rest": "${reward} para você se a reserva sair até ${date}.",
     "invite_lead_rest_open": "${reward} para você quando a reserva sair.",
@@ -4166,7 +4160,31 @@
     "no_code_body_open": "Volte daqui a pouco. Seu código dá aos seus amigos ${amount} de desconto na primeira viagem deles, e ${reward} para você quando reservarem.",
     "circle_rule_dated": "Para cada pessoa que reservar até ${date}: ${amount} de desconto para ela, ${reward} para você.",
     "circle_rule_open": "Para cada pessoa que reservar: ${amount} de desconto para ela, ${reward} para você.",
-    "row_booked_plain": "Reservou ${place}"
+    "row_booked_plain": "Reservou ${place}",
+    "invite_friends": "Convide amigos",
+    "campaign_title": "Dê ${amount}, ganhe ${reward}",
+    "campaign_first_trip": "Primeira viagem a partir de ${minimum}",
+    "campaign_any_trip": "Qualquer viagem a partir de ${minimum}",
+    "campaign_booked": "${n} de ${total} reservaram",
+    "pill_ends": "${badge} · até ${date}",
+    "pill_ends_alone": "Até ${date}",
+    "pill_always_on": "${badge} · sempre ativa",
+    "circle_row(plural)": {
+      "one": "${n} amigo · ${booked} reservaram · ${earned} ganhos",
+      "other": "${n} amigos · ${booked} reservaram · ${earned} ganhos"
+    },
+    "rewards_title": "Recompensas",
+    "rewards_line(plural)": {
+      "one": "${count} para usar",
+      "other": "${count} para usar, de ${n} campanhas"
+    },
+    "getting_code": "Preparando seu código",
+    "mint_failed": "Não conseguimos pegar seu código.",
+    "try_again": "Tentar de novo",
+    "empty_title": "Nenhuma oferta de convite no momento",
+    "empty_body": "Quando uma estiver ativa, ela aparece aqui. As recompensas que você ganhou continuam na sua conta.",
+    "load_failed_title": "Não conseguimos carregar seu crédito",
+    "load_failed_body": "Confira sua conexão e tente de novo."
   },
   "discover": {
     "for_you": "Para você",

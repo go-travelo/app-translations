@@ -3731,20 +3731,17 @@
   "creditWord": "Credit",
   "credit": {
     "heading": "Credit",
-    "invite": "Invite",
     "your_circle": "Your circle",
     "postcard_cta": "Send a postcard",
     "circle_travelling": "${n} of ${total} travelling",
     "add_friend": "Add a friend",
     "copy_link": "Copy link",
     "copied": "Copied",
-    "invite_fine": "Credit lands when your friend’s first trip is booked. Applies to Layla trips with a travel advisor.",
     "compose_heading": "Your postcard",
     "flip": "Flip the postcard",
     "to": "To",
     "contacts": "Contacts",
     "type_name": "Type a name",
-    "name_hint": "Your friend's name",
     "greeting": "Greetings from ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
     "postmark_ring_no_city": "Layla ✦ Post ·",
@@ -3806,9 +3803,6 @@
       "one": "friend",
       "other": "friends"
     },
-    "circle_empty_short": "No one in your circle yet.",
-    "bf_badge": "Black Friday · ends ${date}",
-    "invite_title": "Give ${amount}, get ${reward}.",
     "invite_lead_strong": "${amount} off their first trip.",
     "invite_lead_rest": "${reward} for you when they book by ${date}.",
     "invite_lead_rest_open": "${reward} for you when they book.",
@@ -3833,7 +3827,31 @@
     "no_code_body_open": "Check back soon. Your code gives friends ${amount} off their first trip, and ${reward} for you when they book.",
     "circle_rule_dated": "Every friend who books by ${date}: ${amount} off for them, ${reward} for you.",
     "circle_rule_open": "Every friend who books: ${amount} off for them, ${reward} for you.",
-    "row_booked_plain": "Booked ${place}"
+    "row_booked_plain": "Booked ${place}",
+    "invite_friends": "Invite friends",
+    "campaign_title": "Give ${amount}, get ${reward}",
+    "campaign_first_trip": "First trip of ${minimum} or more",
+    "campaign_any_trip": "Any trip of ${minimum} or more",
+    "campaign_booked": "${n} of ${total} booked",
+    "pill_ends": "${badge} · ends ${date}",
+    "pill_ends_alone": "Ends ${date}",
+    "pill_always_on": "${badge} · always on",
+    "circle_row(plural)": {
+      "one": "${n} friend · ${booked} booked · ${earned} earned",
+      "other": "${n} friends · ${booked} booked · ${earned} earned"
+    },
+    "rewards_title": "Rewards",
+    "rewards_line(plural)": {
+      "one": "${count} to use",
+      "other": "${count} to use, from ${n} campaigns"
+    },
+    "getting_code": "Getting your code",
+    "mint_failed": "We couldn’t get your code.",
+    "try_again": "Try again",
+    "empty_title": "No invite offers right now",
+    "empty_body": "When one is running, it shows up here. Rewards you’ve earned stay in your account.",
+    "load_failed_title": "We couldn’t load your credit",
+    "load_failed_body": "Check your connection and try again."
   },
   "discover": {
     "for_you": "For you",

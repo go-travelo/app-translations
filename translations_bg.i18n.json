@@ -4064,20 +4064,17 @@
   },
   "credit": {
     "heading": "Кредит",
-    "invite": "Покани",
     "your_circle": "Твоят кръг",
     "postcard_cta": "Изпрати картичка",
     "circle_travelling": "${n} от ${total} пътуват",
     "add_friend": "Добави някого",
     "copy_link": "Копирай линка",
     "copied": "Копирано",
-    "invite_fine": "Кредитът идва, когато първото пътуване на приятеля ти е резервирано. Важи за пътувания с Layla с пътен консултант.",
     "compose_heading": "Твоята картичка",
     "flip": "Обърни картичката",
     "to": "До",
     "contacts": "Контакти",
     "type_name": "Напиши име",
-    "name_hint": "Името на приятеля ти",
     "greeting": "Поздрави от ${place}",
     "postmark_ring": "Layla ✦ Поща · ${city} ·",
     "postmark_ring_no_city": "Layla ✦ Поща ·",
@@ -4139,9 +4136,6 @@
       "one": "приятел",
       "other": "приятели"
     },
-    "circle_empty_short": "Още няма никой в кръга ти.",
-    "bf_badge": "Black Friday · до ${date}",
-    "invite_title": "Подари ${amount}, вземи ${reward}.",
     "invite_lead_strong": "${amount} отстъпка за първото им пътуване.",
     "invite_lead_rest": "${reward} за теб, ако резервират до ${date}.",
     "invite_lead_rest_open": "${reward} за теб, когато резервират.",
@@ -4166,7 +4160,31 @@
     "no_code_body_open": "Провери пак скоро. С твоя код приятелите ти получават ${amount} отстъпка за първото си пътуване, а ти ${reward}, когато резервират.",
     "circle_rule_dated": "За всеки приятел, който резервира до ${date}: ${amount} отстъпка за него, ${reward} за теб.",
     "circle_rule_open": "За всеки приятел, който резервира: ${amount} отстъпка за него, ${reward} за теб.",
-    "row_booked_plain": "Резервира ${place}"
+    "row_booked_plain": "Резервира ${place}",
+    "invite_friends": "Покани приятели",
+    "campaign_title": "Подари ${amount}, вземи ${reward}",
+    "campaign_first_trip": "Първо пътуване за ${minimum} или повече",
+    "campaign_any_trip": "Всяко пътуване за ${minimum} или повече",
+    "campaign_booked": "${n} от ${total} резервираха",
+    "pill_ends": "${badge} · до ${date}",
+    "pill_ends_alone": "До ${date}",
+    "pill_always_on": "${badge} · винаги активна",
+    "circle_row(plural)": {
+      "one": "${n} приятел · ${booked} резервираха · ${earned} спечелени",
+      "other": "${n} приятели · ${booked} резервираха · ${earned} спечелени"
+    },
+    "rewards_title": "Награди",
+    "rewards_line(plural)": {
+      "one": "${count} за използване",
+      "other": "${count} за използване, от ${n} кампании"
+    },
+    "getting_code": "Подготвяме кода ти",
+    "mint_failed": "Не успяхме да вземем кода ти.",
+    "try_again": "Опитай пак",
+    "empty_title": "Няма активни покани в момента",
+    "empty_body": "Когато започне нова, ще я видиш тук. Спечелените награди остават в профила ти.",
+    "load_failed_title": "Не успяхме да заредим кредита ти",
+    "load_failed_body": "Провери връзката си и опитай пак."
   },
   "discover": {
     "for_you": "За теб",

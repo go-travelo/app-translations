@@ -4064,20 +4064,17 @@
   },
   "credit": {
     "heading": "Tegoed",
-    "invite": "Uitnodigen",
     "your_circle": "Jouw kring",
     "postcard_cta": "Ansichtkaart sturen",
     "circle_travelling": "${n} van ${total} op reis",
     "add_friend": "Iemand toevoegen",
     "copy_link": "Link kopiëren",
     "copied": "Gekopieerd",
-    "invite_fine": "Het tegoed komt binnen zodra de eerste reis van je vriend geboekt is. Geldt voor Layla-reizen met een reisadviseur.",
     "compose_heading": "Je ansichtkaart",
     "flip": "Ansichtkaart omdraaien",
     "to": "Aan",
     "contacts": "Contacten",
     "type_name": "Naam typen",
-    "name_hint": "Naam van je vriend(in)",
     "greeting": "Groeten uit ${place}",
     "postmark_ring": "Layla ✦ Post · ${city} ·",
     "postmark_ring_no_city": "Layla ✦ Post ·",
@@ -4139,9 +4136,6 @@
       "one": "vriend",
       "other": "vrienden"
     },
-    "circle_empty_short": "Nog niemand in je kring.",
-    "bf_badge": "Black Friday · t/m ${date}",
-    "invite_title": "Geef ${amount}, krijg ${reward}.",
     "invite_lead_strong": "${amount} korting op hun eerste reis.",
     "invite_lead_rest": "${reward} voor jou als ze uiterlijk ${date} boeken.",
     "invite_lead_rest_open": "${reward} voor jou als ze boeken.",
@@ -4166,7 +4160,31 @@
     "no_code_body_open": "Kijk binnenkort nog eens. Met je code krijgen vrienden ${amount} korting op hun eerste reis, en jij ${reward} als ze boeken.",
     "circle_rule_dated": "Elke vriend die uiterlijk ${date} boekt: ${amount} korting voor hen, ${reward} voor jou.",
     "circle_rule_open": "Elke vriend die boekt: ${amount} korting voor hen, ${reward} voor jou.",
-    "row_booked_plain": "${place} geboekt"
+    "row_booked_plain": "${place} geboekt",
+    "invite_friends": "Nodig vrienden uit",
+    "campaign_title": "Geef ${amount}, krijg ${reward}",
+    "campaign_first_trip": "Eerste reis vanaf ${minimum}",
+    "campaign_any_trip": "Elke reis vanaf ${minimum}",
+    "campaign_booked": "${n} van ${total} geboekt",
+    "pill_ends": "${badge} · t/m ${date}",
+    "pill_ends_alone": "Tot en met ${date}",
+    "pill_always_on": "${badge} · altijd actief",
+    "circle_row(plural)": {
+      "one": "${n} vriend · ${booked} geboekt · ${earned} verdiend",
+      "other": "${n} vrienden · ${booked} geboekt · ${earned} verdiend"
+    },
+    "rewards_title": "Beloningen",
+    "rewards_line(plural)": {
+      "one": "${count} te gebruiken",
+      "other": "${count} te gebruiken, uit ${n} acties"
+    },
+    "getting_code": "Je code komt eraan",
+    "mint_failed": "We konden je code niet ophalen.",
+    "try_again": "Opnieuw proberen",
+    "empty_title": "Er loopt nu geen uitnodigingsactie",
+    "empty_body": "Zodra er een loopt, zie je die hier. Verdiende beloningen blijven op je account staan.",
+    "load_failed_title": "We konden je tegoed niet laden",
+    "load_failed_body": "Controleer je verbinding en probeer het opnieuw."
   },
   "discover": {
     "for_you": "Voor jou",
