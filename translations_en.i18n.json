@@ -4795,6 +4795,8 @@
       "unavailable": "No longer available",
       "noRoomsLeft": "No rooms left",
       "change": "Change",
+      "detailsA11y": "Booking details",
+      "alreadyBooked": "Already booked",
       "notBookable": "Not bookable with Layla",
       "bookOnPartnerSite": "Book on the partner site",
       "bookOnWeb": "Book on the web",
@@ -4824,6 +4826,19 @@
       "nonRefundable": "Non-refundable",
       "detailsAndTerms": "Details & terms",
       "providedBy": "Provided by ${name}",
+      "base": "Price",
+      "taxesAndFees": "Taxes and fees",
+      "sectionOther": "More information",
+      "fees": {
+       "mandatoryFee": "Mandatory fee",
+       "resortFee": "Resort fee",
+       "mandatoryTax": "Mandatory tax",
+       "cityTax": "City tax",
+       "touristTax": "Tourist tax",
+       "counter": "The rental, at pick-up",
+       "venue": "Due at the venue",
+       "other": "Fee"
+      },
      "sections": {
       "checkinInstructions": "Check-in instructions",
       "finePrint": "Fine print",
@@ -4895,6 +4910,7 @@
       "taxesHotel": "The taxes are tax recovery charges paid to vendors (e.g. hotels); for details, please see our Terms of Use. Service fees are retained as compensation in servicing your booking and may include fees charged by vendors.",
       "taxesCar": "Taxes are tax recovery charges we pay to travel providers (e.g., car rentals) and/or are remitted by us. Fees may include additional charges imposed by the travel providers.",
       "poweredBy": "Powered by",
+      "expediaLogoAlt": "Expedia",
       "errors": {
         "priceChanged": "Some prices changed since you started — please review the updated totals.",
         "unavailable": "Some items are no longer available — please review them before paying.",
