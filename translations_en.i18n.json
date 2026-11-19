@@ -4823,7 +4823,13 @@
       "refundWithFee": "Refund with a fee",
       "nonRefundable": "Non-refundable",
       "detailsAndTerms": "Details & terms",
-      "providedBy": "Provided by ${name}"
+      "providedBy": "Provided by ${name}",
+     "sections": {
+      "checkinInstructions": "Check-in instructions",
+      "finePrint": "Fine print",
+      "knowBeforeYouGo": "Know before you go",
+      "rentalRules": "Rental rules"
+     }
     },
     "details": {
       "title": "Travellers",
