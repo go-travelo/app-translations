@@ -4863,6 +4863,8 @@
       "day": "Day",
       "month": "Month",
       "year": "Year",
+      "needsMoreTravellers": "${item} needs more travellers than this trip has.",
+      "needsDetailsElsewhere": "${item} needs details we can't collect here. Book this one on layla.ai or untick it.",
       "driver": "Main driver of the rental car",
       "driverFor": "Driver for ${car}",
       "questionsTitle": "Booking questions",
