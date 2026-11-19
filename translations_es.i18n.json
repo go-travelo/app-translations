@@ -4097,7 +4097,7 @@
     "share_preview_unsigned": "Una postal para ti · ${amount} de descuento en tu primer viaje",
     "messages": "Mensajes",
     "whatsapp": "WhatsApp",
-    "share_message": "Te he enviado una postal desde ${place}. ${amount} de descuento en tu primer viaje con Layla.",
+    "share_message": "Te he enviado una postal. ${amount} de descuento en tu primer viaje con Layla.",
     "share_subject": "Una postal desde ${place}",
     "sent_heading": "Tu postal está",
     "sent_pill": "en camino",

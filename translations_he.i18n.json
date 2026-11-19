@@ -4264,7 +4264,7 @@
     "share_preview_unsigned": "גלויה בשבילך · ${amount} הנחה על הטיול הראשון שלך",
     "messages": "הודעות",
     "whatsapp": "WhatsApp",
-    "share_message": "שלחתי לך גלויה מ${place}. ${amount} הנחה על הטיול הראשון שלך עם Layla.",
+    "share_message": "שלחתי לך גלויה. ${amount} הנחה על הטיול הראשון שלך עם Layla.",
     "share_subject": "גלויה מ${place}",
     "sent_heading": "הגלויה שלך",
     "sent_pill": "בדרך",

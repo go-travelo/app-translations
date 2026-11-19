@@ -3764,7 +3764,7 @@
     "share_preview_unsigned": "A postcard for you · ${amount} off your first trip",
     "messages": "Messages",
     "whatsapp": "WhatsApp",
-    "share_message": "I sent you a postcard from ${place}. ${amount} off your first trip with Layla.",
+    "share_message": "I sent you a postcard. ${amount} off your first trip with Layla.",
     "share_subject": "A postcard from ${place}",
     "sent_heading": "Your postcard is",
     "sent_pill": "on its way",

@@ -4097,7 +4097,7 @@
     "share_preview_unsigned": "Une carte postale pour toi · ${amount} offerts sur ton premier voyage",
     "messages": "Messages",
     "whatsapp": "WhatsApp",
-    "share_message": "Je t'ai envoyé une carte postale de ${place}. ${amount} de réduction sur ton premier voyage avec Layla.",
+    "share_message": "Je t'ai envoyé une carte postale. ${amount} de réduction sur ton premier voyage avec Layla.",
     "share_subject": "Une carte postale de ${place}",
     "sent_heading": "Ta carte postale est",
     "sent_pill": "en route",

@@ -4097,7 +4097,7 @@
     "share_preview_unsigned": "Um cartão-postal para você · ${amount} de desconto na sua primeira viagem",
     "messages": "Mensagens",
     "whatsapp": "WhatsApp",
-    "share_message": "Te mandei um cartão-postal de ${place}. ${amount} de desconto na sua primeira viagem com a Layla.",
+    "share_message": "Te mandei um cartão-postal. ${amount} de desconto na sua primeira viagem com a Layla.",
     "share_subject": "Um cartão-postal de ${place}",
     "sent_heading": "Seu cartão-postal está",
     "sent_pill": "a caminho",

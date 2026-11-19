@@ -4432,7 +4432,7 @@
     "share_preview_unsigned": "بطاقة بريدية لك · خصم ${amount} على أول رحلة لك",
     "messages": "الرسائل",
     "whatsapp": "WhatsApp",
-    "share_message": "أرسلت لك بطاقة بريدية من ${place}. خصم ${amount} على أول رحلة لك مع Layla.",
+    "share_message": "أرسلت لك بطاقة بريدية. خصم ${amount} على أول رحلة لك مع Layla.",
     "share_subject": "بطاقة بريدية من ${place}",
     "sent_heading": "بطاقتك",
     "sent_pill": "في الطريق",

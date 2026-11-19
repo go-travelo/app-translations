@@ -4097,7 +4097,7 @@
     "share_preview_unsigned": "Una cartolina per te · ${amount} di sconto sul tuo primo viaggio",
     "messages": "Messaggi",
     "whatsapp": "WhatsApp",
-    "share_message": "Ti ho mandato una cartolina da ${place}. ${amount} di sconto sul tuo primo viaggio con Layla.",
+    "share_message": "Ti ho mandato una cartolina. ${amount} di sconto sul tuo primo viaggio con Layla.",
     "share_subject": "Una cartolina da ${place}",
     "sent_heading": "La tua cartolina è",
     "sent_pill": "in viaggio",

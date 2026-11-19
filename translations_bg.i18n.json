@@ -4097,7 +4097,7 @@
     "share_preview_unsigned": "Картичка за теб · ${amount} отстъпка за първото ти пътуване",
     "messages": "Съобщения",
     "whatsapp": "WhatsApp",
-    "share_message": "Изпратих ти картичка от ${place}. ${amount} отстъпка за първото ти пътуване с Layla.",
+    "share_message": "Изпратих ти картичка. ${amount} отстъпка за първото ти пътуване с Layla.",
     "share_subject": "Картичка от ${place}",
     "sent_heading": "Картичката ти е",
     "sent_pill": "на път",
