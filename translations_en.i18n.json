@@ -4972,7 +4972,9 @@
         "body": "Something went wrong with a supplier, and we couldn't confirm or undo that booking on our own. Our team will sort it out. Nothing more is charged to your card until they do."
       },
       "seeDetails": "See booking details",
-      "seeBookings": "See my bookings"
+      "seeBookings": "See my bookings",
+      "loadFailed": "We couldn't load your booking's progress.",
+      "retry": "Try again"
     },
     "decision": {
       "title": "The price of ${title} went up",
