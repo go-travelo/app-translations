@@ -4874,7 +4874,10 @@
         "nationality": "Enter the 2-letter nationality code.",
         "passportNumber": "Enter the passport number as printed on the passport.",
         "passportCountry": "Enter the 2-letter issuing country code.",
-        "passportExpiry": "Enter a valid passport expiry date."
+        "passportExpiry": "Enter a valid passport expiry date.",
+        "title": "Choose a title.",
+        "gender": "Choose a gender.",
+        "passport": "Check the passport number, issuing country and expiry date."
       },
       "ageMismatch": "This flight was priced for a ${expected}-year-old, but with this date of birth they'll be ${age} on the last flight. Check the date, or update the travellers in your trip so we search the flight again."
     },
