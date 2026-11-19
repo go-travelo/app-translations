@@ -4802,7 +4802,8 @@
       "bookOnWeb": "Book on the web",
       "waiting": "Checking live prices and availability…",
       "unavailableNotice": "Untick or replace what's no longer available to continue",
-      "loadFailed": "We couldn't load your trip items. Please refresh the page.",
+      "loadFailedRetry": "We couldn't load your trip items. Check your connection and try again.",
+      "retry": "Try again",
       "total": "Total",
       "todayAndAtProperty": "${today} today + ${atProperty} at the property"
     },
@@ -5046,7 +5047,8 @@
       "refundPending": "Cancelled · refund on its way",
       "refundFailed": "Cancelled · we couldn't refund this automatically — our team will contact you.",
       "inProgress": "Cancellation in progress — check back in a minute.",
-      "refused": "We couldn't cancel this booking. Please try again or contact us."
+      "refused": "We couldn't cancel this booking. Please try again or contact us.",
+      "failed": "We couldn't reach Layla to cancel this booking. Check your connection and try again."
     }
   }
 }
