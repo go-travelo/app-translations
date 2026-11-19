@@ -4785,5 +4785,191 @@
     "today": "Today's view",
     "all": "All backdrops",
     "credit": "Photo by ${photographer} on Unsplash"
+  },
+  "directBooking": {
+    "review": {
+      "checking": "Checking availability…",
+      "confirmed": "Available · price confirmed",
+      "priceUp": "Price went up by ${amount}",
+      "priceDown": "Price went down by ${amount}",
+      "unavailable": "No longer available",
+      "noRoomsLeft": "No rooms left",
+      "change": "Change",
+      "notBookable": "Not bookable with Layla",
+      "bookOnPartnerSite": "Book on the partner site",
+      "bookOnWeb": "Book on the web",
+      "waiting": "Checking live prices and availability…",
+      "unavailableNotice": "Untick or replace what's no longer available to continue",
+      "loadFailed": "We couldn't load your trip items. Please refresh the page.",
+      "total": "Total",
+      "todayAndAtProperty": "${today} today + ${atProperty} at the property"
+    },
+    "info": {
+      "title": "Booking details",
+      "address": "Address",
+      "stay": "Stay",
+      "room": "Room",
+      "guests": "Guests",
+      "price": "Price",
+      "perNight": "${amount} per night",
+      "perNightTaxes": "${amount} per night, taxes included",
+      "payAtSpot": "Pay on the spot",
+      "payAtSpotHotel": "Pay at the hotel",
+      "payAtSpotCar": "Pay at the counter",
+      "payAtSpotActivity": "Pay at the activity",
+      "payAtSpotNote": "Not part of your total. You pay this on the spot.",
+      "freeCancellation": "Free cancellation",
+      "freeCancellationUntil": "Free cancellation until ${date}",
+      "refundWithFee": "Refund with a fee",
+      "nonRefundable": "Non-refundable",
+      "detailsAndTerms": "Details & terms",
+      "providedBy": "Provided by ${name}"
+    },
+    "details": {
+      "title": "Travellers",
+      "travellerLead": "Traveller ${n} · lead contact",
+      "traveller": "Traveller ${n}",
+      "neededBy": "For ${items}",
+      "missingCount": {
+        "one": "${n} detail missing",
+        "other": "${n} details missing"
+      },
+      "complete": "Complete · Edit",
+      "edit": "Edit",
+      "airlineNameHint": "Enter every flying traveller's name exactly as on their passport.",
+      "driver": "Main driver of the rental car",
+      "driverFor": "Driver for ${car}",
+      "questionsTitle": "Booking questions",
+      "questionRequired": "The provider needs this answer.",
+      "gapsNotice": {
+        "one": "${n} detail is still missing",
+        "other": "${n} details are still missing"
+      },
+      "blocked": "We can't continue yet. Go back to the review and check your trip.",
+      "unavailableBack": "Something is no longer available. Go back to the review to untick or replace it.",
+      "required": {
+        "title": "Choose a title — the airline needs it.",
+        "gender": "Choose a gender — the airline needs it.",
+        "givenName": "Add the first name.",
+        "middleName": "Add the middle names.",
+        "familyName": "Add the last name.",
+        "email": "Add an email address.",
+        "phone": "Add a phone number with its country code.",
+        "dateOfBirth": "Add a date of birth.",
+        "nationality": "Add the nationality.",
+        "passport": "Add the passport number, issuing country and expiry date.",
+        "passportNumber": "Add the passport number.",
+        "passportCountry": "Add the passport issuing country.",
+        "passportExpiry": "Add the passport expiry date.",
+        "question": "The provider needs this answer."
+      },
+      "invalid": {
+        "phone": "Add the country code, e.g. +44 7911 123456.",
+        "phoneCountry": "We can't accept phone numbers from this country. Please use a number from another country.",
+        "email": "Enter a valid email address.",
+        "givenName": "Use the first and middle names as on the passport: at least 2 letters, up to 20 characters together.",
+        "middleName": "Use the middle names as on the passport.",
+        "familyName": "Use the full last name as on the passport, not an initial: at least 2 letters, up to 20 characters.",
+        "dateOfBirth": "Enter a valid date of birth.",
+        "nationality": "Enter the 2-letter nationality code.",
+        "passportNumber": "Enter the passport number as printed on the passport.",
+        "passportCountry": "Enter the 2-letter issuing country code.",
+        "passportExpiry": "Enter a valid passport expiry date."
+      },
+      "ageMismatch": "This flight was priced for a ${expected}-year-old, but with this date of birth they'll be ${age} on the last flight. Check the date, or update the travellers in your trip so we search the flight again."
+    },
+    "pay": {
+      "title": "Payment details",
+      "holdNote": "We'll hold up to ${amount} on your card and only charge for what we book. Anything we don't use is released automatically.",
+      "agree": "By paying you agree to Layla's Terms, Privacy Policy and each supplier's terms.",
+      "cta": "Confirm & pay ${amount}",
+      "taxesHotel": "The taxes are tax recovery charges paid to vendors (e.g. hotels); for details, please see our Terms of Use. Service fees are retained as compensation in servicing your booking and may include fees charged by vendors.",
+      "taxesCar": "Taxes are tax recovery charges we pay to travel providers (e.g., car rentals) and/or are remitted by us. Fees may include additional charges imposed by the travel providers.",
+      "poweredBy": "Powered by",
+      "errors": {
+        "priceChanged": "Some prices changed since you started — please review the updated totals.",
+        "unavailable": "Some items are no longer available — please review them before paying.",
+        "missingDetails": "Some traveller details are still missing.",
+        "generic": "Something went wrong. Please try again.",
+        "payment": "Your payment couldn't be confirmed. Please try again."
+      }
+    },
+    "progress": {
+      "title": "Booking your trip",
+      "status": {
+        "authorising": "Confirming your payment…",
+        "booking": "Booking your trip…",
+        "awaiting_user": "We need a quick decision from you",
+        "capturing": "Finalising your payment…",
+        "completed": "Your trip is booked",
+        "partially_completed": "Your trip is booked, except the items marked below — those aren't charged",
+        "failed": "We couldn't book your trip — your card hold was released",
+        "needs_manual_resolution": "Our team needs to finish your booking",
+        "abandoned": "The payment wasn't completed"
+      },
+      "doneOf": "${done} of ${total} done",
+      "closeable": "You can close this page — we'll email you when everything is confirmed.",
+      "paymentAuthorised": "Payment authorised",
+      "held": "${amount} is held on your card while we book.",
+      "charged": "Charged ${charged} · released ${released}",
+      "itemStatus": {
+        "pending": "Waiting",
+        "held": "Reserved",
+        "booking_started": "Booking…",
+        "booked": "Booked",
+        "awaiting_user": "Needs your decision",
+        "failed": "Not booked",
+        "cancelled": "Cancelled"
+      },
+      "reference": "Reference ${ref}",
+      "payAtProperty": "${amount} to pay at the property or rental desk",
+      "notCharged": "Not charged: released from your card hold.",
+      "failure": {
+        "soldOut": "${title} sold out while we were booking, so we stopped and cancelled everything else.",
+        "declined": "You cancelled when the price of ${title} went up, so we cancelled everything else.",
+        "decisionTimeout": "We didn't hear back about the new price of ${title}, so we cancelled everything else.",
+        "customerData": "The airline or supplier didn't accept the traveller details for ${title}, so we stopped and undid the rest of your booking. Check the travellers' details and try again."
+      },
+      "needsTeam": {
+        "title": "We couldn't finish one of your bookings automatically",
+        "body": "Something went wrong with a supplier, and we couldn't confirm or undo that booking on our own. Our team will sort it out. Nothing more is charged to your card until they do."
+      },
+      "seeDetails": "See booking details",
+      "seeBookings": "See my bookings"
+    },
+    "decision": {
+      "title": "The price of ${title} went up",
+      "deadline": "Please decide by ${date}.",
+      "wasNow": "It was ${before} and is now ${after}.",
+      "accept": "Accept new price",
+      "cancel": "Cancel the booking",
+      "cancelNote": "Cancelling undoes everything already booked for this trip and releases your card hold, except anything a supplier won't cancel."
+    },
+    "topUp": {
+      "title": "Approve the new price",
+      "body": "The new total is ${amount} above your current card hold. Confirm an extra hold for this amount — you're still only charged for what we book.",
+      "hold": "Hold ${amount}",
+      "notNow": "Not now"
+    },
+    "itemDetail": {
+      "stale": "We couldn't load the latest details — here's what we have.",
+      "notFound": "We couldn't find this booking.",
+      "back": "Back to your trip booking"
+    },
+    "cancelItem": {
+      "button": "Cancel this booking",
+      "title": "Cancel ${title}?",
+      "body": "You'll get back ${amount} to your card.",
+      "changed": "The refund is now ${amount}. Do you still want to cancel?",
+      "keep": "Keep booking",
+      "confirm": "Yes, cancel",
+      "nonRefundable": "This booking can't be refunded.",
+      "contactUs": "To cancel this booking, contact us.",
+      "refunded": "Cancelled · ${amount} refunded",
+      "refundPending": "Cancelled · refund on its way",
+      "refundFailed": "Cancelled · we couldn't refund this automatically — our team will contact you.",
+      "inProgress": "Cancellation in progress — check back in a minute.",
+      "refused": "We couldn't cancel this booking. Please try again or contact us."
+    }
   }
 }
