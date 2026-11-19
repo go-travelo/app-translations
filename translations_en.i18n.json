@@ -5016,6 +5016,23 @@
       "transfer": "Your transfer",
       "ticket": "Open ticket"
     },
+    "bookingsTab": {
+      "status": {
+        "authorising": "Confirming payment",
+        "booking": "Booking in progress",
+        "awaiting_user": "Needs your decision",
+        "capturing": "Finalising",
+        "completed": "Booked",
+        "partially_completed": "Partly booked",
+        "failed": "Not booked",
+        "needs_manual_resolution": "With our team",
+        "abandoned": "Not completed"
+      },
+      "countBooked": "$n booked",
+      "countInProgress": "$n in progress",
+      "countNeedsDecision": "$n need your decision",
+      "countNotBooked": "$n not booked"
+    },
     "cancelItem": {
       "button": "Cancel this booking",
       "title": "Cancel ${title}?",
