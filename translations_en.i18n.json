@@ -1873,7 +1873,8 @@
       "support": "Support",
       "app": "App",
       "trips_count": "· $n",
-      "stagingFooter": "Staging · test data"
+      "stagingFooter": "Staging · test data",
+      "saved_trips": "Saved trips"
     }
   },
   "auth": {
@@ -3852,7 +3853,11 @@
     "empty_title": "No invite offers right now",
     "empty_body": "When one is running, it shows up here. Rewards you’ve earned stay in your account.",
     "load_failed_title": "We couldn’t load your credit",
-    "load_failed_body": "Check your connection and try again."
+    "load_failed_body": "Check your connection and try again.",
+    "stamp_created": "created",
+    "row_created_at": "Created ${when}",
+    "created_help": "Not opened yet. If it didn't go out, send it again.",
+    "send_again": "Send again"
   },
   "discover": {
     "for_you": "For you",
@@ -3976,6 +3981,99 @@
         "route": "Osaka → Miyajima → Kyoto → Tokyo",
         "intro": "Osaka's street food and neon, the floating torii of Miyajima, five slow days among Kyoto's temples and tea houses, then Tokyo from Senso-ji to Shibuya."
       }
+    },
+    "feed": {
+      "saved_trips": "Saved trips",
+      "map_view": "Map view",
+      "grid_view": "Grid view",
+      "save": "Save",
+      "saved": "Saved",
+      "save_failed": "We couldn't save this trip. Try again.",
+      "unsave_failed": "We couldn't remove this trip. Try again.",
+      "per_person": "per person",
+      "because_you_saved": "Because you saved ${title}",
+      "creators": "Creators",
+      "creator_trips": {
+        "one": "${n} trip",
+        "other": "${n} trips"
+      },
+      "load_failed": "We couldn't load trips right now.",
+      "retry": "Try again"
+    },
+    "trip": {
+      "back": "Back",
+      "share": "Share",
+      "creator": "Creator",
+      "days_fact": "Days",
+      "places_fact": "Places",
+      "hotels_fact": "Hotels",
+      "nights": {
+        "one": "${n} night",
+        "other": "${n} nights"
+      },
+      "place_range": "${from} to ${to}",
+      "guest_rating": "Guest rating",
+      "your_route": "Your route",
+      "all_days": "All ${n} days",
+      "day_city": "Day ${n} · ${city}",
+      "experiences": {
+        "one": "${n} experience",
+        "other": "${n} experiences"
+      },
+      "price_note": "per person · no fees",
+      "personalise": "Personalise this trip",
+      "plan_prompt": "Plan a trip for me like “${trip}”: ${days}, ${route}. Keep the same route and pace, with hotels and activities for each stop.",
+      "share_text": "Look at this trip on Layla: ${title}",
+      "unavailable": "This trip isn't available right now."
+    },
+    "saved": {
+      "title": "Saved trips",
+      "create_list": "Create a new list",
+      "your_lists": "Your lists",
+      "shared_with_you": "Shared with you",
+      "all_saved": "All saved",
+      "trips_saved": {
+        "one": "${n} trip saved",
+        "other": "${n} trips saved"
+      },
+      "empty": "Nothing saved yet. Tap the heart on any trip to keep it here.",
+      "discover": "Discover",
+      "made_by": "Made by ${name}",
+      "someone": "A traveller",
+      "people_on_list": "People on this list",
+      "more_options": "More options",
+      "owner": "Owner",
+      "invite": "Invite",
+      "add_trips": "Add trips",
+      "rename": "Rename",
+      "delete_list": "Delete list",
+      "leave_list": "Leave list",
+      "delete_title": "Delete this list?",
+      "delete_body": "Trips you saved stay saved. Anyone you shared it with loses it, and its link stops working.",
+      "leave_title": "Leave this list?",
+      "leave_body": "You lose access to “${name}”, and your votes and notes are removed.",
+      "gone": "This list is no longer shared with you.",
+      "gone_own": "This list was deleted.",
+      "group_favourite": "Group favourite",
+      "list_empty": "No trips on this list yet.",
+      "nothing_to_add": "Save a trip with the heart first, then add it here.",
+      "new_list_title": "Create a list",
+      "rename_title": "Rename list",
+      "name_hint": "Name",
+      "create": "Create",
+      "save": "Save",
+      "done": "Done",
+      "cancel": "Cancel",
+      "action_failed": "That didn't work. Try again.",
+      "invite_title": "Plan it ${accent}.",
+      "invite_accent": "together",
+      "invite_body": "Invite the people you're going with to add trips.",
+      "invite_hint": "Anyone with the link can join once they sign in.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "share": "Share",
+      "invite_failed": "We couldn't make the link. Try again.",
+      "invite_message": "Join my list “${name}” on Layla: ${url}"
     }
   },
   "carBooking": {
@@ -5145,5 +5243,97 @@
     "terms_first": "first booking only",
     "terms_one_code": "one code per booking",
     "terms_not_combinable": "not combinable with other promotions"
+  },
+  "credit_wallet": {
+    "card_label": "Your rewards",
+    "card_empty": "Rewards land here when a friend books.",
+    "card_rewards(plural)": {
+      "one": "${n} reward, for one booking",
+      "other": "${n} rewards, one per booking"
+    },
+    "card_ready(plural)": {
+      "one": "${n} reward ready, ${coming} on the way",
+      "other": "${n} rewards ready, ${coming} on the way"
+    },
+    "card_first_pending": "${name} booked. ${amount} is on the way.",
+    "card_first_pending_unnamed": "A friend booked. ${amount} is on the way.",
+    "card_use_by": "${amount} to use by ${date}",
+    "always_on": "Always on",
+    "name_always_on": "${name} · always on",
+    "kicker_ends": "${name} · ends ${date}",
+    "ends_alone": "Ends ${date}",
+    "row_until": "${name} · until ${date}",
+    "until_alone": "Until ${date}",
+    "first_trip_from": "First trip from ${minimum}",
+    "any_trip_from": "Any trip from ${minimum}",
+    "more_offers": "More offers",
+    "ended_title": "${name} ended ${date}",
+    "ended_title_unnamed": "This offer ended ${date}",
+    "ended_body": "Rewards already earned keep their use-by date.",
+    "empty_title": "No invite offers right now",
+    "empty_body": "When one is running, it shows up here.",
+    "copy_code": "Copy code",
+    "code_copied": "Code copied",
+    "invite": "Invite a friend",
+    "dock_for": "${name} · ${offer}",
+    "invite_message": "Here's ${amount} off your first trip with Layla.",
+    "rewards_title": "Rewards",
+    "rewards_lead": "One per booking, entered at checkout.",
+    "rewards_none": "No rewards yet. One lands each time a friend books.",
+    "reward_booked": "${name} booked · use by ${date}",
+    "reward_from": "From ${name} · use by ${date}",
+    "reward_use_by": "Use by ${date}",
+    "reward_booked_no_date": "${name} booked",
+    "reward_no_date": "No use-by date",
+    "reward_days_left(plural)": {
+      "one": "Use by ${date} · ${n} day left",
+      "other": "Use by ${date} · ${n} days left"
+    },
+    "reward_on_way": "${name} booked · on the way",
+    "reward_on_way_unnamed": "A friend booked · on the way",
+    "your_circle": "Your circle",
+    "circle_booked(plural, param=booked)": {
+      "one": "${booked} of ${total} friends booked",
+      "other": "${booked} of ${total} friends booked"
+    },
+    "invites_out(plural)": {
+      "one": "${n} invite out",
+      "other": "${n} invites out"
+    },
+    "used_expired": "Used and expired",
+    "hist_used": "Used ${date}",
+    "hist_expired": "Expired ${date}",
+    "hist_withdrawn": "Withdrawn ${date}",
+    "hist_converted": "Converted ${date}",
+    "circle_lead(plural, param=booked)": {
+      "one": "${booked} of ${total} friends booked.",
+      "other": "${booked} of ${total} friends booked."
+    },
+    "circle_lead_waiting(plural)": {
+      "one": "${n} invite out. A reward lands when a friend books.",
+      "other": "${n} invites out. A reward lands when a friend books."
+    },
+    "friend_booked_earned": "Booked ${date} · reward earned",
+    "friend_booked": "Booked ${date}",
+    "friend_joined": "Joined ${date} · not booked yet",
+    "friend_opened": "Opened ${date} · not joined yet",
+    "friend_created": "Created ${date}",
+    "how_and_terms": "How it works and terms",
+    "terms": "Terms",
+    "make_postcard": "Make it a postcard",
+    "how_share": "Share your code or link. Friends get ${amount} off their first trip from ${minimum}.",
+    "how_book": "When a friend books, ${reward} lands in your Rewards.",
+    "how_book_by": "When a friend books by ${date}, ${reward} lands in your Rewards.",
+    "how_use": "Use it at checkout. One reward per booking.",
+    "load_error_title": "Couldn't load your credit",
+    "load_error_body": "Your rewards are safe. Try again in a moment.",
+    "loading": "Loading your credit",
+    "try_again": "Try again",
+    "offline_today": "Offline · saved today ${time}",
+    "offline_on": "Offline · saved ${date}",
+    "refreshing": "Refreshing",
+    "reward_last_day": "Use by ${date} · last day",
+    "nudged_just_now": "Nudged just now",
+    "not_opened_yet": "Not opened yet"
   }
 }

@@ -1873,7 +1873,8 @@
       "support": "Support",
       "app": "App",
       "trips_count": "· $n",
-      "stagingFooter": "Staging · testdata"
+      "stagingFooter": "Staging · testdata",
+      "saved_trips": "Bewaarde reizen"
     }
   },
   "auth": {
@@ -4185,7 +4186,11 @@
     "empty_title": "Er loopt nu geen uitnodigingsactie",
     "empty_body": "Zodra er een loopt, zie je die hier. Verdiende beloningen blijven op je account staan.",
     "load_failed_title": "We konden je tegoed niet laden",
-    "load_failed_body": "Controleer je verbinding en probeer het opnieuw."
+    "load_failed_body": "Controleer je verbinding en probeer het opnieuw.",
+    "stamp_created": "aangemaakt",
+    "row_created_at": "Aangemaakt ${when}",
+    "created_help": "Nog niet geopend. Niet verstuurd? Stuur hem dan opnieuw.",
+    "send_again": "Opnieuw sturen"
   },
   "discover": {
     "for_you": "Voor jou",
@@ -4309,6 +4314,99 @@
         "route": "Osaka → Miyajima → Kioto → Tokio",
         "intro": "Streetfood en neon in Osaka, de drijvende torii van Miyajima, vijf trage dagen tussen de tempels en theehuizen van Kioto, en dan Tokio van Senso-ji tot Shibuya."
       }
+    },
+    "feed": {
+      "saved_trips": "Bewaarde reizen",
+      "map_view": "Kaartweergave",
+      "grid_view": "Rasterweergave",
+      "save": "Bewaren",
+      "saved": "Bewaard",
+      "save_failed": "Deze reis kon niet worden bewaard. Probeer het opnieuw.",
+      "unsave_failed": "Deze reis kon niet worden verwijderd. Probeer het opnieuw.",
+      "per_person": "per persoon",
+      "because_you_saved": "Omdat je ${title} hebt bewaard",
+      "creators": "Makers",
+      "creator_trips": {
+        "one": "${n} reis",
+        "other": "${n} reizen"
+      },
+      "load_failed": "De reizen kunnen nu even niet worden geladen.",
+      "retry": "Opnieuw proberen"
+    },
+    "trip": {
+      "back": "Terug",
+      "share": "Delen",
+      "creator": "Maker",
+      "days_fact": "Dagen",
+      "places_fact": "Plekken",
+      "hotels_fact": "Hotels",
+      "nights": {
+        "one": "${n} nacht",
+        "other": "${n} nachten"
+      },
+      "place_range": "${from} tot ${to}",
+      "guest_rating": "Gastbeoordeling",
+      "your_route": "Jouw route",
+      "all_days": "Alle ${n} dagen",
+      "day_city": "Dag ${n} · ${city}",
+      "experiences": {
+        "one": "${n} activiteit",
+        "other": "${n} activiteiten"
+      },
+      "price_note": "per persoon · geen kosten",
+      "personalise": "Deze reis aanpassen",
+      "plan_prompt": "Plan voor mij een reis zoals \"${trip}\": ${days}, ${route}. Houd dezelfde route en hetzelfde tempo aan, met hotels en activiteiten voor elke stop.",
+      "share_text": "Bekijk deze reis op Layla: ${title}",
+      "unavailable": "Deze reis is nu even niet beschikbaar."
+    },
+    "saved": {
+      "title": "Bewaarde reizen",
+      "create_list": "Nieuwe lijst maken",
+      "your_lists": "Jouw lijsten",
+      "shared_with_you": "Met je gedeeld",
+      "all_saved": "Alles wat je bewaarde",
+      "trips_saved": {
+        "one": "${n} reis bewaard",
+        "other": "${n} reizen bewaard"
+      },
+      "empty": "Nog niets bewaard. Tik op het hartje bij een reis om hem hier te bewaren.",
+      "discover": "Ontdekken",
+      "made_by": "Gemaakt door ${name}",
+      "someone": "Een reiziger",
+      "people_on_list": "Mensen op deze lijst",
+      "more_options": "Meer opties",
+      "owner": "Maker",
+      "invite": "Uitnodigen",
+      "add_trips": "Reizen toevoegen",
+      "rename": "Naam wijzigen",
+      "delete_list": "Lijst verwijderen",
+      "leave_list": "Lijst verlaten",
+      "delete_title": "Deze lijst verwijderen?",
+      "delete_body": "Je bewaarde reizen blijven bewaard. Iedereen met wie je de lijst hebt gedeeld, raakt hem kwijt en de link werkt niet meer.",
+      "leave_title": "Deze lijst verlaten?",
+      "leave_body": "Je hebt dan geen toegang meer tot \"${name}\" en je stemmen en notities worden verwijderd.",
+      "gone": "Deze lijst wordt niet meer met je gedeeld.",
+      "gone_own": "Deze lijst is verwijderd.",
+      "group_favourite": "Groepsfavoriet",
+      "list_empty": "Nog geen reizen op deze lijst.",
+      "nothing_to_add": "Bewaar eerst een reis met het hartje en voeg hem dan hier toe.",
+      "new_list_title": "Lijst maken",
+      "rename_title": "Lijst hernoemen",
+      "name_hint": "Naam",
+      "create": "Maken",
+      "save": "Opslaan",
+      "done": "Klaar",
+      "cancel": "Annuleren",
+      "action_failed": "Dat lukte niet. Probeer het opnieuw.",
+      "invite_title": "${accent} plannen.",
+      "invite_accent": "Samen",
+      "invite_body": "Nodig je reisgenoten uit om reizen toe te voegen.",
+      "invite_hint": "Iedereen met de link kan meedoen zodra ze zijn ingelogd.",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd",
+      "share": "Delen",
+      "invite_failed": "De link kon niet worden gemaakt. Probeer het opnieuw.",
+      "invite_message": "Doe mee met mijn lijst \"${name}\" op Layla: ${url}"
     }
   },
   "states": {
@@ -4880,5 +4978,97 @@
     "terms_first": "alleen de eerste boeking",
     "terms_one_code": "één code per boeking",
     "terms_not_combinable": "niet te combineren met andere acties"
+  },
+  "credit_wallet": {
+    "card_label": "Je beloningen",
+    "card_empty": "Beloningen komen hier zodra een vriend boekt.",
+    "card_rewards(plural)": {
+      "one": "${n} beloning, voor één boeking",
+      "other": "${n} beloningen, één per boeking"
+    },
+    "card_ready(plural)": {
+      "one": "${n} beloning klaar, ${coming} onderweg",
+      "other": "${n} beloningen klaar, ${coming} onderweg"
+    },
+    "card_first_pending": "${name} heeft geboekt. ${amount} is onderweg.",
+    "card_first_pending_unnamed": "Een vriend heeft geboekt. ${amount} is onderweg.",
+    "card_use_by": "${amount} te gebruiken vóór ${date}",
+    "always_on": "Altijd actief",
+    "name_always_on": "${name} · altijd actief",
+    "kicker_ends": "${name} · loopt tot ${date}",
+    "ends_alone": "Loopt tot ${date}",
+    "row_until": "${name} · tot ${date}",
+    "until_alone": "Tot ${date}",
+    "first_trip_from": "Eerste reis vanaf ${minimum}",
+    "any_trip_from": "Elke reis vanaf ${minimum}",
+    "more_offers": "Meer aanbiedingen",
+    "ended_title": "${name} is op ${date} afgelopen",
+    "ended_title_unnamed": "Deze aanbieding is op ${date} afgelopen",
+    "ended_body": "Beloningen die je al hebt verdiend, houden hun vervaldatum.",
+    "empty_title": "Op dit moment geen uitnodigingsaanbiedingen",
+    "empty_body": "Zodra er een loopt, zie je die hier.",
+    "copy_code": "Code kopiëren",
+    "code_copied": "Code gekopieerd",
+    "invite": "Nodig een vriend uit",
+    "dock_for": "${name} · ${offer}",
+    "invite_message": "Hier is ${amount} korting op je eerste reis met Layla.",
+    "rewards_title": "Beloningen",
+    "rewards_lead": "Eén per boeking, in te vullen bij het afrekenen.",
+    "rewards_none": "Nog geen beloningen. Elke keer dat een vriend boekt, krijg je er een.",
+    "reward_booked": "${name} heeft geboekt · gebruiken vóór ${date}",
+    "reward_from": "Van ${name} · gebruiken vóór ${date}",
+    "reward_use_by": "Gebruiken vóór ${date}",
+    "reward_booked_no_date": "${name} heeft geboekt",
+    "reward_no_date": "Geen vervaldatum",
+    "reward_days_left(plural)": {
+      "one": "Gebruiken vóór ${date} · nog ${n} dag",
+      "other": "Gebruiken vóór ${date} · nog ${n} dagen"
+    },
+    "reward_on_way": "${name} heeft geboekt · onderweg",
+    "reward_on_way_unnamed": "Een vriend heeft geboekt · onderweg",
+    "your_circle": "Jouw kring",
+    "circle_booked(plural, param=booked)": {
+      "one": "${booked} van ${total} vrienden heeft geboekt",
+      "other": "${booked} van ${total} vrienden hebben geboekt"
+    },
+    "invites_out(plural)": {
+      "one": "${n} uitnodiging open",
+      "other": "${n} uitnodigingen open"
+    },
+    "used_expired": "Gebruikt en verlopen",
+    "hist_used": "Gebruikt op ${date}",
+    "hist_expired": "Verlopen op ${date}",
+    "hist_withdrawn": "Ingetrokken op ${date}",
+    "hist_converted": "Omgezet op ${date}",
+    "circle_lead(plural, param=booked)": {
+      "one": "${booked} van ${total} vrienden heeft geboekt.",
+      "other": "${booked} van ${total} vrienden hebben geboekt."
+    },
+    "circle_lead_waiting(plural)": {
+      "one": "${n} uitnodiging open. Een beloning komt zodra een vriend boekt.",
+      "other": "${n} uitnodigingen open. Een beloning komt zodra een vriend boekt."
+    },
+    "friend_booked_earned": "Geboekt op ${date} · beloning verdiend",
+    "friend_booked": "Geboekt op ${date}",
+    "friend_joined": "Lid sinds ${date} · nog niet geboekt",
+    "friend_opened": "Geopend op ${date} · nog geen lid",
+    "friend_created": "Aangemaakt op ${date}",
+    "how_and_terms": "Uitleg en voorwaarden",
+    "terms": "Voorwaarden",
+    "make_postcard": "Maak er een ansichtkaart van",
+    "how_share": "Deel je code of link. Vrienden krijgen ${amount} korting op hun eerste reis vanaf ${minimum}.",
+    "how_book": "Boekt een vriend, dan komt ${reward} bij je beloningen.",
+    "how_book_by": "Boekt een vriend vóór ${date}, dan komt ${reward} bij je beloningen.",
+    "how_use": "Gebruik hem bij het afrekenen. Eén beloning per boeking.",
+    "load_error_title": "Je tegoed kon niet worden geladen",
+    "load_error_body": "Je beloningen zijn veilig. Probeer het zo opnieuw.",
+    "loading": "Je tegoed wordt geladen",
+    "try_again": "Opnieuw proberen",
+    "offline_today": "Offline · vandaag om ${time} opgeslagen",
+    "offline_on": "Offline · opgeslagen op ${date}",
+    "refreshing": "Vernieuwen",
+    "reward_last_day": "Gebruiken vóór ${date} · laatste dag",
+    "nudged_just_now": "Net een seintje gestuurd",
+    "not_opened_yet": "Nog niet geopend"
   }
 }

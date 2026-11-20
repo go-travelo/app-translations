@@ -1929,7 +1929,8 @@
       "support": "תמיכה",
       "app": "אפליקציה",
       "trips_count": "· $n",
-      "stagingFooter": "סביבת בדיקות · נתוני בדיקה"
+      "stagingFooter": "סביבת בדיקות · נתוני בדיקה",
+      "saved_trips": "טיולים שמורים"
     }
   },
   "auth": {
@@ -4358,7 +4359,11 @@
     "empty_title": "אין כרגע מבצעי הזמנה",
     "empty_body": "כשיהיה מבצע פעיל, הוא יופיע כאן. ההטבות שצברת נשארות בחשבון שלך.",
     "load_failed_title": "לא הצלחנו לטעון את הקרדיט שלך",
-    "load_failed_body": "כדאי לבדוק את החיבור ולנסות שוב."
+    "load_failed_body": "כדאי לבדוק את החיבור ולנסות שוב.",
+    "stamp_created": "נוצרה",
+    "row_created_at": "נוצרה ${when}",
+    "created_help": "עדיין לא נפתחה. אם היא לא יצאה, אפשר לשלוח אותה שוב.",
+    "send_again": "לשלוח שוב"
   },
   "discover": {
     "for_you": "בשבילך",
@@ -4484,6 +4489,103 @@
         "route": "אוסקה → מיאג'ימה → קיוטו → טוקיו",
         "intro": "אוכל רחוב וניאון באוסקה, שער הטורי הצף של מיאג'ימה, חמישה ימים רגועים בין המקדשים ובתי התה של קיוטו, ואז טוקיו מסנסו-ג'י ועד שיבויה."
       }
+    },
+    "feed": {
+      "saved_trips": "טיולים שמורים",
+      "map_view": "תצוגת מפה",
+      "grid_view": "תצוגת רשת",
+      "save": "שמירה",
+      "saved": "נשמר",
+      "save_failed": "לא הצלחנו לשמור את הטיול. כדאי לנסות שוב.",
+      "unsave_failed": "לא הצלחנו להסיר את הטיול. כדאי לנסות שוב.",
+      "per_person": "לאדם",
+      "because_you_saved": "כי שמרתם את ${title}",
+      "creators": "יוצרים",
+      "creator_trips": {
+        "one": "טיול אחד",
+        "two": "שני טיולים",
+        "other": "${n} טיולים"
+      },
+      "load_failed": "לא הצלחנו לטעון טיולים כרגע.",
+      "retry": "לנסות שוב"
+    },
+    "trip": {
+      "back": "חזרה",
+      "share": "שיתוף",
+      "creator": "יוצר/ת",
+      "days_fact": "ימים",
+      "places_fact": "יעדים",
+      "hotels_fact": "מלונות",
+      "nights": {
+        "one": "לילה אחד",
+        "two": "שני לילות",
+        "other": "${n} לילות"
+      },
+      "place_range": "מ${from} עד ${to}",
+      "guest_rating": "דירוג אורחים",
+      "your_route": "המסלול שלכם",
+      "all_days": "כל ${n} הימים",
+      "day_city": "יום ${n} · ${city}",
+      "experiences": {
+        "one": "חוויה אחת",
+        "two": "שתי חוויות",
+        "other": "${n} חוויות"
+      },
+      "price_note": "לאדם · בלי עמלות",
+      "personalise": "להתאים את הטיול אליי",
+      "plan_prompt": "תתכנני לי טיול כמו \"${trip}\": ${days}, ${route}. עם אותו מסלול ואותו קצב, ומלונות ופעילויות בכל עצירה.",
+      "share_text": "תראו את הטיול הזה ב-Layla: ${title}",
+      "unavailable": "הטיול הזה לא זמין כרגע."
+    },
+    "saved": {
+      "title": "טיולים שמורים",
+      "create_list": "יצירת רשימה חדשה",
+      "your_lists": "הרשימות שלכם",
+      "shared_with_you": "שותפו איתכם",
+      "all_saved": "כל מה ששמרתם",
+      "trips_saved": {
+        "one": "טיול שמור אחד",
+        "two": "שני טיולים שמורים",
+        "other": "${n} טיולים שמורים"
+      },
+      "empty": "עוד לא שמרתם כלום. הקישו על הלב בכל טיול כדי לשמור אותו כאן.",
+      "discover": "גילוי",
+      "made_by": "נוצרה על ידי ${name}",
+      "someone": "מטייל/ת",
+      "people_on_list": "האנשים ברשימה",
+      "more_options": "אפשרויות נוספות",
+      "owner": "יוצר/ת",
+      "invite": "הזמנה",
+      "add_trips": "הוספת טיולים",
+      "rename": "שינוי שם",
+      "delete_list": "מחיקת הרשימה",
+      "leave_list": "יציאה מהרשימה",
+      "delete_title": "למחוק את הרשימה?",
+      "delete_body": "הטיולים ששמרתם נשארים שמורים. הרשימה תיעלם גם אצל מי ששיתפתם איתו, והקישור אליה יפסיק לעבוד.",
+      "leave_title": "לצאת מהרשימה?",
+      "leave_body": "לא תהיה לכם יותר גישה אל \"${name}\", וההצבעות וההערות שלכם יימחקו.",
+      "gone": "הרשימה הזו כבר לא משותפת איתכם.",
+      "gone_own": "הרשימה הזו נמחקה.",
+      "group_favourite": "המועדף של הקבוצה",
+      "list_empty": "אין עדיין טיולים ברשימה הזו.",
+      "nothing_to_add": "קודם שומרים טיול עם הלב, ואז מוסיפים אותו כאן.",
+      "new_list_title": "יצירת רשימה",
+      "rename_title": "שינוי שם הרשימה",
+      "name_hint": "שם",
+      "create": "יצירה",
+      "save": "שמירה",
+      "done": "סיום",
+      "cancel": "ביטול",
+      "action_failed": "זה לא הצליח. כדאי לנסות שוב.",
+      "invite_title": "מתכננים ${accent}.",
+      "invite_accent": "ביחד",
+      "invite_body": "הזמינו את מי שנוסע איתכם להוסיף טיולים.",
+      "invite_hint": "כל מי שיש לו את הקישור יכול להצטרף אחרי שהוא מתחבר.",
+      "copy": "העתקה",
+      "copied": "הועתק",
+      "share": "שיתוף",
+      "invite_failed": "לא הצלחנו ליצור את הקישור. כדאי לנסות שוב.",
+      "invite_message": "הצטרפו לרשימה שלי \"${name}\" ב-Layla: ${url}"
     }
   },
   "states": {
@@ -5066,5 +5168,107 @@
     "terms_first": "להזמנה הראשונה בלבד",
     "terms_one_code": "קוד אחד להזמנה",
     "terms_not_combinable": "לא ניתן לשילוב עם מבצעים אחרים"
+  },
+  "credit_wallet": {
+    "card_label": "התגמולים שלך",
+    "card_empty": "התגמולים מגיעים לכאן כשחבר מזמין.",
+    "card_rewards(plural)": {
+      "one": "תגמול אחד, להזמנה אחת",
+      "two": "${n} תגמולים, אחד לכל הזמנה",
+      "many": "${n} תגמולים, אחד לכל הזמנה",
+      "other": "${n} תגמולים, אחד לכל הזמנה"
+    },
+    "card_ready(plural)": {
+      "one": "תגמול אחד מוכן, ${coming} בדרך",
+      "two": "${n} תגמולים מוכנים, ${coming} בדרך",
+      "many": "${n} תגמולים מוכנים, ${coming} בדרך",
+      "other": "${n} תגמולים מוכנים, ${coming} בדרך"
+    },
+    "card_first_pending": "${name} הזמינו. ${amount} בדרך אליך.",
+    "card_first_pending_unnamed": "חבר הזמין. ${amount} בדרך אליך.",
+    "card_use_by": "${amount} לניצול עד ${date}",
+    "always_on": "תמיד פעיל",
+    "name_always_on": "${name} · תמיד פעיל",
+    "kicker_ends": "${name} · מסתיים ב-${date}",
+    "ends_alone": "מסתיים ב-${date}",
+    "row_until": "${name} · עד ${date}",
+    "until_alone": "עד ${date}",
+    "first_trip_from": "טיול ראשון החל מ-${minimum}",
+    "any_trip_from": "כל טיול החל מ-${minimum}",
+    "more_offers": "הצעות נוספות",
+    "ended_title": "${name} הסתיים ב-${date}",
+    "ended_title_unnamed": "ההצעה הזו הסתיימה ב-${date}",
+    "ended_body": "תגמולים שכבר נצברו שומרים על תאריך התפוגה שלהם.",
+    "empty_title": "אין כרגע הצעות הזמנה",
+    "empty_body": "כשתהיה הצעה פעילה, היא תופיע כאן.",
+    "copy_code": "העתקת הקוד",
+    "code_copied": "הקוד הועתק",
+    "invite": "להזמין חבר",
+    "dock_for": "${name} · ${offer}",
+    "invite_message": "הנה ${amount} הנחה על הטיול הראשון שלך עם Layla.",
+    "rewards_title": "תגמולים",
+    "rewards_lead": "אחד לכל הזמנה, מזינים בתשלום.",
+    "rewards_none": "עדיין אין תגמולים. בכל פעם שחבר מזמין, מגיע תגמול.",
+    "reward_booked": "${name} הזמינו · לניצול עד ${date}",
+    "reward_from": "מ-${name} · לניצול עד ${date}",
+    "reward_use_by": "לניצול עד ${date}",
+    "reward_booked_no_date": "${name} הזמינו",
+    "reward_no_date": "ללא תאריך תפוגה",
+    "reward_days_left(plural)": {
+      "one": "לניצול עד ${date} · נשאר יום אחד",
+      "two": "לניצול עד ${date} · נשארו יומיים",
+      "many": "לניצול עד ${date} · נשארו ${n} ימים",
+      "other": "לניצול עד ${date} · נשארו ${n} ימים"
+    },
+    "reward_on_way": "${name} הזמינו · בדרך",
+    "reward_on_way_unnamed": "חבר הזמין · בדרך",
+    "your_circle": "המעגל שלך",
+    "circle_booked(plural, param=booked)": {
+      "one": "${booked} מתוך ${total} חברים הזמין",
+      "other": "${booked} מתוך ${total} חברים הזמינו"
+    },
+    "invites_out(plural)": {
+      "one": "הזמנה אחת בחוץ",
+      "two": "${n} הזמנות בחוץ",
+      "many": "${n} הזמנות בחוץ",
+      "other": "${n} הזמנות בחוץ"
+    },
+    "used_expired": "מומשו ופגו",
+    "hist_used": "מומש ב-${date}",
+    "hist_expired": "פג ב-${date}",
+    "hist_withdrawn": "בוטל ב-${date}",
+    "hist_converted": "הומר ב-${date}",
+    "circle_lead(plural, param=booked)": {
+      "one": "${booked} מתוך ${total} חברים הזמין.",
+      "other": "${booked} מתוך ${total} חברים הזמינו."
+    },
+    "circle_lead_waiting(plural)": {
+      "one": "הזמנה אחת בחוץ. תגמול מגיע כשחבר מזמין.",
+      "two": "${n} הזמנות בחוץ. תגמול מגיע כשחבר מזמין.",
+      "many": "${n} הזמנות בחוץ. תגמול מגיע כשחבר מזמין.",
+      "other": "${n} הזמנות בחוץ. תגמול מגיע כשחבר מזמין."
+    },
+    "friend_booked_earned": "הזמינו ב-${date} · התגמול נצבר",
+    "friend_booked": "הזמינו ב-${date}",
+    "friend_joined": "הצטרפו ב-${date} · עדיין לא הזמינו",
+    "friend_opened": "נפתחה ב-${date} · עדיין לא הצטרפו",
+    "friend_created": "נוצרה ב-${date}",
+    "how_and_terms": "איך זה עובד ותנאים",
+    "terms": "תנאים",
+    "make_postcard": "להפוך לגלויה",
+    "how_share": "משתפים את הקוד או הקישור. החברים מקבלים ${amount} הנחה על הטיול הראשון החל מ-${minimum}.",
+    "how_book": "כשחבר מזמין, ${reward} מגיעים לתגמולים שלך.",
+    "how_book_by": "כשחבר מזמין עד ${date}, ${reward} מגיעים לתגמולים שלך.",
+    "how_use": "מממשים בתשלום. תגמול אחד לכל הזמנה.",
+    "load_error_title": "לא הצלחנו לטעון את הקרדיט שלך",
+    "load_error_body": "התגמולים שלך שמורים. כדאי לנסות שוב בעוד רגע.",
+    "loading": "טוענים את הקרדיט שלך",
+    "try_again": "לנסות שוב",
+    "offline_today": "לא מחובר · נשמר היום ב-${time}",
+    "offline_on": "לא מחובר · נשמר ב-${date}",
+    "refreshing": "מתעדכן",
+    "reward_last_day": "לניצול עד ${date} · יום אחרון",
+    "nudged_just_now": "נשלחה תזכורת הרגע",
+    "not_opened_yet": "עדיין לא נפתחה"
   }
 }

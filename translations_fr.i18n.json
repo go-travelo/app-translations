@@ -1873,7 +1873,8 @@
       "support": "Assistance",
       "app": "Application",
       "trips_count": "· $n",
-      "stagingFooter": "Staging · données de test"
+      "stagingFooter": "Staging · données de test",
+      "saved_trips": "Voyages enregistrés"
     }
   },
   "auth": {
@@ -4185,7 +4186,11 @@
     "empty_title": "Aucune offre de parrainage en ce moment",
     "empty_body": "Dès qu'une offre sera lancée, elle apparaîtra ici. Tes récompenses restent sur ton compte.",
     "load_failed_title": "Impossible de charger ton crédit",
-    "load_failed_body": "Vérifie ta connexion et réessaie."
+    "load_failed_body": "Vérifie ta connexion et réessaie.",
+    "stamp_created": "créée",
+    "row_created_at": "Créée ${when}",
+    "created_help": "Pas encore ouverte. Si elle n'est pas partie, renvoie-la.",
+    "send_again": "Renvoyer"
   },
   "discover": {
     "for_you": "Pour toi",
@@ -4309,6 +4314,99 @@
         "route": "Osaka → Miyajima → Kyoto → Tokyo",
         "intro": "La street food et les néons d'Osaka, le torii flottant de Miyajima, cinq jours paisibles entre les temples et maisons de thé de Kyoto, puis Tokyo de Senso-ji à Shibuya."
       }
+    },
+    "feed": {
+      "saved_trips": "Voyages enregistrés",
+      "map_view": "Vue carte",
+      "grid_view": "Vue grille",
+      "save": "Enregistrer",
+      "saved": "Enregistré",
+      "save_failed": "Impossible d'enregistrer ce voyage. Réessaie.",
+      "unsave_failed": "Impossible de retirer ce voyage. Réessaie.",
+      "per_person": "par personne",
+      "because_you_saved": "Parce que tu as enregistré ${title}",
+      "creators": "Créateurs",
+      "creator_trips": {
+        "one": "${n} voyage",
+        "other": "${n} voyages"
+      },
+      "load_failed": "Impossible de charger les voyages pour le moment.",
+      "retry": "Réessayer"
+    },
+    "trip": {
+      "back": "Retour",
+      "share": "Partager",
+      "creator": "Créateur",
+      "days_fact": "Jours",
+      "places_fact": "Étapes",
+      "hotels_fact": "Hôtels",
+      "nights": {
+        "one": "${n} nuit",
+        "other": "${n} nuits"
+      },
+      "place_range": "De ${from} à ${to}",
+      "guest_rating": "Note des voyageurs",
+      "your_route": "Ton itinéraire",
+      "all_days": "Les ${n} jours",
+      "day_city": "Jour ${n} · ${city}",
+      "experiences": {
+        "one": "${n} activité",
+        "other": "${n} activités"
+      },
+      "price_note": "par personne · sans frais",
+      "personalise": "Personnaliser ce voyage",
+      "plan_prompt": "Prépare-moi un voyage comme « ${trip} » : ${days}, ${route}. Garde le même itinéraire et le même rythme, avec des hôtels et des activités à chaque étape.",
+      "share_text": "Regarde ce voyage sur Layla : ${title}",
+      "unavailable": "Ce voyage n'est pas disponible pour le moment."
+    },
+    "saved": {
+      "title": "Voyages enregistrés",
+      "create_list": "Créer une liste",
+      "your_lists": "Tes listes",
+      "shared_with_you": "Partagées avec toi",
+      "all_saved": "Tout ce que tu as enregistré",
+      "trips_saved": {
+        "one": "${n} voyage enregistré",
+        "other": "${n} voyages enregistrés"
+      },
+      "empty": "Rien d'enregistré pour l'instant. Touche le cœur d'un voyage pour le garder ici.",
+      "discover": "Découvrir",
+      "made_by": "Créée par ${name}",
+      "someone": "Un voyageur",
+      "people_on_list": "Membres de la liste",
+      "more_options": "Plus d'options",
+      "owner": "Créateur",
+      "invite": "Inviter",
+      "add_trips": "Ajouter des voyages",
+      "rename": "Renommer",
+      "delete_list": "Supprimer la liste",
+      "leave_list": "Quitter la liste",
+      "delete_title": "Supprimer cette liste ?",
+      "delete_body": "Les voyages que tu as enregistrés le restent. Les personnes avec qui tu l'as partagée la perdent, et son lien ne fonctionnera plus.",
+      "leave_title": "Quitter cette liste ?",
+      "leave_body": "Tu n'auras plus accès à « ${name} », et tes votes et notes seront supprimés.",
+      "gone": "Cette liste n'est plus partagée avec toi.",
+      "gone_own": "Cette liste a été supprimée.",
+      "group_favourite": "Favori du groupe",
+      "list_empty": "Aucun voyage dans cette liste pour l'instant.",
+      "nothing_to_add": "Enregistre d'abord un voyage avec le cœur, puis ajoute-le ici.",
+      "new_list_title": "Créer une liste",
+      "rename_title": "Renommer la liste",
+      "name_hint": "Nom",
+      "create": "Créer",
+      "save": "Enregistrer",
+      "done": "OK",
+      "cancel": "Annuler",
+      "action_failed": "Ça n'a pas marché. Réessaie.",
+      "invite_title": "Préparez-le ${accent}.",
+      "invite_accent": "ensemble",
+      "invite_body": "Invite les personnes avec qui tu pars à ajouter des voyages.",
+      "invite_hint": "Toute personne ayant le lien peut rejoindre la liste une fois connectée.",
+      "copy": "Copier",
+      "copied": "Copié",
+      "share": "Partager",
+      "invite_failed": "Impossible de créer le lien. Réessaie.",
+      "invite_message": "Rejoins ma liste « ${name} » sur Layla : ${url}"
     }
   },
   "states": {
@@ -4887,5 +4985,97 @@
     "terms_first": "première réservation uniquement",
     "terms_one_code": "un code par réservation",
     "terms_not_combinable": "non cumulable avec d'autres offres"
+  },
+  "credit_wallet": {
+    "card_label": "Tes récompenses",
+    "card_empty": "Les récompenses arrivent ici quand un ami réserve.",
+    "card_rewards(plural)": {
+      "one": "${n} récompense, pour une réservation",
+      "other": "${n} récompenses, une par réservation"
+    },
+    "card_ready(plural)": {
+      "one": "${n} récompense prête, ${coming} en route",
+      "other": "${n} récompenses prêtes, ${coming} en route"
+    },
+    "card_first_pending": "${name} a réservé. ${amount} sont en route.",
+    "card_first_pending_unnamed": "Un ami a réservé. ${amount} sont en route.",
+    "card_use_by": "${amount} à utiliser avant le ${date}",
+    "always_on": "Toujours active",
+    "name_always_on": "${name} · toujours active",
+    "kicker_ends": "${name} · jusqu'au ${date}",
+    "ends_alone": "Jusqu'au ${date}",
+    "row_until": "${name} · jusqu'au ${date}",
+    "until_alone": "Jusqu'au ${date}",
+    "first_trip_from": "Premier voyage dès ${minimum}",
+    "any_trip_from": "Tout voyage dès ${minimum}",
+    "more_offers": "Autres offres",
+    "ended_title": "${name} s'est terminé le ${date}",
+    "ended_title_unnamed": "Cette offre s'est terminée le ${date}",
+    "ended_body": "Les récompenses déjà gagnées gardent leur date limite.",
+    "empty_title": "Aucune offre de parrainage pour le moment",
+    "empty_body": "Dès qu'une offre est active, elle apparaît ici.",
+    "copy_code": "Copier le code",
+    "code_copied": "Code copié",
+    "invite": "Inviter un ami",
+    "dock_for": "${name} · ${offer}",
+    "invite_message": "Voici ${amount} de réduction sur ton premier voyage avec Layla.",
+    "rewards_title": "Récompenses",
+    "rewards_lead": "Une par réservation, à saisir au paiement.",
+    "rewards_none": "Pas encore de récompense. Tu en reçois une chaque fois qu'un ami réserve.",
+    "reward_booked": "${name} a réservé · à utiliser avant le ${date}",
+    "reward_from": "De ${name} · à utiliser avant le ${date}",
+    "reward_use_by": "À utiliser avant le ${date}",
+    "reward_booked_no_date": "${name} a réservé",
+    "reward_no_date": "Sans date limite",
+    "reward_days_left(plural)": {
+      "one": "À utiliser avant le ${date} · plus que ${n} jour",
+      "other": "À utiliser avant le ${date} · plus que ${n} jours"
+    },
+    "reward_on_way": "${name} a réservé · en route",
+    "reward_on_way_unnamed": "Un ami a réservé · en route",
+    "your_circle": "Ton cercle",
+    "circle_booked(plural, param=booked)": {
+      "one": "${booked} ami sur ${total} a réservé",
+      "other": "${booked} amis sur ${total} ont réservé"
+    },
+    "invites_out(plural)": {
+      "one": "${n} invitation en attente",
+      "other": "${n} invitations en attente"
+    },
+    "used_expired": "Utilisées et expirées",
+    "hist_used": "Utilisée le ${date}",
+    "hist_expired": "Expirée le ${date}",
+    "hist_withdrawn": "Retirée le ${date}",
+    "hist_converted": "Convertie le ${date}",
+    "circle_lead(plural, param=booked)": {
+      "one": "${booked} ami sur ${total} a réservé.",
+      "other": "${booked} amis sur ${total} ont réservé."
+    },
+    "circle_lead_waiting(plural)": {
+      "one": "${n} invitation en attente. Une récompense arrive quand un ami réserve.",
+      "other": "${n} invitations en attente. Une récompense arrive quand un ami réserve."
+    },
+    "friend_booked_earned": "A réservé le ${date} · récompense gagnée",
+    "friend_booked": "A réservé le ${date}",
+    "friend_joined": "Inscrit le ${date} · pas encore réservé",
+    "friend_opened": "Ouverte le ${date} · pas encore inscrit",
+    "friend_created": "Créée le ${date}",
+    "how_and_terms": "Fonctionnement et conditions",
+    "terms": "Conditions",
+    "make_postcard": "En faire une carte postale",
+    "how_share": "Partage ton code ou ton lien. Tes amis ont ${amount} de réduction sur leur premier voyage dès ${minimum}.",
+    "how_book": "Quand un ami réserve, ${reward} arrivent dans tes récompenses.",
+    "how_book_by": "Quand un ami réserve avant le ${date}, ${reward} arrivent dans tes récompenses.",
+    "how_use": "Utilise-la au paiement. Une récompense par réservation.",
+    "load_error_title": "Impossible de charger ton crédit",
+    "load_error_body": "Tes récompenses sont en sécurité. Réessaie dans un instant.",
+    "loading": "Chargement de ton crédit",
+    "try_again": "Réessayer",
+    "offline_today": "Hors ligne · enregistré aujourd'hui à ${time}",
+    "offline_on": "Hors ligne · enregistré le ${date}",
+    "refreshing": "Actualisation",
+    "reward_last_day": "À utiliser avant le ${date} · dernier jour",
+    "nudged_just_now": "Relance envoyée à l'instant",
+    "not_opened_yet": "Pas encore ouverte"
   }
 }
