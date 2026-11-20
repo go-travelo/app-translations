@@ -5321,10 +5321,48 @@
     "how_and_terms": "How it works and terms",
     "terms": "Terms",
     "make_postcard": "Make it a postcard",
-    "how_share": "Share your code or link. Friends get ${amount} off their first trip from ${minimum}.",
-    "how_book": "When a friend books, ${reward} lands in your Rewards.",
-    "how_book_by": "When a friend books by ${date}, ${reward} lands in your Rewards.",
-    "how_use": "Use it at checkout. One reward per booking.",
+    "how_share": "Share your code. Friends get ${amount} off a first trip of ${minimum}+.",
+    "how_book": "When they pay in full, you get ${reward} credit.",
+    "how_book_by": "When they pay in full by ${date}, you get ${reward} credit.",
+    "how_use": "Spend your credit at checkout.",
+    "how_use_by": "Spend your credit at checkout by ${date}.",
+    "how_share_any": "Share your code. Friends get ${amount} off a trip of ${minimum}+.",
+    "offer_terms": {
+      "friend": "Friends get ${amount} off a first booking of ${minimum}+, flights excluded.",
+      "friend_any": "Friends get ${amount} off a booking of ${minimum}+, flights excluded.",
+      "dated": "They must book and pay in full by ${date}.",
+      "valid_until": "Your code is valid until ${date}.",
+      "valid_months(plural, param=months)": {
+        "one": "Your code is valid for ${months} month.",
+        "other": "Your code is valid for ${months} months."
+      },
+      "reward": "You get ${reward} credit per friend who books.",
+      "reward_until": "You get ${reward} credit per friend who books, valid until ${date}.",
+      "reward_months(plural, param=months)": {
+        "one": "You get ${reward} credit per friend who books, valid ${months} month.",
+        "other": "You get ${reward} credit per friend who books, valid ${months} months."
+      },
+      "cap(plural, param=cap)": {
+        "one": "Credit for up to ${cap} friend.",
+        "other": "Credit for up to ${cap} friends."
+      },
+      "combine": "One code or credit per booking, not combinable with other offers.",
+      "not_cash": "Credit has no cash value and can't be transferred.",
+      "refund": "Unused credit is withdrawn if the booking is cancelled or falls below ${minimum}.",
+      "convert(plural, param=months)": {
+        "one": "After ${date}, your code becomes a ${convertAmount} code for first bookings of ${convertMinimum}+ (valid ${months} month from issue).",
+        "other": "After ${date}, your code becomes a ${convertAmount} code for first bookings of ${convertMinimum}+ (valid ${months} months from issue)."
+      },
+      "convert_any(plural, param=months)": {
+        "one": "After ${date}, your code becomes a ${convertAmount} code for bookings of ${convertMinimum}+ (valid ${months} month from issue).",
+        "other": "After ${date}, your code becomes a ${convertAmount} code for bookings of ${convertMinimum}+ (valid ${months} months from issue)."
+      },
+      "convert_credit(plural, param=months)": {
+        "one": "After ${date}, each unused ${reward} credit becomes ${convertReward} (valid ${months} month from issue).",
+        "other": "After ${date}, each unused ${reward} credit becomes ${convertReward} (valid ${months} months from issue)."
+      }
+    },
+    "terms_offer": "These offer details form part of the <terms>Referral Terms</terms>.",
     "load_error_title": "Couldn't load your credit",
     "load_error_body": "Your rewards are safe. Try again in a moment.",
     "loading": "Loading your credit",

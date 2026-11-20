@@ -5056,10 +5056,54 @@
     "how_and_terms": "Come funziona e condizioni",
     "terms": "Condizioni",
     "make_postcard": "Falla diventare una cartolina",
-    "how_share": "Condividi il tuo codice o link. I tuoi amici hanno ${amount} di sconto sul primo viaggio da ${minimum}.",
-    "how_book": "Quando un amico prenota, ${reward} arrivano nei tuoi premi.",
-    "how_book_by": "Quando un amico prenota entro il ${date}, ${reward} arrivano nei tuoi premi.",
-    "how_use": "Usalo al pagamento. Un premio per prenotazione.",
+    "how_share": "Condividi il tuo codice. Chi inviti ha ${amount} di sconto sul primo viaggio da ${minimum} in su.",
+    "how_book": "Quando pagano per intero, ricevi ${reward} di credito.",
+    "how_book_by": "Quando pagano per intero entro il ${date}, ricevi ${reward} di credito.",
+    "how_use": "Usa il tuo credito al pagamento.",
+    "how_use_by": "Usa il tuo credito al pagamento entro il ${date}.",
+    "how_share_any": "Condividi il tuo codice. Chi inviti ha ${amount} di sconto su un viaggio da ${minimum} in su.",
+    "offer_terms": {
+      "friend": "Chi inviti ha ${amount} di sconto sulla prima prenotazione da ${minimum} in su, voli esclusi.",
+      "friend_any": "Chi inviti ha ${amount} di sconto su una prenotazione da ${minimum} in su, voli esclusi.",
+      "dated": "Deve prenotare e pagare per intero entro il ${date}.",
+      "valid_until": "Il tuo codice vale fino al ${date}.",
+      "valid_months(plural, param=months)": {
+        "one": "Il tuo codice vale ${months} mese.",
+        "many": "Il tuo codice vale ${months} mesi.",
+        "other": "Il tuo codice vale ${months} mesi."
+      },
+      "reward": "Ricevi ${reward} di credito per ogni persona che prenota.",
+      "reward_until": "Ricevi ${reward} di credito per ogni persona che prenota, valido fino al ${date}.",
+      "reward_months(plural, param=months)": {
+        "one": "Ricevi ${reward} di credito per ogni persona che prenota, valido ${months} mese.",
+        "many": "Ricevi ${reward} di credito per ogni persona che prenota, valido ${months} mesi.",
+        "other": "Ricevi ${reward} di credito per ogni persona che prenota, valido ${months} mesi."
+      },
+      "cap(plural, param=cap)": {
+        "one": "Credito per ${cap} persona al massimo.",
+        "many": "Credito per ${cap} persone al massimo.",
+        "other": "Credito per ${cap} persone al massimo."
+      },
+      "combine": "Un codice o credito per prenotazione, non cumulabile con altre offerte.",
+      "not_cash": "Il credito non ha valore in denaro e non è trasferibile.",
+      "refund": "Il credito non usato viene ritirato se la prenotazione è cancellata o scende sotto ${minimum}.",
+      "convert(plural, param=months)": {
+        "one": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prime prenotazioni da ${convertMinimum} in su (valido ${months} mese dall'emissione).",
+        "many": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prime prenotazioni da ${convertMinimum} in su (valido ${months} mesi dall'emissione).",
+        "other": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prime prenotazioni da ${convertMinimum} in su (valido ${months} mesi dall'emissione)."
+      },
+      "convert_any(plural, param=months)": {
+        "one": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prenotazioni da ${convertMinimum} in su (valido ${months} mese dall'emissione).",
+        "many": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prenotazioni da ${convertMinimum} in su (valido ${months} mesi dall'emissione).",
+        "other": "Dopo il ${date}, il tuo codice diventa un codice da ${convertAmount} per prenotazioni da ${convertMinimum} in su (valido ${months} mesi dall'emissione)."
+      },
+      "convert_credit(plural, param=months)": {
+        "one": "Dopo il ${date}, ogni credito da ${reward} non usato diventa ${convertReward} (valido ${months} mese dall'emissione).",
+        "many": "Dopo il ${date}, ogni credito da ${reward} non usato diventa ${convertReward} (valido ${months} mesi dall'emissione).",
+        "other": "Dopo il ${date}, ogni credito da ${reward} non usato diventa ${convertReward} (valido ${months} mesi dall'emissione)."
+      }
+    },
+    "terms_offer": "Questi dettagli dell’offerta fanno parte dei <terms>Termini del programma Invita un amico</terms>.",
     "load_error_title": "Impossibile caricare il tuo credito",
     "load_error_body": "I tuoi premi sono al sicuro. Riprova tra poco.",
     "loading": "Caricamento del tuo credito",

@@ -5063,10 +5063,54 @@
     "how_and_terms": "Fonctionnement et conditions",
     "terms": "Conditions",
     "make_postcard": "En faire une carte postale",
-    "how_share": "Partage ton code ou ton lien. Tes amis ont ${amount} de réduction sur leur premier voyage dès ${minimum}.",
-    "how_book": "Quand un ami réserve, ${reward} arrivent dans tes récompenses.",
-    "how_book_by": "Quand un ami réserve avant le ${date}, ${reward} arrivent dans tes récompenses.",
-    "how_use": "Utilise-la au paiement. Une récompense par réservation.",
+    "how_share": "Partage ton code. Tes proches ont ${amount} offerts sur un premier voyage dès ${minimum}.",
+    "how_book": "Quand ils paient en totalité, tu reçois ${reward} de crédit.",
+    "how_book_by": "Quand ils paient en totalité d'ici le ${date}, tu reçois ${reward} de crédit.",
+    "how_use": "Utilise ton crédit au paiement.",
+    "how_use_by": "Utilise ton crédit au paiement d'ici le ${date}.",
+    "how_share_any": "Partage ton code. Tes proches ont ${amount} offerts sur un voyage dès ${minimum}.",
+    "offer_terms": {
+      "friend": "Tes proches ont ${amount} offerts sur une première réservation dès ${minimum}, hors vols.",
+      "friend_any": "Tes proches ont ${amount} offerts sur une réservation dès ${minimum}, hors vols.",
+      "dated": "Ils doivent réserver et payer en totalité d'ici le ${date}.",
+      "valid_until": "Ton code est valable jusqu'au ${date}.",
+      "valid_months(plural, param=months)": {
+        "one": "Ton code est valable ${months} mois.",
+        "many": "Ton code est valable ${months} mois.",
+        "other": "Ton code est valable ${months} mois."
+      },
+      "reward": "Tu reçois ${reward} de crédit par proche qui réserve.",
+      "reward_until": "Tu reçois ${reward} de crédit par proche qui réserve, valable jusqu'au ${date}.",
+      "reward_months(plural, param=months)": {
+        "one": "Tu reçois ${reward} de crédit par proche qui réserve, valable ${months} mois.",
+        "many": "Tu reçois ${reward} de crédit par proche qui réserve, valable ${months} mois.",
+        "other": "Tu reçois ${reward} de crédit par proche qui réserve, valable ${months} mois."
+      },
+      "cap(plural, param=cap)": {
+        "one": "Crédit pour ${cap} proche au maximum.",
+        "many": "Crédit pour ${cap} proches au maximum.",
+        "other": "Crédit pour ${cap} proches au maximum."
+      },
+      "combine": "Un code ou crédit par réservation, non cumulable avec d'autres offres.",
+      "not_cash": "Le crédit n'a aucune valeur monétaire et n'est pas transférable.",
+      "refund": "Le crédit non utilisé est retiré si la réservation est annulée ou passe sous ${minimum}.",
+      "convert(plural, param=months)": {
+        "one": "Après le ${date}, ton code devient un code de ${convertAmount} pour les premières réservations dès ${convertMinimum} (valable ${months} mois après émission).",
+        "many": "Après le ${date}, ton code devient un code de ${convertAmount} pour les premières réservations dès ${convertMinimum} (valable ${months} mois après émission).",
+        "other": "Après le ${date}, ton code devient un code de ${convertAmount} pour les premières réservations dès ${convertMinimum} (valable ${months} mois après émission)."
+      },
+      "convert_any(plural, param=months)": {
+        "one": "Après le ${date}, ton code devient un code de ${convertAmount} pour les réservations dès ${convertMinimum} (valable ${months} mois après émission).",
+        "many": "Après le ${date}, ton code devient un code de ${convertAmount} pour les réservations dès ${convertMinimum} (valable ${months} mois après émission).",
+        "other": "Après le ${date}, ton code devient un code de ${convertAmount} pour les réservations dès ${convertMinimum} (valable ${months} mois après émission)."
+      },
+      "convert_credit(plural, param=months)": {
+        "one": "Après le ${date}, chaque crédit de ${reward} non utilisé devient ${convertReward} (valable ${months} mois après émission).",
+        "many": "Après le ${date}, chaque crédit de ${reward} non utilisé devient ${convertReward} (valable ${months} mois après émission).",
+        "other": "Après le ${date}, chaque crédit de ${reward} non utilisé devient ${convertReward} (valable ${months} mois après émission)."
+      }
+    },
+    "terms_offer": "Ces détails de l’offre font partie des <terms>Conditions du programme de parrainage</terms>.",
     "load_error_title": "Impossible de charger ton crédit",
     "load_error_body": "Tes récompenses sont en sécurité. Réessaie dans un instant.",
     "loading": "Chargement de ton crédit",

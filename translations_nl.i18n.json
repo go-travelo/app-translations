@@ -5056,10 +5056,48 @@
     "how_and_terms": "Uitleg en voorwaarden",
     "terms": "Voorwaarden",
     "make_postcard": "Maak er een ansichtkaart van",
-    "how_share": "Deel je code of link. Vrienden krijgen ${amount} korting op hun eerste reis vanaf ${minimum}.",
-    "how_book": "Boekt een vriend, dan komt ${reward} bij je beloningen.",
-    "how_book_by": "Boekt een vriend vóór ${date}, dan komt ${reward} bij je beloningen.",
-    "how_use": "Gebruik hem bij het afrekenen. Eén beloning per boeking.",
+    "how_share": "Deel je code. Vrienden krijgen ${amount} korting op een eerste reis vanaf ${minimum}.",
+    "how_book": "Zodra ze volledig betalen, krijg je ${reward} tegoed.",
+    "how_book_by": "Zodra ze uiterlijk ${date} volledig betalen, krijg je ${reward} tegoed.",
+    "how_use": "Gebruik je tegoed bij het afrekenen.",
+    "how_use_by": "Gebruik je tegoed uiterlijk ${date} bij het afrekenen.",
+    "how_share_any": "Deel je code. Vrienden krijgen ${amount} korting op een reis vanaf ${minimum}.",
+    "offer_terms": {
+      "friend": "Vrienden krijgen ${amount} korting op een eerste boeking vanaf ${minimum}, zonder vluchten.",
+      "friend_any": "Vrienden krijgen ${amount} korting op een boeking vanaf ${minimum}, zonder vluchten.",
+      "dated": "Ze moeten uiterlijk ${date} boeken en volledig betalen.",
+      "valid_until": "Je code is geldig tot en met ${date}.",
+      "valid_months(plural, param=months)": {
+        "one": "Je code is ${months} maand geldig.",
+        "other": "Je code is ${months} maanden geldig."
+      },
+      "reward": "Je krijgt ${reward} tegoed per vriend die boekt.",
+      "reward_until": "Je krijgt ${reward} tegoed per vriend die boekt, geldig tot en met ${date}.",
+      "reward_months(plural, param=months)": {
+        "one": "Je krijgt ${reward} tegoed per vriend die boekt, ${months} maand geldig.",
+        "other": "Je krijgt ${reward} tegoed per vriend die boekt, ${months} maanden geldig."
+      },
+      "cap(plural, param=cap)": {
+        "one": "Tegoed voor maximaal ${cap} vriend.",
+        "other": "Tegoed voor maximaal ${cap} vrienden."
+      },
+      "combine": "Eén code of tegoed per boeking, niet te combineren met andere acties.",
+      "not_cash": "Tegoed heeft geen geldwaarde en is niet overdraagbaar.",
+      "refund": "Ongebruikt tegoed vervalt als de boeking wordt geannuleerd of onder ${minimum} zakt.",
+      "convert(plural, param=months)": {
+        "one": "Na ${date} wordt je code een code van ${convertAmount} voor eerste boekingen vanaf ${convertMinimum} (${months} maand geldig vanaf uitgifte).",
+        "other": "Na ${date} wordt je code een code van ${convertAmount} voor eerste boekingen vanaf ${convertMinimum} (${months} maanden geldig vanaf uitgifte)."
+      },
+      "convert_any(plural, param=months)": {
+        "one": "Na ${date} wordt je code een code van ${convertAmount} voor boekingen vanaf ${convertMinimum} (${months} maand geldig vanaf uitgifte).",
+        "other": "Na ${date} wordt je code een code van ${convertAmount} voor boekingen vanaf ${convertMinimum} (${months} maanden geldig vanaf uitgifte)."
+      },
+      "convert_credit(plural, param=months)": {
+        "one": "Na ${date} wordt elk ongebruikt tegoed van ${reward} omgezet in ${convertReward} (${months} maand geldig vanaf uitgifte).",
+        "other": "Na ${date} wordt elk ongebruikt tegoed van ${reward} omgezet in ${convertReward} (${months} maanden geldig vanaf uitgifte)."
+      }
+    },
+    "terms_offer": "Deze details van de actie maken deel uit van de <terms>Voorwaarden van het vriendenprogramma</terms>.",
     "load_error_title": "Je tegoed kon niet worden geladen",
     "load_error_body": "Je beloningen zijn veilig. Probeer het zo opnieuw.",
     "loading": "Je tegoed wordt geladen",

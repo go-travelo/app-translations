@@ -5056,10 +5056,48 @@
     "how_and_terms": "Ablauf und Bedingungen",
     "terms": "Bedingungen",
     "make_postcard": "Als Postkarte schicken",
-    "how_share": "Teil deinen Code oder Link. Freunde bekommen ${amount} Rabatt auf ihre erste Reise ab ${minimum}.",
-    "how_book": "Bucht ein Freund, landen ${reward} in deinen Prämien.",
-    "how_book_by": "Bucht ein Freund bis ${date}, landen ${reward} in deinen Prämien.",
-    "how_use": "Lös sie an der Kasse ein. Eine Prämie pro Buchung.",
+    "how_share": "Teile deinen Code. Freunde bekommen ${amount} Rabatt auf die erste Reise ab ${minimum}.",
+    "how_book": "Sobald sie vollständig bezahlen, bekommst du ${reward} Guthaben.",
+    "how_book_by": "Sobald sie bis zum ${date} vollständig bezahlen, bekommst du ${reward} Guthaben.",
+    "how_use": "Löse dein Guthaben beim Bezahlen ein.",
+    "how_use_by": "Löse dein Guthaben bis zum ${date} beim Bezahlen ein.",
+    "how_share_any": "Teile deinen Code. Freunde bekommen ${amount} Rabatt auf eine Reise ab ${minimum}.",
+    "offer_terms": {
+      "friend": "Freunde bekommen ${amount} Rabatt auf die erste Buchung ab ${minimum}, ohne Flüge.",
+      "friend_any": "Freunde bekommen ${amount} Rabatt auf eine Buchung ab ${minimum}, ohne Flüge.",
+      "dated": "Deine Freunde müssen bis zum ${date} buchen und vollständig bezahlen.",
+      "valid_until": "Dein Code ist gültig bis ${date}.",
+      "valid_months(plural, param=months)": {
+        "one": "Dein Code ist ${months} Monat gültig.",
+        "other": "Dein Code ist ${months} Monate gültig."
+      },
+      "reward": "Du bekommst ${reward} Guthaben pro Person, die bucht.",
+      "reward_until": "Du bekommst ${reward} Guthaben pro Person, die bucht, gültig bis ${date}.",
+      "reward_months(plural, param=months)": {
+        "one": "Du bekommst ${reward} Guthaben pro Person, die bucht, ${months} Monat gültig.",
+        "other": "Du bekommst ${reward} Guthaben pro Person, die bucht, ${months} Monate gültig."
+      },
+      "cap(plural, param=cap)": {
+        "one": "Guthaben für höchstens ${cap} Person.",
+        "other": "Guthaben für höchstens ${cap} Personen."
+      },
+      "combine": "Ein Code oder Guthaben pro Buchung, nicht mit anderen Angeboten kombinierbar.",
+      "not_cash": "Guthaben hat keinen Geldwert und ist nicht übertragbar.",
+      "refund": "Nicht genutztes Guthaben verfällt, wenn die Buchung storniert wird oder unter ${minimum} fällt.",
+      "convert(plural, param=months)": {
+        "one": "Nach dem ${date} wird dein Code zu einem ${convertAmount}-Code für erste Buchungen ab ${convertMinimum} (${months} Monat ab Ausgabe gültig).",
+        "other": "Nach dem ${date} wird dein Code zu einem ${convertAmount}-Code für erste Buchungen ab ${convertMinimum} (${months} Monate ab Ausgabe gültig)."
+      },
+      "convert_any(plural, param=months)": {
+        "one": "Nach dem ${date} wird dein Code zu einem ${convertAmount}-Code für Buchungen ab ${convertMinimum} (${months} Monat ab Ausgabe gültig).",
+        "other": "Nach dem ${date} wird dein Code zu einem ${convertAmount}-Code für Buchungen ab ${convertMinimum} (${months} Monate ab Ausgabe gültig)."
+      },
+      "convert_credit(plural, param=months)": {
+        "one": "Nach dem ${date} wird jedes nicht genutzte Guthaben von ${reward} zu ${convertReward} (${months} Monat ab Ausgabe gültig).",
+        "other": "Nach dem ${date} wird jedes nicht genutzte Guthaben von ${reward} zu ${convertReward} (${months} Monate ab Ausgabe gültig)."
+      }
+    },
+    "terms_offer": "Diese Angebotsdetails sind Teil der <terms>Empfehlungsbedingungen</terms>.",
     "load_error_title": "Dein Guthaben konnte nicht geladen werden",
     "load_error_body": "Deine Prämien sind sicher. Versuch es gleich noch mal.",
     "loading": "Dein Guthaben wird geladen",
