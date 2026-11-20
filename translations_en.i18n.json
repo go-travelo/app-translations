@@ -4958,6 +4958,8 @@
       "edit": "Edit",
       "airlineNameHint": "Enter every flying traveller's name exactly as on their passport.",
       "checking": "Checking what your trip needs\u2026",
+      "checkFailed": "We couldn't check which details your bookings need. Check your connection and try again.",
+      "retry": "Try again",
       "email": "Email",
       "day": "Day",
       "month": "Month",
