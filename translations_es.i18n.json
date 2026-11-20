@@ -5104,6 +5104,8 @@
       }
     },
     "terms_offer": "Estos detalles de la oferta forman parte de las <terms>Condiciones del programa de referidos</terms>.",
+    "terms_notice_share": "Al compartir, aceptas las <terms>Condiciones del programa de referidos</terms>.",
+    "terms_notice_send": "Al enviar, aceptas las <terms>Condiciones del programa de referidos</terms>.",
     "load_error_title": "No se pudo cargar tu crédito",
     "load_error_body": "Tus recompensas están a salvo. Vuelve a intentarlo en un momento.",
     "loading": "Cargando tu crédito",

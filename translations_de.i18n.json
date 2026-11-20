@@ -5098,6 +5098,8 @@
       }
     },
     "terms_offer": "Diese Angebotsdetails sind Teil der <terms>Empfehlungsbedingungen</terms>.",
+    "terms_notice_share": "Mit dem Teilen stimmst du den <terms>Empfehlungsbedingungen</terms> zu.",
+    "terms_notice_send": "Mit dem Senden stimmst du den <terms>Empfehlungsbedingungen</terms> zu.",
     "load_error_title": "Dein Guthaben konnte nicht geladen werden",
     "load_error_body": "Deine Prämien sind sicher. Versuch es gleich noch mal.",
     "loading": "Dein Guthaben wird geladen",

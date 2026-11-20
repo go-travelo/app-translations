@@ -5098,6 +5098,8 @@
       }
     },
     "terms_offer": "Deze details van de actie maken deel uit van de <terms>Voorwaarden van het vriendenprogramma</terms>.",
+    "terms_notice_share": "Door te delen ga je akkoord met de <terms>Voorwaarden van het vriendenprogramma</terms>.",
+    "terms_notice_send": "Door te versturen ga je akkoord met de <terms>Voorwaarden van het vriendenprogramma</terms>.",
     "load_error_title": "Je tegoed kon niet worden geladen",
     "load_error_body": "Je beloningen zijn veilig. Probeer het zo opnieuw.",
     "loading": "Je tegoed wordt geladen",

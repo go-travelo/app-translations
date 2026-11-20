@@ -5104,6 +5104,8 @@
       }
     },
     "terms_offer": "Questi dettagli dell’offerta fanno parte dei <terms>Termini del programma Invita un amico</terms>.",
+    "terms_notice_share": "Condividendo accetti i <terms>Termini del programma Invita un amico</terms>.",
+    "terms_notice_send": "Inviando accetti i <terms>Termini del programma Invita un amico</terms>.",
     "load_error_title": "Impossibile caricare il tuo credito",
     "load_error_body": "I tuoi premi sono al sicuro. Riprova tra poco.",
     "loading": "Caricamento del tuo credito",

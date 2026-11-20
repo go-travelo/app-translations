@@ -5363,6 +5363,8 @@
       }
     },
     "terms_offer": "These offer details form part of the <terms>Referral Terms</terms>.",
+    "terms_notice_share": "By sharing, you agree to the <terms>Referral Terms</terms>.",
+    "terms_notice_send": "By sending, you agree to the <terms>Referral Terms</terms>.",
     "load_error_title": "Couldn't load your credit",
     "load_error_body": "Your rewards are safe. Try again in a moment.",
     "loading": "Loading your credit",

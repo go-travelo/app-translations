@@ -5111,6 +5111,8 @@
       }
     },
     "terms_offer": "Ces détails de l’offre font partie des <terms>Conditions du programme de parrainage</terms>.",
+    "terms_notice_share": "En partageant, tu acceptes les <terms>Conditions du programme de parrainage</terms>.",
+    "terms_notice_send": "En envoyant, tu acceptes les <terms>Conditions du programme de parrainage</terms>.",
     "load_error_title": "Impossible de charger ton crédit",
     "load_error_body": "Tes récompenses sont en sécurité. Réessaie dans un instant.",
     "loading": "Chargement de ton crédit",
