@@ -4970,6 +4970,7 @@
       "driverFor": "Driver for ${car}",
       "questionsTitle": "Booking questions",
       "questionRequired": "The provider needs this answer.",
+      "questionUnlabelled": "Your answer",
       "gapsNotice": {
         "one": "${n} detail is still missing",
         "other": "${n} details are still missing"
@@ -4977,8 +4978,8 @@
       "blocked": "We can't continue yet. Go back to the review and check your trip.",
       "unavailableBack": "Something is no longer available. Go back to the review to untick or replace it.",
       "required": {
-        "title": "Choose a title — the airline needs it.",
-        "gender": "Choose a gender — the airline needs it.",
+        "title": "Choose a title. The airline needs it.",
+        "gender": "Choose a gender. The airline needs it.",
         "givenName": "Add the first name.",
         "middleName": "Add the middle names.",
         "familyName": "Add the last name.",
@@ -5024,8 +5025,8 @@
       "poweredBy": "Powered by",
       "expediaLogoAlt": "Expedia",
       "errors": {
-        "priceChanged": "Some prices changed since you started — please review the updated totals.",
-        "unavailable": "Some items are no longer available — please review them before paying.",
+        "priceChanged": "Some prices changed since you started. Please review the updated totals.",
+        "unavailable": "Some items are no longer available. Please review them before paying.",
         "missingDetails": "Some traveller details are still missing.",
         "generic": "Something went wrong. Please try again.",
         "payment": "Your payment couldn't be confirmed. Please try again.",
@@ -5040,13 +5041,13 @@
         "awaiting_user": "We need a quick decision from you",
         "capturing": "Finalising your payment…",
         "completed": "Your trip is booked",
-        "partially_completed": "Your trip is booked, except the items marked below — those aren't charged",
-        "failed": "We couldn't book your trip — your card hold was released",
+        "partially_completed": "Your trip is booked, except the items marked below. Those aren't charged",
+        "failed": "We couldn't book your trip. Your card hold was released",
         "needs_manual_resolution": "Our team needs to finish your booking",
         "abandoned": "The payment wasn't completed"
       },
       "doneOf": "${done} of ${total} done",
-      "closeable": "You can close this page — we'll email you when everything is confirmed.",
+      "closeable": "You can close this page. We'll email you when everything is confirmed.",
       "paymentAuthorised": "Payment authorised",
       "held": "${amount} is held on your card while we book.",
       "charged": "Charged ${charged} · released ${released}",
@@ -5087,12 +5088,12 @@
     },
     "topUp": {
       "title": "Approve the new price",
-      "body": "The new total is ${amount} above your current card hold. Confirm an extra hold for this amount — you're still only charged for what we book.",
+      "body": "The new total is ${amount} above your current card hold. Confirm an extra hold for this amount. You're still only charged for what we book.",
       "hold": "Hold ${amount}",
       "notNow": "Not now"
     },
     "itemDetail": {
-      "stale": "We couldn't load the latest details — here's what we have.",
+      "stale": "We couldn't load the latest details, so here's what we have.",
       "notFound": "We couldn't find this booking.",
       "back": "Back to your trip booking",
       "title": "Booking details",
@@ -5145,8 +5146,8 @@
       "contactUs": "To cancel this booking, contact us.",
       "refunded": "Cancelled · ${amount} refunded",
       "refundPending": "Cancelled · refund on its way",
-      "refundFailed": "Cancelled · we couldn't refund this automatically — our team will contact you.",
-      "inProgress": "Cancellation in progress — check back in a minute.",
+      "refundFailed": "Cancelled · we couldn't refund this automatically. Our team will contact you.",
+      "inProgress": "Cancellation in progress. Check back in a minute.",
       "refused": "We couldn't cancel this booking. Please try again or contact us.",
       "failed": "We couldn't reach Layla to cancel this booking. Check your connection and try again."
     }
