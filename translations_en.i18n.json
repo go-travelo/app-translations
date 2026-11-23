@@ -5046,6 +5046,11 @@
         "needs_manual_resolution": "Our team needs to finish your booking",
         "abandoned": "The payment wasn't completed"
       },
+      "eyebrow": {
+        "progress": "Progress",
+        "payment": "Payment",
+        "items": "Your bookings"
+      },
       "doneOf": "${done} of ${total} done",
       "closeable": "You can close this page. We'll email you when everything is confirmed.",
       "paymentAuthorised": "Payment authorised",
