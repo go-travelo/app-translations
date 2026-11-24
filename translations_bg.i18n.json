@@ -1410,12 +1410,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "Продължавайки, се съгласявате с ",
-      "terms": "Условията",
-      "and": " и ",
-      "privacyPolicy": "Политиката за поверителност."
     }
   },
   "profile": {
@@ -1907,7 +1901,14 @@
     "reset_link_failed": "Линкът за нулиране не можа да бъде изпратен. Опитайте отново.",
     "continue_with_apple": "Продължи с Apple",
     "continue_with_google": "Продължи с Google",
-    "continue_with_email": "Продължи с имейл"
+    "continue_with_email": "Продължи с имейл",
+    "terms_notice": {
+      "prefix": "С регистрацията си се съгласявате с нашите ",
+      "terms": "Общи условия",
+      "and": " и ",
+      "privacy_policy": "Политика за поверителност",
+      "suffix": "."
+    }
   },
   "splash": {
     "discover_where_to": "Открий следващия си полет.",

@@ -1410,12 +1410,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "En continuant tu acceptes les ",
-      "terms": "Conditions",
-      "and": " et la ",
-      "privacyPolicy": "Politique de confidentialité."
     }
   },
   "profile": {
@@ -1907,7 +1901,14 @@
     "reset_link_failed": "Impossible d'envoyer le lien de réinitialisation. Réessaie.",
     "continue_with_apple": "Continuer avec Apple",
     "continue_with_google": "Continuer avec Google",
-    "continue_with_email": "Continuer par e-mail"
+    "continue_with_email": "Continuer par e-mail",
+    "terms_notice": {
+      "prefix": "En t'inscrivant, tu acceptes nos ",
+      "terms": "Conditions générales",
+      "and": " et notre ",
+      "privacy_policy": "Politique de confidentialité",
+      "suffix": "."
+    }
   },
   "splash": {
     "discover_where_to": "Découvre où\nvoyager ensuite.",

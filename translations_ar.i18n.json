@@ -1513,12 +1513,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "بمتابعتك فأنت توافق على ",
-      "terms": "الشروط",
-      "and": " و",
-      "privacyPolicy": "سياسة الخصوصية."
     }
   },
   "profile": {
@@ -2018,7 +2012,14 @@
     "reset_link_failed": "تعذّر إرسال رابط إعادة التعيين. يرجى المحاولة مرة أخرى.",
     "continue_with_apple": "المتابعة باستخدام Apple",
     "continue_with_google": "المتابعة باستخدام Google",
-    "continue_with_email": "المتابعة بالبريد الإلكتروني"
+    "continue_with_email": "المتابعة بالبريد الإلكتروني",
+    "terms_notice": {
+      "prefix": "بالتسجيل، أنت توافق على ",
+      "terms": "الشروط والأحكام",
+      "and": " و",
+      "privacy_policy": "سياسة الخصوصية",
+      "suffix": " الخاصة بنا."
+    }
   },
   "splash": {
     "discover_where_to": "اكتشف أين تريد\nالطيران التالي.",
