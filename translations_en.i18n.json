@@ -1410,12 +1410,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "By continuing you agree to the ",
-      "terms": "Terms",
-      "and": " and ",
-      "privacyPolicy": "Privacy Policy."
     }
   },
   "profile": {
@@ -1907,7 +1901,14 @@
     "reset_link_failed": "We couldn't send the reset link. Please try again.",
     "continue_with_apple": "Continue with Apple",
     "continue_with_google": "Continue with Google",
-    "continue_with_email": "Continue with email"
+    "continue_with_email": "Continue with email",
+    "terms_notice": {
+      "prefix": "By signing up, you agree to our ",
+      "terms": "Terms & Conditions",
+      "and": " and ",
+      "privacy_policy": "Privacy Policy",
+      "suffix": "."
+    }
   },
   "splash": {
     "discover_where_to": "Discover where to\nfly next.",

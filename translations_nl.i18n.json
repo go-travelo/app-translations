@@ -1410,12 +1410,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "Door door te gaan ga je akkoord met de ",
-      "terms": "Voorwaarden",
-      "and": " en het ",
-      "privacyPolicy": "Privacybeleid."
     }
   },
   "profile": {
@@ -1907,7 +1901,14 @@
     "reset_link_failed": "De herstellink kon niet worden verzonden. Probeer het opnieuw.",
     "continue_with_apple": "Doorgaan met Apple",
     "continue_with_google": "Doorgaan met Google",
-    "continue_with_email": "Doorgaan met e-mail"
+    "continue_with_email": "Doorgaan met e-mail",
+    "terms_notice": {
+      "prefix": "Door je aan te melden, ga je akkoord met onze ",
+      "terms": "Algemene voorwaarden",
+      "and": " en ons ",
+      "privacy_policy": "Privacybeleid",
+      "suffix": "."
+    }
   },
   "splash": {
     "discover_where_to": "Ontdek waar je naartoe\nkan vliegen.",

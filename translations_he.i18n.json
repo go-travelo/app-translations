@@ -1462,12 +1462,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "בהמשך אתה מסכים ל",
-      "terms": "תנאים",
-      "and": " ול",
-      "privacyPolicy": "מדיניות הפרטיות."
     }
   },
   "profile": {
@@ -1963,7 +1957,14 @@
     "reset_link_failed": "לא הצלחנו לשלוח את קישור האיפוס. נסה שוב.",
     "continue_with_apple": "המשך עם Apple",
     "continue_with_google": "המשך עם Google",
-    "continue_with_email": "המשך עם אימייל"
+    "continue_with_email": "המשך עם אימייל",
+    "terms_notice": {
+      "prefix": "בהרשמה אתה מסכים ל",
+      "terms": "תנאי השימוש",
+      "and": " ול",
+      "privacy_policy": "מדיניות הפרטיות",
+      "suffix": " שלנו."
+    }
   },
   "splash": {
     "discover_where_to": "גלה/גלי את \nיעד הטיסה הבא שלך.",

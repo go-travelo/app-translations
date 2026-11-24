@@ -1410,12 +1410,6 @@
           "subtitle": ""
         }
       ]
-    },
-    "legalTerms": {
-      "prefix": "Durch Fortfahren akzeptierst du die ",
-      "terms": "Nutzungsbedingungen",
-      "and": " und die ",
-      "privacyPolicy": "Datenschutzerklärung."
     }
   },
   "profile": {
@@ -1907,7 +1901,14 @@
     "reset_link_failed": "Der Link zum Zurücksetzen konnte nicht gesendet werden. Bitte versuch es noch einmal.",
     "continue_with_apple": "Weiter mit Apple",
     "continue_with_google": "Weiter mit Google",
-    "continue_with_email": "Weiter mit E-Mail"
+    "continue_with_email": "Weiter mit E-Mail",
+    "terms_notice": {
+      "prefix": "Mit der Anmeldung stimmst du unseren ",
+      "terms": "Allgemeinen Geschäftsbedingungen",
+      "and": " und unserer ",
+      "privacy_policy": "Datenschutzerklärung",
+      "suffix": " zu."
+    }
   },
   "splash": {
     "discover_where_to": "Entdecke, wohin dein nächster Flug gehen soll.",
