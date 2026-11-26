@@ -4147,7 +4147,6 @@
     "invite_cta": "Nodig een vriend uit",
     "invite_terms": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · uiterlijk ${date} geboekt en volledig betaald · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
     "invite_terms_open": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
-    "invite_terms_standard": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · 12 maanden geldig · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
     "invite_terms_standard_until": "Reizen vanaf ${minimum} · vluchten niet inbegrepen · geldig tot ${date} · alleen de eerste boeking · één code per boeking · niet te combineren met andere acties",
     "friend_fallback": "Je vriend(in)",
     "name_hint_optional": "Naam van je vriend(in) (optioneel)",
@@ -5065,6 +5064,7 @@
     "offer_terms": {
       "friend": "Vrienden krijgen ${amount} korting op een eerste boeking vanaf ${minimum}, zonder vluchten.",
       "friend_any": "Vrienden krijgen ${amount} korting op een boeking vanaf ${minimum}, zonder vluchten.",
+      "claim_by": "Ze moeten hun korting uiterlijk ${date} pakken.",
       "dated": "Ze moeten uiterlijk ${date} boeken en volledig betalen.",
       "valid_until": "Je code is geldig tot en met ${date}.",
       "valid_months(plural, param=months)": {

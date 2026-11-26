@@ -4147,7 +4147,6 @@
     "invite_cta": "Invitar a alguien",
     "invite_terms": "Viajes desde ${minimum} · sin contar vuelos · reservado y pagado por completo hasta el ${date} · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
     "invite_terms_open": "Viajes desde ${minimum} · sin contar vuelos · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
-    "invite_terms_standard": "Viajes desde ${minimum} · sin contar vuelos · válido 12 meses · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
     "invite_terms_standard_until": "Viajes desde ${minimum} · sin contar vuelos · válido hasta el ${date} · solo la primera reserva · un código por reserva · no acumulable con otras promociones",
     "friend_fallback": "Tu amigo o amiga",
     "name_hint_optional": "Nombre de tu amigo o amiga (opcional)",
@@ -5065,6 +5064,7 @@
     "offer_terms": {
       "friend": "Tus amigos tienen ${amount} de descuento en su primera reserva desde ${minimum}, sin vuelos.",
       "friend_any": "Tus amigos tienen ${amount} de descuento en una reserva desde ${minimum}, sin vuelos.",
+      "claim_by": "Tienen que canjear tu invitación antes del ${date}.",
       "dated": "Tienen que reservar y pagar el total antes del ${date}.",
       "valid_until": "Tu código vale hasta el ${date}.",
       "valid_months(plural, param=months)": {
