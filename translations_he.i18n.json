@@ -1554,6 +1554,7 @@
     "provider_apple": "Apple",
     "provider_email": "אימייל",
     "footer_user_id": "מזהה ${id} · הקש להעתקה",
+    "footer_version": "גרסה: ${version}",
     "connectors": {
       "title": "חשבונות מחוברים",
       "gmail": "Gmail",

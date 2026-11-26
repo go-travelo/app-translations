@@ -1502,6 +1502,7 @@
     "provider_apple": "Apple",
     "provider_email": "email",
     "footer_user_id": "ID ${id} · Tap to copy",
+    "footer_version": "Version: ${version}",
     "connectors": {
       "title": "Connected accounts",
       "gmail": "Gmail",

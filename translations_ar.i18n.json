@@ -1605,6 +1605,7 @@
     "provider_apple": "Apple",
     "provider_email": "البريد الإلكتروني",
     "footer_user_id": "المعرّف ${id} · اضغط للنسخ",
+    "footer_version": "الإصدار: ${version}",
     "connectors": {
       "title": "الحسابات المتصلة",
       "gmail": "Gmail",

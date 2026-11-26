@@ -1502,6 +1502,7 @@
     "provider_apple": "Apple",
     "provider_email": "e-mail",
     "footer_user_id": "ID ${id} · Tik om te kopiëren",
+    "footer_version": "Versie: ${version}",
     "connectors": {
       "title": "Gekoppelde accounts",
       "gmail": "Gmail",
