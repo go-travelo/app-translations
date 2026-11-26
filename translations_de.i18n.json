@@ -1342,7 +1342,7 @@
       "savedDivider": "✦ In deinem Profil gespeichert · dort jederzeit änderbar",
       "droppedDivider": "✦ Vermutung verworfen · gespeichert wird nur, was du bestätigst",
       "upcomingLead": "Und bei dir steht ${place} an. ${dates}, ${travellers}.",
-      "upcomingLeadNoParty": "Und bei dir steht ${place} an. ${dates}.",
+      "upcomingLeadNoParty": "Und bei dir steht ${place} an (${dates}).",
       "partySolo": "nur du",
       "partyTwo": "ihr zwei",
       "partyThree": "ihr drei",
@@ -4148,7 +4148,6 @@
     "invite_cta": "Jemanden einladen",
     "invite_terms": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · bis zum ${date} gebucht und vollständig bezahlt · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
     "invite_terms_open": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
-    "invite_terms_standard": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · 12 Monate gültig · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
     "invite_terms_standard_until": "Reisen ab ${minimum} · Flüge nicht mitgerechnet · gültig bis ${date} · nur für die erste Buchung · ein Code pro Buchung · nicht mit anderen Aktionen kombinierbar",
     "friend_fallback": "Dein Freund oder deine Freundin",
     "name_hint_optional": "Vorname (optional)",
@@ -5066,6 +5065,7 @@
     "offer_terms": {
       "friend": "Freunde bekommen ${amount} Rabatt auf die erste Buchung ab ${minimum}, ohne Flüge.",
       "friend_any": "Freunde bekommen ${amount} Rabatt auf eine Buchung ab ${minimum}, ohne Flüge.",
+      "claim_by": "Deine Freunde müssen deine Einladung bis zum ${date} annehmen.",
       "dated": "Deine Freunde müssen bis zum ${date} buchen und vollständig bezahlen.",
       "valid_until": "Dein Code ist gültig bis ${date}.",
       "valid_months(plural, param=months)": {
@@ -5073,7 +5073,7 @@
         "other": "Dein Code ist ${months} Monate gültig."
       },
       "reward": "Du bekommst ${reward} Guthaben pro Person, die bucht.",
-      "reward_until": "Du bekommst ${reward} Guthaben pro Person, die bucht, gültig bis ${date}.",
+      "reward_until": "Pro Person, die bucht, bekommst du ${reward} Guthaben, das bis ${date} gültig ist.",
       "reward_months(plural, param=months)": {
         "one": "Du bekommst ${reward} Guthaben pro Person, die bucht, ${months} Monat gültig.",
         "other": "Du bekommst ${reward} Guthaben pro Person, die bucht, ${months} Monate gültig."

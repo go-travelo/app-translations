@@ -3815,7 +3815,6 @@
     "invite_cta": "Invite a friend",
     "invite_terms": "Trips from ${minimum} · flights not included · booked and paid in full by ${date} · first booking only · one code per booking · not combinable with other promotions",
     "invite_terms_open": "Trips from ${minimum} · flights not included · first booking only · one code per booking · not combinable with other promotions",
-    "invite_terms_standard": "Trips from ${minimum} · flights not included · valid for 12 months · first booking only · one code per booking · not combinable with other promotions",
     "invite_terms_standard_until": "Trips from ${minimum} · flights not included · valid until ${date} · first booking only · one code per booking · not combinable with other promotions",
     "friend_fallback": "Your friend",
     "name_hint_optional": "Your friend's name (optional)",
@@ -5343,6 +5342,7 @@
     "offer_terms": {
       "friend": "Friends get ${amount} off a first booking of ${minimum}+, flights excluded.",
       "friend_any": "Friends get ${amount} off a booking of ${minimum}+, flights excluded.",
+      "claim_by": "They must claim your invite by ${date}.",
       "dated": "They must book and pay in full by ${date}.",
       "valid_until": "Your code is valid until ${date}.",
       "valid_months(plural, param=months)": {
