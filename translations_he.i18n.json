@@ -5264,7 +5264,7 @@
     "offer_terms": {
       "friend": "חברים מקבלים ${amount} הנחה על הזמנה ראשונה מ-${minimum} ומעלה, לא כולל טיסות.",
       "friend_any": "חברים מקבלים ${amount} הנחה על הזמנה מ-${minimum} ומעלה, לא כולל טיסות.",
-      "claim_by": "יש לממש את ההטבה עד ${date}.",
+      "claim_by": "יש לאסוף את ההטבה עד ${date}.",
       "dated": "יש להזמין ולשלם במלואו עד ${date}.",
       "valid_until": "הקוד שלך בתוקף עד ${date}.",
       "valid_months(plural, param=months)": {

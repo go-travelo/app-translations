@@ -5064,7 +5064,7 @@
     "offer_terms": {
       "friend": "Freunde bekommen ${amount} Rabatt auf die erste Buchung ab ${minimum}, ohne Flüge.",
       "friend_any": "Freunde bekommen ${amount} Rabatt auf eine Buchung ab ${minimum}, ohne Flüge.",
-      "claim_by": "Deine Freunde müssen deine Einladung bis zum ${date} einlösen.",
+      "claim_by": "Deine Freunde müssen deine Einladung bis zum ${date} annehmen.",
       "dated": "Deine Freunde müssen bis zum ${date} buchen und vollständig bezahlen.",
       "valid_until": "Dein Code ist gültig bis ${date}.",
       "valid_months(plural, param=months)": {
