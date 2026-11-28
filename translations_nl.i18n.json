@@ -1374,7 +1374,19 @@
       "notifyLater": "Geen probleem. Ik vraag het alleen opnieuw als er iets de moeite waard is. Bedenk je je? Via Profiel › Meldingen.",
       "hereIsYourTrip": "Hier is je reis 🥳",
       "preferredNameKept": "Ik blijf je ${name} noemen, zoals in je account.",
-      "connectCardCompanionsNote": "Misschien zie ik wie er met je meereist, en ik vraag het altijd voordat ik een naam bewaar."
+      "connectCardCompanionsNote": "Misschien zie ik wie er met je meereist, en ik vraag het altijd voordat ik een naam bewaar.",
+      "skipLabel": "Overslaan",
+      "skipAck": "Geen probleem, ${name}. We leren elkaar onderweg wel kennen.",
+      "skipAckNoName": "Geen probleem. We leren elkaar onderweg wel kennen.",
+      "skipBeat": "We gaan erin ✦",
+      "skipWhy": "Eén account houdt je reizen, je chat en je reisadviseur bij elkaar.",
+      "keepChatting": "Liever verder kletsen",
+      "skipResume": "Natuurlijk, we gaan verder waar we waren.",
+      "createAccountCta": "Mijn account aanmaken →",
+      "accountSheetTitle": "Maak je account aan",
+      "accountSheetBody": "Zodat Layla je onthoudt, ${name}, en je reizen op elk apparaat staan.",
+      "accountSheetBodyNoName": "Zodat Layla je onthoudt en je reizen op elk apparaat staan.",
+      "joinedNoTrip": "✦ Welkom bij Layla"
     },
     "welcomeChips": {
       "noFees": "Geen kosten",

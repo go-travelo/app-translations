@@ -1426,7 +1426,19 @@
       "notifyLater": "אין בעיה. אשאל שוב רק אם יהיה משהו ששווה לספר. אם תתחרטו, זה בפרופיל › התראות.",
       "hereIsYourTrip": "הנה הטיול שלכם 🥳",
       "preferredNameKept": "אמשיך לקרוא לך ${name}, כמו בחשבון שלך.",
-      "connectCardCompanionsNote": "ייתכן שאשים לב מי מטייל איתכם, ותמיד אשאל לפני שאשמור שם."
+      "connectCardCompanionsNote": "ייתכן שאשים לב מי מטייל איתכם, ותמיד אשאל לפני שאשמור שם.",
+      "skipLabel": "דילוג",
+      "skipAck": "אין בעיה, ${name}. נכיר תוך כדי.",
+      "skipAckNoName": "אין בעיה. נכיר תוך כדי.",
+      "skipBeat": "בואו נתחיל ✦",
+      "skipWhy": "חשבון אחד שומר יחד את הטיולים, הצ'אט ויועץ הטיולים שלך.",
+      "keepChatting": "עדיף להמשיך לדבר",
+      "skipResume": "בטח, נמשיך מאיפה שעצרנו.",
+      "createAccountCta": "ליצור את החשבון שלי ←",
+      "accountSheetTitle": "יצירת חשבון",
+      "accountSheetBody": "כדי ש-Layla תזכור אותך, ${name}, והטיולים שלך יהיו בכל מכשיר.",
+      "accountSheetBodyNoName": "כדי ש-Layla תזכור אותך, והטיולים שלך יהיו בכל מכשיר.",
+      "joinedNoTrip": "✦ ברוכים הבאים ל-Layla"
     },
     "welcomeChips": {
       "noFees": "ללא עמלות",
