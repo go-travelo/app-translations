@@ -1477,7 +1477,19 @@
       "notifyLater": "لا مشكلة. لن أسألك مجددًا إلا إذا كان هناك ما يستحق. إن غيّرت رأيك فستجدها في الملف الشخصي › الإشعارات.",
       "hereIsYourTrip": "ها هي رحلتك 🥳",
       "preferredNameKept": "سأستمر في مناداتك باسم ${name}، كما في حسابك.",
-      "connectCardCompanionsNote": "قد ألاحظ من يسافر معك، وسأسألك دائمًا قبل أن أحتفظ بأي اسم."
+      "connectCardCompanionsNote": "قد ألاحظ من يسافر معك، وسأسألك دائمًا قبل أن أحتفظ بأي اسم.",
+      "skipLabel": "تخطٍّ",
+      "skipAck": "لا مشكلة يا ${name}. سنتعرّف على بعضنا مع الوقت.",
+      "skipAckNoName": "لا مشكلة. سنتعرّف على بعضنا مع الوقت.",
+      "skipBeat": "لنُدخلك الآن ✦",
+      "skipWhy": "حساب واحد يجمع رحلاتك ومحادثتك ومستشار سفرك معًا.",
+      "keepChatting": "لنكمل الدردشة بدلًا من ذلك",
+      "skipResume": "بالتأكيد، لنكمل من حيث توقفنا.",
+      "createAccountCta": "أنشئ حسابي ←",
+      "accountSheetTitle": "أنشئ حسابك",
+      "accountSheetBody": "لكي تتذكّرك Layla يا ${name}، وتكون رحلاتك على كل أجهزتك.",
+      "accountSheetBodyNoName": "لكي تتذكّرك Layla، وتكون رحلاتك على كل أجهزتك.",
+      "joinedNoTrip": "✦ أهلًا بك في Layla"
     },
     "welcomeChips": {
       "noFees": "بدون رسوم",

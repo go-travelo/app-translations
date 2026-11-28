@@ -1374,7 +1374,19 @@
       "notifyLater": "Kein Problem. Ich frage nur wieder, wenn es sich lohnt. Falls du es dir anders überlegst: Profil › Benachrichtigungen.",
       "hereIsYourTrip": "Hier ist deine Reise 🥳",
       "preferredNameKept": "Ich nenne dich weiter ${name}, wie in deinem Konto.",
-      "connectCardCompanionsNote": "Vielleicht fällt mir auf, wer mit dir reist, und ich frage immer, bevor ich einen Namen behalte."
+      "connectCardCompanionsNote": "Vielleicht fällt mir auf, wer mit dir reist, und ich frage immer, bevor ich einen Namen behalte.",
+      "skipLabel": "Überspringen",
+      "skipAck": "Kein Problem, ${name}. Wir lernen uns unterwegs kennen.",
+      "skipAckNoName": "Kein Problem. Wir lernen uns unterwegs kennen.",
+      "skipBeat": "Dann mal rein ✦",
+      "skipWhy": "Ein Konto hält deine Reisen, deinen Chat und deinen Reiseberater zusammen.",
+      "keepChatting": "Lieber weiterchatten",
+      "skipResume": "Klar, machen wir da weiter, wo wir waren.",
+      "createAccountCta": "Konto erstellen →",
+      "accountSheetTitle": "Erstell dein Konto",
+      "accountSheetBody": "Damit Layla sich an dich erinnert, ${name}, und deine Reisen auf jedem Gerät sind.",
+      "accountSheetBodyNoName": "Damit Layla sich an dich erinnert und deine Reisen auf jedem Gerät sind.",
+      "joinedNoTrip": "✦ Willkommen bei Layla"
     },
     "welcomeChips": {
       "noFees": "Keine Gebühren",
