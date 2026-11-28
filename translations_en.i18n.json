@@ -1374,7 +1374,19 @@
       "notifyLater": "No problem. I'll ask again only if there's something worth telling. Profile › Notifications if you change your mind.",
       "hereIsYourTrip": "Here's your trip 🥳",
       "preferredNameKept": "I'll keep calling you ${name}, as on your account.",
-      "connectCardCompanionsNote": "I may notice who travels with you, and I'll always check before I keep a name."
+      "connectCardCompanionsNote": "I may notice who travels with you, and I'll always check before I keep a name.",
+      "skipLabel": "Skip",
+      "skipAck": "No problem, ${name}. We can get to know each other as we go.",
+      "skipAckNoName": "No problem. We can get to know each other as we go.",
+      "skipBeat": "Let's get you in ✦",
+      "skipWhy": "One account keeps your trips, your chat and your travel advisor together.",
+      "keepChatting": "Keep chatting instead",
+      "skipResume": "Sure, let's pick up where we left off.",
+      "createAccountCta": "Create my account →",
+      "accountSheetTitle": "Create your account",
+      "accountSheetBody": "So Layla remembers you, ${name}, and your trips are on every device.",
+      "accountSheetBodyNoName": "So Layla remembers you, and your trips are on every device.",
+      "joinedNoTrip": "✦ Welcome to Layla"
     },
     "welcomeChips": {
       "noFees": "No fees",
