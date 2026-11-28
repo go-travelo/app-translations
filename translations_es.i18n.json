@@ -1508,6 +1508,7 @@
     "provider_apple": "Apple",
     "provider_email": "correo",
     "footer_user_id": "ID ${id} · Toca para copiar",
+    "footer_version": "Versión: ${version}",
     "connectors": {
       "title": "Cuentas conectadas",
       "gmail": "Gmail",

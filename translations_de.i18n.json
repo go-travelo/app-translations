@@ -1508,6 +1508,7 @@
     "provider_apple": "Apple",
     "provider_email": "E-Mail",
     "footer_user_id": "ID ${id} · Zum Kopieren tippen",
+    "footer_version": "Version: ${version}",
     "connectors": {
       "title": "Verbundene Konten",
       "gmail": "Gmail",
